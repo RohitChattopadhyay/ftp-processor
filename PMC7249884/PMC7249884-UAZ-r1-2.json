@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "[XREF_BIBR] Results from cohort study suggested that target level of glycated hemoglobin, blood pressure and cholesterol could reduce the risk for death and cardiovascular outcomes on type 2 diabetes patients.",
+  "reading_complete" : "2020-07-28T13:16:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:10:53Z",
+  "trigger" : "reduce",
+  "evidence" : [ "cholesterol could reduce the risk for death" ],
+  "pmc_id" : "7249884",
+  "score" : 0
+}
