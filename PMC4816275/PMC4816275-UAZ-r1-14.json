@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13202",
+      "entity_text" : "EF hand",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:4530" ]
+    }
+  },
+  "verbose_text" : "We also found the calcium binding proteins, calmodulin and Ca 2+ -binding EF hand, which are known to act as second messengers.",
+  "reading_complete" : "2020-07-28T16:09:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:00:09Z",
+  "trigger" : "-binding",
+  "evidence" : [ "Ca 2+ -binding EF hand" ],
+  "pmc_id" : "4816275",
+  "score" : 0
+}
