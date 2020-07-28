@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "end",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2244",
+      "entity_text" : "aspirin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Adjusting for age, hypertension, dyslipidemia, and history of smoking, low-dose aspirin significantly reduced primary end points in patients with eGFR 60-89 mL/min/1.73 m 2 (0.53 [0.34-0.83]; P = 0.0052), and not in patients with eGFR> = 90 or < 60 mL/min/1.73 m 2 (eGFR> = 90 mL/min/1.73 m 2 : 0.87 [0.36-2.14]; eGFR < 60 mL/min/1.73 m 2 : 1.24 [0.69-2.23]).",
+  "reading_complete" : "2020-07-28T16:23:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:18:12Z",
+  "trigger" : "reduced",
+  "evidence" : [ "aspirin significantly reduced primary end" ],
+  "pmc_id" : "3024334",
+  "score" : 0
+}
