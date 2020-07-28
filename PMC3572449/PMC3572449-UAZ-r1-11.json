@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_4782" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1224" ]
+    }
+  },
+  "verbose_text" : "These cells harbor the following characteristics : aggressive angiogenic properties, and elevated phosphorylated Akt expression.",
+  "reading_complete" : "2020-07-28T15:29:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:28:24Z",
+  "trigger" : "expression",
+  "evidence" : [ "Akt expression" ],
+  "pmc_id" : "3572449",
+  "score" : 0
+}
