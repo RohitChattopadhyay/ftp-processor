@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:923",
+      "entity_text" : "sodium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0309" ],
+      "Organ" : [ "uberon:UBERON:0001766" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Moderate amounts of sodium hyaluronate (Shandong Bausch & Lomb Freda Company) were injected into the anterior chamber through the incision.",
+  "reading_complete" : "2020-07-28T17:44:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:42:30Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of sodium" ],
+  "pmc_id" : "5348139",
+  "score" : 0
+}
