@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43652",
+      "entity_text" : "AFM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:93460",
+      "entity_text" : "voltage",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The lock-in amplifier is operated with a time constant of 1 ms and it uses an input reference obtained by sampling a portion of the oscillating electrical voltage that drives the AFM cantilever.",
+  "reading_complete" : "2020-07-28T17:12:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:11:32Z",
+  "trigger" : "drives",
+  "evidence" : [ "voltage that drives the AFM" ],
+  "pmc_id" : "3786296",
+  "score" : 0
+}
