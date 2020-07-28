@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Corkey reviewed free fatty acid infusion studies performed by Gunther Boden, in which hyperinsulinemia develops, with stable glucose levels after a brief initial dip.",
+  "reading_complete" : "2020-07-28T14:05:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:03:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3220840",
+  "score" : 0
+}
