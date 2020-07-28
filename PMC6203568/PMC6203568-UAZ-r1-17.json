@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:HDAC",
+      "entity_text" : "HDAC",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13330",
+      "entity_text" : "MTA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, as MTA1 is part of the NuRD complex, which also contains histone deacetylases 1 and 2 (HDAC1 and HDAC2), [XREF_BIBR - XREF_BIBR] and also forms the MTA1 / HDAC complex with HDAC, an important regulator of MTA1, [XREF_BIBR, XREF_BIBR, XREF_BIBR] one approach is to target HDACs.",
+  "reading_complete" : "2020-07-28T18:01:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:56:54Z",
+  "trigger" : "complex",
+  "evidence" : [ "MTA1/HDAC complex" ],
+  "pmc_id" : "6203568",
+  "score" : 0
+}
