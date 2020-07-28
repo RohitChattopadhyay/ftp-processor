@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8U671",
+      "entity_text" : "DHA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Higher concentrations of PUFA, especially AA (> 20 muM), EPA (> 5 muM) and DHA (> 60 muM), reduce cell viability, particularly when the cells are not grown on an ECM substrate.",
+  "reading_complete" : "2020-07-28T17:04:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:51Z",
+  "trigger" : "reduce",
+  "evidence" : [ "DHA (>60 muM), reduce cell viability" ],
+  "pmc_id" : "5953484",
+  "score" : 0
+}
