@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01160",
+      "entity_text" : "atrial natriuretic peptide",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "insulin receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0035818" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In a recent study of 31 novel biomarkers, Salomaa et al. demonstrated an association between clinically incident diabetes and insulin receptor, creatine kinase-MB, MR-Pro atrial natriuretic peptide, NT-Pro B-type natriuretic peptide, and B-type natriuretic peptide.",
+  "reading_complete" : "2020-07-28T11:54:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:53:27Z",
+  "trigger" : "association",
+  "evidence" : [ "association between clinically incident diabetes and insulin receptor, creatine kinase-MB, MR-Pro atrial natriuretic peptide" ],
+  "pmc_id" : "3220869",
+  "score" : 0
+}

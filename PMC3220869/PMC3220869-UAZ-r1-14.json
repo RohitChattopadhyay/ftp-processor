@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "insulin receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02765",
+      "entity_text" : "Fetuin-A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Organ" : [ "uberon:UBERON:0035818" ]
+    }
+  },
+  "verbose_text" : "Fetuin-A, a hepatic secretory protein that binds the insulin receptor and inhibits insulin action, has been shown to be associated with incident diabetes independent of other markers of insulin resistance.",
+  "reading_complete" : "2020-07-28T11:54:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:53:27Z",
+  "trigger" : "binds",
+  "evidence" : [ "Fetuin-A, a hepatic secretory protein that binds the insulin receptor" ],
+  "pmc_id" : "3220869",
+  "score" : 0
+}

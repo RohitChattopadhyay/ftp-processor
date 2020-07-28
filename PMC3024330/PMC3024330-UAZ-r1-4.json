@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "We enrolled patients with a blood glucose (BG) level between 140 mg/dL and 400 mg/dL who had a history of diabetes for more than 3 months, aged 18-80 years old, treated with diet alone, any combination of oral antidiabetic agents, or low-dose insulin therapy at a daily dose < = 0.4 units/kg before admission.",
+  "reading_complete" : "2020-07-28T11:52:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:51:07Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose (BG) level" ],
+  "pmc_id" : "3024330",
+  "score" : 0
+}
