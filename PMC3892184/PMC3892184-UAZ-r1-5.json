@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:31276",
+      "entity_text" : "isoamyl acetate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18846",
+      "entity_text" : "ATF1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Using a genetic approach it was shown that overexpression of the alcohol acetyl transferases ATF1 and ATF2 substantially increased the production of isoamyl acetate XREF_BIBR.",
+  "reading_complete" : "2020-07-28T17:48:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:47:53Z",
+  "trigger" : "increased",
+  "evidence" : [ "ATF1 and ATF2 substantially increased the production of isoamyl acetate" ],
+  "pmc_id" : "3892184",
+  "score" : 0
+}
