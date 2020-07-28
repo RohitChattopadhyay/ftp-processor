@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75197",
+      "entity_text" : "LRP5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07043",
+      "entity_text" : "DKKs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000137" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The dickkopf family (DKKs) are binding to the Wnt co-receptors LRP5 and 6, providing a non ligand related mechanism to control the amplitude and extent of canonical pathway Wnt signaling activation [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:36:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:32:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "DKKs) are binding to the Wnt co-receptors LRP5" ],
+  "pmc_id" : "7211213",
+  "score" : 0
+}

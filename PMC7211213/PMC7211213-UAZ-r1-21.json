@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07035",
+      "entity_text" : "like kinase enzymes",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000990" ]
+    }
+  },
+  "verbose_text" : "The compound works as a kinase inhibitor and was demonstrated to mainly affect the activity of CDC like kinase enzymes (CLKs) [XREF_BIBR], in particular CLK2, in nanomolar concentrations, and dual-specificity tyrosine phosphorylation regulated kinase enzymes (DYRK) [XREF_BIBR], in particular DYRK1A, again in nanomolar concentrations.",
+  "reading_complete" : "2020-07-28T16:36:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:32:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "like kinase enzymes (CLKs) [ XREF_BIBR ], in particular CLK2, in nanomolar concentrations, and dual-specificity tyrosine phosphorylation" ],
+  "pmc_id" : "7211213",
+  "score" : 0
+}

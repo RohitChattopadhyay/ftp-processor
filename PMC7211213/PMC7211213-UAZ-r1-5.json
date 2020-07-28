@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "79",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07034",
+      "entity_text" : "H3K79",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "DOT1L is an enzyme that methylates lysine 79 on histone 3 (H3K79), resulting in a histone modification.",
+  "reading_complete" : "2020-07-28T16:36:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:32:17Z",
+  "trigger" : "methylates",
+  "evidence" : [ "methylates lysine 79 on histone 3 (H3K79" ],
+  "pmc_id" : "7211213",
+  "score" : 0
+}
