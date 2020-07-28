@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0051179",
+      "entity_text" : "localization",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08376",
+      "entity_text" : "DAGLalpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "If 2-AG acts as a short-range extracellular cue then DAGLalpha overexpression might be expected to modulate GC localization and motility - but not general neurite elongation or cell migration - proximal to COS-7-DAGLalpha cells (XREF_FIG).",
+  "reading_complete" : "2020-07-28T18:29:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:28:15Z",
+  "trigger" : "modulate",
+  "evidence" : [ "DAGLalpha overexpression might be expected to modulate GC localization" ],
+  "pmc_id" : "3695556",
+  "score" : 0
+}

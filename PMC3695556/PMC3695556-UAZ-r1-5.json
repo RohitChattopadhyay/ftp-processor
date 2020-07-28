@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282280",
+      "entity_text" : "2-AG",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08377",
+      "entity_text" : "DAGL",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Since DAGL overexpression in COS-7 cells increased 2-AG concentrations, we suggest that 2-AG is a candidate signal lipid to induce GC collapse via an extracellular mode of action.",
+  "reading_complete" : "2020-07-28T18:29:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:28:15Z",
+  "trigger" : "increased",
+  "evidence" : [ "DAGL overexpression in COS-7 cells increased 2-AG" ],
+  "pmc_id" : "3695556",
+  "score" : 0
+}
