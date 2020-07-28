@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441300",
+      "entity_text" : "ABC",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "The gene activating compounds induce hepatic protein and PL synthesis, and upregulate enzymes including CYPs and glucokinase, nuclear receptors, apolipoproteins and ABC (ATP binding cassette) transporters.",
+  "reading_complete" : "2020-07-28T14:03:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:54:14Z",
+  "trigger" : "binding",
+  "evidence" : [ "ABC (ATP-binding" ],
+  "pmc_id" : "3282906",
+  "score" : 0
+}
