@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08195",
+      "entity_text" : "SLC3A2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01650",
+      "entity_text" : "SLC7A5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0933" ]
+    }
+  },
+  "verbose_text" : "The similarities between the leucine- and glutamine mediated regulation of protein synthetic / degradative pathways may be in part because both amino acids use the same heterodimeric SLC7A5 / SLC3A2 bidirectional transporter for influx (leucine) or efflux (glutamine) from the cell XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-07-28T18:33:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:32:26Z",
+  "trigger" : "heterodimeric",
+  "evidence" : [ "heterodimeric SLC7A5/SLC3A2" ],
+  "pmc_id" : "3519752",
+  "score" : 0
+}

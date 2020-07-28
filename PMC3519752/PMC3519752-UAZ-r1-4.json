@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellLine" : [ "cellosaurus:CVCL_0030" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "TSC2, one of the proteins regulated by Akt kinase, is a constitutively active inhibitor of mTOR activity, and its activity is suppressed by the phosphorylation of specific amino acid residues.",
+  "reading_complete" : "2020-07-28T18:33:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:32:26Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of specific amino acid" ],
+  "pmc_id" : "3519752",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00308",
+      "entity_text" : "p70S6K",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The activation of mTOR, in turn, induces the phosphorylation of p70S6K (activates the ribosomal subunit required for muscle protein translation) XREF_BIBR and the translational repressor 4E-BP1, which is inactivated following phosphate addition XREF_BIBR.",
+  "reading_complete" : "2020-07-28T18:33:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:32:26Z",
+  "trigger" : "induces",
+  "evidence" : [ "mTOR, in turn, induces the phosphorylation of p70S6K" ],
+  "pmc_id" : "3519752",
+  "score" : 0
+}
