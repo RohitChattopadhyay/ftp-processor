@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992506",
+      "entity_text" : "EA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O66076",
+      "entity_text" : "PGS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The association between PGS and EA might be confounded by a genotype-SES correlation, i.e., children who grow up in higher SES families have, on average, a higher PGS.",
+  "reading_complete" : "2020-07-28T14:11:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:08:18Z",
+  "trigger" : "association",
+  "evidence" : [ "association between PGS and EA" ],
+  "pmc_id" : "6722095",
+  "score" : 0
+}
