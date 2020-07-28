@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "23 Patients were eligible for inclusion if they had LDL cholesterol levels between 130 and 190 mg/dL and/or serum triglycerides between 150 and 400 mg/dL but were not taking any cholesterol- or TG lowering medications.",
+  "reading_complete" : "2020-07-28T16:35:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:31:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "5871262",
+  "score" : 0
+}
