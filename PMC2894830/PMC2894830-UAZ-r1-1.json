@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63167",
+      "entity_text" : "PIN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00230",
+      "entity_text" : "Protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0895" ]
+    }
+  },
+  "verbose_text" : "PPI : Protein protein interaction; PIN : Protein interaction network; WGD : Whole genome duplication; SSD : Small scale duplication; GO : Gene ontology.",
+  "reading_complete" : "2020-07-28T16:22:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:19:31Z",
+  "trigger" : "interaction",
+  "evidence" : [ "PIN: Protein interaction" ],
+  "pmc_id" : "2894830",
+  "score" : 0
+}

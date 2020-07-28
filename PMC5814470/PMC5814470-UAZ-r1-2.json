@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86YQ2",
+      "entity_text" : "base",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05315",
+      "entity_text" : "CLC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The quality of the FASTQ sequences was enhanced by trimming off low-quality bases using the \" Trim sequences \" option of the CLC Genomics Workbench version 9.5.1., and the quality filtered sequence reads were assembled into 81,286 contig sequences using the \" de novo assembly \" option with a minimum allowed contig length of 120 base pairs.",
+  "reading_complete" : "2020-07-28T16:22:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:19:34Z",
+  "trigger" : "allowed",
+  "evidence" : [ "CLC Genomics Workbench version 9.5.1., and the quality-filtered sequence reads were assembled into 81,286 contig sequences using the \"de novo assembly\" option with a minimum allowed contig length of 120 base" ],
+  "pmc_id" : "5814470",
+  "score" : 0
+}
