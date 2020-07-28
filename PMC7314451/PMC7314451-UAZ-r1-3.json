@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03499",
+      "entity_text" : "M2 receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:896",
+      "entity_text" : "Melatonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0789" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "Melatonin binds to M1 and M2 receptors that can be found in the retinae and in the brain, as well as in the heart, gut, lymphocytes, and liver.",
+  "reading_complete" : "2020-07-28T11:46:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:46:18Z",
+  "trigger" : "binds",
+  "evidence" : [ "Melatonin binds to M1 and M2 receptors" ],
+  "pmc_id" : "7314451",
+  "score" : 0
+}

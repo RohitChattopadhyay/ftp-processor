@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:896",
+      "entity_text" : "melatonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "It is noteworthy that high levels of melatonin play positive roles in health and aging.",
+  "reading_complete" : "2020-07-28T11:46:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:46:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of melatonin" ],
+  "pmc_id" : "7314451",
+  "score" : 0
+}
