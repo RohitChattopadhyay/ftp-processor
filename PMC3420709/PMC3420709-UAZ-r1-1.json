@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01730",
+      "entity_text" : "CD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Organ" : [ "uberon:UBERON:0006314" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "After careful preparation, the patient 's CD4 level rose to 272 cell / muL with the hemoglobin of 50.8 g/L and HIV-1 viral load dropped to below the detection level.",
+  "reading_complete" : "2020-07-28T13:41:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:40:19Z",
+  "trigger" : "level",
+  "evidence" : [ "CD4 level" ],
+  "pmc_id" : "3420709",
+  "score" : 0
+}
