@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1269" ],
+      "CellLine" : [ "cellosaurus:CVCL_1905" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "Bcl-2 is not expressed in normal follicle centre cells.",
+  "reading_complete" : "2020-07-28T14:12:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:11:33Z",
+  "trigger" : "expressed",
+  "evidence" : [ "Bcl-2 is not expressed" ],
+  "pmc_id" : "3881452",
+  "score" : 0
+}
