@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00245",
+      "entity_text" : "alkaline phosphatase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0008199" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The routine blood investigation was shown to be normal, except increase in the serum alkaline phosphatase level of 216%.",
+  "reading_complete" : "2020-07-28T14:19:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:19:11Z",
+  "trigger" : "level",
+  "evidence" : [ "alkaline phosphatase level" ],
+  "pmc_id" : "3804041",
+  "score" : 0
+}
