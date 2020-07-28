@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Activation of CGRP receptors results in elevated cAMP levels and activation of protein kinase-A (PKA)-mediated pathways.",
+  "reading_complete" : "2020-07-28T14:30:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:29:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "cAMP levels" ],
+  "pmc_id" : "4325278",
+  "score" : 0
+}
