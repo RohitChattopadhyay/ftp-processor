@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000353" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, the observation that significant numbers of NOS II positive macrophages are present in the brain parenchyma only at late stages of the disease when extensive CNS damage has already occurred, suggests that the amount of NO associated injury is probably not enough to significantly alter the course of the disease.",
+  "reading_complete" : "2020-07-28T14:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:16:45Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of NO" ],
+  "pmc_id" : "7119606",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "Despite strain and cell specific differences in released IL-6, equivalent levels of IL-6 mRNA were induced in all cell types following exposure to MHV-4 or UV-MHV-4.",
+  "reading_complete" : "2020-07-28T14:19:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:19:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-6" ],
+  "pmc_id" : "7119505",
+  "score" : 0
+}

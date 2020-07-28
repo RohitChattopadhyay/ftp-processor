@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32411",
+      "entity_text" : "HLA",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "CellLine" : [ "cellosaurus:CVCL_5903" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Treatment of U-105 MG with 10 U IL-1beta/ml for a period of 5 days resulted in a decrease in constitutive cell surface HLA class II expression and limited the induction of class II by IFN-gamma.",
+  "reading_complete" : "2020-07-28T14:19:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:19:23Z",
+  "trigger" : "expression",
+  "evidence" : [ "HLA class II expression" ],
+  "pmc_id" : "7119491",
+  "score" : 0
+}

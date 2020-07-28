@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Constitutively expressed NOS types I and III have relatively restricted cellular distributions in the CNS to neurons and endothelial cells, respectively, and their activities are regulated by intracellular calcium levels.",
+  "reading_complete" : "2020-07-28T14:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:16:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "calcium levels" ],
+  "pmc_id" : "7119606",
+  "score" : 0
+}
