@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01830",
+      "entity_text" : "MtDEF4.2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:5518" ],
+      "TissueType" : [ "tissuelist:TS-0464" ],
+      "Cellular_component" : [ "go:GO:0048046" ],
+      "CellType" : [ "cl:CL:0000521" ]
+    }
+  },
+  "verbose_text" : "MtDEF4.2 has been previously shown to be internalized by Fg hyphae and binds to phosphatidic acid (PA), a pleiotropic signaling phospholipid present in fungal cells.",
+  "reading_complete" : "2020-07-28T17:09:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:06:24Z",
+  "trigger" : "binds",
+  "evidence" : [ "MtDEF4.2 has been previously shown to be internalized by Fg hyphae and binds to phosphatidic acid" ],
+  "pmc_id" : "5243879",
+  "score" : 0
+}
