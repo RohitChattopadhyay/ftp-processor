@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02774",
+      "entity_text" : "DBP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:961",
+      "entity_text" : "OH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Renal reabsorption of 25 (OH) D bound DBP occurs in proximal tubular cells upon binding to megalin, a transmembrane receptor found on many cell types, including brain capillary endothelial cells, neurons and astrocytes [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:42:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:38:18Z",
+  "trigger" : "bound",
+  "evidence" : [ "OH) D-bound DBP" ],
+  "pmc_id" : "7040512",
+  "score" : 0
+}

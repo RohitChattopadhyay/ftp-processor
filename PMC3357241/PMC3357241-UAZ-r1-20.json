@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The following morning, blood glucose levels were raised to ~ 300 mg/dL (~ 16.7 mmol/L) by intravenous infusion 20% glucose and maintained at this level for 24 h.",
+  "reading_complete" : "2020-07-28T14:41:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:40:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3357241",
+  "score" : 0
+}

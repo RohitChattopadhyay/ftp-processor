@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007155",
+      "entity_text" : "adhesion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "TF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Inasmuch as adiponectin has been shown to decrease TF expression in human endothelial cells and to inhibit adhesion of monocytic cells to endothelial cells, it is possible that the lack of TF-PCA stimulation by glucose and insulin in our patients with T1DM was, at least in part, related to their elevated adiponectin levels.",
+  "reading_complete" : "2020-07-28T14:41:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:40:52Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "TF expression in human endothelial cells               and to inhibit adhesion" ],
+  "pmc_id" : "3357241",
+  "score" : 0
+}
