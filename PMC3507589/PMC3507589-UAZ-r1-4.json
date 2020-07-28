@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "\" One reason people did not think that HbA 1c was a measure of diabetic control is because most researchers thought an enzyme was responsible for attaching glucose to hemoglobin, so HbA 1c should be independent of blood glucose levels.",
+  "reading_complete" : "2020-07-28T17:29:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:28:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3507589",
+  "score" : 0
+}

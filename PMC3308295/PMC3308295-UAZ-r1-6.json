@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1649" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The rationale for both indexes is based on the linear relationship between the rise in the fasting plasma insulin (FPI) level and the decline in the rate of basal (fasting) EGP in healthy subjects.",
+  "reading_complete" : "2020-07-28T17:28:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:25:04Z",
+  "trigger" : "level",
+  "evidence" : [ "insulin (FPI) level" ],
+  "pmc_id" : "3308295",
+  "score" : 0
+}
