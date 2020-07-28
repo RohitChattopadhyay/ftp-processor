@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222786",
+      "entity_text" : "cortisone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, Jessop (Bristol) pointed out that there is no consistent relationship between the level of cortisone and extent of inflammation because many other compounds released during stress responses are important also.",
+  "reading_complete" : "2020-07-28T15:00:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:58:23Z",
+  "trigger" : "level",
+  "evidence" : [ "level of cortisone" ],
+  "pmc_id" : "7119757",
+  "score" : 0
+}

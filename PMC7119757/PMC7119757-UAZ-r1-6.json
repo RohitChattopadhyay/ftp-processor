@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When the HPA axis is hyporesponsive, susceptibility to EAE is increased, and in MS patients, plasma and cerebrospinal fluid (CSF) levels of cortisol are elevated and the responsivity of the HPA system is altered, leading to the activation of corticotropin releasing hormone (CRH)-responsive neurons (Huitinga, Amsterdam).",
+  "reading_complete" : "2020-07-28T15:00:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:58:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cortisol" ],
+  "pmc_id" : "7119757",
+  "score" : 0
+}

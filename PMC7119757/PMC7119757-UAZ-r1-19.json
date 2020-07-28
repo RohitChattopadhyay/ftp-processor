@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006955",
+      "entity_text" : "immune response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01189",
+      "entity_text" : "ACTH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Stimulation of the HPA axis results in the secretion of glucocorticoids and adrenocorticotrophic hormone (ACTH), which suppress the immune response, increased activation of the stress response predisposes to infection, whereas decreased activation predisposes to autoimmunity (Sternberg, Bethesda).",
+  "reading_complete" : "2020-07-28T15:00:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:58:23Z",
+  "trigger" : "suppress",
+  "evidence" : [ "ACTH), which suppress the immune response" ],
+  "pmc_id" : "7119757",
+  "score" : 0
+}
