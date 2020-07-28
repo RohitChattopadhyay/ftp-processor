@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Where a separately significant beneficial effect was observed only for blood pressure lowering (as for all-cause mortality and cardiovascular death), the addition of intensive glucose control did not negate that effect.",
+  "reading_complete" : "2020-07-28T11:44:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:42:22Z",
+  "trigger" : "negate",
+  "evidence" : [ "death), the addition of intensive glucose control did not negate" ],
+  "pmc_id" : "2768202",
+  "score" : 0
+}
