@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Cofilin",
+      "entity_text" : "cofilin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0035753" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Knockdowns led to alterations in cytoskeletal dynamics due to ROCK1 & 2 mediated reductions in actin isoform expression, and ROCK2 specific reduction in myosin phosphatase and cofilin phosphorylation.",
+  "reading_complete" : "2020-07-28T14:49:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:43:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "cofilin phosphorylation" ],
+  "pmc_id" : "3580831",
+  "score" : 0
+}

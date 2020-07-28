@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00580",
+      "entity_text" : "myosin binding subunit",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0001725" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "A number of proteins are known targets of ROCK phosphorylation, however the most studied include regulation of actin-myosin contraction via an inhibitory phosphorylation of the myosin binding subunit (MBS) of myosin phosphatase [XREF_BIBR] and regulation of actin polymer stability via inhibition of LIMK2 / cofilin mediated actin severing [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:49:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:43:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the myosin binding subunit" ],
+  "pmc_id" : "3580831",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41161",
+      "entity_text" : "ERM",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "No significant change was observed in the normalized levels of ERM phosphorylation in any condition.",
+  "reading_complete" : "2020-07-28T14:49:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:43:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ERM phosphorylation" ],
+  "pmc_id" : "3580831",
+  "score" : 0
+}
