@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0454" ]
+    }
+  },
+  "verbose_text" : "PET/CT was performed after the patient underwent a 6-hour fasting period with a blood glucose level of 98 mg/dL.",
+  "reading_complete" : "2020-07-28T17:05:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:03:31Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6211838",
+  "score" : 0
+}
