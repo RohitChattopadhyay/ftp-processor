@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although we aimed for similar glucose levels during both treatments, this was not completely accomplished since the fasting glucose levels were slightly higher in the acarbose group (6.62 +/- 0.27 for vildagliptin vs. 7.59 +/- 0.28 mmol/L for acarbose).",
+  "reading_complete" : "2020-07-28T15:37:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:36:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3161271",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3316",
+      "entity_text" : "HbA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, metformin monotherapy often does not reduce HbA 1c adequately for patients to achieve glycemic control; therefore, additional therapies must be added.",
+  "reading_complete" : "2020-07-28T15:35:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:33:01Z",
+  "trigger" : "reduce",
+  "evidence" : [ "metformin monotherapy often does not reduce HbA" ],
+  "pmc_id" : "3632187",
+  "score" : 0
+}

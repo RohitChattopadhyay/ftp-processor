@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Instructions for insulin dosing included determination of premeal bolus doses based on the glucose level, the carbohydrate content of the upcoming meal, rate and direction of glucose change, and guidelines for correcting glucose levels outside the target range at other times.",
+  "reading_complete" : "2020-07-28T15:39:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:37:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "2797966",
+  "score" : 0
+}

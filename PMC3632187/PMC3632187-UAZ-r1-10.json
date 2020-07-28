@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The initial observation of a glucose lowering effect of a BAS was reported from a study that evaluated cholestyramine in patients with dyslipidemia and type 2 diabetes; 8 g cholestyramine twice daily reduced plasma glucose levels by 13% after 6 weeks.",
+  "reading_complete" : "2020-07-28T15:35:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:33:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3632187",
+  "score" : 0
+}

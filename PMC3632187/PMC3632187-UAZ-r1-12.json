@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "All three treatments significantly reduced HbA 1c compared with baseline (-0.3% [colesevelam], -0.6% [rosiglitazone], and -0.4% [sitagliptin]; P < 0.05 for all); however, colesevelam significantly reduced LDL cholesterol levels as well (-11.6%; P = 0.0012), suggesting colesevelam may be an ideal second-line treatment option providing significant glucose- and lipid lowering benefits in patients with type 2 diabetes.",
+  "reading_complete" : "2020-07-28T15:35:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:33:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "3632187",
+  "score" : 0
+}
