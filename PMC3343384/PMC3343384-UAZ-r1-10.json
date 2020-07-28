@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38398",
+      "entity_text" : "BRCA1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Other mechanisms of BRCA1 inactivation in basal tumors include BRCA1 promoter methylation [XREF_BIBR, XREF_BIBR], transcriptional inactivation due to the overexpression of ID4 (negative regulator of BRCA1 transcription) [XREF_BIBR], and other mechanisms such as BARD1 inactivation [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:31:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:17:50Z",
+  "trigger" : "methylation",
+  "evidence" : [ "BRCA1 promoter methylation" ],
+  "pmc_id" : "3343384",
+  "score" : 0
+}
