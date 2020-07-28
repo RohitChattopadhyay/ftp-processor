@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12252",
+      "entity_text" : "side",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00071",
+      "entity_text" : "IgG autoantibodies",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Cellular_component" : [ "go:GO:0005604" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000771" ]
+    }
+  },
+  "verbose_text" : "The binding of IgG autoantibodies to the epidermal side of the salt-split is demonstrated by indirect IF microscopy.",
+  "reading_complete" : "2020-07-28T13:36:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:22:24Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of IgG autoantibodies to the epidermal side" ],
+  "pmc_id" : "3905716",
+  "score" : 0
+}
