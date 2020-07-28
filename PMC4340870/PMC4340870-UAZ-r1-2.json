@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29279",
+      "entity_text" : "CTGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In the Mundy et al. study, differentiation is assessed in primary osteoblasts expressing different levels of CTGF (either normal or absent) when cultured on the same substrate.",
+  "reading_complete" : "2020-07-28T16:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:38:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CTGF" ],
+  "pmc_id" : "4340870",
+  "score" : 0
+}

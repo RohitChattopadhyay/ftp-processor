@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63000",
+      "entity_text" : "Rac1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Activation of Rac1 occurred in cells cultured on fibronectin and CTGF compared to BSA or uncoated controls, with highest levels of active Rac1 observed in cells cultured on fibronectin (XREF_FIG).",
+  "reading_complete" : "2020-07-28T16:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:38:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of active Rac1" ],
+  "pmc_id" : "4340870",
+  "score" : 0
+}
