@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "Among pregnant women with type 1 diabetes, 1,5-anhydroglucitol levels are highly correlated with glucose levels determined by continuous glucose monitoring and, in the third trimester, the best predictor of macrosomia.",
+  "reading_complete" : "2020-07-28T17:33:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:32:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3867997",
+  "score" : 0
+}

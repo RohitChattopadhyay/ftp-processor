@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0107" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The prevalence of neuropathy increased by glucose level : 5% among those with normal glucose levels, 8% among those with new IFG and diabetes, and 15% among those with established diabetes (P < 0.01).",
+  "reading_complete" : "2020-07-28T17:32:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:31:05Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "2518355",
+  "score" : 0
+}
