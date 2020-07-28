@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00146",
+      "entity_text" : "NF-kappaB p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "CellType" : [ "cl:CL:0000842" ]
+    }
+  },
+  "verbose_text" : "After 10 min, the following recombinant cytokines (purchased from Peprotech, Rocky Hill, NJ) were added for 10 min to induce phosphorylation of NF-kappaB p65, STAT1, and STAT3 : interleukin (IL)-1beta (at a final concentration of 20 ng/mL), interferon-gamma (IFN-gamma) (10 3 IU/mL), and IL-10 (100 ng/mL), respectively.",
+  "reading_complete" : "2020-07-28T11:29:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:26:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of NF-kappaB p65" ],
+  "pmc_id" : "3476907",
+  "score" : 0
+}

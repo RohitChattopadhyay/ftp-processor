@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10918",
+      "entity_text" : "carnitine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Due to the small molecular weight and very low binding to plasma protein, carnitine is easily dialysed, in addition, the dialysis membrane demonstrates differential selectivity for carnitine and acylcarnitines, these leading to diminished free carnitine levels in these patients, finally resulting in an abnormal plasma acyl to free carnitine ratio.",
+  "reading_complete" : "2020-07-28T11:27:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:08:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "carnitine levels" ],
+  "pmc_id" : "7231908",
+  "score" : 0
+}

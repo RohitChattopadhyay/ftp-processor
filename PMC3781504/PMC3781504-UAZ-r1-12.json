@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0002386" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Subjects were connected to a Biostator (Life Science Instruments, Elkhart, IN) by an intravenous line in the lower arm or dorsal hand, and arterialized blood was continuously sampled to determine blood glucose level in minute intervals.",
+  "reading_complete" : "2020-07-28T11:26:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:21:12Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "3781504",
+  "score" : 0
+}
