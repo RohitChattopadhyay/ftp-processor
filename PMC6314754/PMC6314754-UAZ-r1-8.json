@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "[XREF_BIBR] As a phosphatonin, FGF23 affects bone mineralization by reducing phosphate resorption in the renal tubule and inhibiting 1alpha hydroxylation of vitamin D, which ultimately leads to osteomalacia.",
+  "reading_complete" : "2020-07-28T13:52:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:49:50Z",
+  "trigger" : "hydroxylation",
+  "evidence" : [ "hydroxylation of vitamin D" ],
+  "pmc_id" : "6314754",
+  "score" : 0
+}
