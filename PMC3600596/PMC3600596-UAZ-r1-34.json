@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18146",
+      "entity_text" : "Egr-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0001347" ]
+    }
+  },
+  "verbose_text" : "Loss of Egr-1 increases UCP1 expression in white adipose tissues.",
+  "reading_complete" : "2020-07-28T10:22:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:21:27Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of Egr-1" ],
+  "pmc_id" : "3600596",
+  "score" : 0
+}

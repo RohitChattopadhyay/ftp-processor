@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16489",
+      "entity_text" : "gain",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18146",
+      "entity_text" : "Egr-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Interestingly, forced expression of Egr-1 in adipocytes without nutrition overload did not cause the changes of weight gain and insulin sensitivity, suggesting that Egr-1 participates in the management of energy only under chronic nutrition overload induced stress.",
+  "reading_complete" : "2020-07-28T10:22:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:21:27Z",
+  "trigger" : "cause",
+  "evidence" : [ "Egr-1 in adipocytes without nutrition overload did not cause the changes of weight gain" ],
+  "pmc_id" : "3600596",
+  "score" : 0
+}
