@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:32838",
+      "entity_text" : "guanidinium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The guanidinium group binds both the reducible / oxidizable keto / hydroxyl oxygen, presumably leading to its polarization, and the single oxygen of the substrate carboxylate, thus contributing to the orientation of the substrate [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:38:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:24:47Z",
+  "trigger" : "binds",
+  "evidence" : [ "guanidinium group binds both the reducible/oxidizable keto/hydroxyl oxygen" ],
+  "pmc_id" : "6303947",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5893",
+      "entity_text" : "NAD",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As seen in Fig. XREF_FIG, one of the ligands (4-methylthio-2-oxobutyric acid bound to CtBP1 in complex with NAD +; PDB ID : 4lce) is modeled in a slightly unusual orientation, with the carboxyl group rotated around the C1-C2 bond.",
+  "reading_complete" : "2020-07-28T14:38:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:24:47Z",
+  "trigger" : "bound",
+  "evidence" : [ "acid bound to CtBP1 in complex with NAD" ],
+  "pmc_id" : "6303947",
+  "score" : 0
+}
