@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "One spebrutinib treated patient had a dose reduction because of abnormal renal function parameters (i.e., Modification of Diet in Renal Disease estimated glomerular filtration rate> = 70 ml/min/1.73 m 2 and albumin / creatinine level between 61 and 300 mg/g).",
+  "reading_complete" : "2020-07-28T16:59:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:57Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "7021855",
+  "score" : 0
+}

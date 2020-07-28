@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60304",
+      "entity_text" : "CTX-I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Furthermore, we found two baseline biomarkers that were associated with better clinical response to spebrutinib : Higher baseline levels of total CD19 + B cells in the blood and lower baseline levels of serum CTX-I were associated with significantly better ACR50 clinical response to spebrutinib.",
+  "reading_complete" : "2020-07-28T16:59:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of serum CTX-I" ],
+  "pmc_id" : "7021855",
+  "score" : 0
+}

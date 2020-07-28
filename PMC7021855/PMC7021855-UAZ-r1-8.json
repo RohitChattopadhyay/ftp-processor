@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13236",
+      "entity_text" : "MIP-1beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000818" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For serum MIP-1beta, patients who achieved an ACR20 clinical response with spebrutinib experienced a greater median percent decrease in MIP-1beta level from baseline to week 4 compared with ACR20 non responders (- 31.5 vs. - 8.7%; P = 0.10).",
+  "reading_complete" : "2020-07-28T16:59:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:57Z",
+  "trigger" : "level",
+  "evidence" : [ "MIP-1beta level" ],
+  "pmc_id" : "7021855",
+  "score" : 0
+}

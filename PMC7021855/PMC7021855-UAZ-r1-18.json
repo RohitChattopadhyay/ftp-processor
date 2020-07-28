@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5311333",
+      "entity_text" : "CTX",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0585" ],
+      "Organ" : [ "uberon:UBERON:0016566" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "In preclinical studies, spebrutinib was shown to inhibit osteoclast activity, as measured by reduced pit formation in vitro, and reduce plasma CTX protein levels in an in vivo mouse model of multiple myeloma [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:59:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "CTX protein levels" ],
+  "pmc_id" : "7021855",
+  "score" : 0
+}

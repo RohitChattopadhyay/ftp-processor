@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13236",
+      "entity_text" : "MIP-1beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Clinical response to spebrutinib was associated with a lower increase in total CD19 + B cells in the blood and with a greater decrease in CXCL13 and MIP-1beta levels in the serum.",
+  "reading_complete" : "2020-07-28T16:59:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "MIP-1beta levels" ],
+  "pmc_id" : "7021855",
+  "score" : 0
+}

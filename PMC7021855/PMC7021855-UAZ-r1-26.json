@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43927",
+      "entity_text" : "CXCL13",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24821094",
+      "entity_text" : "Ibrutinib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ibrutinib has been shown to directly inhibit CXCL13 production by macrophages in vitro [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:59:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:57Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "Ibrutinib has been shown to directly inhibit CXCL13" ],
+  "pmc_id" : "7021855",
+  "score" : 0
+}

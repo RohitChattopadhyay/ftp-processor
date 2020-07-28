@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26842",
+      "entity_text" : "CD27",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Regarding the effect on specific B-lymphocyte subtypes, a significant increase in circulating total CD19 + B cells and mature-naive CD27 - CD38 - IgD + B cells was observed with spebrutinib versus placebo at week 4 (P < 0.05), whereas levels of transitional CD27 - CD38 + B cells significantly decreased with spebrutinib versus placebo at the same time point (P < 0.05).",
+  "reading_complete" : "2020-07-28T16:59:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of transitional CD27" ],
+  "pmc_id" : "7021855",
+  "score" : 0
+}
