@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02810",
+      "entity_text" : "PA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01830",
+      "entity_text" : "MtDEF4.2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4565" ],
+      "TissueType" : [ "tissuelist:TS-0540" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "We have reported earlier that MtDEF4.2 is internalized by the cells of Fg and binds to a bioactive phospholipid second messenger PA.",
+  "reading_complete" : "2020-07-28T17:09:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:06:24Z",
+  "trigger" : "binds",
+  "evidence" : [ "MtDEF4.2 is internalized by the cells of Fg and binds to a bioactive phospholipid second messenger PA" ],
+  "pmc_id" : "5243879",
+  "score" : 0
+}
