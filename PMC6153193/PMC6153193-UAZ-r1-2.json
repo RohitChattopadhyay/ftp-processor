@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Recently, the suppression effect that occurs when an excessive amount of cholesterol migrates to the tissue surface and interferes with measurements of other substances has been highlighted as a serious problem in ToF-SIMS imaging analysis of brain tissue sections.",
+  "reading_complete" : "2020-07-28T15:46:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:34:06Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of cholesterol" ],
+  "pmc_id" : "6153193",
+  "score" : 0
+}

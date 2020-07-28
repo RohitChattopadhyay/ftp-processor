@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A9YTQ3",
+      "entity_text" : "AHRR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Methylation level at cg05575921 (AHRR) and AHRR transcript level correlated negatively (ENSG00000063438, beta = -4.5 (log Counts Per Million per methylation proportion), se = 0.23, p = 1.03 x 10 -81).",
+  "reading_complete" : "2020-07-28T15:44:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:38:06Z",
+  "trigger" : "level",
+  "evidence" : [ "AHRR transcript level" ],
+  "pmc_id" : "6220239",
+  "score" : 0
+}
