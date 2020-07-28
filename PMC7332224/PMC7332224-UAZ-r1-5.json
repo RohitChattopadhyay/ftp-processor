@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:G_beta",
+      "entity_text" : "Gbeta",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00503",
+      "entity_text" : "Galpha",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If we consider a family of networks {G1,..., GL} that interact, they can be modeled as a multilayer network of layers {G1,..., GL} and whose crossed layers Ealphabeta correspond to the interactions between network Galpha and Gbeta (see XREF_FIG).",
+  "reading_complete" : "2020-07-28T09:24:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:16:49Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between network Galpha and Gbeta" ],
+  "pmc_id" : "7332224",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00503",
+      "entity_text" : "Galpha",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00988",
+      "entity_text" : "Nalpha(i), i.e.  Salpha (i)=(Nalpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For every alphain {1,..., M} let Nalpha (i) = N (i) intersectionXalpha and Salpha (i) be the subgraph of the layer Galpha induced by Nalpha (i), i.e. Salpha (i) =(Nalpha (i), Ealpha (i)), where (28) Ealpha (i) ={(k, j) inEalpha; k, jinNalpha (i)}.",
+  "reading_complete" : "2020-07-28T09:24:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:16:49Z",
+  "trigger" : "induced",
+  "evidence" : [ "Galpha induced by Nalpha(i), i.e.  Salpha (i)=(Nalpha" ],
+  "pmc_id" : "7332224",
+  "score" : 0
+}
