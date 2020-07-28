@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While TNF-alpha has been reported to augment the phosphorylation of Akt in cultured myotubes [XREF_BIBR], TWEAK inhibits even the basal level of phosphorylation of Akt kinase in myotubes suggesting distinct modes of action of these catabolic cytokines [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:43:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:31:11Z",
+  "trigger" : "augment",
+  "evidence" : [ "TNF-alpha has been reported to augment the phosphorylation of Akt" ],
+  "pmc_id" : "3257753",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00534",
+      "entity_text" : "IkappaB proteins",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellType" : [ "cl:CL:0002372" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The canonical NF-kappaB signaling pathway involves the upstream activation of inhibitors of kappaB (IkappaB) kinase-beta (IKKbeta) and subsequent phosphorylation and degradation of IkappaB proteins [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:43:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:31:11Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and degradation of IkappaB proteins" ],
+  "pmc_id" : "3257753",
+  "score" : 0
+}
