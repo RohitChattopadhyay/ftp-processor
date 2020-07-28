@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00077",
+      "entity_text" : "C-peptide",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "Odds ratio for loss of C-peptide to < 0.2 nmol/L following rituximab was 0.565 (P = 0.064).",
+  "reading_complete" : "2020-07-28T15:55:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:54:31Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of C-peptide" ],
+  "pmc_id" : "3898764",
+  "score" : 0
+}
