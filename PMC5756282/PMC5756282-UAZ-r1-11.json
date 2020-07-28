@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "IFN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Changes in expression of IFN related molecules in 16HBE cells due to EV71- and CA16 induced autophagy.",
+  "reading_complete" : "2020-07-28T17:12:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:07:46Z",
+  "trigger" : "induced",
+  "evidence" : [ "IFN-related molecules in 16HBE cells due to EV71- and CA16-induced autophagy" ],
+  "pmc_id" : "5756282",
+  "score" : 0
+}
