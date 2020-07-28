@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6035",
+      "entity_text" : "BrdU",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The duration of the cell cycle in plants has been determined using various methods XREF_BIBR, such as labelling with 3 H-thymidine XREF_BIBR XREF_BIBR or BrdU XREF_BIBR XREF_BIBR XREF_BIBR, by blocking the cell cycle with colchicine XREF_BIBR XREF_BIBR, and by kinematic methods with mathematical calculations XREF_BIBR.",
+  "reading_complete" : "2020-07-28T17:42:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:42:09Z",
+  "trigger" : "blocking",
+  "evidence" : [ "BrdU XREF_BIBR  XREF_BIBR  XREF_BIBR , by blocking the cell cycle" ],
+  "pmc_id" : "3796303",
+  "score" : 0
+}
