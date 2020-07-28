@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "BCL2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1906" ],
+      "TissueType" : [ "tissuelist:TS-0392" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "99 Its root extract induces BCL2 phosphorylation and, like Taxol, inhibits the cell cycle at the G2/M phases in tumor cell lines.",
+  "reading_complete" : "2020-07-28T15:49:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:46:50Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "BCL2 phosphorylation" ],
+  "pmc_id" : "5871268",
+  "score" : 0
+}
