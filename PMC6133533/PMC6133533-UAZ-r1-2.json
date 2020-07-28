@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is worth to notice that total cholesterol level remained an independent explanatory variable despite the fact that approximately one fifth of our patients were on the statin treatment at the time of the study.",
+  "reading_complete" : "2020-07-28T16:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:08:06Z",
+  "trigger" : "level",
+  "evidence" : [ "cholesterol level" ],
+  "pmc_id" : "6133533",
+  "score" : 0
+}
