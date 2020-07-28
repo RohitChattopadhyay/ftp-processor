@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The 9 sepsis patients in the infected group had a mean CRP level of 41.4 (7.0, 167.0) mg/L, which was significantly higher than other infections (P <.05) (data not shown).",
+  "reading_complete" : "2020-07-28T17:26:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:23:30Z",
+  "trigger" : "level",
+  "evidence" : [ "CRP level" ],
+  "pmc_id" : "6831178",
+  "score" : 0
+}
