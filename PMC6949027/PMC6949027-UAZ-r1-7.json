@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0925" ],
+      "Cellular_component" : [ "go:GO:0005615" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Subtraction of these nonspecific currents revealed that NAc glucose levels rapidly jump within seconds after the onset of each stimulus but show different dynamics thereafter.",
+  "reading_complete" : "2020-07-28T15:21:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:53:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6949027",
+  "score" : 0
+}
