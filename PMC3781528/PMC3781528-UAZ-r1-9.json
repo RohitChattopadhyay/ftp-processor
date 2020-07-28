@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "In a small study of 15 women who underwent large-volume liposuction, improvements in cardiometabolic risk factors were not observed despite the loss of nearly 10 kg of subcutaneous fat.",
+  "reading_complete" : "2020-07-28T11:20:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:18:47Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of nearly 10 kg" ],
+  "pmc_id" : "3781528",
+  "score" : 0
+}
