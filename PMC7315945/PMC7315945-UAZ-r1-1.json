@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "angiotensin converting enzyme 2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00351",
+      "entity_text" : "glycoprotein S1",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E773" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "go:GO:0043657" ]
+    }
+  },
+  "verbose_text" : "The virus 's Spike glycoprotein S1 firmly binds to the angiotensin converting enzyme 2 (ACE2) receptor, which allows entry into the host cell.",
+  "reading_complete" : "2020-07-28T13:59:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:58:42Z",
+  "trigger" : "binds",
+  "evidence" : [ "glycoprotein S1 firmly binds to the angiotensin converting enzyme 2" ],
+  "pmc_id" : "7315945",
+  "score" : 0
+}
