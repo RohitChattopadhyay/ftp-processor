@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To standardize influence of glucose and insulin levels on sensory assessments, all diabetic patients and healthy volunteers were asked to fast for 6 h.",
+  "reading_complete" : "2020-07-28T12:21:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:19:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose and insulin levels" ],
+  "pmc_id" : "3816908",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3316",
+      "entity_text" : "HbA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Glucose tolerance was also determined based on HbA 1c levels according to the 2010 ADA clinical practice recommendation (> = 6.5%, T2DM; 5.7-6.4%, high-risk individuals; < 5.7% normal glucose homeostasis).",
+  "reading_complete" : "2020-07-28T12:19:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:16:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "HbA 1c  levels" ],
+  "pmc_id" : "3507559",
+  "score" : 0
+}
