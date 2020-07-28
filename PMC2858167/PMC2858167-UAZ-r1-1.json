@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Given that MBG independent disparity in A1C is unlikely to be modifiable by glucose lowering agents, simply increasing insulin doses to achieve a lowered target A1C could lead to greater risk of hypoglycemia in African American patients.",
+  "reading_complete" : "2020-07-28T12:22:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:21:41Z",
+  "trigger" : "lowering",
+  "evidence" : [ "glucose-lowering agents, simply increasing insulin" ],
+  "pmc_id" : "2858167",
+  "score" : 0
+}

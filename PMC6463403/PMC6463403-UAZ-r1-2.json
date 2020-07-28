@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P45844",
+      "entity_text" : "ABCG-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Free cholesterol further stimulates related proteins to upregulate the expression of ABCA-1 and ABCG-1, which are representative members of ATP binding cassette (ABC) transporters, and promote cholesterol efflux [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T12:26:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:24:31Z",
+  "trigger" : "promote",
+  "evidence" : [ "ABCG-1, which are representative members of ATP-binding cassette (ABC) transporters, and promote cholesterol" ],
+  "pmc_id" : "6463403",
+  "score" : 0
+}
