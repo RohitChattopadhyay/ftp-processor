@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01730",
+      "entity_text" : "CD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:11676" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "This capacity to infect coreceptor + cells without CD4 will obviously help variants to infect macrophages that express only low amounts of CD4 [XREF_BIBR, XREF_BIBR, XREF_BIBR] and could explain infection of astrocytes, which is sometimes detected in late-stage neurological disease [XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T15:00:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:55:57Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of CD4" ],
+  "pmc_id" : "6369005",
+  "score" : 0
+}

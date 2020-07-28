@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51681",
+      "entity_text" : "CCR5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14624",
+      "entity_text" : "gp120",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D603" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "Soluble gp120 binding to CCR5 on the surface of Cf2Th / CCR5 cells was measured by flow cytometry.",
+  "reading_complete" : "2020-07-28T15:00:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:55:57Z",
+  "trigger" : "binding",
+  "evidence" : [ "gp120 binding to CCR5" ],
+  "pmc_id" : "6369005",
+  "score" : 0
+}

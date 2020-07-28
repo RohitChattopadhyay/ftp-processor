@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49441",
+      "entity_text" : "IPP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01359",
+      "entity_text" : "FDS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_V486" ],
+      "Species" : [ "taxonomy:3702" ]
+    }
+  },
+  "verbose_text" : "F239 in FDS binds IPP through hydrophobic interactions [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:58:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:52:37Z",
+  "trigger" : "binds",
+  "evidence" : [ "FDS binds IPP" ],
+  "pmc_id" : "3518182",
+  "score" : 0
+}
