@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0828" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Radiation therapy damages prostate cancer DNA by rare direct ionization events or by the much more common indirect DNA damage from free radicals that occur as a by-product of the hydrolysis of water [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:17:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:04:53Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of water" ],
+  "pmc_id" : "3412203",
+  "score" : 0
+}
