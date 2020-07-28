@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02810",
+      "entity_text" : "HBsAg",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:10407" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Univariate analysis showed that higher levels of HBsAg (HR = 2.41, 95% confidence interval [CI] : 1.31-4.20, P = 0.0370) and HBV DNA (HR = 2.04, 95% CI : 1.29-3.54, P = 0.0412) significantly hindered the production of Env 256-270 -specific IFN-gamma.",
+  "reading_complete" : "2020-07-28T17:40:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:36:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of HBsAg" ],
+  "pmc_id" : "6373280",
+  "score" : 0
+}

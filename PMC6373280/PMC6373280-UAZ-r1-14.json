@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:10407" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "The levels of IFN-gamma released from patients infected with WT and MT mutations were not significantly different (median : 6.0 vs. 6.5, P = 0.2127).",
+  "reading_complete" : "2020-07-28T17:40:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:36:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IFN-gamma" ],
+  "pmc_id" : "6373280",
+  "score" : 0
+}
