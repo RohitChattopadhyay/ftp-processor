@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02766",
+      "entity_text" : "TTR",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 30,
+        "feature_type" : "mutation",
+        "evidence" : "V30M"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "Tf",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We therefore demonstrated, by using the 7.2-hMet30 mouse model and in silico studies, that HPX and Tf may enhance TTR V30M amyloidogenesis.",
+  "reading_complete" : "2020-07-28T16:40:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:39:40Z",
+  "trigger" : "enhance",
+  "evidence" : [ "Tf may enhance TTR" ],
+  "pmc_id" : "5847157",
+  "score" : 0
+}
