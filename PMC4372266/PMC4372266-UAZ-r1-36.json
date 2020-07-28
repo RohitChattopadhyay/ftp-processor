@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06828",
+      "entity_text" : "FM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01138",
+      "entity_text" : "NGF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "CSF BDNF and NGF levels were below detection limit in all the FM and RA patients.",
+  "reading_complete" : "2020-07-28T14:07:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:05:34Z",
+  "trigger" : "were below detection limit",
+  "evidence" : [ "NGF levels were below detection limit in all the FM" ],
+  "pmc_id" : "4372266",
+  "score" : 0
+}
