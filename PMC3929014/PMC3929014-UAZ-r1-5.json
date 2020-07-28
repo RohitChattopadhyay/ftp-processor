@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55196",
+      "entity_text" : "afadin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00180",
+      "entity_text" : "nectins",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10298" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Whether or not nectins can act as force sensors is not known, but the cytoplasmic tails of nectins can bind afadin (AF6), which links the adhesion receptor to the actin cytoskeleton [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:44:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:36:02Z",
+  "trigger" : "bind",
+  "evidence" : [ "nectins can bind afadin" ],
+  "pmc_id" : "3929014",
+  "score" : 0
+}
