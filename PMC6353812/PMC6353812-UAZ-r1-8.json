@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01102",
+      "entity_text" : "hANPEP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "For example, mice made transgenic for human ANPEP (hANPEP), a receptor for human coronavirus-229E [HCoV-229E], possess similar levels of expression in the same tissues as mouse ANPEP, including high levels of hANPEP expression in epithelial cells of the intestines.",
+  "reading_complete" : "2020-07-28T16:23:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:21:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of hANPEP" ],
+  "pmc_id" : "6353812",
+  "score" : 0
+}

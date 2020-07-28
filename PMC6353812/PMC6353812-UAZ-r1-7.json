@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15144",
+      "entity_text" : "ANPEP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000584" ],
+      "Species" : [ "taxonomy:9823" ]
+    }
+  },
+  "verbose_text" : "A variety of cells and tissues have low levels of ANPEP expression, but it is highly expressed on enterocytes.",
+  "reading_complete" : "2020-07-28T16:23:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:21:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ANPEP" ],
+  "pmc_id" : "6353812",
+  "score" : 0
+}
