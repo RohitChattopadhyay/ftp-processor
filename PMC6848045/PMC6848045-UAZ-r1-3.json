@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96LT9",
+      "entity_text" : "RNP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:J3F2B0",
+      "entity_text" : "Cas9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0229" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0000086" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000365" ]
+    }
+  },
+  "verbose_text" : "Subsequently, a second transfer pulse series delivers the Cas9 mRNA / crRNA or the Cas9 - RNP complex into the cytoplasm.",
+  "reading_complete" : "2020-07-28T16:57:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:13Z",
+  "trigger" : "complex",
+  "evidence" : [ "Cas9-RNP complex" ],
+  "pmc_id" : "6848045",
+  "score" : 0
+}
