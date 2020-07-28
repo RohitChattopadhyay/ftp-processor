@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:F7VJQ1",
+      "entity_text" : "PrP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0563" ],
+      "Species" : [ "taxonomy:103820" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "This analysis suggests that strain characteristics are determined by the identity of the retroelement nucleic acid (s) bound to PrP.",
+  "reading_complete" : "2020-07-28T14:44:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:27:29Z",
+  "trigger" : "bound",
+  "evidence" : [ "acid(s) bound to PrP" ],
+  "pmc_id" : "7024060",
+  "score" : 0
+}
