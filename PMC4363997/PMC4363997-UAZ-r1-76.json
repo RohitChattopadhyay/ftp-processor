@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IXH7",
+      "entity_text" : "Th1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Since IFNgamma can phosphorylate STAT1 during Th1 differentiation, we sought to examine if IFNgamma acts through STAT1 to suppress these Th17 associated cytokines.",
+  "reading_complete" : "2020-07-28T14:43:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:42:03Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate STAT1 during Th1" ],
+  "pmc_id" : "4363997",
+  "score" : 0
+}
