@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Wnt",
+      "entity_text" : "Wnt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0003624" ]
+    }
+  },
+  "verbose_text" : "The ligases antagonize both canonical and non canonical Wnt signaling through ubiquitination and degradation of Wnt receptors.",
+  "reading_complete" : "2020-07-28T17:15:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:13:57Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination and degradation of Wnt" ],
+  "pmc_id" : "5602029",
+  "score" : 0
+}
