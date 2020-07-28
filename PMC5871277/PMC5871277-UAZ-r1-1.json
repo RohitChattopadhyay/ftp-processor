@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3314",
+      "entity_text" : "eugenol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The active ingredients in cinnamon are cinnamaldehyde, cinnamate, cinnomyl-acetate, beta-caryophyllene, and even some amount of eugenol.",
+  "reading_complete" : "2020-07-28T16:18:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:17:04Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of eugenol" ],
+  "pmc_id" : "5871277",
+  "score" : 0
+}
