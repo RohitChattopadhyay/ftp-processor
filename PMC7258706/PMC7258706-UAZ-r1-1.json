@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uaz:UA-ORG-92" ]
+    }
+  },
+  "verbose_text" : "In some hospitals, prior to the CT scan, the nurses will insert two cubital fossa IV lines, complete a 12-lead ECG, and draw urgent bloods that are sent stat for : CBC, electrolytes, creatinine, coagulation profile, random blood glucose level, troponin and type and screen.",
+  "reading_complete" : "2020-07-28T11:55:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:53:20Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "7258706",
+  "score" : 0
+}
