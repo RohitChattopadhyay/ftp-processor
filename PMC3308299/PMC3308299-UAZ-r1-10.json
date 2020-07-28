@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5TCZ1",
+      "entity_text" : "fish",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because the amount of endogenous LCn3PUFA is small, the biomarker levels of LCn3PUFAs should be parallel with the total amount of fish consumption as well as the content of other constituents in fish.",
+  "reading_complete" : "2020-07-28T16:17:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:15:16Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of fish" ],
+  "pmc_id" : "3308299",
+  "score" : 0
+}

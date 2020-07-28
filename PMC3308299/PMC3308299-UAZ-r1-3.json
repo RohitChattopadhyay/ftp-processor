@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5TCZ1",
+      "entity_text" : "fish",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If the median amount of fish consumption from more than one group in a single study fell into the same standardized category of fish intake in our meta-analysis, we pooled these RRs and used the combined estimate for that category.",
+  "reading_complete" : "2020-07-28T16:17:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:15:16Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of fish" ],
+  "pmc_id" : "3308299",
+  "score" : 0
+}
