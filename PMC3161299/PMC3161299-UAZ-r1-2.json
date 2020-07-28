@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Cellular_component" : [ "go:GO:0032059" ],
+      "Organ" : [ "uberon:UBERON:0006635" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Patients maintained their insulin administration regimen throughout the study, with the objective of maintaining glycated hemoglobin levels within the age specified range according to the American Diabetes Association guidelines.",
+  "reading_complete" : "2020-07-28T16:54:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:53:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "hemoglobin levels" ],
+  "pmc_id" : "3161299",
+  "score" : 0
+}

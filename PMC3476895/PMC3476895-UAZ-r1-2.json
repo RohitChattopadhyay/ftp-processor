@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5283563",
+      "entity_text" : "ceramide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Organ" : [ "uberon:UBERON:0000062" ]
+    }
+  },
+  "verbose_text" : "In this model, excess of cytosolic TG marks excessive levels of ceramide and other toxic metabolites that activate inducible nitric oxide synthase to cause progressive beta-cell apoptosis and failure.",
+  "reading_complete" : "2020-07-28T16:51:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:49:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ceramide" ],
+  "pmc_id" : "3476895",
+  "score" : 0
+}
