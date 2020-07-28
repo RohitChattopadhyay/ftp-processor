@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43405",
+      "entity_text" : "SYK",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:122724",
+      "entity_text" : "celastrol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Because SYK can be autophosphorylated or phosphorylated by other kinases, celastrol may inhibit the kinase activity of SYK itself or kinases that phosphorylate SYK.",
+  "reading_complete" : "2020-07-28T13:22:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:18:06Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "celastrol may inhibit the kinase activity of SYK" ],
+  "pmc_id" : "4527119",
+  "score" : 0
+}

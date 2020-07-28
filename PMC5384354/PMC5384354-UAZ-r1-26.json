@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10535" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "CellType" : [ "cl:CL:0002548" ]
+    }
+  },
+  "verbose_text" : "Cardin et al. found that over-expression of miR-21 targeted Sprouty-1 [XREF_BIBR], and Thum et al. also found that it up-regulated the phosphorylation of MAPK inducing increased fibrosis [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:18:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:11:12Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of MAPK" ],
+  "pmc_id" : "5384354",
+  "score" : 0
+}

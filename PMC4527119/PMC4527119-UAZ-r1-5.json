@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02750",
+      "entity_text" : "MEK-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR002959",
+      "entity_text" : "TNFalpha",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Both TNFalpha and Ova IC induced phosphorylation of MEK-1, and ERK1/2 which was dramatically suppressed by the pretreatment with 5 muM of celastrol.",
+  "reading_complete" : "2020-07-28T13:22:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:18:06Z",
+  "trigger" : "induced",
+  "evidence" : [ "TNFalpha and Ova IC-induced phosphorylation of MEK-1" ],
+  "pmc_id" : "4527119",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17302",
+      "entity_text" : "Cx43",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BTV5",
+      "entity_text" : "miR-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Over-expression of miR-1 may down-regulate Cx43 to inhibit not hypertrophy, but ventricular tachyarrhythmias and ventricular tachycardia [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:18:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:11:12Z",
+  "trigger" : "down-regulate",
+  "evidence" : [ "miR-1 may down-regulate Cx43" ],
+  "pmc_id" : "5384354",
+  "score" : 0
+}

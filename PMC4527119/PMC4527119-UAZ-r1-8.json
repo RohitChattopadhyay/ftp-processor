@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAPK",
+      "entity_text" : "mitogen-activated protein kinase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:122724",
+      "entity_text" : "celastrol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Further investigating into the mechanisms, we found that celastrol treatment downregulated the activation of spleen tyrosine kinase (SYK) and the concomitant phosphorylation of mitogen activated protein kinase kinase (MAPKK / MEK), extracellular-signal-regulated kinase (ERK), and NFkappaB inhibitor alpha (IkappaBalpha), as well as citrullination of histones.",
+  "reading_complete" : "2020-07-28T13:22:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:18:06Z",
+  "trigger" : "downregulated",
+  "evidence" : [ "celastrol treatment downregulated the activation of spleen\ntyrosine kinase (SYK) and the concomitant phosphorylation of mitogen-activated protein kinase" ],
+  "pmc_id" : "4527119",
+  "score" : 0
+}

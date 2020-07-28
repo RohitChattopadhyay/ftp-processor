@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42574",
+      "entity_text" : "Sca-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48061",
+      "entity_text" : "CXCL12",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Down-regulation of miR-126 in the hindlimb ischemia of rats also increases the levels of CXCL12, thus increasing the numbers of Sca-1 + progenitor cells required for repairing ischemic injuries [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:18:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:11:12Z",
+  "trigger" : "increasing",
+  "evidence" : [ "CXCL12, thus increasing the numbers of Sca-1" ],
+  "pmc_id" : "5384354",
+  "score" : 0
+}

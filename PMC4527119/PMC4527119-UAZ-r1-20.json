@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60709",
+      "entity_text" : "beta-actin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000025" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Treatment with 5 muM of celastrol resulted in complete inhibition of IkappaB (phosphorylation induced by TNFalpha and Ova IC, while none of the treatments affected the protein levels of constitutively expressed beta-actin.",
+  "reading_complete" : "2020-07-28T13:22:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:18:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of constitutively expressed beta-actin" ],
+  "pmc_id" : "4527119",
+  "score" : 0
+}
