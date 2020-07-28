@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "BCL-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The relative amounts of BCL-2 and/or BAX has been shown to correlate with tumor aggressiveness and radiation resistance in prostate cancer [XREF_BIBR, XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:17:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:04:53Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of BCL-2" ],
+  "pmc_id" : "3412203",
+  "score" : 0
+}

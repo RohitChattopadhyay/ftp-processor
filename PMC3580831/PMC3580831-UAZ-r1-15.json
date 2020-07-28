@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14974",
+      "entity_text" : "MBS",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Indeed, similar findings are reported for vascular smooth muscle cells where ROCK2, but not ROCK1, binds and phosphorylates MBS [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:49:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:43:46Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates MBS" ],
+  "pmc_id" : "3580831",
+  "score" : 0
+}

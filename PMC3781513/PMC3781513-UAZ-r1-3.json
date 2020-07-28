@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13796",
+      "entity_text" : "sensor",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As seen in our recent study with the Medtronic CL system using the PID plus insulin feedback algorithm and the same 120 mg/dL target sensor glucose level, overnight glucose control during CL insulin delivery was outstanding on sedentary days.",
+  "reading_complete" : "2020-07-28T15:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:00:57Z",
+  "trigger" : "level",
+  "evidence" : [ "sensor glucose level" ],
+  "pmc_id" : "3781513",
+  "score" : 0
+}

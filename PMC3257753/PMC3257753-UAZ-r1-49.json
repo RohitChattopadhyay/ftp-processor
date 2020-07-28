@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00528",
+      "entity_text" : "MyHC",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellType" : [ "cl:CL:0002372" ]
+    }
+  },
+  "verbose_text" : "Consistent with in vitro studies, the activation of NF-kappaB, levels of MuRF1, and ubiquitination of MyHC were significantly elevated in skeletal muscle of TWEAK treated or TWEAK-Tg mice compared to their corresponding controls indicating that TWEAK causes muscle wasting through activation of NF-kappaB and enhancing the expression of the components of UPS especially MuRF1 [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:43:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:31:11Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of MyHC" ],
+  "pmc_id" : "3257753",
+  "score" : 0
+}

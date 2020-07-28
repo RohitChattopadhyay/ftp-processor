@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "myosin light chain",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0001725" ],
+      "Species" : [ "taxonomy:10298" ]
+    }
+  },
+  "verbose_text" : "This was shown to be mediated by two pathways, direct phosphorylation of the light chain by the RhoA effector, Rho kinase (ROCK) [XREF_BIBR] and by this same kinase phosphorylating and inhibiting the myosin light chain phosphatase [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:44:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:36:02Z",
+  "trigger" : "phosphorylating",
+  "evidence" : [ "phosphorylating and inhibiting the myosin light chain" ],
+  "pmc_id" : "3929014",
+  "score" : 0
+}

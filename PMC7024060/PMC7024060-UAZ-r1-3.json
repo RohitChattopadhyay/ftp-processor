@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:F7VJQ1",
+      "entity_text" : "PrP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0563" ],
+      "Species" : [ "taxonomy:103820" ],
+      "Cellular_component" : [ "go:GO:0032991" ]
+    }
+  },
+  "verbose_text" : "A further dimension of PrP nucleic acid interactions was uncovered when it was observed that native PrP is capable of chaperoning the RT enzyme in retroviral cDNA synthesis assays [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:44:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:27:29Z",
+  "trigger" : "interactions",
+  "evidence" : [ "PrP nucleic acid interactions" ],
+  "pmc_id" : "7024060",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NQC7",
+      "entity_text" : "CYLD",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10242",
+      "entity_text" : "MYB",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of MYB is known to drive proliferation of CYLD defective cylindroma cells, and molecular heterogeneity in the pathogenesis of sporadic and inherited cutaneous cylindromas appears to converge on MYB activation [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:46:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:44:16Z",
+  "trigger" : "drive",
+  "evidence" : [ "MYB is known to drive proliferation of CYLD" ],
+  "pmc_id" : "5831977",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "In mice made diabetic by streptozotocin, those who were CFTR-null (-/-) had higher blood glucose levels than other mice; the investigators concluded that islet dysfunction is inherent to the CFTR -/- state.",
+  "reading_complete" : "2020-07-28T14:21:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:20:02Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "2518346",
+  "score" : 0
+}

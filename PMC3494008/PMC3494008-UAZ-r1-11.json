@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04275",
+      "entity_text" : "vWF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In general, the prevailing view is that coagulation factor production is restricted to three compartments : the liver, where most coagulation factor production takes place; the endothelium, which is characterized, for example, by high levels of vWF; and the platelets, which, despite being devoid of a nucleus, seem to be capable of substantial coagulation factor production XREF_BIBR.",
+  "reading_complete" : "2020-07-28T14:12:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:11:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of vWF" ],
+  "pmc_id" : "3494008",
+  "score" : 0
+}

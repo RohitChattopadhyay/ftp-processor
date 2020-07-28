@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E707" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Individuals with a 2-h postprandial glucose of> = 7.8 mmol/l (140 mg/dl) were defined as having postprandial hyperglycemia, because those with normal glucose regulation rarely have a plasma glucose level of> = 7.8 mmol/l (140 mg/dl) or higher.",
+  "reading_complete" : "2020-07-28T14:59:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:56:51Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "2732157",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17948",
+      "entity_text" : "VEGFR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49763",
+      "entity_text" : "PlGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "VEGF-A, a potent inducer of vascular permeability, binds to both VEGF type-1 (fms like tyrosine kinase-1 or Flt-1) and type-2 (kinase insert domain containing receptor, referred to as KDR in humans or Flk-1 in other species) receptors (VEGFR1 and VEGFR2), whereas PlGF binds only to VEGFR1, so comparing their activities may be a means of dissecting the respective roles of the VEGF receptor isoforms, since both receptors have been implicated in BRB breakdown.",
+  "reading_complete" : "2020-07-28T14:17:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:15:43Z",
+  "trigger" : "binds",
+  "evidence" : [ "PlGF binds only to VEGFR1" ],
+  "pmc_id" : "7150236",
+  "score" : 0
+}

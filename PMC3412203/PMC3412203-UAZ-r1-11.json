@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9ULH0",
+      "entity_text" : "arms",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00268",
+      "entity_text" : "Ki-67",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0828" ]
+    }
+  },
+  "verbose_text" : "No tests for Ki-67 interaction with the treatment arms of RTOG 86-10 were performed to allow predictive assessment.",
+  "reading_complete" : "2020-07-28T14:17:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:04:53Z",
+  "trigger" : "interaction",
+  "evidence" : [ "Ki-67 interaction with the treatment arms" ],
+  "pmc_id" : "3412203",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:F7VJQ1",
+      "entity_text" : "PrP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01128",
+      "entity_text" : "PrP Sc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0019015" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : ") In turn, PrP Sc binds to PrP C and promotes Prp C --> PrP Sc conversion, leading to amplification of (supposedly neurotoxic) PrP Sc and disease.",
+  "reading_complete" : "2020-07-28T14:44:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:27:29Z",
+  "trigger" : "binds",
+  "evidence" : [ "PrP Sc  binds to PrP" ],
+  "pmc_id" : "7024060",
+  "score" : 0
+}

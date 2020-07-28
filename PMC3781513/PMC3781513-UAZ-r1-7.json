@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "During OL control on sedentary days, the mean +/- SD overnight blood glucose level was 126 +/- 37 mg/dL, with 87% of blood glucose levels within the 70-180 mg/dL range and 4% of values < 70 mg/dL (XREF_TABLE).",
+  "reading_complete" : "2020-07-28T15:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:00:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3781513",
+  "score" : 0
+}

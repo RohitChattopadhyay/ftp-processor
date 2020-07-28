@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0389" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, exposure to the drug can alter the amounts of dopamine transporters or dopamine receptors present on the surface of nerve cells.",
+  "reading_complete" : "2020-07-28T13:34:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:33:45Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of dopamine" ],
+  "pmc_id" : "2851032",
+  "score" : 0
+}

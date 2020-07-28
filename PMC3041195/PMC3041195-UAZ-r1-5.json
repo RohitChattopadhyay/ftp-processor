@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Models were adjusted for known diabetes risk factors as well as sun exposure (based on latitude of clinical center), which may be a potential effect modifier of vitamin D level that may also influence diabetes risk.",
+  "reading_complete" : "2020-07-28T14:40:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:39:11Z",
+  "trigger" : "level",
+  "evidence" : [ "vitamin D level" ],
+  "pmc_id" : "3041195",
+  "score" : 0
+}

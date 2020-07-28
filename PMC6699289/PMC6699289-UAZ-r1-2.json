@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92560",
+      "entity_text" : "BAP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0114" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A 55% rate of loss of BAP1 has been described in malignant peritoneal mesotheliomas in a large cohort of cases with 45% of cases showing retention of BAP1, limiting the significance of this marker for the diagnosis of malignant mesothelioma to BAP1 negative cases.",
+  "reading_complete" : "2020-07-28T14:33:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:31:37Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of BAP1" ],
+  "pmc_id" : "6699289",
+  "score" : 0
+}

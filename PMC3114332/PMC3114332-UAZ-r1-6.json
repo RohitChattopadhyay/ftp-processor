@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In multivariable linear regression modeling, baseline fasting glucose (parameter estimate 6.6; P < 0.0001) was a significant predictor of AUC 0-8 glucose, whereas weight was of borderline significance (0.03; P = 0.08) and AUC 0-infinity metformin levels were not a significant predictor (-0.00005; P = 0.5) (overall model adjusted R 2 = 0.8).",
+  "reading_complete" : "2020-07-28T13:26:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:24:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "metformin levels" ],
+  "pmc_id" : "3114332",
+  "score" : 0
+}

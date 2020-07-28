@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51681",
+      "entity_text" : "CCR5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14624",
+      "entity_text" : "gp120",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "For all gp120s tested, sCD4 greatly enhanced gp120 binding to CCR5, as expected, with non-mac-tropic gp120s maintaining higher CCR5 binding capacity compared to their counterpart mac-tropic gp120s for the three subjects studied, although this was not significant.",
+  "reading_complete" : "2020-07-28T15:00:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:55:57Z",
+  "trigger" : "binding",
+  "evidence" : [ "gp120 binding to CCR5" ],
+  "pmc_id" : "6369005",
+  "score" : 0
+}

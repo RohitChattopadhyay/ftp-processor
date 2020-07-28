@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0054" ]
+    }
+  },
+  "verbose_text" : "Also excluded were those who had incomplete baseline data, missing fasting glucose or 2-h postprandial glucose data, severely impaired renal function (serum creatinine levels> = 530 mumol/l [6 mg/dl]), or comorbidity with cancer.",
+  "reading_complete" : "2020-07-28T14:59:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:56:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "2732157",
+  "score" : 0
+}

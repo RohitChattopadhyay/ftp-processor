@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "An independent-samples t-test revealed no significant differences between the three groups in terms of age and education level (ps> 0.05).",
+  "reading_complete" : "2020-07-28T14:14:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:11:27Z",
+  "trigger" : "level",
+  "evidence" : [ "age and education level" ],
+  "pmc_id" : "6760123",
+  "score" : 0
+}

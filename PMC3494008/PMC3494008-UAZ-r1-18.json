@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05430",
+      "entity_text" : "FVIII",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04275",
+      "entity_text" : "vWF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellType" : [ "cl:CL:0002334" ]
+    }
+  },
+  "verbose_text" : "vWF forms a complex with FVIII, which stabilizes FVIII.",
+  "reading_complete" : "2020-07-28T14:12:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:11:34Z",
+  "trigger" : "forms a complex",
+  "evidence" : [ "vWF forms a complex with FVIII" ],
+  "pmc_id" : "3494008",
+  "score" : 0
+}

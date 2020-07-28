@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "Pearson 's correlation analysis demonstrated that the percentage of B-cells was positively correlated with the level of insulin resistance.",
+  "reading_complete" : "2020-07-28T14:35:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:32:56Z",
+  "trigger" : "level",
+  "evidence" : [ "level of insulin" ],
+  "pmc_id" : "7040503",
+  "score" : 0
+}

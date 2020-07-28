@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51681",
+      "entity_text" : "CCR5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03386",
+      "entity_text" : "Env",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0584" ],
+      "Species" : [ "taxonomy:11676" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0005515" ]
+    }
+  },
+  "verbose_text" : "Env binding to CCR5 was tested by measuring soluble gp120 attachment to CCR5 expressed on Cf2Th / CCR5 cells [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T15:00:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:55:57Z",
+  "trigger" : "binding",
+  "evidence" : [ "Env binding to CCR5" ],
+  "pmc_id" : "6369005",
+  "score" : 0
+}

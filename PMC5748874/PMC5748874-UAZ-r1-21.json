@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75751",
+      "entity_text" : "EMT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08050",
+      "entity_text" : "FOXM1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Many genes influence EMT, overexpression of the FOXM1 gene has been demonstrated to stimulate EMT like changes in cells and EMT has also been shown to increase the regulation of MMP1 [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:01:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:56:52Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "FOXM1 gene has been demonstrated to stimulate EMT" ],
+  "pmc_id" : "5748874",
+  "score" : 0
+}

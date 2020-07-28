@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:F7VJQ1",
+      "entity_text" : "PrP",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Although this remains to be independently confirmed, this finding suggests that familial TSE mutant PrP can upregulate the proliferation of an endogenous element.",
+  "reading_complete" : "2020-07-28T14:44:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:27:29Z",
+  "trigger" : "upregulate",
+  "evidence" : [ "PrP can upregulate the proliferation" ],
+  "pmc_id" : "7024060",
+  "score" : 0
+}

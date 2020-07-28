@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0150" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "This is in agreement with Lowe et al. 2017 [XREF_BIBR] and Mutl et al. 2016 [XREF_BIBR] who found significantly lower serum level of vitamin D in the majority of full-term neonates with HIE which may be related to lower circulating anti-inflammatory IL-17.",
+  "reading_complete" : "2020-07-28T14:42:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:38:18Z",
+  "trigger" : "level",
+  "evidence" : [ "level of vitamin D" ],
+  "pmc_id" : "7040512",
+  "score" : 0
+}

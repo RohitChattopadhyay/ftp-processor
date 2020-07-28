@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86SK9",
+      "entity_text" : "sCD4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01460",
+      "entity_text" : "LN8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "Finally, the presence of 5 mug of maraviroc per ml blocked LN8 and LN8 / sCD4 complexes from binding CCR5 + Cf2Th / CCR5 cells, while 5 mug of CXCR4 specific AMD3100 per ml had no effect.",
+  "reading_complete" : "2020-07-28T15:00:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:55:57Z",
+  "trigger" : "complexes",
+  "evidence" : [ "LN8/sCD4 complexes" ],
+  "pmc_id" : "6369005",
+  "score" : 0
+}

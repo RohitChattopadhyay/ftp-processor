@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S806",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q66T02",
+      "entity_text" : "Syx",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0005912" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10298" ]
+    }
+  },
+  "verbose_text" : "A recent study by Ngok et al. determined that Syx (a Rho GEF, also known as PLEKHG5 and KIAA0720) regulates downstream activation of ROCK or Dia depending on its junctional localization controlled by phosphorylation of Syx at S806 [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:44:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:36:02Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Syx at S806" ],
+  "pmc_id" : "3929014",
+  "score" : 0
+}

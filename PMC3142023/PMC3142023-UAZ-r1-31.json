@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3694" ],
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The proportion of the glycated sites, HbA 1c, within the erythrocyte increases throughout its life span and reflect the exposure to mean blood glucose (MBG) levels during the preceding 2-3 months.",
+  "reading_complete" : "2020-07-28T14:16:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:15:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose (MBG) levels" ],
+  "pmc_id" : "3142023",
+  "score" : 0
+}

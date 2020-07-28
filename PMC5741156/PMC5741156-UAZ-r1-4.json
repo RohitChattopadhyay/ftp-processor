@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0638" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Regression analyses of monocyte DPP4 expression with metabolic parameters showed monocyte DPP4 expression was positively correlated with plasma levels of triglycerides and non HDL cholesterol (XREF_FIG) but not with fasting blood glucose or insulin levels.",
+  "reading_complete" : "2020-07-28T13:42:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:42:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "5741156",
+  "score" : 0
+}

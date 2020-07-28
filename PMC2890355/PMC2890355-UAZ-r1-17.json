@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "eGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The assumption that patients first pass through states with increasing levels of AER before eventually showing a decline in GFR has been challenged by several studies which showed that a substantial proportion of adults with type 2 diabetes developed eGFR levels < 60 ml/min 1.73m 2 had normal urinary AER.",
+  "reading_complete" : "2020-07-28T14:03:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:01:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "eGFR levels" ],
+  "pmc_id" : "2890355",
+  "score" : 0
+}

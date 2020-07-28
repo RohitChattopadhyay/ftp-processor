@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1307" ],
+      "CellType" : [ "cl:CL:0000700" ]
+    }
+  },
+  "verbose_text" : "The amount of dopamine connecting to receptors in the NAc after a dose of cocaine can exceed the amounts associated with natural activities, producing pleasure greater than that which follows thirst quenching or sex.",
+  "reading_complete" : "2020-07-28T13:34:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:33:45Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of dopamine" ],
+  "pmc_id" : "2851032",
+  "score" : 0
+}

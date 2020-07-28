@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99954",
+      "entity_text" : "PBI",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05178",
+      "entity_text" : "PVPA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Judging from the activation energy of the proton conduction for the PVPA / PBI membrane (53.3 kJ mol -1, XREF_FIG), protons move through a hydrogen bonding network of the PVPA bound to the PBI via the Grotthuss mechanism XREF_BIBR.",
+  "reading_complete" : "2020-07-28T13:55:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:52:59Z",
+  "trigger" : "bound",
+  "evidence" : [ "PVPA bound to the PBI" ],
+  "pmc_id" : "3642655",
+  "score" : 0
+}

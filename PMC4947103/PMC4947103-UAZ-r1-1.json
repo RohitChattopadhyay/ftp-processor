@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0000990" ]
+    }
+  },
+  "verbose_text" : "As animal models are living specimens, the relationship between the amounts of viral RNA and viral antigen is biologically relevant and thus can validate the quality and accuracy of a rapid diagnostic system.",
+  "reading_complete" : "2020-07-28T14:22:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:19:50Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of viral RNA and viral antigen" ],
+  "pmc_id" : "4947103",
+  "score" : 0
+}

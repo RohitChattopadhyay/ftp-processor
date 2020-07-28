@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000096" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We detected an increase in ROS production and PMN rolling flux, adhesion, and adhesion molecules, and a decrease in GSH levels, GSH / GSSG ratio, mitochondrial mass, membrane potential, and PMN rolling velocity, all of which are signs of an impairment of mitochondrial function and enhanced leukocyte-endothelium interaction.",
+  "reading_complete" : "2020-07-28T13:32:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:30:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "GSH levels" ],
+  "pmc_id" : "3661843",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The synchronization duration increases significantly with age for females (rho = 0.42, p = 0.00), whereas it does not have any correlation with age for males (rho = -0.14, p = 0.25).",
+  "reading_complete" : "2020-07-28T14:40:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:25:46Z",
+  "trigger" : "increases",
+  "evidence" : [ "duration increases significantly with age" ],
+  "pmc_id" : "2853263",
+  "score" : 0
+}

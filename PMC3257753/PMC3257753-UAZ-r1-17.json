@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Since TWEAK inhibits the activation of PI3K / Akt pathway, it is likely that TWEAK might also be causing muscle atrophy in the settings of diabetes and starvation where drop in insulin levels and inhibition of PI3K / Akt pathway are the major mechanisms of muscle loss.",
+  "reading_complete" : "2020-07-28T14:43:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:31:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels and inhibition of PI3K" ],
+  "pmc_id" : "3257753",
+  "score" : 0
+}

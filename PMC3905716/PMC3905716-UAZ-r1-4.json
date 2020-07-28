@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12252",
+      "entity_text" : "side",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11912",
+      "entity_text" : "IgA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Cellular_component" : [ "go:GO:0005604" ],
+      "CellType" : [ "cl:CL:0000775" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "By indirect IF microscopy on 1 M NaCl-split skin, IgA autoantibodies from LAD patients bind to the epidermal or dermal side of the split.",
+  "reading_complete" : "2020-07-28T13:36:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:22:24Z",
+  "trigger" : "bind",
+  "evidence" : [ "IgA autoantibodies from LAD patients bind to the epidermal or dermal side" ],
+  "pmc_id" : "3905716",
+  "score" : 0
+}

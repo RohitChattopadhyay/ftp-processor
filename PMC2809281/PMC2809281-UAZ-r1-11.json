@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As shown by FACS analysis for intracellular cytokine production, monocytes from diabetic control and healthy control subjects did not spontaneously produce detectable amounts of TNF-alpha, IL-1beta, IL-6, IL-4, and IL-10.",
+  "reading_complete" : "2020-07-28T15:08:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:07:13Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of TNF-alpha" ],
+  "pmc_id" : "2809281",
+  "score" : 0
+}

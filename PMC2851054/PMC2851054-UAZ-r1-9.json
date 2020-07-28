@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, more opioid is needed to stimulate the VTA brain cells of the mesolimbic reward system to release the same amount of DA in the NAc.",
+  "reading_complete" : "2020-07-28T13:43:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:42:13Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of DA" ],
+  "pmc_id" : "2851054",
+  "score" : 0
+}

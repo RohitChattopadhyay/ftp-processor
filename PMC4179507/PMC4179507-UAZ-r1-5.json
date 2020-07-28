@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3549" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "In a recent study involving both day and night closed-loop over 32 h in a hospital in 12 adolescents, plasma glucose levels were in the range of 71-145 mg/dL for 76% on the first night and 95% on the second night.",
+  "reading_complete" : "2020-07-28T14:01:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:00:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4179507",
+  "score" : 0
+}
