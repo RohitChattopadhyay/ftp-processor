@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41162",
+      "entity_text" : "MetS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Reduced serum ferritin levels may cause lower incidence of MetS in women compared with men.",
+  "reading_complete" : "2020-07-28T11:49:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:48:38Z",
+  "trigger" : "cause",
+  "evidence" : [ "ferritin levels may cause lower incidence of MetS" ],
+  "pmc_id" : "3507565",
+  "score" : 0
+}

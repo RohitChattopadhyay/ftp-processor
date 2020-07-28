@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Based on the OGTT results classified by 1985 World Health Organization (WHO) criteria, 630 participants (300 men and 330 women) were identified as having NDD (defined as 2-h plasma glucose level> = 11.1 mmol/L).",
+  "reading_complete" : "2020-07-28T11:48:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:46:42Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "4477333",
+  "score" : 0
+}

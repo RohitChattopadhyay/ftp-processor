@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Those without previously diagnosed diabetes and with 2-h plasma glucose levels> = 6.7 mmol/L (n = 4,209) after the standard meal were invited to have a 75-g oral glucose tolerance test (OGTT), which included measurement of fasting and 2-h postload plasma glucose levels, and 3,956 participants (94.0%) received this test.",
+  "reading_complete" : "2020-07-28T11:48:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:46:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4477333",
+  "score" : 0
+}

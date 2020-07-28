@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "After adjusting for multiple covariates, the hazard ratios (95% CI) for incident MetS comparing the second quintile to the fifth quintile of serum ferritin levels versus the first quintile were 1.19 (0.98-1.45), 1.17 (0.96-1.43), 1.36 (1.12-1.65), and 1.66 (1.38-2.01), respectively (P for trend < 0.001).",
+  "reading_complete" : "2020-07-28T11:49:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:48:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "ferritin levels" ],
+  "pmc_id" : "3507565",
+  "score" : 0
+}

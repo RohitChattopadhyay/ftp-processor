@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41162",
+      "entity_text" : "MetS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Several cross-sectional studies have previously shown an association between serum ferritin and MetS and its components.",
+  "reading_complete" : "2020-07-28T11:49:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:48:38Z",
+  "trigger" : "association",
+  "evidence" : [ "association between serum ferritin and MetS" ],
+  "pmc_id" : "3507565",
+  "score" : 0
+}

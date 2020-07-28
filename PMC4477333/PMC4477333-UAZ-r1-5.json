@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Plasma glucose levels were measured in 110,660 subjects (87.3% of the eligible study population; 55,391 men and 55,269 women) 2 h (+/-5 min) after each had consumed a standardized breakfast consisting of a 100-g steamed bread bun containing ~ 80 g of carbohydrate.",
+  "reading_complete" : "2020-07-28T11:48:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:46:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4477333",
+  "score" : 0
+}
