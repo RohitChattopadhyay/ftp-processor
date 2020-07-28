@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08253",
+      "entity_text" : "MMP-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Our results showed that aerosol delivery of shOPN significantly decreased the expression levels of CD44v6, VEGF, MMP-2, and MMP-9, strongly suggesting that suppression of OPN by lentiviral shOPN via aerosol can effectively inhibit migration, angiogenesis, and invasion of breast cancer cells into the lung.",
+  "reading_complete" : "2020-07-28T15:44:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:44:01Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "MMP-2, and MMP-9, strongly suggesting that suppression of OPN by lentiviral shOPN via aerosol can effectively inhibit migration, angiogenesis" ],
+  "pmc_id" : "3008732",
+  "score" : 0
+}
