@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01930",
+      "entity_text" : "PEEP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0002722" ]
+    }
+  },
+  "verbose_text" : "Given that the amount of PEEP is moderate, it may follow that the hemodynamic effects (both positive and negative) may be tempered compared to NIV.",
+  "reading_complete" : "2020-07-28T10:54:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:48:34Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of PEEP" ],
+  "pmc_id" : "7122985",
+  "score" : 0
+}
