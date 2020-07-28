@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02818",
+      "entity_text" : "osteocalcin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13950",
+      "entity_text" : "runt-related transcription factor 2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "There was an increase in runt related transcription factor 2 (Runx2) binding to the osteocalcin gene promoter, and in the expression of osteogenic markers regulated by Runx2.",
+  "reading_complete" : "2020-07-28T16:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:38:39Z",
+  "trigger" : "binding",
+  "evidence" : [ "runt-related transcription factor 2 (Runx2) binding to the osteocalcin" ],
+  "pmc_id" : "4340870",
+  "score" : 0
+}

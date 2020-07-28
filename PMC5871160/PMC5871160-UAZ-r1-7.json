@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Higher cortisol levels were also related to fewer numbers of CD3+, CD45+, CD3+ CD4+, and CD3+ CD8+ cells, which is consistent with research showing that cortisol alters the cellular immune response.",
+  "reading_complete" : "2020-07-28T16:43:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:40:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "5871160",
+  "score" : 0
+}

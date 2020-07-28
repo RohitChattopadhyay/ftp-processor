@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92565",
+      "entity_text" : "GFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "The National Kidney Foundation classification (XREF_TABLE) is primarily based on GFR levels and therefore differs from other systems, in which staging is based primarily on urinary albumin excretion.",
+  "reading_complete" : "2020-07-28T16:42:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:28:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "GFR levels" ],
+  "pmc_id" : "2797382",
+  "score" : 0
+}
