@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:IRS",
+      "entity_text" : "insulin receptor substrate",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "31 TNF-alpha has been shown to enhance adipocyte lipolysis, which further increases free fatty acids and also elicits its own direct negative effects on the insulin signaling pathway by altering the tyrosine / serine phosphorylation of insulin receptor substrate.",
+  "reading_complete" : "2020-07-28T15:21:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:20:24Z",
+  "trigger" : "enhance",
+  "evidence" : [ "TNF-alpha has been shown to enhance adipocyte lipolysis, which further increases free fatty acids and also elicits its own direct negative effects on the insulin signaling pathway by altering the tyrosine/serine phosphorylation of insulin receptor substrate" ],
+  "pmc_id" : "5871267",
+  "score" : 0
+}
