@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:867",
+      "entity_text" : "malonic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "By means of Chenomx package even minor compounds were safely identified, as for example, methyl malonic acid (a C methylated derivative of malonic acid), which shows peaks at about 1.12 and 3.07 ppm (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-07-28T15:45:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:43:49Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated derivative of malonic acid" ],
+  "pmc_id" : "3793219",
+  "score" : 0
+}
