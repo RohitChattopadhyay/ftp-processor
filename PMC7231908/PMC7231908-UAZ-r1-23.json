@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10918",
+      "entity_text" : "carnitine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0001557" ]
+    }
+  },
+  "verbose_text" : "Diagnosis is based on the detection of very low levels of plasma free carnitine followed by the confirmation with diminished carnitine transporter activity in skin fibroblast [XREF_BIBR] or the verification of biallelic pathogenic variants in the SLC22A5 gene [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:27:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:08:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of plasma free carnitine" ],
+  "pmc_id" : "7231908",
+  "score" : 0
+}

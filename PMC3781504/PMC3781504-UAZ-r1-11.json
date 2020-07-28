@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "It is also possible that human SGLT2 works differently from rodent SGLT2 and that the increase in plasma and urine glucose concentrations associated with the marked increase in plasma glucose levels (i.e., in excess of 13.9 mmol/L [250 mg/dL]) alters the transport characteristics of the SGLT2 transporter, rendering it more susceptible to inhibition with dapagliflozin.",
+  "reading_complete" : "2020-07-28T11:26:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:21:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3781504",
+  "score" : 0
+}

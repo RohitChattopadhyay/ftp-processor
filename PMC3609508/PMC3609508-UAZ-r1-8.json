@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "By comparing the amount of intravenous glucose required to match the plasma glucose curves from the gastric and jejunal delivery routes, we determined that the gastrointestinal (GI) tract accounted for 19% of glucose disposal after gastric glucose delivery and increased ~ twofold to 40% with jejunal delivery (P = 0.01).",
+  "reading_complete" : "2020-07-28T11:30:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:30:16Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of intravenous glucose" ],
+  "pmc_id" : "3609508",
+  "score" : 0
+}

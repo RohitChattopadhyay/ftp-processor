@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10918",
+      "entity_text" : "carnitine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0407" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although 99% of the carnitine amount has an intracellular localization, mainly found in the skeletal and cardiac muscle (98%), the relationship between serum acylcarnitine (AC) and free carnitine (FC) is highly sensitive to intramitochondrial alterations, therefore the measurement of AC and FC can reflect metabolic alterations in normal and abnormal situations as well, and the acylcarnitine profile analysis could be a promising tool for the investigation of these circumstances.",
+  "reading_complete" : "2020-07-28T11:27:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:08:33Z",
+  "trigger" : "amount",
+  "evidence" : [ "carnitine amount" ],
+  "pmc_id" : "7231908",
+  "score" : 0
+}

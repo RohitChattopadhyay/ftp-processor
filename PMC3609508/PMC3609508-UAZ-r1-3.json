@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The plasma glucose peak level and incremental area under the curve (iAUC) were not different between delivery routes (P> = 0.17).",
+  "reading_complete" : "2020-07-28T11:30:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:30:16Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose peak level" ],
+  "pmc_id" : "3609508",
+  "score" : 0
+}
