@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0070469" ],
+      "Organ" : [ "uberon:UBERON:0000415" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "In this way, an increase in the production of ROS, a decrease in GSH levels and the GSH / GSSG ratio, and a reduction in the mitochondrial membrane potential and mitochondrial mass, all of which are characteristics of diabetes, are likely to lead to dysfunction within the respiratory chain, which subsequently compromises the functioning of mitochondria as a source of energy.",
+  "reading_complete" : "2020-07-28T13:32:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:30:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "GSH levels" ],
+  "pmc_id" : "3661843",
+  "score" : 0
+}
