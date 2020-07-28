@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01318",
+      "entity_text" : "ONFH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08183",
+      "entity_text" : "ABCB1",
+      "features" : [ {
+        "to_base" : "C",
+        "site" : 3435,
+        "feature_type" : "mutation",
+        "evidence" : "C3435T"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A totally reverse relevance, however, was revealed in the study by He and Li, [XREF_BIBR] that was to say, the ABCB1 C3435T polymorphism increased the susceptibility to ONFH.",
+  "reading_complete" : "2020-07-28T15:06:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:03:38Z",
+  "trigger" : "increased",
+  "evidence" : [ "ABCB1 C3435T polymorphism increased the susceptibility to ONFH" ],
+  "pmc_id" : "5440122",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HBE4",
+      "entity_text" : "IL-21",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Similar to JHMV infection, no differences in peripheral CD8 T cell expansion or expression of T cell derived IFN-gamma were detected between T. gondii infected IL-21 -/- and WT mice; however, during chronic infection loss of IL-21 reduced CNS derived T cell mediated IFN-gamma and IL-10 production arguing IL-21 to be essential for maintenance of local T cell responses in the CNS.",
+  "reading_complete" : "2020-07-28T15:07:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:03:57Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of IL-21" ],
+  "pmc_id" : "3796038",
+  "score" : 0
+}
