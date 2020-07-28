@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00084",
+      "entity_text" : "IgM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "On B cells, the antigen / epitope binding site designated paratope is located at each tip of the two Fab fragments that are displayed by membrane bound monomeric IgM constituting the B cell receptor XREF_BIBR.",
+  "reading_complete" : "2020-07-28T14:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:28:43Z",
+  "trigger" : "bound",
+  "evidence" : [ "antigen/epitope binding site designated paratope is located at each tip of the two Fab fragments that are displayed by membrane-bound monomeric IgM" ],
+  "pmc_id" : "3823795",
+  "score" : 0
+}
