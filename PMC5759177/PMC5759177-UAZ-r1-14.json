@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282315",
+      "entity_text" : "tacrolimus",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0900" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0001776" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "High blood levels of tacrolimus (along with local absorption) might contribute to high concentrations of tacrolimus in the choroid / sclera.",
+  "reading_complete" : "2020-07-28T12:06:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:03:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of tacrolimus" ],
+  "pmc_id" : "5759177",
+  "score" : 0
+}

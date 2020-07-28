@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-1108" ],
+      "Organ" : [ "uberon:UBERON:0004452" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "After baseline blood collection, a bolus of glucose (300 mg/kg in a 50% solution) was given (within 30 s) into the antecubital vein to acutely increase the blood glucose level.",
+  "reading_complete" : "2020-07-28T12:04:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:03:41Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "3308308",
+  "score" : 0
+}

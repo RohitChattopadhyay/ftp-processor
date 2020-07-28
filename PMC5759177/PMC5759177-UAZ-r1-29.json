@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282315",
+      "entity_text" : "tacrolimus",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Lower levels of tacrolimus (2-40 ng/ml) were detected in the blood in mice treated with Tacrolimus / PBS eyedrop, although the levels were not statistically higher than those in untreated controls mice.",
+  "reading_complete" : "2020-07-28T12:06:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:03:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of tacrolimus" ],
+  "pmc_id" : "5759177",
+  "score" : 0
+}
