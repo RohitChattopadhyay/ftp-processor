@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:LDH",
+      "entity_text" : "LDH",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Using Cox regression for multivariate analysis, elevated LDH level and age above 60 were independent unfavorable prognostic factors.",
+  "reading_complete" : "2020-07-28T15:53:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:51:03Z",
+  "trigger" : "level",
+  "evidence" : [ "LDH level" ],
+  "pmc_id" : "6708869",
+  "score" : 0
+}
