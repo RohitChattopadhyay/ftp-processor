@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0014402" ]
+    }
+  },
+  "verbose_text" : "The oral disposition index, which assesses the acute insulin response in relation to the level of insulin sensitivity, was defined as (I 30 - I 0) (mIU/L) / (G 30 - G 0) (mg/dL) x Matsuda ISI.",
+  "reading_complete" : "2020-07-28T13:07:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:03:40Z",
+  "trigger" : "level",
+  "evidence" : [ "level of insulin" ],
+  "pmc_id" : "5399651",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00077",
+      "entity_text" : "C-peptide",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_U565" ],
+      "Species" : [ "taxonomy:76720" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Plasma insulin and C-peptide levels below the detection limits were corrected to the lowest detectable levels.",
+  "reading_complete" : "2020-07-28T13:07:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:03:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "C-peptide levels" ],
+  "pmc_id" : "5399651",
+  "score" : 0
+}
