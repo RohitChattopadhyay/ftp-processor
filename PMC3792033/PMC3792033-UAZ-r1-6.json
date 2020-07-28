@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:O15534",
+      "entity_text" : "PER",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y2S2",
+      "entity_text" : "CRY",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "After translation, the PER and CRY proteins form complexes that enter the nucleus and inhibit their own transcription, which establishes a negative feedback loop and drives a rhythm XREF_BIBR, XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-07-28T17:36:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:34:12Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "PER and CRY proteins form complexes that enter the nucleus and inhibit their own transcription" ],
+  "pmc_id" : "3792033",
+  "score" : 0
+}

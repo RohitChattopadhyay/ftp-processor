@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02985",
+      "entity_text" : "heat",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00613",
+      "entity_text" : "HSF1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "The central molecule is the heat shock factor 1 (HSF1), which is activated by environmental stress XREF_BIBR and binds as a trimeric transcription factor to heat shock elements (HSE) in the promoters of several downstream genes, such as the chaperones Hsp70 and Hsp90 XREF_BIBR.",
+  "reading_complete" : "2020-07-28T17:36:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:34:12Z",
+  "trigger" : "binds",
+  "evidence" : [ "HSF1), which is activated by environmental stress  XREF_BIBR  and binds as a trimeric transcription factor to heat" ],
+  "pmc_id" : "3792033",
+  "score" : 0
+}
