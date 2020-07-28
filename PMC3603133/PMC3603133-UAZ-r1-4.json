@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellLine" : [ "cellosaurus:CVCL_3901" ],
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Organ" : [ "uberon:UBERON:0003003" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Versari et al also showed that HUVECs in microgravity for 96 hours had disorganization of the actin cytoskeleton and a decrease in the total amount of actin XREF_BIBR.",
+  "reading_complete" : "2020-07-28T18:14:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:13:26Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of actin" ],
+  "pmc_id" : "3603133",
+  "score" : 0
+}
