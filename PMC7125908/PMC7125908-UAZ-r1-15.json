@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04141",
+      "entity_text" : "CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ],
+      "CellType" : [ "cl:CL:0000669" ]
+    }
+  },
+  "verbose_text" : "Direct measurement of CSF levels of various products (unless completely absent from serum) without normalization by BBB permeability would give inappropriate results and this technical pitfall should be avoided (XREF_TABLE).",
+  "reading_complete" : "2020-07-28T14:37:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:35:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "CSF levels" ],
+  "pmc_id" : "7125908",
+  "score" : 0
+}

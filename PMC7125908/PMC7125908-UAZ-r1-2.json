@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02778",
+      "entity_text" : "CXCL10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "The CXCL10 level in the CSF is consistently elevated in all HIV + patients, whatever the stage.",
+  "reading_complete" : "2020-07-28T14:37:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:35:12Z",
+  "trigger" : "level",
+  "evidence" : [ "CXCL10 level" ],
+  "pmc_id" : "7125908",
+  "score" : 0
+}

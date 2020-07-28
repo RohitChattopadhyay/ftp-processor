@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "IFN",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0584" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The absence of significantly enhanced IL-15 expression during infection is consistent with low levels of type I IFN induction by coronaviruses.",
+  "reading_complete" : "2020-07-28T14:39:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:37:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of type I IFN" ],
+  "pmc_id" : "2679951",
+  "score" : 0
+}

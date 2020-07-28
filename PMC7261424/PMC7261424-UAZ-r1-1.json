@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "One has to speculate that maybe this patient did better than expected because B-cells are a major source of Interleukin 6 (IL-6) production and depleting B-cells may help dampen the typical cytokine storm effects with lower IL-6 levels.",
+  "reading_complete" : "2020-07-28T14:42:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:41:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-6 levels" ],
+  "pmc_id" : "7261424",
+  "score" : 0
+}
