@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02810",
+      "entity_text" : "PA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Within the 60- to 79-year age-group, we did not find evidence for interactions between PA and age; P (LR test) = 0.7 for model 1.",
+  "reading_complete" : "2020-07-28T14:15:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:13:48Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between PA and age" ],
+  "pmc_id" : "3424991",
+  "score" : 0
+}
