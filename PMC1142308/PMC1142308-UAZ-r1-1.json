@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03386",
+      "entity_text" : "env",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031975" ],
+      "Species" : [ "taxonomy:103820" ]
+    }
+  },
+  "verbose_text" : "One explanation for an abrupt and complete loss of env is anomalous splicing of a genomic transcript containing gag-pol-env.",
+  "reading_complete" : "2020-07-28T13:06:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:00:09Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of env" ],
+  "pmc_id" : "1142308",
+  "score" : 0
+}
