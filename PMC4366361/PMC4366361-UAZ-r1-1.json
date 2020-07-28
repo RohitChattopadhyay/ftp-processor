@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "Tyr 1007/1008",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "JAK2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03065",
+      "entity_text" : "JSI-124",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Our results showed that phosphorylation of JAK2 (Tyr 1007/1008) was dose-dependently blocked by JSI-124 in HUVECs, indicating that the direct effects of JSI-124 on angiogenesis might be through inhibiting the VEGFR2 / STAT3 signaling pathway.",
+  "reading_complete" : "2020-07-28T18:15:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:11:33Z",
+  "trigger" : "blocked",
+  "evidence" : [ "phosphorylation of JAK2 (Tyr 1007/1008 ) was dose-dependently blocked by JSI-124" ],
+  "pmc_id" : "4366361",
+  "score" : 0
+}

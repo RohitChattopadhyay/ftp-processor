@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0022" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Glioblastomas secrete a very large quantity of VEGF protein into the surrounding microenvironment, thereby allowing endothelial cell proliferation, migration, and tube formation [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T18:15:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:11:33Z",
+  "trigger" : "quantity",
+  "evidence" : [ "quantity of VEGF" ],
+  "pmc_id" : "4366361",
+  "score" : 0
+}
