@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11912",
+      "entity_text" : "IgA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Patients with type 1 diabetes should be screened for celiac disease by measuring tissue transglutaminase or anti-endomysial antibodies, with documentation of normal serum IgA levels, soon after the diagnosis of diabetes.",
+  "reading_complete" : "2020-07-28T15:22:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:21:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "IgA levels" ],
+  "pmc_id" : "2613585",
+  "score" : 0
+}

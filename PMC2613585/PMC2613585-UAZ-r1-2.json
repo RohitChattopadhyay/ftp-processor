@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Critically ill surgical patients ' blood glucose levels should be kept as close to 110 mg/dl (6.1 mmol/l) as possible, and generally < 140 mg/dl (7.8 mmol/l).",
+  "reading_complete" : "2020-07-28T15:22:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:21:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "2613585",
+  "score" : 0
+}

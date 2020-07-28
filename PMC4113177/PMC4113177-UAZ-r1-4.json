@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "1c",
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Initial clinical trials have shown that dulaglutide treatment results in dose dependent reductions in fasting plasma glucose (FPG), postprandial plasma glucose, and glycosylated hemoglobin A 1c (HbA 1c).",
+  "reading_complete" : "2020-07-28T15:20:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:14:46Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated hemoglobin A 1c" ],
+  "pmc_id" : "4113177",
+  "score" : 0
+}
