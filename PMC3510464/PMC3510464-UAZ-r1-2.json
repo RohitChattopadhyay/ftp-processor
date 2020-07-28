@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37840",
+      "entity_text" : "alpha-synuclein",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Cellular_component" : [ "go:GO:0043025" ],
+      "Organ" : [ "uberon:UBERON:0002266" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "An antibody that specifically recognizes phospho-Ser129 was used to determine whether neuronal cell bodies in the mouse lemur contain this modified form of alpha-synuclein and whether alpha-synuclein phosphorylation is enhanced by aging.",
+  "reading_complete" : "2020-07-28T12:32:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:32:33Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "alpha-synuclein phosphorylation" ],
+  "pmc_id" : "3510464",
+  "score" : 0
+}
