@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0095" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "While insulin delivery was fixed during this period of time during OL therapy, CL insulin delivery allowed for minute-to-minute alterations in the amount of insulin received.",
+  "reading_complete" : "2020-07-28T15:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:00:57Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of insulin" ],
+  "pmc_id" : "3781513",
+  "score" : 0
+}

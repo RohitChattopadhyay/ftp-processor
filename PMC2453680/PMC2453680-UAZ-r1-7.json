@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "RBP4 levels did not change when insulin resistance was reduced by metformin or increased by the OCP.",
+  "reading_complete" : "2020-07-28T15:00:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:59:42Z",
+  "trigger" : "reduced",
+  "evidence" : [ "insulin resistance was reduced by metformin" ],
+  "pmc_id" : "2453680",
+  "score" : 0
+}

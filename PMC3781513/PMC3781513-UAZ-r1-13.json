@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As insulin doses during CL therapy are based off of sensor glucose levels, mean sensor glucose levels were also calculated for the overnight period during both CL conditions and found to be similar to that derived from reference blood glucose data, except that on the CL exercise nights only 1% of sensor glucose readings were < 70 mg/dL compared with 5% of reference glucose levels.",
+  "reading_complete" : "2020-07-28T15:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:00:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3781513",
+  "score" : 0
+}

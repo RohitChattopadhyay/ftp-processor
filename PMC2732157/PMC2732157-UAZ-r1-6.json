@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In a Cox model adjusting for metabolic syndrome status as well as age, sex, smoking, systolic blood pressure, LDL, and HDL cholesterol levels, elevated 2-h postprandial glucose increased the risk of cardiovascular and all-cause death (per millimole per liter increase, hazard ratio 1.26 [95% CI 1.11-1.42] and 1.10 [1.04-1.16], respectively), with significant trends across the postprandial glucose quintiles.",
+  "reading_complete" : "2020-07-28T14:59:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:56:51Z",
+  "trigger" : "increased",
+  "evidence" : [ "glucose increased the risk of cardiovascular and all-cause death" ],
+  "pmc_id" : "2732157",
+  "score" : 0
+}
