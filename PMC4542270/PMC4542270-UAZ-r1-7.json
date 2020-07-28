@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Suppression of ketogenesis requires somewhat higher insulin levels.",
+  "reading_complete" : "2020-07-28T12:59:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:57:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "4542270",
+  "score" : 0
+}

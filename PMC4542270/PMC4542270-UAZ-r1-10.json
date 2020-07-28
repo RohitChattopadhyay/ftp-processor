@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "At dinner she consumed one beer and felt nauseated, developing a low blood glucose level, but after treatment continued to feel dizzy and vomited so she was taken to an ED.",
+  "reading_complete" : "2020-07-28T12:59:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:57:50Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "4542270",
+  "score" : 0
+}

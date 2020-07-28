@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q68EA5",
+      "entity_text" : "ZNF424",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "TissueType" : [ "tissuelist:TS-0572" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The ensuing data show significantly lower ZNF424 protein expression levels in lung cancer tissues than in adjacent tissues, as identified using chi-square tests.",
+  "reading_complete" : "2020-07-28T12:57:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:56:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "ZNF424 protein expression levels" ],
+  "pmc_id" : "6225340",
+  "score" : 0
+}

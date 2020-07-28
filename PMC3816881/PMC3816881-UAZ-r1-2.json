@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "Patients with severe DFI (314.78 mg/dL) had significantly higher mean admission glucose levels than moderate infections (256.20 mg/dL) (P = 0.0294).",
+  "reading_complete" : "2020-07-28T13:00:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:59:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3816881",
+  "score" : 0
+}

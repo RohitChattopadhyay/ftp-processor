@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "During the next few days in the ICU, her CO 2 increased progressively to normal, and her blood glucose levels were in the range of 116 to 190 mg/dL (6.44-10.56 mmol/L).",
+  "reading_complete" : "2020-07-28T12:59:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:57:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4542270",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "A negative estimated coefficient for serum albumin (-1.68) suggests that the risk of major amputation decreases with one unit increase in serum albumin levels.",
+  "reading_complete" : "2020-07-28T13:00:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:59:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "serum albumin levels" ],
+  "pmc_id" : "3816881",
+  "score" : 0
+}

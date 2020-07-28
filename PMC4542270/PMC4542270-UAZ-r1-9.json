@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00086",
+      "entity_text" : "SGLT-2 inhibitor",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increased renal clearance of glucose mediated by the SGLT-2 inhibitor led to deceivingly low blood glucose levels in the setting of illness, and the reduced insulin doses at a time of heightened insulin resistance may have tipped the balance toward ketosis resulting in euDKA.",
+  "reading_complete" : "2020-07-28T12:59:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:57:50Z",
+  "trigger" : "mediated",
+  "evidence" : [ "glucose mediated by the SGLT-2 inhibitor" ],
+  "pmc_id" : "4542270",
+  "score" : 0
+}

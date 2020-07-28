@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "Apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q68EA5",
+      "entity_text" : "ZNF424",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "3.2 Overexpression of ZNF424 Induces Apoptosis in A549 Cells.",
+  "reading_complete" : "2020-07-28T12:57:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:56:20Z",
+  "trigger" : "Induces",
+  "evidence" : [ "ZNF424 Induces Apoptosis" ],
+  "pmc_id" : "6225340",
+  "score" : 0
+}
