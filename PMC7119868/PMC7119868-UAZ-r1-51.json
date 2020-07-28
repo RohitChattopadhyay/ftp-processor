@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "infiltration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CW71",
+      "entity_text" : "MCP-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Given that astrocytes are the main producers of MCP-1 within the CNS, the increased expression of MCP-1 observed following HCoV-OC43 infection might contribute to MS pathology by promoting leukocyte infiltration into the CNS.",
+  "reading_complete" : "2020-07-28T14:56:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:55:06Z",
+  "trigger" : "contribute",
+  "evidence" : [ "MCP-1 observed following HCoV-OC43 infection might contribute to MS pathology by promoting leukocyte infiltration" ],
+  "pmc_id" : "7119868",
+  "score" : 0
+}

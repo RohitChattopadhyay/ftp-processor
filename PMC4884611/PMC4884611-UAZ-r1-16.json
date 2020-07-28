@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "Il10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "IL-10 production selectively knocked-out in CD4 + and CD8 + T cells significantly reduced the amount of Il10 mRNA expressed (XREF_FIG).",
+  "reading_complete" : "2020-07-28T14:53:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:51:12Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Il10" ],
+  "pmc_id" : "4884611",
+  "score" : 0
+}

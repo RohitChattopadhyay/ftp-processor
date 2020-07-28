@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01185",
+      "entity_text" : "CIPN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0899" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "While no studies were found on associations between leptin and CIPN, in a rat model of chronic constriction injury, administration of a leptin antagonist prevented the development of injury induced mechanical allodynia and thermal hyperalgesia.",
+  "reading_complete" : "2020-07-28T14:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:53:09Z",
+  "trigger" : "associations",
+  "evidence" : [ "associations between leptin and CIPN" ],
+  "pmc_id" : "6788784",
+  "score" : 0
+}

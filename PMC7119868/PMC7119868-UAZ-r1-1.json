@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14780",
+      "entity_text" : "pro-MMP-9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2219" ],
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "CellType" : [ "cl:CL:0000129" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Untreated U-373MG astrocytic cells secreted very low levels of pro-MMP-9 which were significantly increased at 24 h post-infection, and a faint digestion site, corresponding to active MMP-9, was detected at 48 h post-infection (XREF_FIG).",
+  "reading_complete" : "2020-07-28T14:56:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:55:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of pro-MMP-9" ],
+  "pmc_id" : "7119868",
+  "score" : 0
+}
