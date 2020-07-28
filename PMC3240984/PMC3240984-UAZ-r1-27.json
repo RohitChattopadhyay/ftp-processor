@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q24117",
+      "entity_text" : "DDLC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0951" ],
+      "Cellular_component" : [ "uniprot:SL-0244" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "Therefore, the loss of DDLC1 in the cyst cells could inactivate Dynein based endosomal transport and affect the downstream activation of EGFR signaling.",
+  "reading_complete" : "2020-07-28T08:39:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:37:48Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of DDLC1" ],
+  "pmc_id" : "3240984",
+  "score" : 0
+}

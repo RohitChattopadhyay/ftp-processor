@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6035",
+      "entity_text" : "BrdU",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0002371" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "The BrdU incorporation levels in ddlc1 ins1; UASp-ddlc1/+; nosGal4/+ and ddlc1 ins1; UAS-mycPIN/+; nosGal4/+ testes were similar to that in the ddlc1 ins1 and ddlc1 ins1; UAS-mycPIN/+ controls (XREF_FIG).",
+  "reading_complete" : "2020-07-28T08:39:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:37:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "BrdU incorporation levels" ],
+  "pmc_id" : "3240984",
+  "score" : 0
+}

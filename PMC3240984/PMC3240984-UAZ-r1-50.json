@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6035",
+      "entity_text" : "BrdU",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "CellType" : [ "cl:CL:0002371" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "Additionally, high levels of BrdU incorporation were also observed in the ptcGal4/+; UAS-ddlc1 dsRNA /+ testis (XREF_FIG), suggesting that dsRNA mediated knockdown of ddlc1 in somatic cells could also cause excessive germ cell proliferation.",
+  "reading_complete" : "2020-07-28T08:39:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:37:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of BrdU" ],
+  "pmc_id" : "3240984",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q24117",
+      "entity_text" : "DDLC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0411" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:124036" ],
+      "CellType" : [ "cl:CL:0000586" ]
+    }
+  },
+  "verbose_text" : "Here, we find that a partial loss of DDLC1 in early cyst cells, but not in germ cells, deregulates the cell cycle-arrest in spermatogonia, and produces a neoplastic germline in aged adults.",
+  "reading_complete" : "2020-07-28T08:39:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:37:48Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of DDLC1" ],
+  "pmc_id" : "3240984",
+  "score" : 0
+}

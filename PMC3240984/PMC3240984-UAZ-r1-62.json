@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02440",
+      "entity_text" : "Myosin V",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0951" ],
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "Interestingly, loss of cytoplasmic Dynein and Myosin V in cyst cells did not affect the cell adhesion complexes as seen in the ddlc1 mutants.",
+  "reading_complete" : "2020-07-28T08:39:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:37:48Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of cytoplasmic Dynein and Myosin V" ],
+  "pmc_id" : "3240984",
+  "score" : 0
+}
