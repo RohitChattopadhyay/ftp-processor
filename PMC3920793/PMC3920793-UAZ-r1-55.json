@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23786",
+      "entity_text" : "CPT-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10663",
+      "entity_text" : "malonyl-CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The long-chain acyl-CoA (LC-CoA) model of glucose stimulated insulin secretion predicts that cytoplasmic malonyl-CoA, derived from elevated levels of citrate after glucose exposure, inhibits CPT-1, inhibiting LC-CoA uptake and fatty acid oxidation resulting in increases in cytoplasmic LC-CoA levels.",
+  "reading_complete" : "2020-07-28T12:10:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:09:27Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "malonyl-CoA, derived from elevated levels of citrate after glucose exposure, inhibits CPT-1" ],
+  "pmc_id" : "3920793",
+  "score" : 0
+}

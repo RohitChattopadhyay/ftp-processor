@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00606",
+      "entity_text" : "G alphaq/11 -protein complex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O14842",
+      "entity_text" : "GPR40",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Fatty acid binding to GPR40 appears to activate the G alphaq/11 -protein complex resulting in activation of phospholipase C (PLC).",
+  "reading_complete" : "2020-07-28T12:10:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:09:27Z",
+  "trigger" : "activate",
+  "evidence" : [ "acid binding to GPR40 appears to activate the G alphaq/11 -protein complex" ],
+  "pmc_id" : "3920793",
+  "score" : 0
+}

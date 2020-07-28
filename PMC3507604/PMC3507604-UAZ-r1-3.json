@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Compared with nondiabetic patients, patients with DM were older (66.2 +/- 9.9 vs. 64.1 +/- 12.2 years; P = 0.02) and more likely to be female (31.8 vs. 21.7%; P < 0.01), hypertensive (63.6 vs. 45.2%; P < 0.01), have significant renal impairment as defined by serum creatinine level> = 2 times the upper limit of normal (14.1 vs. 5.1%; P < 0.01), and on statin (78.8 vs. 71.1%; P = 0.04).",
+  "reading_complete" : "2020-07-28T12:08:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:04:57Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "3507604",
+  "score" : 0
+}

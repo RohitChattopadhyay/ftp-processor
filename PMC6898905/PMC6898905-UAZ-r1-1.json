@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00077",
+      "entity_text" : "C-peptide",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "FPG was 134 mg/dl, A1C 6.2% (< 4.2%), and C-peptide level 1.09 ng/ml (0.9-3.9).",
+  "reading_complete" : "2020-07-28T12:09:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:08:42Z",
+  "trigger" : "level",
+  "evidence" : [ "C-peptide level" ],
+  "pmc_id" : "6898905",
+  "score" : 0
+}
