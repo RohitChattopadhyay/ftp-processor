@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3316",
+      "entity_text" : "HbA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The incidence of chronic kidney disease increases progressively with increasing levels of HbA 1c, showing that, as far as albuminuria is concerned, there is no threshold for the renal risk.",
+  "reading_complete" : "2020-07-28T15:14:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:13:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of HbA" ],
+  "pmc_id" : "3632202",
+  "score" : 0
+}
