@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "interferon-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000899" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Elevated serum levels of interferon-gamma, necessary for Th1 differentiation, are detected in SS and PBC patients [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:25:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:16:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of interferon-gamma" ],
+  "pmc_id" : "5696286",
+  "score" : 0
+}

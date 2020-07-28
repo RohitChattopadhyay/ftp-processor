@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10515",
+      "entity_text" : "PBC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y275",
+      "entity_text" : "BAFF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "BAFF levels are elevated in both PBC and SS, especially if testing for anti-SSA / SSB is positive, and correlate with histopathologic findings and serum IgG levels [XREF_BIBR]; however, this finding is not specific as BAFF is elevated in several autoimmune diseases [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:25:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:16:47Z",
+  "trigger" : "elevated",
+  "evidence" : [ "BAFF levels are elevated in both PBC" ],
+  "pmc_id" : "5696286",
+  "score" : 0
+}

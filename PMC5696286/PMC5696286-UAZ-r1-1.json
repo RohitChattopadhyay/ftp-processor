@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01413",
+      "entity_text" : "C4",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0003710" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Patients of this group have an increased risk of developing lymphoproliferative disorders, since palpable purpura and low C4 serum levels have been found to be predictors of lymphoma [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:25:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:16:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "C4 serum levels" ],
+  "pmc_id" : "5696286",
+  "score" : 0
+}
