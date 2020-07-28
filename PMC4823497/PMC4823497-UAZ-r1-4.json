@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15169",
+      "entity_text" : "axin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BT92",
+      "entity_text" : "tumor suppressor protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "APC is considered a tumor suppressor protein that forms a complex with glycogen synthase kinase 3-beta (GSK-3Beta), as well as axin.",
+  "reading_complete" : "2020-07-28T13:55:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:54:19Z",
+  "trigger" : "forms a complex",
+  "evidence" : [ "tumor suppressor protein that forms a complex with glycogen synthase kinase 3-beta (GSK-3Beta), as well as axin" ],
+  "pmc_id" : "4823497",
+  "score" : 0
+}
