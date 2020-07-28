@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0001431" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Diabetes was diagnosed according to the American Diabetes Association criteria : fasting glucose> = 126 mg/dl; 2-h glucose> = 200 mg/dl with confirmation by either an elevated fasting or 2-h glucose level at a follow-up visit; or random plasma glucose> = 200 mg/dl accompanied by symptoms of polyuria, polydipsia, and/or weight loss.",
+  "reading_complete" : "2020-07-28T13:38:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:36:40Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "2992179",
+  "score" : 0
+}

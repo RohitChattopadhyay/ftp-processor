@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The 5-year risk for those with baseline values equal to or in excess of the optimal 2-h glucose cutoff level was 46% compared with 17% for those with baseline values less than the optimal cutoff.",
+  "reading_complete" : "2020-07-28T13:38:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:36:40Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose cutoff level" ],
+  "pmc_id" : "2992179",
+  "score" : 0
+}
