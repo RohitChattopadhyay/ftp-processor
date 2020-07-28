@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07325",
+      "entity_text" : "CXCL9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000842" ]
+    }
+  },
+  "verbose_text" : "Serum CXCL9 levels were significantly elevated on days 2, 3 and 4 in CD-1 mice compared to mock injected mice (days 2 and 3 P < 0.001, day 4 P < 0.01).",
+  "reading_complete" : "2020-07-28T14:49:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:47:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "CXCL9 levels" ],
+  "pmc_id" : "2562577",
+  "score" : 0
+}

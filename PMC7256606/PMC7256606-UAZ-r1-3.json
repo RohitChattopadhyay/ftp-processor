@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13500",
+      "entity_text" : "CCL2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "The levels of CCL2 was slightly higher (172 vs 83 pg/mL), while those of CCL2 and IL-8 were comparable that of controls (178 vs 242 pg/mL and 11 vs 7.6 pg/mL).",
+  "reading_complete" : "2020-07-28T14:50:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:49:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CCL2" ],
+  "pmc_id" : "7256606",
+  "score" : 0
+}
