@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26696",
+      "entity_text" : "mpk-1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Thus, to investigate whether negative feedback mechanisms downstream of Ras modulate Ras inactivation, we analyzed Ras activity in the mutants of mpk-1, which encodes MAPK in C. elegans XREF_BIBR.",
+  "reading_complete" : "2020-07-28T12:38:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:37:29Z",
+  "trigger" : "modulate",
+  "evidence" : [ "modulate Ras inactivation, we analyzed Ras activity in the mutants of mpk-1" ],
+  "pmc_id" : "3391662",
+  "score" : 0
+}

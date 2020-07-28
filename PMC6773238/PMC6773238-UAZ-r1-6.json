@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04163",
+      "entity_text" : "muscarinic receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:187",
+      "entity_text" : "acetylcholine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0001089" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "First, binding of acetylcholine to muscarinic receptors on the basolateral membrane of the clear cell triggers a release of intracellular Ca stores and an influx of extracellular Ca into cytoplasm.",
+  "reading_complete" : "2020-07-28T12:36:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:16:03Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of acetylcholine to muscarinic receptors" ],
+  "pmc_id" : "6773238",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:124036" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "It is widely known that activation of Ras is directly mediated by a Ras-guanine nucleotide exchange factor (Ras-GEF), which catalyzes the replacement of Ras bound GDP by GTP XREF_BIBR.",
+  "reading_complete" : "2020-07-28T12:38:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:37:29Z",
+  "trigger" : "bound",
+  "evidence" : [ "Ras-bound GDP" ],
+  "pmc_id" : "3391662",
+  "score" : 0
+}
