@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Species" : [ "taxonomy:11665" ],
+      "CellType" : [ "cl:CL:0000365" ]
+    }
+  },
+  "verbose_text" : "Breeding from a subset of these for four generations revealed no loss of gene expression as assessed by visual GFP fluorescence and western blot for GFP protein (Whitelaw et al. unpublished data), in contrast to other studies with lentivirus transgenes where gene silencing was observed as assessed by loss of GFP fluorescence and DNA methylation.",
+  "reading_complete" : "2020-07-28T17:31:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:29:22Z",
+  "trigger" : "methylation",
+  "evidence" : [ "GFP fluorescence and DNA methylation" ],
+  "pmc_id" : "4882362",
+  "score" : 0
+}
