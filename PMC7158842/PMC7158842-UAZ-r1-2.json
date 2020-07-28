@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Additionally, although absence of ACE2 (in knockout mice) protects against infection, it is not clear whether partial reduction of ACE2 levels, achieved through withdrawal of ACE inhibitors or ARBs, would have clinically relevant benefits.",
+  "reading_complete" : "2020-07-28T11:50:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:50:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "ACE2 levels" ],
+  "pmc_id" : "7158842",
+  "score" : 0
+}

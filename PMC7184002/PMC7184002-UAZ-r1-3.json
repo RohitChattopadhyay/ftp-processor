@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0035552" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Laboratory data showed elevated ferritin levels (615 ng/mL), C-reactive protein (CRP) = 3.6 mg/dL, and increased interleukin-6 (IL-6) (144.7 pg/mL).",
+  "reading_complete" : "2020-07-28T11:50:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:50:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "ferritin levels" ],
+  "pmc_id" : "7184002",
+  "score" : 0
+}
