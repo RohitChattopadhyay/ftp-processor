@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "According to the results of this extensive meta-analysis, neither plasma glucose levels nor HbA1c was significantly affected by GH supplementation even in the long term therapy.",
+  "reading_complete" : "2020-07-28T15:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:32:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "5925873",
+  "score" : 0
+}
