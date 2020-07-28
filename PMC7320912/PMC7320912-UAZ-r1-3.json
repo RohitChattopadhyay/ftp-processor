@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr 23",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5494425",
+      "entity_text" : "p6",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28482",
+      "entity_text" : "ERK-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, the human immunodeficiency virus (HIV) protein p6 is phosphorylated at a specific site (Thr 23) by MAPK and ERK-2.",
+  "reading_complete" : "2020-07-28T16:40:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:36:00Z",
+  "evidence" : [ "p6 is phosphorylated at a specific site (Thr 23) by MAPK and ERK-2" ],
+  "pmc_id" : "7320912",
+  "score" : 0
+}
