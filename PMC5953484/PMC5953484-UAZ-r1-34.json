@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33993",
+      "entity_text" : "MCM2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3901" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0030054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Furthermore, there was a decline in MCM2 levels and the p-cyclin D1/cyclin D1 ratio, which indicates the cells had left the cell cycle.",
+  "reading_complete" : "2020-07-28T17:04:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "MCM2 levels" ],
+  "pmc_id" : "5953484",
+  "score" : 0
+}
