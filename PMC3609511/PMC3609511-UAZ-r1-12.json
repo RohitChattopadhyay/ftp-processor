@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00751",
+      "entity_text" : "DM",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "KDR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "On correction for potential confounders, DM remained significantly associated with defective mobilization of CD133 + (P = 0.015), CD34 + CD133 + (P = 0.011), and CD133 + KDR + (P = 0.013) cells, whereas the association between defective CD34 + KDR + mobilization and DM was marginally significant (P = 0.056) and blunted by age (P = 0.024).",
+  "reading_complete" : "2020-07-28T12:49:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:47:47Z",
+  "trigger" : "association",
+  "evidence" : [ "association between defective CD34 + KDR +  mobilization and DM" ],
+  "pmc_id" : "3609511",
+  "score" : 0
+}

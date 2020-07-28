@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01275",
+      "entity_text" : "glucagon",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Indeed fructose 2,6-bisphosphate, the key regulator of glycolysis, was discovered through a search for the mechanism by which glucagon inhibits hepatic glycolysis.",
+  "reading_complete" : "2020-07-28T12:50:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:49:54Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "glucagon inhibits hepatic glycolysis" ],
+  "pmc_id" : "3507584",
+  "score" : 0
+}
