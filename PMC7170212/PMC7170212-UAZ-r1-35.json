@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:280",
+      "entity_text" : "carbon dioxide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000170" ]
+    }
+  },
+  "verbose_text" : "Hyperventilation results in undue loss of carbon dioxide so that instead of hypercapnia forcing the swimmer to surface to breathe, progress under water may be continued until hypoxia causes sudden loss of consciousness.",
+  "reading_complete" : "2020-07-28T10:28:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:13:16Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of carbon dioxide" ],
+  "pmc_id" : "7170212",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24823",
+      "entity_text" : "ozone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "CellLine" : [ "cellosaurus:CVCL_W935" ],
+      "Organ" : [ "uberon:UBERON:0002051" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Potentially dangerous levels of ozone are produced from atmospheric oxygen by ultraviolet radiation given off in welding while ozone is used in industry to sterilise water, bleach paper, flour and oils, and mask the odour of organic effluents.",
+  "reading_complete" : "2020-07-28T10:28:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:13:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ozone" ],
+  "pmc_id" : "7170212",
+  "score" : 0
+}

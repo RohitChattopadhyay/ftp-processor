@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:15939",
+      "entity_text" : "paraquat",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Following suicidal ingestion of large amounts of paraquat, death from multiorgan failure and pulmonary haemorrhage occurs within a few days, whereas most victims of accidental paraquat poisoning die from progressive pulmonary fibrosis between 10 and 14 days after ingestion.",
+  "reading_complete" : "2020-07-28T10:28:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:13:16Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of paraquat" ],
+  "pmc_id" : "7170212",
+  "score" : 0
+}
