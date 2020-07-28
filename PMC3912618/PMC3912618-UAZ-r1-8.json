@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05145",
+      "entity_text" : "amoA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:647",
+      "entity_text" : "DMPP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A high abundance of amoA gene copy numbers for AOB was found in AS treatment but DMPP clearly suppressed amoA gene copy numbers and also impacted nirK / nirS gene copy numbers to some extent (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-07-28T15:00:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:58:24Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "DMPP clearly suppressed amoA" ],
+  "pmc_id" : "3912618",
+  "score" : 0
+}
