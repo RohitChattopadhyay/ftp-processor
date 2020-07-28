@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09486",
+      "entity_text" : "SPARC",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This may be attributed to elevated levels of SPARC which activates the PI3-Akt pathway via integrin, thus leading to glycogen synthase kinase-3beta (GSK-3beta) inhibition and beta-catenin activation.",
+  "reading_complete" : "2020-07-28T12:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:32:07Z",
+  "trigger" : "activates",
+  "evidence" : [ "SPARC which activates the PI3-Akt pathway via integrin" ],
+  "pmc_id" : "5427774",
+  "score" : 0
+}

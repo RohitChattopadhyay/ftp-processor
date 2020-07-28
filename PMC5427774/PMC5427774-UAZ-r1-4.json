@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00835",
+      "entity_text" : "ICAM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00824",
+      "entity_text" : "VCAM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This is because integrin alpha4beta1 recruits leukocytes into the airway and exacerbates inflammation via VCAM and ICAM interactions [XREF_BIBR, XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-07-28T12:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:32:07Z",
+  "trigger" : "interactions",
+  "evidence" : [ "VCAM and ICAM interactions" ],
+  "pmc_id" : "5427774",
+  "score" : 0
+}

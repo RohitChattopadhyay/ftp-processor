@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00827",
+      "entity_text" : "alphavbeta5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15063",
+      "entity_text" : "periostin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000912" ]
+    }
+  },
+  "verbose_text" : "Given that periostin binds to integrins alphavbeta3 and alphavbeta5 in cancer cells for adhesion and migration [XREF_BIBR], it may also bind to integrins alpha4 and beta1/2 which are involved in asthma development and thus downregulate mucus production by repressing mucus production genes such as NF-B.",
+  "reading_complete" : "2020-07-28T12:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:32:07Z",
+  "trigger" : "binds",
+  "evidence" : [ "periostin binds to integrins alphavbeta3 and alphavbeta5" ],
+  "pmc_id" : "5427774",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09486",
+      "entity_text" : "SPARC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "SPARC binds to collagen III but not fibronectin [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T12:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:32:07Z",
+  "trigger" : "binds",
+  "evidence" : [ "SPARC binds to collagen" ],
+  "pmc_id" : "5427774",
+  "score" : 0
+}

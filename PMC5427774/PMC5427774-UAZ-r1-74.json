@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00823",
+      "entity_text" : "integrins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15063",
+      "entity_text" : "periostin",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since the ECM proteins induce downstream signaling pathways via integrins, periostin bound ECM proteins could potentially activate integrins, contributing to features of asthma.",
+  "reading_complete" : "2020-07-28T12:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:32:07Z",
+  "trigger" : "potentially activate",
+  "evidence" : [ "periostin-bound ECM proteins could potentially activate integrins" ],
+  "pmc_id" : "5427774",
+  "score" : 0
+}

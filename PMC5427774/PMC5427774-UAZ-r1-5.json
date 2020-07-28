@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00833",
+      "entity_text" : "integrins alphavbeta3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15063",
+      "entity_text" : "periostin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0279" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0000082" ]
+    }
+  },
+  "verbose_text" : "Furthermore, periostin binds to integrins alphavbeta3 and alphavbeta5 to mediate fibroblast or malignant cell migration [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T12:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:32:07Z",
+  "trigger" : "binds",
+  "evidence" : [ "periostin binds to integrins alphavbeta3" ],
+  "pmc_id" : "5427774",
+  "score" : 0
+}
