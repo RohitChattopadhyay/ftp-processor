@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:59837" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Estimated GFR (eGFR) was calculated using serum creatinine levels and ages according to the Modification of Diet in Renal Disease formula modified for the Japanese population.",
+  "reading_complete" : "2020-07-28T16:03:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:56:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "3747927",
+  "score" : 0
+}
