@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14974",
+      "entity_text" : "MYPT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01195",
+      "entity_text" : "ROK inhibitor",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Interestingly, Somlyo et al. [XREF_BIBR] indicated that MYPT1 was phosphorylated in PCa PC3 cells and endothelial cells (HUVECs), and phosphorylation of MYPT1 was reduced by the ROK inhibitor Wf-536, leading to the inhibition of vasculation by endothelial cells and lumen formation, as well as the earliest detectable stages of angiogenesis.",
+  "reading_complete" : "2020-07-28T13:11:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:08:02Z",
+  "trigger" : "reduced",
+  "evidence" : [ "phosphorylation of MYPT1 was reduced by the ROK inhibitor" ],
+  "pmc_id" : "6302349",
+  "score" : 0
+}

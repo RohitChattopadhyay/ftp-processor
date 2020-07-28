@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14974",
+      "entity_text" : "MYPT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00480",
+      "entity_text" : "ROK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similar to other MYPT family members which can be regulated via phosphorylation at many sites by various protein kinases, Rho kinase (ROK) phosphorylates MYPT1, leading to inhibition of phosphatase activity and Ca 2+ sensitization of smooth muscle contraction [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:11:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:08:02Z",
+  "evidence" : [ "ROK) phosphorylates MYPT1" ],
+  "pmc_id" : "6302349",
+  "score" : 0
+}
