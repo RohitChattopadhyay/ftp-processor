@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBX2",
+      "entity_text" : "DUX4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellType" : [ "cl:CL:0000187" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although the abundance of the DUX4 mRNA and protein results is extremely low (approximately 1 in 1000 FSHD muscle cell nuclei were detected with an abundant amount of DUX4 mRNA) [XREF_BIBR], it has been observed that the DUX4 expressing FSHD muscle nuclei show pathologic features consistent with DUX4 induced toxicity [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T12:55:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:40:18Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of DUX4" ],
+  "pmc_id" : "4264243",
+  "score" : 0
+}

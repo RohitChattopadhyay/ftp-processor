@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53630484",
+      "entity_text" : "IPC",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0440" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In fact, the demonstration of the loss of IPC by hypoglycemic drugs in patients with type 2 diabetes and CAD may suggest worse outcomes during acute ischemia.",
+  "reading_complete" : "2020-07-28T12:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:55:12Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of IPC" ],
+  "pmc_id" : "3661846",
+  "score" : 0
+}

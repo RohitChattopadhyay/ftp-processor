@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01275",
+      "entity_text" : "GLP-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27487",
+      "entity_text" : "DPP-4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GLP-1 is rapidly degraded by the enzyme DPP-4, which is widely expressed in many tissues, including kidney, liver, lung, and the small intestine.",
+  "reading_complete" : "2020-07-28T12:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:55:12Z",
+  "trigger" : "degraded",
+  "evidence" : [ "GLP-1 is rapidly degraded by the enzyme DPP-4" ],
+  "pmc_id" : "3661846",
+  "score" : 0
+}

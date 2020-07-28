@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43220",
+      "entity_text" : "GLP-1R",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01275",
+      "entity_text" : "GLP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "V acts in heart mainly by binding of GLP-1 in GLP-1R.",
+  "reading_complete" : "2020-07-28T12:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:55:12Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of GLP-1 in GLP-1R" ],
+  "pmc_id" : "3661846",
+  "score" : 0
+}
