@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12824",
+      "entity_text" : "INI1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0880" ],
+      "Organ" : [ "uberon:UBERON:0002067" ],
+      "CellType" : [ "cl:CL:0000077" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The negativity of epithelioid sarcoma for p63, which is usually positive in adnexal neoplasms, as well as the loss of the protein SMARCB1 / INI1 excludes the possibility of an adnexal neoplasm.",
+  "reading_complete" : "2020-07-28T14:02:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:59:10Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the protein SMARCB1/INI1" ],
+  "pmc_id" : "3652053",
+  "score" : 0
+}
