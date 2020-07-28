@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0001014" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is a rare wasting syndrome due to proximal renal tubule dysfunction more commonly seen in patients with MGUS leading to loss of glucose, phosphate, amino acids, and uric acid.",
+  "reading_complete" : "2020-07-28T11:19:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:13:29Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of glucose, phosphate" ],
+  "pmc_id" : "7121630",
+  "score" : 0
+}
