@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0617" ],
+      "CellLine" : [ "cellosaurus:CVCL_0302" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Human and murine macrophages exposed to high glucose concentrations show increased levels of CRP mRNA and protein biosynthesis and secretion, suggesting that CRP mediated proinflammatory effects could be triggered locally by macrophage produced CRP in addition to the effect of circulating and liver derived CRP.",
+  "reading_complete" : "2020-07-28T17:41:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:37:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CRP" ],
+  "pmc_id" : "4069363",
+  "score" : 0
+}
