@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "More recently, we have demonstrated that morpholino knockdown of Etv7 in zebrafish leads to loss of hemoglobin containing red blood cells by repression of the lanosterol synthase (lss) gene, indicating that in fish ETV7 is indispensable for normal red blood cell development.",
+  "reading_complete" : "2020-07-28T16:21:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:19:02Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of hemoglobin" ],
+  "pmc_id" : "6353817",
+  "score" : 0
+}

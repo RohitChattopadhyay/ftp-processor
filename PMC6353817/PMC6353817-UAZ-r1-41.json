@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y603",
+      "entity_text" : "ETV7",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0005694" ]
+    }
+  },
+  "verbose_text" : "Given that ETV7 is expressed in multiple human tissues, we wished to determine the potential functional consequences of ETV7 expression in M. musculus, which does not have the Etv7 gene.",
+  "reading_complete" : "2020-07-28T16:21:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:19:02Z",
+  "trigger" : "expressed",
+  "evidence" : [ "ETV7 is expressed" ],
+  "pmc_id" : "6353817",
+  "score" : 0
+}
