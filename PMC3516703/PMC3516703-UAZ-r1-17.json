@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16489",
+      "entity_text" : "gain",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "PP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Knockout of the Y4 gene leads to an increase in nocturnal feeding, while transgenic overexpression of PP in mice reduces food intake and body weight gain.",
+  "reading_complete" : "2020-07-28T13:29:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:25:31Z",
+  "trigger" : "reduces",
+  "evidence" : [ "PP in mice reduces food intake and body weight gain" ],
+  "pmc_id" : "3516703",
+  "score" : 0
+}
