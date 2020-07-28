@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:20057342",
+      "entity_text" : "GM2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:59837" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "[XREF_BIBR] In the brain, an amount of GM2 asialoganglioside that is 300 times more than normal is found in affected patients.",
+  "reading_complete" : "2020-07-28T18:07:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:01:19Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of GM2" ],
+  "pmc_id" : "5500017",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2336",
+      "entity_text" : "BP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "A meta-analysis of clinical studies 23 showed 22:6 n-3 had a slightly greater dose response effect on BP levels than 20:5 n-3 (-1.5/-0.77 mm Hg vs -0.93/-0.53 mm Hg per gram).",
+  "reading_complete" : "2020-07-28T18:08:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:07:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "BP levels" ],
+  "pmc_id" : "4748868",
+  "score" : 0
+}
