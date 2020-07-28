@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "TissueType" : [ "tissuelist:TS-0552" ],
+      "Organ" : [ "uberon:UBERON:0009856" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Secondary outcomes included the following : Bioavailability of metformin, estimated from the amount of metformin excreted in the urine over 24 h; AUC of metformin absorption from 0-24 h (AUC 0-24 h); Time to peak drug concentration (T max) and peak plasma drug concentration (C max); and AUC of plasma glucose levels over the first 8 h of sampling (AUC 0-8h).",
+  "reading_complete" : "2020-07-28T13:26:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:24:20Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of metformin" ],
+  "pmc_id" : "3114332",
+  "score" : 0
+}

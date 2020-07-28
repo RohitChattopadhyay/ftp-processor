@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Plasma metformin levels were sampled at 0.5, 1, 1.5, 2, 3, 4, 6, 8, and 24 h. Metformin absorption, estimated by the area under the curve (AUC) of the plasma drug concentrations from time 0 to infinity (AUC 0-infinity), was the primary outcome, and metformin bioavailability, assessed by measuring 24-h urine metformin levels, was a secondary outcome.",
+  "reading_complete" : "2020-07-28T13:26:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:24:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "metformin levels" ],
+  "pmc_id" : "3114332",
+  "score" : 0
+}

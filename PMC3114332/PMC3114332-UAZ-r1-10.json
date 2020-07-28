@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Species" : [ "taxonomy:76720" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Linear regression was performed to examine whether AUC 0-infinity metformin levels independently predicted AUC 0-8 glucose levels while controlling for baseline glucose and weight.",
+  "reading_complete" : "2020-07-28T13:26:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:24:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "metformin levels" ],
+  "pmc_id" : "3114332",
+  "score" : 0
+}
