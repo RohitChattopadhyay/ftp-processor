@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0001882" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "The mechanism of NMDA receptor antagonist induced excitation has been hypothesized to involve the NMDA receptor modulated inhibition of GABA interneurons and disinhibition of pyramidal neurons, consistent with reductions of extracellular GABA levels and elevations of extracellular glutamate levels [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-07-28T13:56:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:46:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "GABA levels" ],
+  "pmc_id" : "5384360",
+  "score" : 0
+}
