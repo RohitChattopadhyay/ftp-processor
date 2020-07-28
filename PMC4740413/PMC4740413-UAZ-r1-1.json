@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7570",
+      "entity_text" : "MDR",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "other organisms",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0044215",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0810" ],
+      "Cellular_component" : [ "go:GO:0044215" ],
+      "Organ" : [ "uberon:UBERON:0000120" ],
+      "Species" : [ "taxonomy:6239" ]
+    }
+  },
+  "verbose_text" : "We then test three compounds, previously shown to interact with MDR transporters in other organisms, for their potential to synergize ivermectin toxicity; fumagillin, an anti-microbial compound used to treat honey bee hives for the intestinal parasite Nosema sp., Pristine, a crop fungicide composed of the two active ingredients boscalid and pyraclostrobin used on fruit and nut trees during bloom, and quercetin, a plant compound found in pollen and nectar.",
+  "reading_complete" : "2020-07-28T15:40:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:34:11Z",
+  "trigger" : "transporters",
+  "evidence" : [ "MDR transporters in other organisms" ],
+  "pmc_id" : "4740413",
+  "score" : 0
+}
