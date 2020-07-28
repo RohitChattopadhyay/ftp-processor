@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "Cyclin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These data indicate that CXCL12 pretreatment increases Cyclin D1 expression to shorten the G1 phase and consequently accelerate the progression of the cell cycle.",
+  "reading_complete" : "2020-07-28T12:28:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:26:19Z",
+  "trigger" : "accelerate",
+  "evidence" : [ "Cyclin D1 expression to shorten the G1 phase and consequently accelerate the progression of the cell cycle" ],
+  "pmc_id" : "5345320",
+  "score" : 0
+}

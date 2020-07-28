@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14672",
+      "entity_text" : "GLUT-4",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "plasma membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005886",
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "We confirmed that this decrease in PI 3-kinase activity resulted in the final step of the insulin signaling pathway being attenuated--a reduction in GLUT-4 translocation to the plasma membrane (XREF_FIG).",
+  "reading_complete" : "2020-07-28T12:27:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:22:16Z",
+  "trigger" : "translocation",
+  "evidence" : [ "GLUT-4 translocation to the plasma membrane" ],
+  "pmc_id" : "6489109",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Organ" : [ "uaz:UA-ORG-92" ]
+    }
+  },
+  "verbose_text" : "Simple glucose tolerance testing revealed that fasting insulin levels were ~ 4 times higher than in control mice and ~ 7 times higher 30 min after glucose stimulation, confirming pronounced IR.",
+  "reading_complete" : "2020-07-28T12:27:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:22:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "6489109",
+  "score" : 0
+}

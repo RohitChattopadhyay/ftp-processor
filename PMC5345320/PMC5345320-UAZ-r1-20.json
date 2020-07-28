@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CDK",
+      "entity_text" : "cdk",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "CyclinD/cdk4/6 effects passage through G1 phase, while cdk phosphorylation inactivated retinoblastoma protein permits the cell to pass through the G1 \" restriction point \" and enter into S phase under the regulation of CyclinE / cdk2 and CyclinA / cdk2.",
+  "reading_complete" : "2020-07-28T12:28:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T12:26:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "cdk phosphorylation" ],
+  "pmc_id" : "5345320",
+  "score" : 0
+}
