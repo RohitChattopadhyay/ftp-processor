@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15144",
+      "entity_text" : "APN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01230",
+      "entity_text" : "hit",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hits 2 and 3 selected by pharmacophore-B (XREF_FIG A) exhibited more than 70% inhibition of APN, while hit 1 selected by pharmacophore-A (XREF_FIG B) inhibited 56% of APN; none of hits 4-6 selected by pharmacophore-A displayed APN inhibition more than 50%.",
+  "reading_complete" : "2020-07-28T18:41:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:40:26Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "hit 1 selected by pharmacophore-A ( XREF_FIG B) inhibited 56% of APN" ],
+  "pmc_id" : "7172515",
+  "score" : 0
+}
