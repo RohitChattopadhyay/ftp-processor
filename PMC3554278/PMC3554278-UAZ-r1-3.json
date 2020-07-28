@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Rescue therapy (any changes in treatment or doses of glucose lowering background therapy during weeks 1-12 and/or addition of insulin during weeks 1-52) could be initiated based on failure to meet prespecified glycemic response criteria : a confirmed fasting plasma glucose (FPG) level> 240 mg/mL (> 13.3 mmol/L) during weeks 1-12, a confirmed FPG level> 200 mg/dL (> 11.1 mmol/L) during weeks 12-52, or a randomly determined glucose level> 400 mg/dL (> 22.2 mmol/L) at any time.",
+  "reading_complete" : "2020-07-28T14:00:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:56:59Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "3554278",
+  "score" : 0
+}

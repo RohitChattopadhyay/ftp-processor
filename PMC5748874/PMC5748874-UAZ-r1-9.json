@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15941",
+      "entity_text" : "MUC1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03956",
+      "entity_text" : "MMP1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "TNF has indeed been shown to increase the expression of MMP1 via up-regulation of IL4 [XREF_BIBR] and to induce the upregulation of MUC1 [XREF_BIBR] and VEGFC [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T14:01:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:56:52Z",
+  "trigger" : "induce",
+  "evidence" : [ "MMP1 via up-regulation of IL4 [ XREF_BIBR ] and to induce the upregulation of MUC1" ],
+  "pmc_id" : "5748874",
+  "score" : 0
+}
