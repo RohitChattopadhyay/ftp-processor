@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51805",
+      "entity_text" : "sex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11150",
+      "entity_text" : "HL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "In juveniles the interaction between HL and sex was not retained in any model, and HL was retained in a single model, in which it was positively correlated with total leukocyte concentration in the human impacted colony (GLMM : estimate = 5.98, SE = 2.21; likelihood ratio test, LRT : chi 2 = 7.29, p = 0.006; Tables XREF_TABLE and XREF_TABLE and Fig. XREF_FIG).",
+  "reading_complete" : "2020-07-28T15:19:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:11:42Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between HL and sex" ],
+  "pmc_id" : "4634738",
+  "score" : 0
+}
