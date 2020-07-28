@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine residues",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:IRS",
+      "entity_text" : "insulin receptor substrate",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Binding of insulin to its receptor induces both autophosphorylation and phosphorylation of tyrosine residues on insulin receptor substrate (IRS) -1 to IRS-4 proteins, thus initiating the intracellular signaling cascade.",
+  "reading_complete" : "2020-07-28T17:07:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:01:17Z",
+  "trigger" : "induces",
+  "evidence" : [ "insulin to its receptor induces both autophosphorylation and phosphorylation of tyrosine residues on insulin receptor substrate" ],
+  "pmc_id" : "7211212",
+  "score" : 0
+}

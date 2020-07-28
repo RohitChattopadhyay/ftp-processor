@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, TNF-alpha promotes the phosphorylation of Ser307 by Jun NH2-terminal kinase (JNK), which inhibits insulin stimulated tyrosine phosphorylation of IRS-1 in Chinese hamster ovary (CHO) cells [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T17:07:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:01:17Z",
+  "trigger" : "stimulated",
+  "evidence" : [ "insulin-stimulated tyrosine phosphorylation of IRS-1" ],
+  "pmc_id" : "7211212",
+  "score" : 0
+}

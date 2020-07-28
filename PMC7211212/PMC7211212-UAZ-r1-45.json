@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3899",
+      "entity_text" : "leflunomide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "There is no evidence that leflunomide could impair glucose homeostasis.",
+  "reading_complete" : "2020-07-28T17:07:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:01:17Z",
+  "trigger" : "impair",
+  "evidence" : [ "leflunomide could impair glucose" ],
+  "pmc_id" : "7211212",
+  "score" : 0
+}

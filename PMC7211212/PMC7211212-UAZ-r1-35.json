@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "extracellular signal-regulated kinase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62993",
+      "entity_text" : "Grb2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "On the other hand, the MAP kinase pathway begins with phosphorylation of Shc, Grb2 / Sos, and Ras, and results in the activation of extracellular signal regulated kinase (ERK-1 and 2), regulating the mitogenic and pro inflammatory responses of insulin signaling [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T17:07:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:01:17Z",
+  "trigger" : "activation",
+  "evidence" : [ "Grb2/Sos, and Ras, and results in the activation of extracellular signal-regulated kinase" ],
+  "pmc_id" : "7211212",
+  "score" : 0
+}

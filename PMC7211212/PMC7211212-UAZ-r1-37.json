@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ]
+    }
+  },
+  "verbose_text" : "Treatment with anti-TNF-alpha therapy leads to a reduction in systemic measures of 11beta-HSD1 activity with the result of lower levels of active cortisol and higher of inactive cortisone [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T17:07:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:01:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of active cortisol" ],
+  "pmc_id" : "7211212",
+  "score" : 0
+}

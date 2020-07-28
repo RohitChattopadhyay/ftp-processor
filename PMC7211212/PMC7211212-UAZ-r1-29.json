@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15848",
+      "entity_text" : "adiponectin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Organ" : [ "uberon:UBERON:0015129" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Some studies have shown that in inflammatory pathologies (as PsA) adiponectin levels are decreased [XREF_BIBR] and that anti-psoriatic treatments with anti-TNF-alpha agents may increase adiponectin levels [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T17:07:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:01:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "adiponectin levels" ],
+  "pmc_id" : "7211212",
+  "score" : 0
+}
