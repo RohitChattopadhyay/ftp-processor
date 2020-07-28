@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CW71",
+      "entity_text" : "MCP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0455" ],
+      "CellLine" : [ "cellosaurus:CVCL_5V05" ],
+      "Cellular_component" : [ "uniprot:SL-0032" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "Reduced MCP-1 levels were also found after treatment with the EC1, EC2, and IC2 extracts at 95 mug/mL, with no significant difference with paclitaxel at 5.35 mug/mL.",
+  "reading_complete" : "2020-07-28T16:47:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:46:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "MCP-1 levels" ],
+  "pmc_id" : "5871299",
+  "score" : 0
+}
