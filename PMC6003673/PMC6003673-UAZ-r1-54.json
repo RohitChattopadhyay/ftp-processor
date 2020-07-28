@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This result suggests that the virus may not be directly causing death in neonates, but rather the nature of the host immune response may be a better predictor of survival.",
+  "reading_complete" : "2020-07-28T14:11:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:07:11Z",
+  "trigger" : "causing",
+  "evidence" : [ "result suggests that the virus may not be directly causing death" ],
+  "pmc_id" : "6003673",
+  "score" : 0
+}
