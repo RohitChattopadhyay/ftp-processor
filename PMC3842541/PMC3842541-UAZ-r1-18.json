@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29466",
+      "entity_text" : "caspase-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In PMNs, we found that caspase-1 inhibition significantly reduced IL-1beta and IL-8 production in a dose dependent manner (XREF_FIG; P < 0.05), suggesting that B. pseudomallei triggers IL-1beta processing through the activation of a caspase-1-dependent pathway.",
+  "reading_complete" : "2020-07-28T08:26:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:25:07Z",
+  "trigger" : "reduced",
+  "evidence" : [ "caspase-1 inhibition significantly reduced IL-1beta" ],
+  "pmc_id" : "3842541",
+  "score" : 0
+}

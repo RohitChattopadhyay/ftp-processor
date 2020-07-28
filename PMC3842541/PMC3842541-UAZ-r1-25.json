@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:28450" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000096" ]
+    }
+  },
+  "verbose_text" : "More than half of the patients with type 2 diabetes in endemic areas of melioidosis are prescribed glibenclamide or a combination of glibenclamide and metformin to control blood glucose levels XREF_TABLE (XREF_TABLE).",
+  "reading_complete" : "2020-07-28T08:26:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:25:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3842541",
+  "score" : 0
+}

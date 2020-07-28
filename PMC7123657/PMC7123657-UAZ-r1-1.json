@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40197",
+      "entity_text" : "GP5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Cellular_component" : [ "go:GO:0031975" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9913" ]
+    }
+  },
+  "verbose_text" : "Other studies have shed doubt on whether GP5 represents the prime vaccine candidate, including : the observation that glycosylation sites on GP5, proposed to mask antibody epitopes, are highly variable amongst strains [XREF_BIBR]; studies withchimeric viruses have shown that GP5 is nonessential for infection of macrophages [XREF_BIBR]; pigs engineered to lack the GP5 receptor sialoadhesin show an unaltered course of PRRSV infection [XREF_BIBR]; and affinity purified GP5 specific Ab fail to neutralize PRRSV infectivity in vitro [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T08:16:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:05:38Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation sites on GP5" ],
+  "pmc_id" : "7123657",
+  "score" : 0
+}
