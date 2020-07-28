@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0263" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although low dose antioxidants moderately decrease the intracellular ROS levels of iPS cells, further experiments with longer term of cultivation will be necessary to confirm the benefit of antioxidants for ex vivo expansion of iPS cells.",
+  "reading_complete" : "2020-07-28T13:12:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:11:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "3896906",
+  "score" : 0
+}
