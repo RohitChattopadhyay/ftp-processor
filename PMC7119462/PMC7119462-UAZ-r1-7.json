@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33681",
+      "entity_text" : "B7",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Thus, chronic activation of HIV-1-infected CD4 + T cells reduces expression of CD28 and increases expression of B7, thereby enabling these T cells to become antigen presenting cells for uninfected CD4 + T cells.",
+  "reading_complete" : "2020-07-28T14:16:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:16:07Z",
+  "trigger" : "enabling",
+  "evidence" : [ "B7, thereby enabling these T cells to become antigen" ],
+  "pmc_id" : "7119462",
+  "score" : 0
+}

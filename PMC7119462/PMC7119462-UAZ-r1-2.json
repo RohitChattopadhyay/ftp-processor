@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04234",
+      "entity_text" : "TCR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00441",
+      "entity_text" : "receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The first signal is triggered by the interaction between the T cell receptor (TCR) and the antigen.",
+  "reading_complete" : "2020-07-28T14:16:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:16:07Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between the T cell receptor (TCR" ],
+  "pmc_id" : "7119462",
+  "score" : 0
+}
