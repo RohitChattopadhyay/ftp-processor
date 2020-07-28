@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Cellular_component" : [ "uniprot:SL-0154" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "CD206- macrophages present higher levels of CD11c, TNF-alpha, and IL-6 than CD206+ macrophages, suggesting that CD206- macrophages can be considered M1 (pro inflammatory) macrophages.",
+  "reading_complete" : "2020-07-28T15:32:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:16:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CD11c, TNF-alpha" ],
+  "pmc_id" : "7046986",
+  "score" : 0
+}

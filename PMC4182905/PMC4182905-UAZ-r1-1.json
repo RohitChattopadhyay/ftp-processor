@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In addition, in the fully adjusted Cox regression model, we found a stronger association between prolonged QTc duration and CVD death (2.86 [1.35-6.08]; P = 0.006) (XREF_TABLE).",
+  "reading_complete" : "2020-07-28T15:33:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:29:06Z",
+  "trigger" : "association",
+  "evidence" : [ "association between prolonged QTc duration and CVD death" ],
+  "pmc_id" : "4182905",
+  "score" : 0
+}
