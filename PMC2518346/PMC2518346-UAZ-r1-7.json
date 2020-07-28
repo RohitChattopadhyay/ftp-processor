@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13569",
+      "entity_text" : "CFTR",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cell membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "uniprot:SL-0039",
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The grouping of mutations into functional categories is as follows : class I, no synthesis of CFTR; class II, degradation of CFTR in the endoplasmic reticulum; class III, transport of CFTR to the cell membrane, but no appropriate response; class IV, diminished action of CFTR in the cell membrane; and class V, normal but inadequate amounts of CFTR.",
+  "reading_complete" : "2020-07-28T14:21:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:20:02Z",
+  "trigger" : "transport",
+  "evidence" : [ "transport of CFTR to the cell membrane" ],
+  "pmc_id" : "2518346",
+  "score" : 0
+}

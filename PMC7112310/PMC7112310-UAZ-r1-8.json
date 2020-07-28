@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1673",
+      "entity_text" : "3-methyladenine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These structures are autophagosomes because L. monocytogenes sequestration is enhanced by autophagic induction through serum withdrawal and blocked by autophagy inhibitors such as 3-methyladenine and wortmannin.",
+  "reading_complete" : "2020-07-28T14:20:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:17:44Z",
+  "trigger" : "inhibitors",
+  "evidence" : [ "autophagy inhibitors such as 3-methyladenine" ],
+  "pmc_id" : "7112310",
+  "score" : 0
+}
