@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02753",
+      "entity_text" : "RBP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445354",
+      "entity_text" : "retinol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Additional to retinol blood concentrations or urinary excretion, an important measurement of retinol metabolism its relation to retinol binding protein (RBP) concentrations, and although this ratio is high in diabetic patients, the cause of this is not yet clear.",
+  "reading_complete" : "2020-07-28T15:06:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:51:50Z",
+  "trigger" : "binding",
+  "evidence" : [ "retinol binding protein (RBP" ],
+  "pmc_id" : "4435229",
+  "score" : 0
+}

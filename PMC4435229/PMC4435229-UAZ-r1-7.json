@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Newly diagnosed diabetic patients have lower PLP concentrations when compared to non diabetic subjects [XREF_BIBR] Even though a long-term placebo controlled trial of combined folic acid, pyridoxine and B12 supplementation found no differences in the risk of developing type 2 diabetes in women with high risk of CVD, although homocysteine levels were lower in the supplemented group [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T15:06:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:51:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "homocysteine levels" ],
+  "pmc_id" : "4435229",
+  "score" : 0
+}
