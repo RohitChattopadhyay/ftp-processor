@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35225",
+      "entity_text" : "IL-13",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04516",
+      "entity_text" : "CP2",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "11 Only CP2 appears to inhibit IL-13 synthesis (0.21 ng/mL) whereas F3.3, CP1, and F3.3.0 (0.29, 0.41, and 0.29 ng/mL, respectively) did not affect IL-13 synthesis when compared with untreated (0.34 ng/mL) RAW 264.7 cell lines (XREF_FIG).",
+  "reading_complete" : "2020-07-28T16:22:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:21:41Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "CP2 appears to inhibit IL-13" ],
+  "pmc_id" : "5871297",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1340" ],
+      "Organ" : [ "uberon:UBERON:0001828" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Sixty patients diagnosed as type II diabetes mellitus with fasting blood glucose level from 150 to 180 mg/dL, glycosylated hemoglobin level from 7.5% to 8.5%, and on oral antihyperglycemic drugs, were allocated to receive the mix herbal formulation or placebo for 90 days in a double-blind randomized placebo controlled clinical trial.",
+  "reading_complete" : "2020-07-28T16:20:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:19:48Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated hemoglobin" ],
+  "pmc_id" : "5871270",
+  "score" : 0
+}
