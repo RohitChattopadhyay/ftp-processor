@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:947",
+      "entity_text" : "nitrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000047" ],
+      "Species" : [ "taxonomy:76720" ]
+    }
+  },
+  "verbose_text" : "Generally, within the model, a decrease in NPP is consistently accompanied by an increase of nitrogen tissue amount, with the connection becoming stronger as substrates (and maintenance respiration) increase, and vice versa.",
+  "reading_complete" : "2020-07-28T16:53:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:46:31Z",
+  "trigger" : "amount",
+  "evidence" : [ "nitrogen tissue amount" ],
+  "pmc_id" : "6849766",
+  "score" : 0
+}

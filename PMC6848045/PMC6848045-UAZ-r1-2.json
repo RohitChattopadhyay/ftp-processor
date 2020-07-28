@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96LT9",
+      "entity_text" : "RNP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01680",
+      "entity_text" : "Cas12a",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000365" ]
+    }
+  },
+  "verbose_text" : "Using 6 poring pulses of 30 V, 3 ms length, 100 ms intervals, 10% decay rate, and positive (+) polarity followed by 5 transfer pulses of 5 V, 50 ms length, 50 ms interval, 40% decay rate, and alternating (+/-) polarity we successfully detected Cas12a - RNP complex mediated deletion with little or no loss of embryos (data not shown).",
+  "reading_complete" : "2020-07-28T16:57:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:55:13Z",
+  "trigger" : "complex",
+  "evidence" : [ "Cas12a-RNP complex" ],
+  "pmc_id" : "6848045",
+  "score" : 0
+}
