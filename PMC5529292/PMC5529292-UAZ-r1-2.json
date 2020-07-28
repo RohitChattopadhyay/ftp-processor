@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00626",
+      "entity_text" : "intron 2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0469" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "The human intron 2 of POMC contains three Alu insertions and the CpG island at this region is hypermethylated.",
+  "reading_complete" : "2020-07-28T15:28:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:26:51Z",
+  "trigger" : "hypermethylated",
+  "evidence" : [ "intron 2 of POMC contains three Alu insertions and the CpG island at this region is hypermethylated" ],
+  "pmc_id" : "5529292",
+  "score" : 0
+}
