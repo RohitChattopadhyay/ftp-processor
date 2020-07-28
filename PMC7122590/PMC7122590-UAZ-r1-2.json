@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1775",
+      "entity_text" : "phenytoin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "The CYP2C9 * 3 variant metabolizes phenytoin at a reduced rate and patients with CYP2C9 * 3 have been shown to have higher blood levels of phenytoin at similar doses as well as an increased incidence of SJS and TEN [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:05:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:57:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of phenytoin" ],
+  "pmc_id" : "7122590",
+  "score" : 0
+}

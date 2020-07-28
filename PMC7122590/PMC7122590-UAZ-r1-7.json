@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04234",
+      "entity_text" : "TCR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Upon binding of the HLA-novel antigen on the APC to the TCR of the CD4 or CD8+ T cell, the T lymphocyte is induced to replicate and these T cells will target host tissues [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:05:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:57:59Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of the HLA-novel antigen on the APC to the TCR" ],
+  "pmc_id" : "7122590",
+  "score" : 0
+}

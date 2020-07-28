@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03078",
+      "entity_text" : "MHC1b molecule",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13747",
+      "entity_text" : "HLA-E",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0500" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The exact pathway through which T cells and NK cells produce these mediators has not yet been elucidated, but a study suggests that degranulation is potentially triggered by an interaction between HLA-E, an MHC1b molecule, on keratinocytes and CD94 / NKG2CR on T cells [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:05:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T10:57:59Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between HLA-E, an MHC1b molecule" ],
+  "pmc_id" : "7122590",
+  "score" : 0
+}
