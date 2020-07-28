@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The consequence is loss of water from epithelial cells into the lumen, cell shrinkage, reduction in cilial beat frequency, and slowed MCT.",
+  "reading_complete" : "2020-07-28T11:43:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:43:06Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of water" ],
+  "pmc_id" : "3891397",
+  "score" : 0
+}

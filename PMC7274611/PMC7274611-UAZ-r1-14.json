@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin",
+      "entity_text" : "troponin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0176" ]
+    }
+  },
+  "verbose_text" : "On admission, patients with previous treatment with ACEI / ARB had lower oxygenation (peripheral 0 2 saturation under 95% in 31.9% vs 19.7%; P <.01; respiratory insufficiency in 43.9% vs 26.9%, P <.01) and had higher creatinine and troponin levels.",
+  "reading_complete" : "2020-07-28T11:44:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:43:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "troponin levels" ],
+  "pmc_id" : "7274611",
+  "score" : 0
+}

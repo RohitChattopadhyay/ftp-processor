@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It has not yet been ascertained whether the overexpression of tissue ACE2, in pathological states or induced by treatment, increases infection with SARS-CoV-2 or makes up for its deficiency to reduce cardiac, pulmonary, and renal inflammation and vasoconstriction.",
+  "reading_complete" : "2020-07-28T11:43:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:43:20Z",
+  "trigger" : "reduce",
+  "evidence" : [ "ACE2, in pathological states or induced by treatment, increases infection with SARS-CoV-2 or makes up for its deficiency to reduce cardiac, pulmonary, and renal inflammation" ],
+  "pmc_id" : "7245328",
+  "score" : 0
+}
