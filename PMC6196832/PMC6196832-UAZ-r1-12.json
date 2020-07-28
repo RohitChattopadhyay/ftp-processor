@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05164",
+      "entity_text" : "MPO",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:235719",
+      "entity_text" : "3-nitrotyrosine",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The levels of 3-chlorotyrosine and 3-nitrotyrosine in HDLs were reduced significantly with 12 weeks of the Mediterranean diet and exercise (P < 0.05) (XREF_FIG), indicating decreased MPO activity even before changes in HDL levels are apparent.",
+  "reading_complete" : "2020-07-28T11:33:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:31:58Z",
+  "trigger" : "reduced",
+  "evidence" : [ "3-nitrotyrosine in HDLs were reduced significantly with 12 weeks of the Mediterranean diet and exercise (P < 0.05) ( XREF_FIG ), indicating decreased MPO" ],
+  "pmc_id" : "6196832",
+  "score" : 0
+}

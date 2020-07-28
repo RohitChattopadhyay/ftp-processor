@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q71G51",
+      "entity_text" : "alpha-tubulin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IXJ6",
+      "entity_text" : "SIRT2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Normally SIRT2 is in the cytoplasm, and deacetylates alpha-tubulin at lysine 40 [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:27:28Z",
+  "evidence" : [ "SIRT2 is in the cytoplasm, and deacetylates alpha-tubulin at lysine" ],
+  "pmc_id" : "4824319",
+  "score" : 0
+}

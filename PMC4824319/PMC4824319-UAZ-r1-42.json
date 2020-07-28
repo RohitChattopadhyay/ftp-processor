@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "16",
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-114",
+      "entity_text" : "histone H4",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "During G2/M SIRT2 transiently translocates into the nucleus, deacetylates histone H4 at lysine 16, regulating chromatin condensation and gene transcription [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:27:28Z",
+  "trigger" : "deacetylates",
+  "evidence" : [ "deacetylates histone H4 at lysine 16" ],
+  "pmc_id" : "4824319",
+  "score" : 0
+}

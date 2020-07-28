@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Organ" : [ "uberon:UBERON:0013757" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Severe hypoglycemia was defined as symptoms of hypoglycemia that required assistance from another individual for treatment, regardless of capillary blood glucose level.",
+  "reading_complete" : "2020-07-28T11:31:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:30:30Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "3379585",
+  "score" : 0
+}

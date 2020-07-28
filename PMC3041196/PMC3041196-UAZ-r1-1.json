@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 1,
+        "feature_type" : "mutation",
+        "evidence" : "A1C"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "They found that foot ulceration, a low arterial brachial index, elevated hemoglobin A1C level, and neuropathy were all independent predictors of LEA.",
+  "reading_complete" : "2020-07-28T11:36:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:35:12Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin A1C level" ],
+  "pmc_id" : "3041196",
+  "score" : 0
+}

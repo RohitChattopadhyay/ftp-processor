@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00066",
+      "entity_text" : "notch",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We have now identified a genetic link between dNulp1 and Wnt/Wg signaling through a screen that looked for rescue of the notch wing phenotype caused by the over-expression of sgg (GSK3beta), a negative regulatory factor of the Wnt signaling pathway [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:40:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:36:56Z",
+  "trigger" : "caused",
+  "evidence" : [ "notch wing phenotype caused by the over-expression of sgg (GSK3beta" ],
+  "pmc_id" : "5898038",
+  "score" : 0
+}

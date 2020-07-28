@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00316",
+      "entity_text" : "lipoprotein receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:97054",
+      "entity_text" : "Wg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "Canonical Wg signaling is initiated when Wg binds to frizzled / lipoprotein receptors to form heterodimers, which promotes stabilization and accumulation of cytosolic Arm.",
+  "reading_complete" : "2020-07-28T11:40:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:36:56Z",
+  "trigger" : "binds",
+  "evidence" : [ "Wg binds to frizzled/lipoprotein receptors" ],
+  "pmc_id" : "5898038",
+  "score" : 0
+}
