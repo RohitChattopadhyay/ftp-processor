@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99836",
+      "entity_text" : "MyD88",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0374" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0147" ]
+    }
+  },
+  "verbose_text" : "The AML myeloblastic cell line KG1 was selected for the experiments for having the most similar miRNA expression pattern to MDS cells (XREF_SUPPLEMENTARY) and because MyD88 is overexpressed in this cell line XREF_BIBR, which guarantees a high TLR activity.",
+  "reading_complete" : "2020-07-28T18:24:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:21:50Z",
+  "trigger" : "overexpressed",
+  "evidence" : [ "MyD88 is overexpressed" ],
+  "pmc_id" : "3972113",
+  "score" : 0
+}

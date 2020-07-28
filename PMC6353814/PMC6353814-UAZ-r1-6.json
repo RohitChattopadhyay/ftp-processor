@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P80463",
+      "entity_text" : "PHA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005777" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:358" ]
+    }
+  },
+  "verbose_text" : "It should also be pointed out that the amount of PHA did not exactly correspond to the level of gene expression for the introduced gene (phaC1), possibly due to the influence of the transgene location in the plant genome or other, unknown reasons.",
+  "reading_complete" : "2020-07-28T18:27:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:25:02Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of PHA" ],
+  "pmc_id" : "6353814",
+  "score" : 0
+}

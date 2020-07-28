@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03194",
+      "entity_text" : "miR-155",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ectopic expression of miR-155 in unstimulated BM cells, however, leads to increased inflammation, mimicking TLR stimulation and inducing a myeloproliferative phenotype XREF_BIBR.",
+  "reading_complete" : "2020-07-28T18:24:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:21:50Z",
+  "trigger" : "leads",
+  "evidence" : [ "miR-155 in unstimulated BM cells, however, leads to increased inflammation" ],
+  "pmc_id" : "3972113",
+  "score" : 0
+}

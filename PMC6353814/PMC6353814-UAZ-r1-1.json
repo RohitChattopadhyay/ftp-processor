@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:45266599",
+      "entity_text" : "caffeoyl-CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q40313",
+      "entity_text" : "CCoAOMT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "CCoAOMT catalyzes methylation of caffeoyl-CoA to feruloyl-CoA and 5-OH-feruloyl-CoA to sinapoyl-CoA, giving the precursors for lignin synthesis.",
+  "reading_complete" : "2020-07-28T18:27:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:25:02Z",
+  "trigger" : "catalyzes",
+  "evidence" : [ "CCoAOMT catalyzes methylation of caffeoyl-CoA" ],
+  "pmc_id" : "6353814",
+  "score" : 0
+}
