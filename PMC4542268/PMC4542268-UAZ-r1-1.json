@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E773" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The FDA also noted that patients may present atypically, with only slightly increased levels of blood glucose.",
+  "reading_complete" : "2020-07-28T14:33:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:32:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of blood glucose" ],
+  "pmc_id" : "4542268",
+  "score" : 0
+}

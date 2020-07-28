@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "One other patient on canagliflozin 300 mg had several blood glucose levels ranging from 148 to 320 mg/dL (8.2 to 17.8 mmol/L), but dates and times of these measurements were not provided.",
+  "reading_complete" : "2020-07-28T14:33:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:32:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4542268",
+  "score" : 0
+}
