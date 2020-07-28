@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0095" ],
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ]
+    }
+  },
+  "verbose_text" : "After four pulses, a similar percentage of cells with high levels of ROS was observed, however, multinucleated cells have begun to appear as a result of fusion between neighboring cells (cell boundaries marked by dashed yellow curves).",
+  "reading_complete" : "2020-07-28T13:05:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:04:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ROS" ],
+  "pmc_id" : "3701901",
+  "score" : 0
+}
