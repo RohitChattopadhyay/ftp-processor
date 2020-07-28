@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00036",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55899",
+      "entity_text" : "FcRn",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Human FcRn was immobilized on the column and a linear pH gradient from pH 5.5 to 8.8, which resembles the physiological mechanism of the pH dependent interaction between FcRn and IgG, was applied.",
+  "reading_complete" : "2020-07-28T18:43:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:38:38Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between FcRn and IgG" ],
+  "pmc_id" : "4676693",
+  "score" : 0
+}

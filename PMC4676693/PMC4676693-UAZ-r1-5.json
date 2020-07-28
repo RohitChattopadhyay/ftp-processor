@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deglycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12314",
+      "entity_text" : "FcgammaRI",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Analysis of the results confirmed tendencies already observed for the full size IgG (XREF_SUPPLEMENTARY) : similar binding pattern of all variants, except the deglycosylated, to FcgammaRI inability of the deglycosylated antibody to bind any receptor, except for FcgammaRI, as well as enhanced binding efficiencies for the bi-galactosylated variants to FcgammaRIIa, FcgammaRIIb and FcgammaRIIIa.",
+  "reading_complete" : "2020-07-28T18:43:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T18:38:38Z",
+  "trigger" : "deglycosylated",
+  "evidence" : [ "deglycosylated, to FcgammaRI" ],
+  "pmc_id" : "4676693",
+  "score" : 0
+}
