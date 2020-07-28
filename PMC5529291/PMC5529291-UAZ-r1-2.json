@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00570",
+      "entity_text" : "gRNA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:J3F2B0",
+      "entity_text" : "CAS9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In this way, any sequence within the genome of any species can be targeted provided that the recognition sequence of the gRNA is next to a short 3 base pair PAM (protospacer adjacent motif = NGG) and the CAS9 / gRNA complex can be introduced into the cell.",
+  "reading_complete" : "2020-07-28T15:25:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:23:51Z",
+  "trigger" : "complex",
+  "evidence" : [ "CAS9/gRNA complex" ],
+  "pmc_id" : "5529291",
+  "score" : 0
+}

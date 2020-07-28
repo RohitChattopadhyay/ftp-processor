@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00570",
+      "entity_text" : "gRNA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:J3F2B0",
+      "entity_text" : "Cas9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The gene encoding the Cas9 protein has undergone a number of alterations, including the removal of one or both of its DNA cutting domains, and the addition of a nuclear localisation signal to guide the Cas9 - gRNA complex to the nucleus.",
+  "reading_complete" : "2020-07-28T15:26:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:25:12Z",
+  "trigger" : "complex",
+  "evidence" : [ "Cas9-gRNA complex" ],
+  "pmc_id" : "5645574",
+  "score" : 0
+}
