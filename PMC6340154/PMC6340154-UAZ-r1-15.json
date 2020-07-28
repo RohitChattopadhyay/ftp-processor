@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41162",
+      "entity_text" : "MetS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35240",
+      "entity_text" : "SCH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Observational studies concerning the association between SCH and MetS have shown contradictory results.",
+  "reading_complete" : "2020-07-28T14:51:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:48:00Z",
+  "trigger" : "association",
+  "evidence" : [ "association between SCH and MetS" ],
+  "pmc_id" : "6340154",
+  "score" : 0
+}

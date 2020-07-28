@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "eGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Given the hypothesis of the study and its specific aim, it would have been more compelling if it stratified patients by level of eGFR (i.e.,> 45, < 60, and> 60 mL/min/1.73 m 2) to assess the spectrum of blood pressure lowering across stages of kidney disease as was done with canagliflozin.",
+  "reading_complete" : "2020-07-28T14:50:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:50:24Z",
+  "trigger" : "level",
+  "evidence" : [ "level of eGFR" ],
+  "pmc_id" : "4876696",
+  "score" : 0
+}
