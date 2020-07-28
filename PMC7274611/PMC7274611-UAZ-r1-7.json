@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0031" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000322" ]
+    }
+  },
+  "verbose_text" : "Angiotensin I upregulates ADAM-17, thus increasing soluble ACE2 levels.",
+  "reading_complete" : "2020-07-28T11:44:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:43:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "ACE2 levels" ],
+  "pmc_id" : "7274611",
+  "score" : 0
+}

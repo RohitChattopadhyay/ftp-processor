@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin",
+      "entity_text" : "troponin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0013755" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Brain natriuretic peptide (BNP) or pro N terminal BNP (pro NT BNP) and troponin levels may help to exclude cardiogenic causes of pulmonary edema.",
+  "reading_complete" : "2020-07-28T11:32:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:25:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "troponin levels" ],
+  "pmc_id" : "7123590",
+  "score" : 0
+}
