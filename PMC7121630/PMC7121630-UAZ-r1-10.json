@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0649" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In general, leukoreduced and irradiated blood is used for transfusion for hemoglobin level < 7-8 g/dL or symptomatic anemia.",
+  "reading_complete" : "2020-07-28T11:19:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:13:29Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "7121630",
+  "score" : 0
+}
