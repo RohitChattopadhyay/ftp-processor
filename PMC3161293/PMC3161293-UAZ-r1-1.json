@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:11096" ]
+    }
+  },
+  "verbose_text" : "The patients who met the following criteria were placed in the fulminant type 1 diabetes group : 1) ketosis or ketoacidosis within a week after the onset of hyperglycemic symptoms; 2) plasma glucose levels> = 16 mmol/L and HbA 1c < 8.9% at the first visit, and 3) urinary C-peptide level < 10 mug / day, fasting serum C-peptide level < 0.3 ng/mL, or serum C-peptide < 0.5 ng/mL after glucagon or a meal load.",
+  "reading_complete" : "2020-07-28T16:28:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:25:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3161293",
+  "score" : 0
+}
