@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005777" ],
+      "Organ" : [ "uberon:UBERON:0010210" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fasting serum levels of total cholesterol, HDL cholesterol, triglycerides, fasting serum glucose, and liver function tests were measured by a local laboratory (Quest Diagnostics).",
+  "reading_complete" : "2020-07-28T16:07:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:03:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of total cholesterol, HDL cholesterol" ],
+  "pmc_id" : "3661851",
+  "score" : 0
+}
