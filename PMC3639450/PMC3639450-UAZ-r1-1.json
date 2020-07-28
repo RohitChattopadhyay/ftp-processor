@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "The fragmentation ion at 144.1 m/z is the product of the loss of ammonia from tryptamine, and the fragmentation ion at 146.1 m/z is [M + 2H] 2+ (XREF_FIG) XREF_BIBR.",
+  "reading_complete" : "2020-07-28T16:08:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:07:53Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ammonia" ],
+  "pmc_id" : "3639450",
+  "score" : 0
+}

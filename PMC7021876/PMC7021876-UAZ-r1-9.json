@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10747",
+      "entity_text" : "CD28",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Liuzzo et al. [XREF_BIBR] additionally showed that clonally expanded CD28 null T cells were present in unstable atherosclerotic plaques and absent in stable plaques in a patient who had suffered a fatal myocardial infarction, suggesting that loss of CD28 promotes differentiation of these T cells into an effector memory phenotype with autoreactive potential.",
+  "reading_complete" : "2020-07-28T16:07:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T15:56:14Z",
+  "trigger" : "promotes",
+  "evidence" : [ "CD28 promotes differentiation" ],
+  "pmc_id" : "7021876",
+  "score" : 0
+}
