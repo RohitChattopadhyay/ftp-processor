@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It has been suggested that BI-1-induced ERK activation reduces intracellular ROS generation, which suppresses autoimmune response related apoptotic cell death.",
+  "reading_complete" : "2020-07-28T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:47:58Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "ROS generation, which suppresses autoimmune response-related apoptotic cell death" ],
+  "pmc_id" : "4083451",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:GSK3",
+      "entity_text" : "GSK3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55061",
+      "entity_text" : "BI-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "BI-1 causes higher GSK3 phosphorylation and increased glycogen synthesis.",
+  "reading_complete" : "2020-07-28T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:47:58Z",
+  "trigger" : "causes",
+  "evidence" : [ "BI-1 causes higher GSK3 phosphorylation" ],
+  "pmc_id" : "4083451",
+  "score" : 0
+}

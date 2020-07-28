@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This process increases phosphorylation of the serine end of insulin receptor substrate-1 (IRS-1), reducing its ability to undergo tyrosine phosphorylation, Subsequently, Akt / protein kinase B and glycogen synthase kinase-3 (GSK-3) are inhibited, reducing hepatic glycogen synthesis.",
+  "reading_complete" : "2020-07-28T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:47:58Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation, Subsequently, Akt" ],
+  "pmc_id" : "4083451",
+  "score" : 0
+}

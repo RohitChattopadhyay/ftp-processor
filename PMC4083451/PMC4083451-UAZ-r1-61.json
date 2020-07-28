@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439177",
+      "entity_text" : "glycogen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:GSK3",
+      "entity_text" : "GSK3",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "BI-1 causes higher GSK3 phosphorylation and increased glycogen synthesis.",
+  "reading_complete" : "2020-07-28T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:47:58Z",
+  "trigger" : "increased",
+  "evidence" : [ "GSK3 phosphorylation and increased glycogen" ],
+  "pmc_id" : "4083451",
+  "score" : 0
+}

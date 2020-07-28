@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:O75460",
+      "entity_text" : "IRE1alpha",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "tumor necrosis factor",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When ER stress is initiated, the cytosolic domain of activated IRE1alpha binds tumor necrosis factor associated factor 2 (TNF-alpha) and triggers the activation of the JNK signaling pathway [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:47:58Z",
+  "trigger" : "triggers",
+  "evidence" : [ "IRE1alpha binds tumor necrosis factor-associated factor 2 (TNF-alpha) and triggers the activation of the JNK" ],
+  "pmc_id" : "4083451",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3702" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0044215" ]
+    }
+  },
+  "verbose_text" : "BI-1 regulates the amount of Ca 2+ that is associated with ER stress [XREF_BIBR, XREF_BIBR, XREF_BIBR - XREF_BIBR] and BI-1 is also associated with the regulation of ROS [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:47:58Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Ca" ],
+  "pmc_id" : "4083451",
+  "score" : 0
+}

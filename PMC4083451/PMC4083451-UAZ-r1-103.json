@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasiveness",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55061",
+      "entity_text" : "BI-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of BI-1 increased cell mobility and invasiveness, showing highly elevated glucose consumption and cytosolic accumulation of lactate and pyruvate but decreased mitochondrial oxygen (O 2) consumption and ATP production [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:47:58Z",
+  "trigger" : "increased",
+  "evidence" : [ "BI-1 increased cell mobility and invasiveness" ],
+  "pmc_id" : "4083451",
+  "score" : 0
+}

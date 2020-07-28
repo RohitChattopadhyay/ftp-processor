@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00528",
+      "entity_text" : "GFT505",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In S2, GFT505 did not reduce 2-h glucose (-0.52 mmol/L [-infinity to 0.61], P = 0.18) but led to a significant decrease of homeostasis model assessment of insulin resistance (-31.4% [-infinity to 12.5], P = 0.001), fasting plasma glucose (-0.37 mmol/L [-infinity to -0.10], P = 0.01) and fructosamine (-3.6% [-infinity to -0.20], P = 0.02).",
+  "reading_complete" : "2020-07-28T12:01:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:54:55Z",
+  "trigger" : "reduce",
+  "evidence" : [ "GFT505 did not reduce 2-h glucose" ],
+  "pmc_id" : "3161281",
+  "score" : 0
+}
