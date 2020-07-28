@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75051",
+      "entity_text" : "Oct",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O36386",
+      "entity_text" : "Sox",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W288" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0002248" ]
+    }
+  },
+  "verbose_text" : "Interestingly, a previous report indicated that this amino acid is positioned in the interaction surface with Oct3/4 in ternary Sox - Oct complex formed on the Utf1 enhancer [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:38:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:33:47Z",
+  "trigger" : "complex",
+  "evidence" : [ "Sox-Oct complex" ],
+  "pmc_id" : "5007870",
+  "score" : 0
+}
