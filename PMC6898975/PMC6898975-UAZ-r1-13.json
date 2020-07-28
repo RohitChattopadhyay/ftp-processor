@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01330",
+      "entity_text" : "IkappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "Toll like receptor (TLR) 4 is a plasma membrane receptor that plays an important role in the innate immune system, which is activated by circulating FFA, setting in motion a series of phosphorylation reactions leading to IkappaB phosphorylation.",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "IkappaB phosphorylation" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}

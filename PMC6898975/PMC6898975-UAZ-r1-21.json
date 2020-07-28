@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03022",
+      "entity_text" : "SR-B1 receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:HDL",
+      "entity_text" : "HDL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0002049" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Further action of LCAT leads to formation of alpha-HDL, comprising 95% of circulating HDL, which binds to the SR-B1 receptor and ABCG1 transporter, then delivering cholesterol to LDL via cholesteryl ester transfer protein (CETP).",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "binds",
+  "evidence" : [ "HDL, which binds to the SR-B1 receptor" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}

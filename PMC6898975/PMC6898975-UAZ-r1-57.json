@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The heart utilizes an immense amount of ATP, completely turning over its supply every 13 s. Cardiac muscle can utilize FFA, glucose, and lactate, with FFA providing 70% of energy requirements for the normal heart.",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ATP" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}

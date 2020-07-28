@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2585",
+      "entity_text" : "Carvedilol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Carvedilol leads to a shift from FFA to glucose metabolism and has benefit in CHF; in a study of subjects treated with this agent, insulin resistance is associated with worse outcome.",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "leads",
+  "evidence" : [ "Carvedilol leads to a shift from FFA to glucose metabolism" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}

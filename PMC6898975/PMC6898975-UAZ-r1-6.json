@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:586",
+      "entity_text" : "creatine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0005169" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In a myocardial infarction model, echocardiographic segmental wall abnormality correlates with creatine kinase levels, with increase in PAI-1 content at the site of the infarct, potentially increasing local fibrosis.",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatine kinase levels" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}

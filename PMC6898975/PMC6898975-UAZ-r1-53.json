@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0638" ],
+      "Organ" : [ "uberon:UBERON:0000415" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Type 2 diabetes is associated with marked elevation in TF-PCA, which does not improve after glucose levels are normalized for 24 h, and Boden pointed out that in type 1 diabetic patients hyperglycemia increases TF-PCA to a lesser degree than it does in type 2 diabetic patients, suggesting that hyperglycemia is not itself the direct initiator of the hypercoagulable state, but rather should be seen as a potentiator, acting then as a factor enhancing the CVD risk of insulin resistance.",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}

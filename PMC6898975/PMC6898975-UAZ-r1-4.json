@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0005777" ]
+    }
+  },
+  "verbose_text" : "In the failing human heart, fatty acid transport protein levels are decreased with insulin resistance.",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "acid transport protein levels" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}

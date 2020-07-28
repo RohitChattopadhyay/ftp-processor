@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "\" The molecular etiology of insulin resistance involves abnormality of insulin receptor signal transduction, the pathway leading to GLUT4 activation also responsible for generating nitric oxide (NO), involving serine rather than tyrosine phosphorylation of insulin receptor substrate-1 (IRS-1), whereas the mitogen activated protein kinase pathway remains insulin sensitive, leading to atherogenesis and inflammation.",
+  "reading_complete" : "2020-07-28T17:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T17:22:27Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of insulin receptor substrate-1 (IRS-1" ],
+  "pmc_id" : "6898975",
+  "score" : 0
+}
