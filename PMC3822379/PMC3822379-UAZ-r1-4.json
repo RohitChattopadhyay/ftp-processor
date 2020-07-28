@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0001772" ],
+      "CellType" : [ "cl:CL:0000898" ]
+    }
+  },
+  "verbose_text" : "Droplets with LPS stimulation contained IL-6 levels that were significantly higher (three standard deviations) than droplets with no LPS, which showed negligibleIL-6 levels.",
+  "reading_complete" : "2020-07-28T08:46:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T08:45:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-6 levels" ],
+  "pmc_id" : "3822379",
+  "score" : 0
+}
