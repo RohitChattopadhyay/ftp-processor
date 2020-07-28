@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In that same trial, OCA administered with UDCA or as monotherapy for 12 months resulted in decreases from baseline in ALP and total bilirubin levels that differed significantly from the changes observed with placebo [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:25:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:16:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "5696286",
+  "score" : 0
+}

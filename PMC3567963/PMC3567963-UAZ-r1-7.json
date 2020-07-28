@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02893",
+      "entity_text" : "Gram",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02634",
+      "entity_text" : "SRAI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although little research has been completed on SCARA5, it is known that both it and SRAI bind Gram positive and -negative bacteria [XREF_BIBR, XREF_BIBR, XREF_BIBR] and are both hypothesized to be involved in host defense [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:30:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:26:31Z",
+  "trigger" : "bind",
+  "evidence" : [ "SRAI bind Gram" ],
+  "pmc_id" : "3567963",
+  "score" : 0
+}

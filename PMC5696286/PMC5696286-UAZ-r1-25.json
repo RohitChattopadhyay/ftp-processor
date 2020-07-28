@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6112",
+      "entity_text" : "lipoic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06919",
+      "entity_text" : "DKA motif",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "lysine" ],
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005746" ],
+      "Organ" : [ "uberon:UBERON:2005080" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In all three antigens, epitopes contain the DKA motif, with lipoic acid covalently bound to the lysine (K) residue [XREF_BIBR].",
+  "reading_complete" : "2020-07-28T16:25:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T16:16:47Z",
+  "trigger" : "bound",
+  "evidence" : [ "DKA motif, with lipoic acid covalently bound to the lysine" ],
+  "pmc_id" : "5696286",
+  "score" : 0
+}
