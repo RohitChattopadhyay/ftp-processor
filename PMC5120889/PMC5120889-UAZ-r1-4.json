@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "RAS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "BRAF",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 600,
+        "feature_type" : "mutation",
+        "evidence" : "V600E"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It could be hypothesized that BRAF V600E inhibitors like vemurafenib could paradoxically activate BRAF wild-type and RAS (RAt Sarcoma) pathway in other cells and induce vasculitis or other inflammatory reactions.",
+  "reading_complete" : "2020-07-28T13:04:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:02:09Z",
+  "trigger" : "activate",
+  "evidence" : [ "BRAF V600E  inhibitors like vemurafenib could paradoxically activate BRAF wild-type and RAS" ],
+  "pmc_id" : "5120889",
+  "score" : 0
+}

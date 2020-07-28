@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ]
+    }
+  },
+  "verbose_text" : "Biological explorations found acute kidney injury with serum creatinine level of 225 mumol/l and C-reactive protein (CRP) was elevated at 16 mg/l.",
+  "reading_complete" : "2020-07-28T13:04:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T13:02:09Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "5120889",
+  "score" : 0
+}
