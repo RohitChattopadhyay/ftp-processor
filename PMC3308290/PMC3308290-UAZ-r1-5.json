@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01621",
+      "entity_text" : "MK-0354",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:938",
+      "entity_text" : "niacin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0934" ]
+    }
+  },
+  "verbose_text" : "Either niacin or MK-0354 binding to GPR109A strongly inhibits adipocyte triglyceride lipolysis and fatty-acid release, and the resulting perturbation in fuel supply might be linked to increased FG and insulin levels.",
+  "reading_complete" : "2020-07-28T14:10:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:10:34Z",
+  "trigger" : "binding",
+  "evidence" : [ "niacin or MK-0354 binding" ],
+  "pmc_id" : "3308290",
+  "score" : 0
+}

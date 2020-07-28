@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0627" ],
+      "Organ" : [ "uberon:UBERON:0001776" ],
+      "CellType" : [ "cl:CL:0000763" ]
+    }
+  },
+  "verbose_text" : "Although the expression of non phosphorylated STAT3 did not differ between the KO and WT mice, significantly increased p-STAT3 expression was detected in the retina and RPE / choroid in the LysM-Cre +/- : SOCS3 fl/fl mice, suggesting a spontaneous activation of STAT3 in ocular myeloid cells (e.g., retinal microglia, choroidal macrophages and dendritic cells) in the KO mice.",
+  "reading_complete" : "2020-07-28T14:11:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T14:06:44Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of non-phosphorylated STAT3" ],
+  "pmc_id" : "4839497",
+  "score" : 0
+}
