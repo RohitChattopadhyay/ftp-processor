@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "cell differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48985",
+      "entity_text" : "Math1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In subsequent experiments, forced Math1 overexpression was used to induce hair cell differentiation at the same time to promote residual supporting cell proliferation with Pax2.",
+  "reading_complete" : "2020-07-28T11:12:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-07-28T11:11:46Z",
+  "trigger" : "induce",
+  "evidence" : [ "Math1 overexpression was used to induce hair cell differentiation" ],
+  "pmc_id" : "3801138",
+  "score" : 0
+}
