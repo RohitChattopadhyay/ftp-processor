@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0397" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The neonate was discharged from the NICU after one month and sent home with spontaneous diuresis of 2.9 cc/kg/h and a creatinine level of 0.69 mg/dL in the most recent blood test results.",
+  "reading_complete" : "2020-08-02T12:53:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:52:37Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "5378842",
+  "score" : 0
+}

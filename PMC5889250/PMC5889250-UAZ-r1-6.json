@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "An adequate response was considered a poststimulation cortisol level of at least 15 mug/dL or an increase of at least 9 mug/dL 1, 2.",
+  "reading_complete" : "2020-08-02T12:51:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:51:06Z",
+  "trigger" : "level",
+  "evidence" : [ "cortisol level" ],
+  "pmc_id" : "5889250",
+  "score" : 0
+}

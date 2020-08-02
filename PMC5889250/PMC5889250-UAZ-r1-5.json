@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Blood pressures remained stable throughout the hospital course, and there was no evidence of abnormal serum sodium or potassium levels.",
+  "reading_complete" : "2020-08-02T12:51:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:51:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "potassium levels" ],
+  "pmc_id" : "5889250",
+  "score" : 0
+}

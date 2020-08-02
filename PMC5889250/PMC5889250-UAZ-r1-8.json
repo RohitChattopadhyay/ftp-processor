@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:12305" ]
+    }
+  },
+  "verbose_text" : "A cortisol level of < 20 mug/dL is considered abnormal although this level has been established from older patients with septic shock and does not necessarily apply for all newborns 18.",
+  "reading_complete" : "2020-08-02T12:51:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:51:06Z",
+  "trigger" : "level",
+  "evidence" : [ "cortisol level" ],
+  "pmc_id" : "5889250",
+  "score" : 0
+}

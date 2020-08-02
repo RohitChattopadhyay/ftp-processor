@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:12305" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "An initial cortisol level was low at 3 mug/dL.",
+  "reading_complete" : "2020-08-02T12:51:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:51:06Z",
+  "trigger" : "level",
+  "evidence" : [ "cortisol level" ],
+  "pmc_id" : "5889250",
+  "score" : 0
+}

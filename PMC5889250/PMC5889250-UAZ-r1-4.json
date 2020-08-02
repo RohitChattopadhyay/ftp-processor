@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0001233" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:12305" ]
+    }
+  },
+  "verbose_text" : "An initial cortisol level was 5.9 mug/dL, and an ACTH stimulation test illustrated an inadequate response of the cortisol axis (pre-ACTH cortisol of 0.7 mug/dL and post-ACTH maximum response of cortisol was 2.3 mug/dL).",
+  "reading_complete" : "2020-08-02T12:51:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:51:06Z",
+  "trigger" : "level",
+  "evidence" : [ "cortisol level" ],
+  "pmc_id" : "5889250",
+  "score" : 0
+}
