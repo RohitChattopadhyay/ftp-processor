@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02548",
+      "entity_text" : "Pax-5",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Reduced expression of Pax-5 may induce expression of XBP-1 and immunoglobulin heavy chain, suggesting that, in B-lymphocytes, the overproduction of Pax-5 suppresses the differentiation of plasma cells and decreases antibody production.",
+  "reading_complete" : "2020-08-02T09:37:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:35Z",
+  "trigger" : "induce",
+  "evidence" : [ "Pax-5 may induce expression of XBP-1 and immunoglobulin heavy chain, suggesting that, in B-lymphocytes, the overproduction of Pax-5 suppresses the differentiation" ],
+  "pmc_id" : "2751877",
+  "score" : 0
+}
