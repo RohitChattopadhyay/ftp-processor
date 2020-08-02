@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16455",
+      "entity_text" : "MGMT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the context of subtypes by TCGA, Brennan CW et al. found that MGMT promoter status distinguished responders from non responders to TMZ among samples classified as classical but not among samples classified as proneural, mesenchymal, and neural, evidencing that MGMT promoter methylation might only have such predictive validity in classical subtype GBM [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:55:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:52:29Z",
+  "trigger" : "methylation",
+  "evidence" : [ "MGMT promoter methylation" ],
+  "pmc_id" : "5062843",
+  "score" : 0
+}

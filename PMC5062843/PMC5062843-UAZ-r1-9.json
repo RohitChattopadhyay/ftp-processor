@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16455",
+      "entity_text" : "MGMT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In general, MGMT promoter methylation was associated with an HRs for improved OS of 0.50 (95% CI 0.35-0.66) with statistical heterogeneity (I = 84.5%, p = 0.000, random-effects model).",
+  "reading_complete" : "2020-08-02T16:55:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:52:29Z",
+  "trigger" : "methylation",
+  "evidence" : [ "MGMT promoter methylation" ],
+  "pmc_id" : "5062843",
+  "score" : 0
+}
