@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF07931",
+      "entity_text" : "CPT",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10663",
+      "entity_text" : "malonyl CoA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similar results have been observed in conjunction with elevated levels of malonyl CoA [XREF_BIBR], which is known to inhibit the CPT system [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:19:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:41:45Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "malonyl CoA [ XREF_BIBR ], which is known to inhibit the CPT" ],
+  "pmc_id" : "4408745",
+  "score" : 0
+}

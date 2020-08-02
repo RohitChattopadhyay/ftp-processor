@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10663",
+      "entity_text" : "malonyl CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As such, carbohydrate intake is likely to inhibit fat oxidation by promoting insulin release, which then increases production of malonyl CoA by ACC and, in turn, inhibits the CPT system from transporting long-chain fatty acids into mitochondria [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:19:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:41:45Z",
+  "trigger" : "increases",
+  "evidence" : [ "insulin release, which then increases production of malonyl CoA" ],
+  "pmc_id" : "4408745",
+  "score" : 0
+}

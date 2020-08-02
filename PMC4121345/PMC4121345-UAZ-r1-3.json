@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "features" : [ {
+        "modification_type" : "demethylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In malignant gliomas, the demethylation of ROS promoter enhanced the elevated expression of ROS kinase.",
+  "reading_complete" : "2020-08-02T15:23:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:22:15Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "ROS promoter enhanced the elevated expression of ROS" ],
+  "pmc_id" : "4121345",
+  "score" : 0
+}

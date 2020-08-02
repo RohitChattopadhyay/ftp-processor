@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:26623",
+      "entity_text" : "mercury",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M710" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because of the concern of high levels of mercury the following fishes have been given as examples of 1 g servings of EPA : DHA because of their low mercury content : 4.0 oz.",
+  "reading_complete" : "2020-08-02T15:19:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:41:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of mercury" ],
+  "pmc_id" : "4408745",
+  "score" : 0
+}

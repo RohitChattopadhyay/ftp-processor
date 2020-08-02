@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04351",
+      "entity_text" : "TRVP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1548943",
+      "entity_text" : "Capsaicin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Capsaicin will bind to the TRVP1 passively absorbing through the stomach and upper portion of the small intestine.",
+  "reading_complete" : "2020-08-02T15:19:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:41:45Z",
+  "trigger" : "bind",
+  "evidence" : [ "Capsaicin will bind to the TRVP1" ],
+  "pmc_id" : "4408745",
+  "score" : 0
+}

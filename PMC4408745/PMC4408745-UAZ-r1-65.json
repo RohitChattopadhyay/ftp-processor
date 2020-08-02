@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NER1",
+      "entity_text" : "TRPV1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1548943",
+      "entity_text" : "capsaicin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1315" ],
+      "CellLine" : [ "cellosaurus:CVCL_D957" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000101" ]
+    }
+  },
+  "verbose_text" : "Because capsaicin binds to the TRPV1 in the oral cavity activating heat and pain sensitive sensory neurons it is suggested that when consumed orally rather than in capsule form capsaicin 's influence on substrate oxidation may be greatest [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:19:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:41:45Z",
+  "trigger" : "binds",
+  "evidence" : [ "capsaicin binds to the TRPV1" ],
+  "pmc_id" : "4408745",
+  "score" : 0
+}
