@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Proteasome",
+      "entity_text" : "proteasome",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0459" ],
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These data suggest that Hsp90 may be degraded by the proteasome / ubiquitination pathway.",
+  "reading_complete" : "2020-08-02T10:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:12:42Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "proteasome/ubiquitination" ],
+  "pmc_id" : "5858516",
+  "score" : 0
+}

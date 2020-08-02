@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0459" ],
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As shown in Fig. XREF_FIG B and E, overexpressed Hsp90 increased the level of Akt phosphorylation in HyFS treated A549 and H460 cells.",
+  "reading_complete" : "2020-08-02T10:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:12:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt phosphorylation" ],
+  "pmc_id" : "5858516",
+  "score" : 0
+}

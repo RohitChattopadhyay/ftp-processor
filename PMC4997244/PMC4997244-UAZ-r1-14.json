@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000081" ]
+    }
+  },
+  "verbose_text" : "The negative charges were found to be generated from the large quantity of lactate secretion, a known property of all metabolically active cancer cells.",
+  "reading_complete" : "2020-08-02T10:12:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:24Z",
+  "trigger" : "quantity",
+  "evidence" : [ "quantity of lactate" ],
+  "pmc_id" : "4997244",
+  "score" : 0
+}

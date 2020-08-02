@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02708",
+      "entity_text" : "HyFS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Before and during this study, we have hypothesized that the physical binding between HyFS and Hsp90 is the determining factor that causes the ubiquitin mediated degradation of Hsp90.",
+  "reading_complete" : "2020-08-02T10:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:12:42Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding between HyFS and Hsp90" ],
+  "pmc_id" : "5858516",
+  "score" : 0
+}

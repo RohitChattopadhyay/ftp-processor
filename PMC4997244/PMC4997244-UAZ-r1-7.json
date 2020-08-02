@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The level of glucose uptake and lactate secretion in cancer cells can be up to 30 folds higher than the normal cells, giving a basis for the cancer detection technologies, such as PET (Positron Emission Tomography) scan XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:12:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:24Z",
+  "trigger" : "level",
+  "evidence" : [ "level of glucose uptake and lactate" ],
+  "pmc_id" : "4997244",
+  "score" : 0
+}
