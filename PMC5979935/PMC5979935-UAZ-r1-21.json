@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01760",
+      "entity_text" : "Smads",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000037" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The receptor regulated Smads, such as Smad2, can be recruited and phosphorylated by heteromeric complexes, including activins and their receptors, and further form heterotrimers with Smad4 to relocate into the nucleus, thus regulating transcription via various promoters.",
+  "reading_complete" : "2020-08-02T14:45:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:43:50Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Smads, such as Smad2, can be recruited and phosphorylated" ],
+  "pmc_id" : "5979935",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "Notably, in a Con A induced liver fibrosis model, the expression levels of IFN-gamma and IL-10 were increased in serum and liver samples.",
+  "reading_complete" : "2020-08-02T14:45:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:43:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IFN-gamma and IL-10" ],
+  "pmc_id" : "5979935",
+  "score" : 0
+}
