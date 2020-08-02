@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40337",
+      "entity_text" : "pVHL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In hypoxic conditions, HIF-1alpha is not hydroxylated, preventing its interaction with pVHL and subsequent ubiquitination and proteasomal degradation XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:42:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:40:34Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "pVHL and subsequent ubiquitination" ],
+  "pmc_id" : "5596433",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22265",
+      "entity_text" : "TSH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2157",
+      "entity_text" : "amiodarone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "An additional problem may be posed by the various medications used by older people, which can influence TFTs, for example metformin and glycocorticosteroids, which decrease serum TSH concentration, or amiodarone, which has a multidirectional effect on serum TSH and thyroid hormone levels.",
+  "reading_complete" : "2020-08-02T15:40:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:37:07Z",
+  "trigger" : "decrease",
+  "evidence" : [ "decrease serum TSH concentration, or amiodarone" ],
+  "pmc_id" : "5509968",
+  "score" : 0
+}
