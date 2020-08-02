@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The patients who received palliative chemotherapy were significantly younger (mean age, 65.5 vs. 74.4 years, P <.001) than patients who did not receive chemotherapy and had better performance status (P <.001), higher serum albumin levels (P =.002), and lower LDH levels (P =.01).",
+  "reading_complete" : "2020-08-02T08:58:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:56:37Z",
+  "trigger" : "levels",
+  "evidence" : [ "serum albumin levels" ],
+  "pmc_id" : "3331815",
+  "score" : 0
+}
