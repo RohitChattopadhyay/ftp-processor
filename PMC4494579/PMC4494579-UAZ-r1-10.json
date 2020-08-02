@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYN0",
+      "entity_text" : "Srxn1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:2000042" ]
+    }
+  },
+  "verbose_text" : "The reduction of Srxn1 expression has been shown to lead to an increased sensitivity to oxidative stress, and this sensitivity was reduced by the overexpression of intracellular Srxn1.",
+  "reading_complete" : "2020-08-02T10:48:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:46:09Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of intracellular Srxn1" ],
+  "pmc_id" : "4494579",
+  "score" : 0
+}
