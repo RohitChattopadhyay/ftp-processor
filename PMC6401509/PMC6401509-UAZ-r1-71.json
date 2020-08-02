@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "While studying the regulation of signal transducer and activator of transcription factor 3 (STAT3), we discovered GdX mediates tyrosine phosphatase TC45 recruitment for STAT3 dephosphorylation XREF_BIBR and regulates osteoblastogenesis and chondrogenesis XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "STAT3 dephosphorylation" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06725",
+      "entity_text" : "p-p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These results suggest that TC45 is required for PP2A mediated dephosphorylation of p-p65.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "mediated",
+  "evidence" : [ "PP2A-mediated dephosphorylation of p-p65" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

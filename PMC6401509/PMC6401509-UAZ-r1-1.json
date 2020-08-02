@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06725",
+      "entity_text" : "p-p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We focused on IKKalpha, IKKbeta, IKKepsilon, canonical and non canonical kinases known to be important for the phosphorylation of p65 XREF_BIBR, XREF_BIBR; PP2A, a serine phosphatase that dephosphorylates p-p65 (phosphorylated p65) XREF_BIBR, XREF_BIBR; WIP1, a PP2C family number XREF_BIBR, and TC45, a tyrosine phosphatase that interacts with GdX XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "evidence" : [ "PP2A, a serine phosphatase that dephosphorylates p-p65" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

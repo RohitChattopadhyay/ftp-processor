@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11441",
+      "entity_text" : "GdX",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Over-expression of GdX also promoted NF-kappaB activation by TNF-alpha or LPS / TLR4, but inhibited STAT3 activity as we reported previously XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "GdX also promoted NF-kappaB activation by TNF-alpha                              or LPS/TLR4                             , but inhibited STAT3" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

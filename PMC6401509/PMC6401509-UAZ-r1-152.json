@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06725",
+      "entity_text" : "p-p65",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:2000074" ]
+    }
+  },
+  "verbose_text" : "Over-expression of GdX also increased the level of p-p65 after TNF-alpha stimulation in 293T cells.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "level",
+  "evidence" : [ "level of p-p65" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine 536",
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "As dephosphorylation of serine 536 of p65 is induced by PP2A XREF_BIBR, we were considering that TC45 might function as a co-factor to bridge PP2A to p-p65, similar to the function of PHF20 XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "induced",
+  "evidence" : [ "dephosphorylation of serine 536 of p65 is induced by PP2A" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

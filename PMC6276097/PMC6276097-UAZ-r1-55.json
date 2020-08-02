@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3360" ],
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Compared to GC cells cultured alone, BGC823 and AGS co-cultured with adipocytes exhibited a higher basal and maximal respiration rate and elevated intracellular ATP levels.",
+  "reading_complete" : "2020-08-02T09:04:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:02:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "6276097",
+  "score" : 0
+}

@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01620",
+      "entity_text" : "TC45",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Mechanistically, we found that tyrosine protein phosphatase non receptor type 2 (PTPN2, TC45) and protein phosphatase 2A (PP2A) form a complex with RelA (p65) to mediate its dephosphorylation whereas GdX interrupts the TC45 / PP2A / p65 complex formation and restrict p65 dephosphorylation by trapping TC45.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "complex",
+  "evidence" : [ "TC45/PP2A/p65 complex" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

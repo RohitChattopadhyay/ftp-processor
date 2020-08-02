@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "At the protein level, IL6 and TNF-alpha promoted AKT phosphorylation and PITPNC1 expression.",
+  "reading_complete" : "2020-08-02T09:04:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:02:49Z",
+  "trigger" : "promoted",
+  "evidence" : [ "IL6 and TNF-alpha promoted AKT phosphorylation" ],
+  "pmc_id" : "6276097",
+  "score" : 0
+}

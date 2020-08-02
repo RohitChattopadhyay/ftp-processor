@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, we observed that over-expression of PP2A failed to mediate the dephosphorylation of p65 in TC45 deficient MEFs, but strongly decreased the phosphorylation level in the WT cells.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "mediate",
+  "evidence" : [ "PP2A failed to mediate the dephosphorylation of p65" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

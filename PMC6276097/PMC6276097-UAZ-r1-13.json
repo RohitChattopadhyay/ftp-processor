@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In addition, BCL2 upregulation was supported by its upstream AKT signaling XREF_BIBR, and we found that BCL2 elevation was concomitant with AKT phosphorylation.",
+  "reading_complete" : "2020-08-02T09:04:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:02:49Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "AKT phosphorylation" ],
+  "pmc_id" : "6276097",
+  "score" : 0
+}

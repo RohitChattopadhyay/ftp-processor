@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001816",
+      "entity_text" : "cytokine production",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These results suggest that GdX participates in TLR activated NF-kappaB pathway, up-regulating the phosphorylation of p65 in both in vitro and in vivo models, promoting the pro inflammatory cytokine production by DCs and Mphi.",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "promoting",
+  "evidence" : [ "p65 in both in vitro and in vivo models, promoting the pro-inflammatory cytokine production" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}

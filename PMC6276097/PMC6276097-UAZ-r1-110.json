@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08736",
+      "entity_text" : "FA",
+      "entity_type" : "family"
+    },
+    "to_location_text" : "cell membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "uniprot:SL-0039",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "FA uptake needs the participation of FA transporters on the cell membrane, such as CD36.",
+  "reading_complete" : "2020-08-02T09:04:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:02:49Z",
+  "trigger" : "transporters",
+  "evidence" : [ "FA transporters on the cell membrane" ],
+  "pmc_id" : "6276097",
+  "score" : 0
+}

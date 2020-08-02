@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "features" : [ {
+        "to_base" : "Y",
+        "site" : 100,
+        "feature_type" : "mutation",
+        "evidence" : "Y100F"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Consistent with these observations, over-expression of TC45 appeared to have no effect on the phosphorylation level of p65 (Y100F), which though appeared lower than that of p65 (WT) and p65 (Y152F).",
+  "reading_complete" : "2020-08-02T09:02:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:28Z",
+  "trigger" : "level",
+  "evidence" : [ "level of p65" ],
+  "pmc_id" : "6401509",
+  "score" : 0
+}
