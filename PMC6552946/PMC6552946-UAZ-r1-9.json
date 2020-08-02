@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01537",
+      "entity_text" : "ipilimumab",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02296",
+      "entity_text" : "PD-1L",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Upregulation of PD-1L expression on tumor cells increases the effect of pembrolizumab.14 Combination of talimogene laherparepvec and ipilimumab has been evaluated in a phase Ib and phase II studies, both showing higher efficacy in combination than as a monotherapy of talimogene laherparepvec or ipilimumab alone.15, 16 Talimogene laherparepvec intralesional injections before pembrolizumab administration promoted the CD8 + cell infiltration into tumor.",
+  "reading_complete" : "2020-08-02T10:34:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:34:06Z",
+  "trigger" : "increases",
+  "evidence" : [ "PD-1L expression on tumor cells increases the effect of pembrolizumab.14\n\n\nCombination of talimogene laherparepvec and ipilimumab" ],
+  "pmc_id" : "6552946",
+  "score" : 0
+}

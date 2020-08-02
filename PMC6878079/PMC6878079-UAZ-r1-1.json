@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001988" ]
+    }
+  },
+  "verbose_text" : "More important, patient 's alteration of mental status occurred with hyperammonemia, and the mental status was significantly improved when the serum ammonia level dropped back to normal range.",
+  "reading_complete" : "2020-08-02T10:34:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:33:32Z",
+  "trigger" : "level",
+  "evidence" : [ "ammonia level" ],
+  "pmc_id" : "6878079",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00299",
+      "entity_text" : "nivolumab",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It has previously been reported that nivolumab may cause impaired glucose tolerance or autoimmune diabetes.8, 9, 10, 11 The available blood sample tests from 6.6 months to 1.3 years show that all values, except for glucose values (Grade 1 according to NCI CTCAE), were in the normal range.",
+  "reading_complete" : "2020-08-02T10:34:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:34:06Z",
+  "trigger" : "cause",
+  "evidence" : [ "nivolumab may cause impaired glucose" ],
+  "pmc_id" : "6552946",
+  "score" : 0
+}
