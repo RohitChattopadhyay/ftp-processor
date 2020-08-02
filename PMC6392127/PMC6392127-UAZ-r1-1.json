@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18206",
+      "entity_text" : "mV",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Once a neuron fires, typically at a level of -53 mV, the voltage resets to around -70 mV, followed by a refractory period during which the neuron does not fire.",
+  "reading_complete" : "2020-08-02T08:40:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:38:59Z",
+  "trigger" : "level",
+  "evidence" : [ "level of -53 mV" ],
+  "pmc_id" : "6392127",
+  "score" : 0
+}
