@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0454" ]
+    }
+  },
+  "verbose_text" : "After 4 weeks of metformin treatment (75 mg/kg/day), the body weight, serum TG, LDL cholesterol and glucose levels in the ob/ob mice decreased significantly; however, there was no change in the total cholesterol and HDL cholesterol levels, compared with the control groups (XREF_TABLE).",
+  "reading_complete" : "2020-08-02T11:26:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:24:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "3868560",
+  "score" : 0
+}

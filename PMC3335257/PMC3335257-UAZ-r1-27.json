@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Under normal physiological conditions, healthy endothelial cells synthesise and release adequate amounts of NO, PGI 2, and PGE 1, maintaining a downstream balance between pro- and anti-inflammatory molecules.",
+  "reading_complete" : "2020-08-02T11:22:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:03:20Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of NO" ],
+  "pmc_id" : "3335257",
+  "score" : 0
+}

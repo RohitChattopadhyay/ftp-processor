@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10145",
+      "entity_text" : "NaF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The cell cycle distribution was analyzed by flow cytometry, and the results indicated that NaF induced G2 cell cycle arrest.",
+  "reading_complete" : "2020-08-02T11:24:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:24:05Z",
+  "trigger" : "induced",
+  "evidence" : [ "NaF induced G2 cell cycle" ],
+  "pmc_id" : "3896455",
+  "score" : 0
+}

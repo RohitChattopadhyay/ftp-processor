@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5484352",
+      "entity_text" : "AA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05383",
+      "entity_text" : "LA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since AA is derived from LA, a reduction of LA intakes will reduce tissue AA content, which in turn will reduce any inflammatory potential and therefore lower the risk for CVD [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:22:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:03:20Z",
+  "trigger" : "reduce",
+  "evidence" : [ "LA intakes will reduce tissue AA" ],
+  "pmc_id" : "3335257",
+  "score" : 0
+}

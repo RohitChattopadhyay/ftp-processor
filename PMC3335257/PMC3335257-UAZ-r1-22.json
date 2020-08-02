@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5484352",
+      "entity_text" : "AA",
+      "entity_type" : "simple_chemical"
+    },
+    "from_location_text" : "cell membrane",
+    "hypothesis_information" : false,
+    "from_location_id" : "uniprot:SL-0039",
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ]
+    }
+  },
+  "verbose_text" : "Binding of growth factors and hormones to membrane receptors leads to activation of phospholipase A 2 which releases AA from the cell membrane where the free acid can become a substrate for eicosanoid biosynthesis through the activities of COX and LOX [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:22:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:03:20Z",
+  "trigger" : "releases",
+  "evidence" : [ "releases AA from the cell membrane" ],
+  "pmc_id" : "3335257",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27392",
+      "entity_text" : "proteins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5283344",
+      "entity_text" : "HNE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3162" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0454" ]
+    }
+  },
+  "verbose_text" : "This could potentially lead to an increase in the release of 4-hydroxy-20-nonenal (HNE), which can bind hepatocyte proteins forming new antigens and therefore provoking a harmful immunological response [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:22:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:03:20Z",
+  "trigger" : "bind",
+  "evidence" : [ "HNE), which can bind hepatocyte proteins" ],
+  "pmc_id" : "3335257",
+  "score" : 0
+}
