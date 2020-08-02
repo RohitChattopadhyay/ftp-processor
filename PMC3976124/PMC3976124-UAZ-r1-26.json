@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "CellType" : [ "cl:CL:0002092" ]
+    }
+  },
+  "verbose_text" : "The level of total cholesterol in the plasma in the EPO group was also significantly lower than that in the control group on week 2.",
+  "reading_complete" : "2020-08-02T15:54:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:53:26Z",
+  "trigger" : "level",
+  "evidence" : [ "level of total cholesterol" ],
+  "pmc_id" : "3976124",
+  "score" : 0
+}

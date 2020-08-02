@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "JAK2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "EPO binding activates the phosphorylation activity of JAK2 and phosphorylation of JAK2, which results in signal transduction involving STAT5, PI3 kinase, MAPK and other signaling molecules.",
+  "reading_complete" : "2020-08-02T15:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:55:13Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of JAK2" ],
+  "pmc_id" : "4094589",
+  "score" : 0
+}

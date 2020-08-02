@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5893",
+      "entity_text" : "NAD",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q97VX5",
+      "entity_text" : "SsSir2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0002488" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The optimal binding conformation of the SsSir2 - NAD complex was selected and is presented in XREF_FIG.",
+  "reading_complete" : "2020-08-02T15:58:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:56:19Z",
+  "trigger" : "complex",
+  "evidence" : [ "SsSir2-NAD complex" ],
+  "pmc_id" : "4056409",
+  "score" : 0
+}
