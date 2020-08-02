@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P80303",
+      "entity_text" : "NEFA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0005777" ]
+    }
+  },
+  "verbose_text" : "Fgf21 knockout mice fasted for 24 h showed increased lipolysis in adipocytes, which resulted in decreased adipocyte size and increased serum NEFA levels [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:17:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "NEFA levels" ],
+  "pmc_id" : "3038562",
+  "score" : 0
+}

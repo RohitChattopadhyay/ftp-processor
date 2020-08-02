@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:O14788",
+      "entity_text" : "RANKL",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O14788",
+      "entity_text" : "Receptor activator of nuclear factor-kappaB ligand",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "RANKL binds to its receptor, RANK, and induces osteoclast differentiation and activation via intracellular nuclear factor-kappaB (NF-kappaB) signaling.",
+  "reading_complete" : "2020-08-02T10:17:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:16:54Z",
+  "trigger" : "induces",
+  "evidence" : [ "RANKL binds to its receptor, RANK, and induces osteoclast differentiation" ],
+  "pmc_id" : "4214352",
+  "score" : 0
+}

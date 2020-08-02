@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0005777" ]
+    }
+  },
+  "verbose_text" : "Serum glucose levels were also reduced to near normal levels in both ob/ob and db/db mice by the administration of FGF21.",
+  "reading_complete" : "2020-08-02T10:17:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3038562",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00823",
+      "entity_text" : "PPE",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WTV0",
+      "entity_text" : "SR-B1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When the cells were exposed to oxidized LDL for 6 h and treated with 1-10 mug/ml PPE, SR-B1 expression decreased in a dose dependent manner (XREF_FIG).",
+  "reading_complete" : "2020-08-02T10:19:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:18:39Z",
+  "trigger" : "decreased",
+  "evidence" : [ "PPE, SR-B1 expression decreased" ],
+  "pmc_id" : "4356441",
+  "score" : 0
+}
