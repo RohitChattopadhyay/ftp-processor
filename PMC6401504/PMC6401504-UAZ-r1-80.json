@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009362",
+      "entity_text" : "metastasis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02576",
+      "entity_text" : "miR-4306",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increased miR-4306 expression levels suppress TNBC metastasis, particularly lymph node metastasis, predominately through targeting SIX1, Cdc42 and VEGFA in vitro and in vivo.",
+  "reading_complete" : "2020-08-02T10:06:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:04:22Z",
+  "trigger" : "suppress",
+  "evidence" : [ "miR-4306 expression levels suppress TNBC metastasis" ],
+  "pmc_id" : "6401504",
+  "score" : 0
+}
