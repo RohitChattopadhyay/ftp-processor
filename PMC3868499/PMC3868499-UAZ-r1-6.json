@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04198",
+      "entity_text" : "MYCN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1700" ],
+      "CellType" : [ "cl:CL:0000570" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "SKNBE (2) C and IMR5 cells expressed high levels of MYCN, whereas SKNAS, SY5Y and Nb69 cells expressed high levels of MYC.",
+  "reading_complete" : "2020-08-02T14:13:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:09:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MYCN" ],
+  "pmc_id" : "3868499",
+  "score" : 0
+}

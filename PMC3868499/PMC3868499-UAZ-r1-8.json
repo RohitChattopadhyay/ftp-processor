@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006119",
+      "entity_text" : "OXPHOS",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01106",
+      "entity_text" : "MYC",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These observations suggest that cancer cells are dependent on mitochondrial OXPHOS augmented by elevated MYC expression.",
+  "reading_complete" : "2020-08-02T14:13:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:09:03Z",
+  "trigger" : "augmented",
+  "evidence" : [ "OXPHOS augmented by elevated MYC" ],
+  "pmc_id" : "3868499",
+  "score" : 0
+}

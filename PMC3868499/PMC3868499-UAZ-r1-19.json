@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006119",
+      "entity_text" : "OXPHOS",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "First, the results of several studies are inconsistent with the hypothesis that the anti-diabetic and growth inhibitory effects of metformin are linked to the activation of AMPK : i) studies using AMPK knockout mice have demonstrated that metformin inhibits mitochondrial OXPHOS Complex I and induces changes in the energy state, which is solely responsible for the inhibition of gluconeogenesis; ii) it has been suggested that the growth inhibitory effects of metformin are due to AMPK activation, leading to the inhibition of the mTOR pathway.",
+  "reading_complete" : "2020-08-02T14:13:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:09:03Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "metformin inhibits mitochondrial OXPHOS" ],
+  "pmc_id" : "3868499",
+  "score" : 0
+}
