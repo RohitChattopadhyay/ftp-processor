@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The expression level of beta-catenin was identified to be increased in patients with oral squamous cell carcinoma (OSCC) undergoing cisplatin chemotherapy, as confirmed in human OSCC cell lines following cisplatin treatment.",
+  "reading_complete" : "2020-08-02T16:16:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:15:29Z",
+  "trigger" : "increased",
+  "evidence" : [ "beta-catenin was identified to be increased in patients with oral squamous cell carcinoma (OSCC) undergoing cisplatin" ],
+  "pmc_id" : "7169654",
+  "score" : 0
+}
