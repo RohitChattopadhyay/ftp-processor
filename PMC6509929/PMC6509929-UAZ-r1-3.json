@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0895" ]
+    }
+  },
+  "verbose_text" : "Serum CRP level was 0.72 mg/dL; WBC count was 122 00 cells / muL.",
+  "reading_complete" : "2020-08-02T09:56:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:55:14Z",
+  "trigger" : "level",
+  "evidence" : [ "CRP level" ],
+  "pmc_id" : "6509929",
+  "score" : 0
+}
