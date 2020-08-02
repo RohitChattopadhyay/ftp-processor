@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439709",
+      "entity_text" : "fructose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:1000010" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Inclusion of catalytic quantities of fructose in a carbohydrate meal improves glucose tolerance.",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "quantities",
+  "evidence" : [ "quantities of fructose" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:751",
+      "entity_text" : "D-glyceraldehyde",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:1000010" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fructose-1-phosphate is subsequently converted to dihydroxyacetone-phosphate and D-glyceraldehyde by the action of the aldolase B. D-glyceraldehyde is phosphorylated and continued downstream in the glycolysis pathway to form pyruvate.",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "D-glyceraldehyde is phosphorylated" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}

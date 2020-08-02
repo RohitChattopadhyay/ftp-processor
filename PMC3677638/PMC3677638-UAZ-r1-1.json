@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439709",
+      "entity_text" : "fructose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fructose may also be metabolized by hexokinase; however, the Km for fructose is much higher than glucose, and hence minimal amounts of fructose are metabolized via this pathway [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of fructose" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1175",
+      "entity_text" : "uric acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0013755" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fructose consumption in the form of sugar sweetened beverages was associated with hypertension and elevated uric acid level in USA adolescents [XREF_BIBR] but not in adults [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "level",
+  "evidence" : [ "uric acid level" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}

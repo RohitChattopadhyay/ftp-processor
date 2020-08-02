@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15848",
+      "entity_text" : "adiponectin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0002334" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "During the early stages of preadipocyte development, an increased number of mitochondria are required, resulting in small mature adipocytes, highly sensitive to insulin, and secreting high levels of adiponectin [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of adiponectin" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}
