@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The increased expression of p53 has been shown to mediate apoptosis through Bax expression in response to a number of stress signals.",
+  "reading_complete" : "2020-08-02T15:09:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:08:08Z",
+  "trigger" : "mediate",
+  "evidence" : [ "p53 has been shown to mediate apoptosis" ],
+  "pmc_id" : "5029952",
+  "score" : 0
+}
