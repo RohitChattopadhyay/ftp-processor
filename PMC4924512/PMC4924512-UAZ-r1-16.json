@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:2000074" ]
+    }
+  },
+  "verbose_text" : "The ELISA results indicated that splenocytes obtained from the immunized mice produced a distinct level of IFN-gamma (425.1 +/- 142.2 pg/ml, n = 10) when stimulated with tfRFP, whereas IFN-gamma was undetectable in the non immunized group.",
+  "reading_complete" : "2020-08-02T08:23:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:21:08Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IFN-gamma" ],
+  "pmc_id" : "4924512",
+  "score" : 0
+}

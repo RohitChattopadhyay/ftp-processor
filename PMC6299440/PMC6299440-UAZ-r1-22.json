@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00330",
+      "entity_text" : "PDX1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "TissueType" : [ "tissuelist:TS-0569" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We detected inactivation of phosphorylated (p)-AKT and p-ERK in the BPI-9016M-treated PDX1 and PDX2 tumors.",
+  "reading_complete" : "2020-08-02T08:19:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:18:21Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated (p)-AKT and p-ERK in the BPI-9016M-treated PDX1" ],
+  "pmc_id" : "6299440",
+  "score" : 0
+}
