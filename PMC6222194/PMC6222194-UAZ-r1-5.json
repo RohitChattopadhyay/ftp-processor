@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_U565" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ORs showed that individuals with initial serum albumin levels below 3.0 g/dL had a significant increase in the risk of developing simultaneous mediastinitis (2.96), necrotizing fasciitis (10.67), disease extent of more than one cervical level (2.18), and initial serum CRP over 20 mg/dL (4.20) (all P < 0.05) (XREF_TABLE).",
+  "reading_complete" : "2020-08-02T12:24:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:22:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "serum albumin levels" ],
+  "pmc_id" : "6222194",
+  "score" : 0
+}
