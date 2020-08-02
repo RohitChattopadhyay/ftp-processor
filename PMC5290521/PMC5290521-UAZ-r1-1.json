@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:96215",
+      "entity_text" : "IAA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02611",
+      "entity_text" : "CDH",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0004363" ]
+    }
+  },
+  "verbose_text" : "There may be an association between 1p microdeletion, CDH, and IAA.",
+  "reading_complete" : "2020-08-02T11:05:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:04:44Z",
+  "trigger" : "association",
+  "evidence" : [ "association between 1p microdeletion, CDH, and IAA" ],
+  "pmc_id" : "5290521",
+  "score" : 0
+}
