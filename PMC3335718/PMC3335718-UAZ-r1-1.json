@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01242",
+      "entity_text" : "metalloproteinases",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These include an increase in proliferation of resident tissue fibroblasts, a reduced level of metalloproteinases synthesis (MMP-1 and MMP-2), resulting in low levels of extracellular matrix degrading, an increase in collagen type I production, heat-shock protein 47 (hsp47) production, and other extracellular matrix components [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:14:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:12:52Z",
+  "trigger" : "increase",
+  "evidence" : [ "increase in proliferation of resident tissue fibroblasts, a reduced level of metalloproteinases" ],
+  "pmc_id" : "3335718",
+  "score" : 0
+}
