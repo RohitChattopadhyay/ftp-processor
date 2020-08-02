@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03950",
+      "entity_text" : "ANG",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0529" ],
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Statistical analysis failed to identify any significant associations between ANG expression and pT, N (pN+ vs. cN0 or pN0), stage, or grade (Mann-Whitney U-test, P = 0.25, P = 0.40, P = 0.77, and P = 0.19, respectively).",
+  "reading_complete" : "2020-08-02T11:53:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:38Z",
+  "trigger" : "expression",
+  "evidence" : [ "ANG expression" ],
+  "pmc_id" : "4553359",
+  "score" : 0
+}
