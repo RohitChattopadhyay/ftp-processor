@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "Erk1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2764",
+      "entity_text" : "Ciprofloxacin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Ciprofloxacin significantly induced Erk1/2 phosphorylation in human dermal fibroblasts, with the levels of P-Erk1/2 almost doubling (XREF_FIG, right panel), suggesting that Erk1/2 may be involved in ciprofloxacin induced MMP1 gene expression.",
+  "reading_complete" : "2020-08-02T12:09:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:08:47Z",
+  "trigger" : "induced",
+  "evidence" : [ "Ciprofloxacin significantly induced Erk1/2 phosphorylation" ],
+  "pmc_id" : "4035782",
+  "score" : 0
+}

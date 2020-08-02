@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14116",
+      "entity_text" : "IL-18",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000775" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Hanawa et al showed that administration of an HGF gene containing plasmid in the liver by intravenous injection suppressed the mRNA levels of IFN-gamma, IL-18 and TNF-alpha, and increased the mRNA levels of anti-inflammatory cytokines such as IL-10.",
+  "reading_complete" : "2020-08-02T12:11:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:09:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IFN-gamma, IL-18" ],
+  "pmc_id" : "4020479",
+  "score" : 0
+}

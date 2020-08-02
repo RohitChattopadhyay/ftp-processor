@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02482",
+      "entity_text" : "alpha-MHC promoter",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43694",
+      "entity_text" : "GATA4",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, as we demonstrated in the present study, the increased concentration of the mutant GATA4 expression vector reduced the activity of the alpha-MHC promoter.",
+  "reading_complete" : "2020-08-02T12:08:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:07:03Z",
+  "trigger" : "reduced",
+  "evidence" : [ "GATA4 expression vector reduced the activity of the alpha-MHC promoter" ],
+  "pmc_id" : "4432925",
+  "score" : 0
+}

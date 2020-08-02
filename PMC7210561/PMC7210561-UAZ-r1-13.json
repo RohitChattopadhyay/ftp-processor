@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:511",
+      "entity_text" : "ThTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0031965" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000125" ]
+    }
+  },
+  "verbose_text" : "Interestingly, administering sulbutiamine to rats leads to increased levels of ThTP in brain tissue.",
+  "reading_complete" : "2020-08-02T12:11:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:59:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ThTP" ],
+  "pmc_id" : "7210561",
+  "score" : 0
+}

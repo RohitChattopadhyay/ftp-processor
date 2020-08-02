@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PDH",
+      "entity_text" : "PDH",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Although this novel and preliminary study of Jonus and colleagues presents sulbutiamine as an anticancer therapy in vitro but not in vivo, two points cited by the authors have to be considered before excluding its in vivo potential : Changes to PDH phosphorylation may have been impacted by the terminal end point used for analysis of tumor tissue and not indicative of the initial response to treatment that would be more complementary to in vitro findings Alternatively, the increase in TPP achieved by in vivo dosing paradigm may not have been substantial enough to sufficiently inhibit PDK Therefore, new studies need to be done using sulbutiamine in cancer models to address the potential anticancer effect of sulbutiamine.",
+  "reading_complete" : "2020-08-02T12:11:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:59:08Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PDH phosphorylation" ],
+  "pmc_id" : "7210561",
+  "score" : 0
+}
