@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "We previously found that TAU administration to chronic and acute liver failure animal models could prevent a rise in blood and brain ammonia level [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T12:19:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:17:17Z",
+  "trigger" : "level",
+  "evidence" : [ "ammonia level" ],
+  "pmc_id" : "6000746",
+  "score" : 0
+}
