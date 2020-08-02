@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P40189",
+      "entity_text" : "gp130",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P42702",
+      "entity_text" : "LIFR",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40189",
+      "entity_text" : "IL-6R",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0934" ]
+    }
+  },
+  "verbose_text" : "However, p28 (IL-30) and ciliary neurotrophic factor (CNTF) have been identified as additional low-affinity ligands of the IL-6R / gp130 / LIFR complex.",
+  "reading_complete" : "2020-08-02T15:08:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:06:46Z",
+  "trigger" : "complex",
+  "evidence" : [ "IL-6R/gp130/LIFR complex" ],
+  "pmc_id" : "4121342",
+  "score" : 0
+}
