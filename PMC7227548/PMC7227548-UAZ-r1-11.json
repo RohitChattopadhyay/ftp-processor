@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000322" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "An analysis of single-cell RNA sequencing (RNA-seq) showed that Asian males might have higher ACE2 expression levels [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:45:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:38:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "ACE2 expression levels" ],
+  "pmc_id" : "7227548",
+  "score" : 0
+}

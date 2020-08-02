@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "angiotensin-converting enzyme-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00211",
+      "entity_text" : "COVID-19",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7172" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "COVID-19 patients are susceptible to liver failure, since COVID-19 directly binds to angiotensin converting enzyme-2 (ACE2) positive bile duct cells [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:45:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:38:27Z",
+  "trigger" : "binds",
+  "evidence" : [ "COVID-19 directly binds to angiotensin-converting enzyme-2" ],
+  "pmc_id" : "7227548",
+  "score" : 0
+}
