@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15698",
+      "entity_text" : "phosphatase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00244",
+      "entity_text" : "14-3-3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "Organ" : [ "uberon:UBERON:2001569" ],
+      "CellType" : [ "cl:CL:0000023" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It has been suggested that, in mammalian oocytes, 14-3-3 binds to and regulates the cell cycle control protein CDC25B phosphatase (cell division cycle 25 homolog B), as it does in amphibian oocytes, to hold the cell in prophase arrest [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:48:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:46:13Z",
+  "trigger" : "binds",
+  "evidence" : [ "14-3-3 binds to and regulates the cell cycle control protein CDC25B phosphatase" ],
+  "pmc_id" : "3292963",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30305",
+      "entity_text" : "CDC25B",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000023" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Following the induction of oocyte maturation, CDC25B is thought to be dephosphorylated and released from 14-3-3, allowing it to participate in the activation of MPF which leads to germinal vesicle breakdown and the resumption of meiosis.",
+  "reading_complete" : "2020-08-02T11:48:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:46:13Z",
+  "trigger" : "dephosphorylated",
+  "evidence" : [ "CDC25B is thought to be dephosphorylated" ],
+  "pmc_id" : "3292963",
+  "score" : 0
+}
