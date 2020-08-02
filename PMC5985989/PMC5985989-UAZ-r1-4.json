@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02771",
+      "entity_text" : "AFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0455" ]
+    }
+  },
+  "verbose_text" : "The diagnosis of HCC is highly probable with an AFP level> 200 ng/mL, and confirmed when imaging shows a hypervascular hepatic lesion> 2 cm with an AFP level> 400 ng/mL 4.",
+  "reading_complete" : "2020-08-02T09:30:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:30:15Z",
+  "trigger" : "level",
+  "evidence" : [ "AFP level" ],
+  "pmc_id" : "5985989",
+  "score" : 0
+}

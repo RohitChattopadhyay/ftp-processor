@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0001" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Her serum glucose level was 440 mg/dL (24.4 mmol/L), K + 3.3 mmol/L, corrected Na + 148.4 mmol/L, Cl-108 mmol/L.",
+  "reading_complete" : "2020-08-02T09:29:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:29:07Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6935651",
+  "score" : 0
+}
