@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0004288" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Most important risk factors for osteoporosis are : age, female sex, ethnic group, genetic factors, inherited factors, early menopause, slim silhouette and low body mass, diseases disturbing the bone metabolism, some medicines taken for a long time, insufficient physical activity, consumption of too small amounts of calcium and vitamin D, overconsumption of alcohol, caffeine and cigarette smoking and protein rich diet [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T17:18:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:14:39Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of calcium and vitamin D" ],
+  "pmc_id" : "4440191",
+  "score" : 0
+}

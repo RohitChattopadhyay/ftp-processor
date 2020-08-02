@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01973",
+      "entity_text" : "ROR1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Taken together, these data indicate that Twist can induce ROR1 expression by promoting its transcription during EMT in breast cancer cells.",
+  "reading_complete" : "2020-08-02T17:19:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:18:49Z",
+  "trigger" : "promoting",
+  "evidence" : [ "ROR1 expression by promoting its transcription" ],
+  "pmc_id" : "5957006",
+  "score" : 0
+}

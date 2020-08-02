@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "IRS4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07593",
+      "entity_text" : "WT-CK1gamma2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, IRS4 was decreased by ectopic expression of WT-CK1gamma2, but not by its KD form, in multiple cell lines.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "decreased",
+  "evidence" : [ "IRS4 was decreased by ectopic expression of WT-CK1gamma2" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

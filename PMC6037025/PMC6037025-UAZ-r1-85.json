@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "IRS4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07581",
+      "entity_text" : "CK1gamma2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As shown in Figure XREF_FIG C, the interaction between IRS4 and CK1gamma2 was also detected in such an assay, indicating that CK1gamma2 may directly bind IRS4.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "bind",
+  "evidence" : [ "CK1gamma2 may directly bind IRS4" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

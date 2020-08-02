@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser856",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "IRS4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04264",
+      "entity_text" : "CK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Therefore, Ser859 may be likely phosphorylated by CK1 in IRS4, whereas Ser856 may be the priming site.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "evidence" : [ "phosphorylated by CK1 in IRS4, whereas Ser856" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}
