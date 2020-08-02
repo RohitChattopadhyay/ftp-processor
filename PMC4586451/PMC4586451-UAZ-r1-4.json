@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:26623",
+      "entity_text" : "mercury",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The blood mercury concentrations, reflecting the usual UK diet, were quite low, XREF_BIBR, XREF_BIBR and ALSPAC data showed that fish consumption contributes to the maternal burden of mercury XREF_BIBR and that amounts of mercury were higher in umbilical cord samples if mothers ate fish during pregnancy, XREF_BIBR but no evidence was found that these relatively low concentrations of mercury were detrimental to offspring cognitive development.",
+  "reading_complete" : "2020-08-02T08:18:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:09:58Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of mercury" ],
+  "pmc_id" : "4586451",
+  "score" : 0
+}
