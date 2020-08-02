@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG, administration of GST-TFAM led to a 65% increase in serum levels of lactate (P < 0.05).",
+  "reading_complete" : "2020-08-02T16:10:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:09:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of lactate" ],
+  "pmc_id" : "3981640",
+  "score" : 0
+}

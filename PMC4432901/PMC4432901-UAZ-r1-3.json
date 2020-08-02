@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000558" ]
+    }
+  },
+  "verbose_text" : "The arterial pH, hemoglobin level and reticulocytes of the umbilical cord were 6.815, 6.9 g/dL (normal : 13 - 22 g/dL) and 11.7% (normal : 3-7%), respectively.",
+  "reading_complete" : "2020-08-02T16:14:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:13:26Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "4432901",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "endotoxin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The endotoxin level in the recombinant protein sample was not detectable as measured by Limulus Amebocyte Lysate method (data not shown).",
+  "reading_complete" : "2020-08-02T16:10:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:09:55Z",
+  "trigger" : "level",
+  "evidence" : [ "endotoxin level" ],
+  "pmc_id" : "3981640",
+  "score" : 0
+}
