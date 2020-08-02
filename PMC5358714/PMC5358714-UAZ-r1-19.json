@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NYA1",
+      "entity_text" : "SphK1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similarly, the lentiviral mediated overexpression of human SphK1 in mice subjected to ischaemia-perfusion injury demonstrated less tubular necrosis and reduced inflammation.",
+  "reading_complete" : "2020-08-02T13:41:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:39:27Z",
+  "trigger" : "reduced",
+  "evidence" : [ "SphK1 in mice subjected to ischaemia-perfusion injury demonstrated less tubular necrosis and reduced inflammation" ],
+  "pmc_id" : "5358714",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NYA1",
+      "entity_text" : "SphK1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Notably, SphK1 overexpression promotes basal and insulin stimulated glucose uptake in C2C12 cells and a remarkable reduction in blood glucose in diabetic mice.",
+  "reading_complete" : "2020-08-02T13:41:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:39:27Z",
+  "trigger" : "promotes",
+  "evidence" : [ "SphK1 overexpression promotes basal and insulin-stimulated glucose uptake in C2C12 cells               and a remarkable reduction in blood glucose" ],
+  "pmc_id" : "5358714",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01720",
+      "entity_text" : "miR-214",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of miR-214 suppressed cell proliferation, invasion, migration and epithelial-mesenchymal transition (EMT) in the CGTH W-3 and PTC-uc3 PTC cell lines, via targeting PSMD10.",
+  "reading_complete" : "2020-08-02T13:39:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:38:39Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "miR-214 suppressed cell proliferation" ],
+  "pmc_id" : "6202080",
+  "score" : 0
+}

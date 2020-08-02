@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01704",
+      "entity_text" : "cytochrome c.",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07812",
+      "entity_text" : "Bax",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conversely, Bax resides in the cytosol but translocates to the mitochondria following death signaling, where it damages membrane integrity and promotes release of cytochrome c.",
+  "reading_complete" : "2020-08-02T13:38:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:35:31Z",
+  "trigger" : "promotes",
+  "evidence" : [ "Bax resides in the cytosol but translocates to the mitochondria following death signaling, where it damages membrane integrity and promotes release of cytochrome c." ],
+  "pmc_id" : "5881801",
+  "score" : 0
+}

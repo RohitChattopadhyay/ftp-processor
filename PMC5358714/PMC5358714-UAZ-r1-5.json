@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "insulin receptor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104727",
+      "entity_text" : "al",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Rapizzi et al reported that S1P induced ligand independent trans-phosphorylation of the insulin receptor and increased glucose uptake in C2C12 myoblasts.",
+  "reading_complete" : "2020-08-02T13:41:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:39:27Z",
+  "trigger" : "induced",
+  "evidence" : [ "al reported that S1P induced ligand-independent trans-phosphorylation of the insulin receptor" ],
+  "pmc_id" : "5358714",
+  "score" : 0
+}

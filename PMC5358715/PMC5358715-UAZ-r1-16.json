@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992563",
+      "entity_text" : "RL",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10646",
+      "entity_text" : "EPI",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In conclusion, we found that an increase in alpha7 nAChR may facilitate the release of more EPI by AMCCs and an increase in the EPI level could relieve RL.",
+  "reading_complete" : "2020-08-02T13:42:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:41:01Z",
+  "trigger" : "relieve",
+  "evidence" : [ "EPI level could relieve RL" ],
+  "pmc_id" : "5358715",
+  "score" : 0
+}
