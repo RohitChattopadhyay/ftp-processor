@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Compared to the control group, the accumulation of MDA was significantly higher (P < 0.001) and GSH levels were lower in the PTZ group (P < 0.001).",
+  "reading_complete" : "2020-08-02T11:40:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:38:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "GSH levels" ],
+  "pmc_id" : "4094588",
+  "score" : 0
+}
