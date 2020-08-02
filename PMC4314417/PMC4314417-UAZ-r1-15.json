@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95477",
+      "entity_text" : "ABCA1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02647",
+      "entity_text" : "apoA-I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "This is further supported by data indicating that the functional interactions between apoA-I and ABCA1 are necessary for the initial lipidation of apoA-I.",
+  "reading_complete" : "2020-08-02T15:10:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:09:22Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between apoA-I and ABCA1" ],
+  "pmc_id" : "4314417",
+  "score" : 0
+}

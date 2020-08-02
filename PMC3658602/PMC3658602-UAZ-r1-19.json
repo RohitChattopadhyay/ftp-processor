@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXI7",
+      "entity_text" : "CA125",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "A positive correlation between plasma OPN and serum CA125 levels was observed in the total number of endometriosis patients (Pearson 's test, r = 0.41, p < 0.05).",
+  "reading_complete" : "2020-08-02T15:09:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:08:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "CA125 levels" ],
+  "pmc_id" : "3658602",
+  "score" : 0
+}
