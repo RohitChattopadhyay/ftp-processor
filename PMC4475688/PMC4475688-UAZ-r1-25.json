@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "proline-residues",
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Under normal oxygen conditions (normoxia), the HIF-alpha proteins have a very short half-life and are, by hydroxylation of two proline residues in the oxygen dependent degradation domain, constantly targeted for proteasomal degradation [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:15:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:09:00Z",
+  "trigger" : "hydroxylation",
+  "evidence" : [ "hydroxylation of two proline-residues in the oxygen" ],
+  "pmc_id" : "4475688",
+  "score" : 0
+}
