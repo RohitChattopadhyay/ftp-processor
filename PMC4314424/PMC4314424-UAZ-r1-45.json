@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05586",
+      "entity_text" : "NMDAR1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0002609" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "ANOVA followed by the Dunnett (2 sided) test was used for multiple comparisons between the levels of NMDAR1 and SNAP-25 in the Rbfox1 and lentivirus group and the control group.",
+  "reading_complete" : "2020-08-02T15:51:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:47:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NMDAR1" ],
+  "pmc_id" : "4314424",
+  "score" : 0
+}
