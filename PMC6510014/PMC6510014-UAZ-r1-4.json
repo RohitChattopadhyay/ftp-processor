@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:216210",
+      "entity_text" : "dabigatran",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_F568" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0665" ]
+    }
+  },
+  "verbose_text" : "There was concern regarding a potential interaction between crizotinib and dabigatran as the former has been shown to act as an inhibitor of P-glycoprotein and the latter is a P-glycoprotein substrate.1, 2 The theoretical risk of increased dabigatran levels was not observed : levels were measured by calibrated diluted thrombin assay (Hyphen (R)) on multiple occasions 90 minutes postadministration of dabigatran, but no detectable dabigatran was demonstrated.",
+  "reading_complete" : "2020-08-02T11:38:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:37:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "dabigatran levels" ],
+  "pmc_id" : "6510014",
+  "score" : 0
+}
