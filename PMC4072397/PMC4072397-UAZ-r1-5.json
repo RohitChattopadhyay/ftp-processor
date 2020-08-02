@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14793",
+      "entity_text" : "myostatin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0650" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000056" ]
+    }
+  },
+  "verbose_text" : "However, the myogenin expression levels in cells cultured in SKGM-2 medium decreased between passages 2 and 3, indicating that the cells may be entering the early myocyte stage, whereas the myogenin expression levels in cells cultured in DFEFH medium increased between passages 2 and 3 and finally decreased at passage 7 (XREF_FIG), indicating that these conditions may cause the cells to remain at the early differentiating myoblast stage much longer by decreasing myostatin expression levels.",
+  "reading_complete" : "2020-08-02T12:37:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:34:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "myostatin expression levels" ],
+  "pmc_id" : "4072397",
+  "score" : 0
+}
