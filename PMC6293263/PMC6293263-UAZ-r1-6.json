@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Organ" : [ "uberon:UBERON:0000062" ]
+    }
+  },
+  "verbose_text" : "The initial response to this therapy was satisfactory, with improvement of the hemophagocytic syndrome and decrease in the ferritin levels from 29 211 to 9437 pmol/L.",
+  "reading_complete" : "2020-08-02T08:18:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:17:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "ferritin levels" ],
+  "pmc_id" : "6293263",
+  "score" : 0
+}

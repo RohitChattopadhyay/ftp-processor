@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "estradiol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "As the level of estradiol modulates the QT interval, the 17beta-estradiol dose should be influenced by the ambient QT interval in a given patient.",
+  "reading_complete" : "2020-08-02T08:17:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:16:56Z",
+  "trigger" : "level",
+  "evidence" : [ "level of estradiol" ],
+  "pmc_id" : "5290509",
+  "score" : 0
+}
