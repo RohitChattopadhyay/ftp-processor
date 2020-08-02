@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:679",
+      "entity_text" : "DMSO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0640" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Taken together, we concluded that mRNA expression of these pro oxidants and anti-oxidants are closely correlated with the level of DMSO induced oxidative injury to embryos.",
+  "reading_complete" : "2020-08-02T12:28:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:24:54Z",
+  "trigger" : "level",
+  "evidence" : [ "level of DMSO" ],
+  "pmc_id" : "5706096",
+  "score" : 0
+}

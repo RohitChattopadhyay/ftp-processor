@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "CellType" : [ "cl:CL:0000365" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When zygotes were exposed to DMSO for 30 min, the production of intracellular ROS increased in a dose dependent manner and was maintained for up to 2 h : ROS levels were significantly higher in DMSO treated groups (Type B) than in control groups (Type A), especially in the cytosol and perinuclear region.",
+  "reading_complete" : "2020-08-02T12:28:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:24:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "5706096",
+  "score" : 0
+}
