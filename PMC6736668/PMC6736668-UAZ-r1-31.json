@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03951",
+      "entity_text" : "FXI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Platelet concentration in PRP was adjusted to 150 x 10 9 / L. Where described, plasmas were supplemented with purified FXI (6 pmol in 200 muL) or FXII (75 pmol in 200 muL) on top of the residual level of FXI or FXII present in the plasma.",
+  "reading_complete" : "2020-08-02T14:00:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:58:18Z",
+  "trigger" : "level",
+  "evidence" : [ "level of FXI" ],
+  "pmc_id" : "6736668",
+  "score" : 0
+}
