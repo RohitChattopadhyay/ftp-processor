@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00740",
+      "entity_text" : "Ptc",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15465",
+      "entity_text" : "Shh",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The Shh signaling cascade is initiated when the Shh ligand binds to the cell surface receptor Patched (Ptc), which then releases its inhibitory hold on Smo.",
+  "reading_complete" : "2020-08-02T15:34:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:33:42Z",
+  "trigger" : "binds",
+  "evidence" : [ "Shh ligand binds to the cell surface receptor Patched (Ptc" ],
+  "pmc_id" : "4494591",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04516",
+      "entity_text" : "proIL-1beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The concentration of IL-1beta in the medium was also reduced due to the suppression of P2X7R (XREF_FIG), since proIL-1beta hydrolysis to mature IL-1beta is controlled by NLRP3 inflammasome activation.",
+  "reading_complete" : "2020-08-02T15:38:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:37:17Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "proIL-1beta hydrolysis to mature IL-1beta" ],
+  "pmc_id" : "4380202",
+  "score" : 0
+}
