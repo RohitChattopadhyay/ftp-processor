@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A contrario, GBM samples having a histone phosphorylation level lower than the median value obtained from all GBM samples were included in the subgroup presenting a low phosphorylation level.",
+  "reading_complete" : "2020-08-02T11:59:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:57:32Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "histone phosphorylation" ],
+  "pmc_id" : "4265745",
+  "score" : 0
+}
