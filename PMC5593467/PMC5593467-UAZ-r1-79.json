@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Clinical studies have shown that plasma cortisol levels are significantly increased in AD and mild cognitive impairment patients, and dysfunction of the hypothalamus-pituitary-adrenal (HPA) axis is associated with a higher risk of AD.",
+  "reading_complete" : "2020-08-02T14:37:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:36:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "5593467",
+  "score" : 0
+}
