@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0003037" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The result is that the aorta receives some blood from the right ventricle, which reduces the amount of oxygen in the blood.",
+  "reading_complete" : "2020-08-02T17:06:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:05:01Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of oxygen" ],
+  "pmc_id" : "3299189",
+  "score" : 0
+}
