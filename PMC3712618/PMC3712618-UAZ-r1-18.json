@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "EIF4Ebp1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Given that mTOR activation is regulated mainly by the IGF-1 / AKT pathway, attenuation of AKT activity as observed in our experimental cancer cachexia model should further facilitate protein translation inhibition due to mTOR inactivation and the consequent hypophosphorylation of EIF4Ebp1.",
+  "reading_complete" : "2020-08-02T13:27:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:25:35Z",
+  "trigger" : "hypophosphorylation",
+  "evidence" : [ "hypophosphorylation of EIF4Ebp1" ],
+  "pmc_id" : "3712618",
+  "score" : 0
+}

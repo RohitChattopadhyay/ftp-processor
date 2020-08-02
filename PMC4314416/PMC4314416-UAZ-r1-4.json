@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Based on the results of ELISA and RT-qPCR, we found that both the mRNA expression levels (XREF_FIG) and the serum levels (XREF_FIG) of IL-1beta, IL-6 and TNF-alpha in the normal control group were significantly lower than those of the other 4 groups at 3 time points (P < 0.05).",
+  "reading_complete" : "2020-08-02T13:24:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:23:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels ( XREF_FIG ) of IL-1beta, IL-6" ],
+  "pmc_id" : "4314416",
+  "score" : 0
+}

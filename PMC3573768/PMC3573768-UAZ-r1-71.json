@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "Survivin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Survivin is highly expressed at the G2/M phase in a cell cycle regulated manner, and also promotes G1/S cell cycle progression by translocating into the nucleus and forming a complex with CDK4.",
+  "reading_complete" : "2020-08-02T13:25:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:24:49Z",
+  "trigger" : "promotes",
+  "evidence" : [ "Survivin is highly expressed at the G2/M phase in a cell cycle-regulated manner, and also promotes G1/S cell cycle" ],
+  "pmc_id" : "3573768",
+  "score" : 0
+}

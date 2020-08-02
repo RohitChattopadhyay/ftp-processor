@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5743",
+      "entity_text" : "dexamethasone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It has been previously demonstrated that dexamethasone inhibits proliferation and osteogenic differentiation in mouse osteoblast cultures.",
+  "reading_complete" : "2020-08-02T13:23:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:22:04Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "dexamethasone inhibits proliferation" ],
+  "pmc_id" : "4199408",
+  "score" : 0
+}

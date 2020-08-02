@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00151",
+      "entity_text" : "lipase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "AS-IV reduces serum amylase and lipase levels.",
+  "reading_complete" : "2020-08-02T13:24:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:23:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "lipase levels" ],
+  "pmc_id" : "4314416",
+  "score" : 0
+}

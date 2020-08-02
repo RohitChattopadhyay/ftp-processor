@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10376" ],
+      "TissueType" : [ "tissuelist:TS-0661" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Our previous study has shown that p53 protein was accumulated and phosphorylated in NPC, implying its transcription factor activity in NPC tumorigenesis.",
+  "reading_complete" : "2020-08-02T13:25:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:24:49Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "p53 protein was accumulated and phosphorylated" ],
+  "pmc_id" : "3573768",
+  "score" : 0
+}

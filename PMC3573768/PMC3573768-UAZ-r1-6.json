@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr81",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q11117",
+      "entity_text" : "LMP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "LMP1 could mediate p53 phosphorylation at Ser15, Ser20, Ser392 and Thr81, indicating potential functional activity of p53 in NPC progression.",
+  "reading_complete" : "2020-08-02T13:25:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:24:49Z",
+  "trigger" : "mediate",
+  "evidence" : [ "LMP1 could mediate p53 phosphorylation at Ser15, Ser20, Ser392 and Thr81" ],
+  "pmc_id" : "3573768",
+  "score" : 0
+}

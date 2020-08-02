@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2526",
+      "entity_text" : "beta-glycerophosphate",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "A previous study indicated that in rat osteoblast cultures, excessive amounts of beta-glycerophosphate (> = 5 mM) reduce cell viability and cause widespread, non specific mineral deposition that differs greatly from true bone formation.",
+  "reading_complete" : "2020-08-02T13:23:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:22:04Z",
+  "trigger" : "reduce",
+  "evidence" : [ "beta-glycerophosphate (>=5 mM) reduce cell viability" ],
+  "pmc_id" : "4199408",
+  "score" : 0
+}
