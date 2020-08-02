@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15306",
+      "entity_text" : "IRF4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13107",
+      "entity_text" : "USP4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellType" : [ "cl:CL:0000546" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Our results validated the interaction between USP4 and IRF4, and effects of USP4 on stabilization and deubiquitination of IRF4 were also found.",
+  "reading_complete" : "2020-08-02T13:56:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:55:17Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between USP4 and IRF4" ],
+  "pmc_id" : "5593473",
+  "score" : 0
+}

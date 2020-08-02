@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15306",
+      "entity_text" : "IRF4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "STAT6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Co-immunoprecipitation assays were performed to assess the functional interaction between USP4 and transcription factors GATA3, STAT6, IRF4 and PU.1.",
+  "reading_complete" : "2020-08-02T13:56:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:55:17Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between USP4 and transcription factors GATA3, STAT6, IRF4" ],
+  "pmc_id" : "5593473",
+  "score" : 0
+}
