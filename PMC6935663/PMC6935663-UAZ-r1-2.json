@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:961",
+      "entity_text" : "OH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11103" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0010164" ]
+    }
+  },
+  "verbose_text" : "The patient had hypothyroidism and was being followed up by the endocrinologist, under oral levothyroxine and weekly oral supplementation of vitamin D, despite the normal range levels of 25 OH vitamin D.",
+  "reading_complete" : "2020-08-02T10:22:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:21:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of 25 OH" ],
+  "pmc_id" : "6935663",
+  "score" : 0
+}
