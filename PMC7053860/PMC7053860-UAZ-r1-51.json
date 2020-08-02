@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To determine the effect of adiponectin on this pathway, the phosphorylation of mTOR and its downstream signaling molecule 4EBP1 were measured.",
+  "reading_complete" : "2020-08-02T14:02:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:00:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of mTOR" ],
+  "pmc_id" : "7053860",
+  "score" : 0
+}

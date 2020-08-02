@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:764",
+      "entity_text" : "guanine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23978",
+      "entity_text" : "copper",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "N7" ],
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Such a low pH may induce base rotation in DNA, particularly copper bound N7 guanine.",
+  "reading_complete" : "2020-08-02T14:00:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:59:25Z",
+  "trigger" : "bound",
+  "evidence" : [ "copper bound N7 guanine" ],
+  "pmc_id" : "4687441",
+  "score" : 0
+}
