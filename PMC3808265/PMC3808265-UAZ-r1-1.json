@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1221" ]
+    }
+  },
+  "verbose_text" : "The risk of CHD in women depends on the interaction of a number of factors, including increasing age, rising serum cholesterol levels, high blood pressure, SES, and diabetes mellitus [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:44:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:41:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "3808265",
+  "score" : 0
+}

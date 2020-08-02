@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "mitochondrial membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0031966",
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0015" ],
+      "Cellular_component" : [ "go:GO:0031966" ]
+    }
+  },
+  "verbose_text" : "This protein is responsible for the transport of cholesterol from the outer to the inner mitochondrial membrane.",
+  "reading_complete" : "2020-08-02T16:39:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:35:42Z",
+  "trigger" : "transport",
+  "evidence" : [ "transport of cholesterol from the outer to the inner mitochondrial membrane" ],
+  "pmc_id" : "4314423",
+  "score" : 0
+}

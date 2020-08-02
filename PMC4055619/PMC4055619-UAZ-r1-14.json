@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02250",
+      "entity_text" : "Ki67",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01126",
+      "entity_text" : "hTERT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0164" ],
+      "Organ" : [ "uberon:UBERON:0000344" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Our results indicate an association between hTERT protein expression and aneuploidy in UC-progressor colons, and also a possible protective mechanism in the association between hTERT and Ki67, against development of malignant features within the mucosa of a UC-colon.",
+  "reading_complete" : "2020-08-02T16:42:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:41:09Z",
+  "trigger" : "association",
+  "evidence" : [ "association between hTERT and Ki67" ],
+  "pmc_id" : "4055619",
+  "score" : 0
+}
