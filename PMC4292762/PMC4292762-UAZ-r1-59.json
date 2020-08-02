@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16678",
+      "entity_text" : "CYP1B1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "CellLine" : [ "cellosaurus:CVCL_E012" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To verify the expression levels of CYP1B1 in the OC samples, we performed immunohistological analysis of the paraffin embedded samples obtained from the 53 patients with OC at our hospital who had been diagnosed as epithelial OC at various clinical and pathological stages (XREF_TABLE).",
+  "reading_complete" : "2020-08-02T15:18:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CYP1B1" ],
+  "pmc_id" : "4292762",
+  "score" : 0
+}

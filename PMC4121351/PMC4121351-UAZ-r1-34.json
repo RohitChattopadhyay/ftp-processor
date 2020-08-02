@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-112",
+      "entity_text" : "histone H2B",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "AMPK also regulates gene transcription through direct association with chromatin and the phosphorylation of histone H2B at serine 36.",
+  "reading_complete" : "2020-08-02T15:15:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:14:28Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of histone H2B at serine" ],
+  "pmc_id" : "4121351",
+  "score" : 0
+}

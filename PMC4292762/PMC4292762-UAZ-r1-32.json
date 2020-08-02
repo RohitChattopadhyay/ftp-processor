@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01160",
+      "entity_text" : "ANF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16678",
+      "entity_text" : "CYP1B1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The resistance to PTX in A2780TS cells was reversed by the downregulation of CYP1B1 expression using the specific inhibitor ANF in vitro and in vivo.",
+  "reading_complete" : "2020-08-02T15:18:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:25Z",
+  "trigger" : "reversed",
+  "evidence" : [ "reversed by the downregulation of CYP1B1 expression using the specific inhibitor ANF" ],
+  "pmc_id" : "4292762",
+  "score" : 0
+}

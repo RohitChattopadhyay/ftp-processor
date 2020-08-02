@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:148123",
+      "entity_text" : "docetaxel",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16678",
+      "entity_text" : "CYP1B1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, Bournique and Lemarie demonstrated that CYP1B1 binds to docetaxel without metabolizing it.",
+  "reading_complete" : "2020-08-02T15:18:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:25Z",
+  "trigger" : "binds",
+  "evidence" : [ "CYP1B1 binds to docetaxel" ],
+  "pmc_id" : "4292762",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001759",
+      "entity_text" : "PTX",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16678",
+      "entity_text" : "CYP1B1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, the resistance existing in A2780TS cells was very likely reversed by PTX induced CYP1B1 expression which in turn inactivated PTX.",
+  "reading_complete" : "2020-08-02T15:18:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:25Z",
+  "trigger" : "inactivated",
+  "evidence" : [ "CYP1B1 expression which in turn inactivated PTX" ],
+  "pmc_id" : "4292762",
+  "score" : 0
+}
