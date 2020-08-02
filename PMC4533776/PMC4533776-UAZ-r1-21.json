@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48357",
+      "entity_text" : "DB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1101" ],
+      "TissueType" : [ "tissuelist:TS-0585" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "According to MSP, PTPL1 was methylated in the CA46, Raji, Jurkat and DB cell lines and unmethylated in the Hut78, Maver and Z138 cell lines (XREF_FIG).",
+  "reading_complete" : "2020-08-02T09:50:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:10Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated in the CA46, Raji, Jurkat and DB" ],
+  "pmc_id" : "4533776",
+  "score" : 0
+}

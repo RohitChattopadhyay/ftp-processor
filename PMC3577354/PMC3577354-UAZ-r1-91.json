@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaB-alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Organ" : [ "uberon:UBERON:4300025" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The kinetics of IkappaB-alpha phosphorylation and degradation were different between Tri-DAP and MDP.",
+  "reading_complete" : "2020-08-02T09:48:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:47:25Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "IkappaB-alpha phosphorylation" ],
+  "pmc_id" : "3577354",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:597",
+      "entity_text" : "cytosine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1101" ],
+      "TissueType" : [ "tissuelist:TS-0585" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Methylation of cytosine residues by DNA methyltransferases at CpG dinucleotides in the promoter region of the genes is a major epigenetic modification in mammalian genomes that can have profound effects on gene expression.",
+  "reading_complete" : "2020-08-02T09:50:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:10Z",
+  "trigger" : "Methylation",
+  "evidence" : [ "Methylation of cytosine" ],
+  "pmc_id" : "4533776",
+  "score" : 0
+}

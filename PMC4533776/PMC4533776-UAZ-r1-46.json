@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48357",
+      "entity_text" : "DB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0065" ],
+      "TissueType" : [ "tissuelist:TS-0585" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To compare this finding with the methylation patterns of the previously described cell lines, the expression of PTPL1 mRNA was ubiquitously expressed at different levels in the unmethylated cell lines (Hut78, Maver and Z138) and silenced in the total methylated cell lines (CA46, Raji, Jurkat and DB).",
+  "reading_complete" : "2020-08-02T09:50:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:10Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated cell lines (CA46, Raji, Jurkat and DB" ],
+  "pmc_id" : "4533776",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HC29",
+      "entity_text" : "NOD2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Organ" : [ "uberon:UBERON:4300025" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002563" ]
+    }
+  },
+  "verbose_text" : "The expression level of NOD2 varies between cell types.",
+  "reading_complete" : "2020-08-02T09:48:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:47:25Z",
+  "trigger" : "level",
+  "evidence" : [ "level of NOD2" ],
+  "pmc_id" : "3577354",
+  "score" : 0
+}
