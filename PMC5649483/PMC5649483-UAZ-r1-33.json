@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increased level of TNF-alpha leads to activation of NF-kappaB that regulates immune and inflammatory response, taking part in apoptosis inhibition [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:01:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:55:59Z",
+  "trigger" : "leads to",
+  "evidence" : [ "TNF-alpha leads to activation of NF-kappaB" ],
+  "pmc_id" : "5649483",
+  "score" : 0
+}

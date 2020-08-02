@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "Leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000545" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Leptin level correlates with obesity and steatosis [XREF_BIBR], however, further studies are needed in order to confirm the influence of leptin on NAFLD.",
+  "reading_complete" : "2020-08-02T10:01:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:55:59Z",
+  "trigger" : "level",
+  "evidence" : [ "Leptin level" ],
+  "pmc_id" : "5649483",
+  "score" : 0
+}
