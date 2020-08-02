@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "The leukocyte count was 2.9 x 10 9 / L with marked neutropenia (0.7 x 10 9 / L), hemoglobin level was 9.6 g/dL, and platelets were 93 x 10 9 / L. Treatment by cladribine (2-CdA) was therefore initiated and led to ongoing complete hematological response after 2-year follow-up.",
+  "reading_complete" : "2020-08-02T10:55:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:55:37Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "6099005",
+  "score" : 0
+}
