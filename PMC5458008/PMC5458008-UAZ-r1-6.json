@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Both studies theorized that gastrointestinal loss of water and electrolytes, such as sodium, causes metabolic acidosis, aciduria, ketonuria, increased urinary ammonium ion concentration, and decreased urine volume.",
+  "reading_complete" : "2020-08-02T08:57:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:57:12Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of water" ],
+  "pmc_id" : "5458008",
+  "score" : 0
+}
