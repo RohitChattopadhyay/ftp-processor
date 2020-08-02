@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26482",
+      "entity_text" : "FIXa",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01498",
+      "entity_text" : "emicizumab",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although emicizumab can bind to FIXa and FXa, our results showed no interference of emicizumab with the action of AT or TFPI on FIXa or FXa.",
+  "reading_complete" : "2020-08-02T11:54:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:52:35Z",
+  "trigger" : "bind",
+  "evidence" : [ "emicizumab can bind to FIXa" ],
+  "pmc_id" : "6524866",
+  "score" : 0
+}
