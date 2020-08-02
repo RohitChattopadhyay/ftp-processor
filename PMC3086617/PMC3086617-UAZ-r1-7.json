@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14786",
+      "entity_text" : "neuropilin-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01264",
+      "entity_text" : "alphav integrins",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0417" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The tissue penetrating delivery involves a three-step process : 1) the binding of RGD motif to alphav integrins on tumor endothelium; 2) a proteolytic cleavage of the iRGD for binding with neuropilin-1; 3) neuropilin-1 mediated penetration into tissue and cells.",
+  "reading_complete" : "2020-08-02T12:43:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:36:40Z",
+  "trigger" : "binding",
+  "evidence" : [ "alphav integrins on tumor endothelium; 2) a proteolytic cleavage of the iRGD for binding with neuropilin-1" ],
+  "pmc_id" : "3086617",
+  "score" : 0
+}
