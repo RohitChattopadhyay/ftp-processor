@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Previous studies have demonstrated that PHB production using recombinant systems such as E. coli have been hindered upon scaling up in part due to the use of large amounts of oxygen required for high bacterial growth and PHB generation.",
+  "reading_complete" : "2020-08-02T11:46:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:43:56Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of oxygen" ],
+  "pmc_id" : "4939048",
+  "score" : 0
+}
