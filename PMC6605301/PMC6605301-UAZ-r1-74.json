@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "JAK2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "HSYA treatment was observed to prevent the phosphorylation of JAK2, and it also decreased the phosphorylation of downstream STAT1.",
+  "reading_complete" : "2020-08-02T13:01:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:59:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of JAK2" ],
+  "pmc_id" : "6605301",
+  "score" : 0
+}

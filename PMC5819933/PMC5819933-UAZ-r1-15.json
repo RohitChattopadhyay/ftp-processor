@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0309" ],
+      "Organ" : [ "uberon:UBERON:0010409" ]
+    }
+  },
+  "verbose_text" : "This consequently reversibly and selectively inhibits the phosphorylation of EGFR and the related tyrosine kinase activities, including the downstream signal transduction pathway to block angiogenesis, cell proliferation and tumor growth.",
+  "reading_complete" : "2020-08-02T12:58:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:57:49Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of EGFR and the related tyrosine" ],
+  "pmc_id" : "5819933",
+  "score" : 0
+}
