@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These results suggest that apoptosis signaling may be induced by the increased expression of TGF-beta1 and VEGF in the kidney in the Fabry disease mouse model.",
+  "reading_complete" : "2020-08-02T10:09:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:08:53Z",
+  "trigger" : "induced",
+  "evidence" : [ "apoptosis signaling may be induced by the increased expression of TGF-beta1" ],
+  "pmc_id" : "4042857",
+  "score" : 0
+}

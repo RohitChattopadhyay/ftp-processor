@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytosol",
+    "from_location_text" : "mitochondria",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005739",
+    "to_location_id" : "go:GO:0005829",
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "On receiving a death signal, the mitochondrial membrane is disrupted, and cytochrome c is released from mitochondria into the cytosol.",
+  "reading_complete" : "2020-08-02T10:08:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:07:48Z",
+  "trigger" : "released",
+  "evidence" : [ "cytochrome c is released from mitochondria into the cytosol" ],
+  "pmc_id" : "4072400",
+  "score" : 0
+}

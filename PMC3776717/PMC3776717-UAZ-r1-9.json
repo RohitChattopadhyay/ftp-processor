@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thus, at the time point of the H 2 O 2 exposure in the current protocol (immediately after the end of the 24 h of hypoxia), the cells were subjected to oxidative stress at a time when intracellular ATP levels were the most severely depleted.",
+  "reading_complete" : "2020-08-02T10:06:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:05:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "3776717",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01201",
+      "entity_text" : "VEGF\nreceptors",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "tyrosine" ],
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "VEGF binds to the VEGF receptors, fms like tyrosine kinase [Flt-1, VEGF receptor 1 (VEGFR1)] and fetal liver kinase 1 (Flk-1, KDR, VEGFR2).",
+  "reading_complete" : "2020-08-02T10:09:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:08:53Z",
+  "trigger" : "binds",
+  "evidence" : [ "VEGF binds to the VEGF\nreceptors, fms-like tyrosine" ],
+  "pmc_id" : "4042857",
+  "score" : 0
+}
