@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00648",
+      "entity_text" : "firefly luciferase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These data demonstrated that the change of ATP levels following the kinase activity did not induce increase or decrease of the firefly luciferase activity.",
+  "reading_complete" : "2020-08-02T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:12:23Z",
+  "trigger" : "induce",
+  "evidence" : [ "ATP levels following the kinase activity did not induce increase or decrease of the firefly luciferase" ],
+  "pmc_id" : "4775867",
+  "score" : 0
+}
