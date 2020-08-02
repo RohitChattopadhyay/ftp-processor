@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UHZ2",
+      "entity_text" : "MALAT1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Specifically, the Bax, Bad, and caspase-3/-8 levels were reduced, whereas the Bcl-2 and Bcl-xL levels increased following MALAT1 treatment (I/R-runners + MALAT1 vs. I/R-runners + MALAT1 blank; P < 0.05; XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:21:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:20:28Z",
+  "trigger" : "increased",
+  "evidence" : [ "Bcl-2 and Bcl-xL levels increased following MALAT1" ],
+  "pmc_id" : "5846661",
+  "score" : 0
+}

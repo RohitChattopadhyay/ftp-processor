@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Protein phosphatase 2A (PP2A) is a key regulator of cell cycle, also the target for anticancer drugs, PP2A can regulate the autophagy through AMPK phosphorylation.",
+  "reading_complete" : "2020-08-02T16:22:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:21:21Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "AMPK phosphorylation" ],
+  "pmc_id" : "5846666",
+  "score" : 0
+}

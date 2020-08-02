@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:VEGF",
+      "entity_text" : "vascular endothelial growth factor",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Moreover, previously it has been reported that LicA can inhibit matrix metalloproteinase-9 (MMP-9) and vascular endothelial growth factor receptor-2 (VEGFR-2) expression in various cancer cells, indicating that LicA can mediate metabolism and angiogenesis.",
+  "reading_complete" : "2020-08-02T16:22:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:21:21Z",
+  "trigger" : "mediate",
+  "evidence" : [ "vascular endothelial growth factor receptor-2 (VEGFR-2) expression in various cancer cells, indicating that LicA can mediate metabolism and angiogenesis" ],
+  "pmc_id" : "5846666",
+  "score" : 0
+}

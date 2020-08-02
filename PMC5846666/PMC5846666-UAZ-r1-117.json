@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75143",
+      "entity_text" : "Atg13",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75385",
+      "entity_text" : "ULK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Few reports exist on LicA inducing autophagy in HCCs, in this study, LicA induced autophagy in HCCs through activating ULK1 / Atg13 complex and reactive oxygen species (ROS), ULK1 / Atg13 complex is upstream of autophagy, and ROS was upstream of autophagy related molecule.",
+  "reading_complete" : "2020-08-02T16:22:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:21:21Z",
+  "trigger" : "complex",
+  "evidence" : [ "ULK1/Atg13 complex" ],
+  "pmc_id" : "5846666",
+  "score" : 0
+}
