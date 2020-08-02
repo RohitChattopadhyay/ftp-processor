@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Creatinine result was compared with the documented history of complications and 56.1% of those having history of nephropathy were having high creatinine level.",
+  "reading_complete" : "2020-08-02T14:07:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:03:42Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "4754850",
+  "score" : 0
+}
