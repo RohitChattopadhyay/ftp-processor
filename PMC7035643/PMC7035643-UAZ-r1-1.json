@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "Potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Potassium levels> 5.0 mmol/L was used to denote hyperkalemia.",
+  "reading_complete" : "2020-08-02T14:43:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:42:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "Potassium levels" ],
+  "pmc_id" : "7035643",
+  "score" : 0
+}
