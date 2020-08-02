@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0004908" ]
+    }
+  },
+  "verbose_text" : "Recently, a 62-year-old, previously fit and well, White Caucasian woman presented to our department with a 4-month history of epigastric pain, vomiting, weight loss of 7 kg, and fatigue.",
+  "reading_complete" : "2020-08-02T09:08:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:07:46Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 7 kg" ],
+  "pmc_id" : "5582312",
+  "score" : 0
+}
