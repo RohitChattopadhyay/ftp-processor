@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 1,
+        "feature_type" : "mutation",
+        "evidence" : "A1C"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fasting plasma glucose level (150 mg/dl) and hemoglobin A1C level (6.8%; normal range, 4.3 - 5.8%) were elevated.",
+  "reading_complete" : "2020-08-02T18:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:06:18Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin A1C level" ],
+  "pmc_id" : "3279480",
+  "score" : 0
+}
