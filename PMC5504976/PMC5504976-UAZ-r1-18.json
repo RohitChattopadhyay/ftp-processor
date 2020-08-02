@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "p-4EBP1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The results from western blot analysis and immunohistochemistry indicated that the expression of p-p70S6K and p-4EBP1 decreased following treatment with bufalin and/or rapamycin.",
+  "reading_complete" : "2020-08-02T14:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:51:49Z",
+  "trigger" : "decreased",
+  "evidence" : [ "p-4EBP1 decreased following treatment with bufalin and/or rapamycin" ],
+  "pmc_id" : "5504976",
+  "score" : 0
+}

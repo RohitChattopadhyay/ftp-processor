@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20009",
+      "entity_text" : "BR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13490",
+      "entity_text" : "cIAP1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "That is to say, with the increasing concentration of bufalin, the expression of cIAP1 decreased, being lowest in the BR group.",
+  "reading_complete" : "2020-08-02T14:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:51:49Z",
+  "trigger" : "decreased",
+  "evidence" : [ "cIAP1 decreased, being lowest in the BR" ],
+  "pmc_id" : "5504976",
+  "score" : 0
+}

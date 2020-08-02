@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6898" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1250" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "After the tumors were removed, the mRNA expression levels of mTOR, p70S6K, eukaryotic translation initiation factor 4E binding protein 1 (4EBP1), cellular inhibitor of apoptosis protein 1 (cIAP1) and caspase-3 were detected by RT-PCR.",
+  "reading_complete" : "2020-08-02T14:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:51:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of mTOR" ],
+  "pmc_id" : "5504976",
+  "score" : 0
+}

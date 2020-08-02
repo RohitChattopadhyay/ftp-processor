@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15746",
+      "entity_text" : "MLCK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0025" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To investigate the molecular mechanism by which TNF-alpha injures the intestinal barrier, we determined MLCK, MLC and p-MLC protein expression and found that TNF-alpha-induced barrier injury was accompanied by increases in both MLCK expression and MLC phosphorylation, which was also consistent with the findings of Cunningham et al.",
+  "reading_complete" : "2020-08-02T14:49:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:48:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "MLCK expression and MLC phosphorylation" ],
+  "pmc_id" : "5403182",
+  "score" : 0
+}

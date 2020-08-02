@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006950",
+      "entity_text" : "stress response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:47318",
+      "entity_text" : "oltipraz",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It is possible that oltipraz upregulated the expression of stress response genes (NQO1, HO-1 and MnSOD) and increased intracellular antioxidant capacity, thus protecting mtDNA against ROS and maintaining mitochondrial function.",
+  "reading_complete" : "2020-08-02T14:51:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:50:35Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "oltipraz upregulated the expression of stress response" ],
+  "pmc_id" : "6202109",
+  "score" : 0
+}
