@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O22059",
+      "entity_text" : "CPC",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytosol",
+    "from_location_text" : "lysosomes",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005764",
+    "to_location_id" : "go:GO:0005829",
+    "context" : {
+      "Species" : [ "taxonomy:5664" ],
+      "Cellular_component" : [ "go:GO:0005764" ]
+    }
+  },
+  "verbose_text" : "Upon addition of an apoptotic stimulus such as miltefosine or heat shock, CPC is released from lysosomes to the cytosol, where it induces Leishmania apoptosis [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:43:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:32:53Z",
+  "trigger" : "released",
+  "evidence" : [ "CPC is released from lysosomes to the cytosol" ],
+  "pmc_id" : "6905399",
+  "score" : 0
+}

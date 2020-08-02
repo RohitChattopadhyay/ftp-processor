@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4735",
+      "entity_text" : "pentamidine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In fact, Lmjmca expression is required for LmjF.22.0600 expression and overexpression of LmjF.22.0600 has no consequence on pentamidine induced cell death, while pentamidine induces L. major apoptosis independently of LmjMCA [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:43:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:32:53Z",
+  "trigger" : "induced",
+  "evidence" : [ "pentamidine-induced cell death" ],
+  "pmc_id" : "6905399",
+  "score" : 0
+}
