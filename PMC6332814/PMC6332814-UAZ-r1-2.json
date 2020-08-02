@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0510" ]
+    }
+  },
+  "verbose_text" : "Patients who meet two of the following three criteria (a) age> 80; (b) weight less than 60 kg; (c) creatinine level more than 1.5, must receive 2.5 mg two times a day, which is half the usual dose.12 The fact that these agents do not require monitoring is an advantage but can make it difficult to assess patients ' adherence to treatment.",
+  "reading_complete" : "2020-08-02T08:51:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:50:10Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "6332814",
+  "score" : 0
+}
