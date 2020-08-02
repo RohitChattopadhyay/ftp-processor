@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "As shown in XREF_FIG, arnebin-1 significantly increased the phosphorylation of VEGFR2, FAK, ERK and Src, induced by VEGF (1 ng/ml), in a concentration dependent manner, which suggested that arnebin-1 exerted its pro angiogenic effect by directly targeting VEGFR2 and subsequently activating the VEGFR2 induced downstream signaling cascade.",
+  "reading_complete" : "2020-08-02T11:11:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:09:16Z",
+  "trigger" : "induced",
+  "evidence" : [ "phosphorylation of VEGFR2, FAK, ERK and Src, induced by VEGF" ],
+  "pmc_id" : "4533782",
+  "score" : 0
+}

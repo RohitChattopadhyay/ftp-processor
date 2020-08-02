@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "VEGFR2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "It has been reported that VEGFR2 phosphorylation activates extensive downstream signaling substrates that are closely related to endothelial cell proliferation, migration and tube formation.",
+  "reading_complete" : "2020-08-02T11:11:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:09:16Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "VEGFR2 phosphorylation" ],
+  "pmc_id" : "4533782",
+  "score" : 0
+}
