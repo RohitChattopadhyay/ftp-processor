@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "BDNF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "BDNF-AS overexpression led to decreased expression levels of BDNF, p-Akt and p-TrkB (XREF_FIG), indicating that BDNF-AS affected hippocampal cell function via BDNF mediated signaling.",
+  "reading_complete" : "2020-08-02T13:09:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:09:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of BDNF" ],
+  "pmc_id" : "7307822",
+  "score" : 0
+}
