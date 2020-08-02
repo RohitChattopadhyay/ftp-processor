@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18847",
+      "entity_text" : "ATF3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10535" ],
+      "TissueType" : [ "tissuelist:TS-1224" ]
+    }
+  },
+  "verbose_text" : "ATF3 and maspin both can bind p53 to induce a series of responses, so they are likely to act on the p53 pathway in glioblastomas.",
+  "reading_complete" : "2020-08-02T15:31:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:29:15Z",
+  "trigger" : "bind",
+  "evidence" : [ "ATF3 and maspin both can bind p53" ],
+  "pmc_id" : "4432930",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36952",
+      "entity_text" : "maspin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2219" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Knockdown of ATF3 using ATF3-siRNA affects the protein levels of ATF3, maspin and MMP2 in U373MG cells in vitro.",
+  "reading_complete" : "2020-08-02T15:31:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:29:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ATF3, maspin" ],
+  "pmc_id" : "4432930",
+  "score" : 0
+}

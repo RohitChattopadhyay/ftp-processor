@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18847",
+      "entity_text" : "ATF3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0416" ],
+      "CellLine" : [ "cellosaurus:CVCL_2219" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000125" ]
+    }
+  },
+  "verbose_text" : "For example, Ishiguro et al observed a high expression level of ATF3 in a highly metastatic subline of B16 melanoma cells and demonstrated that low-migratory B16 cells were changed into highly migratory cells by transfection with ATF3; however, ATF3 was not expressed in the parental B16 cell line.",
+  "reading_complete" : "2020-08-02T15:31:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:29:15Z",
+  "trigger" : "level",
+  "evidence" : [ "level of ATF3" ],
+  "pmc_id" : "4432930",
+  "score" : 0
+}

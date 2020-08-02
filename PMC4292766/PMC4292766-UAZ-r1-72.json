@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75751",
+      "entity_text" : "EMT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03130",
+      "entity_text" : "miR-200 family",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The miR-200 family members were clearly downregulated in cells that had undergone EMT in response to TGF-beta, and the expression of the miR-200 family alone was sufficient to prevent TGF-beta-induced EMT.",
+  "reading_complete" : "2020-08-02T15:32:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:31:33Z",
+  "trigger" : "prevent",
+  "evidence" : [ "miR-200 family alone was sufficient to prevent TGF-beta-induced EMT" ],
+  "pmc_id" : "4292766",
+  "score" : 0
+}

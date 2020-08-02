@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaBalpha",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0399" ],
+      "TissueType" : [ "tissuelist:TS-0210" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The transient introduction of the miR-518a-3p precursor into the LoVo cells resulted in the downregulation of NIK at the protein level and was associated with the downregulation of the phosphorylated IkappaBalpha level and NF-kappaB activity (XREF_FIG).",
+  "reading_complete" : "2020-08-02T15:33:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:32:36Z",
+  "trigger" : "level",
+  "evidence" : [ "IkappaBalpha level" ],
+  "pmc_id" : "4380201",
+  "score" : 0
+}
