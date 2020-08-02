@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Species" : [ "taxonomy:11103" ],
+      "TissueType" : [ "tissuelist:TS-0455" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "Logistic regression analysis showed that the increase in baseline CRP and the decrease in baseline hemoglobin level, and the non statin usage had an independent effect on increasing the probability of SVR failure in both groups, with a statistically significant difference (p = 0.033, p = 0.0028, p = 0.027 respectively) (XREF_TABLE).",
+  "reading_complete" : "2020-08-02T09:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:27:24Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "7380473",
+  "score" : 0
+}
