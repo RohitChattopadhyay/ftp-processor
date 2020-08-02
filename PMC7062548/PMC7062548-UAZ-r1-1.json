@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00734",
+      "entity_text" : "prothrombin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Another explanation is that the abundant amount of prothrombin (8 mg) used for coupling might increase the local concentration of the antigen without necessarily inducing a radical structural reengagement rearrangement of the protein but increasing the affinity for aPS/PT antibodies.",
+  "reading_complete" : "2020-08-02T13:08:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:07:04Z",
+  "trigger" : "increase",
+  "evidence" : [ "prothrombin (8 mg) used for coupling might increase the local concentration of the antigen" ],
+  "pmc_id" : "7062548",
+  "score" : 0
+}

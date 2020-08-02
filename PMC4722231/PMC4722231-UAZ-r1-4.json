@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000990" ]
+    }
+  },
+  "verbose_text" : "Despite the IV injection of hypertonic glucose solutions, blood glucose levels continued to register as < 0.50 mg/L.",
+  "reading_complete" : "2020-08-02T13:05:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:01:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4722231",
+  "score" : 0
+}
