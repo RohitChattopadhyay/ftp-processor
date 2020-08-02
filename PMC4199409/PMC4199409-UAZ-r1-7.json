@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Autophagy is constitutively active and highly efficient in healthy neurons and rapamycin (an mTOR inhibitor) is able to induce autophagy.",
+  "reading_complete" : "2020-08-02T14:38:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:43Z",
+  "trigger" : "induce",
+  "evidence" : [ "rapamycin (an mTOR inhibitor) is able to induce autophagy" ],
+  "pmc_id" : "4199409",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05067",
+      "entity_text" : "amyloid precursor protein",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96B36",
+      "entity_text" : "PRAS40",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Caccamo et al demonstrated that Abeta accumulation causes mTOR hyperactivity by regulating PRAS40 phosphorylation, whereas RSV promotes the non amyloidogenic cleavage of the amyloid precursor protein, the enhanced clearance of Abeta-peptides and reduced neuronal damage.",
+  "reading_complete" : "2020-08-02T14:38:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:43Z",
+  "trigger" : "promotes",
+  "evidence" : [ "PRAS40 phosphorylation, whereas RSV promotes the non-amyloidogenic cleavage of the amyloid precursor protein" ],
+  "pmc_id" : "4199409",
+  "score" : 0
+}
