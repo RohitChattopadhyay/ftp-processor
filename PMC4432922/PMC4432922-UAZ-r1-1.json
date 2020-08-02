@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49747",
+      "entity_text" : "COMP",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0426" ],
+      "Organ" : [ "uberon:UBERON:0003129" ]
+    }
+  },
+  "verbose_text" : "Long bone growth was significantly reduced by 12% in the tibia; however, skull and snout lengths were also shown to be smaller than wild-type controls, indicating that intramembraneous ossification was also disrupted by the transgenic overexpression of mutant COMP, which is not consistent with other mouse models or individuals with PSACH.",
+  "reading_complete" : "2020-08-02T11:32:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:38Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of mutant COMP" ],
+  "pmc_id" : "4432922",
+  "score" : 0
+}

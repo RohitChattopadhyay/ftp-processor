@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "BM-MSC-conditioned medium protects renal cells from apoptosis induced by cisplatin in vitro.",
+  "reading_complete" : "2020-08-02T11:34:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:33:38Z",
+  "trigger" : "induced",
+  "evidence" : [ "apoptosis induced by cisplatin" ],
+  "pmc_id" : "3829764",
+  "score" : 0
+}

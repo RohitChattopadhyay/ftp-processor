@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR028309",
+      "entity_text" : "retinoblastoma protein",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This downregulation may be attributed to its increased interaction with p21 WAF1 / CIP1, which inhibits CDK activity, blocks retinoblastoma protein (Rb) phosphorylation and arrests cells before the S phase.",
+  "reading_complete" : "2020-08-02T11:36:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:35:33Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "retinoblastoma protein (Rb) phosphorylation" ],
+  "pmc_id" : "4152142",
+  "score" : 0
+}

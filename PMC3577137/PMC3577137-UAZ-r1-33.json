@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:30819",
+      "entity_text" : "phosphotyrosine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00017",
+      "entity_text" : "SH2",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "Subsequently, the Stat proteins, Stat1 and Stat2 are phosphorylated at specific tyrosine residues, which allows the 2 proteins to form a Stat1/2 heterodimer based on SH2 / phosphotyrosine interactions.",
+  "reading_complete" : "2020-08-02T11:33:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:32:47Z",
+  "trigger" : "interactions",
+  "evidence" : [ "SH2/phosphotyrosine interactions" ],
+  "pmc_id" : "3577137",
+  "score" : 0
+}
