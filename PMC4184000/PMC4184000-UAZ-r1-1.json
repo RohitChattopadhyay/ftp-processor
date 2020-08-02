@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:27099",
+      "entity_text" : "Cu",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02071",
+      "entity_text" : "Job Plot",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The stoichiometry of the complex was also determined to be 2:1 by a Job Plot indicating two AIE-S molecules bind to one Cu 2+ ion.",
+  "reading_complete" : "2020-08-02T09:29:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:28:42Z",
+  "trigger" : "bind",
+  "evidence" : [ "Job Plot indicating two AIE-S molecules bind to one Cu" ],
+  "pmc_id" : "4184000",
+  "score" : 0
+}
