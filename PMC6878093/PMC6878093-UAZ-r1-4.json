@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:hCG",
+      "entity_text" : "hCG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If a double-line color change appears (one for control and one for positive hCG level), the test is then interpreted as positive for pregnancy.",
+  "reading_complete" : "2020-08-02T12:29:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:28:22Z",
+  "trigger" : "level",
+  "evidence" : [ "hCG level" ],
+  "pmc_id" : "6878093",
+  "score" : 0
+}
