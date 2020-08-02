@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "IFN-gamma levels were decreased at 30 h after infection and TGF-beta levels were decreased at 3 dpi, significantly increased at 6 h, and slightly increased at 6 dpi (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:02:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "TGF-beta levels" ],
+  "pmc_id" : "6921962",
+  "score" : 0
+}

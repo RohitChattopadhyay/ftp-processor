@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "One patient in group A had the lowest granulocyte count of 1.2 x 10 9 / L and platelet count of 3 x 10 9 / L; another patient in the group B had a granulocyte count of 2.2 x 10 9 / L and platelet count of 6 x 10 9 / L. Drugs were used to stimulate the proliferation of white blood cells for these two patients, and the granulocyte count and hemoglobin level recovered to normal levels at 14-day postoperation.",
+  "reading_complete" : "2020-08-02T15:58:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:54:39Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "4396911",
+  "score" : 0
+}
