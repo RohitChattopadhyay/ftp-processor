@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Ects are not formed through exocytosis but are formed by outward membrane budding due to the loss of calcium dependent membrane phospholipid asymmetry, cytoskeletal rearrangement, and cell surface shedding XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:48:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:46:53Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of calcium" ],
+  "pmc_id" : "6071541",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBR2",
+      "entity_text" : "cathepsin Z",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0580" ],
+      "CellLine" : [ "cellosaurus:CVCL_D944" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000910" ]
+    }
+  },
+  "verbose_text" : "Analysis of cathepsins in draining lymph nodes revealed a similar level of cathepsin Z expression in Ctsb -/- mice and wild-type mice; similarly, no differences in cathepsin B expression were seen between Ctsz -/- and wild-type mice.",
+  "reading_complete" : "2020-08-02T10:51:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:49:53Z",
+  "trigger" : "level",
+  "evidence" : [ "level of cathepsin Z" ],
+  "pmc_id" : "6587341",
+  "score" : 0
+}
