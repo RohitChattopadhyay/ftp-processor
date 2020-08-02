@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y620" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Stress-dose (200-300 mg of hydrocortisone per day or equivalent) steroid treatment improves outcomes of vasopressor dependent patients with septic shock who have documented inadequate cortisol levels.",
+  "reading_complete" : "2020-08-02T07:10:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:06:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "7150104",
+  "score" : 0
+}
