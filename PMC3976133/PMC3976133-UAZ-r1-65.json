@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09486",
+      "entity_text" : "SPARC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0098" ],
+      "TissueType" : [ "tissuelist:TS-0416" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To understand the association between p53 and SPARC which regulates the proliferation and apoptosis of MDS / AML cells, we detected the expression of p53 in SPARC shRNA infected cells, negative control cells and SKM-1 cells.",
+  "reading_complete" : "2020-08-02T16:03:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:02:18Z",
+  "trigger" : "association",
+  "evidence" : [ "association between p53 and SPARC" ],
+  "pmc_id" : "3976133",
+  "score" : 0
+}

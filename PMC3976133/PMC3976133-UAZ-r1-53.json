@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SPARC silencing inhibited the growth of AML transformed from MDS by activating p53 induced apoptosis and cell cycle arrest.",
+  "reading_complete" : "2020-08-02T16:03:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:02:18Z",
+  "trigger" : "induced",
+  "evidence" : [ "p53-induced apoptosis" ],
+  "pmc_id" : "3976133",
+  "score" : 0
+}
