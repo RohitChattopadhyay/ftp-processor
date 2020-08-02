@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22265",
+      "entity_text" : "TSH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1290" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Organ" : [ "uberon:UBERON:3010752" ]
+    }
+  },
+  "verbose_text" : "Since the patient 's TSH levels were low, the most appropriate next step would have been a thyroid scan (scintigraphy) to determine if the nodule is hot [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:31:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:29:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "TSH levels" ],
+  "pmc_id" : "4962344",
+  "score" : 0
+}
