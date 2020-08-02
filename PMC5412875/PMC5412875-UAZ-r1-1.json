@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0001637" ]
+    }
+  },
+  "verbose_text" : "The patient 's weight was 63 kg; serum creatinine level, 0.81 mg/dL (normal range, 0.80-1.20); estimated creatinine clearance, 66 mL/min; and estimated glomerular filtration rate, 69.7 mL/min/1.73 m 2.",
+  "reading_complete" : "2020-08-02T11:33:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:32:51Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "5412875",
+  "score" : 0
+}
