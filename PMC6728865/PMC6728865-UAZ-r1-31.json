@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "For IR estimation the homeostasis model assessment for IR (HOMA-IR) was calculated by the formula : fasting insulin level (mUI/l) x fasting glucose level (mg/dl)/405 [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:52:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:48:46Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6728865",
+  "score" : 0
+}
