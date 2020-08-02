@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16070",
+      "entity_text" : "CD44",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833565",
+      "entity_text" : "heparin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Uptake of HA coated nanoparticles was greater than that of particles without a coating or with a coating of heparin, which shows glycosaminoglycan properties similar to those of HA but does not bind CD44.",
+  "reading_complete" : "2020-08-02T08:30:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:29:11Z",
+  "trigger" : "bind",
+  "evidence" : [ "heparin, which shows glycosaminoglycan properties similar to those of HA but does not bind CD44" ],
+  "pmc_id" : "4402499",
+  "score" : 0
+}

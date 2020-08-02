@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16070",
+      "entity_text" : "CD44",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030135" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Experiments in Fig. XREF_FIG A and XREF_SUPPLEMENTARY : Fig. S1 suggested that the high affinity of HA-SLNs / PTX to the B16F10-CD44 + cells was not only attributed to nonspecific electrostatic attraction between the nanoparticles and the cell surface, but also because of specific HA binding to CD44.",
+  "reading_complete" : "2020-08-02T08:30:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:29:11Z",
+  "trigger" : "binding",
+  "evidence" : [ "HA binding to CD44" ],
+  "pmc_id" : "4402499",
+  "score" : 0
+}

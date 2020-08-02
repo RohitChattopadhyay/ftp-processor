@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00888",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Inhibition of plasmablast differentiation was associated with lower levels of total IgG produced in coculture supernatants.",
+  "reading_complete" : "2020-08-02T08:33:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:32:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of total IgG" ],
+  "pmc_id" : "5835945",
+  "score" : 0
+}
