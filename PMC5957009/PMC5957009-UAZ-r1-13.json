@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15149",
+      "entity_text" : "plectin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05451",
+      "entity_text" : "PTP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0532" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Only PTP liposomes associated with plectin, confirming not only their specificity for plectin but also that the incorporated PTP-DSPE conjugate was in the correct orientation.",
+  "reading_complete" : "2020-08-02T15:13:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:11:23Z",
+  "trigger" : "associated",
+  "evidence" : [ "PTP liposomes associated with plectin" ],
+  "pmc_id" : "5957009",
+  "score" : 0
+}

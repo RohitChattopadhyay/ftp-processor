@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02545",
+      "entity_text" : "Lmna",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 609,
+        "feature_type" : "mutation",
+        "evidence" : "G609G"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Lmna G609G / G609G mice displayed IDD, as evidenced by increased matrix metalloproteinase-13 expression and decreased collagen II and aggrecan expression and disc height.",
+  "reading_complete" : "2020-08-02T15:09:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:07:47Z",
+  "trigger" : "decreased",
+  "evidence" : [ "Lmna G609G/G609G mice displayed IDD, as evidenced by increased matrix metalloproteinase-13 expression and decreased collagen" ],
+  "pmc_id" : "6531300",
+  "score" : 0
+}
