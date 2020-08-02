@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119245",
+      "entity_text" : "dioscin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Notably, compared with saline treated mice, CS injured mice showed severe pulmonary inflammation, whereas the dioscin treated mice had decreased lung inflammation in a dose dependent manner.",
+  "reading_complete" : "2020-08-02T11:37:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:35:19Z",
+  "trigger" : "decreased",
+  "evidence" : [ "dioscin-treated mice had decreased lung inflammation" ],
+  "pmc_id" : "5695011",
+  "score" : 0
+}

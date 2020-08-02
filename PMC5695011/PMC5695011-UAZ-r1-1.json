@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99683",
+      "entity_text" : "ASK-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119245",
+      "entity_text" : "Dioscin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Dioscin decreased ASK-1 phosphorylation in this study, similar to the effects of a specific inhibitor.",
+  "reading_complete" : "2020-08-02T11:37:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:35:19Z",
+  "trigger" : "decreased",
+  "evidence" : [ "Dioscin decreased ASK-1 phosphorylation" ],
+  "pmc_id" : "5695011",
+  "score" : 0
+}
