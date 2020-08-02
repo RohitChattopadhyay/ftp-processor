@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5234",
+      "entity_text" : "salt",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These amounts exceed salt and sodium quantities in an equivalent amount of bacon (0.144 g of salt and 0.0575 g of sodium), which is considered a high-salt food.",
+  "reading_complete" : "2020-08-02T10:04:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:59:31Z",
+  "trigger" : "quantities",
+  "evidence" : [ "salt and sodium quantities" ],
+  "pmc_id" : "6551690",
+  "score" : 0
+}
