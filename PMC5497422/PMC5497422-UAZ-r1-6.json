@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0088" ]
+    }
+  },
+  "verbose_text" : "The median level of vitamin D was 19.5 ng/ml (range : 4.4-71.4).",
+  "reading_complete" : "2020-08-02T12:08:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:07:07Z",
+  "trigger" : "level",
+  "evidence" : [ "level of vitamin D" ],
+  "pmc_id" : "5497422",
+  "score" : 0
+}
