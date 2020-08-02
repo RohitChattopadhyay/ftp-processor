@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "urea",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0044312" ],
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "Renal function was correct with a urea level of 0.5 g/L, serum creatinine at 13 mg/L, and glomerular filtration rate GFR at 64 mL/min.",
+  "reading_complete" : "2020-08-02T12:38:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:37:38Z",
+  "trigger" : "level",
+  "evidence" : [ "urea level" ],
+  "pmc_id" : "7044352",
+  "score" : 0
+}
