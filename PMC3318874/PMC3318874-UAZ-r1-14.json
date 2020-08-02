@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Nearly all patients with liver cirrhosis are insulin resistant, beta-cells respond to this resistant by increasing insulin levels (hyperinsulinaemia) [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:52:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:46:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "3318874",
+  "score" : 0
+}

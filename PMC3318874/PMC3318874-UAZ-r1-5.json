@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Whereas IGFBP1 regulates IGF1 availability in response to rapid changes in insulin levels, over 90% of circulating IGF1 is bound to IGFBP3, the latter controls long-term adaptive change to long-term hyperinsulinaemia.",
+  "reading_complete" : "2020-08-02T16:52:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:46:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "3318874",
+  "score" : 0
+}
