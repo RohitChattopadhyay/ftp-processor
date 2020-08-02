@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NYD6",
+      "entity_text" : "HOXC10",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of HOXC10 enhances, while downregulation of HOXC10 impairs, pro angiogenesis activity in gliomas.",
+  "reading_complete" : "2020-08-02T14:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:12Z",
+  "trigger" : "enhances",
+  "evidence" : [ "HOXC10 enhances, while downregulation of HOXC10 impairs, pro-angiogenesis" ],
+  "pmc_id" : "6217061",
+  "score" : 0
+}
