@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02542",
+      "entity_text" : "TbetaRII dimers",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0009986" ]
+    }
+  },
+  "verbose_text" : "The binding of TGF-beta to TbetaRII dimers stabilizes the interaction of TbetaRII dimers with two TbetaRI molecules to form a ligand receptor-complex involving a heterotetrameric receptor and a ligand dimer.",
+  "reading_complete" : "2020-08-02T14:54:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:53:11Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of TGF-beta to TbetaRII dimers" ],
+  "pmc_id" : "5716433",
+  "score" : 0
+}
