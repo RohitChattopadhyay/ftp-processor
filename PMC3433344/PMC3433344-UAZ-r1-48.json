@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06703",
+      "entity_text" : "S100A6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellLine" : [ "cellosaurus:CVCL_1416" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000819" ]
+    }
+  },
+  "verbose_text" : "It has also been reported that a strong association is between the presence of annexin II in the plasma membrane and high levels of cytoplasmic S100A6 of pancreatic cancer cells [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:09:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cytoplasmic S100A6" ],
+  "pmc_id" : "3433344",
+  "score" : 0
+}
