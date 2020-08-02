@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0150" ],
+      "Organ" : [ "uberon:UBERON:0002005" ],
+      "CellType" : [ "cl:CL:0000458" ],
+      "Species" : [ "taxonomy:210" ]
+    }
+  },
+  "verbose_text" : "The increased serotonin levels in IBS-C patients may explain the nausea that these patients experience.",
+  "reading_complete" : "2020-08-02T12:07:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:06:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "serotonin levels" ],
+  "pmc_id" : "4152137",
+  "score" : 0
+}
