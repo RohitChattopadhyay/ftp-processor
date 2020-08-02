@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18075",
+      "entity_text" : "BMP7",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02185",
+      "entity_text" : "miR-542-3p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "BMP7 was identified as a direct target of miR-542-3p; it was observed that the overexpression of miR-542-3p suppresses BMP7 and inhibits BMP7 / phosphoinositide 3-kinase (PI3K)-survivin signaling.",
+  "reading_complete" : "2020-08-02T14:17:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:16:48Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "miR-542-3p suppresses BMP7" ],
+  "pmc_id" : "4678163",
+  "score" : 0
+}

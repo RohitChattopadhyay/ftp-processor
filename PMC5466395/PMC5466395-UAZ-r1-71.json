@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13153",
+      "entity_text" : "PAK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "But we found that PAK1 did not inhibit the proliferation of SCC25 cells, implying that miR-485-5p inhibits proliferation by regulating other genes.",
+  "reading_complete" : "2020-08-02T14:15:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:14:31Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "PAK1 did not inhibit the proliferation" ],
+  "pmc_id" : "5466395",
+  "score" : 0
+}

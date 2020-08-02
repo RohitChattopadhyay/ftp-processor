@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94907",
+      "entity_text" : "SK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, pre-treatment of the HK-2 cells with SK inhibited the phosphorylation of ERK and p38, but not that of JNK.",
+  "reading_complete" : "2020-08-02T14:16:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:15:10Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "SK inhibited the phosphorylation of ERK" ],
+  "pmc_id" : "4564094",
+  "score" : 0
+}
