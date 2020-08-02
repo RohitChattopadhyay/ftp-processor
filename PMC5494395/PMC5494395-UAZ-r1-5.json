@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1R16" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0002171" ]
+    }
+  },
+  "verbose_text" : "An 81-year-old woman visited our hospital because of cognitive symptoms during the period between getting out of bed and breakfast; moreover, her fasting blood glucose level was 41 mg/dL.",
+  "reading_complete" : "2020-08-02T08:26:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:25:49Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "5494395",
+  "score" : 0
+}

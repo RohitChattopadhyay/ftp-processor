@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01241",
+      "entity_text" : "growth hormone",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellLine" : [ "cellosaurus:CVCL_1R16" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uberon:UBERON:0002171" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Her serum insulin and growth hormone levels were low (0.1 muU/mL and 0.11 ng/mL, respectively).",
+  "reading_complete" : "2020-08-02T08:26:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:25:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "growth hormone levels" ],
+  "pmc_id" : "5494395",
+  "score" : 0
+}
