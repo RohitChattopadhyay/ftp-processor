@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03425",
+      "entity_text" : "lipases",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Expression of lipases, sterol transporters, and cholesterol esterifying enzymes can modulate cholesterol absorption in the small intestine [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "modulate",
+  "evidence" : [ "lipases, sterol transporters, and cholesterol esterifying enzymes can modulate cholesterol" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

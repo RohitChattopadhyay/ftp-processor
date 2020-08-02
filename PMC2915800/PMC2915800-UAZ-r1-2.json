@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26678",
+      "entity_text" : "PLB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Cellular_component" : [ "go:GO:0031526" ],
+      "Organ" : [ "uberon:UBERON:0018543" ],
+      "Species" : [ "taxonomy:9986" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "Higher PLA2 and PLB mRNA levels, as well as higher phospholipase activity, were associated with higher cholesterol absorption in high responders.",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "PLB mRNA levels" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

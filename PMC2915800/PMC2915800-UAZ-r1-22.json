@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03438",
+      "entity_text" : "IBABP mRNA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9986" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "Average IBABP mRNA levels were higher in high responders than in low responders, but the difference was not statistically significant due to wide variation in mRNA levels within the two groups of opossums (XREF_TABLE).",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "IBABP mRNA levels" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

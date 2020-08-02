@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000584" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Decreased expression of the cholesterol synthesis genes acts in concert with increased expression of the ABCG5 and ABCG8 genes to regulate cellular levels of cholesterol in the intestines of high and low responders.",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cholesterol" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

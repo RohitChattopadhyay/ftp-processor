@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We detected whether the KATP channel opener regulated LPS induced JNK phosphorylation at the 30-min time point.",
+  "reading_complete" : "2020-08-02T13:47:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:46:11Z",
+  "trigger" : "induced",
+  "evidence" : [ "LPS-induced JNK phosphorylation" ],
+  "pmc_id" : "4380206",
+  "score" : 0
+}
