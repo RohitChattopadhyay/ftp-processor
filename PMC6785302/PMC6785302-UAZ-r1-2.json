@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00910",
+      "entity_text" : "FVIIa",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "TF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0010210" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR XREF_BIBR Generation of high levels of TF can overcome TFPI in vitro, XREF_BIBR and could theoretically generate sufficient levels of TF / FVIIa complex to allow direct activation of factor X independently of the tenase complex, and propagate thrombus formation despite low FVIII levels.",
+  "reading_complete" : "2020-08-02T11:41:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:40:16Z",
+  "trigger" : "complex",
+  "evidence" : [ "TF/FVIIa complex" ],
+  "pmc_id" : "6785302",
+  "score" : 0
+}
