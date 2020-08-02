@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01004",
+      "entity_text" : "UFH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the therapeutic range of UFH versus anti-Xa (0.3-0.7 IU/mL), 91% of samples were accurately categorized by ratio CKH.R/CK.R, 90% by ratio CK.R/CKH.R, and 92% by DeltaCK.R - CKH.R, with a PPV of 88% for DeltaCK.R - CKH.R and ratio CK.R/CKH.R, and 89% for ratio CKH.R/CK.R (XREF_TABLE), demonstrating that blood samples could be accurately classified according to clinically relevant levels of UFH.",
+  "reading_complete" : "2020-08-02T13:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:41:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of UFH" ],
+  "pmc_id" : "6742498",
+  "score" : 0
+}

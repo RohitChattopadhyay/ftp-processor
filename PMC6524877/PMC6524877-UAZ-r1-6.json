@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04275",
+      "entity_text" : "VWF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00897",
+      "entity_text" : "ristocetin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The addition of plasmin to washed platelets results in progressive loss of GPIb as measured by fluorescence flow cytometry and by the loss of ristocetin induced VWF dependent platelet agglutination.",
+  "reading_complete" : "2020-08-02T13:44:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:43:18Z",
+  "trigger" : "induced",
+  "evidence" : [ "ristocetin-induced VWF" ],
+  "pmc_id" : "6524877",
+  "score" : 0
+}
