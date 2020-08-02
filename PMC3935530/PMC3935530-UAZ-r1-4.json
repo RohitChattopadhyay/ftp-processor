@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Despite the low number of patients in each group statistical comparison of the belatacept group with the switch and CNI group revealed significantly lower creatinine levels in the belatacept group starting after the first year (P < 0.05; Mann-Whitney U test).",
+  "reading_complete" : "2020-08-02T17:48:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:43:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "3935530",
+  "score" : 0
+}
