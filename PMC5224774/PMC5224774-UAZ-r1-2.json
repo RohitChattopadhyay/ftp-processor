@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:91577",
+      "entity_text" : "vitamin K epoxide",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00380",
+      "entity_text" : "epoxide reductase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It induces a deficiency of active vitamin K by inhibiting the epoxide reductase, which can reduce the conversion of vitamin K epoxide to its functional form.",
+  "reading_complete" : "2020-08-02T08:11:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:11:14Z",
+  "trigger" : "reduce",
+  "evidence" : [ "epoxide reductase, which can reduce the conversion of vitamin K epoxide" ],
+  "pmc_id" : "5224774",
+  "score" : 0
+}

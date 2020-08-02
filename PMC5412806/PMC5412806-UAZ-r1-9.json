@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09919",
+      "entity_text" : "G-CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "In this case, the leukocyte count was elevated to more than 25,000 cells / muL, and the production of G-CSF from the neoplasm was confirmed by the patient 's high serum levels of G-CSF and an immunohistochemical examination.",
+  "reading_complete" : "2020-08-02T08:12:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:11:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of G-CSF" ],
+  "pmc_id" : "5412806",
+  "score" : 0
+}
