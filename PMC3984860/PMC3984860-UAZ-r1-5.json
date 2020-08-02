@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Examples are DNA methylation and histone acetylation.",
+  "reading_complete" : "2020-08-02T12:20:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:11:50Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "histone acetylation" ],
+  "pmc_id" : "3984860",
+  "score" : 0
+}
