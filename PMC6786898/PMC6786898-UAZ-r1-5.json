@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:4565" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0007023" ]
+    }
+  },
+  "verbose_text" : "The publication reported that diabetic rats fed high-amylose rice starch had significantly lower plasma glucose levels at 30, 60, and 90 minutes than diabetic rats fed wild-type rice (P value not provided), which suggests that high-amylose rice may play a role in improving acute glucose and insulin responses, but more research involving humans is needed.",
+  "reading_complete" : "2020-08-02T08:24:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:20:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6786898",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439165",
+      "entity_text" : "glucose-1-phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "amyloplast",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0009501",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR The enzymatic degradation of sucrose in the cytosol ultimately yields glucose-1-phosphate, which is transported into the developing endosperm amyloplast through a hexose phosphate transporter.",
+  "reading_complete" : "2020-08-02T08:24:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:20:24Z",
+  "trigger" : "transported",
+  "evidence" : [ "glucose-1-phosphate, which is transported into the developing endosperm amyloplast" ],
+  "pmc_id" : "6786898",
+  "score" : 0
+}

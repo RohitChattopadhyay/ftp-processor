@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:4565" ],
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "Organ" : [ "uberon:UBERON:0007023" ]
+    }
+  },
+  "verbose_text" : "Belobrajdic et al found that healthy adults who consumed breads made with high-amylose wheat flour had significantly lower peak glucose levels (P < 0.05), 3-hour iAUC glucose (P < 0.001), and 3-hour iAUC insulin (P < 0.01) than those who consumed breads made with common wheat flour.",
+  "reading_complete" : "2020-08-02T08:24:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:20:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6786898",
+  "score" : 0
+}
