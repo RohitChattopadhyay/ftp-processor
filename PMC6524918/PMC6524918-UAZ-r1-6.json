@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine residues",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43405",
+      "entity_text" : "Syk",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P126",
+      "entity_text" : "CLEC-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Syk is phosphorylated on several tyrosine residues following activation of CLEC-2, just as it is following activation of GPVI, which contains two ITAM motifs.",
+  "reading_complete" : "2020-08-02T13:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:21:06Z",
+  "trigger" : "activation",
+  "evidence" : [ "Syk is phosphorylated on several tyrosine residues following activation of CLEC-2" ],
+  "pmc_id" : "6524918",
+  "score" : 0
+}

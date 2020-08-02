@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43405",
+      "entity_text" : "Syk",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P126",
+      "entity_text" : "CLEC-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We observed that PLCgamma2 was phosphorylated earlier and to a greater extent at both Y759 and Y1217 in TULA-2 -/- platelets compared with WT platelets, similar to the pattern observed in our analysis of Syk phosphorylation (XREF_FIG) following stimulation of CLEC-2.",
+  "reading_complete" : "2020-08-02T13:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:21:06Z",
+  "trigger" : "stimulation",
+  "evidence" : [ "Syk phosphorylation (\n XREF_FIG \n) following stimulation of CLEC-2" ],
+  "pmc_id" : "6524918",
+  "score" : 0
+}

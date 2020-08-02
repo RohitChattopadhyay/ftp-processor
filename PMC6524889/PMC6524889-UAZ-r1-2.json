@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48147",
+      "entity_text" : "PE",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00365",
+      "entity_text" : "CXR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The result of the CXR could lead to change suspected PE to another diagnosis or to moving PE higher up in the differential diagnosis.",
+  "reading_complete" : "2020-08-02T13:23:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:22:24Z",
+  "trigger" : "lead",
+  "evidence" : [ "CXR could lead to change suspected PE" ],
+  "pmc_id" : "6524889",
+  "score" : 0
+}
