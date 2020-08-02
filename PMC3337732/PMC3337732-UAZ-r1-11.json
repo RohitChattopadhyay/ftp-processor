@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03921",
+      "entity_text" : "metallomelanin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pubchem:6325610",
+      "entity_text" : "melanin",
+      "entity_type" : "simple_chemical"
+    }, {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Tyrosinase is required for the production of melanin, which binds paramagnetic iron ions to produce metallomelanin, a T1 shortening agent.",
+  "reading_complete" : "2020-08-02T11:50:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:49Z",
+  "trigger" : "produce",
+  "evidence" : [ "melanin, which binds paramagnetic iron ions to produce metallomelanin" ],
+  "pmc_id" : "3337732",
+  "score" : 0
+}
