@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00046",
+      "entity_text" : "homeobox",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37275",
+      "entity_text" : "ZEB1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0739" ],
+      "Cellular_component" : [ "go:GO:0005911" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Transforming growth factor-beta1 (TGF-beta1) is one of the main EMT inducing factors in both physiological and pathological conditions, by activating EMT associated transcriptional regulators, such as Snail, Twist and Zinc finger E-box binding homeobox 1 (ZEB1).",
+  "reading_complete" : "2020-08-02T14:59:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:58:14Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding homeobox 1 (ZEB1" ],
+  "pmc_id" : "4494581",
+  "score" : 0
+}

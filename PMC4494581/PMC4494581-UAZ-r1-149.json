@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16070",
+      "entity_text" : "CD44",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ]
+    }
+  },
+  "verbose_text" : "Additionally, 4-MU inhibited the interaction between CD44 and EGFR, even in the presence of TGF-beta1 (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:59:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:58:14Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between CD44 and EGFR" ],
+  "pmc_id" : "4494581",
+  "score" : 0
+}
