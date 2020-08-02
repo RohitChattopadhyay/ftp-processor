@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-I",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22692",
+      "entity_text" : "IGFBP-4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Sitar et al reported the high-resolution X-ray structure of a complex of the N- and C-terminal domains of IGFBP-4 bound to IGF-I, which provided the structural basis for the inhibition of IGFs by IGFBP-4.",
+  "reading_complete" : "2020-08-02T09:35:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:34:57Z",
+  "trigger" : "bound",
+  "evidence" : [ "IGFBP-4 bound to IGF-I" ],
+  "pmc_id" : "4533773",
+  "score" : 0
+}

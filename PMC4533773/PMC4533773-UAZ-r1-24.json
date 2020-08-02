@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-I",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22692",
+      "entity_text" : "IGFBP-4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "These results revealed that the mechanism of AIM inhibiting apoptosis was partly through disrupting IGFBP-4 binding to IGF-I.",
+  "reading_complete" : "2020-08-02T09:35:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:34:57Z",
+  "trigger" : "binding",
+  "evidence" : [ "IGFBP-4 binding to IGF-I" ],
+  "pmc_id" : "4533773",
+  "score" : 0
+}

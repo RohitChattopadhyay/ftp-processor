@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "Rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Rapamycin inhibited Nara-H cell proliferation and decreased the phosphorylation of the mTOR pathway in the Nara-H cells.",
+  "reading_complete" : "2020-08-02T09:32:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:31:23Z",
+  "trigger" : "decreased",
+  "evidence" : [ "Rapamycin inhibited Nara-H cell proliferation and decreased the phosphorylation of the mTOR" ],
+  "pmc_id" : "4055350",
+  "score" : 0
+}
