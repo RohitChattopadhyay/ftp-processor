@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02170",
+      "entity_text" : "RORgammat",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similarly, increased RORgammat expression also increased IL-17 promoter dependent luciferase activity.",
+  "reading_complete" : "2020-08-02T09:37:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:33Z",
+  "trigger" : "increased",
+  "evidence" : [ "RORgammat expression also increased IL-17 promoter-dependent luciferase" ],
+  "pmc_id" : "5381261",
+  "score" : 0
+}

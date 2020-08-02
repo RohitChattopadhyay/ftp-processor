@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16552",
+      "entity_text" : "IL-17A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0585" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000798" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found that the mRNA levels of both IL-17A and IL-17F were remarkably increased upon the loss of HDAC6 in gammadelta T cells.",
+  "reading_complete" : "2020-08-02T09:37:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of both IL-17A" ],
+  "pmc_id" : "5381261",
+  "score" : 0
+}
