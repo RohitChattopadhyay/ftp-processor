@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:338",
+      "entity_text" : "salicylate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13224",
+      "entity_text" : "GluN2B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Considering that the GluN2B subunit mediates most of the NMDA current and that activation of GluN2B containing NMDA-Rs results in excitotoxicity and neuronal apoptosis [XREF_BIBR, XREF_BIBR], GluN2B pathophysiology might mediate salicylate induced excitotoxicity.",
+  "reading_complete" : "2020-08-02T09:11:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:09:08Z",
+  "trigger" : "mediate",
+  "evidence" : [ "GluN2B pathophysiology might mediate salicylate" ],
+  "pmc_id" : "6453795",
+  "score" : 0
+}
