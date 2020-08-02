@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02749",
+      "entity_text" : "Apoh",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01019",
+      "entity_text" : "Agt",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001009" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The presence of Tp53 facilitated interactions between 2 G-3 genes, Agt and Apoh, and 3 G-4 genes, Apoh, Vegfb and Banp (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:15:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:12:03Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between 2 G-3 genes, Agt               and Apoh              , and 3 G-4 genes, Apoh" ],
+  "pmc_id" : "4533772",
+  "score" : 0
+}
