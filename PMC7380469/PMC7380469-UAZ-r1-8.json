@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15466",
+      "entity_text" : "SHP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In hepatocytes, activated FXR induces expression of small heterodimer partner (SHP), which inhibits transcription of the gene for cholesterol 7 alpha hydroxylase (CYP7A1).",
+  "reading_complete" : "2020-08-02T10:26:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:20:09Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "SHP), which inhibits transcription of the gene for cholesterol 7 alpha" ],
+  "pmc_id" : "7380469",
+  "score" : 0
+}

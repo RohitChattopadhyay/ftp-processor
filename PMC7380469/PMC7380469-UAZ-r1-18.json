@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:3847" ]
+    }
+  },
+  "verbose_text" : "Taurine supplementation has been proven to decrease bilirubin levels in infants and preterm, but there are no supporting data in adults.",
+  "reading_complete" : "2020-08-02T10:26:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:20:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "7380469",
+  "score" : 0
+}
