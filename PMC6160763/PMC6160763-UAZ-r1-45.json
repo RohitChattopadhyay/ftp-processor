@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46531",
+      "entity_text" : "NICD",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000214" ]
+    }
+  },
+  "verbose_text" : "NICD translocates into the nucleus, where it functions as a transcriptional activator and modulates its target genes such as Hes and p21 XREF_BIBR.",
+  "reading_complete" : "2020-08-02T08:46:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:45:59Z",
+  "trigger" : "translocates",
+  "evidence" : [ "NICD translocates into the nucleus" ],
+  "pmc_id" : "6160763",
+  "score" : 0
+}

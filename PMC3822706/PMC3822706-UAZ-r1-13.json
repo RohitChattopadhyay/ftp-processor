@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0C23" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The metabolic changes include higher levels of glucose, triglycerides, blood pressure and lower levels of HDL cholesterol.",
+  "reading_complete" : "2020-08-02T08:46:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:45:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of glucose" ],
+  "pmc_id" : "3822706",
+  "score" : 0
+}
