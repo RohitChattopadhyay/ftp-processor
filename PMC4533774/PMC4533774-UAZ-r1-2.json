@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96518",
+      "entity_text" : "p16",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55272",
+      "entity_text" : "INK4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In HCC, aberrant promoter methylation of p16 (INK4) is considered a main cause resulting in its function loss.",
+  "reading_complete" : "2020-08-02T12:33:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:32:37Z",
+  "trigger" : "promoter",
+  "evidence" : [ "promoter methylation of p16 (INK4" ],
+  "pmc_id" : "4533774",
+  "score" : 0
+}
