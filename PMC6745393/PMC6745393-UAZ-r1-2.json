@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0001443" ]
+    }
+  },
+  "verbose_text" : "Initial cardiac troponin T was only mildly elevated at 23 ng/L (reference range 0-14 ng/L) while plasma potassium, sodium and creatinine levels were within normal limits.",
+  "reading_complete" : "2020-08-02T08:56:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:55:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "potassium, sodium and creatinine levels" ],
+  "pmc_id" : "6745393",
+  "score" : 0
+}

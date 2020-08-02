@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0031966" ]
+    }
+  },
+  "verbose_text" : "The patient presented with elevated plasma lactate levels and 3-methylglutaconic acid in urine, undescended testicle, and infantile cardiomyopathy along with left ventricular noncompaction.",
+  "reading_complete" : "2020-08-02T08:54:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:53:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "lactate levels" ],
+  "pmc_id" : "6406168",
+  "score" : 0
+}
