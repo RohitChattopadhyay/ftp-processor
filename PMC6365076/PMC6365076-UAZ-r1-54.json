@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D000375",
+      "entity_text" : "senescence",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38936",
+      "entity_text" : "p21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Further analysis of p16, p21, p53 and SA-beta-gal expression levels by western blotting demonstrated that rapamycin treatment reduced the increasing levels of senescence related proteins in aging cells (XREF_FIG).",
+  "reading_complete" : "2020-08-02T15:47:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:46:31Z",
+  "trigger" : "reduced",
+  "evidence" : [ "p21, p53 and SA-beta-gal expression levels by western blotting demonstrated that rapamycin treatment reduced the increasing levels of senescence" ],
+  "pmc_id" : "6365076",
+  "score" : 0
+}

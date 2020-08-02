@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "SIRT1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0002064" ]
+    }
+  },
+  "verbose_text" : "Additionally, interactions between SIRT1 and p53 and between SIRT1 and HSF1 in the pancreas of the mice were confirmed by co-immunoprecipitation.",
+  "reading_complete" : "2020-08-02T15:49:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:47:51Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between SIRT1 and p53 and between SIRT1" ],
+  "pmc_id" : "5504992",
+  "score" : 0
+}
