@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4725",
+      "entity_text" : "PCV",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "JAK2",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 617,
+        "feature_type" : "mutation",
+        "evidence" : "V617F"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The finding of the acquired JAK2 V617F mutation and erythroid hyperplasia on BM biopsy allowed us to diagnose PCV in our asymptomatic patient despite a normal EPO level.",
+  "reading_complete" : "2020-08-02T11:49:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:48:18Z",
+  "trigger" : "allowed",
+  "evidence" : [ "JAK2 V617F mutation and erythroid hyperplasia on BM biopsy allowed us to diagnose PCV" ],
+  "pmc_id" : "5582235",
+  "score" : 0
+}
