@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A certain amount of dopamine release and activation of the brain reward system are not necessary or sufficient conditions for addiction.",
+  "reading_complete" : "2020-08-02T08:46:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:43:46Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of dopamine" ],
+  "pmc_id" : "4477694",
+  "score" : 0
+}

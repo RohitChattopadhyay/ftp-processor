@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D953" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0004288" ]
+    }
+  },
+  "verbose_text" : "Calcium deficiency easily happens as a result of low calcium intake in diet and losses of calcium via the bowel and kidneys, and it may weaken the growth and delay consolidation of skeleton.",
+  "reading_complete" : "2020-08-02T08:49:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:40:08Z",
+  "trigger" : "losses",
+  "evidence" : [ "losses of calcium" ],
+  "pmc_id" : "6462344",
+  "score" : 0
+}

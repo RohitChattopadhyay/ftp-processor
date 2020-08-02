@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D953" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Organ" : [ "uberon:UBERON:0004288" ]
+    }
+  },
+  "verbose_text" : "The calcium requirement of human may be described as the average calcium intake needed to maintain calcium homeostasis to meet the significant obligated losses of calcium through the gastrointestinal tract, skin, and kidneys [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:49:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:40:08Z",
+  "trigger" : "losses",
+  "evidence" : [ "losses of calcium" ],
+  "pmc_id" : "6462344",
+  "score" : 0
+}
