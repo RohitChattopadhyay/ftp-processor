@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08117",
+      "entity_text" : "AEs",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:49806720",
+      "entity_text" : "Alectinib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Alectinib caused no AEs, but crizotinib required a dose reduction due to nausea and colitis.",
+  "reading_complete" : "2020-08-02T09:20:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:20:04Z",
+  "trigger" : "caused",
+  "evidence" : [ "Alectinib caused no AEs" ],
+  "pmc_id" : "5458002",
+  "score" : 0
+}

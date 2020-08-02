@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:HDAC",
+      "entity_text" : "histone deacetylases",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "CellLine" : [ "cellosaurus:CVCL_0035" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000842" ]
+    }
+  },
+  "verbose_text" : "Except of SFN mediated increase in mRNA levels of HDAC5 in three breast cancer cells, mRNA levels of selected histone deacetylases were decreased upon SFN stimulation that was especially seen in MDA-MB-231 cells (this study).",
+  "reading_complete" : "2020-08-02T15:44:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:42:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of selected histone deacetylases" ],
+  "pmc_id" : "5596436",
+  "score" : 0
+}

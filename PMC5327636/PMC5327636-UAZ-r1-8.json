@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46527",
+      "entity_text" : "p27 Kip1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04445",
+      "entity_text" : "Ab79",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Immunoblot analysis of xenograft tumor tissues showed that Ab27 and Ab79 reduced phosphorylation of FAK, c-Src, and p27 Kip1 but did not change the phosphorylation of ERK1/2, as expected, based on the previous observation that TM4SF5 did not affect ERK1/2 activation XREF_BIBR.",
+  "reading_complete" : "2020-08-02T12:36:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:35:17Z",
+  "trigger" : "reduced",
+  "evidence" : [ "Ab79 reduced phosphorylation of FAK, c-Src, and p27 Kip1" ],
+  "pmc_id" : "5327636",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "RB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02313",
+      "entity_text" : "SNHG14",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Decrease in SNHG14 expression inhibits RB tumor growth in vivo.",
+  "reading_complete" : "2020-08-02T14:38:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:28Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "SNHG14 expression inhibits RB" ],
+  "pmc_id" : "7169960",
+  "score" : 0
+}

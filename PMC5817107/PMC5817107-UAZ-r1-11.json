@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7434",
+      "entity_text" : "TNB",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22303",
+      "entity_text" : "AChE",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In general, thiocholine, the product of AChE catalyzed hydrolysis of acetylthiocholine, can react with 5,5 '-dithiobis-(2-nitrobenzoic acid) (DTNB) to produce 2-nitro-5-thiobenzoate anion (TNB) XREF_BIBR.",
+  "reading_complete" : "2020-08-02T18:12:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:08:49Z",
+  "trigger" : "produce",
+  "evidence" : [ "AChE-catalyzed hydrolysis of acetylthiocholine, can react with 5,5'-dithiobis-(2-nitrobenzoic acid) (DTNB) to produce 2-nitro-5-thiobenzoate anion (TNB" ],
+  "pmc_id" : "5817107",
+  "score" : 0
+}

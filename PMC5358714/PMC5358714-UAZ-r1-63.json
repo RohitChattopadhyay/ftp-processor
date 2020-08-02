@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99828",
+      "entity_text" : "calcium and integrin-binding protein 1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13864",
+      "entity_text" : "calmodulin-binding",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "SphK1 contains a calmodulin binding site that binds calcium and integrin binding protein 1 (CIB1) in a calcium dependent manner.",
+  "reading_complete" : "2020-08-02T13:41:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:39:27Z",
+  "trigger" : "binds",
+  "evidence" : [ "calmodulin-binding site that binds calcium and integrin-binding protein 1" ],
+  "pmc_id" : "5358714",
+  "score" : 0
+}

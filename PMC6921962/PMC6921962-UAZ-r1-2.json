@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:6334" ],
+      "CellType" : [ "cl:CL:0002563" ]
+    }
+  },
+  "verbose_text" : "The level of immunosuppressive TGF-beta expression in the spleen was significantly increased at the 6 h after infection, indicating that it plays an important role in inducing Th1-type and Th2-type immunosuppression.",
+  "reading_complete" : "2020-08-02T16:02:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:54Z",
+  "trigger" : "level",
+  "evidence" : [ "level of immunosuppressive TGF-beta" ],
+  "pmc_id" : "6921962",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PDGF",
+      "entity_text" : "PDGF",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Organ" : [ "uberon:UBERON:0000344" ],
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "For patients whose MNC counts and MNC derived PDGF levels were higher, endothelial PDGF levels were found to decrease and no relation was detected between the perivascular-PDGF and MNCs (count or PDGF-PI).",
+  "reading_complete" : "2020-08-02T11:31:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "PDGF levels" ],
+  "pmc_id" : "3781228",
+  "score" : 0
+}

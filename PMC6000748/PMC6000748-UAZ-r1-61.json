@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SOS",
+      "entity_text" : "SOS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62993",
+      "entity_text" : "GRB2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The Shc protein binds phosphorylated Ir and IRS-1, whereupon they serve as effective adapters for the GRB2 - SOS complex.",
+  "reading_complete" : "2020-08-02T11:04:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:53:32Z",
+  "trigger" : "complex",
+  "evidence" : [ "GRB2-SOS complex" ],
+  "pmc_id" : "6000748",
+  "score" : 0
+}

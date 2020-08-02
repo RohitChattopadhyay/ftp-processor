@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02280",
+      "entity_text" : "SDF1-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "Recently, chloroquines and hydroxychloroquines anti-malarial drugs have been identified by computational methods as promising inhibitors of the binding of SDF1-alpha to CXCR4 and thus, potential agents for certain forms of cancer XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:46:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:41:06Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of SDF1-alpha to CXCR4" ],
+  "pmc_id" : "3563081",
+  "score" : 0
+}

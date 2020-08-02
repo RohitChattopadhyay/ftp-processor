@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5360545",
+      "entity_text" : "Na",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "He et al confirmed that R1488 *, a variant of SCN9A, results in a complete loss-of-function of Na v 1.7, which is consistent with variants in this gene in subjects with congenital insensitivity to pain.",
+  "reading_complete" : "2020-08-02T14:27:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:21:45Z",
+  "trigger" : "loss-of-function",
+  "evidence" : [ "loss-of-function of Na" ],
+  "pmc_id" : "7307826",
+  "score" : 0
+}

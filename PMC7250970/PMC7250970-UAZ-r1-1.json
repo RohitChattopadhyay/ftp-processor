@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:938",
+      "entity_text" : "niacin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1047" ]
+    }
+  },
+  "verbose_text" : "Serum niacin level was very low (6.4 mumol/L : normal range, 38-58 mumol/L).",
+  "reading_complete" : "2020-08-02T10:41:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:41:11Z",
+  "trigger" : "level",
+  "evidence" : [ "niacin level" ],
+  "pmc_id" : "7250970",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15917",
+      "entity_text" : "LEF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6I2",
+      "entity_text" : "SOX17",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In addition, the interaction between SOX17 and LEF leads to the reduced combination of SOX17 to beta-catenin, which further results in suppression of the Wnt / beta-catenin signaling pathway.",
+  "reading_complete" : "2020-08-02T13:43:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:42:25Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between SOX17 and LEF" ],
+  "pmc_id" : "6202083",
+  "score" : 0
+}

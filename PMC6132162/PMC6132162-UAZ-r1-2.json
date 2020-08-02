@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1290" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "On day 24, a sudden drop in blood pressure, reduced level of consciousness, elevated level of hematocrit (Ht) at 48.3%, pleural effusion with ascites, pericardial effusion, systemic edema and decreased level of serum albumin at 1.7 g/dL were observed.",
+  "reading_complete" : "2020-08-02T12:04:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:03:50Z",
+  "trigger" : "level",
+  "evidence" : [ "level of serum albumin" ],
+  "pmc_id" : "6132162",
+  "score" : 0
+}

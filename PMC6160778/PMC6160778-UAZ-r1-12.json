@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "RAS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21359",
+      "entity_text" : "NF-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Therefore, low expression of NF-1 appears to not only promote the mesenchymal subtype by eliminating the suppression of the RAS pathway but also participate in posttranscriptional regulation.",
+  "reading_complete" : "2020-08-02T16:25:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:23:41Z",
+  "trigger" : "promote",
+  "evidence" : [ "NF-1 appears to not only promote the mesenchymal subtype by eliminating the suppression of the RAS" ],
+  "pmc_id" : "6160778",
+  "score" : 0
+}

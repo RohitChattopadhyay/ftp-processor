@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04574",
+      "entity_text" : "Ros3p",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04412",
+      "entity_text" : "Lem3p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "In yeast, Cdc50p complexes with Drs2p and Neo1p, Lem3p / Ros3p complexes with Dnf1p and Dnf2p, and Crf1p binds Dnf3p.",
+  "reading_complete" : "2020-08-02T16:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:46Z",
+  "trigger" : "complexes",
+  "evidence" : [ "Lem3p/Ros3p complexes" ],
+  "pmc_id" : "6884021",
+  "score" : 0
+}

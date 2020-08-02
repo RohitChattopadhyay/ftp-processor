@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:216239",
+      "entity_text" : "sorafenib",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:896",
+      "entity_text" : "melatonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0064" ],
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The combination index calculated by the Calcusyn software was less than 1, indicating a synergistic interaction between melatonin and sorafenib.",
+  "reading_complete" : "2020-08-02T15:15:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:14:29Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between melatonin and sorafenib" ],
+  "pmc_id" : "6587355",
+  "score" : 0
+}

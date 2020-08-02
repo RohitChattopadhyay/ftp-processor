@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "Hemochromatosis was considered for the differential diagnosis because of the high levels of serum iron, high iron saturation of transferrin, and high level of ferritin, but the genetic test rejected this diagnostic.11 Aforementioned changes may be explained through hepatocytolysis and light hemolysis, both appearing in the context of lead intoxication.",
+  "reading_complete" : "2020-08-02T09:37:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of serum iron" ],
+  "pmc_id" : "6510001",
+  "score" : 0
+}

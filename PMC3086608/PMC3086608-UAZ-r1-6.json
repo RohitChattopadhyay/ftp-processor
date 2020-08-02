@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22629",
+      "entity_text" : "streptavidin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:171548",
+      "entity_text" : "biotin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since biotin binds to streptavidin in a non covalent but very stable manner, biotinylated antibodies or peptides can then be linked to the microbubble.",
+  "reading_complete" : "2020-08-02T12:09:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:08:43Z",
+  "trigger" : "binds",
+  "evidence" : [ "biotin binds to streptavidin" ],
+  "pmc_id" : "3086608",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0035" ],
+      "TissueType" : [ "tissuelist:TS-0394" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Unexpectedly, 18 F-FP-ATBBN had virtually no PC-3 tumor uptake, even though this tumor is known to express high levels of GRPR.",
+  "reading_complete" : "2020-08-02T10:15:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:14:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GRPR" ],
+  "pmc_id" : "3086613",
+  "score" : 0
+}

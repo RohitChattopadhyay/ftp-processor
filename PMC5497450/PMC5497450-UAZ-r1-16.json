@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13501",
+      "entity_text" : "CCL5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IZI9",
+      "entity_text" : "IL28B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:11096" ]
+    }
+  },
+  "verbose_text" : "Since an interaction between genotypes IL28B and CCL5 (XREF_TABLE) had been established, we carried out modelling using independent variables (sex, IL28B, and CCL5) with and without the interaction of the SNPs.",
+  "reading_complete" : "2020-08-02T12:07:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:05:13Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between genotypes IL28B and CCL5" ],
+  "pmc_id" : "5497450",
+  "score" : 0
+}

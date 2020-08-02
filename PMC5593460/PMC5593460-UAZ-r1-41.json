@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "Histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Histone acetylation modification affects chromatin packaging and gene expression.",
+  "reading_complete" : "2020-08-02T15:14:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:12:36Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "Histone acetylation" ],
+  "pmc_id" : "5593460",
+  "score" : 0
+}

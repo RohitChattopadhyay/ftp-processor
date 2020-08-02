@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Among the integrin members, the alpha v beta 3 integrin, which binds to arginine-glycine-aspartic acid (RGD)-containing components of the interstitial matrix such as vitronectin, fibronectin and thrombospondin, is expressed in a number of tumor types such as melanoma, late stage glioblastoma, ovarian, breast, and prostate cancer XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:39:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:37:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "integrin, which binds to arginine-glycine-aspartic acid" ],
+  "pmc_id" : "3425122",
+  "score" : 0
+}

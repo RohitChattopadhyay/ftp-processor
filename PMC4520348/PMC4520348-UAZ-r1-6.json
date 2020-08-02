@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0013755" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It was also found that total blood cholesterol level is positively correlated with the intake of energy (R = 0.321, p < 0.05), fat (R = 0.396, p < 0.01), SFA (R = 0.2965, p < 0.05) and dietary cholesterol (R = 0.290, p < 0.05).",
+  "reading_complete" : "2020-08-02T15:54:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:51:11Z",
+  "trigger" : "level",
+  "evidence" : [ "cholesterol level" ],
+  "pmc_id" : "4520348",
+  "score" : 0
+}

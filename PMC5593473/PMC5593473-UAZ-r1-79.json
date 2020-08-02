@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13107",
+      "entity_text" : "USP4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since IRF4 is an important transcription factor of Th2 cells, we ascertained whether deubiquitinating enzyme USP4 can affect the function of Th2 cells.",
+  "reading_complete" : "2020-08-02T13:56:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:55:17Z",
+  "trigger" : "deubiquitinating",
+  "evidence" : [ "deubiquitinating enzyme USP4" ],
+  "pmc_id" : "5593473",
+  "score" : 0
+}

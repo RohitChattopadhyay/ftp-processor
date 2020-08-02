@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43405",
+      "entity_text" : "Syk",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01112",
+      "entity_text" : "U46619",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "XREF_BIBR Syk phosphorylation is enhanced when the thromboxane mimetic U46619 is added to platelets stimulated with rhodocytin, but no Syk phosphorylation is caused by U46619 alone.",
+  "reading_complete" : "2020-08-02T13:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:21:06Z",
+  "trigger" : "caused",
+  "evidence" : [ "Syk phosphorylation is caused by U46619" ],
+  "pmc_id" : "6524918",
+  "score" : 0
+}

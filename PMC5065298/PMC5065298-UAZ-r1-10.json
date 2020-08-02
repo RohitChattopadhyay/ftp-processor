@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UNE0",
+      "entity_text" : "EDAR",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WWZ3",
+      "entity_text" : "EDARADD",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92838",
+      "entity_text" : "EDA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0003672" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "COMMD7 is in fact a NEMO interacting protein involved in the termination of NF-kappaB signaling that is activated by the EDA - EDAR - EDARADD complex.",
+  "reading_complete" : "2020-08-02T15:34:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:33:19Z",
+  "trigger" : "complex",
+  "evidence" : [ "EDA-EDAR-EDARADD complex" ],
+  "pmc_id" : "5065298",
+  "score" : 0
+}

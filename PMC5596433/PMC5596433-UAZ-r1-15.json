@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20941",
+      "entity_text" : "PHD",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF-1alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Previous reports have identified an important role for c-Myc in mitochondrial ROS production, showing that upregulation of c-Myc increases HIF-1alpha expression by inhibiting PHD activation in cells under hypoxia XREF_BIBR, XREF_BIBR - XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:42:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:40:34Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "HIF-1alpha expression by inhibiting PHD" ],
+  "pmc_id" : "5596433",
+  "score" : 0
+}

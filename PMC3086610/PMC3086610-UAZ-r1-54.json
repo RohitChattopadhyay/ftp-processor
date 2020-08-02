@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The cytoskeleton controls affinity and avidity of the integrin extracellular domain to modulate the ECM, and integrin binding to ECM changes the shape and composition of the cytoskeleton beneath XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:27:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:24:50Z",
+  "trigger" : "binding",
+  "evidence" : [ "integrin binding to ECM" ],
+  "pmc_id" : "3086610",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07837",
+      "entity_text" : "SLC3A1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistent with this observation, the overexpression of SLC3A1 accelerated cell proliferation, which was evident by an increase in the BrdU incorporation, and the subpopulation of cells in the S phase; conversely, the knockdown of SLC3A1 decreased both cell proliferation and the subpopulation of cells in the S phase.",
+  "reading_complete" : "2020-08-02T10:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:29Z",
+  "trigger" : "decreased",
+  "evidence" : [ "SLC3A1 decreased both cell proliferation" ],
+  "pmc_id" : "5381264",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta 1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14627",
+      "entity_text" : "IL-13Ralpha2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Others found that prevention of IL-13Ralpha2 expression reduced production of TGF-beta 1 and marked downregulation of collagen, and regression of fibrosis [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:54:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:52:03Z",
+  "trigger" : "reduced",
+  "evidence" : [ "IL-13Ralpha2 expression reduced production of TGF-beta 1" ],
+  "pmc_id" : "6000744",
+  "score" : 0
+}

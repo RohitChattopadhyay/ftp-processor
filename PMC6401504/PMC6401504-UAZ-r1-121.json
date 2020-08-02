@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04626",
+      "entity_text" : "HER2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0588" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These data indicated that miR-4306 downregulation results from the loss of ER-alpha, HER2 and PR in TNBC.",
+  "reading_complete" : "2020-08-02T10:06:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:04:22Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ER-alpha, HER2" ],
+  "pmc_id" : "6401504",
+  "score" : 0
+}

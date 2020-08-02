@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "TF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "They did report the amount of TF used, which was 5 and 10 pM, respectively.",
+  "reading_complete" : "2020-08-02T13:41:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:38:47Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of TF" ],
+  "pmc_id" : "6524885",
+  "score" : 0
+}

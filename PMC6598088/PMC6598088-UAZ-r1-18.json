@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "Organ" : [ "uberon:UBERON:0001959" ],
+      "CellType" : [ "cl:CL:0000094" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Disease progression correlates with higher CRP levels and higher JAK2V617F levels.",
+  "reading_complete" : "2020-08-02T10:59:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:58:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "CRP levels" ],
+  "pmc_id" : "6598088",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HCN6",
+      "entity_text" : "GPVI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0003978" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Only CRP induced aggregation was slightly, but significantly, lower in AS patients, possibly due to loss of membrane GPVI.",
+  "reading_complete" : "2020-08-02T13:36:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:33:39Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of membrane GPVI" ],
+  "pmc_id" : "6598084",
+  "score" : 0
+}

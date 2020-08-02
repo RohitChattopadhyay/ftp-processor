@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "oestradiol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1223" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "In this case the oestradiol levels were measured (they were below the laboratory detection threshold - below 11.8 pg/ml and FSH 71.5 mIU/ml), therefore undoubtedly the patient was menopausal, whereas the He4 protein levels of 83.1 pmol/l in a 46-year-old female patient were definitely elevated.",
+  "reading_complete" : "2020-08-02T15:45:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:44:10Z",
+  "trigger" : "levels",
+  "evidence" : [ "oestradiol levels" ],
+  "pmc_id" : "5437058",
+  "score" : 0
+}

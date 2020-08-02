@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0397" ],
+      "CellType" : [ "cl:CL:0000601" ]
+    }
+  },
+  "verbose_text" : "An earlier study showed that carboplatin significantly increased NO levels and decreased GSH peroxidase levels in the cochleae of rats.",
+  "reading_complete" : "2020-08-02T11:39:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:38:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "GSH peroxidase levels" ],
+  "pmc_id" : "3062221",
+  "score" : 0
+}

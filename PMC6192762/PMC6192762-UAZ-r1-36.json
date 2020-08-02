@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "D-GalN stimulation increased the expression levels of DRAM, CHOP and the apoptosis related protein p53 in HepG2 cells, whereas hPH pretreatment reversed the expression of these proteins.",
+  "reading_complete" : "2020-08-02T14:04:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:02:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of DRAM, CHOP and the apoptosis-related protein p53" ],
+  "pmc_id" : "6192762",
+  "score" : 0
+}

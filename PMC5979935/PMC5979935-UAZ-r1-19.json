@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser465",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15796",
+      "entity_text" : "Smad2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "In addition, C terminus phosphorylation of Smad2 on Ser465 and Ser467, induced by either Con A in the liver or by IL-17s in mHSCs, was partly inhibited when activin A/ACVR2A signaling was suppressed.",
+  "reading_complete" : "2020-08-02T14:45:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:43:50Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Smad2 on Ser465" ],
+  "pmc_id" : "5979935",
+  "score" : 0
+}

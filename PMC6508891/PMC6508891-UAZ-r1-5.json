@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "His",
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04275",
+      "entity_text" : "VWF",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D950" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0463" ]
+    }
+  },
+  "verbose_text" : "Recombinant VWF A1A2A3 with His tag was expressed (and glycosylated) in mammalian cells (HEK293T) and purified as previously described.",
+  "reading_complete" : "2020-08-02T12:38:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:36:08Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "VWF A1A2A3 with His tag was expressed (and glycosylated" ],
+  "pmc_id" : "6508891",
+  "score" : 0
+}

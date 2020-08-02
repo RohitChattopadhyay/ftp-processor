@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0559" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0448" ],
+      "CellType" : [ "cl:CL:0002092" ]
+    }
+  },
+  "verbose_text" : "This is consistent with the heterogeneity in CXCR4 expression observed in the human hematopoietic stem cell compartment [XREF_BIBR] and is consistent with levels of CXCR4 surface expression in primary human bone marrow cells.",
+  "reading_complete" : "2020-08-02T15:36:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CXCR4" ],
+  "pmc_id" : "4216373",
+  "score" : 0
+}

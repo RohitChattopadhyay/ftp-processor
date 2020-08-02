@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00211",
+      "entity_text" : "COVID-19",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0018229" ],
+      "CellType" : [ "cl:CL:0002368" ]
+    }
+  },
+  "verbose_text" : "Taking into consideration that COVID-19 binds to human ACE2 in order to penetrate human cells and to induce severe pneumonia, the renin-angiotensin system, ACEI (angiotensin converting enzyme inhibitors) and AT1R (angiotensin II type-I receptor) inhibitors have been suggested to modify individual susceptibility to COVID-19 by influencing SARS-Cov-2 virulence.",
+  "reading_complete" : "2020-08-02T13:49:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:46:20Z",
+  "trigger" : "binds",
+  "evidence" : [ "COVID-19 binds to human ACE2" ],
+  "pmc_id" : "7169834",
+  "score" : 0
+}

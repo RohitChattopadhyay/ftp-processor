@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:56927919",
+      "entity_text" : "Ex4",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In the MI model, PEG-Ex4 was administered every 3 days while equivalent amount of Ex4 was administered every 3 days or twice daily.",
+  "reading_complete" : "2020-08-02T14:51:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:50:52Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Ex4" ],
+  "pmc_id" : "4279188",
+  "score" : 0
+}

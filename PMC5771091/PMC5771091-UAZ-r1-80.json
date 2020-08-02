@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04570",
+      "entity_text" : "miR-342-3p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Taken together, these results suggested that decreased miR-342-3p expression in APPsw-Tg mice endothelium leads to a rise in Chi3l1 expression, resulting in the exacerbation of vascular inflammation and the development of atherosclerosis in APPsw-Tg mice.",
+  "reading_complete" : "2020-08-02T12:45:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:43:03Z",
+  "trigger" : "leads",
+  "evidence" : [ "miR-342-3p expression in APPsw-Tg mice endothelium leads to a rise in Chi3l1 expression, resulting in the exacerbation of vascular inflammation" ],
+  "pmc_id" : "5771091",
+  "score" : 0
+}

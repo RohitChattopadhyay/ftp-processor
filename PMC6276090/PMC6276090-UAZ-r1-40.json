@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0480" ],
+      "CellLine" : [ "cellosaurus:CVCL_1061" ],
+      "Cellular_component" : [ "uniprot:SL-0244" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "A mouse model with a null mutation at the subunit a3 locus exhibited a reduced level of insulin without changing the processing of insulin.",
+  "reading_complete" : "2020-08-02T11:14:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:11:51Z",
+  "trigger" : "level",
+  "evidence" : [ "level of insulin" ],
+  "pmc_id" : "6276090",
+  "score" : 0
+}

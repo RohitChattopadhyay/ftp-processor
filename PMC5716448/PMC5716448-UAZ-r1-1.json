@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "After exposure to oxidative stress, Nrf2 dissociates from Keap1, translocates into the nucleus and binds to antioxidant responsive elements (ARE).",
+  "reading_complete" : "2020-08-02T12:59:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:58:36Z",
+  "trigger" : "translocates",
+  "evidence" : [ "Nrf2 dissociates from Keap1, translocates into the nucleus" ],
+  "pmc_id" : "5716448",
+  "score" : 0
+}

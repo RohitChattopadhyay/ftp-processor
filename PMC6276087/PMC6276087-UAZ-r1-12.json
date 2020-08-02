@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05107",
+      "entity_text" : "CD18",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01798",
+      "entity_text" : "CD54",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2613" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000234" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "CD54 (also referred as intercellular adhesion molecule, ICAM-1) mediates cell adhesion by binding to integrins CD11a / CD18 and CD11b / CD18 XREF_BIBR.",
+  "reading_complete" : "2020-08-02T14:23:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:21:34Z",
+  "trigger" : "binding",
+  "evidence" : [ "CD54 (also referred as intercellular adhesion molecule, ICAM-1) mediates cell adhesion by binding to integrins CD11a/CD18" ],
+  "pmc_id" : "6276087",
+  "score" : 0
+}

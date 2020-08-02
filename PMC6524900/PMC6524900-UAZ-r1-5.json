@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00832",
+      "entity_text" : "factor VII",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P13726",
+      "entity_text" : "tissue factor",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Coagulation is a dynamic and temporal-spatial controlled process that becomes activated after vessel wall injury by complex formation between activated factor VII (FVIIa) and tissue factor (TF).",
+  "reading_complete" : "2020-08-02T11:00:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:59:16Z",
+  "trigger" : "activated",
+  "evidence" : [ "activated after vessel wall injury by complex formation between activated factor VII (FVIIa) and tissue factor" ],
+  "pmc_id" : "6524900",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Second, TGF-beta1 up-regulates P-gp expression by enhancing the activity of the MDR1 promoter via the TGF-beta1 / Smad signaling pathway and histone H3 acetylation.",
+  "reading_complete" : "2020-08-02T10:41:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:40:27Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "TGF-beta1/Smad signaling pathway and histone H3 acetylation" ],
+  "pmc_id" : "4729769",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006099",
+      "entity_text" : "TCA cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These findings indicate that cholesterol could inhibit the glycolysis and TCA cycle in H9c2 cells.",
+  "reading_complete" : "2020-08-02T16:26:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:23:56Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "cholesterol could inhibit the glycolysis and TCA cycle" ],
+  "pmc_id" : "5428940",
+  "score" : 0
+}

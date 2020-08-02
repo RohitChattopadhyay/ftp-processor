@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "IRS4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "IRS4 overexpression induces constitutive PI3K / AKT hyperactivation and cell proliferation under the circumstances of insulin or growth factors deficiency, which promotes mammary tumorigenesis and confers resistance to HER2 targeted therapy XREF_BIBR.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "induces",
+  "evidence" : [ "IRS4 overexpression induces constitutive PI3K/AKT hyperactivation and cell proliferation" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "IRS4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0723" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Obviously, CK1gamma2 was inversely correlated with IRS4 in osteosarcoma samples, as 40 out of 42 samples with high CK1gamma2 levels had low levels of IRS4.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IRS4" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

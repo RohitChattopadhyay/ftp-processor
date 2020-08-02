@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06124",
+      "entity_text" : "SHP2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15698",
+      "entity_text" : "phosphatase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11757" ],
+      "TissueType" : [ "tissuelist:TS-0597" ]
+    }
+  },
+  "verbose_text" : "Compared with IRS1 and IRS2, IRS4 activation is independent of growth factors due to absence of the tyrosine phosphatase SHP2 binding motif XREF_BIBR.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "binding",
+  "evidence" : [ "phosphatase SHP2-binding" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

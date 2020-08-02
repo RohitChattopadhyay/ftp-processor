@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01445",
+      "entity_text" : "SH",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The level of IL-6 was significantly elevated in groups M and M+ SH (0.82 +/-0.17) compared with that in group N (P < 0.01; XREF_FIG).",
+  "reading_complete" : "2020-08-02T15:43:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:40:20Z",
+  "trigger" : "elevated",
+  "evidence" : [ "IL-6 was significantly elevated in groups M and M+SH" ],
+  "pmc_id" : "5881641",
+  "score" : 0
+}

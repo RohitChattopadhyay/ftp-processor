@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12772",
+      "entity_text" : "SREBP-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It was also confirmed that SREBP-2 regulated autophagy related gene expression in hepatocytes, and it was shown that the overexpression of SREBP-2 increased the expression of autophagy related genes, but did not affect the inhibition of the autophagic flux in lipid overloaded HL-7702 cells.",
+  "reading_complete" : "2020-08-02T15:30:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:29:11Z",
+  "trigger" : "increased",
+  "evidence" : [ "SREBP-2 increased the expression of autophagy" ],
+  "pmc_id" : "5810215",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q969M7",
+      "entity_text" : "UBE2F",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03374",
+      "entity_text" : "EaMIC3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-0960" ],
+      "Cellular_component" : [ "go:GO:0043657" ]
+    }
+  },
+  "verbose_text" : "Interaction between EaMIC3 and UBE2F might induce ubiquitination of membrane proteins in host cells, leading to cell breakdown, thus achieving E. acervulina sporozoite invasion into host cells and pathogenesis [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:08:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:00Z",
+  "trigger" : "Interaction",
+  "evidence" : [ "Interaction between EaMIC3 and UBE2F" ],
+  "pmc_id" : "7083106",
+  "score" : 0
+}

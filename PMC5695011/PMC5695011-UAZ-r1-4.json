@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99683",
+      "entity_text" : "ASK-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119245",
+      "entity_text" : "dioscin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our western blot results showed that dioscin decreased CS induced phosphorylation of ASK-1 and the up-regulated expressions of phosphorylated p38 and JNK in mouse lung samples.",
+  "reading_complete" : "2020-08-02T11:37:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:35:19Z",
+  "trigger" : "induced",
+  "evidence" : [ "dioscin decreased CS-induced phosphorylation of ASK-1" ],
+  "pmc_id" : "5695011",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51790",
+      "entity_text" : "ClC-3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "P-gp Regulates I Cl, vol by Promoting Phosphorylation of ClC-3 Tyrosine 342 via Src Tyrosine Kinase.",
+  "reading_complete" : "2020-08-02T10:41:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:40:27Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of ClC-3 Tyrosine 342 via Src Tyrosine" ],
+  "pmc_id" : "4729769",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CA05",
+      "entity_text" : "p62",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As expected, Atg7-knockdown reduced LC3II accumulation and increased the expression level of p62, which significantly increased the cell viability of the LX-2 cells after caffeine treatment (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:01:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:11Z",
+  "trigger" : "increased",
+  "evidence" : [ "p62, which significantly increased the cell viability" ],
+  "pmc_id" : "5627881",
+  "score" : 0
+}

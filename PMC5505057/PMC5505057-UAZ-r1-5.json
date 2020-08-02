@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The IHC staining of VEGF in melanoma tissue, the RT-PCR analysis of the RNA level of VEGF in melanoma tissue, and the ELISA assay 's measurement of the VEGF level in the lysates of melanoma tissue all showed that triptolide and VNP20009 synergistically inhibited VEGF expression in melanoma tissue, suggesting that triptolide and VNP20009 could strongly inhibit tumour angiogenesis in a synergistic manner.",
+  "reading_complete" : "2020-08-02T13:17:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:16:34Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "VEGF in melanoma tissue, and the ELISA assay's measurement of the VEGF level in the lysates of melanoma tissue all showed that triptolide and VNP20009 synergistically inhibited VEGF expression in melanoma tissue                                 , suggesting that triptolide and VNP20009 could strongly inhibit tumour angiogenesis" ],
+  "pmc_id" : "5505057",
+  "score" : 0
+}

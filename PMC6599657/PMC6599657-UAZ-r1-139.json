@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O28484",
+      "entity_text" : "pol II",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:92946",
+      "entity_text" : "AY",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "AY overexpression significantly enhanced pol II occupancy in the upstream region, but H1FX occupancy on intron 1 and the upstream region from -894 to -492 was significantly reduced.",
+  "reading_complete" : "2020-08-02T10:55:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:53:54Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "AY overexpression significantly enhanced pol II" ],
+  "pmc_id" : "6599657",
+  "score" : 0
+}

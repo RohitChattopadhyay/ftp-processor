@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "Our previous study reported that electrical stimulation created by a triboelectric nanogenerator activates voltage gated calcium channels, increases calcium ion influx, and promotes ERK1/2 phosphorylation, eventually promoting neurogenesis XREF_BIBR.",
+  "reading_complete" : "2020-08-02T16:02:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:16Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ERK1/2 phosphorylation" ],
+  "pmc_id" : "5695151",
+  "score" : 0
+}

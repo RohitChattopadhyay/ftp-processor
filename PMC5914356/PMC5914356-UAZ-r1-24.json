@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0011115" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR For personalized nutrition, however, it is irrelevant that 7700 individuals experienced an average additional weight loss of 0.20 kg; what matters is what specific dietary (or coaching) advice should be given to an individual and whether that one individual loses 3.1 kg or gains 0.7 kg.",
+  "reading_complete" : "2020-08-02T09:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:45:17Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 0.20 kg" ],
+  "pmc_id" : "5914356",
+  "score" : 0
+}

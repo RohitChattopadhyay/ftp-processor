@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01116",
+      "entity_text" : "K-ras",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Moreover, it was observed that the AIEgen involving gene therapy system significantly suppressed the expression of the mutant K-ras oncogene from pancreatic cancer cells, suggesting the high potential application of AIE nanovectors for cancer treatment through gene therapy.",
+  "reading_complete" : "2020-08-02T17:28:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:22:59Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of the mutant K-ras" ],
+  "pmc_id" : "6217064",
+  "score" : 0
+}

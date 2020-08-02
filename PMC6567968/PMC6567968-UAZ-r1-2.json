@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104755",
+      "entity_text" : "Ag",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05563",
+      "entity_text" : "TPE-APP",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Meanwhile, the hydrolysis of TPE-APP could simultaneously reduce Ag + to form a silver nanoshell around gold nanoparticles, with a pronounced plasmonic color change, enabling the convenient naked-eye based preliminary screening of virus (Channel II).",
+  "reading_complete" : "2020-08-02T14:27:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:23:19Z",
+  "trigger" : "reduce",
+  "evidence" : [ "TPE-APP could simultaneously reduce Ag" ],
+  "pmc_id" : "6567968",
+  "score" : 0
+}

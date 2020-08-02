@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01350",
+      "entity_text" : "gastrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000344" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Patients with gastric gastrinomas had older age, higher levels of gastrin, seemingly smaller tumor size (p = 0.024, 0.030, and 0.065, respectively), and usually lower grade in differentiation (p = 0.035).",
+  "reading_complete" : "2020-08-02T15:16:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:15:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of gastrin" ],
+  "pmc_id" : "4478711",
+  "score" : 0
+}

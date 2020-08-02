@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439177",
+      "entity_text" : "glycogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000187" ],
+      "Species" : [ "taxonomy:4113" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR In addition to the glycogen stored in muscle and liver, a small amount of glycogen is stored in brain cells (100x less than the glycogen content of muscle cells), specifically in astrocytes, nonneuronal glial cells that play an important role in stabilizing, insulating, and nourishing neurons.",
+  "reading_complete" : "2020-08-02T09:53:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:56Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of glycogen" ],
+  "pmc_id" : "6019055",
+  "score" : 0
+}

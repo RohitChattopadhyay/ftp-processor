@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16109",
+      "entity_text" : "P-selectin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08514",
+      "entity_text" : "GPIIb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellLine" : [ "cellosaurus:CVCL_0033" ],
+      "Cellular_component" : [ "go:GO:0031091" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Platelet activation was then assessed using confocal immunofluorescence microscopy by the binding of three distinct activation specific antibodies; PAC-1 and scFv GPIIb / IIIa -GFP which binds the activated conformation of GPIIb / IIIa or P-selectin, a marker of platelet alpha granule exocytosis.",
+  "reading_complete" : "2020-08-02T16:37:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:36:16Z",
+  "trigger" : "binds",
+  "evidence" : [ "GPIIb/IIIa -GFP which binds the activated conformation of GPIIb/IIIa or P-selectin" ],
+  "pmc_id" : "5558553",
+  "score" : 0
+}

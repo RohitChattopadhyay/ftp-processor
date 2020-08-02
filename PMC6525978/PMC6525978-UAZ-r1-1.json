@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_4W66" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A 66-year old male initially presented with a huge left neck mass, shortness of breath, and gradual weight loss of 6 kg over 3 months.",
+  "reading_complete" : "2020-08-02T17:05:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:02:49Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 6 kg" ],
+  "pmc_id" : "6525978",
+  "score" : 0
+}

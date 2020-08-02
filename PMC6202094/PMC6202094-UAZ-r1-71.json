@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6X4U4",
+      "entity_text" : "SOSTDC1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Functionally, SOSTDC1 overexpression suppressed NSCLC cell proliferation, migration, invasion, EMT and cancer cell induced osteoclastogenesis, while SOSTDC1 knockdown produced the opposite effect.",
+  "reading_complete" : "2020-08-02T15:51:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:50:22Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "SOSTDC1 overexpression suppressed NSCLC cell proliferation, migration, invasion" ],
+  "pmc_id" : "6202094",
+  "score" : 0
+}

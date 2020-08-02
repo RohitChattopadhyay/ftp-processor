@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The results revealed that OSI-027, an inhibitor of mTOR, decreased the phosphorylation level of mTOR (p < 0.05), but had no effect on the protein level of mTOR when the cells were transfected with Lv-HMGB1 (p> 0.05; XREF_FIG).",
+  "reading_complete" : "2020-08-02T15:46:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:44:15Z",
+  "trigger" : "level",
+  "evidence" : [ "level of mTOR" ],
+  "pmc_id" : "4771104",
+  "score" : 0
+}

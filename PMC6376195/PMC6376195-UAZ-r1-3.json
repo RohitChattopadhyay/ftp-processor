@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151134",
+      "entity_text" : "Fe",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0925" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The additive amount of Fe 3 O 4 was increased and thus the cavity of the carbon sphere was filled with more Fe 3 O 4.",
+  "reading_complete" : "2020-08-02T15:39:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:38:33Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Fe" ],
+  "pmc_id" : "6376195",
+  "score" : 0
+}

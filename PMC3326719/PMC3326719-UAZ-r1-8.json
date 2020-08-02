@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00265",
+      "entity_text" : "thymidine kinase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0005350" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Recently, a mutant human thymidine kinase 2 gene was created which phosphorylates a substrate for viral thymidine kinase XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:33:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:32:42Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates a substrate for viral thymidine kinase" ],
+  "pmc_id" : "3326719",
+  "score" : 0
+}

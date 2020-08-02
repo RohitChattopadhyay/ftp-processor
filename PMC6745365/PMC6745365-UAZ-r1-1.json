@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Of note, when she was acutely ill with NEC, her random serum cortisol level was likely inappropriately low at 12.4 ug/dL.",
+  "reading_complete" : "2020-08-02T09:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:44:10Z",
+  "trigger" : "level",
+  "evidence" : [ "cortisol level" ],
+  "pmc_id" : "6745365",
+  "score" : 0
+}

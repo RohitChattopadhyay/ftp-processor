@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09429",
+      "entity_text" : "HMGB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "Cellular_component" : [ "uniprot:SL-0244" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "This occurs through the coordinated release from stimulated cells following acetylation of nuclear HMGB1, leading to cytoplasmic translocation and export via secretory vesicles [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:48:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:43:15Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of nuclear HMGB1" ],
+  "pmc_id" : "2864429",
+  "score" : 0
+}

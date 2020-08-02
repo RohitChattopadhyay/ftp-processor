@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "Organ" : [ "uberon:UBERON:0004452" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "Unfortunately, we obtained no data about patient 's level of hemoglobin before the index event.",
+  "reading_complete" : "2020-08-02T09:37:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:13Z",
+  "trigger" : "level",
+  "evidence" : [ "level of hemoglobin" ],
+  "pmc_id" : "6510001",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To define the potential contribution of c-Myc to HIF-1alpha regulation in brusatol treated hypoxic cells, we transfected RKO and HCT116 cells with a pc-Myc expression plasmid or pCont (empty vector), treated the cells with 100 nM brusatol for 1 h, and then exposed them to 0.5% O 2 for 4 h. Consistent with the results of immunoblot analyses, c-Myc overexpression effectively restored degradation of HIF-1alpha by increasing ferrous iron in hypoxic cancer cells.",
+  "reading_complete" : "2020-08-02T15:42:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:40:34Z",
+  "trigger" : "restored",
+  "evidence" : [ "c-Myc overexpression effectively restored degradation of HIF-1alpha by increasing ferrous iron" ],
+  "pmc_id" : "5596433",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:12305" ]
+    }
+  },
+  "verbose_text" : "A laboratory examination showed a white blood cell count of 23 600/muL with 11.0% atypical lymphocytes, CD4 positive cell count of 1044/muL, a hemoglobin level of 11.9 g/dL, and platelet count of 4000/muL.",
+  "reading_complete" : "2020-08-02T11:56:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:55:41Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "6982504",
+  "score" : 0
+}

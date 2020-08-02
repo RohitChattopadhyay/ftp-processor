@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14727",
+      "entity_text" : "Apaf-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0A3I3",
+      "entity_text" : "cytC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Cellular_component" : [ "go:GO:0005783" ]
+    }
+  },
+  "verbose_text" : "In the mitochondrial programmed death pathway, cytochrome c released from the mitochondria binds to the Apaf-1 protein in the cytoplasm to increase the affinity of Apaf-1 to dATP / ATP, and then dATP / ATP binds to the cytC / Apaf-1 complex to promote the oligomerization of the cytC / Apaf-1 complex, thereby forming apoptosomes, which are able to cause the auto-activation of caspase-3, caspase-8 and caspase-9, resulting in chromosomal condensation, nuclear DNA fragmentation and nuclear membrane rupture, which ultimately lead to cell death.",
+  "reading_complete" : "2020-08-02T14:20:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:17:52Z",
+  "trigger" : "complex",
+  "evidence" : [ "cytC/Apaf-1 complex" ],
+  "pmc_id" : "7255479",
+  "score" : 0
+}

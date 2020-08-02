@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10646",
+      "entity_text" : "EPI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:111938" ],
+      "TissueType" : [ "tissuelist:TS-0925" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "The amount of EPI loaded in CPP-gVLPs increased with increasing amounts of EPI, reaching a maximum concentration of 0.39 mg EPI/mg CPP-gVLPs (39 wt%) above 0.9 mg of added EPI, which is much higher than in a doxorubicin (DOX)-loaded micelles system (the highest DOX loading in micelles is ~ 8 wt%) XREF_BIBR.",
+  "reading_complete" : "2020-08-02T12:55:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:53:28Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of EPI" ],
+  "pmc_id" : "6485197",
+  "score" : 0
+}

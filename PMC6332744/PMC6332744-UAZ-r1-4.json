@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05383",
+      "entity_text" : "LA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1130",
+      "entity_text" : "thiamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since thiamine deficiency may cause lactic acidosis (LA), thiamine 100 mg was administered twice daily empirically.",
+  "reading_complete" : "2020-08-02T10:12:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:42Z",
+  "trigger" : "cause",
+  "evidence" : [ "thiamine deficiency may cause lactic acidosis (LA" ],
+  "pmc_id" : "6332744",
+  "score" : 0
+}

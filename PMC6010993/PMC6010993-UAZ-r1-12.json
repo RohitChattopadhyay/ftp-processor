@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04275",
+      "entity_text" : "vWF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0005921" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The OPF/GO injection significantly increased the mRNA level of alpha-SMA, vWF and VEGF at 4 weeks after LAD ligation, suggesting that OPF/GO injection may have an angiogenic effect.",
+  "reading_complete" : "2020-08-02T18:38:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:37:06Z",
+  "trigger" : "level",
+  "evidence" : [ "level of alpha-SMA                               , vWF" ],
+  "pmc_id" : "6010993",
+  "score" : 0
+}

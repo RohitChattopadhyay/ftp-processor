@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9C0J9",
+      "entity_text" : "DEC2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "DEC2 overexpression in the presence of paclitaxel (50 muM) significantly increased the cell viability compared with that in paclitaxel treated control cells.",
+  "reading_complete" : "2020-08-02T13:49:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:49:19Z",
+  "trigger" : "increased",
+  "evidence" : [ "DEC2 overexpression in the presence of paclitaxel (50 muM) significantly increased the cell viability" ],
+  "pmc_id" : "5117753",
+  "score" : 0
+}

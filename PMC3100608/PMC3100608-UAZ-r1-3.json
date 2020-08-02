@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0649" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:12814" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "The level of ICAM-1 expression is increased in several diseases; these include autoimmune disorders (e.g., rheumatoid arthritis, type-1 diabetes, and lupus), malignancies (e.g., multiple myeloma, lymphomas, lung, and pancreatic cancer), inflammatory disorders (e.g., allergic inflammation, asthma), atherosclerosis, ischemia, neurological disorders (e.g., Alzheimer 's disease), and allogeneic organ transplantation XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:49:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:48:06Z",
+  "trigger" : "level",
+  "evidence" : [ "level of ICAM-1" ],
+  "pmc_id" : "3100608",
+  "score" : 0
+}

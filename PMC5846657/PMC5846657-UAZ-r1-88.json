@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "As presented in XREF_FIG, the phosphorylation of JNK, ERK1/2 and p38 was significantly increased after LPS treatment (1 mug/ml) for 15 min.",
+  "reading_complete" : "2020-08-02T14:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:39:44Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of JNK" ],
+  "pmc_id" : "5846657",
+  "score" : 0
+}

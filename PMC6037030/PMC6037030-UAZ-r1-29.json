@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZQ7",
+      "entity_text" : "PD-L1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01913",
+      "entity_text" : "mAb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0042579" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "As expected, based on the lower capacity of mAbs to penetrate tumor tissue, it was shown, using fluorescence microscopy, that the mAb binds PD-L1 at the periphery of the tumor, while the microbody was better dispersed throughout the tumor.",
+  "reading_complete" : "2020-08-02T09:41:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:06Z",
+  "trigger" : "binds",
+  "evidence" : [ "mAb binds PD-L1" ],
+  "pmc_id" : "6037030",
+  "score" : 0
+}

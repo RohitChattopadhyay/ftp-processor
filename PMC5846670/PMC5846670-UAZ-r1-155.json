@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The SH2 domain phosphorylation of the p85 subunit of PI3K binding to FAK at Y397 may activate the p110 catalytic subunit of the PI3K / AKT signaling pathway.",
+  "reading_complete" : "2020-08-02T15:37:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:32Z",
+  "trigger" : "activate",
+  "evidence" : [ "PI3K binding to FAK at Y397 may activate the p110 catalytic subunit of the PI3K/AKT" ],
+  "pmc_id" : "5846670",
+  "score" : 0
+}

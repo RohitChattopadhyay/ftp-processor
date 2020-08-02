@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "Thus, it can be concluded that HMGB1 promotes apoptosis and EMT in association with the induction of autophagy through the upregulation of the expression of DDR1 and the downregulation of the phosphorylation of mTOR following H/R injury in cardiomyocytes.",
+  "reading_complete" : "2020-08-02T15:46:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:44:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of mTOR" ],
+  "pmc_id" : "4771104",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S133",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CREB",
+      "entity_text" : "CREB",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Moreover, phosphorylation of CREB (S133) was detected, whereas the phosphorylated forms of PRAS40 (T246) and AKT1,2,3 (S473) were down-regulated, as was beta-catenin.",
+  "reading_complete" : "2020-08-02T17:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:59:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of CREB (S133" ],
+  "pmc_id" : "5743457",
+  "score" : 0
+}

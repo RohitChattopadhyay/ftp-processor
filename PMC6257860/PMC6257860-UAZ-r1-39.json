@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P53667",
+      "entity_text" : "LIMK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0271" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Cellular_component" : [ "go:GO:0015629" ]
+    }
+  },
+  "verbose_text" : "ROCK has several phosphorylation substrates, including myosin light chain (MLC), myosin light chain phosphatase (MLCP), and LIM kinase (LIMK), and recent studies have identified ROCK as a promising candidate for the therapy of highly metastatic cancer.",
+  "reading_complete" : "2020-08-02T14:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:16:00Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation substrates, including myosin light chain (MLC), myosin light chain phosphatase (MLCP), and LIM kinase (LIMK" ],
+  "pmc_id" : "6257860",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:449",
+      "entity_text" : "mevalonate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03821",
+      "entity_text" : "lovastatin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As an inhibitor of 3-hydroxy-3-methylglutaryl (HMG)-CoA reductase, lovastatin can inhibit the conversion of mevalonate from HMG-CoA.",
+  "reading_complete" : "2020-08-02T11:43:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:41:51Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "lovastatin can inhibit the conversion of mevalonate" ],
+  "pmc_id" : "6134936",
+  "score" : 0
+}

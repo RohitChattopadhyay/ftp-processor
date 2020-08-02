@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00227",
+      "entity_text" : "IgM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000787" ]
+    }
+  },
+  "verbose_text" : "The patient had undetectable IgG (< 0.4 g/L), IgA (< 0.05 g/L) but elevated IgM (8.45 g/L) levels consistent with the hyper-IgM syndrome.",
+  "reading_complete" : "2020-08-02T12:07:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:05:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "IgM (8.45 g/L) levels" ],
+  "pmc_id" : "7044354",
+  "score" : 0
+}

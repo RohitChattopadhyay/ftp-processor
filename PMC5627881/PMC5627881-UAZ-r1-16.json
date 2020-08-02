@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75460",
+      "entity_text" : "IRE1-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "CellType" : [ "cl:CL:0000037" ],
+      "Species" : [ "taxonomy:13443" ]
+    }
+  },
+  "verbose_text" : "GRP78 / BiP is an ER chaperone that normally binds with three transmembrane proteins, IRE1-alpha, activating transcription factor (ATF)-6alpha and RNA activated protein kinase like ER kinase (PERK).",
+  "reading_complete" : "2020-08-02T16:01:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "ER chaperone that normally binds with three transmembrane proteins, IRE1-alpha" ],
+  "pmc_id" : "5627881",
+  "score" : 0
+}

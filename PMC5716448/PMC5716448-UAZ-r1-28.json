@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01325",
+      "entity_text" : "TUNEL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The amount of TUNEL positive intestinal cells increased significantly after IIR (P = 0.017) (XREF_FIG).",
+  "reading_complete" : "2020-08-02T12:59:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:58:36Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of TUNEL" ],
+  "pmc_id" : "5716448",
+  "score" : 0
+}

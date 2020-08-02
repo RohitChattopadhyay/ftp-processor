@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0888" ],
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "P-type ATPases are critical to the maintenance and regulation of cellular ion homeostasis and membrane lipid asymmetry due to their ability to move ions and phospholipids against a concentration gradient by utilizing the energy of ATP hydrolysis.",
+  "reading_complete" : "2020-08-02T16:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:46Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "6884021",
+  "score" : 0
+}

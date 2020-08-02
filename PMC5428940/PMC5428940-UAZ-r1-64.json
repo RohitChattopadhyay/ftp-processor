@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49815",
+      "entity_text" : "TSC2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activation of PI3K and AKT, involved in the phosphorylation of TSC1 / TSC2 promoted mTOR activity.",
+  "reading_complete" : "2020-08-02T16:26:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:23:56Z",
+  "trigger" : "promoted",
+  "evidence" : [ "TSC2 promoted mTOR" ],
+  "pmc_id" : "5428940",
+  "score" : 0
+}

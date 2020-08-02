@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41235",
+      "entity_text" : "HNF4A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In contrast, the amount of HNF4A positive cells was highest in 2D cultures whereas for CK18 positive cells no distinct differences between the culture systems could be detected.",
+  "reading_complete" : "2020-08-02T14:11:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:09:29Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of HNF4A" ],
+  "pmc_id" : "5716452",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16821",
+      "entity_text" : "Rg1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "binding_site" : [ "Ser473" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These simulation results indicated that Rg1 binding to Akt could cause Ser473 to become more apt to phosphorylation, but has less impact on the Thr308 site.",
+  "reading_complete" : "2020-08-02T14:43:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:42:25Z",
+  "trigger" : "binding",
+  "evidence" : [ "Rg1 binding to Akt could cause Ser473" ],
+  "pmc_id" : "5667421",
+  "score" : 0
+}

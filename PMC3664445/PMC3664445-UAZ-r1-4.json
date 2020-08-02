@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23979",
+      "entity_text" : "CM",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "BMSC CM exposure significantly decreased type II cell proliferation to 72.5 +/- 7.1% (n = 8, p = 0.009) compared to non exposed control type II cells (100 +/- 7.6%, n = 8).",
+  "reading_complete" : "2020-08-02T13:04:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:00:41Z",
+  "trigger" : "decreased",
+  "evidence" : [ "CM exposure significantly decreased type II cell proliferation" ],
+  "pmc_id" : "3664445",
+  "score" : 0
+}

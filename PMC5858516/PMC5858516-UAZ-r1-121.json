@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our results showed that Hsp90 was markedly expressed in control lung cancer cells, but HyFS treated cells showed significantly decreased levels of Hsp90 expression, and the decreased level of Hsp90 led to activation of autophagy, which was evidenced by significantly increased LC3-II conversion and LC3 puncta accumulation in HyFS treated lung cancer cells.",
+  "reading_complete" : "2020-08-02T10:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:12:42Z",
+  "trigger" : "led to",
+  "evidence" : [ "Hsp90 led to activation of autophagy" ],
+  "pmc_id" : "5858516",
+  "score" : 0
+}

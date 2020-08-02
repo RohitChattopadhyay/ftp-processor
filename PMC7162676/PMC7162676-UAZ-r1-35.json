@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01062",
+      "entity_text" : "Target gene",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D524" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Target gene expression was normalized on the basis of the hypoxanthine phosphorobosyltransferase (HPRT) content of each sample and was subsequently normalized to a basal mRNA level with the equation : N target = 2 DeltaCt sample, where DeltaCt is the Ct value of the target gene minus the Ct value of the HPRT gene.",
+  "reading_complete" : "2020-08-02T11:15:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:13:49Z",
+  "trigger" : "expression",
+  "evidence" : [ "Target gene expression" ],
+  "pmc_id" : "7162676",
+  "score" : 0
+}

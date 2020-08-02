@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02774",
+      "entity_text" : "DBP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:67678",
+      "entity_text" : "cystine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The associations between cystine and DBP were significant regardless of whether the demographic factor identified by backward stepwise GLMM analysis, which was sex, was considered.",
+  "reading_complete" : "2020-08-02T18:43:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:42:17Z",
+  "trigger" : "associations",
+  "evidence" : [ "associations between cystine and DBP" ],
+  "pmc_id" : "5858161",
+  "score" : 0
+}

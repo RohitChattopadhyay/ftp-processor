@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "A blood test showed a slightly elevated creatinine level of 1.46 mg/dL with an estimated glomerular filtration rate of 39 mL/min/1.73 m 2.",
+  "reading_complete" : "2020-08-02T09:20:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:19:50Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "5889255",
+  "score" : 0
+}

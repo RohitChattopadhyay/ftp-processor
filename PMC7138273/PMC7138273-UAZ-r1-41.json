@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PDGF",
+      "entity_text" : "PDGF",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PCNA expression levels were increased 1.45-fold, 2.07-fold and 2.33-fold when treated with 10, 20 and 40 ng/ml PDGF treatment, respectively, compared with the control group (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:06:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:05:34Z",
+  "trigger" : "increased",
+  "evidence" : [ "PCNA expression levels were increased 1.45-fold, 2.07-fold and 2.33-fold when treated with 10, 20 and 40 ng/ml PDGF" ],
+  "pmc_id" : "7138273",
+  "score" : 0
+}

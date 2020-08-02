@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05070",
+      "entity_text" : "EOC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6FI81",
+      "entity_text" : "CIAPIN1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "CIAPIN1 nuclear expression was significantly elevated in EOC compared with paired non cancerous samples (P < 0.001), but CIAPIN1 cytoplasmic expression in EOC was not significantly different from that in paired non cancerous tissues (P> 0.05).",
+  "reading_complete" : "2020-08-02T18:01:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:59:49Z",
+  "trigger" : "elevated",
+  "evidence" : [ "CIAPIN1 nuclear expression was significantly elevated in EOC" ],
+  "pmc_id" : "3502349",
+  "score" : 0
+}

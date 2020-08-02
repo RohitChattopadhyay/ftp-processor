@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01270",
+      "entity_text" : "parathyroid hormone",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0746" ],
+      "Organ" : [ "uberon:UBERON:0002412" ]
+    }
+  },
+  "verbose_text" : "Calcium and parathyroid hormone serum levels returned to normal within 48 hours from the end of operation.",
+  "reading_complete" : "2020-08-02T18:25:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:22:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "parathyroid hormone serum levels" ],
+  "pmc_id" : "538290",
+  "score" : 0
+}

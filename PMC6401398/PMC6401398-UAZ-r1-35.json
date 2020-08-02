@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3973",
+      "entity_text" : "LY294002",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, the administration of LY294002 did not attenuate the apoptosis of RKO cells induced by 5-FU.",
+  "reading_complete" : "2020-08-02T16:31:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:30:04Z",
+  "trigger" : "attenuate",
+  "evidence" : [ "LY294002 did not attenuate the apoptosis" ],
+  "pmc_id" : "6401398",
+  "score" : 0
+}

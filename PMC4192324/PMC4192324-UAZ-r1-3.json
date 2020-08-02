@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1290" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "The patient had only moderately elevated cholesterol serum levels (total cholesterol 270 mg/dl; LDL cholesterol 179.8 mg/dl) but had a positive family history of cardiovascular diseases.",
+  "reading_complete" : "2020-08-02T15:13:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:11:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol serum levels" ],
+  "pmc_id" : "4192324",
+  "score" : 0
+}

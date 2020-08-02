@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00901",
+      "entity_text" : "fibrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00747",
+      "entity_text" : "plasminogen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This binding of plasminogen to fibrin can be blocked by thrombin-activatable fibrinolysis inhibitor (TAFI).",
+  "reading_complete" : "2020-08-02T13:44:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:43:18Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of plasminogen to fibrin" ],
+  "pmc_id" : "6524877",
+  "score" : 0
+}

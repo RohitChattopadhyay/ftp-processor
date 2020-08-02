@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1R16" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0000180" ]
+    }
+  },
+  "verbose_text" : "Furthermore, there was a weight loss of 10 kg of the patient over the past 1 year.",
+  "reading_complete" : "2020-08-02T16:58:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:55:58Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 10 kg" ],
+  "pmc_id" : "5192594",
+  "score" : 0
+}

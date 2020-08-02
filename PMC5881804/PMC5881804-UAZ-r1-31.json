@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6035",
+      "entity_text" : "BrdU",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Organ" : [ "uberon:UBERON:0007329" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Of note, with prolonged treatment with mangiferin for 28 days, an increased quantity of BrdU labeled proliferating cells was present, which provided evidence that mangiferin induces islet regeneration in a time dependent manner.",
+  "reading_complete" : "2020-08-02T15:33:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:31:38Z",
+  "trigger" : "quantity",
+  "evidence" : [ "quantity of BrdU" ],
+  "pmc_id" : "5881804",
+  "score" : 0
+}

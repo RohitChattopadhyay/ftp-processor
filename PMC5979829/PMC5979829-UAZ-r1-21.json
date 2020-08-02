@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15119",
+      "entity_text" : "Tbx-3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A previous study showed that the overexpression of Tbx-3 promoted human ES cell proliferation; however, Tbx-3 knockdown resulted in decreased neuroepithelial differentiation.",
+  "reading_complete" : "2020-08-02T13:25:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:24:26Z",
+  "trigger" : "promoted",
+  "evidence" : [ "Tbx-3 promoted human ES cell proliferation" ],
+  "pmc_id" : "5979829",
+  "score" : 0
+}

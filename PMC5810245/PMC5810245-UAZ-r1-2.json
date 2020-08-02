@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02639",
+      "entity_text" : "miR-139-5p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of miR-139-5p affects glioma cell growth in vitro and in vivo and blocks the cell cycle in G0/G1 progress.",
+  "reading_complete" : "2020-08-02T15:02:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:01:17Z",
+  "trigger" : "blocks",
+  "evidence" : [ "miR-139-5p affects glioma cell growth in vitro and in vivo and blocks the cell cycle" ],
+  "pmc_id" : "5810245",
+  "score" : 0
+}

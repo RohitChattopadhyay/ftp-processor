@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1061" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "CellType" : [ "cl:CL:0000092" ]
+    }
+  },
+  "verbose_text" : "Subunit d2 has been suggested to play important roles in coupling proton transport and ATP hydrolysis as well as the assembly of ATPase complexes XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T11:14:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:11:51Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "6276090",
+  "score" : 0
+}

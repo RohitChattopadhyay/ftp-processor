@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF1alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03405",
+      "entity_text" : "uPAR",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hypoxia transcriptionally upregulates uPAR expression in cancer cells through the direct binding of hypoxia induced factor 1alpha (HIF1alpha) to a hypoxia responsive element (HRE) in the uPAR promoter XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:36:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:34:53Z",
+  "trigger" : "induced",
+  "evidence" : [ "uPAR expression in cancer cells through the direct binding of hypoxia-induced factor 1alpha (HIF1alpha" ],
+  "pmc_id" : "3706692",
+  "score" : 0
+}

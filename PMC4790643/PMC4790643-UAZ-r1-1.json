@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1244" ],
+      "Cellular_component" : [ "go:GO:0005777" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Overexpression of miR-29a also caused a decrease in levels of glucose transporter 4 (GLUT4), the most important glucose transporter in skeletal muscle, which partially induced a decrease insulin dependent glucose uptake.",
+  "reading_complete" : "2020-08-02T15:52:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:51:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of glucose" ],
+  "pmc_id" : "4790643",
+  "score" : 0
+}

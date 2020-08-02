@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q52PH6",
+      "entity_text" : "Hog1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D354" ],
+      "Species" : [ "taxonomy:5476" ]
+    }
+  },
+  "verbose_text" : "The model was calibrated using in-house generated time-course data of Hog1 phosphorylation plus intracellular and total glycerol levels following exposure to two doses of NaCl.",
+  "reading_complete" : "2020-08-02T13:23:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:19:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Hog1 phosphorylation" ],
+  "pmc_id" : "3434031",
+  "score" : 0
+}

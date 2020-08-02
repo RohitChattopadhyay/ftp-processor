@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06609",
+      "entity_text" : "Rad51",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51587",
+      "entity_text" : "BRCA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "BRCA1 and BRCA2 form a complex with Rad51, a protein that has an established role in homologous recombination [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T17:41:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:39:52Z",
+  "trigger" : "form a complex",
+  "evidence" : [ "BRCA2 form a complex with Rad51" ],
+  "pmc_id" : "5327624",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04275",
+      "entity_text" : "VWF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellLine" : [ "cellosaurus:CVCL_1290" ],
+      "Cellular_component" : [ "go:GO:0033093" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Normoxic exercise increased levels of VWF and active conformation VWF.",
+  "reading_complete" : "2020-08-02T11:30:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:28:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of VWF and active conformation VWF" ],
+  "pmc_id" : "6645913",
+  "score" : 0
+}

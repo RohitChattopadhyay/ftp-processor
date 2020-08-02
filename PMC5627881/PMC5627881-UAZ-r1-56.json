@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000037" ],
+      "Species" : [ "taxonomy:13443" ]
+    }
+  },
+  "verbose_text" : "Additionally, we also found that the level of cytosolic calcium was increased after caffeine incubation in HSCs.",
+  "reading_complete" : "2020-08-02T16:01:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:11Z",
+  "trigger" : "level",
+  "evidence" : [ "level of cytosolic calcium" ],
+  "pmc_id" : "5627881",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The released iNOS leads to synthesis of a large quantity of NO, eventually with an increase in the oxidative product peroxynitrite.",
+  "reading_complete" : "2020-08-02T11:23:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:20:59Z",
+  "trigger" : "quantity",
+  "evidence" : [ "quantity of NO" ],
+  "pmc_id" : "6431087",
+  "score" : 0
+}

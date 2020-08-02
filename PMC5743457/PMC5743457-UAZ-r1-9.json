@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Y182",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00738",
+      "entity_text" : "p38alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "A protein profiler assay designed to detect phosphokinases confirmed phosphorylation of p38alpha (T180 / Y182).",
+  "reading_complete" : "2020-08-02T17:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:59:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of p38alpha (T180/Y182" ],
+  "pmc_id" : "5743457",
+  "score" : 0
+}

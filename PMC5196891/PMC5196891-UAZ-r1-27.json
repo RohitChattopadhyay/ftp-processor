@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01094",
+      "entity_text" : "E2F1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "CellLine" : [ "cellosaurus:CVCL_0021" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We analyzed the potential correlation between LRP6 and LSH, and we found that LSH expression level was positively related with LRP6 level and with E2F1 level respectively.",
+  "reading_complete" : "2020-08-02T13:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:37:48Z",
+  "trigger" : "level",
+  "evidence" : [ "E2F1 level" ],
+  "pmc_id" : "5196891",
+  "score" : 0
+}

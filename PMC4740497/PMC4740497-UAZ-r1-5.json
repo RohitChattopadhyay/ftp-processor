@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60568",
+      "entity_text" : "IL-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:2000074" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_TABLE, compared to PBS or empty vector controls, spleen cells from p3xFlag-CMV-14-ROP17 immunized mice were able to produce large amounts of IFN-gamma and IL-2 (P < 0.05) with only slightly increased production of IL-4 and IL-10 (P> 0.05).",
+  "reading_complete" : "2020-08-02T11:59:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:55:03Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of IFN-gamma and IL-2" ],
+  "pmc_id" : "4740497",
+  "score" : 0
+}

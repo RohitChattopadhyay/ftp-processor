@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "The patient demonstrated hyponatremia secondary to extreme hypercholesterolemia with significantly elevated high-density lipoprotein cholesterol (HDL-C) levels, an unusual presentation of PBC.",
+  "reading_complete" : "2020-08-02T12:57:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:57:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol (HDL-C) levels" ],
+  "pmc_id" : "7044369",
+  "score" : 0
+}

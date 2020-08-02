@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0595" ]
+    }
+  },
+  "verbose_text" : "On the other hand, body weight loss of 10 kg and more in postmenopausal women has diminished the risk of breast neoplasm (p = 0.01) [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T17:14:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:11:23Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 10 kg" ],
+  "pmc_id" : "4440197",
+  "score" : 0
+}

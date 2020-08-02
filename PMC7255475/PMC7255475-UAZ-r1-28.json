@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:HDAC",
+      "entity_text" : "histone deacetylases",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although CYTL1 hypermethylation does not affect the repression activity mediated by histone deacetylases, this repression activity may be subject to the regulation between CYTL1 hypermethylation and histone deacetylases, as the DNA methylation level is considered to affect the binding of a histone deacetylase to a promoter region.",
+  "reading_complete" : "2020-08-02T16:23:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:22:36Z",
+  "trigger" : "hypermethylation",
+  "evidence" : [ "hypermethylation and histone deacetylases" ],
+  "pmc_id" : "7255475",
+  "score" : 0
+}

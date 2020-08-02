@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02327",
+      "entity_text" : "FITC-I-domain",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0009986" ]
+    }
+  },
+  "verbose_text" : "We believe that FITC-I-domain binding to ICAM-1 on the cell surface induces ICAM-1 clustering, further initiating the internalization of the conjugate via an ATP dependent process.",
+  "reading_complete" : "2020-08-02T09:49:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:48:06Z",
+  "trigger" : "binding",
+  "evidence" : [ "FITC-I-domain binding to ICAM-1" ],
+  "pmc_id" : "3100608",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0176" ]
+    }
+  },
+  "verbose_text" : "The median serum albumin level upon initial presentation was 3.1 g/dL with 62 patients (45.9%) having initial hypoalbuminemia (serum albumin < 3.0 g/dL).",
+  "reading_complete" : "2020-08-02T12:24:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:22:14Z",
+  "trigger" : "level",
+  "evidence" : [ "serum albumin level" ],
+  "pmc_id" : "6222194",
+  "score" : 0
+}

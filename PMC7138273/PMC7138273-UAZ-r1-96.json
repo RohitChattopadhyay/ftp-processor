@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03207",
+      "entity_text" : "NOR-1-PCNA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03204",
+      "entity_text" : "miR-106b-5p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PDGF reduces miR-106b-5p expression and increases activity of the NOR-1-PCNA signaling pathway in PASMCs.",
+  "reading_complete" : "2020-08-02T16:06:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:05:34Z",
+  "trigger" : "increases",
+  "evidence" : [ "miR-106b-5p expression and increases activity of the NOR-1-PCNA" ],
+  "pmc_id" : "7138273",
+  "score" : 0
+}

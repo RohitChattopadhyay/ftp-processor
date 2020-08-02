@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6F9",
+      "entity_text" : "WNT6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, WNT6 silencing led to reduced phosphorylation / activation states of 4 non receptor tyrosine Src kinases (Fgr, Yes, Fyn and Src), which have been described to contribute to the activation of downstream targets of RTKs, such as EGFR, influencing glioma aggressiveness XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-02T12:48:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:45:22Z",
+  "trigger" : "led",
+  "evidence" : [ "WNT6 silencing led to reduced phosphorylation/activation states of 4 non-receptor tyrosine Src kinases (Fgr, Yes, Fyn and Src), which have been described to contribute to the activation of downstream targets of RTKs, such as EGFR" ],
+  "pmc_id" : "6160775",
+  "score" : 0
+}

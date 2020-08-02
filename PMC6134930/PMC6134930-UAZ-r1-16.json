@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_N717" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Inhibition of CXCR4 / CXCL12 can decrease cancer stem cells through reducing phosphorylation of ERK and STAT3 XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:34:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:33:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK" ],
+  "pmc_id" : "6134930",
+  "score" : 0
+}

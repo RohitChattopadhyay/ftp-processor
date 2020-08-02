@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Fibrinogen",
+      "entity_text" : "fibrinogen",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00901",
+      "entity_text" : "fibrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Plasmin degrades fibrinogen and fibrin / fibrinogen degradation products bind to fibrinogen and/or GPIIb / IIIIa receptors, both resulting in a reduction of the formation of fibrinogen bridges between platelets.",
+  "reading_complete" : "2020-08-02T13:44:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:43:18Z",
+  "trigger" : "bind",
+  "evidence" : [ "fibrin/fibrinogen degradation products bind to fibrinogen" ],
+  "pmc_id" : "6524877",
+  "score" : 0
+}

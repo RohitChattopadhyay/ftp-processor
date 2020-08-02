@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:597",
+      "entity_text" : "cytosine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Methylation of at least one cytosine in 26 gene-regions was significantly associated with progression-free survival (PFS) in the optimization set, but not in the control set.",
+  "reading_complete" : "2020-08-02T17:30:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:29:10Z",
+  "trigger" : "Methylation",
+  "evidence" : [ "Methylation of at least one cytosine" ],
+  "pmc_id" : "5928889",
+  "score" : 0
+}

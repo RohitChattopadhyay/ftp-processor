@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "During her hospital stay, the patient received multiple platelets and packed red blood cells (PRBCs) transfusions to achieve a hemoglobin level of 80-100 g/L and platelet count of> 10 x 10 9 cells/L and up to 20 x 10 9 cells/L when she was febrile according to the AABB guidelines 5.",
+  "reading_complete" : "2020-08-02T10:50:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:50:15Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "5986045",
+  "score" : 0
+}

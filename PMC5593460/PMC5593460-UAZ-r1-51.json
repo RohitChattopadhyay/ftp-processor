@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Transcriptional activity is found in areas where the histone acetylation level is higher, and transcriptional silencing in areas where the histone acetylation level is usually lower.",
+  "reading_complete" : "2020-08-02T15:14:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:12:36Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "histone acetylation" ],
+  "pmc_id" : "5593460",
+  "score" : 0
+}

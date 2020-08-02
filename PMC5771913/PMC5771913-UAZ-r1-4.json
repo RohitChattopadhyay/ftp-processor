@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3076" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Of the six patients, four had decreased C-peptide and insulin blood levels, one had slightly increased levels of C-peptide and insulin (case 3), and data were missing for the last patient.",
+  "reading_complete" : "2020-08-02T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:24:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin blood levels" ],
+  "pmc_id" : "5771913",
+  "score" : 0
+}

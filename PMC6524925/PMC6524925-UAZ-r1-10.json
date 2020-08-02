@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00600",
+      "entity_text" : "albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0725" ]
+    }
+  },
+  "verbose_text" : "A similar pattern was observed for Recombinate (not shown) which derives from the same cell type (CHO) and the same gene construct, although it is a first generation product and contains significant amounts of human albumin, which renders less clear the final gel of the Western blot.",
+  "reading_complete" : "2020-08-02T12:25:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:22:32Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of human albumin" ],
+  "pmc_id" : "6524925",
+  "score" : 0
+}

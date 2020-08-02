@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5TKA1",
+      "entity_text" : "TGs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11096" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Regarding lipid profile measurements for patients in the drug group, the average total cholesterol, LDL and TGs levels were initially increased at 1 month, then decreased during serial measurements (especially during 3-month follow-up measurement) with a highly significant difference (p < 0.001).",
+  "reading_complete" : "2020-08-02T09:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:27:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "TGs levels" ],
+  "pmc_id" : "7380473",
+  "score" : 0
+}

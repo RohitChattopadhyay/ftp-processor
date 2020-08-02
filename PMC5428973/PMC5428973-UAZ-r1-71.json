@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23974",
+      "entity_text" : "CE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Cellular_component" : [ "uniprot:SL-0154" ],
+      "CellType" : [ "cl:CL:0000517" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Transfection with ABCA1 siRNA eliminated the effects of allicin, thus increasing intracellular lipid droplet accumulation, leading to higher levels of TC, FC and CE in the transfected cells compared to the cells treawted with allicin (XREF_FIG and XREF_TABLE).",
+  "reading_complete" : "2020-08-02T14:08:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TC, FC and CE" ],
+  "pmc_id" : "5428973",
+  "score" : 0
+}

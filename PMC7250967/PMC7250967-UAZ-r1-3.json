@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0130" ],
+      "Organ" : [ "uberon:UBERON:0007143" ]
+    }
+  },
+  "verbose_text" : "Preoperatively, her hemoglobin level was 103 g/L with 39.1% HbS.",
+  "reading_complete" : "2020-08-02T09:21:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:20:32Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "7250967",
+  "score" : 0
+}

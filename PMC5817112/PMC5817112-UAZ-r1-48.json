@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03602",
+      "entity_text" : "OIP5-AS1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03601",
+      "entity_text" : "miR-367-3p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0021" ],
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Our study has shown that miR-367-3p specifically bound to OIP5-AS1, and OIP5-AS1 knockdown increased miR-367-3p expression, attenuating the malignant progression of glioma cells.",
+  "reading_complete" : "2020-08-02T11:26:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:22:16Z",
+  "trigger" : "bound",
+  "evidence" : [ "miR-367-3p specifically bound to OIP5-AS1" ],
+  "pmc_id" : "5817112",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "There was no hepatic cytolysis, albuminemia was at 35 g/L, serum sodium level was 135 mEq/L, and potassium level was 4 mEq/L.",
+  "reading_complete" : "2020-08-02T12:38:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:37:38Z",
+  "trigger" : "level",
+  "evidence" : [ "potassium level" ],
+  "pmc_id" : "7044352",
+  "score" : 0
+}

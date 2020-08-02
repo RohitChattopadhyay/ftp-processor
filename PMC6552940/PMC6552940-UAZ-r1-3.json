@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15446",
+      "entity_text" : "CAST",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00268",
+      "entity_text" : "OMIM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Organ" : [ "uberon:UBERON:0006108" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Neither PCSK1 (proprotein convertase, subtilisin / kexin-type, 1, OMIM : 162150, associated with autosomal recessive obesity) or CAST (calpastatin, OMIM : 114090, associated with autosomal recessive skin defects) mutations nor haploinsufficiency have been linked to the phenotype reported in this family.",
+  "reading_complete" : "2020-08-02T10:27:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:26:11Z",
+  "trigger" : "associated",
+  "evidence" : [ "OMIM: 162150, associated with autosomal recessive obesity) or CAST" ],
+  "pmc_id" : "6552940",
+  "score" : 0
+}

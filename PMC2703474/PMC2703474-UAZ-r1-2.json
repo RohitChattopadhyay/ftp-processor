@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03135",
+      "entity_text" : "Cav-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1245" ],
+      "Organ" : [ "uberon:UBERON:0001637" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since the bone morphogenetic protein receptor type II (BMPR2), one of the pathogenetic key molecules involved in the development of pulmonary hypertension, co-localizes with caveolins [XREF_BIBR], the loss of Cav-1 might also be explained by the downregulation of the BMPR2 at the endothelial surface of pulmonary arteries as it has been described repeatedly in pulmonary hypertension.",
+  "reading_complete" : "2020-08-02T15:07:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:05:48Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Cav-1" ],
+  "pmc_id" : "2703474",
+  "score" : 0
+}

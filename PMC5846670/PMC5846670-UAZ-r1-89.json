@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0001725" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "FAK also interacts with the p85 subunit of phosphatidylinositol 3-kinase (PI3K) and then stimulates AKT, also referred to as protein kinase B (PKB), which may regulate FAK indirectly through interaction with a joint partner protein that can bind to both FAK and AKT to form a triple complex.",
+  "reading_complete" : "2020-08-02T15:37:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:32Z",
+  "trigger" : "interacts",
+  "evidence" : [ "FAK also interacts with the p85 subunit of phosphatidylinositol 3-kinase (PI3K) and then stimulates AKT" ],
+  "pmc_id" : "5846670",
+  "score" : 0
+}

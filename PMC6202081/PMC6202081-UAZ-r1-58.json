@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "JAK2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ]
+    }
+  },
+  "verbose_text" : "Extracellular signals or cytokines are able to change the receptor structure by binding to the receptor on the cell membrane, enabling JAK2 to move onto the membrane receptor and activate the tyrosine phosphorylation of JAK2.",
+  "reading_complete" : "2020-08-02T13:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:12:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of JAK2" ],
+  "pmc_id" : "6202081",
+  "score" : 0
+}

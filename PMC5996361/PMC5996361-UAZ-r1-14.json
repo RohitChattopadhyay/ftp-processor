@@ -1,0 +1,40 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P52754",
+      "entity_text" : "HFBI",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "pubchem:25058173",
+      "entity_text" : "BODIPY",
+      "entity_type" : "simple_chemical"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00059",
+      "entity_text" : "RGD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0022" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0002405" ]
+    }
+  },
+  "verbose_text" : "Nevertheless, we proved that the RGD - HFBI / BODIPY complex has the potential to be applied in the living cell system for bioimaging due its good biocompatibility.",
+  "reading_complete" : "2020-08-02T13:18:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:17:38Z",
+  "trigger" : "complex",
+  "evidence" : [ "RGD-HFBI/BODIPY complex" ],
+  "pmc_id" : "5996361",
+  "score" : 0
+}

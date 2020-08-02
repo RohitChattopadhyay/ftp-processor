@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:68861",
+      "entity_text" : "dienogest",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The results of many studies indicate that dienogest inhibits the angiogenesis and proliferation of endometrial cells, while also suppressing the activity of aromatase and cyclooxygenase-2 (COX-2), and leads to a decreased synthesis of e2 prostaglandin.",
+  "reading_complete" : "2020-08-02T18:27:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:25:15Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "dienogest inhibits the angiogenesis" ],
+  "pmc_id" : "5925197",
+  "score" : 0
+}

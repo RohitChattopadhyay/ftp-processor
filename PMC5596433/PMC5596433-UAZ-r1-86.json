@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Brusatol mediated inhibition of c-Myc expression increases HIF-1alpha degradation by inhibiting hypoxia induced mitochondrial ROS production.",
+  "reading_complete" : "2020-08-02T15:42:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:40:34Z",
+  "trigger" : "increases",
+  "evidence" : [ "c-Myc expression increases HIF-1alpha degradation by inhibiting hypoxia-induced mitochondrial ROS" ],
+  "pmc_id" : "5596433",
+  "score" : 0
+}

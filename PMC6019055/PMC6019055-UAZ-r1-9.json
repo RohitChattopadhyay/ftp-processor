@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439177",
+      "entity_text" : "glycogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:4113" ]
+    }
+  },
+  "verbose_text" : "The authors attributed improved run performance to higher muscle (and possibly liver) glycogen levels prior to the final sprints.",
+  "reading_complete" : "2020-08-02T09:53:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "glycogen levels" ],
+  "pmc_id" : "6019055",
+  "score" : 0
+}

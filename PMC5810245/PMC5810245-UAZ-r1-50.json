@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK-3beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "beta-catenin was accumulated in the cytoplasm when GSK-3beta is phosphorylated due to the activation of Wnt1, and then transfers into the nucleus to interwork with the transcription factors of TCF / Lef-1, which further modulate the levels of corresponding target genes to regulate the malignancy of cancer cells, such as proliferation, migration / invasion and VM.",
+  "reading_complete" : "2020-08-02T15:02:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:01:17Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "GSK-3beta is phosphorylated" ],
+  "pmc_id" : "5810245",
+  "score" : 0
+}

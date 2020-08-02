@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:783",
+      "entity_text" : "hydrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GPx and Grx use reduced GSH to reduce hydrogen / lipid peroxide or oxidation products; during these processes, reduced GSH is oxidized to GSSG; GSSG can be reduced back to GSH by GSR and NADPH.",
+  "reading_complete" : "2020-08-02T14:55:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:54:13Z",
+  "trigger" : "reduce",
+  "evidence" : [ "GSH to reduce hydrogen" ],
+  "pmc_id" : "6257848",
+  "score" : 0
+}

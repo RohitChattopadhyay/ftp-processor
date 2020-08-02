@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02147",
+      "entity_text" : "miR-183",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of miR-183 in HeLa cells has also been shown to inhibit migration and invasion, however, this was shown to be regulated through directly targeting integrin beta1, indicating that miR-183 is likely to have numerous mRNA targets through which it mediates biological effects in cancer cells.",
+  "reading_complete" : "2020-08-02T14:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:13:19Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "miR-183 in HeLa cells has also been shown to inhibit migration and invasion" ],
+  "pmc_id" : "6192766",
+  "score" : 0
+}

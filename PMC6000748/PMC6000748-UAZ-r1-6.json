@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P11717",
+      "entity_text" : "IGF2R",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P08069",
+      "entity_text" : "IGF1R",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "All IGFBPs serve as growth-inhibitory factors by competitively binding IGFs and preventing their binding to IGF1R, which stimulates cell proliferation.",
+  "reading_complete" : "2020-08-02T11:04:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:53:32Z",
+  "trigger" : "stimulates",
+  "evidence" : [ "their binding to IGF1R, which stimulates cell proliferation" ],
+  "pmc_id" : "6000748",
+  "score" : 0
+}

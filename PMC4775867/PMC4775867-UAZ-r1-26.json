@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "features" : [ {
+        "position" : "tyrosine residues",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the presence of Src kinase activity, phosphorylation of the Src consensus substrate at tyrosine residues (Tyr 662 and 664) would result in its intra-molecular interaction with the docking pocket of the SH2 domain, thus sterically preventing reconstitution of a functional luciferase.",
+  "reading_complete" : "2020-08-02T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:12:23Z",
+  "trigger" : "preventing",
+  "evidence" : [ "Src consensus substrate at tyrosine residues (Tyr 662 and 664) would result in its intra-molecular interaction with the docking pocket of the SH2 domain, thus sterically preventing reconstitution of a functional luciferase" ],
+  "pmc_id" : "4775867",
+  "score" : 0
+}

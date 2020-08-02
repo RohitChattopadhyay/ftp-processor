@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "A wealth of literature supports the view that PRMT5 plays a vital role in regulating cancer progression via histone methylation XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-02T14:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:12Z",
+  "trigger" : "methylation",
+  "evidence" : [ "histone methylation" ],
+  "pmc_id" : "6217061",
+  "score" : 0
+}

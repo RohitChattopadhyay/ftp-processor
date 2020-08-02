@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10145",
+      "entity_text" : "IL-8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Species" : [ "taxonomy:1313" ],
+      "Organ" : [ "uberon:UBERON:0000065" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Although not statistically significant, the reduction in IL-8 levels in the heparin treated samples observed in our experiments is likely due to binding of IL-8 by heparin [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:37:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:35:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-8 levels" ],
+  "pmc_id" : "3641997",
+  "score" : 0
+}

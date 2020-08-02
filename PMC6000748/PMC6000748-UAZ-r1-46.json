@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14116",
+      "entity_text" : "IL-18",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29466",
+      "entity_text" : "caspase-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activation of the complex causes autocatalytic cleavage and activation of caspase-1, which activates IL-1beta and IL-18 and neutralizes IL-33.",
+  "reading_complete" : "2020-08-02T11:04:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:53:32Z",
+  "trigger" : "activates",
+  "evidence" : [ "caspase-1, which activates IL-1beta and IL-18" ],
+  "pmc_id" : "6000748",
+  "score" : 0
+}

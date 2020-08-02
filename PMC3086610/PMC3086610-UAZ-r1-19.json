@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06442",
+      "entity_text" : "Kindlins",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "For example, many other PTB-domain-containing proteins including Numb, Dok-1, ICAP-lalpha (integrin cytoplasmic domainassociated protein-lalpha) and Kindlins bind to integrin beta tails in a similar fashion to talin XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:27:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:24:50Z",
+  "trigger" : "bind",
+  "evidence" : [ "Kindlins bind to integrin" ],
+  "pmc_id" : "3086610",
+  "score" : 0
+}

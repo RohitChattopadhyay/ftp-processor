@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q2Y2M3",
+      "entity_text" : "F-actin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF11473",
+      "entity_text" : "B2",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1061" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Subunit B2 of V-ATPase binds to F-actin with a profiling pocket like structure.",
+  "reading_complete" : "2020-08-02T11:14:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:11:51Z",
+  "trigger" : "binds",
+  "evidence" : [ "B2 of V-ATPase binds to F-actin" ],
+  "pmc_id" : "6276090",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03403",
+      "entity_text" : "TFF2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The loss of TFF2 protein expression enhances gastric inflammation and occurs in gastric cancer.",
+  "reading_complete" : "2020-08-02T15:59:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:58:09Z",
+  "trigger" : "enhances",
+  "evidence" : [ "TFF2 protein expression enhances gastric inflammation" ],
+  "pmc_id" : "5065293",
+  "score" : 0
+}

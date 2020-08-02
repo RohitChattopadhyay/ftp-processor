@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NFL6",
+      "entity_text" : "HCC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11103" ],
+      "TissueType" : [ "tissuelist:TS-0559" ],
+      "CellType" : [ "cl:CL:0000091" ]
+    }
+  },
+  "verbose_text" : "In conclusion, while appreciating the attempt that Shakiba et al. made to give meta-analytical strength to the purported association between serum IL-6 and HCC, we wonder if further insight into this topic should not come from a re-analysis of the individual data of the studies they cite.",
+  "reading_complete" : "2020-08-02T10:53:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:52:57Z",
+  "trigger" : "association",
+  "evidence" : [ "association between serum IL-6 and HCC" ],
+  "pmc_id" : "6728867",
+  "score" : 0
+}

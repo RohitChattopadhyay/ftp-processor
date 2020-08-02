@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q52PH6",
+      "entity_text" : "Hog1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D354" ],
+      "Species" : [ "taxonomy:5476" ]
+    }
+  },
+  "verbose_text" : "The NaCl concentration at which Hog1 phosphorylation amplitude becomes saturated was used to constrain parameters of the HOG signaling pathway (for details see supplemental information, section 2.1).",
+  "reading_complete" : "2020-08-02T13:23:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:19:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Hog1 phosphorylation" ],
+  "pmc_id" : "3434031",
+  "score" : 0
+}

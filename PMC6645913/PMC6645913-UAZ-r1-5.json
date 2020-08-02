@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00750",
+      "entity_text" : "t-PA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Short-term strenuous exercise is known to augment fibrinolysis through increased t-PA levels, which is released from endothelial cells, and decreased plasminogen activator inhibitor (PAI) -1 levels, the primary inhibitor of t-PA that is released from activated platelets.",
+  "reading_complete" : "2020-08-02T11:30:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:28:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "t-PA levels" ],
+  "pmc_id" : "6645913",
+  "score" : 0
+}

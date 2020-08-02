@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "The blood analysis showed potassium and sodium within normal ranges, significantly decreased the level of phosphate 0.28 (0.71-1.22) mmol/L), increased the level of magnesium 1.25 mmol/L, calcium of 2.94 mmol/L, and highly elevated PTH of 170.7 pmol/L.",
+  "reading_complete" : "2020-08-02T10:03:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:02:55Z",
+  "trigger" : "level",
+  "evidence" : [ "level of phosphate" ],
+  "pmc_id" : "6787842",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06330",
+      "entity_text" : "CBF-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46531",
+      "entity_text" : "NICD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D092" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "In the nucleus, the NICD binds to one of three cofactors, CBF-1 / Suppressor of Hairless / Lag-1 (CSL), mastermind like (MAML) -1 and p300 / CBP, to generate a complex that acts as a transcriptional coactivator.",
+  "reading_complete" : "2020-08-02T15:38:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:37:18Z",
+  "trigger" : "binds",
+  "evidence" : [ "NICD binds to one of three cofactors, CBF-1" ],
+  "pmc_id" : "4990307",
+  "score" : 0
+}

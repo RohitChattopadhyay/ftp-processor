@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07858",
+      "entity_text" : "cathepsin B",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0580" ],
+      "CellLine" : [ "cellosaurus:CVCL_D944" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "Based on cell surface marker expression, we focused on cathepsin B expression in dendritic cells (DCs; CD11c), B cells (CD20), T cells (CD3), macrophages (F4/80), and NK cells (CD49b).",
+  "reading_complete" : "2020-08-02T10:51:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:49:53Z",
+  "trigger" : "expression",
+  "evidence" : [ "cathepsin B expression" ],
+  "pmc_id" : "6587341",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01892",
+      "entity_text" : "PD-1 receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Tumor cells express the PD-1 receptor ligand that inhibits the proliferation and survival of CD8 + cytotoxic cells.2 Nivolumab and another anti-PD-1 agent, pembrolizumab, have recently been registered by FDA as treatment for metastatic melanoma.",
+  "reading_complete" : "2020-08-02T10:34:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:34:06Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "PD-1 receptor ligand that inhibits the proliferation" ],
+  "pmc_id" : "6552946",
+  "score" : 0
+}

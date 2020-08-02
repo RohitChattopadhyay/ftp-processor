@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7025" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Organ" : [ "uaz:UA-ORG-92" ]
+    }
+  },
+  "verbose_text" : "ELISA analysis on serum TNF-alpha levels demonstrated that dMSC infusion significantly reduced systemic inflammation in T1D mice.",
+  "reading_complete" : "2020-08-02T15:19:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "TNF-alpha levels" ],
+  "pmc_id" : "5399589",
+  "score" : 0
+}

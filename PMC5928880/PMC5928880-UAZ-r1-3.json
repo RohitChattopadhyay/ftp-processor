@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08571",
+      "entity_text" : "CD14",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "CellLine" : [ "cellosaurus:CVCL_0589" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "As shown in Figure XREF_FIG E, treatment of Kasumi-1 cells with Bet caused significant expansions of cell populations expressing high levels of CD14 or CD11b, which are two cell surface markers characteristic of differentiated macrophages / monocytes.",
+  "reading_complete" : "2020-08-02T18:37:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:35:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CD14" ],
+  "pmc_id" : "5928880",
+  "score" : 0
+}

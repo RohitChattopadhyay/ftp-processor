@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16885",
+      "entity_text" : "phospholipase Cgamma2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This likely explains previous observations that collagen stimulated phosphorylation of phospholipase Cgamma2 is inhibited ex vivo after quercetin ingestion, as well as by quercetin and tamarixetin in vitro.",
+  "reading_complete" : "2020-08-02T14:08:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:05:12Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of phospholipase Cgamma2" ],
+  "pmc_id" : "6667742",
+  "score" : 0
+}

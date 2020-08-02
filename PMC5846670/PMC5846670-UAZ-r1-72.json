@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08100",
+      "entity_text" : "Rho",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0453" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "CellType" : [ "cl:CL:0002139" ]
+    }
+  },
+  "verbose_text" : "Inhibition of FAK promoted cell detachment by decreasing the expression of focal adhesion components, and blocked cell motility by reducing the level of Rho GTPases.",
+  "reading_complete" : "2020-08-02T15:37:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:32Z",
+  "trigger" : "level",
+  "evidence" : [ "level of Rho" ],
+  "pmc_id" : "5846670",
+  "score" : 0
+}

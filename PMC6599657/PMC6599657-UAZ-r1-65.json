@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92522",
+      "entity_text" : "H1FX",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:92946",
+      "entity_text" : "AY",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is possible that AY interaction with H1FX alters the position of the H1FX tail, which allows PCAF to access H3 on the ITGAV promoter.",
+  "reading_complete" : "2020-08-02T10:55:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:53:54Z",
+  "trigger" : "interaction",
+  "evidence" : [ "AY interaction with H1FX" ],
+  "pmc_id" : "6599657",
+  "score" : 0
+}

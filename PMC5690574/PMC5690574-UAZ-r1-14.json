@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01019",
+      "entity_text" : "FVIII",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As shown in our data, patients with the FVIII mutations exhibited significantly lower expression of the FVIII mRNA, which may be translated with the reduced levels of FVIII procoagulant activity in situ around the tumors (XREF_FIG), although immunohistochemical studies did not detect the FVIII protein in all seven cases of melanoma (XREF_FIG and XREF_TABLE).",
+  "reading_complete" : "2020-08-02T12:41:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:40:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of FVIII" ],
+  "pmc_id" : "5690574",
+  "score" : 0
+}

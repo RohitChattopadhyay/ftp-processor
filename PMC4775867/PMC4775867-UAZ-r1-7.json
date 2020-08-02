@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10302451",
+      "entity_text" : "saracatinib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Luciferase activity increased in a dose dependent manner for both inhibitors, but saracatinib induced a greater increase in complemented Firefly luciferase activity than dasatinib.",
+  "reading_complete" : "2020-08-02T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:12:23Z",
+  "trigger" : "induced",
+  "evidence" : [ "saracatinib induced a greater increase in complemented Firefly luciferase" ],
+  "pmc_id" : "4775867",
+  "score" : 0
+}

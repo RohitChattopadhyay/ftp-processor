@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of PTEN inhibited ESCC cell proliferation (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:23Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "PTEN inhibited ESCC cell proliferation" ],
+  "pmc_id" : "6657975",
+  "score" : 0
+}

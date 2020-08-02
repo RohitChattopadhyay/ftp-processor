@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05717",
+      "entity_text" : "Polymerase II",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P61964",
+      "entity_text" : "WDR5",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "be:Histone_H3",
+      "entity_text" : "H3",
+      "entity_type" : "family"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Importantly, OICR-9429, an inhibitor of WDR5 interaction with the H3 tail, markedly decreased the expression of VEGFA and the occupancy of H3K4me3 and Polymerase II on the VEGFA promoter.",
+  "reading_complete" : "2020-08-02T14:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:12Z",
+  "trigger" : "decreased",
+  "evidence" : [ "WDR5 interaction with the H3 tail, markedly decreased the expression of VEGFA and the occupancy of H3K4me3 and Polymerase II" ],
+  "pmc_id" : "6217061",
+  "score" : 0
+}

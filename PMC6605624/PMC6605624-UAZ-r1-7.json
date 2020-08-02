@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "p-AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1483" ],
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Quinalizarin and/or icotinib increased the apoptotic rates in the EGFR-TKI resistant cells, and the combination of these reduced the level of protein downstream of EGFR, including phosphorylated (p-AKT) and p-(ERK).",
+  "reading_complete" : "2020-08-02T13:18:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:17:38Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated (p-AKT" ],
+  "pmc_id" : "6605624",
+  "score" : 0
+}

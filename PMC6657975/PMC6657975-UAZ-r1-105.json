@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6898" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "miR-92a-3p mimic downregulates PTEN and inhibits its PI3K and Akt phosphorylation inhibiting function in Eca-109 cells.",
+  "reading_complete" : "2020-08-02T14:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt phosphorylation" ],
+  "pmc_id" : "6657975",
+  "score" : 0
+}

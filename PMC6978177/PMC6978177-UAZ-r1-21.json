@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9875401",
+      "entity_text" : "rivaroxaban",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conclusion Anticoagulation with rivaroxaban reduced levels of key inflammation and coagulation biomarkers to a similar extent as VKAs, with the exception of F1.2.",
+  "reading_complete" : "2020-08-02T12:47:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:42:14Z",
+  "trigger" : "reduced",
+  "evidence" : [ "rivaroxaban reduced levels of key inflammation" ],
+  "pmc_id" : "6978177",
+  "score" : 0
+}

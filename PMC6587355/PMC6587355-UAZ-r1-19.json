@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:975",
+      "entity_text" : "GSSG",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2119" ],
+      "TissueType" : [ "tissuelist:TS-0455" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As shown melatonin induced significant increase of cellular ROS and decrease of cellular GSH / GSSG levels in these cells after incubation with 2 mM melatonin for 12 h.",
+  "reading_complete" : "2020-08-02T15:15:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:14:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "GSSG levels" ],
+  "pmc_id" : "6587355",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B9DFK5",
+      "entity_text" : "R-E",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00390",
+      "entity_text" : "GR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0589" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Next, immunoprecipitation (IP) was used to find whether there are physical interactions between GR, RUNX1 and R-E in the nucleus.",
+  "reading_complete" : "2020-08-02T18:37:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:35:17Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between GR, RUNX1 and R-E" ],
+  "pmc_id" : "5928880",
+  "score" : 0
+}

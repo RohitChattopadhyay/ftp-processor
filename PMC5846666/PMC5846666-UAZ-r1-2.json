@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Y307",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PP2A has an important role in the mediation of cell cycle, and PTEN induced kinase 1 can increase the phosphorylation of PP2A at Y307, moreover, Bcl-2 is downstream of PP2A in PTEN induced kinase 1 pathway, which participates in the autophagy mediation.",
+  "reading_complete" : "2020-08-02T16:22:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:21:21Z",
+  "trigger" : "increase",
+  "evidence" : [ "PTEN-induced kinase 1 can increase the phosphorylation of PP2A at Y307" ],
+  "pmc_id" : "5846666",
+  "score" : 0
+}

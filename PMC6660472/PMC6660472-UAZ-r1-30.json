@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since etamsylate binds FGF and in this way interferes with the binding of FGF to its receptor, cells treated with etamsylate show a decreased phosphorylation of Akt and MAPK Erk1/2, in a dose dependent manner, interfering in this way with the signaling cascades of both, VEGF and FGF.",
+  "reading_complete" : "2020-08-02T13:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:08:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Akt and MAPK Erk1/2, in a dose-dependent manner, interfering in this way with the signaling cascades of both, VEGF" ],
+  "pmc_id" : "6660472",
+  "score" : 0
+}

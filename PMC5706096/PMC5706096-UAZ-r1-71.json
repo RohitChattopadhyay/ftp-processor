@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95936",
+      "entity_text" : "Eomes",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0076" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Treatment with 0.5% DMSO significantly increased the mRNA expression levels of Eomes, which is involved in TE differentiation; XREF_BIBR however, treatment with 1% DMSO did not show any effect.",
+  "reading_complete" : "2020-08-02T12:28:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:24:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Eomes" ],
+  "pmc_id" : "5706096",
+  "score" : 0
+}

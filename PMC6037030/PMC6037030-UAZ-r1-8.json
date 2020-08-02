@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D059016",
+      "entity_text" : "tumor microenvironment",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZQ7",
+      "entity_text" : "PD-L1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The PD-1 :P D-L1 interaction is known to occur in the tumor microenvironment, where immune cells that express PD-1 are inactivated by expression of PD-L1 on tumor cells and a number of tumor infiltrating immune cells.",
+  "reading_complete" : "2020-08-02T09:41:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:06Z",
+  "trigger" : "inactivated",
+  "evidence" : [ "tumor microenvironment, where immune cells that express PD-1 are inactivated by expression of PD-L1" ],
+  "pmc_id" : "6037030",
+  "score" : 0
+}

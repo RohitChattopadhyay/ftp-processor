@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Serum lactate levels were recorded in 5 patients out of which 2 (40%) patients had elevated levels.",
+  "reading_complete" : "2020-08-02T11:48:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:47:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "lactate levels" ],
+  "pmc_id" : "7062124",
+  "score" : 0
+}

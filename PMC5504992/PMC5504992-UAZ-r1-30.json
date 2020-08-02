@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0737" ],
+      "CellType" : [ "cl:CL:0002064" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Therefore, we speculated that the protective effect of resveratrol on ANP might also be related to the enhancement of SIRT1 activation and subsequent promotion of pancreatic acinar cell apoptosis mediated by p53 deacetylation, while resveratrol eventually decreased the apoptosis of pancreatic acinar cells through other anti-apoptotic mechanisms.",
+  "reading_complete" : "2020-08-02T15:49:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:47:51Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "p53 deacetylation" ],
+  "pmc_id" : "5504992",
+  "score" : 0
+}

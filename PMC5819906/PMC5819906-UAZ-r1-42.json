@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31749",
+      "entity_text" : "Akt1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0454" ]
+    }
+  },
+  "verbose_text" : "A previous study also reported that maternal protein restriction leads a decrease in Akt1 (Ser473) phosphorylation in the livers of offspring at postnatal day 130.",
+  "reading_complete" : "2020-08-02T13:14:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:13:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt1 (Ser473) phosphorylation" ],
+  "pmc_id" : "5819906",
+  "score" : 0
+}

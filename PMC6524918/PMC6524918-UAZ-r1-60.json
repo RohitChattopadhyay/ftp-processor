@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43405",
+      "entity_text" : "Syk",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "We wanted to determine whether TULA-2 regulates Syk phosphorylation and activity downstream of CLEC-2.",
+  "reading_complete" : "2020-08-02T13:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:21:06Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Syk phosphorylation" ],
+  "pmc_id" : "6524918",
+  "score" : 0
+}

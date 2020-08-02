@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "A random blood glucose level of> = 200 mg / dL (> = 11.1 mmol/L) with classic symptoms of hyperglycemia or a glucose level of> = 200 mg / dL at 2 hours after a 75-g glucose tolerance test was proposed as reasonable diagnostic tests for glucocorticoid induced diabetes [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:03:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:00:22Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "4319206",
+  "score" : 0
+}

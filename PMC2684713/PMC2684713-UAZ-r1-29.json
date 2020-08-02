@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In a multiple linear regression model including age, sex, BMI and the serum levels of calcium, phosphate and PTH as co-factors we found a trend towards lower BMD and BMC for patients with PH compared to LHF (PH around 2.5%, p = ns).",
+  "reading_complete" : "2020-08-02T13:23:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:19:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of calcium" ],
+  "pmc_id" : "2684713",
+  "score" : 0
+}

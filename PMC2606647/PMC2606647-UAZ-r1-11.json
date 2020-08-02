@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK 1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0279" ],
+      "Cellular_component" : [ "uniprot:SL-0027" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "IL-5 signaling via the Ras-MAPK pathway, specifically on the phosphorylation and activation of the ERK 1/2 and p38 signaling molecules, is critical for eosinophil function, including eosinophil survival, activation, degranulation and chemotaxis [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:41:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:35Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and activation of the ERK 1/2" ],
+  "pmc_id" : "2606647",
+  "score" : 0
+}

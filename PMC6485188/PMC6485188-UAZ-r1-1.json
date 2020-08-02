@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95238",
+      "entity_text" : "Pse",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For the MAPK signaling pathway, as shown in Figure XREF_FIG D, phosphorylation of ERK, p38, and JNK relative to total ERK, total p38, and total JNK was suppressed significantly by Pse treatment in BMMs.",
+  "reading_complete" : "2020-08-02T15:20:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:18Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "phosphorylation of ERK                     , p38                     , and JNK                      relative to total ERK, total p38, and total JNK was suppressed significantly by Pse" ],
+  "pmc_id" : "6485188",
+  "score" : 0
+}

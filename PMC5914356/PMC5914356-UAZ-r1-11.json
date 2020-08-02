@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Organ" : [ "uberon:UBERON:0002049" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As described previously, the contribution of each of these organs can be easily quantified with an oral glucose tolerance test, which provides insight into impaired glucose tolerance (emphasizing the contribution of muscle in glucose uptake), impaired fasting glucose (emphasizing the contribution of liver, which produces glucose through gluconeogenesis), and disposition index (focusing on acute insulin secretion by the pancreas corrected for the level of systemic insulin sensitivity).",
+  "reading_complete" : "2020-08-02T09:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:45:17Z",
+  "trigger" : "level",
+  "evidence" : [ "level of systemic insulin" ],
+  "pmc_id" : "5914356",
+  "score" : 0
+}

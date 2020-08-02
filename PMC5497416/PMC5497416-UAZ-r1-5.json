@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0058" ],
+      "CellType" : [ "cl:CL:0002342" ],
+      "Species" : [ "taxonomy:11103" ]
+    }
+  },
+  "verbose_text" : "Based on stepwise multiple logistic regression analysis of factors (Child-Pugh classification, creatinine, EMP-ap (CD31 + CD42b - AN-V +), NO metabolites, and VEGF), VEGF level [odds ratio (OR) : 11.593, 95% confidence interval (CI) : 3.742-16.024, p < 0.007] and plasma EMP-ap level (OR : 6.285, 95% CI : 3.837-8.887, p < 0.001) were found to be independent predictors of ascites formation (XREF_TABLE).",
+  "reading_complete" : "2020-08-02T12:16:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:13:18Z",
+  "trigger" : "level",
+  "evidence" : [ "VEGF level" ],
+  "pmc_id" : "5497416",
+  "score" : 0
+}

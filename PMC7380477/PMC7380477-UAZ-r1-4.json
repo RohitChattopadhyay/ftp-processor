@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10407" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "It is observed from the data shown in XREF_TABLE that cirrhotic patients had derangements in their hepatic synthetic and excretory functions when compared with healthy individuals, and there were significant differences in the levels of serum albumin, INR, and serum bilirubin between the two groups.",
+  "reading_complete" : "2020-08-02T10:12:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:09:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of serum albumin, INR, and serum bilirubin" ],
+  "pmc_id" : "7380477",
+  "score" : 0
+}

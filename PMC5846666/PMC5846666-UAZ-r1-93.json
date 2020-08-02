@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAP1LC3",
+      "entity_text" : "LC3",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46319",
+      "entity_text" : "LicA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When HCCs were cotreated with LicA and NAC, the level of LicA induced LC3 II was lower than HCCs treated with only LicA, but also higher than DMSO treatment (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:22:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:21:21Z",
+  "trigger" : "induced",
+  "evidence" : [ "LicA-induced LC3" ],
+  "pmc_id" : "5846666",
+  "score" : 0
+}

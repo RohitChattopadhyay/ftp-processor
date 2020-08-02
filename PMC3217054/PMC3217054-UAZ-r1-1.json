@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15636",
+      "entity_text" : "API",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "Handling small files is not a matter of data rate but a matter of the number of roundtrips and their latency caused by a high amount of API calls through the whole calling hierarchy.",
+  "reading_complete" : "2020-08-02T12:52:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:50:50Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of API" ],
+  "pmc_id" : "3217054",
+  "score" : 0
+}

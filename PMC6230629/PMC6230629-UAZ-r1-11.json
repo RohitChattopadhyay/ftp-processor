@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:28486",
+      "entity_text" : "lithium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "First, lithium inhibits GSK3beta, an enzyme that is involved in the phosphorylation of KCNQ2.",
+  "reading_complete" : "2020-08-02T09:32:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:31:46Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "lithium inhibits GSK3beta" ],
+  "pmc_id" : "6230629",
+  "score" : 0
+}

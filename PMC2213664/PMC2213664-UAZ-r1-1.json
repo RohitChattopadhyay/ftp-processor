@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The laboratory blood levels of almost all test items were within the normal range, except for the level of lactate dehydrogenase (LDH) that was 873 IU/L (normal range, 200-400 IU/L).",
+  "reading_complete" : "2020-08-02T15:09:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:08:05Z",
+  "trigger" : "level",
+  "evidence" : [ "level of lactate" ],
+  "pmc_id" : "2213664",
+  "score" : 0
+}

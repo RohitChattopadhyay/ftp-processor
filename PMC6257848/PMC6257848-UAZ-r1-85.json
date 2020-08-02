@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99683",
+      "entity_text" : "ASK1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10599",
+      "entity_text" : "Trx1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ]
+    }
+  },
+  "verbose_text" : "The interaction between Trx1 and ASK1 is highly dependent on the redox status of Trx.",
+  "reading_complete" : "2020-08-02T14:55:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:54:13Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between Trx1 and ASK1" ],
+  "pmc_id" : "6257848",
+  "score" : 0
+}

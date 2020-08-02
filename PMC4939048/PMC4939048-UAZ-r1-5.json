@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The amount of required oxygen supplied through increased agitation or supplemental oxygen fed into a traditional bioreactor are potentially cost prohibitive for PHB production upon scale-up [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:46:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:43:56Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of required oxygen" ],
+  "pmc_id" : "4939048",
+  "score" : 0
+}

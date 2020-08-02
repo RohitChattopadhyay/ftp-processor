@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12830",
+      "entity_text" : "E-cadherin",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0739" ],
+      "CellLine" : [ "cellosaurus:CVCL_0186" ],
+      "Cellular_component" : [ "go:GO:0001725" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "After incubation with platelets, the expression of E-cadherin decreased but N-cadherin levels increased, indicating that platelets could induce EMT of BXPC-3 cells.",
+  "reading_complete" : "2020-08-02T14:55:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:54:42Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of E-cadherin" ],
+  "pmc_id" : "6376180",
+  "score" : 0
+}

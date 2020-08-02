@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14894",
+      "entity_text" : "TM4SF5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04447",
+      "entity_text" : "Ab27",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0009986" ]
+    }
+  },
+  "verbose_text" : "In addition, binding of Ab27 to TM4SF5 positive cancer cells led to the internalization of TM4SF5, resulting in the downregulation of cell surface TM4SF5 and enhancing anoikis sensitivity probably through a reduction in the level of survivin.",
+  "reading_complete" : "2020-08-02T12:36:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:35:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Ab27 to TM4SF5" ],
+  "pmc_id" : "5327636",
+  "score" : 0
+}

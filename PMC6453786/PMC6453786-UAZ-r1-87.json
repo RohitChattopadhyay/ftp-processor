@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18850",
+      "entity_text" : "ATF6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ER stress reduces protein synthesis via the activation of PERK-eukaryotic initiation factor 2 alpha (eIF2alpha), but increases XBP-1- and ATF6 mediated chaperone transcription to attenuate ER stress.",
+  "reading_complete" : "2020-08-02T10:29:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:27:10Z",
+  "trigger" : "attenuate",
+  "evidence" : [ "ATF6-mediated chaperone transcription to attenuate ER" ],
+  "pmc_id" : "6453786",
+  "score" : 0
+}

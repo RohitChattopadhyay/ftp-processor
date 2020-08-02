@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P84849",
+      "entity_text" : "lectin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445063",
+      "entity_text" : "sialic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This finding suggests that alpha2, 3 sialic acid moieties that bind to the lectin are present on WT cells but are diminished on the cell surfaces of DeltaF508 cells.",
+  "reading_complete" : "2020-08-02T15:00:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:06Z",
+  "trigger" : "bind",
+  "evidence" : [ "sialic acid moieties that bind to the lectin" ],
+  "pmc_id" : "2703207",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin_C",
+      "entity_text" : "cTnI",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Normalization of prognostic tests was defined as an increase in SBP> 100 mm Hg, a decrease in HR < 100 beats per minute, a decrease in cTnI levels to < = 0.05 ng/mL, a decrease in BNP levels to < = 100 pg/mL, and absence of echocardiographic RV dilation and dysfunction.",
+  "reading_complete" : "2020-08-02T13:02:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:00:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "cTnI levels" ],
+  "pmc_id" : "6892655",
+  "score" : 0
+}

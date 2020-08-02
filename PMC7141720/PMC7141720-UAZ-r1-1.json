@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Organ" : [ "uberon:UBERON:0003622" ]
+    }
+  },
+  "verbose_text" : "Blood examination results revealed severe inflammation (white blood cell count, 22 350/muL) and previously untreated diabetes mellitus (glycated hemoglobin level, 127 mmol / mol, normal < 39 mmol / mol).",
+  "reading_complete" : "2020-08-02T12:10:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:09:56Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "7141720",
+  "score" : 0
+}

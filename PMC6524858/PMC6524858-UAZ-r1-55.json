@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E508" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Oppositely, dasatinib and mostly nilotinib are associated with an increase of cholesterol level.",
+  "reading_complete" : "2020-08-02T14:12:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:10:16Z",
+  "trigger" : "level",
+  "evidence" : [ "cholesterol level" ],
+  "pmc_id" : "6524858",
+  "score" : 0
+}

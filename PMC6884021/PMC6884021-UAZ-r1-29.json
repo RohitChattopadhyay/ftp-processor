@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:SERCA",
+      "entity_text" : "SERCA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The T. brucei SERCA, TBA1 (XREF_TABLE), has high affinity for calcium, is sensitive to nano-molar concentrations of thapsigargin, is expressed in intracellular microsomal fractions but not in plasma membrane fractions, and significantly increases microsomal calcium activity when over-expressed but plasma membrane Ca 2+ -ATPase activity is unchanged [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:46Z",
+  "trigger" : "increases",
+  "evidence" : [ "SERCA, TBA1 ( XREF_TABLE ), has high affinity for calcium, is sensitive to nano-molar concentrations of thapsigargin, is expressed in intracellular microsomal fractions but not in plasma membrane fractions, and significantly increases microsomal calcium" ],
+  "pmc_id" : "6884021",
+  "score" : 0
+}

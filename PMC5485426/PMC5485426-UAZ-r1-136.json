@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXH2",
+      "entity_text" : "JPH3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This is consistent with our results that JPH3 expression significantly induced apoptosis after ER stress induction, but did not significantly alter spontaneous or 5-fluorouracil induced apoptosis.",
+  "reading_complete" : "2020-08-02T12:17:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:16:28Z",
+  "trigger" : "induced",
+  "evidence" : [ "JPH3 expression significantly induced apoptosis after ER stress induction, but did not significantly alter spontaneous or 5-fluorouracil induced apoptosis" ],
+  "pmc_id" : "5485426",
+  "score" : 0
+}

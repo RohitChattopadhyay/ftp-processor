@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P45973",
+      "entity_text" : "HP1alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04061",
+      "entity_text" : "H3T41",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Phosphorylation of H3T41 by JAK2 prevents the binding of Heterochromatin protein 1 alpha (HP1alpha) to hematopoietic oncogene lmo2 promoter which is implicated in leukaemogenesis XREF_BIBR.",
+  "reading_complete" : "2020-08-02T11:59:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:57:32Z",
+  "trigger" : "prevents",
+  "evidence" : [ "H3T41 by JAK2 prevents the binding of Heterochromatin protein 1 alpha (HP1alpha" ],
+  "pmc_id" : "4265745",
+  "score" : 0
+}

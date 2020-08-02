@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35372",
+      "entity_text" : "MOR-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellLine" : [ "cellosaurus:CVCL_0559" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "To begin experimentation in the TF-1 cell line, experiments were performed to assess levels of MOR-1 in these cells by western immunoblot analyses, flow cytometry, and immunofluorescence microscopy.",
+  "reading_complete" : "2020-08-02T15:36:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MOR-1" ],
+  "pmc_id" : "4216373",
+  "score" : 0
+}

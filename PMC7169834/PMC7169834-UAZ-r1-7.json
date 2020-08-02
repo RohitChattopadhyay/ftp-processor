@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "interferon",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the pathogeny of coronavirus infection, an important role is played by the amplitude of host immunity; for example, canonical interferon levels terminate protein synthesis or even induce cell death.",
+  "reading_complete" : "2020-08-02T13:49:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:46:20Z",
+  "trigger" : "induce",
+  "evidence" : [ "interferon levels terminate protein synthesis or even induce cell death" ],
+  "pmc_id" : "7169834",
+  "score" : 0
+}

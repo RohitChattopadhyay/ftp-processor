@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since SPHK1 induces ERK1/2 trans-activation, ERK phosphorylation was evaluated and it was found that SPHK1 knockdown alleviated TNF-alpha induced ERK phosphorylation (XREF_FIG, panel e).",
+  "reading_complete" : "2020-08-02T13:45:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:44:07Z",
+  "trigger" : "induced",
+  "evidence" : [ "TNF-alpha induced ERK phosphorylation" ],
+  "pmc_id" : "6605285",
+  "score" : 0
+}

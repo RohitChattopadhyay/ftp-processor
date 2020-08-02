@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:6941" ],
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "The expression levels of RmGlyR were normalized by the actin levels, as mentioned before.",
+  "reading_complete" : "2020-08-02T09:35:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:33:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "actin levels" ],
+  "pmc_id" : "4150426",
+  "score" : 0
+}

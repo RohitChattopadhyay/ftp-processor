@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "infiltration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:42611257",
+      "entity_text" : "vemurafenib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The disorder commonly affects the central nervous system and it is not yet known whether vemurafenib can reverse intra-axial infiltration and the resulting neurological impairment.",
+  "reading_complete" : "2020-08-02T09:40:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:49Z",
+  "trigger" : "reverse",
+  "evidence" : [ "vemurafenib can reverse intra-axial infiltration" ],
+  "pmc_id" : "4450489",
+  "score" : 0
+}

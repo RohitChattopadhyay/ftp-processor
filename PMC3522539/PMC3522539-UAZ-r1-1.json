@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4873",
+      "entity_text" : "potassium chloride",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Additionally, she had recurrent low potassium levels (less than 2.5 mEq/L) requiring large amounts of oral potassium chloride per day (120 MEq / day).",
+  "reading_complete" : "2020-08-02T16:14:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:12:52Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of oral potassium chloride" ],
+  "pmc_id" : "3522539",
+  "score" : 0
+}

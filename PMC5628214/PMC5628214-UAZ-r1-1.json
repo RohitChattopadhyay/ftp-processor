@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin_I",
+      "entity_text" : "troponin I",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0176" ],
+      "Organ" : [ "uberon:UBERON:0001443" ]
+    }
+  },
+  "verbose_text" : "Elevated troponin I levels were observed with a peak value of 0.493 ng/mL without elevated creatine kinase levels.",
+  "reading_complete" : "2020-08-02T10:57:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:57:37Z",
+  "trigger" : "levels",
+  "evidence" : [ "troponin I levels" ],
+  "pmc_id" : "5628214",
+  "score" : 0
+}

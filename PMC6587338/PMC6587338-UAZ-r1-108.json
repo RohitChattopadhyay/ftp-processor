@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P50552",
+      "entity_text" : "VASP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although we have observed described above signs of endothelium activation on 28 day of experiment, we have also noticed significantly increased phosphorylation of VASP, measured as a ratio of pVASP Ser239 to total VASP, synergistically induced by combined treatment.",
+  "reading_complete" : "2020-08-02T10:53:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:51:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of VASP" ],
+  "pmc_id" : "6587338",
+  "score" : 0
+}

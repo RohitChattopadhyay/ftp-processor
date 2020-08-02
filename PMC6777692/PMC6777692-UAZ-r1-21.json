@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016529" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Iso significantly decreased the quantity of Ca 2+ in SR (from 12.65 +/-0.42 under control conditions to 8.03 +/-0.55 when treated with Iso; n = 6 for each; P < 0.05; XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:56:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:55:25Z",
+  "trigger" : "quantity",
+  "evidence" : [ "quantity of Ca" ],
+  "pmc_id" : "6777692",
+  "score" : 0
+}

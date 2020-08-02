@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001637" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The blood test on the second day of admission showed a fall in hemoglobin level to 55 g/L (2 g/L drop from baseline of 70 g/L), and hemoglobin electrophoresis revealed 3.8% HbA2, 7.6% HbF and 88.6% HbS.",
+  "reading_complete" : "2020-08-02T09:21:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:20:32Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "7250967",
+  "score" : 0
+}

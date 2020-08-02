@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6993082",
+      "entity_text" : "mm",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0002384" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In a retrospective study on 10 patients in 2017, a mean bone loss of 0.33 mm in mesial and 0.17 mm in distal were reported [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T12:39:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:37:17Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 0.33 mm" ],
+  "pmc_id" : "6031211",
+  "score" : 0
+}

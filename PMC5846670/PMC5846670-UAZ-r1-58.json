@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Cellular_component" : [ "go:GO:0001725" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The initial autophosphorylation of FAK at Y397 results in phosphorylation of additional multiple tyrosine sites (Y-576, -577 and -925) in FAK, which regulate a number of cell functions, including cell adhesion and cell migration.",
+  "reading_complete" : "2020-08-02T15:37:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:32Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of additional multiple tyrosine sites (Y-576, -577 and -925) in FAK" ],
+  "pmc_id" : "5846670",
+  "score" : 0
+}

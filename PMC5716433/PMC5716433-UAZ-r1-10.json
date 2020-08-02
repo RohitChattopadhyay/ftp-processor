@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02137",
+      "entity_text" : "JNKs",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "from_location_text" : "cytoplasm",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005737",
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "JNKs, another target of MAP3K2, translocate from the cytoplasm to the nucleus once activated, and regulate a series of transcription factors, such as c-Jun, Ets like protein-1, activating transcription factor 2, p53, c-Myc, and nuclear factor of activated T-cells.",
+  "reading_complete" : "2020-08-02T14:54:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:53:11Z",
+  "trigger" : "translocate",
+  "evidence" : [ "JNKs, another target of MAP3K2, translocate from the cytoplasm to the nucleus" ],
+  "pmc_id" : "5716433",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04609",
+      "entity_text" : "GSK-3a/b",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0535" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In addition to these signaling pathways concordantly affected in both cell lines, cell-line specific effects were also observed, such as alterations in the phosphorylation of JNK, GSK-3a/b, and EGFR in U373 cells, and of STAT2, STAT5a, STAT5a/b, PDGFRb, and c-Jun in SNB19 cells.",
+  "reading_complete" : "2020-08-02T12:48:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:45:22Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of JNK, GSK-3a/b" ],
+  "pmc_id" : "6160775",
+  "score" : 0
+}

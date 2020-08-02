@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "mTORC1 is a central node of cellular signaling, and its activity is influenced by multiple factors such as growth factors, stress, energy status, and cellular amino acid levels, whereas mTORC2 is involved in survival signaling.",
+  "reading_complete" : "2020-08-02T11:14:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:11:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "acid levels" ],
+  "pmc_id" : "6276090",
+  "score" : 0
+}

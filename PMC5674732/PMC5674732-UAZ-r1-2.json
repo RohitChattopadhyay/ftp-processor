@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01092",
+      "entity_text" : "CFEOM1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13509",
+      "entity_text" : "TUBB3",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although CFEOM1 is mainly caused by KIF21A or TUBB3 mutation (s) [XREF_BIBR], there are previous reports indicating that affected children from the Arabian Peninsula sometimes do not harbor detectable mutations in either gene [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:54:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:52:46Z",
+  "trigger" : "caused",
+  "evidence" : [ "CFEOM1 is mainly caused by KIF21A or TUBB3" ],
+  "pmc_id" : "5674732",
+  "score" : 0
+}

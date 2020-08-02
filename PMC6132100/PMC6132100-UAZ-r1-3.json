@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51587",
+      "entity_text" : "BRCA2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06609",
+      "entity_text" : "RAD51",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P51587",
+      "entity_text" : "BRCA2",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "RAD51 binding to BRCA2 at the C-terminus is dependent on the phosphorylation of serine at 3291 by CDK.2 Premature termination codons (PTCs) introduced by BRCA2 mutations also causes degradation of the BRCA2 mRNA by nonsense mediated mRNA decay (NMD), a protective mechanism that prevents the expression of truncated proteins.",
+  "reading_complete" : "2020-08-02T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:56:50Z",
+  "trigger" : "causes",
+  "evidence" : [ "RAD51 binding to BRCA2 at the C-terminus is dependent on the phosphorylation of serine at 3291 by CDK.2\n\n\nPremature termination codons (PTCs) introduced by BRCA2 mutations also causes degradation of the BRCA2" ],
+  "pmc_id" : "6132100",
+  "score" : 0
+}

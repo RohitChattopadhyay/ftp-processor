@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02330",
+      "entity_text" : "HSP90beta",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "CellLine" : [ "cellosaurus:CVCL_1689" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We only selected out one transfected cell line with over 50% steady inhibition of HSP90beta expression (XREF_FIG), whose siRNA sequence is identical to an effective one reported earlier that corresponds to human HSP90beta nt 1012-1030.",
+  "reading_complete" : "2020-08-02T14:39:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:38:26Z",
+  "trigger" : "expression",
+  "evidence" : [ "HSP90beta expression" ],
+  "pmc_id" : "5505021",
+  "score" : 0
+}

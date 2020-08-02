@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07360",
+      "entity_text" : "LY3009120",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While 2 muM of Vemurafenib unexpectedly up-regulated mitochondrial respiration, the same concentration of LY3009120 suppressed basal respiration rate, ATP production, as well as cellular glycolysis.",
+  "reading_complete" : "2020-08-02T16:51:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:49:24Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "LY3009120 suppressed basal respiration rate, ATP production, as well as cellular glycolysis" ],
+  "pmc_id" : "5381260",
+  "score" : 0
+}

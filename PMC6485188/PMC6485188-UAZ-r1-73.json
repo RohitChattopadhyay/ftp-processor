@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5359597",
+      "entity_text" : "superoxide anion",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "DHE is a probe that is particularly sensitive to superoxide anion levels and it was previously reported as an in vivo marker for ROS XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:20:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "superoxide anion levels" ],
+  "pmc_id" : "6485188",
+  "score" : 0
+}

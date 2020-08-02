@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine 342",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51790",
+      "entity_text" : "ClC-3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Src kinase is rapidly activated and phosphorylates ClC-3 tyrosine 342 during hypotonic stimulation XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:41:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:40:27Z",
+  "evidence" : [ "Src kinase is rapidly activated and phosphorylates ClC-3 tyrosine 342" ],
+  "pmc_id" : "4729769",
+  "score" : 0
+}

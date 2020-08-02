@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Nearly all metabolically active cancer cells, whether in vivo or in vitro, are known to secrete a large amount of lactate as mobile anions XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:12:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:24Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of lactate" ],
+  "pmc_id" : "4997244",
+  "score" : 0
+}

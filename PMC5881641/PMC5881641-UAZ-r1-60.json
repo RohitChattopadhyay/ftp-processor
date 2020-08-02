@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78423",
+      "entity_text" : "CX3CL1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Finally, the present study found that aspirin inhibited the expression of IL-6 in the model group; aspirin combined with shRNA or the overexpression of CX3CL1 inhibited the secretion of IL-6 in the model group, whereas aspirin combined with shRNA inhibited TNF-alpha in the model group.",
+  "reading_complete" : "2020-08-02T15:43:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:40:20Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "CX3CL1 inhibited the secretion of IL-6" ],
+  "pmc_id" : "5881641",
+  "score" : 0
+}

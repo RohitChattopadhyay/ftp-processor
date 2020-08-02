@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02608",
+      "entity_text" : "BMP",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04771",
+      "entity_text" : "ALK2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In regards to the mechanism, we found that this effect may be mediated by upregulation of the expression of ALK2 to enhance the activation the BMP / Smad signaling induced by BMP9.",
+  "reading_complete" : "2020-08-02T14:50:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:49:15Z",
+  "trigger" : "enhance",
+  "evidence" : [ "ALK2 to enhance the activation the BMP" ],
+  "pmc_id" : "5504972",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In line with our hypothesis, we found that although the basal level of p53 in HeLa cells was low, the overexpression of Cav1 significantly increased the protein level of p53, whereas the depletion of Cav1 induced the downregulation of p53 in HeLa cells.",
+  "reading_complete" : "2020-08-02T15:58:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:56:54Z",
+  "trigger" : "induced",
+  "evidence" : [ "p53, whereas the depletion of Cav1 induced the downregulation of p53" ],
+  "pmc_id" : "5466377",
+  "score" : 0
+}

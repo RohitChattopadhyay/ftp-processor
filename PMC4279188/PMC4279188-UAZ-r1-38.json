@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:VEGF",
+      "entity_text" : "vascular endothelial growth factor",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "PEG-Ex4 did not increase AMPK activity, however, it did enhance Akt phosphorylation and vascular endothelial growth factor (VEGF) expression.",
+  "reading_complete" : "2020-08-02T14:51:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:50:52Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation                       and vascular endothelial growth factor" ],
+  "pmc_id" : "4279188",
+  "score" : 0
+}

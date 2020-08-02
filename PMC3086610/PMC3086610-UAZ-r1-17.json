@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Based on the sizable body of evidence addressed above, it is reasonable to draw the conclusion that integrin alphavbeta3 promotes angiogenesis and endothelial cell survival and that antagonism of this integrin suppresses angiogenesis by inducing endothelial cell apoptosis in vitro and in vivo.",
+  "reading_complete" : "2020-08-02T15:27:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:24:50Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "integrin suppresses angiogenesis" ],
+  "pmc_id" : "3086610",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10646",
+      "entity_text" : "EPI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0943" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Endogenous EPI levels are low in patients with asthma, which may explain why EPI delivery is such an effective treatment.",
+  "reading_complete" : "2020-08-02T13:42:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:41:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "EPI levels" ],
+  "pmc_id" : "5358715",
+  "score" : 0
+}

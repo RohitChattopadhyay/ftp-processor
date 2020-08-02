@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "After a bolus of oral glucose, blood glucose levels were significantly increased in the offspring of the CON/LC, LC/LC and LC/CON groups compared with in the CON / CON group at 30, 60 and 120 min (P < 0.05 or P < 0.01).",
+  "reading_complete" : "2020-08-02T13:14:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:13:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "5819906",
+  "score" : 0
+}

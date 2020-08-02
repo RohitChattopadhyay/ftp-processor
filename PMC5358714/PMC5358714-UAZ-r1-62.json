@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone_H3",
+      "entity_text" : "histone 3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "For instance, SphK2 produces nuclear S1P that binds and, thus, inhibits histone deacetylase 1 and 2 (HDAC1/2) activity, preventing the deacetylation of histone 3.",
+  "reading_complete" : "2020-08-02T13:41:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:39:27Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "deacetylation of histone 3" ],
+  "pmc_id" : "5358714",
+  "score" : 0
+}

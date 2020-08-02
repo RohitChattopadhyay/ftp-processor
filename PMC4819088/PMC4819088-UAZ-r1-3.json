@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammatory response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02843",
+      "entity_text" : "TNF-alpha receptors",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "TNF-alpha normally binds to TNF-alpha receptors, which leads to the inflammatory response of autoimmune diseases.",
+  "reading_complete" : "2020-08-02T11:25:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:21:28Z",
+  "trigger" : "leads",
+  "evidence" : [ "TNF-alpha normally binds to TNF-alpha receptors, which leads to the inflammatory response" ],
+  "pmc_id" : "4819088",
+  "score" : 0
+}

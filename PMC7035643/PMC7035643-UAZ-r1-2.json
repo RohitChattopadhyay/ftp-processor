@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3694" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Total cholesterol level greater than 6.2 mmol/L was used to define dyslipidemia.",
+  "reading_complete" : "2020-08-02T14:43:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:42:04Z",
+  "trigger" : "level",
+  "evidence" : [ "cholesterol level" ],
+  "pmc_id" : "7035643",
+  "score" : 0
+}

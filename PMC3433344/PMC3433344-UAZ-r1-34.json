@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06703",
+      "entity_text" : "S100A6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07355",
+      "entity_text" : "annexin II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "The interactions between annexin II and S100A6 may play an important role in cancer metastasis and may provide a novel therapeutic approach for treating a variety of cancers.",
+  "reading_complete" : "2020-08-02T18:09:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:11Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between annexin II and S100A6" ],
+  "pmc_id" : "3433344",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6993082",
+      "entity_text" : "mm",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16790",
+      "entity_text" : "CAIX",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In keeping with this expected availability of oxygen in C6 gliomas, expression of CAIX, which is upregulated by Hypoxia Inducible Factor 1 alpha has been found not to be upregulated over at least 2 mm in from the rim [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:05:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:02:12Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "CAIX, which is upregulated by Hypoxia Inducible Factor 1 alpha                            has been found not to be upregulated over at least 2 mm" ],
+  "pmc_id" : "4467611",
+  "score" : 0
+}

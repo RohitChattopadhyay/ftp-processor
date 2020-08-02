@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13469",
+      "entity_text" : "NFATc2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UPT9",
+      "entity_text" : "USP22",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Gao et al found that USP22 interacts with and deubiquitinates NFATc2, and also stabilizes NFATc2 protein and promotes NFATc2 function to facilitate IL-2 expression in T cells.",
+  "reading_complete" : "2020-08-02T13:56:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:55:17Z",
+  "trigger" : "interacts",
+  "evidence" : [ "USP22 interacts with and deubiquitinates NFATc2" ],
+  "pmc_id" : "5593473",
+  "score" : 0
+}

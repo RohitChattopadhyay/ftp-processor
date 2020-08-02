@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "All liver transplant patients should be monitored and treated for vitamin D deficiency in order to maintain vitamin D levels> 25-30 ng/ml.",
+  "reading_complete" : "2020-08-02T12:08:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:07:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "vitamin D levels" ],
+  "pmc_id" : "5497422",
+  "score" : 0
+}

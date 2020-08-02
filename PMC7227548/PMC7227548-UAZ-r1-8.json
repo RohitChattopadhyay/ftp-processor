@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01019",
+      "entity_text" : "Ang I",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000322" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The ACE hydrolyzes Ang I to angiotensin II.",
+  "reading_complete" : "2020-08-02T11:45:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:38:27Z",
+  "trigger" : "hydrolyzes",
+  "evidence" : [ "hydrolyzes Ang I" ],
+  "pmc_id" : "7227548",
+  "score" : 0
+}

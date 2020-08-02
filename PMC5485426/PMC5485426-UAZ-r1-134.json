@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07820",
+      "entity_text" : "Mcl-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXH2",
+      "entity_text" : "JPH3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "However, our results indicated that JPH3 expression mainly suppresses Bcl2 and p-Bcl2 (Ser70) and the pro survival members Mcl-1 and Bcl-xL, but does not affect pro apoptotic proteins.",
+  "reading_complete" : "2020-08-02T12:17:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:16:28Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "JPH3 expression mainly suppresses Bcl2 and p-Bcl2 (Ser70) and the pro-survival members Mcl-1" ],
+  "pmc_id" : "5485426",
+  "score" : 0
+}

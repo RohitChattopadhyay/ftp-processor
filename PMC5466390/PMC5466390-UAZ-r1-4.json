@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Two signaling pathways of MAPK (ERK and JNK) were maximally phosphorylated after N-Ac-PGP treatment for 30 min while p38 and p65 were maximally phosphorylated after N-Ac-PGP treatment for 15 min (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:31:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:30:37Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "MAPK (ERK and JNK) were maximally phosphorylated" ],
+  "pmc_id" : "5466390",
+  "score" : 0
+}

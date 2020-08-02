@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29279",
+      "entity_text" : "connective tissue growth factor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increased levels of TGF-beta are typical for COPD lungs and may cause the release of connective tissue growth factor (CTGF) which, in turn, stimulates collagen deposition in the airway wall [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:18:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:10:58Z",
+  "trigger" : "cause",
+  "evidence" : [ "TGF-beta are typical for COPD lungs and may cause the release of connective tissue growth factor" ],
+  "pmc_id" : "3377872",
+  "score" : 0
+}

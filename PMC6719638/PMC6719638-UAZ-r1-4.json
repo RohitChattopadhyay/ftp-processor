@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06401",
+      "entity_text" : "PR",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "There is an inverse relationship between OR, PR expression, and Ki-67 mitotic proliferation index [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:48:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:47:05Z",
+  "trigger" : "expression",
+  "evidence" : [ "PR expression" ],
+  "pmc_id" : "6719638",
+  "score" : 0
+}

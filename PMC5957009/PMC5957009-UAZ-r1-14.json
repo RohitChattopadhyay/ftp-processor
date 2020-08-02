@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6426943",
+      "entity_text" : "Kd",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05451",
+      "entity_text" : "PTP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0532" ],
+      "TissueType" : [ "tissuelist:TS-0732" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "PTP liposomes bound to SKOV3 and OVCAR8 cells with a Kd of 0.12 nM and 0.11 nM, respectively.",
+  "reading_complete" : "2020-08-02T15:13:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:11:23Z",
+  "trigger" : "bound",
+  "evidence" : [ "PTP liposomes bound to SKOV3 and OVCAR8 cells with a Kd" ],
+  "pmc_id" : "5957009",
+  "score" : 0
+}

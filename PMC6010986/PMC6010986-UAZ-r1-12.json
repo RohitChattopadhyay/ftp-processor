@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Upregulated glycolysis was verified by the increase in lactate levels both intracellularly as well as in the rate of lactate efflux, a hallmark of M1 polarization XREF_BIBR.",
+  "reading_complete" : "2020-08-02T18:08:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "lactate levels" ],
+  "pmc_id" : "6010986",
+  "score" : 0
+}

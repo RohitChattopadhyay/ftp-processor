@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07288",
+      "entity_text" : "PSA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The use of CT imaging is recommended for patients at high risk with a PSA level> 20 ng/ml, Gleason score> 7 and/or clinical tumor stage T3 or higher XREF_BIBR or for detection of lymph node metastases and lymph node staging XREF_BIBR.",
+  "reading_complete" : "2020-08-02T12:16:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:09:32Z",
+  "trigger" : "level",
+  "evidence" : [ "PSA level" ],
+  "pmc_id" : "3311230",
+  "score" : 0
+}

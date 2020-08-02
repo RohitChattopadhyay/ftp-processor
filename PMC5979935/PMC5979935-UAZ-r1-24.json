@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15796",
+      "entity_text" : "Smad2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of Smad2 in the C terminus is considered a marker of fibrogenic signaling.",
+  "reading_complete" : "2020-08-02T14:45:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:43:50Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of Smad2" ],
+  "pmc_id" : "5979935",
+  "score" : 0
+}

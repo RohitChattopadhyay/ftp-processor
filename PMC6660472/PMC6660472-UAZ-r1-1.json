@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02566",
+      "entity_text" : "etamsylate",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, etamsylate decreases phosphorylation of Akt and ERK1/2.",
+  "reading_complete" : "2020-08-02T13:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:08:51Z",
+  "trigger" : "decreases",
+  "evidence" : [ "etamsylate decreases phosphorylation of Akt" ],
+  "pmc_id" : "6660472",
+  "score" : 0
+}

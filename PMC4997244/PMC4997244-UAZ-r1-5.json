@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1060",
+      "entity_text" : "pyruvate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54212",
+      "entity_text" : "DCA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "DCA does not directly inhibit any enzyme of glycolysis pathway, but rather, promote oxidation of pyruvate in mitochondria, and in turn, shunt the pyruvate away from becoming lactate, thus inhibiting the conversion of pyruvate to lactate.",
+  "reading_complete" : "2020-08-02T10:12:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:24Z",
+  "trigger" : "promote",
+  "evidence" : [ "DCA does not directly inhibit any enzyme of glycolysis pathway, but rather, promote oxidation of pyruvate in mitochondria, and in turn, shunt the pyruvate away from becoming lactate, thus inhibiting the conversion of pyruvate" ],
+  "pmc_id" : "4997244",
+  "score" : 0
+}

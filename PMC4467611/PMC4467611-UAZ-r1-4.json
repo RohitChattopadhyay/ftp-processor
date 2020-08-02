@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99708",
+      "entity_text" : "rim",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04406",
+      "entity_text" : "GAPDH",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Closer to the rim (< 0.8 mm), on sections in which Tom20 was compared directly with GAPDH, GAPDH expression was somewhat reduced so that there was a marked peak in the ratio Tom20 / GAPDH.",
+  "reading_complete" : "2020-08-02T15:05:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:02:12Z",
+  "trigger" : "reduced",
+  "evidence" : [ "rim (<0.8 mm), on sections in which Tom20 was compared directly with GAPDH, GAPDH expression was somewhat reduced" ],
+  "pmc_id" : "4467611",
+  "score" : 0
+}

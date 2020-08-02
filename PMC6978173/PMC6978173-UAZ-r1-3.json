@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01042",
+      "entity_text" : "bradykinin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15389",
+      "entity_text" : "angiopoietin-1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "Mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mutation of the angiopoietin-1 gene (ANGPT1) can also induce angioedema independent of bradykinin.",
+  "reading_complete" : "2020-08-02T11:55:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:55:03Z",
+  "trigger" : "induce",
+  "evidence" : [ "angiopoietin-1 gene (\nANGPT1\n) can also induce angioedema independent of bradykinin" ],
+  "pmc_id" : "6978173",
+  "score" : 0
+}

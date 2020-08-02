@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445063",
+      "entity_text" : "sialic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03382",
+      "entity_text" : "EtMIC3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0960" ],
+      "CellLine" : [ "cellosaurus:CVCL_0B87" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:5811" ]
+    }
+  },
+  "verbose_text" : "Moreover, EtMIC3 could bind to sialic acid bearing molecules on the epithelial cell surface of the host, and played a key role in sporozoite invasion [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:08:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:00Z",
+  "trigger" : "bind",
+  "evidence" : [ "EtMIC3 could bind to sialic acid" ],
+  "pmc_id" : "7083106",
+  "score" : 0
+}

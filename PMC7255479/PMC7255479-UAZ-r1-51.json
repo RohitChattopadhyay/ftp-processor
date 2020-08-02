@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0309" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Previous studies have found that sustained high glucose (HG) levels cause damage to retinal pigment epithelial (RPE) cells in diabetic patients, resulting in structural and secretory dysfunction, which proves that RPE cell damage plays an important role in the early development of DR.",
+  "reading_complete" : "2020-08-02T14:20:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:17:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose (HG) levels" ],
+  "pmc_id" : "7255479",
+  "score" : 0
+}

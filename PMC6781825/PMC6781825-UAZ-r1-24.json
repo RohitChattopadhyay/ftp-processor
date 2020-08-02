@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Experimental studies showed that chronic administration of organophosphates resulted in an increase in serum TNF-alpha levels and inflammation in rats ' brain, Langerhans islets, and macrophages [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:08:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:06:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "TNF-alpha levels" ],
+  "pmc_id" : "6781825",
+  "score" : 0
+}

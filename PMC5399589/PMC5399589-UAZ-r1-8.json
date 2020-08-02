@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13796",
+      "entity_text" : "sensor",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Fasl expression is primarily regulated by transcription factors XREF_BIBR, and its promotor activity is also reported to be stimulated by phosphorylation of AMPK XREF_BIBR, an important cellular energy sensor XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:19:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:28Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AMPK  XREF_BIBR , an important cellular energy sensor" ],
+  "pmc_id" : "5399589",
+  "score" : 0
+}

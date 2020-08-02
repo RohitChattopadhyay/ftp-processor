@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q1QXE1",
+      "entity_text" : "beta1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06421",
+      "entity_text" : "talin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Knockdown of talin expression in CHO (Chinese-hamster ovary) cells inhibits the activation of both beta1 and beta3 integrins without altering integrin expression XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:27:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:24:50Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "talin expression in CHO (Chinese-hamster ovary) cells inhibits the activation of both beta1" ],
+  "pmc_id" : "3086610",
+  "score" : 0
+}

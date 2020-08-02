@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P58335",
+      "entity_text" : "ANTXR2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "Among them, we were particularly interested in ANTXR2 because it has been shown that ANTXR2 can bind type IV collagen and laminin XREF_BIBR, an indication of involvement in cell adhesion.",
+  "reading_complete" : "2020-08-02T10:46:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:44:57Z",
+  "trigger" : "bind",
+  "evidence" : [ "ANTXR2 can bind type IV collagen" ],
+  "pmc_id" : "6376465",
+  "score" : 0
+}

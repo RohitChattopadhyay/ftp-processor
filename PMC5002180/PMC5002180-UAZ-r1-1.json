@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The enzyme encoded by MTHFR gene takes part in the irreversible conversion of 5,10-metylenetetrahydrofolate to 5-methyltetrahydrofolate, which plays a crucial role in homocysteine remethylation to methionine [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:52:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:49:57Z",
+  "trigger" : "remethylation",
+  "evidence" : [ "homocysteine remethylation" ],
+  "pmc_id" : "5002180",
+  "score" : 0
+}

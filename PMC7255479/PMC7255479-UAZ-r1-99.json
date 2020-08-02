@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:101179",
+      "entity_text" : "HG",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02201",
+      "entity_text" : "miR-128",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Second, as shown in XREF_FIG, compared with the control group, the expression of miR-128 significantly decreased following exposure to HG; however, AIV significantly increased its expression.",
+  "reading_complete" : "2020-08-02T14:20:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:17:52Z",
+  "trigger" : "decreased",
+  "evidence" : [ "miR-128 significantly decreased following exposure to HG" ],
+  "pmc_id" : "7255479",
+  "score" : 0
+}

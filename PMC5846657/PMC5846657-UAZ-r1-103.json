@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00066",
+      "entity_text" : "IgE",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "These cells also have cell surface immunoglobulin (Ig) E receptors and are provoked by interaction between bound IgE and the pertinent antigen.",
+  "reading_complete" : "2020-08-02T14:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:39:44Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between bound IgE and the pertinent antigen" ],
+  "pmc_id" : "5846657",
+  "score" : 0
+}

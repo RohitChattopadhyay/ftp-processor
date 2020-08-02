@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02197",
+      "entity_text" : "Median (IQR)",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "Median (IQR) levels were 1447 ng/mL (633-3367) in the low-risk class, 2,520 ng/mL (900-5,800) in the low-intermediate-risk class, 3,400 ng/mL (886-5,470) in the high-intermediate-risk class, and 6,972 ng/mL (3,575 -9,480) in the high-risk class (Kruskal-Wallis test : p = 0.001).",
+  "reading_complete" : "2020-08-02T12:40:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:38:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "Median (IQR) levels" ],
+  "pmc_id" : "6524882",
+  "score" : 0
+}

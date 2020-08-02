@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13569",
+      "entity_text" : "CFTR",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We sought to determine if the expression of mutant CFTR is associated with altered sialylation.",
+  "reading_complete" : "2020-08-02T15:00:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of mutant CFTR" ],
+  "pmc_id" : "2703207",
+  "score" : 0
+}

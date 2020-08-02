@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12830",
+      "entity_text" : "CDH1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SIX1 can activate ERK phosphorylation XREF_BIBR, XREF_BIBR and suppress CDH1 (encodes E-cadherin) expression by targeting the transcriptional repressors of CDH1 XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:06:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:04:22Z",
+  "trigger" : "suppress",
+  "evidence" : [ "ERK phosphorylation  XREF_BIBR ,  XREF_BIBR  and suppress CDH1" ],
+  "pmc_id" : "6401504",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5988",
+      "entity_text" : "sugar",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1773" ],
+      "TissueType" : [ "tissuelist:TS-0963" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "His high blood sugar level was controlled with subcutaneous premixed insulin.",
+  "reading_complete" : "2020-08-02T11:57:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:55:45Z",
+  "trigger" : "level",
+  "evidence" : [ "sugar level" ],
+  "pmc_id" : "4754819",
+  "score" : 0
+}

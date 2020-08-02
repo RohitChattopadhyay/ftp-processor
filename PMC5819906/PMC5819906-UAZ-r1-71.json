@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01471",
+      "entity_text" : "miR-466f-3p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In particular, a maternal LC diet may upregulate the expression of miR-327, miR-466f-3p and miR-223-3p, thus inhibiting the insulin signaling pathway in male offspring.",
+  "reading_complete" : "2020-08-02T13:14:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:13:54Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "miR-466f-3p and miR-223-3p, thus inhibiting the insulin" ],
+  "pmc_id" : "5819906",
+  "score" : 0
+}

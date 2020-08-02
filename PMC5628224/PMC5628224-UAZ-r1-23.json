@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2554",
+      "entity_text" : "carbamazepine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_A246" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Considering this information, we combined HP, HD, and ILE treatments in the first 24 h to have a rapid effect in our patient with high serum carbamazepine level and severe toxicity findings.",
+  "reading_complete" : "2020-08-02T11:36:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:35:52Z",
+  "trigger" : "level",
+  "evidence" : [ "carbamazepine level" ],
+  "pmc_id" : "5628224",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "features" : [ {
+        "modification_type" : "deacetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SIRT1 deacetylates p53 and activates itself to trigger cell apoptosis while p53 has been proven to play an important role in the apoptosis of pancreatic acinar cells.",
+  "reading_complete" : "2020-08-02T15:49:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:47:51Z",
+  "trigger" : "trigger",
+  "evidence" : [ "p53 and activates itself to trigger cell apoptosis                           while p53 has been proven to play an important role in the apoptosis" ],
+  "pmc_id" : "5504992",
+  "score" : 0
+}

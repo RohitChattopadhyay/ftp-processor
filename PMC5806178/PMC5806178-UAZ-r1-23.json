@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00603",
+      "entity_text" : "NF-kappaB p65",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "et al 's study, treatment with exogenous IL-10 reduced NF-kappaB p65 expression, which might mediate the suppressive action of IL-10 on the formation of these pro inflammatory cytokines and subsequent inflammation [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:33:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:28:08Z",
+  "trigger" : "mediate",
+  "evidence" : [ "NF-kappaB p65 expression, which might mediate the suppressive action of IL-10" ],
+  "pmc_id" : "5806178",
+  "score" : 0
+}

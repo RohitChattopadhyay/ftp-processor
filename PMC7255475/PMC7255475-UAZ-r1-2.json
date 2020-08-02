@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01105",
+      "entity_text" : "set",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2187" ],
+      "TissueType" : [ "tissuelist:TS-0964" ],
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Methylation data on LSCC (training set) and on head and neck squamous cell carcinoma (validation set 2) were obtained from The Cancer Genome Atlas database, and GSE39279 (validation set 1) was retrieved from the Gene Expression Omnibus database.",
+  "reading_complete" : "2020-08-02T16:23:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:22:36Z",
+  "trigger" : "Methylation",
+  "evidence" : [ "Methylation data on LSCC (training set" ],
+  "pmc_id" : "7255475",
+  "score" : 0
+}

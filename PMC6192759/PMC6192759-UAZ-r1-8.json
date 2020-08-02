@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02126",
+      "entity_text" : "PTE",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These results indicated that PTE activates AMPK phosphorylation to suppress the expression level and activity of lipogenesis- and mRNA translation associated enzymes, potentially driving MM cells into a low nutrient state.",
+  "reading_complete" : "2020-08-02T14:09:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:08:15Z",
+  "trigger" : "activates",
+  "evidence" : [ "PTE activates AMPK phosphorylation" ],
+  "pmc_id" : "6192759",
+  "score" : 0
+}

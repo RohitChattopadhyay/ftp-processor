@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15910",
+      "entity_text" : "EZH2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "Indeed, by using several different techniques and approaches, our results proved that hypoxia induced ANTXR2 expression is mediated by the loss of EZH2 in eutopic stromal cells.",
+  "reading_complete" : "2020-08-02T10:46:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:44:57Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of EZH2" ],
+  "pmc_id" : "6376465",
+  "score" : 0
+}

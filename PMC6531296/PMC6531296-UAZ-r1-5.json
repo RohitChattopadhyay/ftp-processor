@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The results revealed that the transfection efficiency of PAE MTN was inversely proportional to the amount of free HA added, thus suggesting the crucial role of HA-CD44 binding on PAE MTN transfection.",
+  "reading_complete" : "2020-08-02T12:51:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:49:28Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of free HA" ],
+  "pmc_id" : "6531296",
+  "score" : 0
+}

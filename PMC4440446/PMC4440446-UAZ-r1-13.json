@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01588",
+      "entity_text" : "Epo",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0005169" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Therefore, we assume that while the Epo-doses attaining the vessel compartment in the tumor were sufficient to stimulate the tumor endothelium due to the better accessibility, the amount of Epo that had reached the tumor cell compartment was too low to counterbalance the cytotoxic effects of carboplatin.",
+  "reading_complete" : "2020-08-02T16:17:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:16:35Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Epo" ],
+  "pmc_id" : "4440446",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K_p85",
+      "entity_text" : "p85",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Activation of the PI3K pathway following LIF stimulation was driven by the phosphorylation of the p85 subunit, a regulatory subunit of PI3K, consistent with previous studies.",
+  "reading_complete" : "2020-08-02T13:25:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:24:26Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the p85" ],
+  "pmc_id" : "5979829",
+  "score" : 0
+}

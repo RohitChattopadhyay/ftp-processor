@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007165",
+      "entity_text" : "signal transduction pathways",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P01133",
+      "entity_text" : "EGF",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "EGF binds with the EGFR to activate a series of signal transduction pathways, which induce protein phosphorylation and lead to the fast differentiation and proliferation of cells to accelerate the healing of corneal injuries.",
+  "reading_complete" : "2020-08-02T12:58:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:57:49Z",
+  "trigger" : "activate",
+  "evidence" : [ "EGF binds with the EGFR to activate a series of signal transduction pathways" ],
+  "pmc_id" : "5819933",
+  "score" : 0
+}

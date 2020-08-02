@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016477",
+      "entity_text" : "cell migration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36222",
+      "entity_text" : "Chi3L1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In a functional study of miR-125a-3p on Chi3L1 expression and metastasis, we found that miR-125a-3p mimic treatment decreased the expression of Chi3L1, together with reducing cell migration and proliferation in A549 and H460 cells.",
+  "reading_complete" : "2020-08-02T18:28:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:25:48Z",
+  "trigger" : "reducing",
+  "evidence" : [ "Chi3L1, together with reducing cell migration" ],
+  "pmc_id" : "6134921",
+  "score" : 0
+}

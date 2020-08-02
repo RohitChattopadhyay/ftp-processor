@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5312529",
+      "entity_text" : "ETE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Cellular_component" : [ "go:GO:0005578" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The correlation between expression levels of these identified transcripts and ETE was validated in PTC data from the TCGA cohort.",
+  "reading_complete" : "2020-08-02T11:43:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:41:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of these identified transcripts and ETE" ],
+  "pmc_id" : "6134936",
+  "score" : 0
+}

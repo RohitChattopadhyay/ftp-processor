@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01847",
+      "entity_text" : "siRNA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23985",
+      "entity_text" : "Au",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "An Au - siRNA complex was used in a phase I clinical trial to silence anti-ribonucleotide reductase in patients with metastatic melanoma XREF_BIBR.",
+  "reading_complete" : "2020-08-02T17:46:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:44:40Z",
+  "trigger" : "complex",
+  "evidence" : [ "Au-siRNA complex" ],
+  "pmc_id" : "4924507",
+  "score" : 0
+}

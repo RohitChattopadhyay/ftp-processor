@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0121" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "Organ" : [ "uberon:UBERON:2000106" ]
+    }
+  },
+  "verbose_text" : "High level of homocysteine (28.59 mumol/L) was found.",
+  "reading_complete" : "2020-08-02T11:55:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:54:51Z",
+  "trigger" : "level",
+  "evidence" : [ "level of homocysteine" ],
+  "pmc_id" : "5930204",
+  "score" : 0
+}

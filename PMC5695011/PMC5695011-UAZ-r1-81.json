@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99683",
+      "entity_text" : "ASK-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "ASK-1 phosphorylation is correlated with several inflammatory diseases XREF_BIBR - XREF_BIBR, and regulates IL-17 production XREF_BIBR.",
+  "reading_complete" : "2020-08-02T11:37:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:35:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ASK-1 phosphorylation" ],
+  "pmc_id" : "5695011",
+  "score" : 0
+}

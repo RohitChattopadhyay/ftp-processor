@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0276" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "A previous study demonstrated that a number of lean patients with PCOS also suffered from IR, and the lean patients with PCOS with normal insulin levels were significantly more likely to suffer from post-prandial hyperinsulinemia.",
+  "reading_complete" : "2020-08-02T13:21:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:20:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "7138261",
+  "score" : 0
+}

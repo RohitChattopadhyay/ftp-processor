@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6037",
+      "entity_text" : "folic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Pregnancy is known to be a state of low folic acid level.",
+  "reading_complete" : "2020-08-02T11:29:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:28:48Z",
+  "trigger" : "level",
+  "evidence" : [ "folic acid level" ],
+  "pmc_id" : "7044389",
+  "score" : 0
+}

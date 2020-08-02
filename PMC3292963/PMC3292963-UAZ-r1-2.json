@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30305",
+      "entity_text" : "CDC25B",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P92177",
+      "entity_text" : "14-3-3epsilon",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0042585" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "There is strong evidence to indicate that 14-3-3beta, 14-3-3epsilon, and 14-3-3sigma bind to CDC25B and that 14-3-3beta is responsible for sequestering CDC25B in the cytoplasm [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:48:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:46:13Z",
+  "trigger" : "bind",
+  "evidence" : [ "14-3-3epsilon, and 14-3-3sigma bind to CDC25B" ],
+  "pmc_id" : "3292963",
+  "score" : 0
+}

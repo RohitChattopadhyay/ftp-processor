@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62942",
+      "entity_text" : "FKBP12",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6442177",
+      "entity_text" : "everolimus",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1262" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Sirolimus and everolimus bind to FKBP12 and inhibit mTOR, a key regulator of cell proliferation, growth, apoptosis and survival in response to growth factors and cytokines.",
+  "reading_complete" : "2020-08-02T14:00:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:59:25Z",
+  "trigger" : "bind",
+  "evidence" : [ "everolimus bind to FKBP12" ],
+  "pmc_id" : "4687441",
+  "score" : 0
+}

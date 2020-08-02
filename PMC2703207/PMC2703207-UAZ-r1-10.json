@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13569",
+      "entity_text" : "CFTR",
+      "features" : [ {
+        "to_base" : "DeltaF",
+        "site" : 508,
+        "feature_type" : "mutation",
+        "evidence" : "DeltaF508"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000082" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It is possible that the over-expression of the DeltaF508 CFTR, retained in the RER at physiologic temperatures, leads to altered sialylation by a previously undescribed pathway.",
+  "reading_complete" : "2020-08-02T15:00:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:06Z",
+  "trigger" : "over-expression",
+  "evidence" : [ "over-expression of the DeltaF508 CFTR" ],
+  "pmc_id" : "2703207",
+  "score" : 0
+}

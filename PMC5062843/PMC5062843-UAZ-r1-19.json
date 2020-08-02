@@ -1,0 +1,40 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5394",
+      "entity_text" : "TMZ",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75874",
+      "entity_text" : "IDH",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0150" ]
+    }
+  },
+  "verbose_text" : "Although classification has been established on the basis of IDH status among GBM, some studies indicated that IDH mutation, MGMT promoter methylation status, 1p/19q loss independently associated with favorable outcome in temozolomide (TMZ) + radiotherapy treated GBM patients.",
+  "reading_complete" : "2020-08-02T16:55:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:52:29Z",
+  "trigger" : "associated",
+  "evidence" : [ "IDH mutation, MGMT promoter methylation status, 1p/19q loss independently associated with favorable outcome in temozolomide (TMZ" ],
+  "pmc_id" : "5062843",
+  "score" : 0
+}

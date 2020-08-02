@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02126",
+      "entity_text" : "PTE",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the present study, it was observed that PTE treatment downregulated the phosphorylation of mTOR and, consequently, the dephosphorylation of 4E-BP1.",
+  "reading_complete" : "2020-08-02T14:09:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:08:15Z",
+  "trigger" : "downregulated",
+  "evidence" : [ "PTE treatment downregulated the phosphorylation of mTOR" ],
+  "pmc_id" : "6192759",
+  "score" : 0
+}

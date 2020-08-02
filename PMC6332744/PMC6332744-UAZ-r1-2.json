@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "This patient 's surprisingly high cortisol level may have also been due to interferences of dexamethasone, or another unknown interference, in the cortisol assay (Roche Diagnostics, 1st generation assay).",
+  "reading_complete" : "2020-08-02T10:12:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:42Z",
+  "trigger" : "level",
+  "evidence" : [ "cortisol level" ],
+  "pmc_id" : "6332744",
+  "score" : 0
+}

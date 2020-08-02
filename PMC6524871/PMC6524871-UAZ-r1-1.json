@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin",
+      "entity_text" : "troponin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0439" ],
+      "Organ" : [ "uberon:UBERON:0002080" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The database does not uniformly contain troponin levels, which are an indicator of mortality among patients with PE.",
+  "reading_complete" : "2020-08-02T11:40:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:38:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "troponin levels" ],
+  "pmc_id" : "6524871",
+  "score" : 0
+}

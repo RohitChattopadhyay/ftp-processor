@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10265",
+      "entity_text" : "protease",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10646",
+      "entity_text" : "TFPI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We anticipated that emicizumab would be unlikely to interfere with the actions of AT or TFPI, because emicizumab binds the epidermal growth factor (EGF)-like domains of FIXa and FXa, while AT and TFPI bind the protease domains, and because its binding affinities are on the order of 1 micromolar.",
+  "reading_complete" : "2020-08-02T11:54:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:52:35Z",
+  "trigger" : "bind",
+  "evidence" : [ "TFPI bind the protease" ],
+  "pmc_id" : "6524866",
+  "score" : 0
+}

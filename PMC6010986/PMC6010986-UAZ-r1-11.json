@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P53985",
+      "entity_text" : "MCT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "It has been shown XREF_BIBR that the mRNA expression levels of MCT1 in LPS treated macrophages, while initially high (4 h post stimulation), can be reduced to almost zero by 16 h, validating our results.",
+  "reading_complete" : "2020-08-02T18:08:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MCT1" ],
+  "pmc_id" : "6010986",
+  "score" : 0
+}

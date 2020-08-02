@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009362",
+      "entity_text" : "metastasis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001951",
+      "entity_text" : "H4",
+      "features" : [ {
+        "modification_type" : "methylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SHARPIN augments invasiveness of lung cancer by interacting with PRMT5, which methylates histones H3 and H4, subsequently upregulating metastasis related gene expression XREF_BIBR.",
+  "reading_complete" : "2020-08-02T14:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:12Z",
+  "trigger" : "upregulating",
+  "evidence" : [ "H4, subsequently upregulating metastasis" ],
+  "pmc_id" : "6217061",
+  "score" : 0
+}

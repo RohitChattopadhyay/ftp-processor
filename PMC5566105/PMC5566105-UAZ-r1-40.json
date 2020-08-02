@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55040",
+      "entity_text" : "GEM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Given the facts that inflammation was proposed to be involved in the development of cancer stemness and GEM treatment might induce inflammation (9), we decided to determine if downregualtion of lncRNA-LET by GEM treatment is due to the activation of the inflammatory pathway.",
+  "reading_complete" : "2020-08-02T12:34:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:33:06Z",
+  "trigger" : "induce",
+  "evidence" : [ "GEM treatment might induce inflammation" ],
+  "pmc_id" : "5566105",
+  "score" : 0
+}

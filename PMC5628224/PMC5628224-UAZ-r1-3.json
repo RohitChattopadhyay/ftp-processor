@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2554",
+      "entity_text" : "carbamazepine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "After HP and HD treatments, blood carbamazepine level decreased to 58.7 mg/L, and 25 mL/h dose of ILE infusion was started again.",
+  "reading_complete" : "2020-08-02T11:36:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:35:52Z",
+  "trigger" : "level",
+  "evidence" : [ "carbamazepine level" ],
+  "pmc_id" : "5628224",
+  "score" : 0
+}

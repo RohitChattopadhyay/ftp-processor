@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0060" ],
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:3659" ]
+    }
+  },
+  "verbose_text" : "In the present study, fisetin downregulated the Akt and Erk phosphorylation levels in astrocytes in a dose dependent manner, but had no effect on p38 expression and phosphorylation.",
+  "reading_complete" : "2020-08-02T15:56:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:55:49Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p38 expression and phosphorylation" ],
+  "pmc_id" : "5360439",
+  "score" : 0
+}

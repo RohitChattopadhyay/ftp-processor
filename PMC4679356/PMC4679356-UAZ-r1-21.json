@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08441",
+      "entity_text" : "integrin alpha",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00059",
+      "entity_text" : "RGD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This finding may be explained by the different accumulation mechanisms of the two compounds since FDG reflects the distribution of glucose uptake and phosphorylation by tumor cells, but RGD binds to integrin alpha v beta 3 expressed on the surface of tumor cells and activated endothelial cells.",
+  "reading_complete" : "2020-08-02T16:16:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:04:10Z",
+  "trigger" : "binds",
+  "evidence" : [ "RGD binds to integrin alpha" ],
+  "pmc_id" : "4679356",
+  "score" : 0
+}

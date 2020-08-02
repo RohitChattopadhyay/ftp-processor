@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1483" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The results revealed that EGFR expression within those four cell lines differed greatly, with the HCC827 cells containing the highest amount of total EGFR and the second highest amount of the phosphorylated form of EGFR.",
+  "reading_complete" : "2020-08-02T13:18:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:17:38Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of total EGFR" ],
+  "pmc_id" : "6605624",
+  "score" : 0
+}

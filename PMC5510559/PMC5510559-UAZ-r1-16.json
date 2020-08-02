@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280493",
+      "entity_text" : "LTC4",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "extracellular space",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005615",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Cellular_component" : [ "go:GO:0005615" ],
+      "Organ" : [ "uberon:UBERON:0000009" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Once LTA4 converted to LTC4, LTC4 is transported to the extracellular space where varied to LTD4 and LTE4.",
+  "reading_complete" : "2020-08-02T09:19:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:12:50Z",
+  "trigger" : "transported",
+  "evidence" : [ "LTC4 is transported to the extracellular space" ],
+  "pmc_id" : "5510559",
+  "score" : 0
+}

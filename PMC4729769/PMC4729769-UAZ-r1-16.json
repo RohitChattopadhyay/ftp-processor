@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine 342",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51790",
+      "entity_text" : "ClC-3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6NDG6",
+      "entity_text" : "P-gp",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Based on our results, P-gp enhanced phosphorylation of human ClC-3 tyrosine 342 (or tyrosine 284 in the rat ClC-3 channel).",
+  "reading_complete" : "2020-08-02T10:41:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:40:27Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "P-gp enhanced phosphorylation of human ClC-3 tyrosine 342" ],
+  "pmc_id" : "4729769",
+  "score" : 0
+}

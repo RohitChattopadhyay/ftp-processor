@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14746",
+      "entity_text" : "LDL-C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "Almost all (92%) of ICP cases had maximal LDL-C level over 3.4 mmol/l (120 mg/dl), whereas only 42% of controls exceeded this level.",
+  "reading_complete" : "2020-08-02T11:35:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:31:37Z",
+  "trigger" : "level",
+  "evidence" : [ "LDL-C level" ],
+  "pmc_id" : "6311745",
+  "score" : 0
+}

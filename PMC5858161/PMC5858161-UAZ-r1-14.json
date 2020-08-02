@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00797",
+      "entity_text" : "renin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Adding levels of blood renin, SBP and DBP on the low-sodium diet to race, age and sex did not improve the prediction (AUC, 0.64 +/- 0.01).",
+  "reading_complete" : "2020-08-02T18:43:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:42:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of blood renin" ],
+  "pmc_id" : "5858161",
+  "score" : 0
+}

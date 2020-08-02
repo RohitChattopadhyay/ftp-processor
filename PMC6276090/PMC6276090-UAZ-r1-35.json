@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03397",
+      "entity_text" : "mTOR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03396",
+      "entity_text" : "V-ATPase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "CellLine" : [ "cellosaurus:CVCL_1061" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000092" ]
+    }
+  },
+  "verbose_text" : "The direct evidence for the interaction between V-ATPase and mTOR1 in osteoclasts is that R740S mutation in subunit a3 alters mTOR1 expression and activity in osteoclasts XREF_BIBR.",
+  "reading_complete" : "2020-08-02T11:14:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:11:51Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between V-ATPase and mTOR1" ],
+  "pmc_id" : "6276090",
+  "score" : 0
+}

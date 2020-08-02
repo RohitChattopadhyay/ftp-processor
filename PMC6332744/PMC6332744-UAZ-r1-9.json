@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0934" ]
+    }
+  },
+  "verbose_text" : "The previously healthy patient was admitted to her local hospital with suspected malignant disease because of a history of low back pain, genital bleeding, and weight loss of 16 kg over the previous 6 months.",
+  "reading_complete" : "2020-08-02T10:12:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:42Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 16 kg" ],
+  "pmc_id" : "6332744",
+  "score" : 0
+}

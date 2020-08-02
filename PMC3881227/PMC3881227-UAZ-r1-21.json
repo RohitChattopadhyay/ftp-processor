@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6325610",
+      "entity_text" : "melanin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2331",
+      "entity_text" : "benzamide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1K15" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0416" ]
+    }
+  },
+  "verbose_text" : "Non peptidic probe comprising benzamide derivative that specifically binds to melanin demonstrated uptake in B16F10 tumour model XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:29:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:15:17Z",
+  "trigger" : "binds",
+  "evidence" : [ "benzamide derivative that specifically binds to melanin" ],
+  "pmc_id" : "3881227",
+  "score" : 0
+}

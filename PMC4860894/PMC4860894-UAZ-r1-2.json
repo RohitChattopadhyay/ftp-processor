@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02620",
+      "entity_text" : "AC133 epitope",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02622",
+      "entity_text" : "AC133 mAb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0291" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0161" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "IR700 conjugation did not impair binding of the AC133 mAb to the AC133 epitope, as revealed by conventional flow-cytometric titration of AC133-IR700 against the native, unlabeled AC133 mAb, by using mixtures of AC133+ and AC133- HCT116 colon carcinoma cells.",
+  "reading_complete" : "2020-08-02T10:07:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:06:06Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of the AC133 mAb to the AC133 epitope" ],
+  "pmc_id" : "4860894",
+  "score" : 0
+}

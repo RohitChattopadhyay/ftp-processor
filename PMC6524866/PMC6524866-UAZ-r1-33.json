@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01494",
+      "entity_text" : "FXa",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10646",
+      "entity_text" : "TFPI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR XREF_BIBR XREF_BIBR XREF_BIBR Because emicizumab and AT can both bind to FIXa, and emicizumab, AT, and TFPI can each bind to FXa, the question arises as to whether emicizumab would interfere with the actions of AT or TFPI.",
+  "reading_complete" : "2020-08-02T11:54:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:52:35Z",
+  "trigger" : "bind",
+  "evidence" : [ "TFPI can each bind to FXa" ],
+  "pmc_id" : "6524866",
+  "score" : 0
+}

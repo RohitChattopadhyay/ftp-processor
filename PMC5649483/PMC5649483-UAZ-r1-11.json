@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10600",
+      "entity_text" : "TGF-beta3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000091" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It was proven that higher levels of TGF-beta3 in serum of healthy persons increase risk of steatosis development in further observation [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:01:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:55:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TGF-beta3" ],
+  "pmc_id" : "5649483",
+  "score" : 0
+}

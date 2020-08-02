@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36222",
+      "entity_text" : "Chi3L1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22415",
+      "entity_text" : "USF1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Even though USF1 binds the Chi3L1 promoter at the transcriptional level, Chi3L1 expression was inhibited by USF1; thus, we speculated the translational regulation of Chi3L1 by USF1 occurs through miRNA.",
+  "reading_complete" : "2020-08-02T18:28:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:25:48Z",
+  "trigger" : "binds",
+  "evidence" : [ "USF1 binds the Chi3L1" ],
+  "pmc_id" : "6134921",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31947",
+      "entity_text" : "SFN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61812",
+      "entity_text" : "TGFB2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Indeed, TGFB2 mRNA levels were elevated in SFN treated MCF-7 and SK-BR-3 cells and TGFB3 mRNA levels were increased in SK-BR-3 cells that may in turn promote an increase in the mRNA levels of cell cycle inhibitor CDKN1A (p21) in SK-BR-3 cells.",
+  "reading_complete" : "2020-08-02T15:44:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:42:04Z",
+  "trigger" : "elevated",
+  "evidence" : [ "TGFB2 mRNA levels were elevated in SFN" ],
+  "pmc_id" : "5596436",
+  "score" : 0
+}

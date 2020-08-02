@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5492" ],
+      "TissueType" : [ "tissuelist:TS-0559" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As shown in Figure XREF_FIG C, the expression level of PI3K, phosphorylation AKT and Survivin was elevated in PTEN siRNA transfected HepG2 and Bel-7402 cells.",
+  "reading_complete" : "2020-08-02T14:32:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:30:39Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PI3K, phosphorylation" ],
+  "pmc_id" : "5595128",
+  "score" : 0
+}

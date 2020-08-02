@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16885",
+      "entity_text" : "PLCgamma2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-100047" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Consistently, Syk phosphorylation of Y346 is enhanced, as well as phosphorylation of the downstream signaling molecule PLCgamma2, in TULA-2 knockout platelets treated with either CLEC-2 antibody or rhodocytin, compared with WT control platelets.",
+  "reading_complete" : "2020-08-02T13:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:21:06Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the downstream signaling molecule PLCgamma2" ],
+  "pmc_id" : "6524918",
+  "score" : 0
+}

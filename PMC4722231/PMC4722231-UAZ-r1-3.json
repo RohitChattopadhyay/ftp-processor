@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9615" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Despite administration of large amounts of glucose (30 mL of 30% glucose IV and 10 mL of 70% sucrose by gavage tube hourly), 26 consecutive blood glucose measurements were below 0.25 g/L (except one).",
+  "reading_complete" : "2020-08-02T13:05:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:01:55Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of glucose" ],
+  "pmc_id" : "4722231",
+  "score" : 0
+}

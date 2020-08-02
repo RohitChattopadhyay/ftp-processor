@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016477",
+      "entity_text" : "cell migration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02147",
+      "entity_text" : "miR-183",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The overexpression of miR-183, reflecting the downregulation of Ezrin, has been previously shown to inhibit breast cancer cell migration.",
+  "reading_complete" : "2020-08-02T14:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:13:19Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "miR-183, reflecting the downregulation of Ezrin, has been previously shown to inhibit breast cancer cell migration" ],
+  "pmc_id" : "6192766",
+  "score" : 0
+}

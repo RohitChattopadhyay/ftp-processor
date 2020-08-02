@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "methionine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0680" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It catalyzes the irreversible conversion of 5, 10 MTHF to 5-MTHF, which serves as a methyl donor in the remethylation of homocysteine to methionine.",
+  "reading_complete" : "2020-08-02T11:29:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:28:48Z",
+  "trigger" : "remethylation",
+  "evidence" : [ "remethylation of homocysteine to methionine" ],
+  "pmc_id" : "7044389",
+  "score" : 0
+}

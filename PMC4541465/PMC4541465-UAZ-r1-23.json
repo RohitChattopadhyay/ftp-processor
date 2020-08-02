@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445639",
+      "entity_text" : "oleic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The actual mechanism whereby oleic acid induces cell death is due to the down-regulation of anti-apoptotic marker Bcl-2 and up-regulation of pre-apoptotic marker Bad, among others [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:14:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:07:27Z",
+  "trigger" : "induces",
+  "evidence" : [ "oleic acid induces cell death" ],
+  "pmc_id" : "4541465",
+  "score" : 0
+}

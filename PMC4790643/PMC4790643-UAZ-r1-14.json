@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03181",
+      "entity_text" : "PPARdelta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBK2",
+      "entity_text" : "PGC-1alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of miR-29a suppressed the expression of its target gene, PPARdelta, then reduced the expression of PGC-1alpha, which is an important coactivator of PPARdelta.",
+  "reading_complete" : "2020-08-02T15:52:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:51:17Z",
+  "trigger" : "is an important coactivator",
+  "evidence" : [ "PGC-1alpha, which is an important coactivator of PPARdelta" ],
+  "pmc_id" : "4790643",
+  "score" : 0
+}

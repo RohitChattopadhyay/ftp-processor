@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001707" ],
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In low tissue oxygen levels due to nasal obstruction, the PDGF expression increases higher oxygenization especially in perivascular cells of the nasal stroma.",
+  "reading_complete" : "2020-08-02T11:31:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "oxygen levels" ],
+  "pmc_id" : "3781228",
+  "score" : 0
+}

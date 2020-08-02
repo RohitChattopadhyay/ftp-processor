@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0094" ],
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "In comparison to PIT, PDT is less specific and therefore can kill tumor cells independent of target antigen expression but does also kill normal tissue cells including normal brain cells XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:07:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:06:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "antigen expression" ],
+  "pmc_id" : "4860894",
+  "score" : 0
+}

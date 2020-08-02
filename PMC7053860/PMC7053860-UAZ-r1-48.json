@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15848",
+      "entity_text" : "adiponectin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0721" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Serum adiponectin levels were significantly lower in patients with newly diagnosed multiple myeloma compared with healthy volunteers (12.37 +/-3.13 vs. 13.80 +/-0.95; P < 0.05).",
+  "reading_complete" : "2020-08-02T14:02:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:00:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "adiponectin levels" ],
+  "pmc_id" : "7053860",
+  "score" : 0
+}

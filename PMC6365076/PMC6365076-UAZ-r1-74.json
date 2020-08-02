@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A2RUS2",
+      "entity_text" : "DENND3",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This might imply that rapamycin may promote ULK mediated Beclin1 and DENND3 phosphorylation by inhibiting the effect of mTOR on ULK expression, thereby resulting in autophagy.",
+  "reading_complete" : "2020-08-02T15:47:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:46:31Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "DENND3 phosphorylation by inhibiting the effect of mTOR" ],
+  "pmc_id" : "6365076",
+  "score" : 0
+}

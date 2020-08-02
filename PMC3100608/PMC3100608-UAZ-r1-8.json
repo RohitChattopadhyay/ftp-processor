@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0511" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Upon induction with TNF-alpha or PMA, the expression of ICAM-1 was slightly increased in Molt-3; however, the increase in ICAM-1 expression did not match the amount of ICAM-1 on the un activated Raji cells.",
+  "reading_complete" : "2020-08-02T09:49:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:48:06Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ICAM-1" ],
+  "pmc_id" : "3100608",
+  "score" : 0
+}

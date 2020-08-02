@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZQ7",
+      "entity_text" : "PD-L1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0665" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Within the patient group with expression of PD-L1 in a tumor biopsy, the majority of patients do not respond to the blockade treatment, indicating that the expression of PD-L1 on its own is not always sufficient for treatment response prediction, likely because of a lack of immune activation--potentially linked to a low tumor mutational burden--or because of resistance mechanisms, e.g., the role of PD-L1 expression on host cells XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:41:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of PD-L1" ],
+  "pmc_id" : "6037030",
+  "score" : 0
+}

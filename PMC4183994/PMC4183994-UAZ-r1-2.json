@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01980",
+      "entity_text" : "interleukin-6 receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03409",
+      "entity_text" : "glycoprotein",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "One of the elevated glycoprotein in ES cohort, IL6ST (also named gp130), binds to interleukin-6 receptor (IL-6R) and modulates the signalling of IL-6 the essential node to inflammatory response XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:20:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:19:56Z",
+  "trigger" : "binds",
+  "evidence" : [ "glycoprotein in ES cohort, IL6ST (also named gp130), binds to interleukin-6 receptor" ],
+  "pmc_id" : "4183994",
+  "score" : 0
+}

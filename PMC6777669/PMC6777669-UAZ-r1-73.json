@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9XTR1",
+      "entity_text" : "CDK4/6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06493",
+      "entity_text" : "CDK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0324" ]
+    }
+  },
+  "verbose_text" : "The proteins p21 and p27 are cyclin dependent kinase inhibitors that bind to and inhibit the activity of CDK2, CDK1 and CDK4/6 complexes; both p21 and p27 are thus regarded as regulators of cell cycle progression to G1 phase.",
+  "reading_complete" : "2020-08-02T14:43:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:42:51Z",
+  "trigger" : "complexes",
+  "evidence" : [ "CDK1 and CDK4/6 complexes" ],
+  "pmc_id" : "6777669",
+  "score" : 0
+}

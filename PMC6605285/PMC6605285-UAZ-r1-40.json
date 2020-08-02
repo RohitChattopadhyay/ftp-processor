@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21549",
+      "entity_text" : "SPT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000160" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "An in vitro study revealed ORMDL3 overexpression at mid-levels inhibits serine palmitoyltransferase (SPT) activity, while a more pronounced ORMDL3 overexpression results in increased SPT levels.",
+  "reading_complete" : "2020-08-02T13:45:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:44:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "SPT levels" ],
+  "pmc_id" : "6605285",
+  "score" : 0
+}

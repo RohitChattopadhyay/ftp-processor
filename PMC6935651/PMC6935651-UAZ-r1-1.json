@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Four hours following admission, she was more reactive; ketonuria was 1+, serum glucose level was 408 mg/dL (22.4 mmol/L).",
+  "reading_complete" : "2020-08-02T09:29:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:29:07Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6935651",
+  "score" : 0
+}

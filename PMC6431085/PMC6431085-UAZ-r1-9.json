@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16070",
+      "entity_text" : "heparan sulfate proteoglycan",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51654",
+      "entity_text" : "GPC3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is well recognized that GPC3, a membrane bound heparan sulfate proteoglycan, acts as a co-receptor regulating the signaling activity of numerous growth factors, such as bone morphogenic protein 7, fibroblast growth factor 2, and Wnt [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:26:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:23:51Z",
+  "trigger" : "bound",
+  "evidence" : [ "GPC3, a membrane-bound heparan sulfate proteoglycan" ],
+  "pmc_id" : "6431085",
+  "score" : 0
+}

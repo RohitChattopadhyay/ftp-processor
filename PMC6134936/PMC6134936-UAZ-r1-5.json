@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0080" ],
+      "Cellular_component" : [ "go:GO:0005578" ]
+    }
+  },
+  "verbose_text" : "In addition to several tumor microenvironment related categories, such as \" proteinaceous extracellular matrix, \" and \" blood vessel morphogenesis \", we found two other categories enriched in the identified gene set associated with ETE, \" response to oxygen levels \" and \" response to steroid hormone stimulus \", indicating their essential role in the aggressive behavior of PTC.",
+  "reading_complete" : "2020-08-02T11:43:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:41:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "oxygen levels" ],
+  "pmc_id" : "6134936",
+  "score" : 0
+}

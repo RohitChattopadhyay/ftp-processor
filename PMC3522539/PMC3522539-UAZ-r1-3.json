@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1108" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In this particular case, AVS gave confusing results, because the cortisol levels should have been much higher in the adrenal veins than was detected, and the aldosterone / cortisol ratio is normally higher in the adrenal vein responsible for the PA than in the periphery.",
+  "reading_complete" : "2020-08-02T16:14:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:12:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "3522539",
+  "score" : 0
+}

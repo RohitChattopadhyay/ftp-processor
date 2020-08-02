@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02642",
+      "entity_text" : "hemITAM",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Upon ligand engagement of a hemITAM or ITAM containing receptor, SFKs phosphorylate the tyrosine within the YXX (L/I) motif (one tyrosine per hemITAM and 2 per ITAM).",
+  "reading_complete" : "2020-08-02T13:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:21:06Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "hemITAM or ITAM-containing receptor, SFKs phosphorylate" ],
+  "pmc_id" : "6524918",
+  "score" : 0
+}

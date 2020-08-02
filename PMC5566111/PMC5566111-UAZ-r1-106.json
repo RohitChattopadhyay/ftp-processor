@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6NFN3",
+      "entity_text" : "RBFOX3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We further checked the effect of RBFOX3 on the pivotal proteins in the PI3K / ERK signaling, a crucial downstream pathway associated with the hTERT signaling, and found that overexpression of RBFOX3 up-regulated p-PI3K, p-AKT, p-JNK and p-ERK expression, but not total PI3K, AKT, JNK and ERK in QGY7703 and SNU-449 (XREF_SUPPLEMENTARY 3E) cells.",
+  "reading_complete" : "2020-08-02T18:24:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:22:29Z",
+  "trigger" : "up-regulated",
+  "evidence" : [ "RBFOX3 up-regulated p-PI3K, p-AKT, p-JNK and p-ERK expression, but not total PI3K" ],
+  "pmc_id" : "5566111",
+  "score" : 0
+}

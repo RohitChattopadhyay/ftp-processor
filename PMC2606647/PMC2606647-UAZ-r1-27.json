@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00320",
+      "entity_text" : "GATA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF10276",
+      "entity_text" : "zinc-finger domain",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0279" ],
+      "Cellular_component" : [ "uniprot:SL-0027" ],
+      "CellType" : [ "cl:CL:0000216" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "GATA transcription factors are a family of factors with a conserved zinc-finger domain that bind DNA consensus GATA sequences [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:41:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:35Z",
+  "trigger" : "bind",
+  "evidence" : [ "zinc-finger domain that bind DNA consensus GATA" ],
+  "pmc_id" : "2606647",
+  "score" : 0
+}

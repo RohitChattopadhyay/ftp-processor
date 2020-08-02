@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:216210",
+      "entity_text" : "dabigatran",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11626560",
+      "entity_text" : "crizotinib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ]
+    }
+  },
+  "verbose_text" : "Although further study is needed, the interaction between crizotinib and dabigatran may not be clinically relevant.",
+  "reading_complete" : "2020-08-02T11:38:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:37:47Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between crizotinib and dabigatran" ],
+  "pmc_id" : "6510014",
+  "score" : 0
+}

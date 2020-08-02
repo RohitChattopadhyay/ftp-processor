@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0798" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Further pituitary function testing also revealed a slightly elevated prolactin, low insulin like growth factor-1, low luteinizing hormone, and normal follicle stimulating hormone (in the context of a low testosterone level).",
+  "reading_complete" : "2020-08-02T11:46:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:45:35Z",
+  "trigger" : "level",
+  "evidence" : [ "testosterone level" ],
+  "pmc_id" : "6186879",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZQ7",
+      "entity_text" : "PD-L1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01413",
+      "entity_text" : "C4",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1511" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0964" ]
+    }
+  },
+  "verbose_text" : "Recently, an 89 Zr labeled recombinant human IgG (C4) that binds an extracellular epitope of PD-L1 was evaluated.",
+  "reading_complete" : "2020-08-02T09:41:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:06Z",
+  "trigger" : "binds",
+  "evidence" : [ "C4) that binds an extracellular epitope of PD-L1" ],
+  "pmc_id" : "6037030",
+  "score" : 0
+}

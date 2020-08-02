@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32119",
+      "entity_text" : "TSA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "JPH3 expression was restored after demethylation treatment with 5-Aza and TSA in methylated and silenced cell lines.",
+  "reading_complete" : "2020-08-02T12:17:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:16:28Z",
+  "trigger" : "demethylation",
+  "evidence" : [ "demethylation treatment with 5-Aza and TSA" ],
+  "pmc_id" : "5485426",
+  "score" : 0
+}

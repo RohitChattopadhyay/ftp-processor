@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "features" : [ {
+        "position" : "9",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Phosphorylation of GSK3beta at serine 9 leads to inhibition of its activity and reduces apoptosis.",
+  "reading_complete" : "2020-08-02T13:38:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:35:31Z",
+  "trigger" : "reduces",
+  "evidence" : [ "GSK3beta at serine 9 leads to inhibition of its activity and reduces apoptosis" ],
+  "pmc_id" : "5881801",
+  "score" : 0
+}

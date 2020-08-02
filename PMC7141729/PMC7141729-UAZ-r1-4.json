@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9875401",
+      "entity_text" : "rivaroxaban",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2157",
+      "entity_text" : "amiodarone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000813" ]
+    }
+  },
+  "verbose_text" : "The drug-drug interaction between amiodarone and rivaroxaban is expected to lead to an increase of AUC for rivaroxaban> = twofold but < = fivefold.18 In our patient, his eGFR approaches the threshold for CKD Stage 4, and this would have further increased the rise in plasma levels in an additive manner.",
+  "reading_complete" : "2020-08-02T10:00:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:59:07Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between amiodarone and rivaroxaban" ],
+  "pmc_id" : "7141729",
+  "score" : 0
+}

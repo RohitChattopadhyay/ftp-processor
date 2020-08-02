@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001630",
+      "entity_text" : "cAMP response element binding (CREB) protein",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PKA",
+      "entity_text" : "PKA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In response to glucagon, cAMP accumulates and induces PKA activation, which in turn phosphorylates cAMP response element binding (CREB) protein.",
+  "reading_complete" : "2020-08-02T14:43:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:42:25Z",
+  "evidence" : [ "PKA activation, which in turn phosphorylates cAMP response element binding (CREB) protein" ],
+  "pmc_id" : "5667421",
+  "score" : 0
+}

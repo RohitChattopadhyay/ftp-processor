@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "interferon gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002496" ]
+    }
+  },
+  "verbose_text" : "This pathology takes place after intraepithelial lymphocytes produce excessive amounts of interferon gamma and TNF-alpha, while production of IL-10 is decreased.",
+  "reading_complete" : "2020-08-02T10:26:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:20:09Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of interferon gamma" ],
+  "pmc_id" : "7380469",
+  "score" : 0
+}

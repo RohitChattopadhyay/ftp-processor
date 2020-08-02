@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The reduction in luciferase activity correlated with the observed increase in Src phosphorylation over this time period, but not for total Src, as confirmed by Western blotting.",
+  "reading_complete" : "2020-08-02T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:12:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Src phosphorylation" ],
+  "pmc_id" : "4775867",
+  "score" : 0
+}
