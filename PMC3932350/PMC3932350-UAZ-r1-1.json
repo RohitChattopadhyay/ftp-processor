@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "pRb",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96518",
+      "entity_text" : "p16 protein",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P11802",
+      "entity_text" : "CDK4",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The p16 protein functions as a tumor suppressor by binding to the cyclin D1 CDK4 / CDK6 complex, thereby preventing phosphorylation of the pRb protein [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:18:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:17:00Z",
+  "trigger" : "preventing",
+  "evidence" : [ "p16 protein functions as a tumor suppressor by binding to the cyclin D1 CDK4/CDK6 complex, thereby preventing phosphorylation of the pRb" ],
+  "pmc_id" : "3932350",
+  "score" : 0
+}
