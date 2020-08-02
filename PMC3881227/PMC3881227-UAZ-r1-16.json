@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6049",
+      "entity_text" : "EDTA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UI32",
+      "entity_text" : "Ga",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ]
+    }
+  },
+  "verbose_text" : "However, [68 Ga] Ga - EDTA complex prevented the development of other radiopharmaceuticals since the chemistry was complicated by prior need of the complex decomposition.",
+  "reading_complete" : "2020-08-02T10:29:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:15:17Z",
+  "trigger" : "complex",
+  "evidence" : [ "Ga-EDTA complex" ],
+  "pmc_id" : "3881227",
+  "score" : 0
+}

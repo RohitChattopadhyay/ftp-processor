@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Two factors have been suggested as triggers for medial remodelling : mutations in bone morphogenetic protein receptor 2 [BMPR2], implicated in the genesis of the disease [XREF_BIBR] and vascular smooth muscle cells in PAH expressing higher levels of serotonin that promotes vasoconstriction, cell growth and enhances hypoxia induced remodelling [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:34:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:29:23Z",
+  "trigger" : "promotes",
+  "evidence" : [ "serotonin that promotes vasoconstriction, cell growth" ],
+  "pmc_id" : "2682922",
+  "score" : 0
+}

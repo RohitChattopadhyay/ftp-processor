@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01307",
+      "entity_text" : "H3K27",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000499" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Since PRC2 complex catalyzes the methylation of H3K27, a repressive mark of histone modification, reduced PRC2 components implies there is a possibility of de-repressing gene expression due to loss of H3K27 trimethylation.",
+  "reading_complete" : "2020-08-02T10:46:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:44:57Z",
+  "trigger" : "trimethylation",
+  "evidence" : [ "H3K27 trimethylation" ],
+  "pmc_id" : "6376465",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK 1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Cellular_component" : [ "uniprot:SL-0027" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Western blot analysis showed that phosphorylation of ERK 1/2 was detected in only one out of three samples stimulated with IL-5 at a concentration of 1ng/ml (lane 9, Fig. XREF_FIG).",
+  "reading_complete" : "2020-08-02T10:41:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:35Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK 1/2" ],
+  "pmc_id" : "2606647",
+  "score" : 0
+}

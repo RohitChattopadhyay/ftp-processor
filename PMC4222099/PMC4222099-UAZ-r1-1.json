@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PPP3",
+      "entity_text" : "calcineurin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282315",
+      "entity_text" : "Tacrolimus",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Tacrolimus prevents the dephosphorylation of calcineurin and suppresses the production of inflammatory cytokines (i.e., interleukin (IL)-2, IL-3, IL-4, interferon-gamma and tumor necrosis factor (TNF)-alpha from T-cells).",
+  "reading_complete" : "2020-08-02T10:39:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:38:50Z",
+  "trigger" : "prevents",
+  "evidence" : [ "Tacrolimus prevents the dephosphorylation of calcineurin" ],
+  "pmc_id" : "4222099",
+  "score" : 0
+}

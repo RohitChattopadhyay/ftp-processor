@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01189",
+      "entity_text" : "ACTH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0004590" ]
+    }
+  },
+  "verbose_text" : "When a suspected case was identified, the diagnosis of X-ALD was made basing on clinical manifestations, cerebral MRI, general biologic assessment, cortisol and ACTH levels.",
+  "reading_complete" : "2020-08-02T10:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:43:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "ACTH levels" ],
+  "pmc_id" : "5678772",
+  "score" : 0
+}
