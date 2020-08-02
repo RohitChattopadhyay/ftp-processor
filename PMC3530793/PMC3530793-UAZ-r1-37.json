@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6M5",
+      "entity_text" : "ZnT1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03803",
+      "entity_text" : "EVER",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9T09" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "go:GO:0005783" ]
+    }
+  },
+  "verbose_text" : "EVER and ZnT1 complexes influence intracellular zinc concentration and downregulate transcription factors stimulated by zinc (MTF-1) or cytokines (c-Jun and Elk).",
+  "reading_complete" : "2020-08-02T14:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:14Z",
+  "trigger" : "complexes",
+  "evidence" : [ "EVER and ZnT1 complexes" ],
+  "pmc_id" : "3530793",
+  "score" : 0
+}

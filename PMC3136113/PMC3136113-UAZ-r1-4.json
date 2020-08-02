@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03727",
+      "entity_text" : "hexokinase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "FAs exert their effects through inhibition of PDH with subsequent increased intracellular concentration of glucose-6-phosphate and inhibition of hexokinase, which decreases glucose uptake [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:22:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:18:56Z",
+  "trigger" : "decreases",
+  "evidence" : [ "hexokinase, which decreases glucose" ],
+  "pmc_id" : "3136113",
+  "score" : 0
+}

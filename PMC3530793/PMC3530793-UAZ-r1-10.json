@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000169" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In a recent study, the phosphorylation of the endoplasmic reticulum ZIP7 by protein kinase CK2 was associated with the gated release of zinc from intracellular stores leading to activation of tyrosine kinases and the phosphorylation of AKT and extracellular signaling kinases 1 and 2 [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:14Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AKT" ],
+  "pmc_id" : "3530793",
+  "score" : 0
+}

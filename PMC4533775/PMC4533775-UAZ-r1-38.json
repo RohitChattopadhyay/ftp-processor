@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03823",
+      "entity_text" : "miR-135a",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The ectopic expression of miR-135a and miR-135b led to severe podocyte injury and the disorder of the podocyte cytoskeleton.",
+  "reading_complete" : "2020-08-02T14:19:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:18:51Z",
+  "trigger" : "led",
+  "evidence" : [ "miR-135a and miR-135b led to severe podocyte injury" ],
+  "pmc_id" : "4533775",
+  "score" : 0
+}

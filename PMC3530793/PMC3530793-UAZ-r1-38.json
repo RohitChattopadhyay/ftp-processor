@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03801",
+      "entity_text" : "IR-beta subunit",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E773" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "This was in contrast to studies by Tang and Shay [XREF_BIBR] who demonstrated that treatment of 3T3-L1 adipocytes over 5-10 minutes with ZnCl 2 increased tyrosine phosphorylation of the IR-beta subunit of the insulin receptor and enhanced the transport of glucose in the absence of insulin through the PI-3-kinase signal transduction pathway.",
+  "reading_complete" : "2020-08-02T14:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:14Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of the IR-beta subunit" ],
+  "pmc_id" : "3530793",
+  "score" : 0
+}

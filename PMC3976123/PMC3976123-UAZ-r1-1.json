@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "According to certain studies, the transcription of p53 induces AMPK phosphorylation; however, these results cannot explain the phosphorylation of AMPK in p53 mutant cells.",
+  "reading_complete" : "2020-08-02T14:23:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:22:05Z",
+  "trigger" : "induces",
+  "evidence" : [ "p53 induces AMPK phosphorylation" ],
+  "pmc_id" : "3976123",
+  "score" : 0
+}
