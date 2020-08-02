@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001837",
+      "entity_text" : "epithelial to mesenchymal transition",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Decrease of TGF-beta level in tumor tissue may be the reason of decreased epithelial to mesenchymal transition (EMT) process observed in tumor tissue of mice treated with both compounds combined, as TGF-beta is one of the most important molecules involved in EMT process XREF_BIBR.",
+  "reading_complete" : "2020-08-02T10:53:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:51:55Z",
+  "trigger" : "decreased",
+  "evidence" : [ "TGF-beta level in tumor tissue may be the reason of decreased epithelial to mesenchymal transition" ],
+  "pmc_id" : "6587338",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003084",
+      "entity_text" : "histone deacetylase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:92946",
+      "entity_text" : "AY",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We further found that ectopic expression of AY significantly strengthened the occupancy of PCAF, a histone acetyltransferase for acH3K9/14, but reduced the enrichment of SIRT1, a histone deacetylase, on the ITGAV promoter region of -894 to -677.",
+  "reading_complete" : "2020-08-02T10:55:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:53:54Z",
+  "trigger" : "reduced",
+  "evidence" : [ "AY significantly strengthened the occupancy of PCAF, a histone acetyltransferase for acH3K9/14, but reduced the enrichment of SIRT1, a histone deacetylase" ],
+  "pmc_id" : "6599657",
+  "score" : 0
+}

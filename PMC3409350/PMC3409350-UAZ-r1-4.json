@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08711",
+      "entity_text" : "-B",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06650",
+      "entity_text" : "-D",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "In addition, SP-B has been shown to demonstrate antimicrobial activity, suggesting that pulmonary host defence may involve an interaction between SP-A, -D and -B.",
+  "reading_complete" : "2020-08-02T10:57:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:52:37Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between SP-A, -D and -B" ],
+  "pmc_id" : "3409350",
+  "score" : 0
+}
