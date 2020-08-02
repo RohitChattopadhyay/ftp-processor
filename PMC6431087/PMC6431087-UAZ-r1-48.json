@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439709",
+      "entity_text" : "fructose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01266",
+      "entity_text" : "TG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "Several explanations have been suggested for the association between TG and fructose induced fatty liver.",
+  "reading_complete" : "2020-08-02T11:23:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:20:59Z",
+  "trigger" : "association",
+  "evidence" : [ "association between TG and fructose" ],
+  "pmc_id" : "6431087",
+  "score" : 0
+}
