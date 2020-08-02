@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06158",
+      "entity_text" : "antithrombin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833565",
+      "entity_text" : "heparin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR As the binding of heparin and antithrombin abrogates its binding to glycosaminoglycan, the protective effects of the treatment may be reduced.",
+  "reading_complete" : "2020-08-02T15:13:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:12:41Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of heparin and antithrombin" ],
+  "pmc_id" : "6524836",
+  "score" : 0
+}

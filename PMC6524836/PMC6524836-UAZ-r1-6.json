@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:LDH",
+      "entity_text" : "LDH",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0030112" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "We observed that cell viability, as evaluated using CCK-8, significantly improved with both alpha- and beta-antithrombin in a dose dependent manner, while cellular injury, as measured using the LDH level, was significantly suppressed only by a high dose of beta-antithrombin.",
+  "reading_complete" : "2020-08-02T15:13:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:12:41Z",
+  "trigger" : "level",
+  "evidence" : [ "LDH level" ],
+  "pmc_id" : "6524836",
+  "score" : 0
+}

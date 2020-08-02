@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Various doses of either alpha- or beta-antithrombin were used as treatment interventions, and both cell viability and the levels of lactate dehydrogenase (LDH) in the medium were assessed.",
+  "reading_complete" : "2020-08-02T15:13:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:12:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of lactate" ],
+  "pmc_id" : "6524836",
+  "score" : 0
+}
