@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P24063",
+      "entity_text" : "LFA-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "The alpha-subunit (CD11a) of LFA-1 consists of an amino terminal-inserted-domain (I-domain, approximately 200 amino acids), which is necessary for LFA-1 binding to ICAM-1.",
+  "reading_complete" : "2020-08-02T09:49:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:48:06Z",
+  "trigger" : "binding",
+  "evidence" : [ "LFA-1 binding to ICAM-1" ],
+  "pmc_id" : "3100608",
+  "score" : 0
+}

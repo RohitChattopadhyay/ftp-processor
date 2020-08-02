@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0511" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "The highest ICAM-1 level was found in Raji cells followed by Molt-3 cells and HL-60 cells.",
+  "reading_complete" : "2020-08-02T09:49:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:48:06Z",
+  "trigger" : "level",
+  "evidence" : [ "ICAM-1 level" ],
+  "pmc_id" : "3100608",
+  "score" : 0
+}

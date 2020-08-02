@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02366",
+      "entity_text" : "muscarinic receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5487426",
+      "entity_text" : "Tiotropium bromide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1315" ]
+    }
+  },
+  "verbose_text" : "Tiotropium bromide binds to muscarinic receptors with high affinity and is approximately 10 times more potent than ipratropium bromide in binding to human lung muscarinic receptors [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:50:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:43:58Z",
+  "trigger" : "binds",
+  "evidence" : [ "Tiotropium bromide binds to muscarinic receptors" ],
+  "pmc_id" : "2684714",
+  "score" : 0
+}

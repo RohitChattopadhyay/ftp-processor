@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48061",
+      "entity_text" : "SDF-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "Several promising CXCR4 antagonists have been developed to block SDF-1 / CXCR4 interactions that are currently under different stages of development.",
+  "reading_complete" : "2020-08-02T09:46:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:41:06Z",
+  "trigger" : "interactions",
+  "evidence" : [ "SDF-1/CXCR4 interactions" ],
+  "pmc_id" : "3563081",
+  "score" : 0
+}
