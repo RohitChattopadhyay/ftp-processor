@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammatory response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02360",
+      "entity_text" : "Adalimumab",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "By binding to TNF-alpha, Adalimumab reduces this inflammatory response.",
+  "reading_complete" : "2020-08-02T11:25:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:21:28Z",
+  "trigger" : "reduces",
+  "evidence" : [ "TNF-alpha, Adalimumab reduces this inflammatory response" ],
+  "pmc_id" : "4819088",
+  "score" : 0
+}

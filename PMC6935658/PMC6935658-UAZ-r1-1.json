@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin_T",
+      "entity_text" : "troponin T",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3694" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "The patient was transfused one further unit of packed red blood cells, and on day 2 postoperatively, the Hb had returned to 103 g/L with a troponin T level of 88 ng/L.",
+  "reading_complete" : "2020-08-02T11:26:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:24:32Z",
+  "trigger" : "level",
+  "evidence" : [ "troponin T level" ],
+  "pmc_id" : "6935658",
+  "score" : 0
+}
