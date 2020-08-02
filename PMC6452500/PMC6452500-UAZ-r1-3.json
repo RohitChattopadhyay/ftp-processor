@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27392",
+      "entity_text" : "protein S",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Patients with MM are in a hypercoagulable state since factor VIII (FVIII) activity and von Willebrand factor (vWF) antigen are highly elevated and protein S levels are decreased.12, 13, 14 Furthermore, these patients have an increased risk of venous thromboembolism (VTE).15, 16 FVIII activity is correlated with a higher incidence of VTE.17 The production of procoagulant auto-antibodies with prothrombotic properties has also been reported in MM patients.18 During HD or HDF, the exposure of blood to the hemofilter surface is inevitable.",
+  "reading_complete" : "2020-08-02T12:29:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:29:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "protein S levels" ],
+  "pmc_id" : "6452500",
+  "score" : 0
+}
