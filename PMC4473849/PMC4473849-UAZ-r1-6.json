@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477739",
+      "entity_text" : "vasopressin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0794" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found that there was approximately a 50-fold difference in the transcript levels of vasopressin and oxytocin, which were significantly higher in the posterior pituitary than the anterior pituitary.",
+  "reading_complete" : "2020-08-02T13:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:06:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of vasopressin" ],
+  "pmc_id" : "4473849",
+  "score" : 0
+}
