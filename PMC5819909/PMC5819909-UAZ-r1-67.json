@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03085",
+      "entity_text" : "RAS-BRAF-MAPK",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "BRAF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, one study found that the overexpression of BRAF activated the RAS-BRAF-MAPK signaling pathway.",
+  "reading_complete" : "2020-08-02T15:53:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:52:15Z",
+  "trigger" : "activated",
+  "evidence" : [ "BRAF activated the RAS-BRAF-MAPK" ],
+  "pmc_id" : "5819909",
+  "score" : 0
+}
