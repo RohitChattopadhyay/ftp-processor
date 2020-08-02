@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF11388",
+      "entity_text" : "DOTA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:27099",
+      "entity_text" : "Cu",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0003481" ]
+    }
+  },
+  "verbose_text" : "A stable 64 Cu - DOTA complex was formed, entrapped within the liposome cavity as shown in Figure XREF_FIG A.",
+  "reading_complete" : "2020-08-02T09:31:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:29:33Z",
+  "trigger" : "complex",
+  "evidence" : [ "Cu-DOTA complex" ],
+  "pmc_id" : "5197067",
+  "score" : 0
+}
