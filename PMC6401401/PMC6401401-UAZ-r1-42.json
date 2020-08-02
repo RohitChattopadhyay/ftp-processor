@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42574",
+      "entity_text" : "caspase 3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The mechanistic studies confirmed that they can consume GSH and enhance ROS levels, which further decreased the mitochondrial membrane potential, released cytochrome c into the cytoplasm, induced a cascade of caspase 9 and caspase 3 reactions and activated tumor cell apoptosis.",
+  "reading_complete" : "2020-08-02T17:58:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:50:32Z",
+  "trigger" : "decreased",
+  "evidence" : [ "ROS levels, which further decreased the mitochondrial membrane potential, released cytochrome c into the cytoplasm, induced a cascade of caspase 9 and caspase 3" ],
+  "pmc_id" : "6401401",
+  "score" : 0
+}
