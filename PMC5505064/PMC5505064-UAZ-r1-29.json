@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q674R7",
+      "entity_text" : "Atg9b",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01947",
+      "entity_text" : "mmu-miR-3091-3p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of mmu-miR-3091-3p in AML12 cells could suppress Atg9b while knockdown of the miRNA restored Atg9b at both mRNA and protein levels.",
+  "reading_complete" : "2020-08-02T09:19:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:18:30Z",
+  "trigger" : "suppress",
+  "evidence" : [ "mmu-miR-3091-3p in AML12 cells could suppress Atg9b" ],
+  "pmc_id" : "5505064",
+  "score" : 0
+}

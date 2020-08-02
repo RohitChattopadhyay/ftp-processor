@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q674R7",
+      "entity_text" : "Atg9b",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This may possibly be due to the accumulation of ubiquitinated proteins upon loss of Atg9b in hepatocytes as an ectopically expressed ubiquitinated protein CL1 was increased in Atg9b deficient hepatocytes.",
+  "reading_complete" : "2020-08-02T09:19:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:18:30Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Atg9b" ],
+  "pmc_id" : "5505064",
+  "score" : 0
+}

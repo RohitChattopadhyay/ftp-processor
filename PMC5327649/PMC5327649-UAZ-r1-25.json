@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01911",
+      "entity_text" : "receptor IL6R-IL6ST",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "Interleukin-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Interleukin-6, an inflammatory cytokine, binds to its receptor IL6R-IL6ST (GP130) to activate Janus kinases (JAK), which subsequently phosphorylates and activates its downstream target- signal transducer and activator of transcriptions (STATs), including STAT3, to regulate the expression of VEGF and matrix metalloproteinases (MMPs, e.g.",
+  "reading_complete" : "2020-08-02T09:17:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:15:30Z",
+  "trigger" : "binds",
+  "evidence" : [ "Interleukin-6, an inflammatory cytokine, binds to its receptor IL6R-IL6ST" ],
+  "pmc_id" : "5327649",
+  "score" : 0
+}

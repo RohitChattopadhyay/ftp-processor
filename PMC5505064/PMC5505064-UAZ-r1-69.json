@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q674R7",
+      "entity_text" : "Atg9b",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Loss of Atg9b is sufficient to increase ER stress and cell death in hepatocytes.",
+  "reading_complete" : "2020-08-02T09:19:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:18:30Z",
+  "trigger" : "increase",
+  "evidence" : [ "Atg9b is sufficient to increase ER" ],
+  "pmc_id" : "5505064",
+  "score" : 0
+}
