@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62937",
+      "entity_text" : "cyclophilin A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49591",
+      "entity_text" : "SARS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M654" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "The analysis of protein protein interaction using bioinformatics showed that SARS nucleocapsidal proteins bind to human cyclophilin A (hCypA) and this binding was demonstrated by surface plasmon resonance (SPR) technology.",
+  "reading_complete" : "2020-08-02T13:49:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:46:20Z",
+  "trigger" : "bind",
+  "evidence" : [ "SARS nucleocapsidal proteins bind to human cyclophilin A" ],
+  "pmc_id" : "7169834",
+  "score" : 0
+}
