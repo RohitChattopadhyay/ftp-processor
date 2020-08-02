@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35354",
+      "entity_text" : "COX-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0520" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In this experiment, we found that the selective COX-2 inhibitor celecoxib induced apoptosis of SGC-7901 cells via reduced expression levels of COX-2, as obsreved by inhibited cell proliferation using MTT analysis and an increased number of apoptotic cells as detected by TUNEL and flow cytometry.",
+  "reading_complete" : "2020-08-02T11:50:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of COX-2" ],
+  "pmc_id" : "4055439",
+  "score" : 0
+}

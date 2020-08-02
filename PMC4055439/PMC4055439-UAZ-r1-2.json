@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02282",
+      "entity_text" : "COX-2 inhibitors",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Further experimentation showed that COX-2 inhibitors may induce apoptosis by affecting Akt phosphorylation, thus activating the Akt signaling pathway.",
+  "reading_complete" : "2020-08-02T11:50:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:39Z",
+  "trigger" : "induce",
+  "evidence" : [ "COX-2 inhibitors may induce apoptosis by affecting Akt phosphorylation" ],
+  "pmc_id" : "4055439",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB10147",
+      "entity_text" : "PIP3",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Akt is activated as follows : the activated PI3K produces a secondary messenger PIP3 at the plasma membrane, PIP3 then binds an inactive Akt inducing its shift from the cytoplasm to the plasma membrane where Ser124 and Thr450 are phosphorylated, making Akt undergo a conformational change exposing its Thr308 and Ser473 sites.",
+  "reading_complete" : "2020-08-02T11:50:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:39Z",
+  "trigger" : "produces",
+  "evidence" : [ "PI3K produces a secondary messenger PIP3" ],
+  "pmc_id" : "4055439",
+  "score" : 0
+}

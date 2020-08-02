@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser-155",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92934",
+      "entity_text" : "BAD",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1222" ]
+    }
+  },
+  "verbose_text" : "It has previously been suggested that the phosphorylation of BAD at Ser 155 may convey an oncogenic potential.",
+  "reading_complete" : "2020-08-02T11:48:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:47:20Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of BAD at Ser-155" ],
+  "pmc_id" : "4356438",
+  "score" : 0
+}

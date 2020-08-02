@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92934",
+      "entity_text" : "BAD",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Immunofluorescence was used to compare the expression levels of phosphorylated BAD [pBAD (serine 112, -136 and -155)] in immortalized normal and invasive ovarian, colon and breast cancer cells.",
+  "reading_complete" : "2020-08-02T11:48:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:47:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of phosphorylated BAD" ],
+  "pmc_id" : "4356438",
+  "score" : 0
+}

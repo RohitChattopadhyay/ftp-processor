@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92934",
+      "entity_text" : "BAD",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PKA",
+      "entity_text" : "PKA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "BAD at Ser 112 is phosphorylated by ribosomal protein S6 kinase alpha-1 (RPS6KA1 / RSK) and cAMP dependent protein kinase [also known as protein kinase A (PKA)]; BAD at Ser 136 is phosphorylated by protein kinase B (PKB / Akt) and BAD at Ser 155 is preferentially phosphorylated by PKA.",
+  "reading_complete" : "2020-08-02T11:48:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:47:20Z",
+  "evidence" : [ "BAD at Ser-155 is preferentially phosphorylated by PKA" ],
+  "pmc_id" : "4356438",
+  "score" : 0
+}

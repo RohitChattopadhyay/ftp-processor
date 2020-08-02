@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92934",
+      "entity_text" : "BAD",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1222" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Conversely, the activity of a series of phosphatases, including protein phosphatase (PP) 1, PP2A and PP2C (PPM1A), as well as calcineurin, has been shown to exert pro apoptotic effects through the de-phosphorylation of BAD.",
+  "reading_complete" : "2020-08-02T11:48:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:47:20Z",
+  "trigger" : "de-phosphorylation",
+  "evidence" : [ "de-phosphorylation of BAD" ],
+  "pmc_id" : "4356438",
+  "score" : 0
+}
