@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Cofilin",
+      "entity_text" : "cofilin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Y27632 is known to block stress fibre formation by inhibiting myosin light chain phosphorylation and cofilin phosphorylations but independent of the profilin pathway.",
+  "reading_complete" : "2020-08-02T18:37:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:52Z",
+  "trigger" : "phosphorylations",
+  "evidence" : [ "cofilin phosphorylations" ],
+  "pmc_id" : "4330640",
+  "score" : 0
+}

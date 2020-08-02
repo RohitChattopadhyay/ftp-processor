@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41231",
+      "entity_text" : "P2y2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6022",
+      "entity_text" : "ADP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, it has been shown that ADP released by Acanthamoeba bind to P2y2 purinergic receptors on the host cells, causing an increase in intracellular calcium, inducing caspase-3 activation and finally resulting in apoptosis [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:37:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:52Z",
+  "trigger" : "bind",
+  "evidence" : [ "ADP released by Acanthamoeba bind to P2y2" ],
+  "pmc_id" : "4330640",
+  "score" : 0
+}
