@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1983",
+      "entity_text" : "APAP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A previous study found that APAP induced liver damage not only activates JNK and ERK phosphorylation, but also induces p38 phosphorylation in mouse models, although the common signaling pathways are the ERK and JNK phosphorylation pathways.",
+  "reading_complete" : "2020-08-02T16:23:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:22:17Z",
+  "trigger" : "activates",
+  "evidence" : [ "APAP-induced liver damage not only activates JNK and ERK phosphorylation" ],
+  "pmc_id" : "4501662",
+  "score" : 0
+}

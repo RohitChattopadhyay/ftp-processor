@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1983",
+      "entity_text" : "APAP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In general, high-dose APAP (> 5 mM) is used to induce cell death in renal and liver cell models, and high-dose APAP (300-2,500 mg/kg) is used to induce liver and kidney damage in animal models.",
+  "reading_complete" : "2020-08-02T16:23:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:22:17Z",
+  "trigger" : "induce",
+  "evidence" : [ "APAP (>5 mM) is used to induce cell death" ],
+  "pmc_id" : "4501662",
+  "score" : 0
+}

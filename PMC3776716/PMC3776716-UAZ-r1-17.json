@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04908",
+      "entity_text" : "survivin promoter region binding sites",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF-1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In light of this, we used a ChIP assay to determine if HIF-1alpha can directly bind to the above survivin promoter region binding sites, indicating that HIF-1alpha exerts its effect on the survivin promoter by direct interaction, consistent with our previous electrophoretic mobility shift assay (EMSA), which indicated that nuclear extracts of A549 could bind to the r- 32 P labeled 18-bp probe (nucleotides - 26 to - 9 of the survivin core promoter) which includes binding sites for HIF-1alpha.",
+  "reading_complete" : "2020-08-02T16:19:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:34Z",
+  "trigger" : "bind",
+  "evidence" : [ "HIF-1alpha can directly bind to the above survivin promoter region binding sites" ],
+  "pmc_id" : "3776716",
+  "score" : 0
+}

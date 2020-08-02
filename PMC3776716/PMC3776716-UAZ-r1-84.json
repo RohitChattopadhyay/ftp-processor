@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04904",
+      "entity_text" : "HIF-lalpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The result suggests that human HIF-lalpha expression knocked down by miRNA can significantly reduce A549 cell invasion under normoxic and hypoxic conditions, but re-expression of survivin by transfection of expression vectors in the HIF-lalpha knockdown cells does not promote invasive activity regardless of hypoxic or normoxic conditions (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:19:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:34Z",
+  "trigger" : "reduce",
+  "evidence" : [ "HIF-lalpha expression knocked down by miRNA can significantly reduce A549 cell invasion" ],
+  "pmc_id" : "3776716",
+  "score" : 0
+}
