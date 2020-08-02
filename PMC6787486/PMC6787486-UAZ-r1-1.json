@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HB29",
+      "entity_text" : "IL-36 receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08246",
+      "entity_text" : "neutrophil elastase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000775" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Truncated IL-36gamma cleaved by neutrophil elastase binds to IL-36 receptor on neutrophils and activates it to produce several inflammatory mediators such as matrix metalloproteinase 9, IL-17A, and chemokine (C-X-C motif) ligands 8.",
+  "reading_complete" : "2020-08-02T10:09:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:09:05Z",
+  "trigger" : "binds",
+  "evidence" : [ "neutrophil elastase binds to IL-36 receptor" ],
+  "pmc_id" : "6787486",
+  "score" : 0
+}
