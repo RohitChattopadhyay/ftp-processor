@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03972",
+      "entity_text" : "MHC II complexes",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "CellLine" : [ "cellosaurus:CVCL_N813" ],
+      "Cellular_component" : [ "go:GO:0005768" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000451" ]
+    }
+  },
+  "verbose_text" : "MHC II complexes with bound antigen and is subsequently transported to the cell membrane for presentation by antigen presenting cells (APCs), such as macrophages, dendritic cells, and B-lymphocytes [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:29:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:22:21Z",
+  "trigger" : "bound",
+  "evidence" : [ "MHC II complexes with bound antigen" ],
+  "pmc_id" : "4904097",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:210" ]
+    }
+  },
+  "verbose_text" : "The results revaled that STAT3 protein was significantly activated and phosphorylated by IL-6, accompanied by the increased levels of alpha-SMA protein (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:29:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:27:58Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "STAT3 protein was significantly activated and phosphorylated" ],
+  "pmc_id" : "4292781",
+  "score" : 0
+}

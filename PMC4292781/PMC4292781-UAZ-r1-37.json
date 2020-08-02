@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00896",
+      "entity_text" : "alpha-SMA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "We found that the protein levels of alpha-smooth muscle actin (alpha-SMA) were upregulated, and phosphorylated nuclear factor (NF)-kappaB protein levels were downregulated in the hUC-MSCs pretreated with IL-6, as shown by western blot analysis.",
+  "reading_complete" : "2020-08-02T14:29:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:27:58Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "alpha-SMA) were upregulated, and phosphorylated" ],
+  "pmc_id" : "4292781",
+  "score" : 0
+}
