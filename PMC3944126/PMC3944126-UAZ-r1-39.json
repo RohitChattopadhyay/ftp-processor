@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02774",
+      "entity_text" : "vitamin D binding protein",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6918141",
+      "entity_text" : "Eldecalcitol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Eldecalcitol binds more weakly to VDR but more strongly to serum vitamin D binding protein (DBP) than calcitriol.",
+  "reading_complete" : "2020-08-02T08:19:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:17:19Z",
+  "trigger" : "binds",
+  "evidence" : [ "Eldecalcitol binds more weakly to VDR but more strongly to serum vitamin D binding protein" ],
+  "pmc_id" : "3944126",
+  "score" : 0
+}
