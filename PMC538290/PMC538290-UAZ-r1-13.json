@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In patients with a history of cholecystectomy (as in the presented case), where the main cause of an episode of acute pancreatitis is bile duct lithiasis, the diagnosis could be missed if serum calcium levels ranged within normal values.",
+  "reading_complete" : "2020-08-02T18:25:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:22:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "calcium levels" ],
+  "pmc_id" : "538290",
+  "score" : 0
+}
