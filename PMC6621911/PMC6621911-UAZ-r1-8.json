@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "D1",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:5833" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "GSK-3beta plays an important role in tumor suppression by the phosphorylation of proto-oncogenes c-Jun, c-Myc, cyclin D1, and b-catenin [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:00:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:58:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of proto-oncogenes c-Jun, c-Myc, cyclin D1" ],
+  "pmc_id" : "6621911",
+  "score" : 0
+}
