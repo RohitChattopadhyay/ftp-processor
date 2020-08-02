@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9ULW5",
+      "entity_text" : "Rab26",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of Rab26 greatly suppressed the apoptosis of HPMVECs and attenuated the endothelial hyperpermeability.",
+  "reading_complete" : "2020-08-02T11:56:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:54:15Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "Rab26 greatly suppressed the apoptosis" ],
+  "pmc_id" : "5525755",
+  "score" : 0
+}
