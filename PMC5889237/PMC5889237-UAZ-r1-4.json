@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96M02",
+      "entity_text" : "fats",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000175" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "They are also at risk for malnutrition, infection, and death secondary to massive loss of proteins, electrolytes, fats, and lymphocytes.",
+  "reading_complete" : "2020-08-02T10:14:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:23Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of proteins, electrolytes, fats" ],
+  "pmc_id" : "5889237",
+  "score" : 0
+}
