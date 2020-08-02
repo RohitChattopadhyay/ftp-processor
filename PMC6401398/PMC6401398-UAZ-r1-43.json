@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07152",
+      "entity_text" : "miR-493-5p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of miR-493-5p significantly increased the concentration of environmental glucose and decreased the secretion of lactate in both RKO and SW620 cells.",
+  "reading_complete" : "2020-08-02T16:31:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:30:04Z",
+  "trigger" : "decreased",
+  "evidence" : [ "miR-493-5p significantly increased the concentration of environmental glucose and decreased the secretion of lactate" ],
+  "pmc_id" : "6401398",
+  "score" : 0
+}

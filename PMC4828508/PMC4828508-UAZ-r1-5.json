@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXI7",
+      "entity_text" : "CA-125",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The mean decrease in endometrioma volume was 29% (p = 0.007), and the mean decrease in serum CA-125 levels was 61% (p = 0.001) on days 1-70 of the treatment period.",
+  "reading_complete" : "2020-08-02T16:35:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:32:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "CA-125 levels" ],
+  "pmc_id" : "4828508",
+  "score" : 0
+}
