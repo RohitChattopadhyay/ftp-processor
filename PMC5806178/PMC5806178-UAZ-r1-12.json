@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "In this model, IL-10 levels were the single best predictor of lung injury severity [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:33:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:28:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-10 levels" ],
+  "pmc_id" : "5806178",
+  "score" : 0
+}
