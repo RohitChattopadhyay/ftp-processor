@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0663" ],
+      "Organ" : [ "uberon:UBERON:0001557" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The relative humidity (RH) is the amount of water vapor in a volume of gas, expressed as a percentage of the amount of water vapor required to fully saturate the same volume of gas at the same temperature and pressure [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:17:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:02:54Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of water" ],
+  "pmc_id" : "4541464",
+  "score" : 0
+}

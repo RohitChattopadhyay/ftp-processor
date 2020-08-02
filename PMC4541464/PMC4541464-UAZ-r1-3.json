@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This system maintains control of the gas temperature to the patient, regardless of changes in the gas flow or water level in the reservoir, despite having a slow time of reaction [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:17:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:02:54Z",
+  "trigger" : "level",
+  "evidence" : [ "water level" ],
+  "pmc_id" : "4541464",
+  "score" : 0
+}
