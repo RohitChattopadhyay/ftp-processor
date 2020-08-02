@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This is due to excessive loss of iron during menstruation.",
+  "reading_complete" : "2020-08-02T09:24:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:18:45Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of iron" ],
+  "pmc_id" : "6927017",
+  "score" : 0
+}
