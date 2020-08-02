@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5312983",
+      "entity_text" : "12-HETE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As expected for two products of the same metabolic pathway, 12-HETE and 14-HDoHE levels were linearly correlated, both at T1 (r 2 = 0.40, p < 10 3) and T2 (r 2 = 0.59, p < 10 3).",
+  "reading_complete" : "2020-08-02T13:36:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:33:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "12-HETE and 14-HDoHE levels" ],
+  "pmc_id" : "6598084",
+  "score" : 0
+}
