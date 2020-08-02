@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55000",
+      "entity_text" : "ARs",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "from_location_text" : "cytoplasm",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005737",
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The androgen receptor (AR) is a nuclear receptor that has a key role in prostate cancer carcinogenesis and progression, and ARs translocate from the cytoplasm into the nucleus after activation by androgenic hormones.",
+  "reading_complete" : "2020-08-02T16:27:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:26:25Z",
+  "trigger" : "translocate",
+  "evidence" : [ "ARs translocate from the cytoplasm into the nucleus" ],
+  "pmc_id" : "4501661",
+  "score" : 0
+}

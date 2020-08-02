@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To our knowledge, this study provides the first evidence that laminarin decreases Bcl-2 family protein expression and inhibits cell cycle progression by regulating the ErbB signaling pathway.",
+  "reading_complete" : "2020-08-02T16:28:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:27:51Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "Bcl-2 family protein expression and inhibits cell cycle" ],
+  "pmc_id" : "3776715",
+  "score" : 0
+}

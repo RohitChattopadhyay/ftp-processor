@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:769",
+      "entity_text" : "bicarbonate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001089" ]
+    }
+  },
+  "verbose_text" : "Metabolic alkalosis was defined as blood pH levels greater than7.45 and/or serum bicarbonate levels higher than 28 mmol/L in the absence of respiratory insufficiency (PaCO 2> = 45 mmHg).",
+  "reading_complete" : "2020-08-02T16:26:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:21:02Z",
+  "trigger" : "levels",
+  "evidence" : [ "bicarbonate levels" ],
+  "pmc_id" : "3564566",
+  "score" : 0
+}
