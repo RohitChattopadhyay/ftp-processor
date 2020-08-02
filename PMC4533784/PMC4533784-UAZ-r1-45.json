@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04221",
+      "entity_text" : "bufalin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36897",
+      "entity_text" : "TbetaRI",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Pretreatment with SB431542, a potent inhibitor of the phosphorylation of TbetaRI, significantly attenuated TGF-beta-induced EMT, mimicking the effect of bufalin on A549 cells.",
+  "reading_complete" : "2020-08-02T14:57:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:56:38Z",
+  "trigger" : "attenuated",
+  "evidence" : [ "TbetaRI, significantly attenuated TGF-beta-induced EMT, mimicking the effect of bufalin" ],
+  "pmc_id" : "4533784",
+  "score" : 0
+}

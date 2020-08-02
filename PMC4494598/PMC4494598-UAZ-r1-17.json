@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000451" ]
+    }
+  },
+  "verbose_text" : "In this study, we found that A20 cells secreted high levels of IL-10 and moderate levels of TGF-beta, but very low levels of TNF-alpha and IFN-gamma.",
+  "reading_complete" : "2020-08-02T14:55:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:54:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TGF-beta" ],
+  "pmc_id" : "4494598",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11524144",
+      "entity_text" : "compound C",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although compound C failed to affect the TGF-beta-induced phosphorylation of SAPK / JNK, p38 MAP kinase or Smad2, it markedly suppressed the TGF-beta-induced phosphorylation of both MEK1/2 and p44 / p42 MAP kinase.",
+  "reading_complete" : "2020-08-02T14:58:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:26Z",
+  "evidence" : [ "compound C failed to affect the TGF-beta-induced phosphorylation of SAPK/JNK" ],
+  "pmc_id" : "3577364",
+  "score" : 0
+}

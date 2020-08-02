@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08431",
+      "entity_text" : "MFG-E8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The reduced levels of MFG-E8 in the small intestine after I/R injury may contribute to the increased apoptosis under such a condition.",
+  "reading_complete" : "2020-08-02T14:54:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:53:24Z",
+  "trigger" : "contribute",
+  "evidence" : [ "MFG-E8 in the small intestine after I/R injury may contribute to the increased apoptosis" ],
+  "pmc_id" : "3573750",
+  "score" : 0
+}

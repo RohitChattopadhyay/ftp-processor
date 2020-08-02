@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaB-alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Exposure to TNF-alpha increased IkappaB-alpha phosphorylation levels in the neuroblastoma SH-SY5Y cell lines, which was accompanied by a marked decrease in IkappaB-alpha protein expression (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:56:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:55:38Z",
+  "trigger" : "increased",
+  "evidence" : [ "TNF-alpha increased IkappaB-alpha phosphorylation" ],
+  "pmc_id" : "4292717",
+  "score" : 0
+}
