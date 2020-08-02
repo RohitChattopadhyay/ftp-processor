@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14145",
+      "entity_text" : "Keap1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Our results suggested that cholesterol may increase the intercellular reactive oxygen species (ROS) level and activate the PI3K / AKT signaling pathway, and then increase the Nrf2 expression and promote its separation from the Keap1 - Nrf2 complex, which translocates to the nucleus and binds the promoter of HO-1 and plays an antioxidant role in cardiomyocytes.",
+  "reading_complete" : "2020-08-02T16:26:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:23:56Z",
+  "trigger" : "complex",
+  "evidence" : [ "Keap1-Nrf2 complex" ],
+  "pmc_id" : "5428940",
+  "score" : 0
+}

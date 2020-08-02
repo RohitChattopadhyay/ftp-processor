@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09601",
+      "entity_text" : "HO-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These findings indicate that overexpression of HO-1 reduced the oxygen consumption to alleviate the hypoxic effect by inhibition of glycolysis and aerobic oxidation processes after cholesterol treatment.",
+  "reading_complete" : "2020-08-02T16:26:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:23:56Z",
+  "trigger" : "reduced",
+  "evidence" : [ "HO-1 reduced the oxygen" ],
+  "pmc_id" : "5428940",
+  "score" : 0
+}

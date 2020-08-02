@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09601",
+      "entity_text" : "HO-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Hence, we suggested that HO-1 interacts with EBP and are involved in lipid metabolism, consume redundant cholesterol, and alleviate oxidative stress effects caused by cholesterol.",
+  "reading_complete" : "2020-08-02T16:26:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:23:56Z",
+  "trigger" : "interacts",
+  "evidence" : [ "HO-1 interacts with EBP and are involved in lipid metabolism, consume redundant cholesterol" ],
+  "pmc_id" : "5428940",
+  "score" : 0
+}

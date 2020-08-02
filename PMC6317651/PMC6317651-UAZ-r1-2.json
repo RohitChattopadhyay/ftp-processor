@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833565",
+      "entity_text" : "heparin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03460",
+      "entity_text" : "PEI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The results demonstrated that the PEI and heparin complex reduced the toxic effect in cancer cells while maintaining its transfection efficiency.",
+  "reading_complete" : "2020-08-02T16:30:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:29:15Z",
+  "trigger" : "complex",
+  "evidence" : [ "PEI and heparin complex" ],
+  "pmc_id" : "6317651",
+  "score" : 0
+}
