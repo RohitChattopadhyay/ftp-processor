@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006508",
+      "entity_text" : "protein degradation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increasing BCAA might be beneficial as they function as precursors for myocardial protein synthesis [XREF_BIBR, XREF_BIBR] while inflammation is known to increase protein degradation and to attenuate protein synthesis [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T07:59:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:55:37Z",
+  "trigger" : "increase",
+  "evidence" : [ "inflammation is known to increase protein degradation" ],
+  "pmc_id" : "4532862",
+  "score" : 0
+}

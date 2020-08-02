@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00592",
+      "entity_text" : "PC",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Denoting parasite count as PC, the likelihood of the joint distribution of observed data, random effects and PC can be expressed as (5) L = f (S | theta, tau, betas, phi (beta, b, t, PC)) xf (b, PC | beta) and integrating out the random effects of the conditional likelihood yields the marginal likelihood.",
+  "reading_complete" : "2020-08-02T07:55:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:49:43Z",
+  "trigger" : "expressed",
+  "evidence" : [ "PC can be expressed" ],
+  "pmc_id" : "6594707",
+  "score" : 0
+}
