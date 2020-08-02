@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00750",
+      "entity_text" : "TPA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To the best of our knowledge, the present study provides the first evidence that DDTC inhibits NF-kappaB activity, decreases the expression of Bcl-2 and enhances the inhibitory effects of TPA on pancreatic cancer cell growth in vitro and in vivo.",
+  "reading_complete" : "2020-08-02T09:01:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:00:35Z",
+  "trigger" : "enhances",
+  "evidence" : [ "Bcl-2 and enhances the inhibitory effects of TPA" ],
+  "pmc_id" : "4432920",
+  "score" : 0
+}

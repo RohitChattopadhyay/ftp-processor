@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5234",
+      "entity_text" : "salt",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ]
+    }
+  },
+  "verbose_text" : "A constitutive KO model of claudin-7 showed severe renal loss of salt, volume and K +, accompanied by hyperaldosteronism.",
+  "reading_complete" : "2020-08-02T09:04:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:02:33Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of salt" ],
+  "pmc_id" : "4214347",
+  "score" : 0
+}

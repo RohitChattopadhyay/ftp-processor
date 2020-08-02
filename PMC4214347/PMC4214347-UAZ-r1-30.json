@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95500",
+      "entity_text" : "claudin-14",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When animals were fed a high calcium diet, the renal gene expression level of claudin-14 was significantly upregulated; when the animals were fed a low calcium diet, claudin-14 gene expression was suppressed.",
+  "reading_complete" : "2020-08-02T09:04:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:02:33Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "calcium diet, the renal gene expression level of claudin-14 was significantly upregulated" ],
+  "pmc_id" : "4214347",
+  "score" : 0
+}
