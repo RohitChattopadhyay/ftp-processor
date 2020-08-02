@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6321",
+      "entity_text" : "DMPs",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000990" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The probes that showed a significant (> 1.2 fold change at a P-value < 0.05) difference in the methylation level (beta-value) in CDCS versus CTRL were defined as differentially methylated probes (DMPs).",
+  "reading_complete" : "2020-08-02T11:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:40:55Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated probes (DMPs" ],
+  "pmc_id" : "5771924",
+  "score" : 0
+}
