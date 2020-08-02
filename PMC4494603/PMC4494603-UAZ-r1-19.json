@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12872",
+      "entity_text" : "MAP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellLine" : [ "cellosaurus:CVCL_0002" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "To confirm this novel link between MFG-E8 and MAP kinases, we utilized a two-step blocking strategy : i) neutralization of the alpha v beta 3 -integrin heterodimer by the anti-alpha v -integrin antibody abrogated the rhMFG-E8-induced increase in the levels of MAP kinases; and ii) inhibition of MAP kinases by their inhibitors diminished the inhibitory effects of rhMFG-E8 on neutrophil migration through the modulation of GRK2 / CXCR2, thus suggesting the involvment of these two novel pathways in the MFG-E8-mediated downregulation of human neutrophil migration.",
+  "reading_complete" : "2020-08-02T13:37:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:31:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MAP" ],
+  "pmc_id" : "4494603",
+  "score" : 0
+}
