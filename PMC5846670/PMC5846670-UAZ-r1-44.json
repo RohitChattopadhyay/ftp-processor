@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Y397",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3901" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The phosphorylation of FAK at the Y397 site is known to serve as a binding site for the p85 subunit of PI3K, and activated PI3K can stimulate several intermediates, including AKT, which is required for FAK to promote cell migration.",
+  "reading_complete" : "2020-08-02T15:37:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:32Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of FAK at the Y397" ],
+  "pmc_id" : "5846670",
+  "score" : 0
+}

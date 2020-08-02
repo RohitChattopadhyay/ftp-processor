@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75751",
+      "entity_text" : "EMT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02959",
+      "entity_text" : "miRNA-200 family",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It has previously been shown that overexpression of the miRNA-200 family may inhibit EMT through increased E-cadherin expression targeting ZEB1 and ZEB2.",
+  "reading_complete" : "2020-08-02T15:38:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:37:18Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "miRNA-200 family may inhibit EMT" ],
+  "pmc_id" : "4990307",
+  "score" : 0
+}
