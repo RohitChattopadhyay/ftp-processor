@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-I",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30740",
+      "entity_text" : "EI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "Excluding under-reporters from the analysis did not change these associations; however, a positive association between EI and IGF-I emerged (fully adjusted P = 0.030).",
+  "reading_complete" : "2020-08-02T08:32:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:18:22Z",
+  "trigger" : "association",
+  "evidence" : [ "association between EI and IGF-I" ],
+  "pmc_id" : "4586450",
+  "score" : 0
+}
