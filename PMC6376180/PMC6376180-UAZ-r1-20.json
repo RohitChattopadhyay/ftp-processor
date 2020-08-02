@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001759",
+      "entity_text" : "PTX",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q38424",
+      "entity_text" : "ALT",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Table XREF_TABLE indicates that the level of ALT and ALP significantly increased in the free PTX (100 mg/m 2) group and the PTX-Lip (100 mg/m 2) group, but changes in the PTX-Lip (50 mg/m 2) group were negligible.",
+  "reading_complete" : "2020-08-02T14:55:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:54:42Z",
+  "trigger" : "increased",
+  "evidence" : [ "ALT and ALP significantly increased in the free PTX" ],
+  "pmc_id" : "6376180",
+  "score" : 0
+}
