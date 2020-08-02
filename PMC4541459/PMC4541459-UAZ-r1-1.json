@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "If this group of patients develops sepsis with non pulmonary origin, it can induce an acute respiratory failure by capillary action, and as result increases oxygen requirement and increase CO 2 concentration.",
+  "reading_complete" : "2020-08-02T08:26:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:21:29Z",
+  "trigger" : "increases",
+  "evidence" : [ "result increases oxygen" ],
+  "pmc_id" : "4541459",
+  "score" : 0
+}

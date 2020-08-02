@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0164" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "Five days after dextran sulfate sodium (DSS) feeding, rats developed typical symptoms of inflammatory colitis, including loss of weight, diarrhea, bloody stool, and death.",
+  "reading_complete" : "2020-08-02T08:29:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:27:21Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of weight, diarrhea, bloody stool, and death" ],
+  "pmc_id" : "4997245",
+  "score" : 0
+}
