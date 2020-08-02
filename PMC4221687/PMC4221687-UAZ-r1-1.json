@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01730",
+      "entity_text" : "CD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "This model demonstrates increased levels of uninfected CD4 + T cells and reduced viral and infected cell levels.",
+  "reading_complete" : "2020-08-02T10:09:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:06:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of uninfected CD4" ],
+  "pmc_id" : "4221687",
+  "score" : 0
+}
