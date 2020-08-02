@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The phosphorylated p53 protein was detected using an antibody specifically recognizing human, monkey and rat p53 phosphorylated at the serine 15 and the comparable phosphorylated site in mouse p53 (serine 18).",
+  "reading_complete" : "2020-08-02T10:04:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:03:28Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "p53 phosphorylated" ],
+  "pmc_id" : "3573718",
+  "score" : 0
+}

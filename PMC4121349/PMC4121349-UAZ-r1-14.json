@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15502",
+      "entity_text" : "elastin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellType" : [ "cl:CL:0002620" ]
+    }
+  },
+  "verbose_text" : "UV irradiation is known to cause elastin degradation by activating elastase, and loss of skin elastin caused by UVA irradiation results in wrinkle formation.",
+  "reading_complete" : "2020-08-02T10:05:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:04:26Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of skin elastin" ],
+  "pmc_id" : "4121349",
+  "score" : 0
+}

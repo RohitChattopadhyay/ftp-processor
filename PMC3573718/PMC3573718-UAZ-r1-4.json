@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These results suggest that Mdm2 functions as a negative feedback regulator to maintain p53 at a low level under oxidative stress, since the major function of Mdm2 is to interact with p53 and thereby induce the ubiquitination and degradation of p53.",
+  "reading_complete" : "2020-08-02T10:04:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:03:28Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination and degradation of p53" ],
+  "pmc_id" : "3573718",
+  "score" : 0
+}

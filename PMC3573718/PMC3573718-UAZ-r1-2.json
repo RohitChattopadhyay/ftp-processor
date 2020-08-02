@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00534",
+      "entity_text" : "CDK6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38936",
+      "entity_text" : "p21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Therefore, an increased p21 expression level, suppressing the CDK4- and CDK6 activation, is considered to be induced by the increase of phosphorylated p53 protein, resulting in a decrease of cell number in the MGFs treated with a lower concentration of H 2 O 2.",
+  "reading_complete" : "2020-08-02T10:04:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:03:28Z",
+  "trigger" : "suppressing",
+  "evidence" : [ "p21 expression level, suppressing the CDK4- and CDK6" ],
+  "pmc_id" : "3573718",
+  "score" : 0
+}
