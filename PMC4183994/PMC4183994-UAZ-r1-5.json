@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "A higher level of IL-6 has been shown in ES than HAART than in HIV- XREF_BIBR.",
+  "reading_complete" : "2020-08-02T09:20:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:19:56Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IL-6" ],
+  "pmc_id" : "4183994",
+  "score" : 0
+}
