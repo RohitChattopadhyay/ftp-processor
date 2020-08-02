@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "LPS has been reported to induce macrophages, leading to increased activation and phosphorylation of JNK, ERK1/2 and p38.",
+  "reading_complete" : "2020-08-02T14:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:39:44Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of JNK, ERK1/2" ],
+  "pmc_id" : "5846657",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35354",
+      "entity_text" : "COX-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35228",
+      "entity_text" : "iNOS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The protein levels of iNOS and COX-2 were highly upregulated in response to LPS, while treatment with SCRT significantly inhibited the upregulation of iNOS and COX-2 in a dose dependent manner (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:39:44Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "iNOS and COX-2 were highly upregulated in response to LPS, while treatment with SCRT significantly inhibited the upregulation of iNOS and COX-2" ],
+  "pmc_id" : "5846657",
+  "score" : 0
+}

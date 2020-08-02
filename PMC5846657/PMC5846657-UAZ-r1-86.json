@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0469" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "NO is a radical produced from L-arginine through the iNOS, which produces high amounts of NO during inflammation.",
+  "reading_complete" : "2020-08-02T14:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:39:44Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of NO" ],
+  "pmc_id" : "5846657",
+  "score" : 0
+}
