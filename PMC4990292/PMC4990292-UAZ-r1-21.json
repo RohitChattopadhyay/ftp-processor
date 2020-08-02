@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "BRAF",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32119",
+      "entity_text" : "TSA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Alternatively, a serrated or BRAF pathway (families PH3 and PH8) where SSA or TSA will probably lead to MSI-H cancer carrying BRAF mutations may also occur (XREF_FIG, upper panel).",
+  "reading_complete" : "2020-08-02T15:25:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:18:22Z",
+  "trigger" : "lead",
+  "evidence" : [ "TSA will probably lead to MSI-H cancer carrying BRAF" ],
+  "pmc_id" : "4990292",
+  "score" : 0
+}

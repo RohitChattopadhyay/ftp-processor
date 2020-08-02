@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19220",
+      "entity_text" : "O-6-methylguanine-DNA methyltransferase",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "Organ" : [ "uberon:UBERON:0022276" ]
+    }
+  },
+  "verbose_text" : "This phenotype appears to be related to MutL homolog 1 (MLH1) methylation, which has been associated with MSI status, rather than O-6-methylguanine-DNA methyltransferase (MGMT) methylation.",
+  "reading_complete" : "2020-08-02T15:25:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:18:22Z",
+  "trigger" : "methylation",
+  "evidence" : [ "O-6-methylguanine-DNA methyltransferase (MGMT) methylation" ],
+  "pmc_id" : "4990292",
+  "score" : 0
+}
