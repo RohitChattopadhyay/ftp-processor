@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01662",
+      "entity_text" : "TSS-DMR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although the frequency of the inactivated der (X) chromosome remain minor, this would argue against the spreading of X inactivation into the KCNQ1OT1 : TSS-DMR that is normally unmethylated on the paternally inherited chromosome 11 (the data of the H19 / IGF2 : IG-DMR are not informative, because this DMR is normally methylated when paternally inherited).",
+  "reading_complete" : "2020-08-02T09:42:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:42:15Z",
+  "trigger" : "unmethylated",
+  "evidence" : [ "TSS-DMR that is normally unmethylated" ],
+  "pmc_id" : "7303873",
+  "score" : 0
+}
