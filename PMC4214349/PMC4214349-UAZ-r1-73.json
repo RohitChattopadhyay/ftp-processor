@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "We observed that large quantities of Src were phosphorylated following ischemia, consistent with earlier observations.",
+  "reading_complete" : "2020-08-02T10:44:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:42:37Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Src were phosphorylated" ],
+  "pmc_id" : "4214349",
+  "score" : 0
+}
