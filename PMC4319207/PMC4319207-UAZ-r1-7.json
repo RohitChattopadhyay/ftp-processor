@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08684",
+      "entity_text" : "CYP3A4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:392622",
+      "entity_text" : "ritonavir",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Drug interaction can be other key factor in ICS associated AS; CYP3A4 liver enzyme inhibitors such as ritonavir and ketoconazole, significantly increase the plasma concentration of ICS (up to four fold).",
+  "reading_complete" : "2020-08-02T09:12:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:06:59Z",
+  "trigger" : "inhibitors",
+  "evidence" : [ "CYP3A4 liver enzyme inhibitors such as ritonavir" ],
+  "pmc_id" : "4319207",
+  "score" : 0
+}

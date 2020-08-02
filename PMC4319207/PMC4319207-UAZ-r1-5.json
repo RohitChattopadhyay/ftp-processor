@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01816",
+      "entity_text" : "melanocortin-2 receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01189",
+      "entity_text" : "ACTH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0469" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0002197" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ACTH binds to the melanocortin-2 receptor in the adrenal gland and stimulates synthesis and release of cortisol in to the systemic circulation.",
+  "reading_complete" : "2020-08-02T09:12:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:06:59Z",
+  "trigger" : "binds",
+  "evidence" : [ "ACTH binds to the melanocortin-2 receptor" ],
+  "pmc_id" : "4319207",
+  "score" : 0
+}
