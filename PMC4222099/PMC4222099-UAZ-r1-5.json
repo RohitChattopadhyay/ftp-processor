@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0963" ],
+      "Organ" : [ "uberon:UBERON:0022361" ]
+    }
+  },
+  "verbose_text" : "On the ninth day of admission, the CRP level decreased from 17.58 to 4.00 mg/dL.",
+  "reading_complete" : "2020-08-02T10:39:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:38:50Z",
+  "trigger" : "level",
+  "evidence" : [ "CRP level" ],
+  "pmc_id" : "4222099",
+  "score" : 0
+}
