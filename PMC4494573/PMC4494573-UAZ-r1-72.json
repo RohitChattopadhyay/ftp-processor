@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our results were similar to the those of the study by Li et al, who demonstrated that the proliferation of co-cultured choroidal endothelial cells was reduced by the downregulation of VEGF expression.",
+  "reading_complete" : "2020-08-02T11:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:56:26Z",
+  "trigger" : "reduced",
+  "evidence" : [ "proliferation of co-cultured choroidal endothelial cells was reduced by the downregulation of VEGF" ],
+  "pmc_id" : "4494573",
+  "score" : 0
+}

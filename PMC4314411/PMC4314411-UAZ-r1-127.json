@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02409",
+      "entity_text" : "TNF-kappa",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y616",
+      "entity_text" : "IRAK-M",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "By contrast, the increased IRAK-M expression evidently decreased TNF-kappa and RANTES secretion induced by prolonged exposure to alcohol and LPS stimulation.",
+  "reading_complete" : "2020-08-02T11:59:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:57:39Z",
+  "trigger" : "decreased",
+  "evidence" : [ "IRAK-M expression evidently decreased TNF-kappa" ],
+  "pmc_id" : "4314411",
+  "score" : 0
+}

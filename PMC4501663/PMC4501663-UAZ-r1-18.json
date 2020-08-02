@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0067" ],
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000062" ]
+    }
+  },
+  "verbose_text" : "Liu et al found that puerarin suppresses the apoptosis of human osteoblasts by increasing the protein levels of Bcl-2, while decreasing the levels of Bax in a dose dependent manner.",
+  "reading_complete" : "2020-08-02T12:01:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:59:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Bcl-2" ],
+  "pmc_id" : "4501663",
+  "score" : 0
+}
