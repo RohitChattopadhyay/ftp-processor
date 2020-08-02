@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439357",
+      "entity_text" : "galactose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "CellLine" : [ "cellosaurus:CVCL_D969" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:4565" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "However, in case of high glucose and galactose levels in the lumen, SGLT1 facilitates insertion of GLUT2 on the apical membrane of the enterocyte to aid in glucose or galactose uptake [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T12:24:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:20:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "galactose levels" ],
+  "pmc_id" : "4814672",
+  "score" : 0
+}

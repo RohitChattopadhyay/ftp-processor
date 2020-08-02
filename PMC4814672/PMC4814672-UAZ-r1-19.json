@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14410",
+      "entity_text" : "sucrase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460291",
+      "entity_text" : "L-arabinose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Both D-xylose [XREF_BIBR] and L-arabinose [XREF_BIBR] may inhibit sucrase activity.",
+  "reading_complete" : "2020-08-02T12:24:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:20:59Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "L-arabinose [ XREF_BIBR ] may inhibit sucrase" ],
+  "pmc_id" : "4814672",
+  "score" : 0
+}
