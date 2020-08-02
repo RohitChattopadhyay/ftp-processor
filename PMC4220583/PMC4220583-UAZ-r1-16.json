@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0002372" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Currently available evidences suggest that AMPK and SIRT1 display mutual interactions with each other; AMPK could activate SIRT1 by increasing cellular NAD + level via promoting expression of nicotinamide phosphoribosyltransferase (Nampt), a rate limiting enzyme in NAD + biosynthesis; however, SIRT1 can also directly deacetylate and activate LKB1, resulting in the activation and phosphorylation of AMPK [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:18:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:11:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AMPK" ],
+  "pmc_id" : "4220583",
+  "score" : 0
+}

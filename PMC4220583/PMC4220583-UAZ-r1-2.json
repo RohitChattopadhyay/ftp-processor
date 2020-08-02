@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00586",
+      "entity_text" : "EX527",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Notably, we found that leucine induced AMPK phosphorylation was markedly blocked by EX527, suggesting that AMPK might serve as a downstream target of SIRT1.",
+  "reading_complete" : "2020-08-02T09:18:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:11:17Z",
+  "trigger" : "blocked",
+  "evidence" : [ "AMPK phosphorylation was markedly blocked by EX527" ],
+  "pmc_id" : "4220583",
+  "score" : 0
+}

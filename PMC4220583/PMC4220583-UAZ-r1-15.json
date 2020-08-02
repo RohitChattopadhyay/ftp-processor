@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0002372" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To determine the interplay between SIRT1 and AMPK, we measured the cellular NAD + level, SIRT1 activity, and phosphorylation of AMPK at time points : 0, 1, 4, 6, 12, and 24 hours by leucine treatment in C2C12 myotubes.",
+  "reading_complete" : "2020-08-02T09:18:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:11:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AMPK" ],
+  "pmc_id" : "4220583",
+  "score" : 0
+}

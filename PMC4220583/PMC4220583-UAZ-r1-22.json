@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15831",
+      "entity_text" : "LKB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002372" ]
+    }
+  },
+  "verbose_text" : "In support of this concept, Price et al. reported that SIRT1 activation is required for AMPK phosphorylation and improvement of mitochondrial function via deacetylation and activation of LKB1, a primary upstream kinase of AMPK [XREF_BIBR, XREF_BIBR], while Park et al. found that resveratrol activates SIRT1 via an indirect pathway involving calmodulin dependent protein kinase kinase beta (Camkkbeta) and AMPK activation [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:18:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:11:17Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "deacetylation and activation of LKB1" ],
+  "pmc_id" : "4220583",
+  "score" : 0
+}

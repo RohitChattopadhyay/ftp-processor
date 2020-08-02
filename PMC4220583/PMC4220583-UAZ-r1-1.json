@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:69362",
+      "entity_text" : "HMB",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "HMB, a minor metabolite of leucine, has been reported to stimulate AMPK phosphorylation synergistically with metformin, resulting in significant increases in insulin sensitivity and glucose tolerance in mice [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:18:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:11:17Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "HMB, a minor metabolite of leucine, has been reported to stimulate AMPK phosphorylation" ],
+  "pmc_id" : "4220583",
+  "score" : 0
+}
