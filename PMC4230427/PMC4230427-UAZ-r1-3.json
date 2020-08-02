@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "methionine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "MTHFR is a folate related enzyme important for remethylation of homocysteine to methionine.",
+  "reading_complete" : "2020-08-02T17:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:30:54Z",
+  "trigger" : "remethylation",
+  "evidence" : [ "remethylation of homocysteine to methionine" ],
+  "pmc_id" : "4230427",
+  "score" : 0
+}
