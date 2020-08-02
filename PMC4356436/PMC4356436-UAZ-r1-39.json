@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15418",
+      "entity_text" : "p90RSK1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0480" ],
+      "Organ" : [ "uberon:UBERON:0001134" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "Moreover, in cultured primary myocytes from normal subjects, obese patients, or patients with T2D, where BRS-3 is natively expressed, the insulin-mimetic effects of [D-Tyr 6, beta-Ala 11, Phe 13, Nle 14] bombesin 6-14 have been reported, which involve an increase in kinase phosphorylation [MAPKs, p90RSK1, protein kinase B (PKB) and p70s6K], thus improving glucose metabolism, with cells from obese patients and patients with T2D being more sensitive to the ligand than cells from normal subjects.",
+  "reading_complete" : "2020-08-02T13:13:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:07:08Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation [MAPKs, p90RSK1" ],
+  "pmc_id" : "4356436",
+  "score" : 0
+}
