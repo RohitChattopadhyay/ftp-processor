@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000796",
+      "entity_text" : "transaminase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0015480" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "After IVR therapy, blood chemical analysis was monitored for several weeks, revealing that transaminase level was not elevated and hepatic infarction was considered negative.",
+  "reading_complete" : "2020-08-02T08:07:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:07:02Z",
+  "trigger" : "level",
+  "evidence" : [ "transaminase level" ],
+  "pmc_id" : "6099015",
+  "score" : 0
+}
