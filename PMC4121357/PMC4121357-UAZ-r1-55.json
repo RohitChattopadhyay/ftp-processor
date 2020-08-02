@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P92208",
+      "entity_text" : "p-JNK",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Taguchi et al reported that blocking RAGE-HMGB1-mediated cellular stimulation decreased the levels of p-JNK, and further inhibited the proliferation of rat C6 glioma cells.",
+  "reading_complete" : "2020-08-02T10:58:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:56:53Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "p-JNK, and further inhibited the proliferation" ],
+  "pmc_id" : "4121357",
+  "score" : 0
+}

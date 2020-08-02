@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF-1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0021" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0002049" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These data are consistent with the results of previous studies showing that a loss of HIF-1alpha had little effect on in vitro cell growth under hypoxic conditions.",
+  "reading_complete" : "2020-08-02T11:01:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:00:15Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of HIF-1alpha" ],
+  "pmc_id" : "3577141",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The reduction of HDL-C was not coupled with a significant decrease of apo A-I, suggesting a remodeling of HDL particles, characterized by a loss of cholesterol, rather than a decrease of their concentration.",
+  "reading_complete" : "2020-08-02T10:56:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:49:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of cholesterol" ],
+  "pmc_id" : "3306966",
+  "score" : 0
+}

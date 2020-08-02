@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02893",
+      "entity_text" : "Gram",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02788",
+      "entity_text" : "Lactoferrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:210" ],
+      "TissueType" : [ "tissuelist:TS-0891" ],
+      "Organ" : [ "uberon:UBERON:0001827" ]
+    }
+  },
+  "verbose_text" : "Lactoferrin can also bind the lipopolysacchride of Gram negative bacteria and disorganize and destabilize the bacterial surface, which in turn increases the ability of antibiotics to permeate the bacteria.",
+  "reading_complete" : "2020-08-02T11:00:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:59:39Z",
+  "trigger" : "bind",
+  "evidence" : [ "Lactoferrin can also bind the lipopolysacchride of Gram" ],
+  "pmc_id" : "4501646",
+  "score" : 0
+}
