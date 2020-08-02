@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009336",
+      "entity_text" : "necrosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16066",
+      "entity_text" : "GCA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The GCA can cause necrosis of the alveolar bone if untreated and should be considered in the differential diagnosis of raised gingival lesions.",
+  "reading_complete" : "2020-08-02T09:35:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:34:47Z",
+  "trigger" : "cause",
+  "evidence" : [ "GCA can cause necrosis" ],
+  "pmc_id" : "7044364",
+  "score" : 0
+}
