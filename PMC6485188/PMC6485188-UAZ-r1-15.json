@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14788",
+      "entity_text" : "RANKL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0721" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Similarly, JNK and p38 are also phosphorylated during osteoclastogenesis in response to RANKL stimulation XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:20:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:18Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated during osteoclastogenesis in response to RANKL" ],
+  "pmc_id" : "6485188",
+  "score" : 0
+}

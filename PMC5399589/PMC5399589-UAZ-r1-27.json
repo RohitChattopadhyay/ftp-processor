@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60682",
+      "entity_text" : "MSC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We discovered that INST did not restore the inflammatory conditions, while donor MSC infusion reduced recipient inflammation under both glycemic control and transient euglycemia.",
+  "reading_complete" : "2020-08-02T15:19:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:28Z",
+  "trigger" : "reduced",
+  "evidence" : [ "MSC infusion reduced recipient inflammation" ],
+  "pmc_id" : "5399589",
+  "score" : 0
+}
