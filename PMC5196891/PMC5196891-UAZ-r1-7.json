@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00455",
+      "entity_text" : "LINE-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Interestingly, 5-hmC levels are significantly associated with long interspersed nucleotide element-1 (LINE-1) methylation that is regarded as a surrogate marker for global DNA methylation level, however, TETs mRNA expression is not associated with LINE-1 methylation, indicating other factor involves in the process XREF_BIBR.",
+  "reading_complete" : "2020-08-02T13:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:37:48Z",
+  "trigger" : "methylation",
+  "evidence" : [ "LINE-1 methylation" ],
+  "pmc_id" : "5196891",
+  "score" : 0
+}

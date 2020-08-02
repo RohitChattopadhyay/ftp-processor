@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellType" : [ "cl:CL:0002371" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The SWI/SNF (mating type switching / sucrose non fermenting) complex is an evolutionarily conserved multiunit complex of factors that utilize the energy of ATP hydrolysis to remodel nucleosomes and thereby affect gene expression XREF_BIBR.",
+  "reading_complete" : "2020-08-02T13:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:37:48Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "5196891",
+  "score" : 0
+}
