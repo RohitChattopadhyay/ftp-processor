@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "Flk-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:VEGF",
+      "entity_text" : "Vascular endothelial growth factor",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0568" ]
+    }
+  },
+  "verbose_text" : "Vascular endothelial growth factor (VEGF), which binds to the receptors Flk-1 (also known as VEGF receptor-2) and Flt-1 (also known as VEGF receptor-1) is important for pulmonary vascular development [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:36:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:33:38Z",
+  "trigger" : "binds",
+  "evidence" : [ "Vascular endothelial growth factor (VEGF), which binds to the receptors Flk-1" ],
+  "pmc_id" : "3414194",
+  "score" : 0
+}
