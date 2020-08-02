@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:GYS",
+      "entity_text" : "glycogen synthase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Reduced AKT phosphorylation also downregulates the phosphorylation of glycogen synthase kinase-3beta (GSK-3beta) XREF_BIBR.",
+  "reading_complete" : "2020-08-02T13:30:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:27:57Z",
+  "trigger" : "downregulates",
+  "evidence" : [ "AKT phosphorylation also downregulates the phosphorylation of glycogen synthase" ],
+  "pmc_id" : "6276304",
+  "score" : 0
+}

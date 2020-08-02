@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14543",
+      "entity_text" : "SOCS3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Additionally, SOCS3 can inhibit PI3K / AKT phosphorylation in insulin signaling pathway to reduce hepatic insulin sensitivity XREF_BIBR, consequently suppressing forkhead transcription factor 1 (FoxO1) phosphorylation and promoting hepatic glucose production via increasing transcription of gluconeogenic enzymes XREF_BIBR.",
+  "reading_complete" : "2020-08-02T13:30:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:27:57Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "SOCS3 can inhibit PI3K/AKT phosphorylation" ],
+  "pmc_id" : "6276304",
+  "score" : 0
+}

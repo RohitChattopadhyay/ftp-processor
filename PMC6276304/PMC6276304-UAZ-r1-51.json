@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "p-PI3K",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "Given that STAT3 is a major molecule in glycolipid metabolism, the expression levels of p-STAT3 and SOCS3 were upregulated in liver tissues of T2DM mice and rats, while the levels of p-PI3K / PI3K and p-AKT / AKT were decreased.",
+  "reading_complete" : "2020-08-02T13:30:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:27:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p-PI3K" ],
+  "pmc_id" : "6276304",
+  "score" : 0
+}

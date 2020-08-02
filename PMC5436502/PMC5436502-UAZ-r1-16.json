@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6234",
+      "entity_text" : "DCs",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This result suggests that miR-410-3p was derived from DCs stimulated with tumor cells to suppress cancer progression by inhibiting angiogenesis The sequences of miR-410-5p and miR-410-3p, both of which are derived from pre-miR-410, are highly complementary across 12 base pairs, while mmu-miR-1896-3p and miR-335-5p only have 4 and 6 base pairs that are complementary to miR-410-5p, respectively.",
+  "reading_complete" : "2020-08-02T13:26:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:25:32Z",
+  "trigger" : "suppress",
+  "evidence" : [ "DCs stimulated with tumor cells to suppress cancer progression by inhibiting angiogenesis" ],
+  "pmc_id" : "5436502",
+  "score" : 0
+}
