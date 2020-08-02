@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03181",
+      "entity_text" : "PPARdelta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9803963",
+      "entity_text" : "GW501516",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since PLIN2 gene expression is regulated by PPARdelta, PLIN2 mRNA levels were measured at the different time-points to serve as a positive control and to ensure that GW501516 had activated PPARdelta.",
+  "reading_complete" : "2020-08-02T11:20:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:19:10Z",
+  "trigger" : "activated",
+  "evidence" : [ "GW501516 had activated PPARdelta" ],
+  "pmc_id" : "3658603",
+  "score" : 0
+}
