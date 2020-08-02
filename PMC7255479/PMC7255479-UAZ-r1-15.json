@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23443",
+      "entity_text" : "p70S6K1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the PI3K / Akt pathway, phosphatidylinositol dependent kinase 1 (PDK1) binds to Akt to phosphorylate Akt, which in turn activates p70S6K1, which ultimately results in the inhibition of cell apoptosis.",
+  "reading_complete" : "2020-08-02T14:20:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:17:52Z",
+  "trigger" : "activates",
+  "evidence" : [ "Akt, which in turn activates p70S6K1" ],
+  "pmc_id" : "7255479",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42771",
+      "entity_text" : "CDKN2A",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0700" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "CDKN2A hypermethylation, which is frequent in patients with ESCC, accounts for 40-62% of cases, however, there is lack of valid evidence to confirm methylated CDKN2A as a biomarker for ESCC.",
+  "reading_complete" : "2020-08-02T14:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:23Z",
+  "trigger" : "hypermethylation",
+  "evidence" : [ "CDKN2A hypermethylation" ],
+  "pmc_id" : "6657975",
+  "score" : 0
+}

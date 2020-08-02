@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The results of the present study supported that, in ESCC cells, the overexpression of PTEN inhibited the PI3K / Akt pathway, which was promoted by miR-92a-3p (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:23Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "PTEN inhibited the PI3K/Akt" ],
+  "pmc_id" : "6657975",
+  "score" : 0
+}

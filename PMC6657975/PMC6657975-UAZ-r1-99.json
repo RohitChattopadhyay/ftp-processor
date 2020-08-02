@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07812",
+      "entity_text" : "Bax",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6898" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The miR-92a-3p mimic was found to decrease the protein levels of Bax and cleaved caspase-3 and increase the protein level of Bcl-2 (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Bax" ],
+  "pmc_id" : "6657975",
+  "score" : 0
+}

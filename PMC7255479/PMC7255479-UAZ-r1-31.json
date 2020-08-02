@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000740" ]
+    }
+  },
+  "verbose_text" : "Ding et al found that AIV downregulated aldose reductase activity, prevented ERK1/2 phosphorylation and decreased the activity of cytokines, such as nuclear factor (NF)-kappaB, and significantly decreased retinal ganglion cell apoptosis in db/db mice with DR, relieved retinal ganglion cell dysfunction, which proved that AS-IV exerted a certain preventive effect against DR.",
+  "reading_complete" : "2020-08-02T14:20:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:17:52Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ERK1/2 phosphorylation" ],
+  "pmc_id" : "7255479",
+  "score" : 0
+}

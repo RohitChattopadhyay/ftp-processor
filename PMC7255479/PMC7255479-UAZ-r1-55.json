@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Chen et al found that the HG levels induced a decrease in the permeability of ARPE-19 cells in vitro, which induced mitochondrial dysfunction in ARPE-19 cells by decreasing mitochondrial membrane potential and inhibiting Bcl-2 protein levels, which induced apoptosis by promoting the S0CS1 and Fas / FasL signaling pathways.",
+  "reading_complete" : "2020-08-02T14:20:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:17:52Z",
+  "trigger" : "induced",
+  "evidence" : [ "Bcl-2 protein levels, which induced apoptosis" ],
+  "pmc_id" : "7255479",
+  "score" : 0
+}

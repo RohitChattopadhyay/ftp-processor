@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02207",
+      "entity_text" : "miR-92a-3p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The miR-92a-3p mimic downregulated PTEN and inhibited its PI3K and Akt phosphorylation inhibiting function in Eca-109 cells.",
+  "reading_complete" : "2020-08-02T14:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:23Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "miR-92a-3p mimic downregulated PTEN and inhibited its PI3K and Akt phosphorylation" ],
+  "pmc_id" : "6657975",
+  "score" : 0
+}
