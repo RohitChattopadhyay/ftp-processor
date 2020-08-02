@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "methionine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR The first step in cysteine synthesis is transmethylation of methionine to homocysteine, which is then combined with serine to form cystathionine.",
+  "reading_complete" : "2020-08-02T09:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:05:41Z",
+  "trigger" : "transmethylation",
+  "evidence" : [ "transmethylation of methionine to homocysteine" ],
+  "pmc_id" : "5934683",
+  "score" : 0
+}

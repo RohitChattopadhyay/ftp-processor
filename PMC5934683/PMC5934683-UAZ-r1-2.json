@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:896",
+      "entity_text" : "melatonin",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0407" ],
+      "CellType" : [ "cl:CL:0000164" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Tryptophan is the precursor of melatonin, and the pathway follows the normal route to serotonin, which is then N acetylated and O methylated to melatonin.",
+  "reading_complete" : "2020-08-02T09:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:05:41Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated to melatonin" ],
+  "pmc_id" : "5934683",
+  "score" : 0
+}

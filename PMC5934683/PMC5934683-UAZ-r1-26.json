@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:896",
+      "entity_text" : "melatonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0407" ],
+      "CellType" : [ "cl:CL:0000164" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Melatonin synthesis and release by gut enteroendocrine cells is stimulated by oral intake of tryptophan, leading to elevated blood melatonin levels.",
+  "reading_complete" : "2020-08-02T09:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:05:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "melatonin levels" ],
+  "pmc_id" : "5934683",
+  "score" : 0
+}
