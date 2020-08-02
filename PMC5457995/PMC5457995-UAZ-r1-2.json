@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03421",
+      "entity_text" : "trypsinogen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "CellType" : [ "cl:CL:0000232" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A low trypsinogen level of 2.6 ng/mL (normal 10-57) also supported pancreatic insufficiency.",
+  "reading_complete" : "2020-08-02T12:16:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:16:13Z",
+  "trigger" : "level",
+  "evidence" : [ "trypsinogen level" ],
+  "pmc_id" : "5457995",
+  "score" : 0
+}
