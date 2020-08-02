@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "Differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Differentiation in the presence of DMSO did not significantly decrease cell viability in both mouse ES cell lines.",
+  "reading_complete" : "2020-08-02T17:11:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:10:29Z",
+  "trigger" : "decrease",
+  "evidence" : [ "Differentiation in the presence of DMSO did not significantly decrease cell viability" ],
+  "pmc_id" : "4008422",
+  "score" : 0
+}
