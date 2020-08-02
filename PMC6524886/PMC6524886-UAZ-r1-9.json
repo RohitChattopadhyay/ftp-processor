@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01742",
+      "entity_text" : "FVIIa-FX",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "TF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1109" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Affinity of ringhalexin toward the catalytic TF-FVIIa is two times higher than toward the enzyme - substrate complex TF - FVIIa-FX (84.25 +/- 3.53 nM compared with 152.5 +/- 11.32 nM).",
+  "reading_complete" : "2020-08-02T12:05:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:03:44Z",
+  "trigger" : "complex",
+  "evidence" : [ "complex TF-FVIIa-FX" ],
+  "pmc_id" : "6524886",
+  "score" : 0
+}
