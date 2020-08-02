@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00375",
+      "entity_text" : "ECAR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96DC9",
+      "entity_text" : "OTUB2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As expected, we verified that OTUB2 overexpression increased ECAR, glucose uptake, and lactate production, while knockdown of OTUB2 impaired the aerobic glycolytic phenotype in different NSCLC cell lines.",
+  "reading_complete" : "2020-08-02T14:07:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:05:26Z",
+  "trigger" : "increased",
+  "evidence" : [ "OTUB2 overexpression increased ECAR" ],
+  "pmc_id" : "6332791",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43318",
+      "entity_text" : "TAK1",
+      "features" : [ {
+        "position" : "serine 412",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The phosphorylation of TAK1 at serine 412 promotes cell proliferation, migration and invasion by activating NFkappaB signaling in ovarian cancer cells XREF_BIBR.",
+  "reading_complete" : "2020-08-02T14:09:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:17Z",
+  "trigger" : "promotes",
+  "evidence" : [ "TAK1 at serine 412 promotes cell proliferation" ],
+  "pmc_id" : "5835935",
+  "score" : 0
+}
