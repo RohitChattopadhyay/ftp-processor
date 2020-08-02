@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0942" ]
+    }
+  },
+  "verbose_text" : "Sucrose, commonly found in table sugar, is a disaccharide comprising equimolar amounts of fructose and glucose and is the worldwide primary source for dietary fructose [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:40:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:35:54Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of fructose and glucose" ],
+  "pmc_id" : "4175747",
+  "score" : 0
+}

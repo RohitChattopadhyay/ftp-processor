@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06828",
+      "entity_text" : "FM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although the quantity of LST may meet or exceed reference values derived from normal, healthy reference populations (e.g., normal BMI or age 25 years), the higher LST amount is insufficient to maintain the larger body size (largely due to a larger FM amount).",
+  "reading_complete" : "2020-08-02T08:35:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:27:52Z",
+  "trigger" : "amount",
+  "evidence" : [ "FM amount" ],
+  "pmc_id" : "5380855",
+  "score" : 0
+}
