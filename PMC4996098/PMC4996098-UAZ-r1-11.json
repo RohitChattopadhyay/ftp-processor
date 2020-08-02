@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Kang et al. [XREF_BIBR] reported that CKD was associated with elevated hearing thresholds in Korean but they used eGFR estimated from serum creatinine level or dipstick result as a diagnostic tool for CKD.",
+  "reading_complete" : "2020-08-02T11:17:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:15:29Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "4996098",
+  "score" : 0
+}
