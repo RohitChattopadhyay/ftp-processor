@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O80339",
+      "entity_text" : "eRF3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "eRF1, in turn, stabilizes binding of GTP to eRF3 so that they form a stable ternary complex (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:26:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:25:13Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of GTP to eRF3" ],
+  "pmc_id" : "4094583",
+  "score" : 0
+}

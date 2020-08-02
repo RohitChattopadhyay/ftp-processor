@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30304",
+      "entity_text" : "cdc25A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D543" ],
+      "TissueType" : [ "tissuelist:TS-0871" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the Y79 retinoblastoma cell line, the mRNA levels of cdc25A, CDK2 and p21 were significantly lower in the PAX6 inhibition study group than in negative GFP-control group (cdc25A, 0.36 +/-0.07 vs. 1.00 +/-0.00; t = 15.91; P < 0.01, n = 3; CDK2, 0.28 +/-0.03 vs. 1.00 +/-0.00; t = 46.77; P < 0.01, n = 3; p21, 0.37 +/-0.08 vs. 1.00 +/-0.00; t = 14.37; P < 0.01, n = 3) (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:27:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:26:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cdc25A" ],
+  "pmc_id" : "4094585",
+  "score" : 0
+}
