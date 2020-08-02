@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We also investigated the ability of GLP-1 to protect HK-2 cells and diabetic rat kidneys against apoptosis induced by high glucose levels by targeting autophagy.",
+  "reading_complete" : "2020-08-02T12:52:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:50:49Z",
+  "trigger" : "induced",
+  "evidence" : [ "apoptosis induced by high glucose" ],
+  "pmc_id" : "4314412",
+  "score" : 0
+}

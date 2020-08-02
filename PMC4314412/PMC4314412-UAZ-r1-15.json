@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Liraglutide treatment significantly reduced serum creatinine levels, but not the blood urea nitrogen levels, compared to the values in the diabetic groups not treated with liraglutide at 5 weeks.",
+  "reading_complete" : "2020-08-02T12:52:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:50:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "4314412",
+  "score" : 0
+}

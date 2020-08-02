@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Liraglutide reversed this effect, while the GLP-1R antagonist promoted it, promoting autophagy, suggesting that liraglutide exerts a renoprotective effect in the presence of high glucose, at least in part, by inhibiting autophagy and increasing GLP-1R expression in the HK-2 cells and kidneys of diabetic rats.",
+  "reading_complete" : "2020-08-02T12:52:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:50:49Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "glucose, at least in part, by inhibiting autophagy" ],
+  "pmc_id" : "4314412",
+  "score" : 0
+}
