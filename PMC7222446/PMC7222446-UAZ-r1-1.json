@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0008982" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Compared with group A, serum intact PTH (P < 0.001) and total calcium levels (P < 0.05) in group B significantly improved on the first postoperative day, and the incidence of transient hypoparathyroidism significantly dropped in group B (P < 0.001).",
+  "reading_complete" : "2020-08-02T16:15:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:12:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "calcium levels" ],
+  "pmc_id" : "7222446",
+  "score" : 0
+}
