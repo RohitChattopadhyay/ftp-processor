@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Oxygen based approaches derived in the lung elevated ROS levels and induce lung cell injury and inflammation.",
+  "reading_complete" : "2020-08-02T13:14:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:07:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "4541465",
+  "score" : 0
+}
