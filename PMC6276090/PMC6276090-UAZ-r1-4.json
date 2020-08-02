@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46531",
+      "entity_text" : "NICD",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000499" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The ligand binding to the extracellular domain of the Notch receptor activates its successive proteolytic cleavage and releases NICD, which then translocates to the nucleus and alters gene transcription, cell identity, and growth.",
+  "reading_complete" : "2020-08-02T11:14:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:11:51Z",
+  "trigger" : "translocates",
+  "evidence" : [ "NICD, which then translocates to the nucleus" ],
+  "pmc_id" : "6276090",
+  "score" : 0
+}
