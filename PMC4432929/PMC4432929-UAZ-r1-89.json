@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75751",
+      "entity_text" : "EMT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0302" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "It is thus verified that KLF4 is hypermethylated and downregulated in the renal EMT process.",
+  "reading_complete" : "2020-08-02T10:30:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:28:44Z",
+  "trigger" : "hypermethylated",
+  "evidence" : [ "hypermethylated and downregulated in the renal EMT" ],
+  "pmc_id" : "4432929",
+  "score" : 0
+}

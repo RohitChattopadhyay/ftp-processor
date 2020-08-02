@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43474",
+      "entity_text" : "KLF4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26358",
+      "entity_text" : "Dnmt1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The hypermethylation of KLF4 directly mediated by Dnmt1 contributes to the progression of EMT in renal epithelial cells.",
+  "reading_complete" : "2020-08-02T10:30:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:28:44Z",
+  "trigger" : "mediated",
+  "evidence" : [ "hypermethylation of KLF4 directly mediated by Dnmt1" ],
+  "pmc_id" : "4432929",
+  "score" : 0
+}

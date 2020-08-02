@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:440420",
+      "entity_text" : "DHCA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01461",
+      "entity_text" : "SC5b-9",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the DHCA + SCP group, the level of SC5b-9 increased slightly from T1 to T2, and then increased rapidly and significantly from T2 to T3.",
+  "reading_complete" : "2020-08-02T10:28:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:27:55Z",
+  "trigger" : "increased",
+  "evidence" : [ "DHCA + SCP group, the level of SC5b-9 increased" ],
+  "pmc_id" : "4152143",
+  "score" : 0
+}

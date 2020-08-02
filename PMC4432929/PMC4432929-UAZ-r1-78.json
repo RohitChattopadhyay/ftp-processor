@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43474",
+      "entity_text" : "KLF4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0302" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "MSP analysis revealed that KLF4 methylation was observed in the renal tissues of mice subjected to UUO, while KLF4 methylation was not observed in the mice in the control group or sham operated group (XREF_FIG).",
+  "reading_complete" : "2020-08-02T10:30:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:28:44Z",
+  "trigger" : "methylation",
+  "evidence" : [ "KLF4 methylation" ],
+  "pmc_id" : "4432929",
+  "score" : 0
+}
