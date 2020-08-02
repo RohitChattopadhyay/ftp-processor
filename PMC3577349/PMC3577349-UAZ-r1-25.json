@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P2E7",
+      "entity_text" : "PCDH10",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0014" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This reactivation was associated with an increase of unmethylated alleles and a decrease of methylated alleles of the PCDH10 promoter, as assessed by MSP (XREF_FIG).",
+  "reading_complete" : "2020-08-02T11:56:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:55:43Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated alleles of the PCDH10" ],
+  "pmc_id" : "3577349",
+  "score" : 0
+}

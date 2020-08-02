@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01081",
+      "entity_text" : "aldolase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02360",
+      "entity_text" : "fructose-1,6-biphosphatase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellType" : [ "cl:CL:0008002" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "The tight association between fructose-1,6-biphosphatase and aldolase is proposed to enable efficient substrate channeling between these proteins.",
+  "reading_complete" : "2020-08-02T11:55:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:53:56Z",
+  "trigger" : "association",
+  "evidence" : [ "association between fructose-1,6-biphosphatase and aldolase" ],
+  "pmc_id" : "3782555",
+  "score" : 0
+}
