@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Further experiments revealed that the GA induced increase in the phosphorylation of ERK and the improvement in cell viability were markedly abrogated by pre-treatment with 10 muM PD98059, an ERK inhibitor (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:13:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:13:16Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK" ],
+  "pmc_id" : "4121344",
+  "score" : 0
+}

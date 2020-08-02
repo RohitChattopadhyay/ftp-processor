@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD",
+      "entity_text" : "Smad",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43541",
+      "entity_text" : "Smad6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Unlike other Smad members, Smad6 can prevent the phosphorylation of Smad members and then act as a negative feedback regulator of the TGF-beta superfamily mediated pathway.",
+  "reading_complete" : "2020-08-02T14:16:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:16:06Z",
+  "trigger" : "prevent",
+  "evidence" : [ "Smad6 can prevent the phosphorylation of Smad" ],
+  "pmc_id" : "4494601",
+  "score" : 0
+}

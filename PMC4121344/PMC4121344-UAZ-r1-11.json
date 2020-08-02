@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "Treatment with GA (25 muM) alone increased the phosphorylation of ERK after 30 min of incubation (P < 0.01; XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:13:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:13:16Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK" ],
+  "pmc_id" : "4121344",
+  "score" : 0
+}
