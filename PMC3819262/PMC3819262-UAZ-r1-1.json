@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin_I",
+      "entity_text" : "troponin I",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There was slight ST-segment depression on the inferior leads (II, III, and aVF) of the electrocardiogram (ECG) and mildly increased levels of troponin I and creatine kinase-MB fraction.",
+  "reading_complete" : "2020-08-02T15:39:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:38:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of troponin I" ],
+  "pmc_id" : "3819262",
+  "score" : 0
+}

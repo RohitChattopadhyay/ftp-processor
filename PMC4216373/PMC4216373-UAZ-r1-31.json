@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellLine" : [ "cellosaurus:CVCL_0559" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Alterations in total CXCR4 protein levels in DAMGO treated TF-1 cells were determined using western immunoblot analyses and surface expression levels were examined using flow cytometry.",
+  "reading_complete" : "2020-08-02T15:36:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "CXCR4 protein levels" ],
+  "pmc_id" : "4216373",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35372",
+      "entity_text" : "MOR-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0559" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0681" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "As expected, the levels of MOR-1 in undifferentiated SH-SY5Y neuroblastoma cell lysates (positive control) were much higher than those observed in TF-1 lysates.",
+  "reading_complete" : "2020-08-02T15:36:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:34:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MOR-1" ],
+  "pmc_id" : "4216373",
+  "score" : 0
+}
