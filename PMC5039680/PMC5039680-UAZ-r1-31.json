@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05112",
+      "entity_text" : "IL-4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "ELISA analysis showed that IL-13 in BALF slightly decreased without significance, and IL-4 levels were not altered by blocking the 4-1BB signaling pathway.",
+  "reading_complete" : "2020-08-02T13:55:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:53:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-4 levels" ],
+  "pmc_id" : "5039680",
+  "score" : 0
+}
