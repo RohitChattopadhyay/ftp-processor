@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0011115" ]
+    }
+  },
+  "verbose_text" : "On the 9th day after transplantation, blood glucose levels in the diabetic rats transplanted with HUMSCs were lower than those in diabetic rats injected with only PBS (18.3 +/-6.372 mmol/l vs. 23.16 +/-3.055 mmol/l, respectively).",
+  "reading_complete" : "2020-08-02T10:34:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:33:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3896453",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:586",
+      "entity_text" : "creatine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000081" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Treatment with FS at 500 mg/kg in particular, showed inhibitory effects on serum creatine levels comparable to those observed with 50 mg/kg oxymetholone, again suggesting that FS has favorable effects on muscle preservation against muscle atrophy induced by dexamethasone.",
+  "reading_complete" : "2020-08-02T10:32:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:30:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatine levels" ],
+  "pmc_id" : "4494578",
+  "score" : 0
+}

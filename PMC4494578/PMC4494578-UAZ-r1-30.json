@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:586",
+      "entity_text" : "creatine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000081" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Plasma creatine levels can therefore be used as a valuable serum biochemistry marker indicating skeletal muscle damage, activity, or amounts.",
+  "reading_complete" : "2020-08-02T10:32:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:30:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatine levels" ],
+  "pmc_id" : "4494578",
+  "score" : 0
+}
