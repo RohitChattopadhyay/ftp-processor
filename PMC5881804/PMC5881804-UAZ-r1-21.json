@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Although the mice that received mangiferin treatment did not maintain normal blood glucose to the same extent as the sham operated mice, a time dependent decrease in blood glucose levels was observed from day 3 to day 10.",
+  "reading_complete" : "2020-08-02T15:33:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:31:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "5881804",
+  "score" : 0
+}
