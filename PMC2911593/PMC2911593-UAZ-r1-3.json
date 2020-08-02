@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since fasting glucose and fasting insulin levels were not collected from the subjects in NHANES III, HOMA-IR (fasting glucose (mM/L) xfasting insulin (mU/mL)/22.5) [XREF_BIBR] values from individuals in these cohorts could not be calculated.",
+  "reading_complete" : "2020-08-02T08:56:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:49:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose and fasting insulin levels" ],
+  "pmc_id" : "2911593",
+  "score" : 0
+}
