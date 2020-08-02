@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99720",
+      "entity_text" : "sigma1R",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05151",
+      "entity_text" : "4-PPBP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "CellLine" : [ "cellosaurus:CVCL_2H39" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000388" ]
+    }
+  },
+  "verbose_text" : "The signaling pathway of 4-PPBP bound to sigma1R and ACh-to-AChRs signaling activated by Oxo-M has been extensively studied in the nervous system, primary focused on the neurotransmission XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T13:44:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:43:03Z",
+  "trigger" : "bound",
+  "evidence" : [ "4-PPBP bound to sigma1R" ],
+  "pmc_id" : "6592164",
+  "score" : 0
+}

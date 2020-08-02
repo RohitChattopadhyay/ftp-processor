@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00070",
+      "entity_text" : "Interleukin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "It was demonstrated that cells lacking functional CFTR secrete increased amounts of Interleukin (IL)-1, IL-8/KC, TNF-alpha and Mip-2 upon infection with P. aeruginosa compared to control cells [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:42:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:34:46Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of Interleukin" ],
+  "pmc_id" : "2885596",
+  "score" : 0
+}
