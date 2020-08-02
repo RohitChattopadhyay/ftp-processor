@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01860",
+      "entity_text" : "Oct4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03176",
+      "entity_text" : "miR-32",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Exogenous overexpression of miR-32 inhibits Oct4 ubiquitination by WWP2 in HuAECs.",
+  "reading_complete" : "2020-08-02T16:03:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:02:30Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "miR-32 inhibits Oct4 ubiquitination" ],
+  "pmc_id" : "5810217",
+  "score" : 0
+}

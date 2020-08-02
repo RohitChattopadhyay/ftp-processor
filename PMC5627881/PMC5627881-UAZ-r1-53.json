@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11021",
+      "entity_text" : "GRP78",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5792" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000037" ],
+      "Species" : [ "taxonomy:13443" ]
+    }
+  },
+  "verbose_text" : "ER stress was stimulated by caffeine as demonstrated by increased levels of GRP78 / BiP, CHOP and inositol requiring enzyme 1 (IRE1)-alpha as well as many enlarged ERs detected by electron microscopy.",
+  "reading_complete" : "2020-08-02T16:01:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GRP78" ],
+  "pmc_id" : "5627881",
+  "score" : 0
+}

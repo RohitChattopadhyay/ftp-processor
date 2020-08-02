@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZJ5",
+      "entity_text" : "PERK",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18850",
+      "entity_text" : "ATF6alpha",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Upon ER stress, GRP78 / BiP dissociates with the three transmembrane proteins described above, causing the activation of PERK and IRE1-alpha by trans-autophosphorylation as well as ATF6alpha via proteolytic processing.",
+  "reading_complete" : "2020-08-02T16:01:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:11Z",
+  "trigger" : "causing",
+  "evidence" : [ "causing the activation of PERK and IRE1-alpha by trans-autophosphorylation as well as ATF6alpha" ],
+  "pmc_id" : "5627881",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2519",
+      "entity_text" : "caffeine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000037" ],
+      "Species" : [ "taxonomy:13443" ]
+    }
+  },
+  "verbose_text" : "The results disclosed that only a high concentration of caffeine attenuated liver fibrosis, which is in accordance with previous research that individuals who consume a large amount of caffeine every day have the lowest risk of liver disease.",
+  "reading_complete" : "2020-08-02T16:01:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:00:11Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of caffeine" ],
+  "pmc_id" : "5627881",
+  "score" : 0
+}

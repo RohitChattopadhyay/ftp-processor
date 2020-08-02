@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6293",
+      "entity_text" : "alizarin red",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The deposition of calcified matrix on the culture dishes was assessed by the quantity of alizarin red staining.",
+  "reading_complete" : "2020-08-02T16:02:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:01:21Z",
+  "trigger" : "quantity",
+  "evidence" : [ "quantity of alizarin red" ],
+  "pmc_id" : "4564090",
+  "score" : 0
+}
