@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00835",
+      "entity_text" : "factor VIII",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01834",
+      "entity_text" : "von Willebrand",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0014899" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Steroids add to the prothrombotic state, by increasing the von Willebrand / factor VIII complex and by inducing a hypofibrinolytic state.",
+  "reading_complete" : "2020-08-02T12:09:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:08:05Z",
+  "trigger" : "complex",
+  "evidence" : [ "von Willebrand/factor VIII complex" ],
+  "pmc_id" : "6524923",
+  "score" : 0
+}
