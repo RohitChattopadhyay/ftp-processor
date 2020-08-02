@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15941",
+      "entity_text" : "MUC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "MUC1 siRNA knockdown experiments were performed in HES cells and reduced MUC1 levels by 75-90%; however, the effects on AuNP targeting were inconsistent.",
+  "reading_complete" : "2020-08-02T08:54:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:53:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "MUC1 levels" ],
+  "pmc_id" : "3425120",
+  "score" : 0
+}

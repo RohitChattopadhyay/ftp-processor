@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0566" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Of note, the phosphorylation of ERK1/2, p65, AKT and STAT3 were unaffected by DCZ3301 in normal and IgM stimulated B cells.",
+  "reading_complete" : "2020-08-02T08:51:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:50:35Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK1/2, p65" ],
+  "pmc_id" : "5667341",
+  "score" : 0
+}

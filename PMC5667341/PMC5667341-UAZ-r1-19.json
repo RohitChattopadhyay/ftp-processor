@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PARP",
+      "entity_text" : "PARP",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistent with the in vitro results, Western blot analyses showed DCZ3301 treatment inhibited the phosphorylation of STAT3 and induced cleavage of PARP in myeloma tissue, compared to vehicle control.",
+  "reading_complete" : "2020-08-02T08:51:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:50:35Z",
+  "trigger" : "induced",
+  "evidence" : [ "STAT3 and induced cleavage of PARP" ],
+  "pmc_id" : "5667341",
+  "score" : 0
+}
