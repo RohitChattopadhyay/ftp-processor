@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09919",
+      "entity_text" : "G-CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellType" : [ "cl:CL:0010001" ]
+    }
+  },
+  "verbose_text" : "Supporting that hypothesis, treatment with G-CSF has been reported to increase or normalize the neutrophil counts in CD40L deficiency.6 However, seven days of treatment with a standard dosage of G-CSF did not affect our patient 's neutropenia but instead markedly increased his peripheral eosinophil concentration, indicating that the G-CSF levels were sufficient to induce myelopoietic lineage differentiation.",
+  "reading_complete" : "2020-08-02T12:07:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:05:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "G-CSF levels" ],
+  "pmc_id" : "7044354",
+  "score" : 0
+}
