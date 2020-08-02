@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Laboratory tests returned normal findings, except for a ferritin level of 34.7 ng/mL and a hypoproteinemic serum protein level of 6.6 g/dL.",
+  "reading_complete" : "2020-08-02T08:27:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:26:08Z",
+  "trigger" : "level",
+  "evidence" : [ "ferritin level" ],
+  "pmc_id" : "6028364",
+  "score" : 0
+}
