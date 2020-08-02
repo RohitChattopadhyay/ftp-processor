@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "Sirt1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These data suggest that the reduced expression of Sirt1 contributes to the glucose metabolic abnormalities observed in diabetic mice.",
+  "reading_complete" : "2020-08-02T13:06:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:05:03Z",
+  "trigger" : "contributes",
+  "evidence" : [ "Sirt1 contributes to the glucose" ],
+  "pmc_id" : "6559301",
+  "score" : 0
+}

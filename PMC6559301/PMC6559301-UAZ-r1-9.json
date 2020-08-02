@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "Sirt1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Through western botting, it was found that the JNK pathway was triggered by HG treatment or Ani, but was inhibited by the overexpression of Sirt1 or SP (XREF_FIG).",
+  "reading_complete" : "2020-08-02T13:06:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:05:03Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "JNK pathway was triggered by HG treatment or Ani, but was inhibited by the overexpression of Sirt1" ],
+  "pmc_id" : "6559301",
+  "score" : 0
+}
