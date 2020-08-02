@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "phosphatidylinositol 3-kinase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01367",
+      "entity_text" : "MUC1-C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "MUC1-C interacts with EGFR and promotes EGFR mediated signaling via recruitment of c-Src, phosphatidylinositol 3-kinase (PI3K), and GRB2 XREF_BIBR.",
+  "reading_complete" : "2020-08-02T08:44:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:43:00Z",
+  "trigger" : "interacts",
+  "evidence" : [ "MUC1-C interacts with EGFR and promotes EGFR-mediated signaling via recruitment of c-Src, phosphatidylinositol 3-kinase" ],
+  "pmc_id" : "5743461",
+  "score" : 0
+}

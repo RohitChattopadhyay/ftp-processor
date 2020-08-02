@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01307",
+      "entity_text" : "H3K27",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01094",
+      "entity_text" : "E2F1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "E2F1 inhibited the acetylation of H3K27 by binding to the promoter of NEAT1.",
+  "reading_complete" : "2020-08-02T08:43:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:41:24Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "E2F1 inhibited the acetylation of H3K27" ],
+  "pmc_id" : "6587165",
+  "score" : 0
+}

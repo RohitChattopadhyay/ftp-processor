@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000899" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found that the level of IL-1beta was decreased in NEAT1-knockdown DCs.",
+  "reading_complete" : "2020-08-02T08:43:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:41:24Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IL-1beta" ],
+  "pmc_id" : "6587165",
+  "score" : 0
+}

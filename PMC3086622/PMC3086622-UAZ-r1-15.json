@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:4200047" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The integrin alphavbeta3, consisting a 125-kDa alphav subunit and a 105-kDa beta3 subunit, binds a wide range of ECM proteins with RGD containing components of the interstitial matrix such as vitronectin, fibronectin and thrombospondin XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-02T08:40:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:38:32Z",
+  "trigger" : "binds",
+  "evidence" : [ "integrin alphavbeta3, consisting a 125-kDa alphav subunit and a 105-kDa beta3 subunit, binds a wide range of ECM" ],
+  "pmc_id" : "3086622",
+  "score" : 0
+}

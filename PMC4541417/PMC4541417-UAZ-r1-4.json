@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12830",
+      "entity_text" : "e-cadherin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In the variable ventilation, VT changes are from cycle to cycle [XREF_BIBR], and it has shown those not only improves lung function [XREF_BIBR, XREF_BIBR - XREF_BIBR], but also reduce the epithelial injury with a reduction of e-cadherin levels in lavage fluid [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:40:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:29:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "e-cadherin levels" ],
+  "pmc_id" : "4541417",
+  "score" : 0
+}
