@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14894",
+      "entity_text" : "TM4SF5",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "endosome",
+    "hypothesis_information" : true,
+    "to_location_id" : "go:GO:0005768",
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005768" ]
+    }
+  },
+  "verbose_text" : "The internalization experiments indicated that Ab27 was internalized into endocytic vesicles, suggesting that TM4SF5 bound by Ab27 may translocate into the endosome and then further into the lysosome.",
+  "reading_complete" : "2020-08-02T12:36:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:35:17Z",
+  "trigger" : "translocate",
+  "evidence" : [ "TM4SF5 bound by Ab27 may translocate into the endosome" ],
+  "pmc_id" : "5327636",
+  "score" : 0
+}
