@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35228",
+      "entity_text" : "iNOS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The expression of iNOS and COX-2 proteins was significantly increased (relative OD values, 1.87 +/- 0.26-fold, p < 0.05 and 7.70 +/- 0.43-fold, p < 0.001, respectively) in LPS exposed Caco-2 cells compared with the negative control (XREF_FIG A-C).",
+  "reading_complete" : "2020-08-02T18:51:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:48:59Z",
+  "trigger" : "increased",
+  "evidence" : [ "iNOS and COX-2 proteins was significantly increased (relative OD values, 1.87 +/- 0.26-fold, p < 0.05 and 7.70 +/- 0.43-fold, p < 0.001, respectively) in LPS" ],
+  "pmc_id" : "5849418",
+  "score" : 0
+}
