@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B7ZLG1",
+      "entity_text" : "FOXP3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0651" ],
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Loss-of-function of FOXP3 + Treg contributes to increased cardiac fibrosis of the neonatal heart.",
+  "reading_complete" : "2020-08-02T13:32:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:30:26Z",
+  "trigger" : "Loss-of-function",
+  "evidence" : [ "Loss-of-function of FOXP3" ],
+  "pmc_id" : "6599663",
+  "score" : 0
+}
