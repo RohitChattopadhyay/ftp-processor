@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01019",
+      "entity_text" : "Ang II",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03373",
+      "entity_text" : "octapeptide",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1301" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "A key enzyme of RAS, angiotensin converting enzyme (ACE) then converts Ang I into the biological active octapeptide, Ang II, which preferentially binds to its receptors, Ang II type 1 receptor (AT1R) or Ang II type 2 receptor (AT2R).",
+  "reading_complete" : "2020-08-02T14:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:29:17Z",
+  "trigger" : "binds",
+  "evidence" : [ "octapeptide, Ang II, which preferentially binds to its receptors, Ang II type 1 receptor (AT1R) or Ang II" ],
+  "pmc_id" : "3812297",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477912",
+      "entity_text" : "phosphatidylinositol",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Activated PI3K catalyzes the phosphorylation of the membrane phospholipid phosphatidylinositol 4,5-bisphosphate to generate phosphatidylinositol 3,4,5-trisphosphate, thereby producing a lipid binding site on the cell membrane for the serine/threonine kinase Akt.",
+  "reading_complete" : "2020-08-02T14:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:34:57Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the membrane phospholipid phosphatidylinositol" ],
+  "pmc_id" : "4292718",
+  "score" : 0
+}
