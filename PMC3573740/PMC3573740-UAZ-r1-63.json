@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07812",
+      "entity_text" : "Bax",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conversely, upregulation of Bax expression promotes cell death.",
+  "reading_complete" : "2020-08-02T09:59:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:58:51Z",
+  "trigger" : "promotes",
+  "evidence" : [ "Bax expression promotes cell death" ],
+  "pmc_id" : "3573740",
+  "score" : 0
+}

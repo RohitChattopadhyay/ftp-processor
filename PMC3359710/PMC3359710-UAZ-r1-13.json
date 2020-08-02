@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "CellLine" : [ "cellosaurus:CVCL_5J51" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Specifically, individuals in the PS group exhibited higher BMI and percent body fat, primary insulin resistance, and a lipid profile consistent with the metabolic syndrome [XREF_BIBR]; altered immune function with a TH2 shift in the TH1 / TH2 balance; altered endocrine function, with an increased ACTH and reduced cortisol levels during pharmacological and psychological stimulation paradigms; accelerated cellular aging; and impaired prefrontal cortex (PFC)-related cognitive performance (impairments in working memory performance after hydrocortisone administration) [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:56:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "3359710",
+  "score" : 0
+}

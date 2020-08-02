@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00821",
+      "entity_text" : "PEPCK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000169" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In animals, prenatal exposure to dexamethasone produces an increased expression of hepatic glucocorticoid receptors as well as increased levels and activity of PEPCK [XREF_BIBR], thereby predisposing these animals to glucose intolerance later in life.",
+  "reading_complete" : "2020-08-02T09:56:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels and activity of PEPCK" ],
+  "pmc_id" : "3359710",
+  "score" : 0
+}

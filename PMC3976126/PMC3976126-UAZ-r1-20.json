@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151956",
+      "entity_text" : "RR",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00797",
+      "entity_text" : "renin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0018229" ]
+    }
+  },
+  "verbose_text" : "Various research studies have demonstrated that the competitive inhibition of the binding of (pro) renin to the (P) RR by parenteral application of a decoy peptide, which is derived from the prosegment of prorenin, prevents the development of diabetic nephropathy and reduces cardiac fibrosis.",
+  "reading_complete" : "2020-08-02T09:58:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:56:33Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of (pro)renin to the (P)RR" ],
+  "pmc_id" : "3976126",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280961",
+      "entity_text" : "genistein",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similar to our data that genistein does not significantly inhibit cell growth, the MTT assay determined IC 50 value of genistein in a panel of cancer cell lines was in the two-digit micromolar range.",
+  "reading_complete" : "2020-08-02T09:58:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:56:33Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "genistein does not significantly inhibit cell growth" ],
+  "pmc_id" : "3976126",
+  "score" : 0
+}

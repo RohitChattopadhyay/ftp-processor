@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0001752" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "In this study, we investigated the association between Tb4 and Smad, Akt, ERK and/or beta-catenin in dental epithelial cells, as the signal pathways of these factors are associated with Runx2 expression during bone differentiation.",
+  "reading_complete" : "2020-08-02T10:01:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:59:50Z",
+  "trigger" : "association",
+  "evidence" : [ "association between Tb4 and Smad, Akt, ERK and/or beta-catenin" ],
+  "pmc_id" : "4380193",
+  "score" : 0
+}
