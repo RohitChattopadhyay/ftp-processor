@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10826",
+      "entity_text" : "RARbeta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "RARbeta is aberrantly methylated in 18% of AML cases and p73 is methylated in 10% of AML cases.",
+  "reading_complete" : "2020-08-02T12:44:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:43:02Z",
+  "trigger" : "methylated",
+  "evidence" : [ "RARbeta is aberrantly methylated" ],
+  "pmc_id" : "4214337",
+  "score" : 0
+}

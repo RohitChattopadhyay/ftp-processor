@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "Histone",
+      "features" : [ {
+        "modification_type" : "methylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Histone methylation can either inhibit or activate gene transcription, depending on the localization.",
+  "reading_complete" : "2020-08-02T12:45:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:44:28Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "Histone methylation can either inhibit or activate gene transcription" ],
+  "pmc_id" : "4432924",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96SR6",
+      "entity_text" : "ZNF382",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0002" ],
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To confirm the methylation of the ZNF382 promoter, we treated the leukemia cell lines with the demethylation reagent, 5-Aza.",
+  "reading_complete" : "2020-08-02T12:44:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:43:02Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of the ZNF382" ],
+  "pmc_id" : "4214337",
+  "score" : 0
+}

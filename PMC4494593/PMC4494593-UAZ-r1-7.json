@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "Survivin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Survivin inhibits apoptosis by binding to caspase-9 or by blocking second mitochondria derived activator of caspases (SMAC; a pro apoptotic protein that binds IAPs and thus prevents them from inhibiting caspases) and thus prevents the pro apoptotic protein from blocking IAP proteins (XREF_FIG).",
+  "reading_complete" : "2020-08-02T12:46:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:45:08Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "Survivin inhibits apoptosis" ],
+  "pmc_id" : "4494593",
+  "score" : 0
+}
