@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01106",
+      "entity_text" : "Myc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The Nanog mRNA expression levels were low for the whole process, while beta-catenin and Myc mRNA expression levels showed a stable increase for the whole cell culture period (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:51:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:50:32Z",
+  "trigger" : "levels",
+  "evidence" : [ "Myc mRNA expression levels" ],
+  "pmc_id" : "3577366",
+  "score" : 0
+}

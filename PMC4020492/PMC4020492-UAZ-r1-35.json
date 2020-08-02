@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95831",
+      "entity_text" : "AIF",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005739" ]
+    }
+  },
+  "verbose_text" : "AIF is translocated to the nucleus after being released from the mitochondria, inducing DNA fragmentation.",
+  "reading_complete" : "2020-08-02T14:52:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:51:50Z",
+  "trigger" : "translocated",
+  "evidence" : [ "AIF is translocated to the nucleus" ],
+  "pmc_id" : "4020492",
+  "score" : 0
+}

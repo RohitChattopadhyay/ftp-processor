@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Caspase",
+      "entity_text" : "caspase",
+      "entity_type" : "family"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0001375" ]
+    }
+  },
+  "verbose_text" : "This could be explained by the fact that in skeletal muscle, cytochrome c initiates the caspase dependent apoptotic pathway, whereas AIF resides in the mitochondrion and upon stimulation, translocates to the nucleus to induce DNA fragmentation in a caspase independent manner.",
+  "reading_complete" : "2020-08-02T14:52:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:51:50Z",
+  "trigger" : "translocates",
+  "evidence" : [ "caspase-dependent apoptotic pathway, whereas AIF resides in the mitochondrion and upon stimulation, translocates to the nucleus" ],
+  "pmc_id" : "4020492",
+  "score" : 0
+}
