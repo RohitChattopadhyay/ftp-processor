@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "4E-BP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1072" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The best understood roles of mTOR in mammalian cells are regarding the control of mRNA translation by phosphorylating 4E-BP1, it was observed that the inhibition of mTOR phosphorylation was accompanied by the decreased phosphorylation of 4E-BP1.",
+  "reading_complete" : "2020-08-02T14:09:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:08:15Z",
+  "trigger" : "phosphorylating",
+  "evidence" : [ "phosphorylating 4E-BP1" ],
+  "pmc_id" : "6192759",
+  "score" : 0
+}
