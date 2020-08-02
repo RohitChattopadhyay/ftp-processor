@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03214",
+      "entity_text" : "PASMCs",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03213",
+      "entity_text" : "miR-106-5p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "miR-106-5p expression levels were decreased in PDGF induced PASMCs and overexpression of miR-106-5p decreased proliferation and migration of PASMCs following PDGF stimulation.",
+  "reading_complete" : "2020-08-02T16:06:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:05:34Z",
+  "trigger" : "decreased",
+  "evidence" : [ "miR-106-5p decreased proliferation and migration of PASMCs" ],
+  "pmc_id" : "7138273",
+  "score" : 0
+}

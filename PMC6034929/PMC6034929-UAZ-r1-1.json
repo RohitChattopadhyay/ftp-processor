@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "epidermal growth factor receptor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24758425",
+      "entity_text" : "aldosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Systemic aldosterone administration induces phosphorylation of epidermal growth factor receptor and extracellular signal regulated kinase (ERK) in the kidney within 30 min.",
+  "reading_complete" : "2020-08-02T16:05:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:03:59Z",
+  "trigger" : "induces",
+  "evidence" : [ "aldosterone administration induces phosphorylation of epidermal growth factor receptor" ],
+  "pmc_id" : "6034929",
+  "score" : 0
+}
