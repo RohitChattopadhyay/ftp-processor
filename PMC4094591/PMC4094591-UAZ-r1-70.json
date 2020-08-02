@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14210",
+      "entity_text" : "HGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "HGF expression levels are decreased in CFs stimulated with TGF-beta 1.",
+  "reading_complete" : "2020-08-02T12:16:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:15:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "HGF expression levels" ],
+  "pmc_id" : "4094591",
+  "score" : 0
+}

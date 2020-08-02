@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Macrophages derived from ATG16L1 deficient mice have been shown to produce higher levels of IL-1beta, and mice with a conditional deletion of ATG7 in the intestinal epithelium show an enhanced IL-1beta expression.",
+  "reading_complete" : "2020-08-02T12:13:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:11:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-1beta" ],
+  "pmc_id" : "4356450",
+  "score" : 0
+}

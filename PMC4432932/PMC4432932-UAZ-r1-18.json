@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "survivin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, it has been shown that VEGF exerts anti-apoptotic effects during angiogenesis that may be mediated by the induced survivin expression in endothelial cells.",
+  "reading_complete" : "2020-08-02T12:15:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:14:44Z",
+  "trigger" : "mediated",
+  "evidence" : [ "angiogenesis that may be mediated by the induced survivin" ],
+  "pmc_id" : "4432932",
+  "score" : 0
+}
