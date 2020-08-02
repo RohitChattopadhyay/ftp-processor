@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16581",
+      "entity_text" : "E-selectin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7009579",
+      "entity_text" : "SA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8170" ],
+      "TissueType" : [ "uaz:CVCL_9S75" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Here, we have showed that micelle surface display of SA binds to E-selectin receptor and then increases the uptake by LPS activated HUVECs.",
+  "reading_complete" : "2020-08-02T13:58:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:56:25Z",
+  "trigger" : "binds",
+  "evidence" : [ "SA binds to E-selectin" ],
+  "pmc_id" : "5505054",
+  "score" : 0
+}
