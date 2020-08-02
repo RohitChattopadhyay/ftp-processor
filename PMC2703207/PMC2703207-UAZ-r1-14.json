@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13569",
+      "entity_text" : "CFTR",
+      "features" : [ {
+        "to_base" : "DeltaF",
+        "site" : 508,
+        "feature_type" : "mutation",
+        "evidence" : "DeltaF508"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This study shows that the heterologous expression of DeltaF508 CFTR in cells which do not normally express CFTR results in a quantitative decrease in the sialylation of cell membrane glycoconjugates.",
+  "reading_complete" : "2020-08-02T15:00:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of DeltaF508 CFTR" ],
+  "pmc_id" : "2703207",
+  "score" : 0
+}

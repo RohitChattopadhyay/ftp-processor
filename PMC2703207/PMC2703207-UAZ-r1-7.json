@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13019211",
+      "entity_text" : "M1",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05920",
+      "entity_text" : "cholera toxin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "A fluorescence activated cell sorter (FACScan, Becton Dickinson and Co, Mountain View, CA) was used to determine the presentation of sialo G M1 on the epithelial cell surfaces of WT, DeltaF508, and BPV cells using the beta-subunit of cholera toxin, which binds to G M1.",
+  "reading_complete" : "2020-08-02T15:00:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:06Z",
+  "trigger" : "binds",
+  "evidence" : [ "cholera toxin, which binds to G M1" ],
+  "pmc_id" : "2703207",
+  "score" : 0
+}
