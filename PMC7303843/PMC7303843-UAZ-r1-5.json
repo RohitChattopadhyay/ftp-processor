@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03230",
+      "entity_text" : "OCT212",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3152",
+      "entity_text" : "Donepezil",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Donepezil inhibits both OCT212 and MATE1.13 We hypothesize that the combined use of amantadine and donepezil led to competition in transport of amantadine through OCT2 and MATE1 leading to inhibition of its excretion and a consequent increase in its blood concentration.",
+  "reading_complete" : "2020-08-02T12:01:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:00:47Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "Donepezil inhibits both OCT212" ],
+  "pmc_id" : "7303843",
+  "score" : 0
+}
