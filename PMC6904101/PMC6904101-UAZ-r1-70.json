@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BU40",
+      "entity_text" : "Chrdl-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The reduction in Chrdl-1 levels induced by miRNA-134 in dividing NPCs leads to the sensitization of cortical progenitors to autocrine BMP7 signaling, affecting NPC proliferation, neuron migration and neuronal maturation.",
+  "reading_complete" : "2020-08-02T10:14:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:29Z",
+  "trigger" : "leads",
+  "evidence" : [ "Chrdl-1 levels induced by miRNA-134 in dividing NPCs leads to the sensitization of cortical progenitors to autocrine BMP7 signaling, affecting NPC proliferation" ],
+  "pmc_id" : "6904101",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49815",
+      "entity_text" : "TSC2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Taken together, we conclude that AKT by phosphorylating and inhibiting TSC2, acts as an upstream signal for UV induced mTOR activation, and the latter serves as a pro survival signal against UV induced cell death and apoptosis.",
+  "reading_complete" : "2020-08-02T10:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:05Z",
+  "evidence" : [ "AKT by phosphorylating and inhibiting TSC2" ],
+  "pmc_id" : "3577345",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD",
+      "entity_text" : "Smad",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Consequently, the Smad signal transducers are phosphorylated, and the downstream signal is propagated.",
+  "reading_complete" : "2020-08-02T10:14:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:29Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Smad signal transducers are phosphorylated" ],
+  "pmc_id" : "6904101",
+  "score" : 0
+}

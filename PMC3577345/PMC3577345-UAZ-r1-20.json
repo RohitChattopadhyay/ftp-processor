@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "4E-BP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Cellular_component" : [ "go:GO:0015629" ]
+    }
+  },
+  "verbose_text" : "Although the PI3K / AKT and its downstream substrate mTOR (S6K and 4E-BP1 phosphorylation, rapamycin sensitive) pathway are well established, the identity of the kinase responsible for phosphorylating AKT at Ser473 remains elusive until in recent years, when it was revealed to be mTORC2.",
+  "reading_complete" : "2020-08-02T10:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "4E-BP1 phosphorylation" ],
+  "pmc_id" : "3577345",
+  "score" : 0
+}

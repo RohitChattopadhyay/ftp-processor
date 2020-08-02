@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR024704",
+      "entity_text" : "SMC",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "During vascular development, BMP signaling increases the expression of smooth muscle cell (SMC)-specific contractile genes and inhibits cell proliferation and migration, leading to the differentiation of VSMCs.",
+  "reading_complete" : "2020-08-02T10:14:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:29Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "SMC)-specific contractile genes and inhibits cell proliferation" ],
+  "pmc_id" : "6904101",
+  "score" : 0
+}

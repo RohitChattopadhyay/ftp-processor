@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellLine" : [ "cellosaurus:CVCL_9T09" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "The PI3K / AKT and JNK phosphorylation cascades act as two important regulators, and will have an anti-apoptotic role in a variety of tissue culture models against stresses such as UV irradiation, matrix detachment, cell cycle disturbance, and DNA damages.",
+  "reading_complete" : "2020-08-02T10:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "JNK phosphorylation" ],
+  "pmc_id" : "3577345",
+  "score" : 0
+}
