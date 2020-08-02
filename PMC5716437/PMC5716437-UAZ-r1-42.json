@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0019" ],
+      "Cellular_component" : [ "go:GO:0097413" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The levels of Bcl-2 decreased in the H 2 O 2 group and increased following AS-IV pre-treatment.",
+  "reading_complete" : "2020-08-02T16:10:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:09:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Bcl-2" ],
+  "pmc_id" : "5716437",
+  "score" : 0
+}
