@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000082" ]
+    }
+  },
+  "verbose_text" : "Quantification of TGF-beta levels in biological fluids including plasma, serum, and saliva has been reported; whereas, reliable measurement of TGF-beta in solid organ tissues has been challenging because a substantial amount of TGF-beta is sequestrated in insoluble ECM.",
+  "reading_complete" : "2020-08-02T17:57:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:54:34Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of TGF-beta" ],
+  "pmc_id" : "3556312",
+  "score" : 0
+}

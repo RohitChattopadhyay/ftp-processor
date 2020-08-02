@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000082" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Total TGF-beta levels were relatively comparable among these organs, but active TGF-beta levels were slightly higher in hearts and kidneys than in livers.",
+  "reading_complete" : "2020-08-02T17:57:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:54:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "TGF-beta levels" ],
+  "pmc_id" : "3556312",
+  "score" : 0
+}
