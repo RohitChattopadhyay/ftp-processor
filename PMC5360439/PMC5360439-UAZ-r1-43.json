@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Organ" : [ "uberon:UBERON:0003062" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:3659" ]
+    }
+  },
+  "verbose_text" : "Nascent FAs are formed at the cell periphery by integrin and extracellular matrix (ECM) interactions.",
+  "reading_complete" : "2020-08-02T15:56:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:55:49Z",
+  "trigger" : "interactions",
+  "evidence" : [ "integrin and extracellular matrix (ECM) interactions" ],
+  "pmc_id" : "5360439",
+  "score" : 0
+}

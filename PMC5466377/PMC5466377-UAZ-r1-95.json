@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Previous studies have revealed that the anti-proliferative effects of DHA are based on the mitochondrial related activation of cell death pathway induced by high levels of ROS, However, the detailed associatoin between the upstream signaling and downstream activation of cell death pathway following treatment with DHA remains unclear.",
+  "reading_complete" : "2020-08-02T15:58:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:56:54Z",
+  "trigger" : "induced",
+  "evidence" : [ "cell death pathway induced by high levels of ROS" ],
+  "pmc_id" : "5466377",
+  "score" : 0
+}
