@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "As expected the increased glycolysis in activated macrophages (LPS stimulated) is observed by the significant increase in lactate levels (3 fold).",
+  "reading_complete" : "2020-08-02T18:08:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "lactate levels" ],
+  "pmc_id" : "6010986",
+  "score" : 0
+}

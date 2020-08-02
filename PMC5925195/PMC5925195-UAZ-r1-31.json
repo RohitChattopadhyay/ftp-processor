@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25063",
+      "entity_text" : "CD24",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16109",
+      "entity_text" : "P-selectin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1223" ],
+      "Organ" : [ "uberon:UBERON:0001304" ],
+      "CellType" : [ "cl:CL:0000094" ]
+    }
+  },
+  "verbose_text" : "P-selectin binds to CD24 present on the surface of the tumour cells, causing tumour cell adhesion and, consequently, metastatic spread [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:10:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:50Z",
+  "trigger" : "binds",
+  "evidence" : [ "P-selectin binds to CD24" ],
+  "pmc_id" : "5925195",
+  "score" : 0
+}

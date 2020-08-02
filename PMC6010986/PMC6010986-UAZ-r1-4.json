@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:928",
+      "entity_text" : "NADH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Enzyme / transporter expression, LDH activity and NADH levels are potential regulatory sites responsible for the 3.5-fold increase in conversion of hyperpolarized pyruvate to lactate we observed in LPS stimulated macrophages.",
+  "reading_complete" : "2020-08-02T18:08:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "NADH levels" ],
+  "pmc_id" : "6010986",
+  "score" : 0
+}
