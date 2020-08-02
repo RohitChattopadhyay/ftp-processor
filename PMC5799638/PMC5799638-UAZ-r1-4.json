@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00813",
+      "entity_text" : "adenosine deaminase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0996" ],
+      "Organ" : [ "uberon:UBERON:0003683" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "The cell count of the synovial fluid increased to 38,400 cells / muL (88% polymorphonuclear leukocytes, 4% lymphocytes, and 8% monocytes), and a significantly elevated adenosine deaminase level (61.0 U/L) was observed on the third tap.",
+  "reading_complete" : "2020-08-02T11:00:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:00:27Z",
+  "trigger" : "level",
+  "evidence" : [ "adenosine deaminase level" ],
+  "pmc_id" : "5799638",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:60961",
+      "entity_text" : "adenosine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000011" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Extrinsic idiopathic paroxysmal AV block is associated with low levels of endogenous adenosine and is supposed to be one of the mechanisms involved in \" low-adenosine syncope \".",
+  "reading_complete" : "2020-08-02T11:03:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:02:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of endogenous adenosine" ],
+  "pmc_id" : "6935613",
+  "score" : 0
+}
