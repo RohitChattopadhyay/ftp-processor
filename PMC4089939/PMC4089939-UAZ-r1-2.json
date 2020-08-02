@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005739" ]
+    }
+  },
+  "verbose_text" : "For example, DAG accumulation activates specific protein kinase C isoform activity and impairs insulin stimulated glucose transport through enhanced IRS-1 serine phosphorylation [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:44:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:43:38Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "IRS-1 serine phosphorylation" ],
+  "pmc_id" : "4089939",
+  "score" : 0
+}
