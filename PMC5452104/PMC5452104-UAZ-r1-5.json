@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01944",
+      "entity_text" : "NFMX",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This outcome is difficult to explain as NFMX was expected to increase MDA values and ASTX to reduce them.",
+  "reading_complete" : "2020-08-02T12:21:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:16:47Z",
+  "trigger" : "increase",
+  "evidence" : [ "NFMX was expected to increase MDA" ],
+  "pmc_id" : "5452104",
+  "score" : 0
+}
