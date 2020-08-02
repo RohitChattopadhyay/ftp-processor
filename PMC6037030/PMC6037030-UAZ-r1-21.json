@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZQ7",
+      "entity_text" : "PD-L1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02213",
+      "entity_text" : "IgG1 mAb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0062" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0591" ]
+    }
+  },
+  "verbose_text" : "They used an 111 In labeled IgG1 mAb (PD-L1.3.1), which specifically and exclusively binds human PD-L1 with a nanomolar affinity.",
+  "reading_complete" : "2020-08-02T09:41:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:06Z",
+  "trigger" : "binds",
+  "evidence" : [ "IgG1 mAb (PD-L1.3.1), which specifically and exclusively binds human PD-L1" ],
+  "pmc_id" : "6037030",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZQ7",
+      "entity_text" : "PD-L1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0665" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "This could be due to the effect of PD-1 :P D-L1 blockade occurring outside of the tumor microenvironment due to heterogeneity of PD-L1 expression in cancer lesions, which is not always correctly assessed by core needle biopsy, or due to changes in PD-L1 expression over time, which is in current trials sometimes assessed using repeated biopsies.",
+  "reading_complete" : "2020-08-02T09:41:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:39:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "PD-L1 expression" ],
+  "pmc_id" : "6037030",
+  "score" : 0
+}
