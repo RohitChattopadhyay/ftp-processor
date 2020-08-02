@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF-1alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40337",
+      "entity_text" : "VHL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0062" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "VHL binds to HIF-1alpha hydroxylated by oxygen, leading to the degradation of HIF-1alpha and the subsequent prevention of CA-IX expression; therefore, under hypoxic conditions, nonhydroxylated HIF-1alpha is not recognized by the VHL protein, and RCC4-VHL cells should show CA-IX expression.",
+  "reading_complete" : "2020-08-02T16:44:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:37:24Z",
+  "trigger" : "binds",
+  "evidence" : [ "VHL binds to HIF-1alpha" ],
+  "pmc_id" : "5996370",
+  "score" : 0
+}
