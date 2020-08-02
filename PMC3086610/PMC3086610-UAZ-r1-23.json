@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00175",
+      "entity_text" : "beta1 integrin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, loss of beta1 integrin in skin decreases the proliferation of basal keratinocytes by about 70% XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:27:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:24:50Z",
+  "trigger" : "decreases",
+  "evidence" : [ "beta1 integrin in skin decreases the proliferation" ],
+  "pmc_id" : "3086610",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0830" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0002144" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Unlike alpha6beta4, which shows a preference for laminin 5, integrin alpha6beta1 binds most laminin isoforms as well as other ECM proteins including CYR61, thrombospondin 1 and thrombospondin 2 XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:27:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:24:50Z",
+  "trigger" : "binds",
+  "evidence" : [ "integrin alpha6beta1 binds most laminin isoforms as well as other ECM" ],
+  "pmc_id" : "3086610",
+  "score" : 0
+}

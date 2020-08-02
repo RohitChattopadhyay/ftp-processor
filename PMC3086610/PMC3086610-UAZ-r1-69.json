@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01277",
+      "entity_text" : "alpha4beta1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06417",
+      "entity_text" : "alpha9beta1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0216" ],
+      "Cellular_component" : [ "go:GO:0005604" ],
+      "CellType" : [ "cl:CL:0002321" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "For example, alpha4beta1 and alpha9beta1 bind to VCAM-1 and alpha4beta1 to MadCAM-1 XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:27:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:24:50Z",
+  "trigger" : "bind",
+  "evidence" : [ "alpha9beta1 bind to VCAM-1 and alpha4beta1" ],
+  "pmc_id" : "3086610",
+  "score" : 0
+}
