@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1R16" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0002205" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A 45-year old male came for help because of a rapidly growing neck mass combined with dyspnea, cyanosis, and gradual weight loss of 20 kg (96 to 76) within 1 year (Additional file 2 : Table S2).",
+  "reading_complete" : "2020-08-02T17:05:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:02:49Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 20 kg" ],
+  "pmc_id" : "6525978",
+  "score" : 0
+}
