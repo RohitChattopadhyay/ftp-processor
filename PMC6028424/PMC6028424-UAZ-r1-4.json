@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0279" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "There was no evidence for any statistically significant cycling of basophils or eosinophils, and no apparent cycling in erythrocytes based on hemoglobin levels.",
+  "reading_complete" : "2020-08-02T09:03:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:01:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "hemoglobin levels" ],
+  "pmc_id" : "6028424",
+  "score" : 0
+}

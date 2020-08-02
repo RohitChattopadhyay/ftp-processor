@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07202",
+      "entity_text" : "TPO",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "This is consistent with our observations of fluctuating TPO levels in this patient, as has been shown in other cases.10 TPO receptors appear on hematopoietic stem cells, which may explain how both platelets and neutrophils were affected.",
+  "reading_complete" : "2020-08-02T09:03:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:01:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "TPO levels" ],
+  "pmc_id" : "6028424",
+  "score" : 0
+}

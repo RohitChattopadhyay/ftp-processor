@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5991",
+      "entity_text" : "estrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0000805" ]
+    }
+  },
+  "verbose_text" : "Previous literature showed that 47, XXX females usually had high levels of estrogen and progesterone, causing menstrual disorder and sexual precocity.14 In our case, the woman had menstrual irregularities, mainly oligomenorrhea.",
+  "reading_complete" : "2020-08-02T09:05:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:04:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of estrogen" ],
+  "pmc_id" : "6552943",
+  "score" : 0
+}
