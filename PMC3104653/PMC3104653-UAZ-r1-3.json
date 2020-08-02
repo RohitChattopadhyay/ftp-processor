@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P24158",
+      "entity_text" : "PR3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2201",
+      "entity_text" : "ANCA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0000096" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "(2) The second hypothesis states that ANCA binds to PR3 reducing its proteolytic activity while at the same time preventing immune complex formation and complete inactivation by alpha-1-antitrypsin.",
+  "reading_complete" : "2020-08-02T17:03:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:59:58Z",
+  "trigger" : "binds",
+  "evidence" : [ "ANCA binds to PR3" ],
+  "pmc_id" : "3104653",
+  "score" : 0
+}
