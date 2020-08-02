@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08470",
+      "entity_text" : "hTERT promoter",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6NFN3",
+      "entity_text" : "RBFOX3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0326" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "On the contrary, AP-2beta knockdown weakened the binding of RBFOX3 on hTERT promoter even in RBFOX3 overexpressing Hep3B cells.",
+  "reading_complete" : "2020-08-02T18:24:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:22:29Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of RBFOX3 on hTERT promoter" ],
+  "pmc_id" : "5566111",
+  "score" : 0
+}

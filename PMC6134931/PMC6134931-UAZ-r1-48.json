@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00966",
+      "entity_text" : "ASS1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The difference in DNA methylation of ASS1 between T24R and T24S cells was 4.35-fold (log2) and the gene expression difference was -5.27-fold (log2).",
+  "reading_complete" : "2020-08-02T18:25:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:24:36Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of ASS1" ],
+  "pmc_id" : "6134931",
+  "score" : 0
+}

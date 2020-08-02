@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08470",
+      "entity_text" : "hTERT promoter",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6NFN3",
+      "entity_text" : "RBFOX3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6715" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To further validate the interaction between RBFOX3 and the hTERT promoter, we pulled down the nuclear proteins bound at the hTERT promoter in HCC cells using the 5 '-biotin labeled hTERT promoter probe and streptavidin-agarose beads, and detected RBFOX3 in the nuclear protein / DNA complex using the RBFOX3 specific antibody by Western blot.",
+  "reading_complete" : "2020-08-02T18:24:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:22:29Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between RBFOX3 and the hTERT promoter" ],
+  "pmc_id" : "5566111",
+  "score" : 0
+}
