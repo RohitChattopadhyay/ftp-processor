@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:21635054",
+      "entity_text" : "Cocaine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Cocaine is hydrolyzed rapidly by various esterases in the body.",
+  "reading_complete" : "2020-08-02T11:29:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:28:56Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "Cocaine is hydrolyzed" ],
+  "pmc_id" : "3776719",
+  "score" : 0
+}
