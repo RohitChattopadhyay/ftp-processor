@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23219",
+      "entity_text" : "COX-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2244",
+      "entity_text" : "aspirin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although acetaminophen inhibits COX-1 only at very high concentrations, it might have cross-reactivity with aspirin when standard therapeutic doses of the drug (650 mg or less) are administrated.",
+  "reading_complete" : "2020-08-02T08:59:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:52:58Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "inhibits COX-1 only at very high concentrations, it might have cross-reactivity with aspirin" ],
+  "pmc_id" : "5951071",
+  "score" : 0
+}

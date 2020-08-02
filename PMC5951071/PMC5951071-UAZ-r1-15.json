@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:145068",
+      "entity_text" : "nitric oxide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0279" ],
+      "Organ" : [ "uberon:UBERON:0000414" ],
+      "CellType" : [ "cl:CL:0000097" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ST patients had higher levels of nitric oxide and Cys LTs levels in the urine, blood, sputum and saliva than patients without ST [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:59:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:52:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of nitric oxide" ],
+  "pmc_id" : "5951071",
+  "score" : 0
+}
