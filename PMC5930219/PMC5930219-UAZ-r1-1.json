@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49815",
+      "entity_text" : "tuberin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92574",
+      "entity_text" : "hamartin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0480" ]
+    }
+  },
+  "verbose_text" : "In support of this hypothesis, molecular studies have shown that the TSC 1/2/mTOR signaling pathway can be aberrant in both sporadic TSCs (as the hamartin - tuberin complex is a critical negative regulator of mTOR) and neuroendocrine tumors (as central dysregulation of the mTOR pathway occurs in pancreatic neuroendocrine tumors 2).",
+  "reading_complete" : "2020-08-02T12:30:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:30:16Z",
+  "trigger" : "complex",
+  "evidence" : [ "hamartin-tuberin complex" ],
+  "pmc_id" : "5930219",
+  "score" : 0
+}
