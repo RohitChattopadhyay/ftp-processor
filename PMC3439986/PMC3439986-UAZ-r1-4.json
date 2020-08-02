@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0945" ],
+      "Organ" : [ "uberon:UBERON:0002387" ]
+    }
+  },
+  "verbose_text" : "Immediately prior to the glucose injection and at 15, 30, 45, 60, 120, 180, and 240 min blood samples from the tip of the tail were taken to measure circulating glucose levels using glucose oxidase reagent strips.",
+  "reading_complete" : "2020-08-02T10:40:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:37:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3439986",
+  "score" : 0
+}

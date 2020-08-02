@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TD31",
+      "entity_text" : "CCHCR1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "According to the Kruskal-Wallis H test, statistically significant differences were found in CCHCR1 transcripts levels between the compared groups (H = 9.06; P = 0.03 for CCHCR1 / GAPDH and H = 9.23; P = 0.03 for CCHCR1 / POL II).",
+  "reading_complete" : "2020-08-02T10:39:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:38:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "CCHCR1 transcripts levels" ],
+  "pmc_id" : "3577136",
+  "score" : 0
+}
