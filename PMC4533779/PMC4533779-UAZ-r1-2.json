@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytosol",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005829",
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The release of cytochrome c into the cytosol promotes the formation of the apoptosome, a complex composed of the apoptotic protease activating factor-1 (Apaf-1), procaspase-9 and ATP.",
+  "reading_complete" : "2020-08-02T09:06:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:04:42Z",
+  "trigger" : "release",
+  "evidence" : [ "release of cytochrome c into the cytosol" ],
+  "pmc_id" : "4533779",
+  "score" : 0
+}
