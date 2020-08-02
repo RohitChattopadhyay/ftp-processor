@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7097402",
+      "entity_text" : "PCa",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0828" ]
+    }
+  },
+  "verbose_text" : "Many of the genes that have been found to be methylated in PCa are known to affect cell cycle control, tumor invasion and signal transduction.",
+  "reading_complete" : "2020-08-02T15:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:43:52Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated in PCa" ],
+  "pmc_id" : "3573772",
+  "score" : 0
+}
