@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61812",
+      "entity_text" : "TGFB2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "TGFB2 activity is inhibited by lumican, which subsequently mediates cell adhesion of OS by regulating integrin-beta1, phosphorylated SMAD family member 2 (SMAD2) and phosphorylated focal adhesion kinase.",
+  "reading_complete" : "2020-08-02T13:23:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:22:21Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "TGFB2 activity is inhibited by lumican, which subsequently mediates cell adhesion of OS by regulating integrin-beta1, phosphorylated" ],
+  "pmc_id" : "5819903",
+  "score" : 0
+}

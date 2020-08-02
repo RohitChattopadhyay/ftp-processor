@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "Hcy",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Elevated levels of Hcy in plasma are a risk factor for cardiovascular disease and can cause a range of pathological processes.",
+  "reading_complete" : "2020-08-02T13:24:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:23:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Hcy" ],
+  "pmc_id" : "7053877",
+  "score" : 0
+}

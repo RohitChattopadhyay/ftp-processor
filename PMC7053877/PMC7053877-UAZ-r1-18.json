@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S282",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17302",
+      "entity_text" : "Cx43",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0115" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Yang et al found that Cx43 phosphorylation at S282 mediates cardiomyocyte survival and S282 dephosphorylation induces cardiomyocyte apoptosis under normal conditions.",
+  "reading_complete" : "2020-08-02T13:24:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:23:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Cx43 phosphorylation at S282" ],
+  "pmc_id" : "7053877",
+  "score" : 0
+}

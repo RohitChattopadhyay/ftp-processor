@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Via the PI3K / Akt signaling pathway, ICAM1 expression is upregulated by amphiregulin and thus leads to enhanced cell metastasis of OS.",
+  "reading_complete" : "2020-08-02T13:23:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:22:21Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "Akt signaling pathway, ICAM1 expression is upregulated" ],
+  "pmc_id" : "5819903",
+  "score" : 0
+}
