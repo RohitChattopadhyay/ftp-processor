@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Serum IGF-I levels have been shown to be decreased in human newborns suffering from HIE and neuronal IGF-I mRNA and IGF-I serum levels have been shown to be decreased in neonatal rat brains following HI injury.",
+  "reading_complete" : "2020-08-02T13:52:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:51:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "IGF-I levels" ],
+  "pmc_id" : "4494588",
+  "score" : 0
+}

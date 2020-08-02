@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF-1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "CellType" : [ "cl:CL:0000312" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Following incubation for 12, 24 and 36 h in 1% oxygen, the mRNA level of HIF-1alpha increased by 3.5-, 7.5- and 10-fold, respectively (P < 0.05, 0.05 and 0.05, respectively) compared to the controls.",
+  "reading_complete" : "2020-08-02T13:49:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:48:58Z",
+  "trigger" : "level",
+  "evidence" : [ "level of HIF-1alpha" ],
+  "pmc_id" : "4380122",
+  "score" : 0
+}
