@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006281",
+      "entity_text" : "DNA repair",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7570",
+      "entity_text" : "MDR",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Detoxification and drug metabolism One mechanism of MDR is that cancer cells up-regulate some DNA repair proteins, such as TOP1MT, UNG, and MTPOLB, to repair drug induced damage, TOP1MT is a mitochondrial protein involved in mitochondrial DNA replication, and RNAi knockdown experiment demonstrated its involvement in doxorubicin resistance in NCI_ADR / RES cells.",
+  "reading_complete" : "2020-08-02T12:30:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:28:58Z",
+  "trigger" : "up-regulate",
+  "evidence" : [ "MDR is that cancer cells up-regulate some DNA repair" ],
+  "pmc_id" : "4183995",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ETC_complex_II",
+      "entity_text" : "succinate dehydrogenase",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR On the other hand, Sadowska-Bartosz et al. reported that DMSO induced oxidative stress in yeast cells in a dose dependent manner by enhancing the loss of succinate dehydrogenase and enhancing the formation of reactive oxygen species (ROS).",
+  "reading_complete" : "2020-08-02T12:28:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:24:54Z",
+  "trigger" : "enhancing",
+  "evidence" : [ "succinate dehydrogenase and enhancing the formation of reactive oxygen" ],
+  "pmc_id" : "5706096",
+  "score" : 0
+}
