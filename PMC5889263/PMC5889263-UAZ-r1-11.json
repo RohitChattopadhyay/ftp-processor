@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PKC",
+      "entity_text" : "PKC",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "This deletion occurs in a putative caveolin-1 binding site which may be important in posttranslational regulation of Octn2 trafficking to the cell surface which is dependent on formation of a multiprotein complex containing caveolin-1 and regulated by PKC dependent phosphorylation as shown in rat astrocytes 6.",
+  "reading_complete" : "2020-08-02T08:41:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:40:06Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PKC-dependent phosphorylation" ],
+  "pmc_id" : "5889263",
+  "score" : 0
+}

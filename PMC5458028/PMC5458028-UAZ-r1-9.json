@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0004134" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Sodium-glucose cotransporter 2 (SGLT2) inhibitors are able to provoke diabetic ketoacidosis (DKA) with absence or low levels of ketone bodies in urine and slightly elevated blood glucose levels, which could delay the diagnosis; however, the presence of high urine output, due to the excretion of glucose, can help to identify the true cause.",
+  "reading_complete" : "2020-08-02T08:42:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:41:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "5458028",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0649" ],
+      "Organ" : [ "uberon:UBERON:0002103" ]
+    }
+  },
+  "verbose_text" : "A 21-year-old male patient, of Senegalese origin, with no relevant medical history, was admitted in January 2018 to the Department of Internal Medicine at Rouen University Hospital for deterioration of the general state, asthenia, weight loss of 18 kg in 8 weeks (20% of his usual weight), and neuropathic lower limb pain.",
+  "reading_complete" : "2020-08-02T08:44:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:43:28Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 18 kg" ],
+  "pmc_id" : "6552948",
+  "score" : 0
+}

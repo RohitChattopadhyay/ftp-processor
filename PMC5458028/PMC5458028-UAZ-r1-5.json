@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01275",
+      "entity_text" : "glucagon",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31639",
+      "entity_text" : "SGLT2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Additionally, some researchers have reported that SGLT2 is expressed in pancreatic alpha cells, contributing in part to the alpha cells ' glucose sensor mechanism, thereby increasing the secretion of glucagon.",
+  "reading_complete" : "2020-08-02T08:42:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:41:50Z",
+  "trigger" : "increasing",
+  "evidence" : [ "SGLT2 is expressed in pancreatic alpha cells, contributing in part to the alpha cells' glucose sensor mechanism, thereby increasing the secretion of glucagon" ],
+  "pmc_id" : "5458028",
+  "score" : 0
+}

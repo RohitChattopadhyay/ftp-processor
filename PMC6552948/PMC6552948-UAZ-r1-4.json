@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15391",
+      "entity_text" : "CD19",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000786" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Immunophenotyping by flow cytometry found a very low percentage of plasma cells with a lambda type monoclonal appearance, CD56+ in 2% of plasma cells and loss of CD19 in 79% of plasma cells.",
+  "reading_complete" : "2020-08-02T08:44:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:43:28Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CD19" ],
+  "pmc_id" : "6552948",
+  "score" : 0
+}
