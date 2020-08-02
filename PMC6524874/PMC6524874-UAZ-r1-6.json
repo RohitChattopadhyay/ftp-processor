@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:892",
+      "entity_text" : "MI",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02243",
+      "entity_text" : "hs-CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The association between hs-CRP and MI was not mediated by RDW (0.6%, 95% CI : -1.4 to 4.3%).",
+  "reading_complete" : "2020-08-02T12:58:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:56:48Z",
+  "trigger" : "association",
+  "evidence" : [ "association between hs-CRP and MI" ],
+  "pmc_id" : "6524874",
+  "score" : 0
+}
