@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06041",
+      "entity_text" : "miR-133a-3p",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06040",
+      "entity_text" : "circNCX1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "Due to competitive binding of circNCX1 to miR-133a-3p, the suppressive activity of pro apoptotic gene cell death inducing protein (CDIP1) by miR-133a-3p was reduced.",
+  "reading_complete" : "2020-08-02T15:07:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:06:28Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of circNCX1 to miR-133a-3p" ],
+  "pmc_id" : "6299442",
+  "score" : 0
+}

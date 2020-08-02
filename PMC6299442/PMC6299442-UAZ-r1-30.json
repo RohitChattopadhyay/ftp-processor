@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001525",
+      "entity_text" : "DCM",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5T481",
+      "entity_text" : "RBM20",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Loss of RBM20 causes DCM XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:07:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:06:28Z",
+  "trigger" : "causes",
+  "evidence" : [ "RBM20 causes DCM" ],
+  "pmc_id" : "6299442",
+  "score" : 0
+}

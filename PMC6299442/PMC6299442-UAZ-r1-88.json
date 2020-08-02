@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11226",
+      "entity_text" : "MBL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q70KF0",
+      "entity_text" : "gene",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M769" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "A circular transcript of the muscleblind (mbl) gene that binds MBL has been found to suppress its function XREF_BIBR.",
+  "reading_complete" : "2020-08-02T15:07:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:06:28Z",
+  "trigger" : "binds",
+  "evidence" : [ "gene that binds MBL" ],
+  "pmc_id" : "6299442",
+  "score" : 0
+}
