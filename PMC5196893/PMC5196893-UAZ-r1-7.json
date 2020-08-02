@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03548",
+      "entity_text" : "LYVE-1 receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0580" ],
+      "CellType" : [ "cl:CL:0002138" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "More importantly, the specific binding of HA to LYVE-1 receptors on the lymphatic endothelial cells can further increase the retention of HA probe within the lymph nodes.",
+  "reading_complete" : "2020-08-02T11:19:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:18:24Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of HA to LYVE-1 receptors" ],
+  "pmc_id" : "5196893",
+  "score" : 0
+}

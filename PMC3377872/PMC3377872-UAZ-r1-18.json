@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04150",
+      "entity_text" : "glucocorticoid receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38936",
+      "entity_text" : "Cip1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ]
+    }
+  },
+  "verbose_text" : "In normal cells, beta-mimetics and steroids activate p21 Waf1 / Cip1 via C/EBPalpha forming a complex with the glucocorticoid receptor (GR).",
+  "reading_complete" : "2020-08-02T11:18:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:10:58Z",
+  "trigger" : "forming a complex",
+  "evidence" : [ "Cip1  via C/EBPalpha forming a complex with the glucocorticoid receptor" ],
+  "pmc_id" : "3377872",
+  "score" : 0
+}

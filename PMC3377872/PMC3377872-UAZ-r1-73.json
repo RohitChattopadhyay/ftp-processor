@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38936",
+      "entity_text" : "Waf1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P49715",
+      "entity_text" : "C/EBPalpha",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P04150",
+      "entity_text" : "glucocorticoid receptor",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In normal cells, C/EBPalpha forms a complex with the glucocorticoid receptor (GR), which then activates the p21 (Waf1 / Cip1) promoter [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:18:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:10:58Z",
+  "trigger" : "activates",
+  "evidence" : [ "C/EBPalpha forms a complex with the glucocorticoid receptor (GR), which then activates the p21(Waf1" ],
+  "pmc_id" : "3377872",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23381",
+      "entity_text" : "WRS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZJ5",
+      "entity_text" : "PERK",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "Mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mutations of the PERK kinase that regulates eIF2 activity cause the Wolcott-Rallison Syndrome (WRS), a form of permanent diabetes [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:18:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:10:58Z",
+  "trigger" : "cause",
+  "evidence" : [ "PERK kinase that regulates eIF2 activity cause the Wolcott-Rallison Syndrome (WRS" ],
+  "pmc_id" : "3377872",
+  "score" : 0
+}

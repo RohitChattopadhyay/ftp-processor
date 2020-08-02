@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y5Y7",
+      "entity_text" : "LYVE-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03546",
+      "entity_text" : "Cy5.5-HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "Organ" : [ "uberon:UBERON:0001391" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To further demonstrate the specific binding of Cy5.5-HA to LYVE-1, popliteal LNs were sectioned and stained with an antibody against LYVE-1 and Cy5.5-HA.",
+  "reading_complete" : "2020-08-02T11:19:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:18:24Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Cy5.5-HA to LYVE-1" ],
+  "pmc_id" : "5196893",
+  "score" : 0
+}

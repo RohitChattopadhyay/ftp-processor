@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15502",
+      "entity_text" : "elastin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P39900",
+      "entity_text" : "MMP-12",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Since MMP-12 degrades elastin it is considered the leading proteinase responsible for pulmonary emphysema [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:18:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:10:58Z",
+  "trigger" : "degrades",
+  "evidence" : [ "MMP-12 degrades elastin" ],
+  "pmc_id" : "3377872",
+  "score" : 0
+}
