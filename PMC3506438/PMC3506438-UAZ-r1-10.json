@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02275",
+      "entity_text" : "gremlin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Furthermore, FGF-2 expression significantly correlated with CK19 expression, implying that promotion of fibrogenesis by FGF [XREF_BIBR] leads to increased gremlin expression that blocks BMP-7-mediated stem cell differentiation, which leads to proliferation in an immature state, as shown by higher CK19 positivity.",
+  "reading_complete" : "2020-08-02T15:02:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:59:33Z",
+  "trigger" : "blocks",
+  "evidence" : [ "gremlin expression that blocks BMP-7-mediated stem cell differentiation" ],
+  "pmc_id" : "3506438",
+  "score" : 0
+}
