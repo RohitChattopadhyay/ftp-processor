@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00099",
+      "entity_text" : "reflux",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We hypothesize that reflux causes inflammation in the airways which in some leads to an eosinophilic response thus giving rise to asthma like syndromes.",
+  "reading_complete" : "2020-08-02T09:19:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:12:50Z",
+  "trigger" : "causes",
+  "evidence" : [ "reflux causes inflammation" ],
+  "pmc_id" : "5510559",
+  "score" : 0
+}
