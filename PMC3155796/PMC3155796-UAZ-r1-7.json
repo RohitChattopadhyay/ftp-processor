@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:14797",
+      "entity_text" : "KOH",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_J335" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Liver TAG concentration was estimated from glycerol released after ethanolic KOH hydrolysis by a colorimetric method using commercial kits from Sigma (St. Louis, Missouri, USA).",
+  "reading_complete" : "2020-08-02T09:11:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:04:54Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "KOH hydrolysis" ],
+  "pmc_id" : "3155796",
+  "score" : 0
+}

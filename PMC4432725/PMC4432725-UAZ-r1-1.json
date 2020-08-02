@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "pfam:PF04516",
+      "entity_text" : "CP2",
+      "entity_type" : "family"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P21338",
+      "entity_text" : "RNA",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The formation of the alpha - CP2 - RNA complex was abolished by the addition of the anti-His antibody and supershifted (XREF_FIG, lane 4), indicating a specific interaction between alpha-CP2 and the RNA poly (C) sequence.",
+  "reading_complete" : "2020-08-02T09:14:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:13:38Z",
+  "trigger" : "complex",
+  "evidence" : [ "alpha-CP2-RNA complex" ],
+  "pmc_id" : "4432725",
+  "score" : 0
+}

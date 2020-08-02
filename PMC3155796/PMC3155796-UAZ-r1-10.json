@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60709",
+      "entity_text" : "beta-actin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The relative gene expression was calculated as a function of 2 -DeltaDeltaCt and normalized for beta-actin transcript level.",
+  "reading_complete" : "2020-08-02T09:11:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:04:54Z",
+  "trigger" : "level",
+  "evidence" : [ "beta-actin transcript level" ],
+  "pmc_id" : "3155796",
+  "score" : 0
+}
