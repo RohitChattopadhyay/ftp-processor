@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40933",
+      "entity_text" : "IL-15",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "High levels of IL-15 induced IFN-gamma and TNF-alpha secretion at the tumor site and in peritoneal fluid.",
+  "reading_complete" : "2020-08-02T12:06:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:05:43Z",
+  "trigger" : "induced",
+  "evidence" : [ "IL-15 induced IFN-gamma" ],
+  "pmc_id" : "6037032",
+  "score" : 0
+}

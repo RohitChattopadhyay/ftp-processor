@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P28067",
+      "entity_text" : "DMA",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P40933",
+      "entity_text" : "pIL15",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Treatment of tumor bearing mice with DMA - pIL15 complex significantly inhibited tumor growth in both subcutaneous and peritoneal models in vivo by inhibiting angiogenesis, promoting apoptosis, and reducing proliferation through activation of the host immune system.",
+  "reading_complete" : "2020-08-02T12:06:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:05:43Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "DMA-pIL15 complex significantly inhibited tumor growth in both subcutaneous and peritoneal models in vivo by inhibiting angiogenesis, promoting apoptosis, and reducing proliferation" ],
+  "pmc_id" : "6037032",
+  "score" : 0
+}
