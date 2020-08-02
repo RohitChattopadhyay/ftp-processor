@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK 1/2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "However, there is no a priori evidence to suggest that BUD would cause an inhibition of p38 MAPK or ERK 1/2 phosphorylation, and this is supported by the fact that IL-5 signaling events are necessary for the observed BUD enhancing effects.",
+  "reading_complete" : "2020-08-02T10:41:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:35Z",
+  "trigger" : "cause",
+  "evidence" : [ "cause an inhibition of p38 MAPK or ERK 1/2" ],
+  "pmc_id" : "2606647",
+  "score" : 0
+}

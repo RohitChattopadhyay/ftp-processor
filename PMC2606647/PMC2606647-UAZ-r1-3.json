@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28906",
+      "entity_text" : "CD34",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0279" ],
+      "Cellular_component" : [ "uniprot:SL-0027" ],
+      "CellType" : [ "cl:CL:0002092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The first, the expression of IL-5Ralpha on CD34+ progenitor cells, was examined since there is an increase in the proportion of bone marrow CD34 + progenitor cells expressing IL-5Ralpha 24 hours after allergen challenge in asthmatic subjects [XREF_BIBR], and pretreatment with BUD in vivo partially reduces baseline levels of CD34 + IL-5Ralpha + bone marrow cells, but does not abrogate the allergen induced upregulation [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:41:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CD34" ],
+  "pmc_id" : "2606647",
+  "score" : 0
+}
