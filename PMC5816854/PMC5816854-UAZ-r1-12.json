@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12778",
+      "entity_text" : "FoxO1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Following the phosphorylation and subsequent activation of Akt by insulin, FoxO1 is phosphorylated and excluded from the nucleus [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:07:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:52:14Z",
+  "evidence" : [ "phosphorylation and subsequent activation of Akt by insulin, FoxO1" ],
+  "pmc_id" : "5816854",
+  "score" : 0
+}

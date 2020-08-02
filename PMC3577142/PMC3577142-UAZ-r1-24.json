@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04765",
+      "entity_text" : "TGF-beta1 receptor type I",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "After being phosphorylated by the activated TGF-beta1 receptor type I, Smad2 and Smad3 form a heterocomplex with co-Smad (Smad4), and transfer into the cellular nucleus activating DNA transcription to regulate the target gene expression.",
+  "reading_complete" : "2020-08-02T16:07:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:06:52Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated by the activated TGF-beta1 receptor type I" ],
+  "pmc_id" : "3577142",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the hearts of lean, wild-type mice, glycolysis and glucose oxidation were increased and free fatty acid oxidation was decreased due to insulin action [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:07:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:52:14Z",
+  "trigger" : "decreased",
+  "evidence" : [ "acid oxidation was decreased due to insulin" ],
+  "pmc_id" : "5816854",
+  "score" : 0
+}
