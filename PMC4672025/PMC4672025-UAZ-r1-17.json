@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62826",
+      "entity_text" : "Ran",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "survivin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1452" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "More importantly, we confirmed that the critical role of survivin in chemoresistance of CSCs in human breast cancer, consistent with recent findings that by disrupting the interaction between survivin and Ran, one can sensitize glioma stem cells to temozolomide XREF_BIBR.",
+  "reading_complete" : "2020-08-02T13:04:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:02:18Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between survivin and Ran" ],
+  "pmc_id" : "4672025",
+  "score" : 0
+}

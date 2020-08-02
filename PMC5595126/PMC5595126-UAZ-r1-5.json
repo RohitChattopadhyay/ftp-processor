@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42574",
+      "entity_text" : "Sca-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08514",
+      "entity_text" : "GPIIb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0651" ],
+      "Organ" : [ "uberon:UBERON:0001626" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Having confirmed that Tand-scFv Sca-1+ GPIIb / IIIa specifically binds to Sca-1 and GPIIb / IIIa and furthermore directs Sca-1-expressing cells to activated platelets in vitro, we hypothesized that Tand-scFv Sca-1+ GPIIb / IIIa preserves these homing properties in vivo and that directing Sca-1-expressing cells to activated platelets may have beneficial effects after myocardial infarction and reperfusion.",
+  "reading_complete" : "2020-08-02T13:01:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:59:51Z",
+  "trigger" : "binds",
+  "evidence" : [ "GPIIb/IIIa  specifically binds to Sca-1" ],
+  "pmc_id" : "5595126",
+  "score" : 0
+}
