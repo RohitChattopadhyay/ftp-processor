@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Cofilin",
+      "entity_text" : "cofilin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000096" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Moreover, in response to azurocidin, dephosphorylation of cofilin was seen, which indicates cofilin activation.",
+  "reading_complete" : "2020-08-02T17:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:59:45Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of cofilin" ],
+  "pmc_id" : "5743457",
+  "score" : 0
+}

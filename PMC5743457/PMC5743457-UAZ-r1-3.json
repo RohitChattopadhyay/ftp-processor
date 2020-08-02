@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00738",
+      "entity_text" : "p38alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20160",
+      "entity_text" : "azurocidin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Indeed, azurocidin induced phosphorylation of p38alpha, of its downstream target MAPKAP-2, and de-phosphorylation of cofilin, the latter directly linking azurocidin effects to the cytoskeleton.",
+  "reading_complete" : "2020-08-02T17:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:59:45Z",
+  "trigger" : "induced",
+  "evidence" : [ "azurocidin induced phosphorylation of p38alpha" ],
+  "pmc_id" : "5743457",
+  "score" : 0
+}
