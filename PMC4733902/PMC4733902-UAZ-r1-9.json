@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5991",
+      "entity_text" : "estrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0003700" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Results from two reports [XREF_BIBR, XREF_BIBR] suggest that the high estrogen level is associated with an increased prevalence of TMD.",
+  "reading_complete" : "2020-08-02T18:07:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:04:41Z",
+  "trigger" : "level",
+  "evidence" : [ "estrogen level" ],
+  "pmc_id" : "4733902",
+  "score" : 0
+}
