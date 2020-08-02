@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10145",
+      "entity_text" : "IL-8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0003" ],
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In addition, the highest concentration of SP (200 mug/mL) showed a cytotoxic effect on HMC-1 cells (about 10% of cells were dead for 12 h), although the amount of IL-8 release in SP (200 mug/mL)-stimulated cells showed a similar level compared with the result of stimulation with 100 mug/mL (data not shown).",
+  "reading_complete" : "2020-08-02T12:46:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:44:26Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of IL-8" ],
+  "pmc_id" : "3915631",
+  "score" : 0
+}
