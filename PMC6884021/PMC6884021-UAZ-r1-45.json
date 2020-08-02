@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p14_3_3",
+      "entity_text" : "14-3-3 proteins",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-1006" ]
+    }
+  },
+  "verbose_text" : "Binding of 14-3-3 proteins to plant H + -ATPases or glucose to fungal H + -ATPases neutralizes this interaction and moves the pump to a high activity state.",
+  "reading_complete" : "2020-08-02T16:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:46Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of 14-3-3 proteins to plant H + -ATPases or glucose" ],
+  "pmc_id" : "6884021",
+  "score" : 0
+}

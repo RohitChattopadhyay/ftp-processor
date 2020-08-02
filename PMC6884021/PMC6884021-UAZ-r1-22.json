@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The C-domain contains the DKTGTLT motif which includes the transiently phosphorylated aspartyl residue, the KGAPE motif which participates in ATP binding, the DPPR motif which is involved in phosphate binding and phosphorylation, and the MVTGD motif that is also essential for enzyme phosphorylation.",
+  "reading_complete" : "2020-08-02T16:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphate binding and phosphorylation" ],
+  "pmc_id" : "6884021",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The Saccharomyces Cod1 mutant is deficient in the regulation of hydroxymethylglutaryl-coenzyme A degradation, an integral ER protein, and disruption of this P 5A -ATPase (also known as Spf1p) yields a glycosylation defective phenotype, perturbs cellular calcium homeostasis, and increases expression of Kar2p, an ER stress chaperone, and calcineurin activated genes, indicating secretory calcium store depletion [XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:46Z",
+  "trigger" : "activated",
+  "evidence" : [ "ER stress chaperone, and calcineurin-activated genes, indicating secretory calcium" ],
+  "pmc_id" : "6884021",
+  "score" : 0
+}

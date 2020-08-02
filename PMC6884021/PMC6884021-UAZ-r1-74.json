@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07421",
+      "entity_text" : "Pma1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "features" : [ {
+        "position" : "Serine",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Tandem phosphorylation of an adjacent Serine Threonine amino acid pair in the C-terminal tail of the yeast Pma1 H + -ATPase mediates glucose dependent activation of Pma1 [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T16:40:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:46Z",
+  "trigger" : "mediates",
+  "evidence" : [ "acid pair in the C-terminal tail of the yeast Pma1 H + -ATPase mediates glucose-dependent activation of Pma1" ],
+  "pmc_id" : "6884021",
+  "score" : 0
+}
