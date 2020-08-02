@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01350",
+      "entity_text" : "gastrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Gastrinomas originating from stomach had higher gastrin level and lower tumor grading and presented at older age.",
+  "reading_complete" : "2020-08-02T15:16:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:15:29Z",
+  "trigger" : "level",
+  "evidence" : [ "gastrin level" ],
+  "pmc_id" : "4478711",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03891",
+      "entity_text" : "SREBP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SREBP directly mediates cholesterol and fatty acid synthesis and indirectly does the same by leading to the expression of IDH1.",
+  "reading_complete" : "2020-08-02T15:11:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:09:36Z",
+  "trigger" : "mediates",
+  "evidence" : [ "SREBP directly mediates cholesterol" ],
+  "pmc_id" : "5389153",
+  "score" : 0
+}

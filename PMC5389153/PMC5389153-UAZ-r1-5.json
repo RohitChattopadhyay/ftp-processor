@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75874",
+      "entity_text" : "IDH1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0002088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "SREBP induces expression of mutant IDH1 as well as the wild type one [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:11:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:09:36Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of mutant IDH1" ],
+  "pmc_id" : "5389153",
+  "score" : 0
+}
