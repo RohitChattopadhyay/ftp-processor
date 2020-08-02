@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The catalytic activity of GSK3beta is inhibited by Akt dependent phosphorylation, and Akt mediated GSK3beta phosphorylation stabilises cyclin D1.",
+  "reading_complete" : "2020-08-02T12:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:52:02Z",
+  "trigger" : "mediated",
+  "evidence" : [ "Akt-mediated GSK3beta phosphorylation" ],
+  "pmc_id" : "3573735",
+  "score" : 0
+}
