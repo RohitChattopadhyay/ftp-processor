@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03295",
+      "entity_text" : "myosin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Skeletal muscle contraction occurs via the coordinated movement of several proteins particularly the actin - myosin complex within the sarcomere, incident upon a changing Ca 2+ flux.",
+  "reading_complete" : "2020-08-02T18:35:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:33:21Z",
+  "trigger" : "complex",
+  "evidence" : [ "actin-myosin complex" ],
+  "pmc_id" : "4424514",
+  "score" : 0
+}

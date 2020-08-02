@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "adenosine triphosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Muscle contraction and relaxation depend primarily upon energy derived from hydrolysis of adenosine triphosphate (ATP) within the mitochondria.",
+  "reading_complete" : "2020-08-02T18:35:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:33:21Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of adenosine triphosphate" ],
+  "pmc_id" : "4424514",
+  "score" : 0
+}
