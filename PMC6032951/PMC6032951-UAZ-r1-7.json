@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4971",
+      "entity_text" : "PpIX",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellLine" : [ "cellosaurus:CVCL_0037" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002620" ]
+    }
+  },
+  "verbose_text" : "When the level of PpIX accumulation produced by DFO and CP94 were compared directly in vitro 53, these iron chelators in combination with ALA or MAL were shown to significantly increase the amount of PpIX accumulating within fetal lung fibroblasts (MRC5) and the more difficult to culture squamous epidermal carcinoma cells (A431), whilst minimal enhancement was observed in the normal skin fibroblasts (84BR), and keratinocytes (NHEK) investigated.",
+  "reading_complete" : "2020-08-02T18:32:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:57Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of PpIX" ],
+  "pmc_id" : "6032951",
+  "score" : 0
+}

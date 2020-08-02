@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4971",
+      "entity_text" : "PpIX",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellLine" : [ "cellosaurus:CVCL_0440" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "This could help explain the difference in the levels of PpIX seen within the different cell types investigated here, as the MRC5 cells are larger than the A431 cells and would therefore contain many more mitochondria and hence more enzymes.",
+  "reading_complete" : "2020-08-02T18:32:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PpIX" ],
+  "pmc_id" : "6032951",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This occurs because iron chelating agents reduce cellular levels of free iron, which is essential for haem formation to take place and thus this change in cellular environment, forces more PpIX to accumulate in the cell 54, 56, 76.",
+  "reading_complete" : "2020-08-02T18:32:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of free iron" ],
+  "pmc_id" : "6032951",
+  "score" : 0
+}
