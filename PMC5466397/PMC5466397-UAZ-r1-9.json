@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FoxO3a",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Several kinases, such as protein kinase B (Akt) and MAPK, directly phosphorylate FoxO3a.",
+  "reading_complete" : "2020-08-02T15:18:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:17:33Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate FoxO3a" ],
+  "pmc_id" : "5466397",
+  "score" : 0
+}
