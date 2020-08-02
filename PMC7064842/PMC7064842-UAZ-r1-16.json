@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The level of secreted anti-inflammatory IL-10 was not affected [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:12:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:04:21Z",
+  "trigger" : "level",
+  "evidence" : [ "level of secreted anti-inflammatory IL-10" ],
+  "pmc_id" : "7064842",
+  "score" : 0
+}
