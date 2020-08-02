@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07288",
+      "entity_text" : "PSA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1290" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0828" ],
+      "Organ" : [ "uberon:UBERON:0001556" ]
+    }
+  },
+  "verbose_text" : "Five patients (5/26, 19%) (two of them without additional therapy) had undetectable PSA level at the last follow-up, and 8 patients (8/26, 31%) had detectable PSA values less than 0.5 ng/ml.",
+  "reading_complete" : "2020-08-02T14:33:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:31:05Z",
+  "trigger" : "level",
+  "evidence" : [ "PSA level" ],
+  "pmc_id" : "4687344",
+  "score" : 0
+}
