@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03544",
+      "entity_text" : "Bcr-Abl",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E508" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0070062" ]
+    }
+  },
+  "verbose_text" : "As shown in Figure XREF_FIG B, the treatment of CML cells with Imatinib loaded exosomes was able to decrease the phosphorylation of Bcr-Abl in a dose dependent manner, without altering total protein level.",
+  "reading_complete" : "2020-08-02T11:32:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:31:00Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Bcr-Abl" ],
+  "pmc_id" : "5399597",
+  "score" : 0
+}
