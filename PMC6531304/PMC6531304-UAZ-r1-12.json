@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54753",
+      "entity_text" : "EPHB3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1724" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In conclusion, the binding of EGFR to EPHB3 in SW48R is increased, resulting in the activation of the p-EGFR (Y1068) site, which in turn, results in increased phosphorylation of STAT3.",
+  "reading_complete" : "2020-08-02T07:37:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:36:31Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of EGFR to EPHB3" ],
+  "pmc_id" : "6531304",
+  "score" : 0
+}

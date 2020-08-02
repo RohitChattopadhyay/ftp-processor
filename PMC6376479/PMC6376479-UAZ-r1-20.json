@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14618",
+      "entity_text" : "PKM2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95759",
+      "entity_text" : "TBC1D8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found that TBC1D8 binds to dimeric PKM2, not tetrameric PKM2, suggesting that the binding of TBC1D8 to the allosteric regulatory region in PKM2 cause a steric hindrance of FBP binding, leading to an decreased PKM2 dimer-to-tetramer conversion.",
+  "reading_complete" : "2020-08-02T07:45:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:44:00Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of TBC1D8 to the allosteric regulatory region in PKM2" ],
+  "pmc_id" : "6376479",
+  "score" : 0
+}

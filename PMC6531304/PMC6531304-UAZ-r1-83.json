@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00238",
+      "entity_text" : "EPHB3 receptor",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Elevated expression of the EPHB3 receptor leads to the activation of the phosphorylation EGFR pathway and the STAT3 signaling cascade via HH signaling and confers resistance to cetuximab in CRC.",
+  "reading_complete" : "2020-08-02T07:37:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:36:31Z",
+  "trigger" : "leads to",
+  "evidence" : [ "EPHB3 receptor leads to the activation of the phosphorylation EGFR pathway and the STAT3" ],
+  "pmc_id" : "6531304",
+  "score" : 0
+}

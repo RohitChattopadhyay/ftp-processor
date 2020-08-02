@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q43931",
+      "entity_text" : "CatB",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "CellLine" : [ "cellosaurus:CVCL_0022" ],
+      "Cellular_component" : [ "go:GO:0005615" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The main reason to select the two human cell lines was their dramatically different expression of CatB (http://www.proteinatlas.org/ENSG00000164733-CTSB/cell), which makes them suitable for evaluating the selectivity of DARPin 8h6.",
+  "reading_complete" : "2020-08-02T07:40:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:37:48Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of CatB" ],
+  "pmc_id" : "5562217",
+  "score" : 0
+}

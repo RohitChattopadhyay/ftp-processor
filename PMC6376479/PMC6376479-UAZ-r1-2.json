@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser37",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14618",
+      "entity_text" : "PKM2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Previous study revealed that ERK1/2 phosphorylates PKM2 at Ser37, leading to PIN1 dependent cis-trans isomerization, and PKM2 tetramer-to-dimer / monomer conversion XREF_BIBR.",
+  "reading_complete" : "2020-08-02T07:45:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:44:00Z",
+  "evidence" : [ "ERK1/2 phosphorylates PKM2 at Ser37" ],
+  "pmc_id" : "6376479",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IVF2",
+      "entity_text" : "AHNAK2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0234" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Chromatin immunoprecipitation assay performed in CAKI-1 cells under hypoxia (1% O2) for 24 hours also revealed that hypoxia promoted the binding of HIF1alpha to AHNAK2 promoter at HRE1 and HRE4 areas.",
+  "reading_complete" : "2020-08-02T08:12:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:11:05Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of HIF1alpha to AHNAK2" ],
+  "pmc_id" : "5399579",
+  "score" : 0
+}

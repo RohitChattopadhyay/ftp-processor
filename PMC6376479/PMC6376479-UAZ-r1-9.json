@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:O95759",
+      "entity_text" : "TBC1D8",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001697",
+      "entity_text" : "pyruvate kinase",
+      "entity_type" : "family"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mechanistically, TBC1D8 binds to PKM2 and hinders PKM2 tetramerization to decreases pyruvate kinase activity and promote aerobic glycolysis, and to promote the nuclear translocation of PKM2, which induces the expression of genes which are involved in glucose metabolism and cell cycle.",
+  "reading_complete" : "2020-08-02T07:45:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:44:00Z",
+  "trigger" : "promote",
+  "evidence" : [ "TBC1D8 binds to PKM2 and hinders PKM2 tetramerization to decreases pyruvate kinase activity and promote aerobic glycolysis" ],
+  "pmc_id" : "6376479",
+  "score" : 0
+}

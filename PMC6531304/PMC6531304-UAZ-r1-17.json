@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P54753",
+      "entity_text" : "EPHB3",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Co-immunoprecipitation confirmed that EGFR and EPHB3 bind to each other and this binding increases upon resistance acquisition, suggesting that STAT3 is activated by the binding between EGFR and EPHB3.",
+  "reading_complete" : "2020-08-02T07:37:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:36:31Z",
+  "trigger" : "activated",
+  "evidence" : [ "STAT3 is activated by the binding between EGFR and EPHB3" ],
+  "pmc_id" : "6531304",
+  "score" : 0
+}

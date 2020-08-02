@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54753",
+      "entity_text" : "EPHB3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Cetuximab resistance is caused by increased binding of EGFR and EPHB3.",
+  "reading_complete" : "2020-08-02T07:37:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:36:31Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of EGFR and EPHB3" ],
+  "pmc_id" : "6531304",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14977",
+      "entity_text" : "AZIN1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Decreased level of AZIN1 activated TGF-beta1 while down-regulation of JNK1 resulted in activation of ERK and p38 kinase leading to Smad3 activation and ultimately cardiac fibrosis.",
+  "reading_complete" : "2020-08-02T07:50:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:48:49Z",
+  "trigger" : "activated",
+  "evidence" : [ "AZIN1 activated TGF-beta1" ],
+  "pmc_id" : "5039681",
+  "score" : 0
+}

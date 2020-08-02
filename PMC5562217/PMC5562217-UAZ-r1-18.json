@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q43931",
+      "entity_text" : "CatB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0022" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0005615" ]
+    }
+  },
+  "verbose_text" : "By contrast, no secreted CatB was observed in HeLa cells, and only a very low amount of primarily mature CatB was observed in cell extracts.",
+  "reading_complete" : "2020-08-02T07:40:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:37:48Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of primarily mature CatB" ],
+  "pmc_id" : "5562217",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992341",
+      "entity_text" : "Kv",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E767" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, Kv activation was gradually decreased by increased concentrations of azido-sugar, which suggests that glycosylation of the Kv channel with azido groups affected their function.",
+  "reading_complete" : "2020-08-02T07:44:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:42:56Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation of the Kv" ],
+  "pmc_id" : "5399584",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54753",
+      "entity_text" : "EPHB3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15768",
+      "entity_text" : "EFNB3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Results : The expression of EFNB3, which upregulates the EPHB3 receptor, was shown to be increased via microarray analysis.",
+  "reading_complete" : "2020-08-02T07:37:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:36:31Z",
+  "trigger" : "upregulates",
+  "evidence" : [ "EFNB3, which upregulates the EPHB3" ],
+  "pmc_id" : "6531304",
+  "score" : 0
+}

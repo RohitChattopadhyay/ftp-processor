@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q43931",
+      "entity_text" : "CatB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00274",
+      "entity_text" : "DARPin 8h6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Having shown selective binding of DARPin 8h6 to CatB in vitro, we next tested whether it can also bind to CatB translocated to the membrane or secreted into the extracellular space by tumour and other cells including macrophages.",
+  "reading_complete" : "2020-08-02T07:40:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:37:48Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of DARPin 8h6 to CatB" ],
+  "pmc_id" : "5562217",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As it has been observed in safety studies in asthma population [XREF_BIBR], small differences, considered to be without any clinical relevance, were found on serum potassium levels, mean blood glucose levels and mean blood pressure.",
+  "reading_complete" : "2020-08-02T07:32:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:29:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "potassium levels" ],
+  "pmc_id" : "2682927",
+  "score" : 0
+}

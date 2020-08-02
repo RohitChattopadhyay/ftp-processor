@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q43931",
+      "entity_text" : "CatB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00274",
+      "entity_text" : "DARPin 8h6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Biotinylated DARPin 8h6 bound to CatB in the tissue slices, while the nonselective control DARPin E3_5 did not.",
+  "reading_complete" : "2020-08-02T07:40:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:37:48Z",
+  "trigger" : "bound",
+  "evidence" : [ "DARPin 8h6 bound to CatB" ],
+  "pmc_id" : "5562217",
+  "score" : 0
+}
