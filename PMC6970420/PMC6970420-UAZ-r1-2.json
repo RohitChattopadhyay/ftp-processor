@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000136" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Together with testosterone, cortisol binds to the same receptor, and specifically, a greater amount of cortisol binds with a smaller amount of testosterone [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:31:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:30:04Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of cortisol" ],
+  "pmc_id" : "6970420",
+  "score" : 0
+}
