@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04049",
+      "entity_text" : "CRAF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "BRAF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Similarly, Heidorn et al. reported that BRAF binding to CRAF in the presence of oncogenic RAS was a mechanism for melanoma tumorigenesis XREF_BIBR.",
+  "reading_complete" : "2020-08-02T16:51:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:49:24Z",
+  "trigger" : "binding",
+  "evidence" : [ "BRAF binding to CRAF" ],
+  "pmc_id" : "5381260",
+  "score" : 0
+}

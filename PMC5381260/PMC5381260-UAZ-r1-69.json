@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04049",
+      "entity_text" : "CRAF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "BRAF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the current study, we observed that Vemurafenib could promote BRAF / CRAF dimerization causing paradoxical ERK activation in Vemurafenib resistant DTC cells.",
+  "reading_complete" : "2020-08-02T16:51:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:49:24Z",
+  "trigger" : "dimerization",
+  "evidence" : [ "BRAF/CRAF dimerization" ],
+  "pmc_id" : "5381260",
+  "score" : 0
+}
