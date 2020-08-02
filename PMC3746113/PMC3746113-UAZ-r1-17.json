@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10082",
+      "entity_text" : "peptide YY",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06307",
+      "entity_text" : "cholecystokinin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This study concluded that canola oil can increase cholecystokinin levels, which may, in turn, mediate the satiating effects in ileum, but not in peptide YY.",
+  "reading_complete" : "2020-08-02T08:07:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:03:49Z",
+  "trigger" : "mediate",
+  "evidence" : [ "cholecystokinin levels, which may, in turn, mediate the satiating effects in ileum, but not in peptide YY" ],
+  "pmc_id" : "3746113",
+  "score" : 0
+}

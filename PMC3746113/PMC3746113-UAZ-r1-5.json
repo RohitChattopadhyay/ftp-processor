@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14746",
+      "entity_text" : "LDL-C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A high amount of dietary SFA may increase TC and LDL-C levels, thus increasing the risk of developing cardiovascular disease.",
+  "reading_complete" : "2020-08-02T08:07:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:03:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "LDL-C levels" ],
+  "pmc_id" : "3746113",
+  "score" : 0
+}
