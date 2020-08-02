@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444493",
+      "entity_text" : "acetyl-CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "cytosol",
+    "from_location_text" : "mitochondria",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005739",
+    "to_location_id" : "go:GO:0005829",
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ACLY is in the first committed step of DNL pathway, contributing to the translocation of acetyl-CoA from the mitochondria to the cytosol.",
+  "reading_complete" : "2020-08-02T15:32:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:30:26Z",
+  "trigger" : "translocation",
+  "evidence" : [ "translocation of acetyl-CoA from the mitochondria to the cytosol" ],
+  "pmc_id" : "4359538",
+  "score" : 0
+}
