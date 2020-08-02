@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:176",
+      "entity_text" : "acetate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0672" ],
+      "Cellular_component" : [ "go:GO:0005773" ]
+    }
+  },
+  "verbose_text" : "Arylesterase catalyzes the hydrolysis of 1-phenyl acetate and it is also reported that arylesterase is a protective enzyme against oxidative stress along with paraoxonase [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:08:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:06:08Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of 1-phenyl acetate" ],
+  "pmc_id" : "6781825",
+  "score" : 0
+}

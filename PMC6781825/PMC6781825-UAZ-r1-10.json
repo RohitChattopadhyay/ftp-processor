@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Liver TNF-alpha level was significantly increased in group 4 compared to group 1 (p < = 0.008).",
+  "reading_complete" : "2020-08-02T11:08:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:06:08Z",
+  "trigger" : "level",
+  "evidence" : [ "TNF-alpha level" ],
+  "pmc_id" : "6781825",
+  "score" : 0
+}
