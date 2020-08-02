@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9913" ]
+    }
+  },
+  "verbose_text" : "refers to strategies related to the overexpression of the iron binding protein ferritin, which can act as a reporter gene in MRI XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-02T11:00:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:57:44Z",
+  "trigger" : "binding",
+  "evidence" : [ "iron-binding protein ferritin" ],
+  "pmc_id" : "4142292",
+  "score" : 0
+}
