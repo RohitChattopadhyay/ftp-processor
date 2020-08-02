@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The Ser/Thr protein phosphatase PP1 and its non enzymatic co-factor, growth arrest and DNA damage inducible protein 34 (GADD34), can mediate the dephosphorylation of phosphorylated eukaryotic translation initiation factor 2 subunit alpha (p-eIF2alpha), which is a key factor in the regulation of protein synthesis.",
+  "reading_complete" : "2020-08-02T11:46:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:45:02Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated eukaryotic translation initiation factor 2 subunit alpha" ],
+  "pmc_id" : "3926518",
+  "score" : 0
+}

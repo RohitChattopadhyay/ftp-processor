@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CG47",
+      "entity_text" : "ubiquitin",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02201",
+      "entity_text" : "ligase",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02180",
+      "entity_text" : "Elongin C-Elongin B-Cullin 2-E3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Prolyl hydroxylation of HIF-alpha attracts the von Hippel-Lindau (vHL) tumour suppressor protein, which recruits the Elongin C-Elongin B-Cullin 2-E3 - ubiquitin - ligase complex, leading to the Lys48 linked poly-ubiquitination and proteasomal degradation of HIF-1alpha (XREF_FIG).",
+  "reading_complete" : "2020-08-02T11:44:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:41:33Z",
+  "trigger" : "complex",
+  "evidence" : [ "Elongin C-Elongin B-Cullin 2-E3-ubiquitin-ligase complex" ],
+  "pmc_id" : "4356629",
+  "score" : 0
+}

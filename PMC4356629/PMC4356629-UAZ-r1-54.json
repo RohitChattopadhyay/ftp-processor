@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8L925",
+      "entity_text" : "CRC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99814",
+      "entity_text" : "HIF-2alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast to the effect of high HIF-1alpha expression, high HIF-2alpha expression has recently been reported to prevent CRC progression.",
+  "reading_complete" : "2020-08-02T11:44:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:41:33Z",
+  "trigger" : "prevent",
+  "evidence" : [ "HIF-2alpha expression has recently been reported to prevent CRC" ],
+  "pmc_id" : "4356629",
+  "score" : 0
+}

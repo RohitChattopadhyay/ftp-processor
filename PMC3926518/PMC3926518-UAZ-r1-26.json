@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75807",
+      "entity_text" : "GADD34",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PPP1",
+      "entity_text" : "PP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "PP1-12 was designed as an inhibitor of the PP1 / GADD34 complex to mediate the dephosphorylation of p-eIF2alpha.",
+  "reading_complete" : "2020-08-02T11:46:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:45:02Z",
+  "trigger" : "complex",
+  "evidence" : [ "PP1/GADD34 complex" ],
+  "pmc_id" : "3926518",
+  "score" : 0
+}

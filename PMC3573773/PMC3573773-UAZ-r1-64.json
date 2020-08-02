@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016477",
+      "entity_text" : "cell migration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02216",
+      "entity_text" : "miR-142-3p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This demonstrates that miR-142-3p expression was downregulated in HCC cells and that miR-142-3p inhibited HCC cell migration and invasion by targeting RAC1.",
+  "reading_complete" : "2020-08-02T11:45:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:44:09Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "miR-142-3p inhibited HCC cell migration" ],
+  "pmc_id" : "3573773",
+  "score" : 0
+}

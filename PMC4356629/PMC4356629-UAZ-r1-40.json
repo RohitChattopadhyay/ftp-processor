@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00788",
+      "entity_text" : "RA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99814",
+      "entity_text" : "HIF-2alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In that study, the authors demonstrated that the overexpression of HIF-2alpha in joint tissues, but not HIF-1alpha, was sufficient to induce RA pathogenesis.",
+  "reading_complete" : "2020-08-02T11:44:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:41:33Z",
+  "trigger" : "induce",
+  "evidence" : [ "HIF-2alpha in joint tissues, but not HIF-1alpha, was sufficient to induce RA" ],
+  "pmc_id" : "4356629",
+  "score" : 0
+}
