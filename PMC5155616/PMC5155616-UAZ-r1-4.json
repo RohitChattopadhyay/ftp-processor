@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00076",
+      "entity_text" : "nontransferrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uaz:UA-ORG-92" ]
+    }
+  },
+  "verbose_text" : "However, large nonphysiological bolus doses of iron can overwhelm the capacity of transferrin to collect iron, resulting in the formation of nontransferrin bound iron.",
+  "reading_complete" : "2020-08-02T08:03:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:00:39Z",
+  "trigger" : "bound",
+  "evidence" : [ "nontransferrin-bound iron" ],
+  "pmc_id" : "5155616",
+  "score" : 0
+}

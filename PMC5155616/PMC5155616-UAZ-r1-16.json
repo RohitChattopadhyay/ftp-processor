@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "First, it has long been known that humans have no physiological means of regulating iron status through active excretion of iron, except for the loss of enterocytic iron that was never been fully absorbed.",
+  "reading_complete" : "2020-08-02T08:03:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:00:39Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of enterocytic iron" ],
+  "pmc_id" : "5155616",
+  "score" : 0
+}

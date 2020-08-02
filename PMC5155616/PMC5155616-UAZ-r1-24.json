@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00076",
+      "entity_text" : "nontransferrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR There is also recent evidence that human blood collected 3 hours after consumption of an iron tablet supports greatly enhanced rates of replication of a number of pathogenic bacteria, XREF_BIBR but there is no evidence that nontransferrin bound iron promotes malaria.",
+  "reading_complete" : "2020-08-02T08:03:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:00:39Z",
+  "trigger" : "bound",
+  "evidence" : [ "nontransferrin-bound iron" ],
+  "pmc_id" : "5155616",
+  "score" : 0
+}

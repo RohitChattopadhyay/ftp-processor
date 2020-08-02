@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00079",
+      "entity_text" : "ferroportin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81172",
+      "entity_text" : "Hepcidin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "CellType" : [ "cl:CL:0000584" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hepcidin regulates iron absorption by binding to ferroportin.",
+  "reading_complete" : "2020-08-02T08:03:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:00:39Z",
+  "trigger" : "binding",
+  "evidence" : [ "Hepcidin regulates iron absorption by binding to ferroportin" ],
+  "pmc_id" : "5155616",
+  "score" : 0
+}
