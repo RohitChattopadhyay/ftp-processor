@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46060",
+      "entity_text" : "SD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0H88" ],
+      "TissueType" : [ "tissuelist:TS-0600" ],
+      "Organ" : [ "uberon:UBERON:0005569" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "The site of the brain tumor was identified by T2W imaging (indicated by hyperintense edema regions), SD complex deposition was tracked via T2 * imaging (indicated by hypointense signal-loss regions), and an R2 map was used to show changes caused by different amounts of SD complexes (represented by a false-color scale).",
+  "reading_complete" : "2020-08-02T15:49:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:47:24Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of SD" ],
+  "pmc_id" : "4955054",
+  "score" : 0
+}
