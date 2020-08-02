@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35610",
+      "entity_text" : "STAT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "Among them, STAT tyrosine phosphorylation is the key link of the JAK / STAT signaling pathway regulating transcription and exerting multiple biological effects.",
+  "reading_complete" : "2020-08-02T09:55:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:52:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "STAT tyrosine phosphorylation" ],
+  "pmc_id" : "3658604",
+  "score" : 0
+}

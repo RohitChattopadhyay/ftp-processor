@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35610",
+      "entity_text" : "STAT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "JAK is an endogenous protein tyrosine kinase, and it can be activated following the binding of the cytokine receptor with the corresponding aglucon to cause phosphorylation of the STAT molecule in the cytoplasm.",
+  "reading_complete" : "2020-08-02T09:55:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:52:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the STAT" ],
+  "pmc_id" : "3658604",
+  "score" : 0
+}

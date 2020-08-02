@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01013",
+      "entity_text" : "Ras/Raf/MEK/ERK",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13625",
+      "entity_text" : "ASPP2",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "By contrast, Wang et al demonstrated that the N terminus of ASPP2 binds to Ras, enhancing Ras/Raf/MEK/ERK activation to facilitate oncogene induced senescence; Zeng et al discovered that FOXM1 is upregulated in gastric cancer and that its inhibition led to termination of the cell cycle at the G0/G1 phase, partially dependent on p27 kip1.",
+  "reading_complete" : "2020-08-02T09:52:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:50:04Z",
+  "trigger" : "enhancing",
+  "evidence" : [ "ASPP2 binds to Ras, enhancing Ras/Raf/MEK/ERK" ],
+  "pmc_id" : "4249746",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08050",
+      "entity_text" : "FOXM1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While the inhibition of ERK phosphorylation markedly decreased the upregulation of FOXM1, the downregulation of FOXM1 did not exert a significant effect on ERK activity, revealing the regulatory association between these two proteins.",
+  "reading_complete" : "2020-08-02T09:52:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:50:04Z",
+  "trigger" : "decreased",
+  "evidence" : [ "ERK phosphorylation markedly decreased the upregulation of FOXM1" ],
+  "pmc_id" : "4249746",
+  "score" : 0
+}
