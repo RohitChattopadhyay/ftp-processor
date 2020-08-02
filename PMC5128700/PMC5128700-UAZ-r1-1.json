@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellLine" : [ "cellosaurus:CVCL_1229" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uberon:UBERON:0002397" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000647" ]
+    }
+  },
+  "verbose_text" : "Histochemical and quantitative chemical methods show high levels of alkaline phosphate in relation to osteogenic matrix of giant cell tumor [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T08:36:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:35:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of alkaline phosphate" ],
+  "pmc_id" : "5128700",
+  "score" : 0
+}

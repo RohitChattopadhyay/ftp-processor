@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000647" ]
+    }
+  },
+  "verbose_text" : "The level of serum alkaline phosphate was highly increased (320 U/L) (normal level : 45-129 U/L).",
+  "reading_complete" : "2020-08-02T08:36:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:35:14Z",
+  "trigger" : "level",
+  "evidence" : [ "level of serum alkaline phosphate" ],
+  "pmc_id" : "5128700",
+  "score" : 0
+}
