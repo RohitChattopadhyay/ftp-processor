@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZX9",
+      "entity_text" : "TSG",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0291" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As clinical primary tumor tissue samples always contain infiltrating non malignant cells, it is well known that unmethylated TSG promoter alleles are always detected in primary tumor tissue samples, which actually acts as a good positive control for the integrity of bisulfited tumor genomic DNA.",
+  "reading_complete" : "2020-08-02T12:17:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:16:28Z",
+  "trigger" : "unmethylated",
+  "evidence" : [ "unmethylated TSG" ],
+  "pmc_id" : "5485426",
+  "score" : 0
+}

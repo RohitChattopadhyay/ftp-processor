@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXH2",
+      "entity_text" : "JPH3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Moreover in colorectal cancer, JPH3 expression and methylation have significant correlation with clinical stages (rho = 0.2898852, p = 2.322e-08) including t stages (rho = 0.2548168, p = 5.709e-07) and N stages (rho = 0.251135, p = 8.387e-07).",
+  "reading_complete" : "2020-08-02T12:17:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:16:28Z",
+  "trigger" : "methylation",
+  "evidence" : [ "JPH3 expression and methylation" ],
+  "pmc_id" : "5485426",
+  "score" : 0
+}

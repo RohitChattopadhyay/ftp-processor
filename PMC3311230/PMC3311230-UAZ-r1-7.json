@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1014",
+      "entity_text" : "phosphorylcholine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The use of choline for imaging prostate cancer is based on increased phosphorylcholine levels and an elevated phosphatidylcholine turnover in prostate cancer cells XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-02T12:16:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:09:32Z",
+  "trigger" : "levels",
+  "evidence" : [ "phosphorylcholine levels" ],
+  "pmc_id" : "3311230",
+  "score" : 0
+}
