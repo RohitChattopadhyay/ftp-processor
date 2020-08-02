@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35820",
+      "entity_text" : "PSC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01661",
+      "entity_text" : "IgG4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Serum IgG4 levels were elevated in 8 (26.6%) of the patients with PSC, whereas 3 patient without PSC (5.0%) had elevated serum IgG4.",
+  "reading_complete" : "2020-08-02T09:27:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:26:06Z",
+  "trigger" : "elevated",
+  "evidence" : [ "IgG4 levels were elevated in 8 (26.6%) of the patients with PSC" ],
+  "pmc_id" : "6935853",
+  "score" : 0
+}
