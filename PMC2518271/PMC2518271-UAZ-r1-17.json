@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005813" ]
+    }
+  },
+  "verbose_text" : "The NORE1 protein was identified in a yeast two-hybrid screen as a Ras effector that binds Ras protein in a GTP dependent manner.",
+  "reading_complete" : "2020-08-02T08:41:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:40:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "Ras effector that binds Ras protein in a GTP" ],
+  "pmc_id" : "2518271",
+  "score" : 0
+}
