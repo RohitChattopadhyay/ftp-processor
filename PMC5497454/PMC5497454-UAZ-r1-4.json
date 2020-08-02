@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02771",
+      "entity_text" : "AFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The level of AFP> 400 ng/ml in patients with chronic liver disease and a tumor with dominant arterial vascularization in imaging studies makes the diagnosis of HCC much more reliable.",
+  "reading_complete" : "2020-08-02T12:05:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:03:03Z",
+  "trigger" : "level",
+  "evidence" : [ "level of AFP" ],
+  "pmc_id" : "5497454",
+  "score" : 0
+}
