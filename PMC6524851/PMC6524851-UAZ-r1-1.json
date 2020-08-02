@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We found that only MDA-MB-231-induced, but not MCF7 induced, PMPs significantly stimulated the phosphorylation of p38MAPK and myosin light chain (MLC) in MDA-MB-231 cells (XREF_FIG).",
+  "reading_complete" : "2020-08-02T11:34:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:32:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of p38MAPK" ],
+  "pmc_id" : "6524851",
+  "score" : 0
+}
