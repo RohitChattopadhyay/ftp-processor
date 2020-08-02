@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2244",
+      "entity_text" : "aspirin",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_A431" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These results provide evidence for the maintenance of a more-than-additive interaction between quercetin and its methylated metabolites and aspirin in the inhibition of platelet function in whole blood, highlighting a potential significance of this interaction in vivo.",
+  "reading_complete" : "2020-08-02T14:08:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:05:12Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated metabolites and aspirin" ],
+  "pmc_id" : "6667742",
+  "score" : 0
+}

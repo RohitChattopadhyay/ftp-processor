@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:947",
+      "entity_text" : "nitrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "Organ" : [ "uberon:UBERON:0012112" ],
+      "Species" : [ "taxonomy:4530" ]
+    }
+  },
+  "verbose_text" : "Among most insects, the fertility of females is often correlated with the amount of nitrogen in the ingested food.",
+  "reading_complete" : "2020-08-02T14:07:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:06:20Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of nitrogen" ],
+  "pmc_id" : "3671440",
+  "score" : 0
+}
