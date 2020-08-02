@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P52754",
+      "entity_text" : "HFBI",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "pubchem:25058173",
+      "entity_text" : "BODIPY",
+      "entity_type" : "simple_chemical"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00059",
+      "entity_text" : "RGD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0030" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "After we obtained the RGD - HFBI / BODIPY complex, we were eager to know whether this complex could be used in biolabeling or bioimaging from the safety point of view.",
+  "reading_complete" : "2020-08-02T13:18:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:17:38Z",
+  "trigger" : "complex",
+  "evidence" : [ "RGD-HFBI/BODIPY complex" ],
+  "pmc_id" : "5996361",
+  "score" : 0
+}
