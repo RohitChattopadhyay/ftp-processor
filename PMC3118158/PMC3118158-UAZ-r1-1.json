@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01140",
+      "entity_text" : "cetuximab",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In fact, it has been reported that cetuximab itself induced phosphorylation of EGFR at several tyrosine phosphorylation sites as a result of receptor dimerization and activation of the receptor tyrosine kinase [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:10:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:07:57Z",
+  "trigger" : "induced",
+  "evidence" : [ "cetuximab itself induced phosphorylation of EGFR at several tyrosine" ],
+  "pmc_id" : "3118158",
+  "score" : 0
+}
