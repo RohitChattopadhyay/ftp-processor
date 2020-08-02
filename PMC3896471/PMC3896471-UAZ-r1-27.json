@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01080",
+      "entity_text" : "AT2R",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Amlodipine is more effective in inhibiting apoptosis and oxidative stress, however, losartan is more potent in decreasing BP, repressing local RAS activity and increasing local AT2R levels, leading to more protection from hypertension associated brain damage such as stroke.",
+  "reading_complete" : "2020-08-02T11:06:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:03:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "AT2R levels" ],
+  "pmc_id" : "3896471",
+  "score" : 0
+}

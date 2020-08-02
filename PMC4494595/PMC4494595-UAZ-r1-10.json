@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CAMK2_complex",
+      "entity_text" : "CaMKII",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "However, data on the status of CaMKII activity and the associated changes in CaMKII phosphorylation under IH conditions are controversial, possibly due to the variations in experimental protocols in the aspect of the severity of hypoxia, cycle frequency, exposure duration and cell and tissue types.",
+  "reading_complete" : "2020-08-02T11:03:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:01:57Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "CaMKII phosphorylation" ],
+  "pmc_id" : "4494595",
+  "score" : 0
+}

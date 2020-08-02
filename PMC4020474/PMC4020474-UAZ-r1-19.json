@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:65064",
+      "entity_text" : "EGCG",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52952",
+      "entity_text" : "Nkx2.5",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Gata4, Nkx2.5 and Mef2c expression was found to be reduced 3 h following treatment with 120 mumol/l EGCG (XREF_FIG).",
+  "reading_complete" : "2020-08-02T11:01:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:01:09Z",
+  "trigger" : "reduced",
+  "evidence" : [ "Nkx2.5 and Mef2c expression was found to be reduced 3 h following treatment with 120 mumol/l EGCG" ],
+  "pmc_id" : "4020474",
+  "score" : 0
+}

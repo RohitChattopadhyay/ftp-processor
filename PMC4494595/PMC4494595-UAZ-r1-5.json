@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7019081",
+      "entity_text" : "IH",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01834",
+      "entity_text" : "O-GlcNAcase",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistently, the O-GlcNAc protein and O-GlcNAcase (OGA) levels in the left ventricular tissues steadily increased following IH, reaching peak levels at week 3.",
+  "reading_complete" : "2020-08-02T11:03:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:01:57Z",
+  "trigger" : "increased",
+  "evidence" : [ "O-GlcNAcase (OGA) levels in the left ventricular tissues steadily increased following IH" ],
+  "pmc_id" : "4494595",
+  "score" : 0
+}
