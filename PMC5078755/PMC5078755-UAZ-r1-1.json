@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439177",
+      "entity_text" : "glycogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:59837" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "These cells contain an abundant amount of glycogen and can also have Langerhans cells in some cases.",
+  "reading_complete" : "2020-08-02T07:50:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T07:48:21Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of glycogen" ],
+  "pmc_id" : "5078755",
+  "score" : 0
+}
