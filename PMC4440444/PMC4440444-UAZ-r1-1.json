@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009362",
+      "entity_text" : "metastasis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Recent studies have suggested that high expression of CXCR4 in cancers led to tumor metastasis, aggressiveness, poor prognosis, and resistance to chemotherapy XREF_BIBR.",
+  "reading_complete" : "2020-08-02T08:38:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:37:46Z",
+  "trigger" : "led",
+  "evidence" : [ "CXCR4 in cancers led to tumor metastasis" ],
+  "pmc_id" : "4440444",
+  "score" : 0
+}

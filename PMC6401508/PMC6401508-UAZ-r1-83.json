@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52701",
+      "entity_text" : "MSH6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Simultaneously, MSH6 overexpression might promote the synthesis of HIF1A protein by activating the STAT3 signaling pathway.",
+  "reading_complete" : "2020-08-02T08:37:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:35:02Z",
+  "trigger" : "promote",
+  "evidence" : [ "MSH6 overexpression might promote the synthesis of HIF1A protein by activating the STAT3" ],
+  "pmc_id" : "6401508",
+  "score" : 0
+}

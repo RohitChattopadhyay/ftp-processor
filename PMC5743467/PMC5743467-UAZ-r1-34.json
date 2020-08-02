@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0430" ],
+      "Cellular_component" : [ "go:GO:0070062" ],
+      "Organ" : [ "uberon:UBERON:0002067" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000136" ]
+    }
+  },
+  "verbose_text" : "Masson 's staining showed larger amounts of wavy collagen fibers in the wounds treated with exosomes compared with the controls.",
+  "reading_complete" : "2020-08-02T08:35:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:33:43Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of wavy collagen" ],
+  "pmc_id" : "5743467",
+  "score" : 0
+}
