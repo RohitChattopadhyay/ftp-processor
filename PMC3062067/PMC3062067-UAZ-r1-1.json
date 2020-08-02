@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:54670067",
+      "entity_text" : "vitamin C",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A few prospective, large-scale, European studies have shown a negative correlation between vitamin C plasma levels and all-cause or cardiovascular mortality.",
+  "reading_complete" : "2020-08-02T09:33:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:27:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "vitamin C plasma levels" ],
+  "pmc_id" : "3062067",
+  "score" : 0
+}

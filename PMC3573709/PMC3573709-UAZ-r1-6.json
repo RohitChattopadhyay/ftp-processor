@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, depletion of cholesterol in the plasma membrane is known to increase EGFR signaling activity, perhaps by releasing EGFR from lipid rafts and inhibiting receptor internalization.",
+  "reading_complete" : "2020-08-02T16:06:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:05:02Z",
+  "trigger" : "increase",
+  "evidence" : [ "cholesterol in the plasma membrane is known to increase EGFR" ],
+  "pmc_id" : "3573709",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51689",
+      "entity_text" : "ASD",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43694",
+      "entity_text" : "GATA4",
+      "features" : [ {
+        "to_base" : "M",
+        "site" : 310,
+        "feature_type" : "mutation",
+        "evidence" : "M310V"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The details of the transgenic and wild-type mice regarding cardiac structure are presented in XREF_TABLE, suggesting that GATA4 M310V produces the phenotype of ASD in the heart.",
+  "reading_complete" : "2020-08-02T12:08:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:07:03Z",
+  "trigger" : "produces",
+  "evidence" : [ "GATA4 M310V produces the phenotype of ASD" ],
+  "pmc_id" : "4432925",
+  "score" : 0
+}

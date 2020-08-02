@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15198",
+      "entity_text" : "dexamethasone-induced",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, FS upregulated the Akt1 and PI3K mRNA expression levels in a dose dependent manner compared with the dexamethasone controls, providing direct evidence that FS promotes muscle protein synthesis and prevents dexamethasone induced catabolic muscle atrophy, similar to the effects of oxymetholone.",
+  "reading_complete" : "2020-08-02T10:32:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:30:34Z",
+  "trigger" : "prevents",
+  "evidence" : [ "PI3K mRNA expression levels in a dose-dependent manner compared with the dexamethasone controls, providing direct evidence that FS promotes muscle protein synthesis and prevents dexamethasone-induced" ],
+  "pmc_id" : "4494578",
+  "score" : 0
+}

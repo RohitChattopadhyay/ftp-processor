@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The concentration of all individual active ingredients in 3 g krill oil is lower than the currently established individual effective dose (600 mg of PS to lower cortisol levels, 4 mg of astaxanthin, or 0.2 g per kg body weight of PC).",
+  "reading_complete" : "2020-08-02T11:47:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:41:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "5944280",
+  "score" : 0
+}

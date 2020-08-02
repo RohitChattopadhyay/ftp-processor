@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03409",
+      "entity_text" : "glycoprotein",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0520" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "Cellular_component" : [ "go:GO:0009986" ]
+    }
+  },
+  "verbose_text" : "Aberrant glycosylation of cell surface glycoprotein due to specific alterations of glycosyltransferase activity is usually associated with invasion and metastasis of cancer, particularly of gastric carcinomas.",
+  "reading_complete" : "2020-08-02T13:58:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:56:54Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation of cell surface glycoprotein" ],
+  "pmc_id" : "4042861",
+  "score" : 0
+}

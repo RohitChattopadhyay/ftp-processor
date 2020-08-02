@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UNE7",
+      "entity_text" : "CHIP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "IRS4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0042" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Consistently, as shown in Figure XREF_SUPPLEMENTARY C, the interaction between IRS4 and CHIP was not observed by in vitro binding assay using the purifiedIRS4 and CHIP, indicating that the interaction between CHIP and IRS4 is not direct and may need other proteins (e.g., chaperones) to form the complex, which is in accordance with the in vivo Co-IP assay.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between IRS4 and CHIP" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In line with previous reports, we observed a marked increase in Akt activity and the phosphorylation of its substrate GSK3beta in PDGF-BB-stimulated VSMCs.",
+  "reading_complete" : "2020-08-02T12:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:52:02Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of its substrate GSK3beta" ],
+  "pmc_id" : "3573735",
+  "score" : 0
+}

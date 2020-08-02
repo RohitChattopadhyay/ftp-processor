@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "4EBP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC1",
+      "entity_text" : "mTORC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Rapamycin, a specific inhibitor of mTORC1, has been shown to selectively and completely block the mTORC1 dependent p70S6K phosphorylation and partially block 4EBP1 phosphorylation.",
+  "reading_complete" : "2020-08-02T09:32:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:31:23Z",
+  "trigger" : "block",
+  "evidence" : [ "mTORC1, has been shown to selectively and completely block the mTORC1-dependent p70S6K phosphorylation and partially block 4EBP1 phosphorylation" ],
+  "pmc_id" : "4055350",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06195",
+      "entity_text" : "hTERT",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We observed that overexpression of RBFOX3 up-regulated hTERT expression and then activated PI3K / AKT signaling, resulting in elevated cyclin A and cyclin D but decreased p27 expression, which promoted HCC cell cycle progression through the G1-S transition XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-02T18:24:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:22:29Z",
+  "trigger" : "activated",
+  "evidence" : [ "hTERT expression and then activated PI3K" ],
+  "pmc_id" : "5566111",
+  "score" : 0
+}

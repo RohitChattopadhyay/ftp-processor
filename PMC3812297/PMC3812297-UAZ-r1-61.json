@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04004",
+      "entity_text" : "Ang IV receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01019",
+      "entity_text" : "Ang IV",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellLine" : [ "cellosaurus:CVCL_E458" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Ang IV binds to the Ang IV receptor (AT4R) that has been identified as insulin regulated aminopeptidase (IRAP).",
+  "reading_complete" : "2020-08-02T14:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:29:17Z",
+  "trigger" : "binds",
+  "evidence" : [ "Ang IV binds to the Ang IV receptor" ],
+  "pmc_id" : "3812297",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05661",
+      "entity_text" : "MHC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The increase in cell surface CLIP levels in response to CpG-ODN did not correspond with the TLR dependent changes in MHC class II, suggesting that TLR mediated ectopic CLIP expression is not merely the consequences of randomly increasing levels of cell surface MHC class II. Actually, cell surface CLIP is considered to be an indicator of immaturity in antigen presenting cells until they are activated by peptide antigen specific MHC receptor engagement, at which point cell surface CLIP expression decreases [XREF_BIBR, XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:29:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:22:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cell surface MHC" ],
+  "pmc_id" : "4904097",
+  "score" : 0
+}

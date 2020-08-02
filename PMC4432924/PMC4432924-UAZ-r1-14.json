@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Lys27",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The methylation of histone H3 at Lys27 did not present a statically significant change (XREF_FIG).",
+  "reading_complete" : "2020-08-02T12:45:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:44:28Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of histone H3 at Lys27" ],
+  "pmc_id" : "4432924",
+  "score" : 0
+}

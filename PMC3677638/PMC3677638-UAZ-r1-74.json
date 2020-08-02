@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4091",
+      "entity_text" : "metformin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "(4) Therapeutic agents that decrease the effect of high fructose diets on diabetes and insulin resistance include statins [XREF_BIBR], metformin [XREF_BIBR], and renin inhibitor attenuated diabetes and insulin resistance [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "attenuated",
+  "evidence" : [ "metformin [ XREF_BIBR ], and renin inhibitor attenuated diabetes and insulin" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006955",
+      "entity_text" : "immune response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04942",
+      "entity_text" : "pVAX-TgCDPK2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Considering that DNA vaccines are usually based on a single antigen and are largely limited by the major histocompatibility complex (MHC) [XREF_BIBR], pVAX-TgCDPK2 may not readily induce an effective and complete immune response against T. gondii infection.",
+  "reading_complete" : "2020-08-02T17:29:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:27:05Z",
+  "trigger" : "induce",
+  "evidence" : [ "pVAX-TgCDPK2 may not readily induce an effective and complete immune response" ],
+  "pmc_id" : "5678354",
+  "score" : 0
+}

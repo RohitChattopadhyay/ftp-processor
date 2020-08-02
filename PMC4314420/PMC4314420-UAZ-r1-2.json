@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02786",
+      "entity_text" : "TfR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "TissueType" : [ "tissuelist:TS-0559" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Due to the high expression level of TfR in the tumor cells, the selectivity of Adpa-Mn may be due to its transport mechanisms.",
+  "reading_complete" : "2020-08-02T15:04:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:02:18Z",
+  "trigger" : "level",
+  "evidence" : [ "level of TfR" ],
+  "pmc_id" : "4314420",
+  "score" : 0
+}

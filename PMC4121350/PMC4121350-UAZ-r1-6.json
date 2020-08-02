@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0131" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Cellular_component" : [ "go:GO:0015629" ]
+    }
+  },
+  "verbose_text" : "However, the assessment of oxidative stress in our study revealed differential ROS levels in the A172 and U251 glioblastoma cells treated with FC101 as compared to the control treated cells, suggesting that variations in the genetic backgrounds of these cells likely contribute to the divergent responses observed and the role of oxidative stress in FC101 induced apoptotic glioblastoma cell death.",
+  "reading_complete" : "2020-08-02T15:28:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:26:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "4121350",
+  "score" : 0
+}

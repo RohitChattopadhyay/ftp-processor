@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13950",
+      "entity_text" : "Runx2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of Runx2 inhibits osteoblast terminal differentiation and alters their expression of extracellular matrix protein genes, which results in down-regulation of Col1a1 mRNA.",
+  "reading_complete" : "2020-08-02T09:45:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:45:11Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "Runx2 inhibits osteoblast terminal differentiation" ],
+  "pmc_id" : "4533781",
+  "score" : 0
+}

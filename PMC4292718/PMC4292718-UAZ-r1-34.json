@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01753",
+      "entity_text" : "IGF-IR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08990",
+      "entity_text" : "docking",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0002563" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The IRS proteins are docking proteins that potentially bind to IGF-IR and recruit several effector proteins through Src homology 2 (SH2) domain interactions.",
+  "reading_complete" : "2020-08-02T14:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:34:57Z",
+  "trigger" : "bind",
+  "evidence" : [ "docking proteins that potentially bind to IGF-IR" ],
+  "pmc_id" : "4292718",
+  "score" : 0
+}

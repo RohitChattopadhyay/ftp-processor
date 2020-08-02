@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13547",
+      "entity_text" : "HDAC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0030" ],
+      "Species" : [ "taxonomy:13443" ],
+      "TissueType" : [ "tissuelist:TS-0595" ]
+    }
+  },
+  "verbose_text" : "HDAC activity was slightly decreased after the treatment with CGA (250 muM), whereas the protein level of HDAC1 was shown to be moderately increased, but both effects were without statistical relevance.",
+  "reading_complete" : "2020-08-02T11:51:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:47:03Z",
+  "trigger" : "level",
+  "evidence" : [ "level of HDAC1" ],
+  "pmc_id" : "3583079",
+  "score" : 0
+}

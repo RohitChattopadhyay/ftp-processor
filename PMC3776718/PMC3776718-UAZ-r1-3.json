@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6XE38",
+      "entity_text" : "IIS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08069",
+      "entity_text" : "IGF-1R",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These changes lead to the downregulation of the expression of the IGF-2, IGF-1R and Rasgrf1 genes, which promote IIS, and the upregulation of the non signaling IGF-2-binding receptor encoded by IGF-2R.",
+  "reading_complete" : "2020-08-02T16:26:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:23:06Z",
+  "trigger" : "promote",
+  "evidence" : [ "IGF-1R and Rasgrf1 genes, which promote IIS" ],
+  "pmc_id" : "3776718",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Simultaneously, the phosphorylation of ERK1/2, which is one of the downstream effectors of MAPK / ERK, was increased by rapamycin.",
+  "reading_complete" : "2020-08-02T09:32:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:31:23Z",
+  "trigger" : "increased",
+  "evidence" : [ "phosphorylation of ERK1/2, which is one of the downstream effectors of MAPK/ERK, was increased by rapamycin" ],
+  "pmc_id" : "4055350",
+  "score" : 0
+}

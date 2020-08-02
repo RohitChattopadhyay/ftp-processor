@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43474",
+      "entity_text" : "KLF4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0302" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "MSP analysis indicated that both methylated and unmethylated KLF4 were detected in the HK-2 cells stimulated with TGF-beta1; however, only unmethylated KLF4 was detected in the controls (untreated cells) (XREF_FIG).",
+  "reading_complete" : "2020-08-02T10:30:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:28:44Z",
+  "trigger" : "unmethylated",
+  "evidence" : [ "unmethylated KLF4" ],
+  "pmc_id" : "4432929",
+  "score" : 0
+}

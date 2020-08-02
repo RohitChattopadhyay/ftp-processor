@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05165",
+      "entity_text" : "RBPs",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NUL3",
+      "entity_text" : "Stau2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0000020" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "In the radial glial precursor, Stau2 forms a complex with other RBPs, such as Pumilio 2 (Pum2) and DEAD box 1 (DDX1), and with a number of mRNAs, including those encoding beta-actin, mammalian prospero (prox1), and the E3 ubiquitin ligase tripartite motif protein 32 (Trim32).",
+  "reading_complete" : "2020-08-02T16:49:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:44:28Z",
+  "trigger" : "forms a complex",
+  "evidence" : [ "Stau2 forms a complex with other RBPs" ],
+  "pmc_id" : "3976132",
+  "score" : 0
+}

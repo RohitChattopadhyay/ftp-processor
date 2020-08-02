@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:66644",
+      "entity_text" : "Sham",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGFA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The VEGFA protein level increased to 2-fold that of the Sham group at 12 and 24 h post-reperfusion, and the level of VEGFA at 24 h was slightly higher than that at 12 h (XREF_FIG).",
+  "reading_complete" : "2020-08-02T10:44:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:42:37Z",
+  "trigger" : "increased",
+  "evidence" : [ "VEGFA protein level increased to 2-fold that of the Sham" ],
+  "pmc_id" : "4214349",
+  "score" : 0
+}

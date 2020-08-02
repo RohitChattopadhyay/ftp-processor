@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94817",
+      "entity_text" : "Atg12",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The inhibition of MEK1/2 by U0126 inhibited the expression of the Atg12 - Atg5 complex, thus enhancing the cytotoxic effects of rapamycin.",
+  "reading_complete" : "2020-08-02T09:32:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:31:23Z",
+  "trigger" : "enhancing",
+  "evidence" : [ "Atg12-Atg5 complex, thus enhancing the cytotoxic effects of rapamycin" ],
+  "pmc_id" : "4055350",
+  "score" : 0
+}

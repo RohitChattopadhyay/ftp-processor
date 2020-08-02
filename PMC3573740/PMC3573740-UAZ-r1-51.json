@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytoplasm",
+    "from_location_text" : "mitochondria",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005739",
+    "to_location_id" : "go:GO:0005737",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0186" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Moreover, the release of cytochrome c from the mitochondria to the cytoplasm was also relatively increased.",
+  "reading_complete" : "2020-08-02T09:59:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:58:51Z",
+  "trigger" : "release",
+  "evidence" : [ "release of cytochrome c from the mitochondria to the cytoplasm" ],
+  "pmc_id" : "3573740",
+  "score" : 0
+}

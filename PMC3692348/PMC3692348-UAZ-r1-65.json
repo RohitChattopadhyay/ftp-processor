@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0500" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "The above data suggest that EFV mediated autophagy in NHKs occurs with loss of p53 and mTOR, and activation of the ERK pathway.",
+  "reading_complete" : "2020-08-02T14:24:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:23:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of p53" ],
+  "pmc_id" : "3692348",
+  "score" : 0
+}

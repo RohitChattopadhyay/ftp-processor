@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22692",
+      "entity_text" : "IGFBP-4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26358",
+      "entity_text" : "AIM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The present data demonstrate that AIM binds to IGFBP-4 and that this interaction may have an important role in mediating the anti-apoptotic function of AIM.",
+  "reading_complete" : "2020-08-02T09:35:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:34:57Z",
+  "trigger" : "binds",
+  "evidence" : [ "AIM binds to IGFBP-4" ],
+  "pmc_id" : "4533773",
+  "score" : 0
+}

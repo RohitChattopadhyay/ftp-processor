@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31749",
+      "entity_text" : "PKB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "However, in myocytes from patients with OB/T2D, although the presence of the ligand at the same concentration exerted a significant stimulatory effect on PKB and p70s6K phosphorylation, this effect did not differ to that previously observed in myocytes from patients with T2D.",
+  "reading_complete" : "2020-08-02T13:13:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:07:08Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PKB and p70s6K phosphorylation" ],
+  "pmc_id" : "4356436",
+  "score" : 0
+}

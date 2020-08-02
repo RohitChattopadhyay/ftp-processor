@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "survivin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Retrospective clinical studies demonstrate that overexpression of survivin is correlated with increased proliferation, reduced apoptosis, and increased angiogenesis in colorectal cancer, whereas high levels of tumor survivin are associated with resistance to treatment and poor prognosis in multiple tumor types [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:38:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:36:37Z",
+  "trigger" : "increased",
+  "evidence" : [ "survivin is correlated with increased proliferation, reduced apoptosis, and increased angiogenesis" ],
+  "pmc_id" : "4330017",
+  "score" : 0
+}

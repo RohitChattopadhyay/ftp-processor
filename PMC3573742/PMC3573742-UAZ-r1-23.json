@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04880",
+      "entity_text" : "siRNA survivin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Notably, siRNA survivin does not induce death in a normal cell population due to the absence of survivin expression in normal cells.",
+  "reading_complete" : "2020-08-02T16:17:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:16:40Z",
+  "trigger" : "induce",
+  "evidence" : [ "siRNA survivin does not induce death" ],
+  "pmc_id" : "3573742",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439709",
+      "entity_text" : "fructose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0013" ]
+    }
+  },
+  "verbose_text" : "KHK-A has a higher Km for fructose (7 mmol/L) than does KHK-C (0.8 mmol/L) suggesting that it phosphorylates fructose poorly at physiological concentrations [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates fructose" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}

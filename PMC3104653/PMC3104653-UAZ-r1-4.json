@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P24158",
+      "entity_text" : "PR3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2201",
+      "entity_text" : "ANCA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000096" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In murine models, it was demonstrated that monoclonal ANCA IgG binds to PR3 and engages Fc-gamma-RIIa and activate PMN via receptor mediated signal transduction system.",
+  "reading_complete" : "2020-08-02T17:03:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:59:58Z",
+  "trigger" : "binds",
+  "evidence" : [ "ANCA IgG binds to PR3" ],
+  "pmc_id" : "3104653",
+  "score" : 0
+}

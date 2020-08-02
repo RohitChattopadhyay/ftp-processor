@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:753",
+      "entity_text" : "glycerol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92482",
+      "entity_text" : "AQP3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It has been demonstrated that AQP3 expressed in the basal layer of the epidermis and the deficiency reduce the stratum corneum hydration and glycerol content.",
+  "reading_complete" : "2020-08-02T16:50:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:50:25Z",
+  "trigger" : "reduce",
+  "evidence" : [ "AQP3 expressed in the basal layer of the epidermis and the deficiency reduce the stratum corneum hydration and glycerol" ],
+  "pmc_id" : "3577370",
+  "score" : 0
+}

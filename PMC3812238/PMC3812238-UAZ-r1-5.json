@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:667639",
+      "entity_text" : "piceatannol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that piceatannol suppressed H-ras-induced Akt phosphorylation through the direct inhibition of PI3K activity.",
+  "reading_complete" : "2020-08-02T16:32:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:31:16Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "piceatannol suppressed H-ras-induced Akt phosphorylation" ],
+  "pmc_id" : "3812238",
+  "score" : 0
+}

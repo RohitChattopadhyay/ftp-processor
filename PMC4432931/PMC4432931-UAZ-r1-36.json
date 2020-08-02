@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00661",
+      "entity_text" : "matrix",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The ultrastructure of the mitochondria was normal in the control group, while mitochondrial swelling and vacuolization, loss of matrix and the disruption of crests were detected in the LPS / PepG treated cells (with or without siRNA and ncRNA transfection).",
+  "reading_complete" : "2020-08-02T14:09:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:06:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of matrix" ],
+  "pmc_id" : "4432931",
+  "score" : 0
+}

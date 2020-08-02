@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "I-kappaBalpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14920",
+      "entity_text" : "IKKbeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "IKKbeta (a kinase) phosphorylates I-kappaBalpha resulting in the subsequent degradation of I-kappaBalpha.",
+  "reading_complete" : "2020-08-02T12:19:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:18:42Z",
+  "evidence" : [ "IKKbeta (a kinase) phosphorylates I-kappaBalpha" ],
+  "pmc_id" : "3573765",
+  "score" : 0
+}

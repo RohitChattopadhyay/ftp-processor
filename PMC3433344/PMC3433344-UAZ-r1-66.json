@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60903",
+      "entity_text" : "calpactin I light chain",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07355",
+      "entity_text" : "annexin II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellLine" : [ "cellosaurus:CVCL_1416" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000819" ]
+    }
+  },
+  "verbose_text" : "In MKN28 cells and primary gastric carcinomas, annexin II forms a complex with calpactin I light chain (P11) which belongs to the S-100 family as EF hand protein and is associated with cell differentiation, malignant transformation and cell cycle control [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:09:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:11Z",
+  "trigger" : "forms a complex",
+  "evidence" : [ "annexin II forms a complex with calpactin I light chain" ],
+  "pmc_id" : "3433344",
+  "score" : 0
+}

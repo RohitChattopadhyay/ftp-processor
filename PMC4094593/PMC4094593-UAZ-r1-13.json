@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9JGF2",
+      "entity_text" : "p57",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our results revealed that the overexpression of miR-206 markedly downregulated Hes1 expression, significantly elevated p57 expression, and finally induced cell cycle G1 phase blockage in the HepG2 cells.",
+  "reading_complete" : "2020-08-02T13:38:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:37:04Z",
+  "trigger" : "induced",
+  "evidence" : [ "p57 expression, and finally induced cell cycle" ],
+  "pmc_id" : "4094593",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Our data demonstrated that TGF-beta1 not only induced the activation of the Smad pathway, but also induced the phosphorylation of AKT and ERK (XREF_FIG), which are commonly considered to be downstream molecules of the EGF / EGFR pathway.",
+  "reading_complete" : "2020-08-02T14:59:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:58:14Z",
+  "trigger" : "induced",
+  "evidence" : [ "TGF-beta1 not only induced the activation of the Smad pathway, but also induced the phosphorylation of AKT" ],
+  "pmc_id" : "4494581",
+  "score" : 0
+}

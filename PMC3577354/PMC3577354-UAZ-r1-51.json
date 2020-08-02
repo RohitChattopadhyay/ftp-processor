@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y239",
+      "entity_text" : "NOD1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0638" ],
+      "Organ" : [ "uberon:UBERON:4300025" ]
+    }
+  },
+  "verbose_text" : "The gene of NOD1 was strongly expressed in PDL cells, and NOD1 levels were comparable to that in THP-1 cells.",
+  "reading_complete" : "2020-08-02T09:48:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:47:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "NOD1 levels" ],
+  "pmc_id" : "3577354",
+  "score" : 0
+}

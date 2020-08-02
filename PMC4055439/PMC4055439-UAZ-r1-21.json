@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These results showed that celecoxib may inhibit Akt phosphorylation and promote caspase-8, -9 transcription and procaspase-8, -9 protein activation.",
+  "reading_complete" : "2020-08-02T11:50:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:39Z",
+  "trigger" : "promote",
+  "evidence" : [ "Akt phosphorylation and promote caspase-8, -9 transcription" ],
+  "pmc_id" : "4055439",
+  "score" : 0
+}

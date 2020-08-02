@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:947",
+      "entity_text" : "nitrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The ROS induced activation of inflammatory cells (including macrophages, monocytes, and neutrophils) can cause a positive feedback loop in which an increased expression of a variety of intracellular oxidative enzymes and large amounts of ROS and reactive nitrogen species (RNS) are synthesized and released to remove necrotic tissue.",
+  "reading_complete" : "2020-08-02T14:22:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:35Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of ROS and reactive nitrogen" ],
+  "pmc_id" : "4072398",
+  "score" : 0
+}

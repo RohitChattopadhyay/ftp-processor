@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14210",
+      "entity_text" : "HGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0814" ],
+      "Organ" : [ "uberon:UBERON:0001193" ],
+      "CellType" : [ "cl:CL:0000134" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The level of HGF mRNA in the liver, according to RT-qPCR, also showed the same pattern.",
+  "reading_complete" : "2020-08-02T09:31:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:28:26Z",
+  "trigger" : "level",
+  "evidence" : [ "level of HGF" ],
+  "pmc_id" : "4152144",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6076",
+      "entity_text" : "cyclic AMP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0055" ],
+      "CellType" : [ "cl:CL:1001607" ]
+    }
+  },
+  "verbose_text" : "Cilostazol is known to increase the intracellular level of cyclic AMP by blocking its hydrolysis by phosphodiesterase type III.",
+  "reading_complete" : "2020-08-02T16:00:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:59:58Z",
+  "trigger" : "level",
+  "evidence" : [ "level of cyclic AMP" ],
+  "pmc_id" : "3577138",
+  "score" : 0
+}

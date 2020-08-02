@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Standards were prepared by the acid hydrolysis of 1,1,3,3-tetraethoxypropane.",
+  "reading_complete" : "2020-08-02T10:40:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:37:14Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "acid hydrolysis" ],
+  "pmc_id" : "3439986",
+  "score" : 0
+}

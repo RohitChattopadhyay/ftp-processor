@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05586",
+      "entity_text" : "NMDAR1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0002609" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Statistical analysis revealed a significant difference in the levels of the NMDAR1, SNAP-25 and Nav1.6 transcripts between the 3 groups [F = 19.961, 8.33 and 162.779, respectively, P = 0.002, 0.008 and 0.000, respectively, ANOVA, XREF_FIG].",
+  "reading_complete" : "2020-08-02T15:51:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:47:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the NMDAR1" ],
+  "pmc_id" : "4314424",
+  "score" : 0
+}

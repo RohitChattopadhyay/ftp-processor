@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00403",
+      "entity_text" : "miR-125b",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Another study from 2012 showed that overexpression of miR-125b did not affect the ectoderm and neuron differentiation in mESCs, which was in contrast with a study from 2013, which reported that the ectopic expression of miR-125b blocked ESC differentiation at the epiblast stage.",
+  "reading_complete" : "2020-08-02T12:43:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:42:10Z",
+  "trigger" : "blocked",
+  "evidence" : [ "miR-125b blocked ESC differentiation" ],
+  "pmc_id" : "4501654",
+  "score" : 0
+}

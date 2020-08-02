@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16671",
+      "entity_text" : "fat",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0552" ],
+      "Organ" : [ "uberon:UBERON:0003684" ]
+    }
+  },
+  "verbose_text" : "When the patient has a large amount of fat in the abdominal cavity, mobilization of the jejunum is needed to avoid tension on the jejunal limb that might result in anastomotic leakage.",
+  "reading_complete" : "2020-08-02T17:56:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:55:08Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of fat" ],
+  "pmc_id" : "4364598",
+  "score" : 0
+}

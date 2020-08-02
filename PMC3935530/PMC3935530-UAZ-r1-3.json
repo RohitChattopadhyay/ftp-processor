@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Kidney function measured by serum creatinine levels worsened in the CNI group and the belatacept to CNI switch group during long-term follow-up whereas all patients receiving belatacept throughout follow-up showed stable creatinine values.",
+  "reading_complete" : "2020-08-02T17:48:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:43:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "3935530",
+  "score" : 0
+}

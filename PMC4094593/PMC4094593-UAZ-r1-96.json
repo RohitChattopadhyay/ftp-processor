@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UM47",
+      "entity_text" : "Notch3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03266",
+      "entity_text" : "miR-206",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There seems to be a doubt as to whether there is a similar interaction between miR-206 and Notch3.",
+  "reading_complete" : "2020-08-02T13:38:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:37:04Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between miR-206 and Notch3" ],
+  "pmc_id" : "4094593",
+  "score" : 0
+}

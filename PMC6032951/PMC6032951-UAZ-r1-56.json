@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151134",
+      "entity_text" : "Fe",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4971",
+      "entity_text" : "PpIX",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Organ" : [ "uberon:UBERON:0013754" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This approach works because once the PpIX has bound Fe 2+ to form haem, it is no longer active for PDT and so by adding iron chelators to trap iron ions in combination with PpIX precursors, this competition can be undermined elevating PpIX accumulation and thus increasing cell kill on subsequent irradiation 55, 56.",
+  "reading_complete" : "2020-08-02T18:32:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:57Z",
+  "trigger" : "bound",
+  "evidence" : [ "PpIX has bound Fe" ],
+  "pmc_id" : "6032951",
+  "score" : 0
+}

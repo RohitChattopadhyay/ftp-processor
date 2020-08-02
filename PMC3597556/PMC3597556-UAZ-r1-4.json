@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03431",
+      "entity_text" : "pThr",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0945" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Partial sequencing data for Cys 296 -Cys 310 linked dipeptides from soleus muscle lysates indicated that burn injury is associated with both dephosphorylation of pThr 308 and disulfide bond formation.",
+  "reading_complete" : "2020-08-02T12:28:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:24:26Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of pThr" ],
+  "pmc_id" : "3597556",
+  "score" : 0
+}

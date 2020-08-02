@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P53985",
+      "entity_text" : "MCT1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, expression levels of MCT1 and 4 were significantly downregulated by 40 +/- 0.2% (p = 0.01) and 73 +/- 1 x10 -3% (p = 0.003), respectively, in the activated cells and thereby promotes less extracellular efflux and increased intracellular lactate concentration.",
+  "reading_complete" : "2020-08-02T18:08:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:07:09Z",
+  "trigger" : "promotes",
+  "evidence" : [ "MCT1 and 4 were significantly downregulated by 40 +/- 0.2 % (p=0.01) and 73 +/- 1 x10 -3 % (p=0.003), respectively, in the activated cells and thereby promotes less extracellular efflux and increased intracellular lactate" ],
+  "pmc_id" : "6010986",
+  "score" : 0
+}

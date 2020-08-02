@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95294",
+      "entity_text" : "RASAL1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0302" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It has been demonstrated that Dnmt1 catalyzes DNA methylation and subsequently leads to the transcriptional repression of genes associated with fibrogenesis; for example, the induction of RASAL1 hypermethylation contributes to renal fibroblast activation, the mediation of PTEN hypermethylation and the epigenetic repression of Smad7 in liver fibrosis.",
+  "reading_complete" : "2020-08-02T10:30:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:28:44Z",
+  "trigger" : "hypermethylation",
+  "evidence" : [ "RASAL1 hypermethylation" ],
+  "pmc_id" : "4432929",
+  "score" : 0
+}

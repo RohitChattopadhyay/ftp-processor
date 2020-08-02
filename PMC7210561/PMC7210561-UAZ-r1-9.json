@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000598" ]
+    }
+  },
+  "verbose_text" : "Working with the same in vitro model (transformed retinal ganglion cells-RGC-5 cells), Majid (one of the researchers of the two previous studies) and colleagues showed a dose dependent increase in cell viability (0%, 18%, and 28% with, respectively, 10, 50, and 100 muM sulbutiamine), less apoptosis, less caspase-3 activity, and a decrease in ROS levels for the 100 muM dose.",
+  "reading_complete" : "2020-08-02T12:11:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:59:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "7210561",
+  "score" : 0
+}

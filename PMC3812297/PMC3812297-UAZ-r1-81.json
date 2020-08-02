@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Whereas 22.2 mM glucose have been shown to decrease insulin secretion by isolated human islets, possibly due to oxidative stress that was concomitantly observed, in the present study, glucose at concentrations of 25 mM enhanced insulin expression and secretion in BRIN-BD11 cells.",
+  "reading_complete" : "2020-08-02T14:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:29:17Z",
+  "trigger" : "decrease",
+  "evidence" : [ "decrease insulin secretion by isolated human islets, possibly due to oxidative stress that was concomitantly observed \n               \n, in the present study, glucose at concentrations of 25 mM enhanced insulin" ],
+  "pmc_id" : "3812297",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08253",
+      "entity_text" : "MMP-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the present study, our results revealed that scutellarein not only decreased the expression of MMP-2, -9 and -14, but also induced apoptosis by suppressing the proliferation of HT1080 cells, thereby attenuating tumor development and metastasis.",
+  "reading_complete" : "2020-08-02T15:14:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:13:30Z",
+  "trigger" : "induced",
+  "evidence" : [ "MMP-2, -9 and -14, but also induced apoptosis by suppressing the proliferation" ],
+  "pmc_id" : "4249742",
+  "score" : 0
+}

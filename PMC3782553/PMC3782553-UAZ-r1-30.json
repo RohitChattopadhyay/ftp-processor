@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35590",
+      "entity_text" : "Tie1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BY76",
+      "entity_text" : "Angptl4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "However, Angptl4 does not bind to either the Tie1 or Tie2 angiopoietin receptors.",
+  "reading_complete" : "2020-08-02T15:43:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:42:30Z",
+  "trigger" : "bind",
+  "evidence" : [ "Angptl4 does not bind to either the Tie1" ],
+  "pmc_id" : "3782553",
+  "score" : 0
+}

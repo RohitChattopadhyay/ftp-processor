@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "cyclin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CDK",
+      "entity_text" : "CDK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Upon mitogenic stimulation, p27Kip1 is rapidly downregulated, which enables the activation of CDK / cyclin complexes and the subsequent transcriptional activation of genes required for the G1/S transition and the initiation of DNA replication.",
+  "reading_complete" : "2020-08-02T12:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:52:02Z",
+  "trigger" : "complexes",
+  "evidence" : [ "CDK/cyclin complexes" ],
+  "pmc_id" : "3573735",
+  "score" : 0
+}

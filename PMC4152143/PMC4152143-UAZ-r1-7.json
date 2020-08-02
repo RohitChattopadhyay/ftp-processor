@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5920",
+      "entity_text" : "T3",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01471",
+      "entity_text" : "complement",
+      "features" : [ {
+        "to_base" : "C",
+        "site" : 5,
+        "feature_type" : "mutation",
+        "evidence" : "C5a"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The level of complement C5a increased, albeit non significantly, at T3 in the DHCA + SCP group compared to the normothermic group (XREF_FIG).",
+  "reading_complete" : "2020-08-02T10:28:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:27:55Z",
+  "trigger" : "increased",
+  "evidence" : [ "complement C5a increased, albeit non-significantly, at T3" ],
+  "pmc_id" : "4152143",
+  "score" : 0
+}

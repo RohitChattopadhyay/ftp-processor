@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK-3beta",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "APC",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15169",
+      "entity_text" : "AXIN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "beta-catenin activates LEF / TCF transcription factors and, in the absence of the Wnt signal transmission, is decomposed by the AXIN / GSK-3beta / APC complex.",
+  "reading_complete" : "2020-08-02T09:20:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:18:37Z",
+  "trigger" : "complex",
+  "evidence" : [ "AXIN/GSK-3beta/APC complex" ],
+  "pmc_id" : "4501660",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:210" ]
+    }
+  },
+  "verbose_text" : "Analysis of the expression profiles of cytokines revealed that, regardless of the IL-6 levels being increased in the IL-6-hUC-MSCs, this did not induce a growth promoting effect on gastric cancer.",
+  "reading_complete" : "2020-08-02T14:29:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:27:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-6 levels" ],
+  "pmc_id" : "4292781",
+  "score" : 0
+}

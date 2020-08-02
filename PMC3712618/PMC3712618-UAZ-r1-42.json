@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "EIF4Ebp1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "Specifically, hypophosphorylated EIF4Ebp1 binds to eIF4E and prevents recruitment of the 40S ribosomal subunit to mRNA, thus inhibiting cap dependent translation.",
+  "reading_complete" : "2020-08-02T13:27:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:25:35Z",
+  "trigger" : "hypophosphorylated",
+  "evidence" : [ "hypophosphorylated EIF4Ebp1" ],
+  "pmc_id" : "3712618",
+  "score" : 0
+}

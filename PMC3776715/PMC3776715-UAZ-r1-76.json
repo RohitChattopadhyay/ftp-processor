@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0160" ]
+    }
+  },
+  "verbose_text" : "Treatment of the HT-29 cells with laminarin inhibited phosphorylation and ErbB2 expression, as well as the phosphorylation of Akt; therefore, these results suggest that treatment with laminarin inhibits the proliferation of HT-29 cells.",
+  "reading_complete" : "2020-08-02T16:28:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:27:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Akt" ],
+  "pmc_id" : "3776715",
+  "score" : 0
+}

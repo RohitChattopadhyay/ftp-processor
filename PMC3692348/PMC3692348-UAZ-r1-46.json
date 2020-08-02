@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser2448",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "The EFV treated NHKs showed reduced phosphorylation of mTOR (Ser2448), similar to the cells treated with rapamycin (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:24:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:23:27Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of mTOR (Ser2448" ],
+  "pmc_id" : "3692348",
+  "score" : 0
+}

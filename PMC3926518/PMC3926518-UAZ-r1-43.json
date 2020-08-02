@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04272",
+      "entity_text" : "phospholamban",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0115" ],
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "In 2013, Oh et al demonstrated that decoy peptides target protein phosphatase 1 and inhibit the dephosphorylation of phospholamban in cardiomyocytes.",
+  "reading_complete" : "2020-08-02T11:46:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:45:02Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of phospholamban" ],
+  "pmc_id" : "3926518",
+  "score" : 0
+}

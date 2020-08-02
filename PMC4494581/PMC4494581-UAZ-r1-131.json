@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16070",
+      "entity_text" : "CD44",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Our results were similar to those of a physiological study, in which the investigators found that the HAS2 dependent production of HA facilitates TGF-beta1-dependent fibroblast differentiation by promoting the interaction between CD44 and EGFR held within membrane bound lipid rafts.",
+  "reading_complete" : "2020-08-02T14:59:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:58:14Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between CD44 and EGFR" ],
+  "pmc_id" : "4494581",
+  "score" : 0
+}

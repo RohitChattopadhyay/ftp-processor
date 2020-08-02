@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In this study, when we used CQ, a lysosome inhibitor, to block the autophagic flux, this rendered cells susceptible to cell death, as evidenced by the increase in CHOP expression, which contributed to ER stress induced apoptosis and decreased cell viability.",
+  "reading_complete" : "2020-08-02T12:13:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:11:57Z",
+  "trigger" : "decreased",
+  "evidence" : [ "cell death, as evidenced by the increase in CHOP expression, which contributed to ER stress-induced apoptosis and decreased cell viability" ],
+  "pmc_id" : "4356450",
+  "score" : 0
+}

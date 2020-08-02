@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "Survivin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0571" ],
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Survivin levels are also strongly upregulated in A549 cells by hypoxia compared with normoxia, as described in our previous study.",
+  "reading_complete" : "2020-08-02T16:19:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:18:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "Survivin levels" ],
+  "pmc_id" : "3776716",
+  "score" : 0
+}

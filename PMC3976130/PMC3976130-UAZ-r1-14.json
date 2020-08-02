@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35638",
+      "entity_text" : "CHOP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11021",
+      "entity_text" : "GRP78",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of GRP78 (also known as BiP) may attenuate the induction of CHOP / GADD153 in ERS and may reduce ERS induced apoptosis.",
+  "reading_complete" : "2020-08-02T15:29:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:28:21Z",
+  "trigger" : "attenuate",
+  "evidence" : [ "GRP78 (also known as BiP) may attenuate the induction of CHOP" ],
+  "pmc_id" : "3976130",
+  "score" : 0
+}

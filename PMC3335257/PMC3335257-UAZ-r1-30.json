@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00435",
+      "entity_text" : "SREBP-1c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "The effect n-3 LC-PUFA have on SREBP-1c is to reduce endogenous lipid production and accumulation of triglycerides in the liver [XREF_BIBR], and this is achieved by reducing the amount of mature SREBP-1c available for de novo lipogenesis within the nucleus [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:22:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:03:20Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of mature SREBP-1c" ],
+  "pmc_id" : "3335257",
+  "score" : 0
+}

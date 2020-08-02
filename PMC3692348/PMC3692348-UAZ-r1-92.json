@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46527",
+      "entity_text" : "p27 KIP1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "EFV treatment increased the protein level of Beclin-1, ATG5 and p27 KIP1, and drastically reduced p53 and Bcl-2.",
+  "reading_complete" : "2020-08-02T14:24:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:23:27Z",
+  "trigger" : "reduced",
+  "evidence" : [ "p27 KIP1 , and drastically reduced p53 and Bcl-2" ],
+  "pmc_id" : "3692348",
+  "score" : 0
+}

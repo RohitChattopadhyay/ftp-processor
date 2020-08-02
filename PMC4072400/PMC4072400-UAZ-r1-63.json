@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0534" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Tamura et al reported that Erk, as the responsible kinase for the phosphorylation of Bcl-2, exerts an effect on the anti-apoptotic function of Bcl-2 in human tumour cell lines.",
+  "reading_complete" : "2020-08-02T10:08:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:07:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Bcl-2" ],
+  "pmc_id" : "4072400",
+  "score" : 0
+}

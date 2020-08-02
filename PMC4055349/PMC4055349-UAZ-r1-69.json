@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119065",
+      "entity_text" : "polylactosamine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q67FW5",
+      "entity_text" : "beta3GnT8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of beta3GnT8, but not beta3GnT2, may induce an increase in polylactosamine chains.",
+  "reading_complete" : "2020-08-02T09:45:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:44:18Z",
+  "trigger" : "induce",
+  "evidence" : [ "beta3GnT8, but not beta3GnT2, may induce an increase in polylactosamine" ],
+  "pmc_id" : "4055349",
+  "score" : 0
+}

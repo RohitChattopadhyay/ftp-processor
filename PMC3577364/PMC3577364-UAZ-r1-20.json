@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MEK",
+      "entity_text" : "MEK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11524144",
+      "entity_text" : "compound C",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, compound C also suppressed TGF-beta-stimulated phosphorylation of MEK1/2, an upstream kinase that activates p44 / p42 MAPK (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:58:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:26Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "compound C also suppressed TGF-beta-stimulated phosphorylation of MEK1/2" ],
+  "pmc_id" : "3577364",
+  "score" : 0
+}

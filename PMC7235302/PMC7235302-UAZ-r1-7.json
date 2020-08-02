@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05341",
+      "entity_text" : "SARS-CoV-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "18 Therefore, SARS-CoV-2 binding to ACE2 may decrease residual ACE2 activity and lead to a predominance of ANG II through AT1 receptor signaling.",
+  "reading_complete" : "2020-08-02T18:06:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:06:16Z",
+  "trigger" : "binding",
+  "evidence" : [ "SARS-CoV-2 binding to ACE2" ],
+  "pmc_id" : "7235302",
+  "score" : 0
+}

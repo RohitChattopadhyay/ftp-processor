@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W998" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the Nara-H cells, we examined the effects of rapamycin treatment on cell proliferation and on the phosphorylation of the mTOR pathway components and autophagy by western blot analysis.",
+  "reading_complete" : "2020-08-02T09:32:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:31:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the mTOR" ],
+  "pmc_id" : "4055350",
+  "score" : 0
+}

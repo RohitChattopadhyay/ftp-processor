@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P2E7",
+      "entity_text" : "PCDH10",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ectopic expression of PCDH10 inhibits tumor cell clonogenicity and induces G1 cell cycle arrest.",
+  "reading_complete" : "2020-08-02T11:56:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:55:43Z",
+  "trigger" : "induces",
+  "evidence" : [ "PCDH10 inhibits tumor cell clonogenicity and induces G1 cell cycle" ],
+  "pmc_id" : "3577349",
+  "score" : 0
+}

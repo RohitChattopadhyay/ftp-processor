@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03178",
+      "entity_text" : "site-kappaB sequences",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Free NF-kappaB translocates to the nucleus and binds to its specific site-kappaB sequences, leading to the massive transcription of a variety of genes important for inflammation, including TNF-alpha, IL-1beta and IL-6.",
+  "reading_complete" : "2020-08-02T13:24:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:23:23Z",
+  "trigger" : "binds",
+  "evidence" : [ "NF-kappaB translocates to the nucleus and binds to its specific site-kappaB sequences" ],
+  "pmc_id" : "4314416",
+  "score" : 0
+}

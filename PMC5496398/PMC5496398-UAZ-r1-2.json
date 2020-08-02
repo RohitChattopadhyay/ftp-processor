@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "tumor necrosis factor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ATF2 binds with JUN to form a heterodimer and participates in reducing the amount of tumor necrosis factor (TNF) transcription through competitive binding [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:32:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:30:50Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of tumor necrosis factor" ],
+  "pmc_id" : "5496398",
+  "score" : 0
+}

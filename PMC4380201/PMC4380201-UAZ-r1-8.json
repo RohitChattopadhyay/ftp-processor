@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04492",
+      "entity_text" : "miR-518a-3p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, the ectopic expression of miR-518a-3p and the inhibition of NIK by RNA interference markedly reduced cell proliferation and enhanced the apoptosis of CRC cells.",
+  "reading_complete" : "2020-08-02T15:33:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:32:36Z",
+  "trigger" : "reduced",
+  "evidence" : [ "miR-518a-3p and the inhibition of NIK by RNA interference markedly reduced cell proliferation" ],
+  "pmc_id" : "4380201",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q95SP2",
+      "entity_text" : "synoviolin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03505",
+      "entity_text" : "LS-102",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "LS-101 and LS-102 inhibit the autoubiquitination of synoviolin.",
+  "reading_complete" : "2020-08-02T13:51:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:49:48Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "LS-102 inhibit the autoubiquitination of synoviolin" ],
+  "pmc_id" : "4042867",
+  "score" : 0
+}

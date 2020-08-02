@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9913" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "CellType" : [ "cl:CL:0002621" ]
+    }
+  },
+  "verbose_text" : "hPDLCs in groups without osteogenic inducers had higher EGFR mRNA levels, which resulted in increased cell proliferation most possibly via activation of its downstream targets, ERK1/2 and Akt.",
+  "reading_complete" : "2020-08-02T09:45:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:45:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "EGFR mRNA levels" ],
+  "pmc_id" : "4533781",
+  "score" : 0
+}

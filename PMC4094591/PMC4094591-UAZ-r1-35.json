@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14210",
+      "entity_text" : "HGF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, when the CFs were exposed to 5 ng/ml TGF-beta 1, the proliferation of the CFs was markedly inhibited by the overexpression of HGF compared with AdGFP (XREF_FIG).",
+  "reading_complete" : "2020-08-02T12:16:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:15:46Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "proliferation of the CFs was markedly inhibited by the overexpression of HGF" ],
+  "pmc_id" : "4094591",
+  "score" : 0
+}

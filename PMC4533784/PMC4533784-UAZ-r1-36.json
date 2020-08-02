@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD",
+      "entity_text" : "Smad",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Activated TbetaRI phosphorylates the receptor activated Smad proteins (R-Smads), mainly Smad2 and Smad3, which translocate into the nucleus and bind to DNA with transcriptional coactivators or corepressors to control the expression of target genes.",
+  "reading_complete" : "2020-08-02T14:57:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:56:38Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates the receptor-activated Smad" ],
+  "pmc_id" : "4533784",
+  "score" : 0
+}

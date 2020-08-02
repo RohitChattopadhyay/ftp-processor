@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:RXR",
+      "entity_text" : "RXR",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07869",
+      "entity_text" : "PPARalpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cross-talk between PPARalpha and LXR via SREBP-1c has been reported, whereby overexpression of PPARalpha inhibited LXR induced SREBP-1c promoter activity, through a reduction of LXR binding to its activator, RXR [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T11:22:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:03:20Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "PPARalpha inhibited LXR-induced SREBP-1c promoter activity, through a reduction of LXR binding to its activator, RXR" ],
+  "pmc_id" : "3335257",
+  "score" : 0
+}

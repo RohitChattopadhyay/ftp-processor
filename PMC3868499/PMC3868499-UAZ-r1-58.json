@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03727",
+      "entity_text" : "MYC",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, several lines of evidence refute the Warburg hypothesis : i) Weinhouse 's re-evaluation of Warburg 's data indicated that tumor tissues are in fact active in mitochondria driven OXPHOS; ii) several types of cancer cells express high levels of MYC family proteins that stimulate mitochondrial biogenesis, glycolysis and glutaminolysis, thus facilitating cancer cell growth.",
+  "reading_complete" : "2020-08-02T14:13:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:09:03Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "MYC family proteins that stimulate mitochondrial biogenesis, glycolysis" ],
+  "pmc_id" : "3868499",
+  "score" : 0
+}

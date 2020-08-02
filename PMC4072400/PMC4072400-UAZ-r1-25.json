@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "Stat1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0534" ],
+      "TissueType" : [ "tissuelist:TS-0559" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Stat1 is partially phosphorylated by the Erk pathway, while the phosphorylation of Stat1 is generally associated with cell cycle arrest and apoptosis.",
+  "reading_complete" : "2020-08-02T10:08:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:07:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Stat1" ],
+  "pmc_id" : "4072400",
+  "score" : 0
+}

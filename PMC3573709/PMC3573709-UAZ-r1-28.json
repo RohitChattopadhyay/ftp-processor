@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0569" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "This can result in a higher degree of prenylation of small GTP binding proteins, and reduced levels of plasma membrane cholesterol, possibly leading to enhanced EGFR activity.",
+  "reading_complete" : "2020-08-02T16:06:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:05:02Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of plasma membrane cholesterol" ],
+  "pmc_id" : "3573709",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, when the inflammatory response is overwhelming, the high level of (ROS) released from infiltrated leukocytes could cause over-consumption of GPx3 XREF_BIBR and further induce more senescent hepatocytes XREF_BIBR.",
+  "reading_complete" : "2020-08-02T17:20:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:19:43Z",
+  "trigger" : "level",
+  "evidence" : [ "level of (ROS" ],
+  "pmc_id" : "5743470",
+  "score" : 0
+}

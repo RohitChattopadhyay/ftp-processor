@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5988",
+      "entity_text" : "sugar",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12305" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0001443" ]
+    }
+  },
+  "verbose_text" : "The baby 's blood report on sixth day after birth showed Serum Bilirubin (total) to be 4.6 mg/dl, S. Bilirubin Direct 1.5 mg/dl and S. Bilirubin Indirect 3.1 mg/dl, whereas random sugar level was found to be 87.8 mg/dl which was within normal range.",
+  "reading_complete" : "2020-08-02T17:06:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:05:01Z",
+  "trigger" : "level",
+  "evidence" : [ "sugar level" ],
+  "pmc_id" : "3299189",
+  "score" : 0
+}

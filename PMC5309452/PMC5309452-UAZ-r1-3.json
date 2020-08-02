@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19971",
+      "entity_text" : "TP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:SOD",
+      "entity_text" : "SOD",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0392" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9615" ]
+    }
+  },
+  "verbose_text" : "Similarly, negative association between SOD and TP was also observed by Selvaraju et al. in Surti buffalo which substantiates the findings of this study.",
+  "reading_complete" : "2020-08-02T16:54:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:53:18Z",
+  "trigger" : "association",
+  "evidence" : [ "association between SOD and TP" ],
+  "pmc_id" : "5309452",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Moreover, the examined individuals are observed with reduced hyperinsulinemia, decreased glucose level, as well as lower systolic and diastolic blood pressure that exceeded normal range values.",
+  "reading_complete" : "2020-08-02T17:14:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:11:23Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "4440197",
+  "score" : 0
+}

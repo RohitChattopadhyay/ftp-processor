@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3981" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0416" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "A significant increase in survival was observed in animals that underwent CED with EGFRvIIIAb or EGFRvIIIAb-IONPs as a result of the inhibition of EGFR phosphorylation, whereas CED with the untreated control or IONPs did not result in an increase in the survival rate.",
+  "reading_complete" : "2020-08-02T17:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:36:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "EGFR phosphorylation" ],
+  "pmc_id" : "3263514",
+  "score" : 0
+}

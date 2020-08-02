@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12923",
+      "entity_text" : "PTPL1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Among the 47 DLBCL cases, the promoter of gene PTPL1 was methylated in 59.6% (28/47) (XREF_FIG), and unmethylated in 40.4% (19/47) (XREF_TABLE).",
+  "reading_complete" : "2020-08-02T09:50:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:10Z",
+  "trigger" : "methylated",
+  "evidence" : [ "PTPL1 was methylated" ],
+  "pmc_id" : "4533776",
+  "score" : 0
+}

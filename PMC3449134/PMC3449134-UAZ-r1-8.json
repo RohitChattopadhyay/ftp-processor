@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6037",
+      "entity_text" : "folic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Based on the assumption that the bioavailability of folic acid added to food is greater than that of natural food folate by a factor of 1.7, the amounts of folic acid from supplements / fortified foods were transformed into amounts of folate by multiplying x 1.7 [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T10:32:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:26:16Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of folic acid" ],
+  "pmc_id" : "3449134",
+  "score" : 0
+}

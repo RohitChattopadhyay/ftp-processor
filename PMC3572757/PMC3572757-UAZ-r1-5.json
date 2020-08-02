@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11308",
+      "entity_text" : "ERG",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, the knockdown of ERG has been reported to induce morphological changes and the inhibition of cell growth in both cell cultures and mice, whereas ERG overexpression has been shown to result in an increase in cell invasion.",
+  "reading_complete" : "2020-08-02T16:31:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:29:23Z",
+  "trigger" : "increase",
+  "evidence" : [ "ERG overexpression has been shown to result in an increase in cell invasion" ],
+  "pmc_id" : "3572757",
+  "score" : 0
+}

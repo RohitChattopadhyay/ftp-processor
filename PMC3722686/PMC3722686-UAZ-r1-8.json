@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5283563",
+      "entity_text" : "ceramide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The presence of increased ceramide levels leads to the activation of stress activated protein kinase, leading ultimately to activation of the pro apoptotic factors caspase-1, -3, and -9.",
+  "reading_complete" : "2020-08-02T13:07:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:04:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "ceramide levels" ],
+  "pmc_id" : "3722686",
+  "score" : 0
+}

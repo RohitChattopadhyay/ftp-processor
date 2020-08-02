@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The T24R cell line exhibited much less responsiveness to cisplatin induced apoptosis compared to T24S cells.",
+  "reading_complete" : "2020-08-02T18:25:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:24:36Z",
+  "trigger" : "induced",
+  "evidence" : [ "cisplatin-induced apoptosis" ],
+  "pmc_id" : "6134931",
+  "score" : 0
+}

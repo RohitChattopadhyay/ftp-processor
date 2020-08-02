@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "4E-BP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0038" ],
+      "CellType" : [ "cl:CL:0000312" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "AKT and TSC2 are required for UV induced mTOR/S6 activation (S6K and 4E-BP1 phosphorylation).",
+  "reading_complete" : "2020-08-02T10:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "4E-BP1 phosphorylation" ],
+  "pmc_id" : "3577345",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15831",
+      "entity_text" : "LKB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "SIRT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Currently available evidences suggest that AMPK and SIRT1 display mutual interactions with each other; AMPK could activate SIRT1 by increasing cellular NAD + level via promoting expression of nicotinamide phosphoribosyltransferase (Nampt), a rate limiting enzyme in NAD + biosynthesis; however, SIRT1 can also directly deacetylate and activate LKB1, resulting in the activation and phosphorylation of AMPK [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T09:18:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:11:17Z",
+  "evidence" : [ "SIRT1 can also directly deacetylate and activate LKB1" ],
+  "pmc_id" : "4220583",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4624",
+      "entity_text" : "6-OHDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We observed that 6-OHDA treatment increased the phosphorylation of all three MAPK members including ERK1/2, JNK, and p38 in a PD rat model as previously described.",
+  "reading_complete" : "2020-08-02T15:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:55:13Z",
+  "trigger" : "increased",
+  "evidence" : [ "6-OHDA treatment increased the phosphorylation of all three MAPK" ],
+  "pmc_id" : "4094589",
+  "score" : 0
+}

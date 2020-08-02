@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:126941",
+      "entity_text" : "methotrexate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, SP had a similar effect against methotrexate induced cell death in Chang liver cells (data not shown).",
+  "reading_complete" : "2020-08-02T16:29:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:28:40Z",
+  "trigger" : "induced",
+  "evidence" : [ "methotrexate-induced cell death" ],
+  "pmc_id" : "4501640",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2662",
+      "entity_text" : "celecoxib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Celecoxib and related compounds have been shown to induce cell cycle arrest, inhibit tumor growth and suppress tumor angiogenesis, with celecoxib potently inducing apoptosis in tumor cells.",
+  "reading_complete" : "2020-08-02T11:50:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:39Z",
+  "trigger" : "inducing",
+  "evidence" : [ "celecoxib potently inducing apoptosis" ],
+  "pmc_id" : "4055439",
+  "score" : 0
+}

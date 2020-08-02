@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:16134956",
+      "entity_text" : "liraglutide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This indicates that liraglutide may also prevent injury in renal tubular epithelial cells by reducing the autophagy induced by exposure to high glucose and may be a promising therapeutic agent.",
+  "reading_complete" : "2020-08-02T12:52:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:50:49Z",
+  "trigger" : "prevent",
+  "evidence" : [ "liraglutide may also prevent injury" ],
+  "pmc_id" : "4314412",
+  "score" : 0
+}

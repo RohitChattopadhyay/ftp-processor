@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86UG4",
+      "entity_text" : "GST-PHB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0038" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "After the recombinant proteins GST-PHB and GST were incubated with the HaCaT cell lysate supernatant, the western blotting results suggested the existence of a direct interaction between GST-PHB and p53 in vitro, although no interaction was identified between GST and p53 (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:05:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:04:14Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between GST-PHB and p53" ],
+  "pmc_id" : "3926502",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZV8",
+      "entity_text" : "PRDM14",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92754",
+      "entity_text" : "TFAP2C",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It has been reported that BLIMP1 binds directly to suppress the epxression of somatic and cell proliferation related genes, and directly induces TFAP2C expression, which together with PRDM14, initiates the PGC specific fate.",
+  "reading_complete" : "2020-08-02T15:12:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:10:28Z",
+  "trigger" : "initiates",
+  "evidence" : [ "TFAP2C expression, which together with PRDM14, initiates" ],
+  "pmc_id" : "4380121",
+  "score" : 0
+}

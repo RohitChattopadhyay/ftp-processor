@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E773" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0042603" ]
+    }
+  },
+  "verbose_text" : "On the basis of the sample size formula suggested for the similar randomized clinical trials [XREF_BIBR] and considering types I and II error of 5% (alpha = 0.05) and 20% (beta = 0.2; Power = 80%), respectively, and serum insulin level as a key variable, we reached the sample size of 44 women for each group.",
+  "reading_complete" : "2020-08-02T12:40:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:35:30Z",
+  "trigger" : "level",
+  "evidence" : [ "insulin level" ],
+  "pmc_id" : "4939193",
+  "score" : 0
+}

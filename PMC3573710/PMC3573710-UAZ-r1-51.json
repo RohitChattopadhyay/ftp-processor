@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95760",
+      "entity_text" : "IL-33",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "Regarding human arthritis, IL-33 levels were elevated in the sera and synovial fluid of RA-patients and showed a positive correlation with the disease activity.",
+  "reading_complete" : "2020-08-02T13:31:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:30:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-33 levels" ],
+  "pmc_id" : "3573710",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51617",
+      "entity_text" : "IRAK1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "IL-1R-associated kinase M associates with IRAK1 by blocking IL-1R-associated kinase 4 recruitment, thereby inhibiting IRAK1 phosphorylation and/or activation.",
+  "reading_complete" : "2020-08-02T09:34:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:32:37Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "IRAK1 phosphorylation" ],
+  "pmc_id" : "4214342",
+  "score" : 0
+}

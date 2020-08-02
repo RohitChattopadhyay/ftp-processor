@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "In the present study, mtDNA induced a robust response in macrophages in vitro, as demonstrated by increased levels of TNF-alpha, IL-6 and IL-10 that were not observed in the PBS and nDNA groups; increased levels of these cytokines were also observed in vivo.",
+  "reading_complete" : "2020-08-02T16:33:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:32:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "3976143",
+  "score" : 0
+}

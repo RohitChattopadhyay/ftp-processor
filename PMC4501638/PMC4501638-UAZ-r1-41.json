@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:145068",
+      "entity_text" : "nitric oxide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has also been shown that the interaction between ROS and nitric oxide (NO) sets off a vicious circle, which results in further endothelial activation and inflammation.",
+  "reading_complete" : "2020-08-02T13:16:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:14:51Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between ROS and nitric oxide (NO" ],
+  "pmc_id" : "4501638",
+  "score" : 0
+}

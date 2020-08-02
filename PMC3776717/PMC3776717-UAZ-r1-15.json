@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "PARP-1 deficiency protects against the cytotoxicity, to a lesser degree, by protecting against GSH depletion during the hypoxic period, and, to a larger degree, by maintaining mitochondrial function and preserving intracellular ATP levels during the subsequent oxidative stress period.",
+  "reading_complete" : "2020-08-02T10:06:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:05:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "3776717",
+  "score" : 0
+}

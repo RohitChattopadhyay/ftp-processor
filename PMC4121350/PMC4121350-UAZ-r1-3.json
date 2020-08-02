@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04467",
+      "entity_text" : "FC101",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The lack of an affect on caspase-9 expression supports the notion that FC101 does not induce apoptotic cell death in glioblastomas via an intrinsic mechanism, as suggested in in another study of ours [Mahdavian et al (unpublished data)], which showed that FC101 had no effect on intrinsic apoptotic pathway proteins (BAD, BAK and BAX) in breast cancer cells.",
+  "reading_complete" : "2020-08-02T15:28:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:26:46Z",
+  "trigger" : "induce",
+  "evidence" : [ "FC101 does not induce apoptotic cell death" ],
+  "pmc_id" : "4121350",
+  "score" : 0
+}

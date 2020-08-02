@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15232",
+      "entity_text" : "Matn3",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 194,
+        "feature_type" : "mutation",
+        "evidence" : "V194D"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0138" ]
+    }
+  },
+  "verbose_text" : "The expression of Comp D469del and Matn3 V194D results in ER retention of the relevant mutant proteins and the co-retention of interacting partners that ultimately results in ER stress; however, the downstream stress pathways that are activated are genotype specific.",
+  "reading_complete" : "2020-08-02T11:32:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:38Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Comp D469del  and Matn3" ],
+  "pmc_id" : "4432922",
+  "score" : 0
+}

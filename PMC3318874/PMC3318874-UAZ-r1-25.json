@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The elevated level of cAMP was suggested as a mechanism for the effects of ethanol on cell proliferation, but the results did not support this, as cAMP levels were not consistent with cell proliferation.",
+  "reading_complete" : "2020-08-02T16:52:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:46:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "cAMP levels" ],
+  "pmc_id" : "3318874",
+  "score" : 0
+}

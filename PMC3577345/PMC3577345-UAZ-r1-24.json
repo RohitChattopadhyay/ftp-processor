@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "CellLine" : [ "cellosaurus:CVCL_0038" ],
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "Aside from AKT hydrophobic motif phosphorylation, mTORC2 has also been implicated in the phosphorylation of the AGC kinase, PKCalpha, the regulation of actin cytoskeleton reorganization and development of prostate cancer in PTEN deficient mice.",
+  "reading_complete" : "2020-08-02T10:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:11:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "AKT hydrophobic motif phosphorylation" ],
+  "pmc_id" : "3577345",
+  "score" : 0
+}

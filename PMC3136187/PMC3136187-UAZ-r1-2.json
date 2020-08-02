@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0636" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although the diets were recorded and replicated for 3 days each week as described above, there could have been within and between-subject variations in the amount of protein, calcium, and total caloric intake on the nonrecorded days during the training period which could have influenced the adaptive response.",
+  "reading_complete" : "2020-08-02T11:33:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:25:50Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of protein, calcium" ],
+  "pmc_id" : "3136187",
+  "score" : 0
+}

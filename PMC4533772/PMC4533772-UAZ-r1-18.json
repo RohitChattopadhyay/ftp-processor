@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280795",
+      "entity_text" : "vitamin D3",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "By regulating vitamin D3 levels, this enzyme plays a role in calcium homeostasis and the vitamin D endocrine system.",
+  "reading_complete" : "2020-08-02T16:15:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:12:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "vitamin D3 levels" ],
+  "pmc_id" : "4533772",
+  "score" : 0
+}

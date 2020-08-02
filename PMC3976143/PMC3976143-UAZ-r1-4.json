@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000096" ]
+    }
+  },
+  "verbose_text" : "This is consistent with the data presented in the studies by Zhang et al, who reported PMN activation by mitochondrial DAMPs, including mtDNA and formyl peptides, as well as increased hepatic IL-6 and TNF-alpha levels upon the injection of mitochondrial debris.",
+  "reading_complete" : "2020-08-02T16:33:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:32:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "TNF-alpha levels" ],
+  "pmc_id" : "3976143",
+  "score" : 0
+}

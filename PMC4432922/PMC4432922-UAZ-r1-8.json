@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49747",
+      "entity_text" : "Comp",
+      "features" : [ {
+        "to_base" : "Asp",
+        "site" : 469,
+        "feature_type" : "mutation",
+        "evidence" : "Asp469del"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0138" ]
+    }
+  },
+  "verbose_text" : "Whilst Col2a1 driven overexpression of Comp Asp469del was assumed to be robust, the levels of mutant Comp mRNA were only determined at E15 and shown to be 4- to 6-fold higher than endogenous Comp mRNA.",
+  "reading_complete" : "2020-08-02T11:32:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of mutant Comp" ],
+  "pmc_id" : "4432922",
+  "score" : 0
+}

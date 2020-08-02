@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "Flag-IRS4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Moreover, the CK1gamma2 mediated down-regulation of IRS4 was blocked by BAF1, a lysosome inhibitor, but not by Bortezomib, a proteasome inhibitor, in HEK293T cells, and ubiquitylation of Flag-IRS4 was increased under co-transfection of CK1gamma2 with the K-63 ubiquitin, but not with the K-48 ubiquitin, in HEK293T cells, suggesting that the ubiquitin / lysosome degradation pathway is involved in the decrease of IRS4 by CK1gamma2.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "ubiquitylation",
+  "evidence" : [ "ubiquitylation of Flag-IRS4" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

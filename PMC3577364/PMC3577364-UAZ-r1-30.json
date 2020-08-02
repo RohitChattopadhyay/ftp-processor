@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Effects of TGF-beta on the phosphorylation of AMPK subunits in MC3T3-E1 cells.",
+  "reading_complete" : "2020-08-02T14:58:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:26Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AMPK" ],
+  "pmc_id" : "3577364",
+  "score" : 0
+}

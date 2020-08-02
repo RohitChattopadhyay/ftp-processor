@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016477",
+      "entity_text" : "cell migration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:667639",
+      "entity_text" : "piceatannol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As expected, piceatannol inhibited the cell migration ability at a concentration of 20 muM (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:32:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:31:16Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "piceatannol inhibited the cell migration" ],
+  "pmc_id" : "3812238",
+  "score" : 0
+}

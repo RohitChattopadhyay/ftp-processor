@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "endoplasmic reticulum",
+    "from_location_text" : "plasma membrane",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005886",
+    "to_location_id" : "go:GO:0005783",
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000584" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "The second step is intracellular transport of cholesterol from the plasma membrane to the endoplasmic reticulum which is mediated by the Niemann-Pick C1 like 1 (NPC1L1) protein.",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "transport",
+  "evidence" : [ "transport of cholesterol from the plasma membrane to the endoplasmic reticulum" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

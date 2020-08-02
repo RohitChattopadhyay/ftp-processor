@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "insulin receptor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Zinc mediates these effects in part through the inhibition of protein tyrosine phosphatases which increase the net phosphorylation of the insulin receptor and activate its signaling cascade [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T14:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:14Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the insulin receptor" ],
+  "pmc_id" : "3530793",
+  "score" : 0
+}

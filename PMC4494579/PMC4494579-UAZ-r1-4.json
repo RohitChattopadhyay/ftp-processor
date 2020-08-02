@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q075B4",
+      "entity_text" : "caspase-12",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Of note, we found that the levels of caspase-12 and [Ca 2+] i increased following exposure to OGD or H 2 O 2 compared with the control group; however, after the knockdown of Srxn1, these levels did not differ from those of the control + OGD (or H 2 O 2) group.",
+  "reading_complete" : "2020-08-02T10:48:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:46:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of caspase-12" ],
+  "pmc_id" : "4494579",
+  "score" : 0
+}

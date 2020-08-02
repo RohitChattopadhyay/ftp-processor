@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "p-eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75807",
+      "entity_text" : "GADD34",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In 2005, Boyce et al reported that a small molecule, named salubrinal, selectively inhibited the PP1 / GADD34 mediated dephosphorylation of p-eIF2alpha, thereby protecting 36% of PC12 cells from endoplasmic reticulum (ER) stress induced apoptosis, with cell viability increasing from approximately 40 to 76%.",
+  "reading_complete" : "2020-08-02T11:46:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:45:02Z",
+  "trigger" : "mediated",
+  "evidence" : [ "GADD34-mediated dephosphorylation of p-eIF2alpha" ],
+  "pmc_id" : "3926518",
+  "score" : 0
+}

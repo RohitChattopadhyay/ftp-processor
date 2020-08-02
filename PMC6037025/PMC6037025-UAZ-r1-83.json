@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "(SH2) domain",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02174",
+      "entity_text" : "IRS",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0249" ]
+    }
+  },
+  "verbose_text" : "Upon activation, the IRS proteins can be phosphorylated and transmit signals from the IGF1 and insulin receptors to several Src homology 2 (SH2) domain containing proteins, such as PI3K and GRB2, triggering the activation of the PI3K / AKT and MAPK / ERK signaling pathways, respectively XREF_BIBR, XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "IRS proteins can be phosphorylated and transmit signals from the IGF1 and insulin receptors to several Src homology 2 (SH2) domain" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

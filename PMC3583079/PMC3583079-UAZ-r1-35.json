@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04040",
+      "entity_text" : "catalase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GEN, in the absence of catalase, reduced dose-dependently (0-100 muM) the cell viability of HT29 cells after 72 h of incubation [XREF_BIBR], whereas in our experiments no cytotoxicity was measured up to 200 muM (24 h) neither in presence nor in absence of catalase (data not shown).",
+  "reading_complete" : "2020-08-02T11:51:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:47:03Z",
+  "trigger" : "reduced",
+  "evidence" : [ "catalase, reduced dose-dependently (0-100 muM) the cell viability" ],
+  "pmc_id" : "3583079",
+  "score" : 0
+}

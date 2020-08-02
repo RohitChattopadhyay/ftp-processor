@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "CellType" : [ "cl:CL:0000650" ]
+    }
+  },
+  "verbose_text" : "In contrast to the glucose independent ligand glycosylation, high glucose conditions increased the basal (i.e., without prorenin stimulation) (P) RR activity as measured by promoter assay, and reversed the ability of prorenin regarding (P) RR activation (XREF_FIG).",
+  "reading_complete" : "2020-08-02T09:58:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:56:33Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glucose-independent ligand glycosylation" ],
+  "pmc_id" : "3976126",
+  "score" : 0
+}

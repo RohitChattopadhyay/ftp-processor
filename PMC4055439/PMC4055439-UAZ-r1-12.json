@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "p-Akt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0520" ],
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It was found that following celecoxib treatment, Akt mRNA expression was not significantly altered, and that p-Akt protein levels decreased in a time- and dose dependent manner.",
+  "reading_complete" : "2020-08-02T11:50:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:49:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "p-Akt protein levels" ],
+  "pmc_id" : "4055439",
+  "score" : 0
+}

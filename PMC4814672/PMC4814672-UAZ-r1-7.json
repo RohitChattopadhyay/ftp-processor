@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "CellLine" : [ "cellosaurus:CVCL_D969" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:4565" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "It was interesting to note that absence of sodium did not significantly affect the amount of glucose uptake in absence of inhibitors.",
+  "reading_complete" : "2020-08-02T12:24:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:20:59Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of glucose" ],
+  "pmc_id" : "4814672",
+  "score" : 0
+}

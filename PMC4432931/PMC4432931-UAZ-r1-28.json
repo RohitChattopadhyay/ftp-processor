@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "In vitro and in vivo, by modulating MMP, as well as the ATP and ROS levels, the upregulation of UCP2 plays a neuroprotective role, while UCP2 knockout mice present with increased mitochondrial ROS production.",
+  "reading_complete" : "2020-08-02T14:09:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:06:44Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "4432931",
+  "score" : 0
+}

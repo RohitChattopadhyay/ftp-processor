@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P84621",
+      "entity_text" : "HDL-C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The hepatic overexpression of SR-BI has beens shown to markedly reduce plasma HDL-C levels and reduce atherosclerosis in mice.",
+  "reading_complete" : "2020-08-02T15:10:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:09:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "HDL-C levels" ],
+  "pmc_id" : "4314417",
+  "score" : 0
+}

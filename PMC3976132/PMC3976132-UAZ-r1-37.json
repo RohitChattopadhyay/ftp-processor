@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H171",
+      "entity_text" : "ZBP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-1158" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of ZBP1, in response to extracellular signals such as BDNF, by the membrane bound Src tyrosine kinase results in a decreased affinity of ZBP1 for its bound mRNA and consequent local activation of mRNA translation.",
+  "reading_complete" : "2020-08-02T16:49:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:44:28Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of ZBP1" ],
+  "pmc_id" : "3976132",
+  "score" : 0
+}

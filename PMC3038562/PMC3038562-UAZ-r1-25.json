@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Cushing 's syndrome is a hormone disorder caused by high levels of cortisol (hypercortisolism) in the blood.",
+  "reading_complete" : "2020-08-02T10:17:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cortisol" ],
+  "pmc_id" : "3038562",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D543" ],
+      "TissueType" : [ "tissuelist:TS-0871" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The mRNA levels of PCNA and CDK1 were significantly higher in the PAX6 inhibition study group than in negative GFP-control group (PCNA, 2.79 +/-0.16 vs. 1.00 +/-0.00; t = -19.47; P < 0.01, n = 3; CDK1, 1.56 +/-0.31 vs. 1.00 +/-0.00; t = -3.15; P < 0.05, n = 3) (XREF_FIG).",
+  "reading_complete" : "2020-08-02T14:27:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:26:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PCNA" ],
+  "pmc_id" : "4094585",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02637",
+      "entity_text" : "FAXmo",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Thus, upon nullifying GLUT2 activity, increase in FAXmo concentration did not increase the percent inhibition of glucose uptake beyond 40% in Caco-2 cells.",
+  "reading_complete" : "2020-08-02T12:24:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:20:59Z",
+  "trigger" : "increase",
+  "evidence" : [ "FAXmo concentration did not increase the percent inhibition of glucose" ],
+  "pmc_id" : "4814672",
+  "score" : 0
+}

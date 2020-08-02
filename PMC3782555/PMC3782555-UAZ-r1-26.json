@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR008080",
+      "entity_text" : "parvalbumin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Altered expression levels in troponin and tropomyosin, and the cytosolic Ca 2+ -binding protein parvalbumin indicate disturbances in the contractile apparatus and ion homeostasis, respectively.",
+  "reading_complete" : "2020-08-02T11:55:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:53:56Z",
+  "trigger" : "-binding",
+  "evidence" : [ "Ca 2+ -binding protein parvalbumin" ],
+  "pmc_id" : "3782555",
+  "score" : 0
+}

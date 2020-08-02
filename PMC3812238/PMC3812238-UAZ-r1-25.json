@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "ras",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "CellLine" : [ "cellosaurus:CVCL_0598" ],
+      "Cellular_component" : [ "go:GO:0005604" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002327" ]
+    }
+  },
+  "verbose_text" : "In human breast cancer, ras mutations are infrequent, but upregulated amounts of the ras protein have been found in 60-70% of human breast cancers.",
+  "reading_complete" : "2020-08-02T16:32:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:31:16Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of the ras" ],
+  "pmc_id" : "3812238",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y4K3",
+      "entity_text" : "TRAF6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51617",
+      "entity_text" : "IRAK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Active IRAK1 subsequently causes the dimerization and polyubiquitination of TRAF6, which activates the downstream component, transforming growth factor-beta activated kinase 1 (TAK1).",
+  "reading_complete" : "2020-08-02T09:34:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:32:37Z",
+  "trigger" : "causes",
+  "evidence" : [ "IRAK1 subsequently causes the dimerization and polyubiquitination of TRAF6" ],
+  "pmc_id" : "4214342",
+  "score" : 0
+}

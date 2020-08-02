@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00938",
+      "entity_text" : "lipoprotein",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0001982" ],
+      "CellType" : [ "cl:CL:0002139" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The most commonly used characteristics to identify endothelial cells include the expression of vWF and CD31, the uptake of acetylated low-density lipoprotein (Ac-LDL) and the formation of a capillary like structure in vitro.",
+  "reading_complete" : "2020-08-02T15:42:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:41:38Z",
+  "trigger" : "acetylated",
+  "evidence" : [ "acetylated low-density lipoprotein" ],
+  "pmc_id" : "4314414",
+  "score" : 0
+}

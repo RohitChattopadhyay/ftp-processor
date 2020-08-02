@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0546" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fuentes et al demonstrated that S100P interacted with the receptor for advanced glycation end-products (RAGE) to stimulate SW480 colon cancer cell growth and migration and upregulate ErK phosphorylation and NF-kappaB activation in vitro.",
+  "reading_complete" : "2020-08-02T10:49:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:48:41Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and NF-kappaB" ],
+  "pmc_id" : "4314409",
+  "score" : 0
+}

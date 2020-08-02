@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0011824" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Wang et al demonstrated that TGF-beta1 levels were positively correlated with the incidence of radiation-treatment-induced lung injury among patients with lung cancer.",
+  "reading_complete" : "2020-08-02T14:22:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:20:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "TGF-beta1 levels" ],
+  "pmc_id" : "4072398",
+  "score" : 0
+}

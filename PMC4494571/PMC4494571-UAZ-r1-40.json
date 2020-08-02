@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00897",
+      "entity_text" : "TGF-beta1 mRNA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0437" ],
+      "Cellular_component" : [ "go:GO:0030017" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0002129" ]
+    }
+  },
+  "verbose_text" : "By contrast, the TGF-beta1 mRNA level increased progressively (XREF_FIG).",
+  "reading_complete" : "2020-08-02T09:40:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:38:49Z",
+  "trigger" : "level",
+  "evidence" : [ "TGF-beta1 mRNA level" ],
+  "pmc_id" : "4494571",
+  "score" : 0
+}

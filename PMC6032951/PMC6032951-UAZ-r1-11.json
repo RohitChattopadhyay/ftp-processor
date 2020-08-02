@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4971",
+      "entity_text" : "PpIX",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0440" ],
+      "TissueType" : [ "tissuelist:TS-0114" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "De Souza et al. however, found that different cell lines produced different amounts of PpIX, most likely due to their differences in metabolism 54.",
+  "reading_complete" : "2020-08-02T18:32:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:57Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of PpIX" ],
+  "pmc_id" : "6032951",
+  "score" : 0
+}

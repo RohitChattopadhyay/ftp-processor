@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "In addition, AIF is released from the mitochondria in response to increased levels of Bax or decreased levels of Bcl-2.",
+  "reading_complete" : "2020-08-02T14:52:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:51:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Bcl-2" ],
+  "pmc_id" : "4020492",
+  "score" : 0
+}

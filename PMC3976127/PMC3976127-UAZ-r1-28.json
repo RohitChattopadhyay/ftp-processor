@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21980",
+      "entity_text" : "TGase2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0019" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1221" ],
+      "CellType" : [ "cl:CL:0002224" ]
+    }
+  },
+  "verbose_text" : "When SH-SY5Y cells were pre-treated with RA, the protein level of TGase2 increased (XREF_FIG).",
+  "reading_complete" : "2020-08-02T09:22:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:22:02Z",
+  "trigger" : "level",
+  "evidence" : [ "level of TGase2" ],
+  "pmc_id" : "3976127",
+  "score" : 0
+}

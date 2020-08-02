@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02886",
+      "entity_text" : "miR-125b-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "miR-125b-2 overexpression does not promote ESC proliferation.",
+  "reading_complete" : "2020-08-02T12:43:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:42:10Z",
+  "trigger" : "promote",
+  "evidence" : [ "miR-125b-2 overexpression does not promote ESC proliferation" ],
+  "pmc_id" : "4501654",
+  "score" : 0
+}

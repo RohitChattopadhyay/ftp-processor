@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6NFN3",
+      "entity_text" : "RBFOX3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92481",
+      "entity_text" : "AP-2beta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, we also tested the effect of AP-2beta on cell viability by a MTS assay, and found that AP-2beta knockdown inhibited the HCC cell growth increased by RBFOX3 overexpression while AP-2beta overexpression partly rescued RBFOX3 knockdown mediated growth inhibition.",
+  "reading_complete" : "2020-08-02T18:24:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:22:29Z",
+  "trigger" : "rescued",
+  "evidence" : [ "AP-2beta overexpression partly rescued RBFOX3" ],
+  "pmc_id" : "5566111",
+  "score" : 0
+}

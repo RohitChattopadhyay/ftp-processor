@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08947",
+      "entity_text" : "BPs",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "BPs have ability to bind and chelate calcium.",
+  "reading_complete" : "2020-08-02T16:09:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:08:33Z",
+  "trigger" : "bind",
+  "evidence" : [ "BPs have ability to bind and chelate calcium" ],
+  "pmc_id" : "4094592",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0138" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A previous study has reported that the EGF / EGFR system regulates the phenotype of different cell populations, and pre-osteoblasts and prechondrocytes have high levels of EGFR in vivo.",
+  "reading_complete" : "2020-08-02T09:45:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:45:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of EGFR" ],
+  "pmc_id" : "4533781",
+  "score" : 0
+}

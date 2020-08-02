@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "pRb",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05273",
+      "entity_text" : "Acanthamoeba",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Acanthamoeba inhibited pRb phosphorylation (a master regulator of cell cycle) in human corneal epithelial cells, indicating that Acanthamoeba induces cell cycle arrest in the host cells.",
+  "reading_complete" : "2020-08-02T18:37:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:26:52Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "Acanthamoeba inhibited pRb phosphorylation" ],
+  "pmc_id" : "4330640",
+  "score" : 0
+}

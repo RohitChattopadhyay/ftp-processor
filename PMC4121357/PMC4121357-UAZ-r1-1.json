@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15109",
+      "entity_text" : "RAGE",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P09429",
+      "entity_text" : "HMGB1",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "All these results indicated that after binding to RAGE, HMGB1 increased NS/PC proliferation by promoting JNK phosphorylation.",
+  "reading_complete" : "2020-08-02T10:58:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:56:53Z",
+  "trigger" : "increased",
+  "evidence" : [ "RAGE, HMGB1 increased NS/PC proliferation by promoting JNK phosphorylation" ],
+  "pmc_id" : "4121357",
+  "score" : 0
+}

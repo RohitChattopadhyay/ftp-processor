@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000312" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "After 1 day of EFV treatment, an increase in p27 KIP1 expression and a drastic loss of p53 were noted, while the level of p16 INK4A did not change.",
+  "reading_complete" : "2020-08-02T14:24:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:23:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of p53" ],
+  "pmc_id" : "3692348",
+  "score" : 0
+}

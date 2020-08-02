@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00320",
+      "entity_text" : "GATA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23771",
+      "entity_text" : "GATA3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Between the 2 subtypes, the luminal B subytpe is characterized as estrogen receptor (ER)/progesterone receptor (PR)-positive and human epidermal growth factor receptor 2 (HER2)-positive (ER + / PR +, HER2 +), with intermediate expression level of genes in epithelial cells, including ER, GATA binding protein 3 (GATA3), X-box binding protein (XBP), trefoil factor 3 (TF3), hepatocyte nuclear factor 3alpha (HNF3alpha) and estrogen regulated protein (LIV-1).",
+  "reading_complete" : "2020-08-02T12:50:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:47:19Z",
+  "trigger" : "binding",
+  "evidence" : [ "GATA binding protein 3 (GATA3" ],
+  "pmc_id" : "4249744",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23994",
+      "entity_text" : "Zn",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32804",
+      "entity_text" : "Zrt1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In these studies, Zhao and Eide [XREF_BIBR] showed that overexpression of Zrt1 in yeast cells increased high affinity uptake of 65 Zn and that this was reduced in Zrt1 mutant cells resulting in poor growth in zinc limited media.",
+  "reading_complete" : "2020-08-02T14:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:07:14Z",
+  "trigger" : "increased",
+  "evidence" : [ "Zrt1 in yeast cells increased high affinity uptake of  65 Zn" ],
+  "pmc_id" : "3530793",
+  "score" : 0
+}

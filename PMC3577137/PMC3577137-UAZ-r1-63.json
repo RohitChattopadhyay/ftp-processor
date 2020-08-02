@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29381",
+      "entity_text" : "SHP-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conversely, transient expression of SHP-1 inhibits tumor cell growth via downregulation of Jak1 and Tyk2.",
+  "reading_complete" : "2020-08-02T11:33:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:32:47Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "SHP-1 inhibits tumor cell growth" ],
+  "pmc_id" : "3577137",
+  "score" : 0
+}

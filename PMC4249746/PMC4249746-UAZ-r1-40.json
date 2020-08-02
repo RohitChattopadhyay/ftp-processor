@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38936",
+      "entity_text" : "p21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Borgdorff et al established an important role for the cyclin dependent kinase (CDK) inhibitor, p21 (Waf1 / Cip1), in the growth control of human mammary epithelial cells (HMECs) and analyzed the repertoire of miRNAs that modulate the activity of this tumor suppressor, demonstrating that miR-130b reduced p21 expression and in turn blocked Ras (G12V)-induced senescence.",
+  "reading_complete" : "2020-08-02T09:52:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:50:04Z",
+  "trigger" : "blocked",
+  "evidence" : [ "p21 expression and in turn blocked Ras" ],
+  "pmc_id" : "4249746",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "brush border membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0031526",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Cellular_component" : [ "go:GO:0031526" ],
+      "Organ" : [ "uberon:UBERON:0018543" ],
+      "Species" : [ "taxonomy:9986" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "Dietary cholesterol has to be incorporated into bile salt mixed micelles in the intestinal lumen so that ingested cholesterol can be transported to the brush border membrane and taken up by enterocytes [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "transported",
+  "evidence" : [ "cholesterol can be transported to the brush border membrane" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

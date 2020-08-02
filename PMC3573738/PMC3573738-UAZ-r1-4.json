@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01138",
+      "entity_text" : "NGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0676" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002573" ]
+    }
+  },
+  "verbose_text" : "Results revealed that the expression level of BDNF BDNF gene in the transfected SCs was dramatically decreased as cell passage increased, compared to the untransfected control, while the expression level of NGF was elevated at early passages (4 and 8) and decreased at late passages (12 and 30).",
+  "reading_complete" : "2020-08-02T10:02:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:02:16Z",
+  "trigger" : "level",
+  "evidence" : [ "level of NGF" ],
+  "pmc_id" : "3573738",
+  "score" : 0
+}

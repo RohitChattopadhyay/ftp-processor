@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytosol",
+    "from_location_text" : "mitochondria",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005739",
+    "to_location_id" : "go:GO:0005829",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0532" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "After the mitochondrial membrane is permeabilized, cytochrome c translocates from the mitochondria to the cytosol, which is detected as a marker of cell apoptosis.",
+  "reading_complete" : "2020-08-02T17:58:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:50:32Z",
+  "trigger" : "translocates",
+  "evidence" : [ "cytochrome c translocates from the mitochondria to the cytosol" ],
+  "pmc_id" : "6401401",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "from_location_text" : "mitochondria",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005739",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0067" ],
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000062" ]
+    }
+  },
+  "verbose_text" : "Bcl-2 protein forms heterodimer complexes with Bax proteins, leading to the release of cytochrome c from the mitochondria and the induction of apoptosis.",
+  "reading_complete" : "2020-08-02T12:01:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:59:18Z",
+  "trigger" : "release",
+  "evidence" : [ "release of cytochrome c from the mitochondria" ],
+  "pmc_id" : "4501663",
+  "score" : 0
+}

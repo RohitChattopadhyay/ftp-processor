@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF11987",
+      "entity_text" : "translation initiation factor 2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "The serine/threonine protein phosphatase PP1 mediates the dephosphorylation of phosphorylated eukaryotic translation initiation factor 2 subunit alpha (p-eIF2alpha), which is a central regulator of protein synthesis.",
+  "reading_complete" : "2020-08-02T11:46:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:45:02Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated eukaryotic translation initiation factor 2" ],
+  "pmc_id" : "3926518",
+  "score" : 0
+}

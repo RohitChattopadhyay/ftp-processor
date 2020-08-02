@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15198",
+      "entity_text" : "dexamethasone-induced",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HBA0",
+      "entity_text" : "TRPV4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, FS upregulated the mRNA expression levels of adenosine A1R and TRPV4 (involved in muscle growth) in a dose dependent manner when compared with the dexamethasone controls (XREF_TABLE), again providing direct evidence that FS increased muscle growth and resistance to dexamethasone induced catabolic muscle atrophy to a similar extent as oxymetholone.",
+  "reading_complete" : "2020-08-02T10:32:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:30:34Z",
+  "trigger" : "increased",
+  "evidence" : [ "TRPV4 (involved in muscle growth) in a dose-dependent manner when compared with the dexamethasone controls ( XREF_TABLE ), again providing direct evidence that FS increased muscle growth and resistance to dexamethasone-induced" ],
+  "pmc_id" : "4494578",
+  "score" : 0
+}

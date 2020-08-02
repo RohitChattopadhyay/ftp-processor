@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49747",
+      "entity_text" : "COMP",
+      "features" : [ {
+        "to_base" : "Asp",
+        "site" : 469,
+        "feature_type" : "mutation",
+        "evidence" : "Asp469del"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0138" ]
+    }
+  },
+  "verbose_text" : "Subsequently, Posey et al hypothesised that the overexpression of Asp469del COMP would best recapitulate the PSACH disease phenotype in a mouse model and therefore used the inducible overexpression of mutant Comp that was driven from the Col2a1 promoter.",
+  "reading_complete" : "2020-08-02T11:32:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:38Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of mutant Comp" ],
+  "pmc_id" : "4432922",
+  "score" : 0
+}

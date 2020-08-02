@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:43672",
+      "entity_text" : "piperacillin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It is believed that piperacillin causes proliferation arrest of the myeloid cells.",
+  "reading_complete" : "2020-08-02T17:59:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:58:02Z",
+  "trigger" : "causes",
+  "evidence" : [ "piperacillin causes proliferation" ],
+  "pmc_id" : "3318871",
+  "score" : 0
+}

@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445063",
+      "entity_text" : "sialic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46084",
+      "entity_text" : "HA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0221" ],
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:11309" ]
+    }
+  },
+  "verbose_text" : "HA1 binds to sialic acid containing receptors on the cell surface, bringing about the attachment of the virus particle to the cell and this attachment induces virus internalization (Chiu et al., 2009).",
+  "reading_complete" : "2020-08-02T16:59:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:58:45Z",
+  "trigger" : "binds",
+  "evidence" : [ "HA1 binds to sialic acid" ],
+  "pmc_id" : "5309454",
+  "score" : 0
+}

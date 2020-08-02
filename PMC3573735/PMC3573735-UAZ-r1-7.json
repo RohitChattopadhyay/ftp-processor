@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19419",
+      "entity_text" : "Elk-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PDGF_BB",
+      "entity_text" : "PDGF-BB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It has also been reported that PDGF-BB induces the phosphorylation of Elk-1 through ERK1/2, and that phosphorylated Elk-1 competes with SRF for binding to CArG elements within the promoters of SMC marker genes, such as SM22alpha and SMA.",
+  "reading_complete" : "2020-08-02T12:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:52:02Z",
+  "trigger" : "induces",
+  "evidence" : [ "PDGF-BB induces the phosphorylation of Elk-1" ],
+  "pmc_id" : "3573735",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The expression levels of Nrf2 dependent genes were increased by 3.4-fold for NQO1, 2.8-fold for HO-1 and by 3.1-fold for GCLC when the cells were treated with 100 mug/ml of GT.",
+  "reading_complete" : "2020-08-02T16:05:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:04:02Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Nrf2" ],
+  "pmc_id" : "4380198",
+  "score" : 0
+}

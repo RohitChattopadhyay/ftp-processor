@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q0WPU1",
+      "entity_text" : "XII",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49747",
+      "entity_text" : "Comp",
+      "features" : [ {
+        "to_base" : "T",
+        "site" : 585,
+        "feature_type" : "mutation",
+        "evidence" : "T585M"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Other changes in the extractability of FACIT collagens were observed in Matn3 V194D (i.e., the decreased extraction of collagen types XII and XIV), Comp D469del (decrease in types IX and XIV) and Comp T585M (decrease in types IX and XII, but increase in type XIV) cartilage, which further implied disruption to ECM organization as a consequence of Comp and Matn3 mutations that correlated with the observations of altered ECM morphology detected by electron microscopy (XREF_FIG).",
+  "reading_complete" : "2020-08-02T11:32:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:38Z",
+  "trigger" : "decrease",
+  "evidence" : [ "Comp T585M  (decrease in types IX and XII" ],
+  "pmc_id" : "4432922",
+  "score" : 0
+}

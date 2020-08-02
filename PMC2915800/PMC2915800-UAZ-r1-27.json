@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04054",
+      "entity_text" : "PLA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9986" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "It is possible that intestinal phospholipase A 2 and phospholipase B may supplement pancreatic phospholipase A 2 and carboxyl ester lipase in the digestion of phospholipids, and therefore higher levels of PLA2 and PLB mRNA may increase cholesterol absorption in high responders.",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PLA2" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

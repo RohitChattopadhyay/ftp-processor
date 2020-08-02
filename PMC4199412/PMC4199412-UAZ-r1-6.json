@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04445",
+      "entity_text" : "small GTPase protein",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61586",
+      "entity_text" : "RhoA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "CellType" : [ "cl:CL:0000632" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The RhoA / Rho-kinase pathway is activated by the binding of a vasoconstrictor to membrane bound RhoA, a small GTPase protein on the cell surface.",
+  "reading_complete" : "2020-08-02T15:26:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:25:22Z",
+  "trigger" : "bound",
+  "evidence" : [ "bound RhoA, a small GTPase protein" ],
+  "pmc_id" : "4199412",
+  "score" : 0
+}

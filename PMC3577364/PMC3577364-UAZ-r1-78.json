@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr172",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The phosphorylation of the AMPK alpha-subunit (Thr172) by TGF-beta reached its maximum at 2 min, and decreased thereafter.",
+  "reading_complete" : "2020-08-02T14:58:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:57:26Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the AMPK alpha-subunit (Thr172) by TGF-beta" ],
+  "pmc_id" : "3577364",
+  "score" : 0
+}

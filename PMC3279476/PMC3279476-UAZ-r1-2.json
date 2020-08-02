@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:3010752" ]
+    }
+  },
+  "verbose_text" : "Recently, numerous studies showed that a lower serum albumin level obtained on admission could be used as an independent risk of in-hospital death among patients with active TB [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-02T18:11:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:08:44Z",
+  "trigger" : "level",
+  "evidence" : [ "serum albumin level" ],
+  "pmc_id" : "3279476",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5991",
+      "entity_text" : "estrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The number of uterine NK cells increase by the elevation of plasma estrogen levels during pregnancy.",
+  "reading_complete" : "2020-08-02T14:04:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:02:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "estrogen levels" ],
+  "pmc_id" : "4432927",
+  "score" : 0
+}

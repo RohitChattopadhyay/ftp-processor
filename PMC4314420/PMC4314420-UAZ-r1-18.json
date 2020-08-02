@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytosol",
+    "from_location_text" : "mitochondrion",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005739",
+    "to_location_id" : "go:GO:0005829",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG, treatment with Adpa-Mn disrupted the mitochondrial trans-membrane potential and with the collapse of the mitochondrial transmembrane potential, the release of cytochrome c from the mitochondrion to the cytosol was greatly increased in a dose dependent manner (XREF_FIG).",
+  "reading_complete" : "2020-08-02T15:04:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:02:18Z",
+  "trigger" : "release",
+  "evidence" : [ "release of cytochrome c from the mitochondrion to the cytosol" ],
+  "pmc_id" : "4314420",
+  "score" : 0
+}

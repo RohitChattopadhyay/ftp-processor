@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0012352" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000650" ]
+    }
+  },
+  "verbose_text" : "Higher levels of AII result in many adverse renal effects which include proliferation of mesangial cells and increase in mesangial matrix, expression of TGFbeta and platelet derived growth factor.",
+  "reading_complete" : "2020-08-02T16:21:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:17:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of AII result" ],
+  "pmc_id" : "4039095",
+  "score" : 0
+}

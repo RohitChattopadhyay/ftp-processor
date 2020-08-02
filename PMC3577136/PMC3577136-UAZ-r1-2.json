@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TD31",
+      "entity_text" : "CCHCR1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of the CCHCR1 gene could stimulate the proliferation of cervical carcinoma cells at the early stages of neoplasia.",
+  "reading_complete" : "2020-08-02T10:39:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:38:42Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "CCHCR1 gene could stimulate the proliferation" ],
+  "pmc_id" : "3577136",
+  "score" : 0
+}

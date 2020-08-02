@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05164",
+      "entity_text" : "MPO",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0427" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "The level of MPO activity is an indicator of neutrophil infiltration.",
+  "reading_complete" : "2020-08-02T14:54:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:53:24Z",
+  "trigger" : "level",
+  "evidence" : [ "level of MPO" ],
+  "pmc_id" : "3573750",
+  "score" : 0
+}

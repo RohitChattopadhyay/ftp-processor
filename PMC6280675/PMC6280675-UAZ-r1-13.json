@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41386",
+      "entity_text" : "beta-tubulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The formation of MTs reflects the balance between polymerization and de-polymerization of alpha / beta-tubulin heterodimers.",
+  "reading_complete" : "2020-08-02T18:07:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:04:11Z",
+  "trigger" : "heterodimers",
+  "evidence" : [ "alpha/beta-tubulin heterodimers" ],
+  "pmc_id" : "6280675",
+  "score" : 0
+}

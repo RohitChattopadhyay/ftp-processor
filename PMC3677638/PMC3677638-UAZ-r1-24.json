@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35557",
+      "entity_text" : "glucokinase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14397",
+      "entity_text" : "glucokinase regulatory protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0741" ]
+    }
+  },
+  "verbose_text" : "Genetic morphism in the glucokinase regulatory protein, which binds to glucokinase and inhibits its activity in the presence of fructose-6-phosphate (F6P) is associated with ethnicity and may be responsible for different response rates to obesity and diabetes in different populations [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:19:19Z",
+  "trigger" : "binds",
+  "evidence" : [ "glucokinase regulatory protein, which binds to glucokinase" ],
+  "pmc_id" : "3677638",
+  "score" : 0
+}

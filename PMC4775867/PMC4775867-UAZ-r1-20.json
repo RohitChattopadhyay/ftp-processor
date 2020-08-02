@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine residues",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0320" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "In the presence of Src kinase activity, phosphorylation of the Src consensus substrate at tyrosine residues (Tyr 662 and 664) would result in its intra-molecular interaction with the docking pocket of the SH2 domain, thus sterically preventing reconstitution of a functional luciferase.",
+  "reading_complete" : "2020-08-02T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:12:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the Src consensus substrate at tyrosine residues" ],
+  "pmc_id" : "4775867",
+  "score" : 0
+}

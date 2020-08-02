@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hyperglycemia, hyperinsulinemia, hypertriglyceridemia, and high serum-free fatty acid levels are all characteristics of the prolonged diabetes mellitus.",
+  "reading_complete" : "2020-08-02T09:39:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:33:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "acid levels" ],
+  "pmc_id" : "3477773",
+  "score" : 0
+}

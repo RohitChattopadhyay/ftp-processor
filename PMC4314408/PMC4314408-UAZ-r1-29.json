@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17096",
+      "entity_text" : "HMGA1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXF1",
+      "entity_text" : "p-Sp1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It was found that TGF-beta1 markedly increased the binding affinity of Sp1 to the HMGA1 promoter and the p-Sp1 binding to the HMGA1 promoter was also increased in response to TGF-beta1 in the MCF-7 cells (XREF_FIG).",
+  "reading_complete" : "2020-08-02T10:13:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:12:09Z",
+  "trigger" : "binding",
+  "evidence" : [ "p-Sp1 binding to the HMGA1" ],
+  "pmc_id" : "4314408",
+  "score" : 0
+}

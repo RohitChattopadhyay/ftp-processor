@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00855",
+      "entity_text" : "IkappaB proteins",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Following stimulation with cytokine, the IkappaB proteins are phosphorylated and degraded, which allows NF-kappaB to translocate into the nucleus and initiates gene transcription.",
+  "reading_complete" : "2020-08-02T09:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:12Z",
+  "trigger" : "allows",
+  "evidence" : [ "IkappaB proteins are phosphorylated and degraded, which allows NF-kappaB" ],
+  "pmc_id" : "4121355",
+  "score" : 0
+}

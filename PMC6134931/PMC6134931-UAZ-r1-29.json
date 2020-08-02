@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21673",
+      "entity_text" : "SAT1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In regard to chemoresistance, we found that aberrant expression or induced stimulation of SAT1 restored cisplatin sensitivity in the cell culture system.",
+  "reading_complete" : "2020-08-02T18:25:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T18:24:36Z",
+  "trigger" : "restored",
+  "evidence" : [ "SAT1 restored cisplatin" ],
+  "pmc_id" : "6134931",
+  "score" : 0
+}

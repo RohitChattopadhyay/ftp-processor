@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35610",
+      "entity_text" : "STAT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "After the cytokine receptor binds with corresponding aglucon, it can be activated to cause phosphorylation of the STAT molecule in the cytoplasm.",
+  "reading_complete" : "2020-08-02T09:55:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:52:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the STAT" ],
+  "pmc_id" : "3658604",
+  "score" : 0
+}

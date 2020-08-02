@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04810",
+      "entity_text" : "G-2 genes",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04816",
+      "entity_text" : "SHR-specific G-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "Organ" : [ "uberon:UBERON:0001009" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In order to identify further interactions between SHR specific G-1 and G-2 genes, we applied the IPA path explorer tool, suggested the presence of one gene that assisted in these interactions, and found such a condition when we proposed the Jun proto-oncogene (Jun), which interacts directly with specific target DNA sequences to regulate gene expression.",
+  "reading_complete" : "2020-08-02T16:15:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:12:03Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between SHR-specific G-1 and G-2 genes" ],
+  "pmc_id" : "4533772",
+  "score" : 0
+}

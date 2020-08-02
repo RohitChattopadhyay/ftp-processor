@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19835",
+      "entity_text" : "carboxyl ester lipase",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Cellular_component" : [ "go:GO:0031526" ],
+      "Organ" : [ "uberon:UBERON:0018543" ],
+      "Species" : [ "taxonomy:9986" ],
+      "CellType" : [ "cl:CL:0000584" ]
+    }
+  },
+  "verbose_text" : "It has been shown that hydrolysis of phosphatidylcholine by phospholipase A 2 and carboxyl ester lipase releases cholesterol from the bile salt micelles and facilitates the uptake of cholesterol by intestinal cells [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:46:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:34Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of phosphatidylcholine by phospholipase A 2  and carboxyl ester lipase" ],
+  "pmc_id" : "2915800",
+  "score" : 0
+}

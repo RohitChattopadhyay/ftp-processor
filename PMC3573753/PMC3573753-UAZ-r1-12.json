@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "Phosphorylated ERK1/2 protein expression was increased in HSCs isolated from MCD fed OLETF rats.",
+  "reading_complete" : "2020-08-02T15:39:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:38:33Z",
+  "trigger" : "expression",
+  "evidence" : [ "ERK1/2 protein expression" ],
+  "pmc_id" : "3573753",
+  "score" : 0
+}

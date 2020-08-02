@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Death_receptor",
+      "entity_text" : "death receptors",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Other factors, particularly TGF-beta, do not bind the death receptors, but its intracellular signals couple to the apoptotic machinery through activation of the intrinsic pathway.",
+  "reading_complete" : "2020-08-02T13:04:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:03:53Z",
+  "trigger" : "bind",
+  "evidence" : [ "TGF-beta, do not bind the death receptors" ],
+  "pmc_id" : "4055346",
+  "score" : 0
+}

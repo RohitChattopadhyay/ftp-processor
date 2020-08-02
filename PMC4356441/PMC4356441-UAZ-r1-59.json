@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "alpha-asarone has been shown to inhibit HMG-CoA reductase, lower serum LDL cholesterol levels and to reduce the biliary cholesterol saturation index in hypercholesterolemic rats.",
+  "reading_complete" : "2020-08-02T10:19:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:18:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "4356441",
+  "score" : 0
+}

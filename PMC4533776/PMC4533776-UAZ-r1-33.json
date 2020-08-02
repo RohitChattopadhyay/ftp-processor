@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12923",
+      "entity_text" : "PTPL1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0585" ],
+      "CellLine" : [ "cellosaurus:CVCL_0002" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000546" ]
+    }
+  },
+  "verbose_text" : "By contrast, the relative increase of PTPL1 level in tumor tissues supports the role in tumor promotion.",
+  "reading_complete" : "2020-08-02T09:50:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:10Z",
+  "trigger" : "level",
+  "evidence" : [ "PTPL1 level" ],
+  "pmc_id" : "4533776",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19525",
+      "entity_text" : "PKR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000891" ]
+    }
+  },
+  "verbose_text" : "Upon oxLDL stimulation, P2X7R upregulation modulates NLRP3 inflammasome activation by enhancing PKR phosphorylation, which promotes the production of mature IL-1beta by macrophages.",
+  "reading_complete" : "2020-08-02T15:38:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:37:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PKR phosphorylation" ],
+  "pmc_id" : "4380202",
+  "score" : 0
+}

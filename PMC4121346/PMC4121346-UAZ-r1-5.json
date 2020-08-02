@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:783",
+      "entity_text" : "proton",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0062" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The loss of OH proton is indicated by the absence of bands at ~ 3,500 cm -1 in the complexes C1-C6.",
+  "reading_complete" : "2020-08-02T14:06:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:05:12Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of OH proton" ],
+  "pmc_id" : "4121346",
+  "score" : 0
+}

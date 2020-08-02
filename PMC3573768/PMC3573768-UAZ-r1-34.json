@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr34",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "survivin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As a mitotic substrate of Cdc2 / cyclin B1, survivin can be phosphorylated on Thr34 on the mitotic apparatus, which contributes to the regulation of cell division through an interaction with caspase-9.",
+  "reading_complete" : "2020-08-02T13:25:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:24:49Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "survivin can be phosphorylated on Thr34" ],
+  "pmc_id" : "3573768",
+  "score" : 0
+}

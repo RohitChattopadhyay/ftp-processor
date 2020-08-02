@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "CellType" : [ "cl:CL:0002372" ]
+    }
+  },
+  "verbose_text" : "We also found that AMPK phosphorylation, which is elevated in response to metabolic stress [XREF_BIBR], was also increased by leucine in C2C12 myotubes.",
+  "reading_complete" : "2020-08-02T09:18:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:11:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "AMPK phosphorylation" ],
+  "pmc_id" : "4220583",
+  "score" : 0
+}

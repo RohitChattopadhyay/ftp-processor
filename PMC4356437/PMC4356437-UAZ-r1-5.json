@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:148192",
+      "entity_text" : "ATZ",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Previous studies on mammalian cells have also reported that, for some reason, ATZ does not activate UPR; instead, ATZ expression activates NF-kappaB signaling via ER overload response (EOR) and ERK signaling.",
+  "reading_complete" : "2020-08-02T15:47:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:47:17Z",
+  "trigger" : "activates",
+  "evidence" : [ "ATZ expression activates NF-kappaB" ],
+  "pmc_id" : "4356437",
+  "score" : 0
+}

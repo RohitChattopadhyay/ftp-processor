@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E744" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "Our data indicate that the number of CD4 + cells decreased, but the levels of TNF-alpha, IL-1beta and IL-6, as well as those of Th1 and Th2 cytokines such as IL-2, IFN-gamma and IL-4, were elevated in the Ad.HGF-treated group.",
+  "reading_complete" : "2020-08-02T12:11:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:09:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha, IL-1beta and IL-6" ],
+  "pmc_id" : "4020479",
+  "score" : 0
+}

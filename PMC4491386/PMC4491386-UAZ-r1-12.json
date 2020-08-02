@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Protein expression of IL-6 and TNFalpha were normalized to beta-actin to determine the level of IL-6 (n = 5 chow and 6 HFD animals) or TNFalpha (n = 8/group) in each kidney sample.",
+  "reading_complete" : "2020-08-02T10:49:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:40:29Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IL-6" ],
+  "pmc_id" : "4491386",
+  "score" : 0
+}

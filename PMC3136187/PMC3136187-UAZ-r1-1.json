@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:928",
+      "entity_text" : "NADH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The amount of NADH produced during a 5 min incubation time was read on a Varian Cary Eclipse fluorometer with an excitation wavelength of 340 nm and emission wavelength of 450 nm (Varian, Inc., Palo Alto, Calif, USA) and corresponded to SDH activity in the sample.",
+  "reading_complete" : "2020-08-02T11:33:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:25:50Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of NADH" ],
+  "pmc_id" : "3136187",
+  "score" : 0
+}

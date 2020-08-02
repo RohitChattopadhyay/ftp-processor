@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04626",
+      "entity_text" : "neu",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0002488" ]
+    }
+  },
+  "verbose_text" : "This sensitivity is comparable to the typical expression levels of HER2 / neu receptor in patient samples, in which levels can range from 10 5 to 4.5 x 10 6 per cell.",
+  "reading_complete" : "2020-08-02T17:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:36:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of HER2/neu" ],
+  "pmc_id" : "3263514",
+  "score" : 0
+}

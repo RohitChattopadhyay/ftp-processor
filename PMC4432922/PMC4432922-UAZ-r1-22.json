@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49747",
+      "entity_text" : "COMP",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Nevertheless, despite the differences of the two transgenic approaches, both mutant mouse lines demonstrated hallmark features of PSACH, which included mutant COMP retention, increased and dysregulated apoptosis with corresponding areas of hypocellularity.",
+  "reading_complete" : "2020-08-02T11:32:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:29:38Z",
+  "trigger" : "increased",
+  "evidence" : [ "COMP retention, increased and dysregulated apoptosis" ],
+  "pmc_id" : "4432922",
+  "score" : 0
+}

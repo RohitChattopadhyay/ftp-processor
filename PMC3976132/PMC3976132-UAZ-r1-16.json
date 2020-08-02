@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11137",
+      "entity_text" : "MAP2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99PF5",
+      "entity_text" : "MARTA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-1158" ],
+      "Cellular_component" : [ "go:GO:0030425" ]
+    }
+  },
+  "verbose_text" : "The homologue of ZBP2 in rat is the MAP2-RNA trans-acting protein (MARTA1), which binds the 3 '-UTR of MAP2 mRNA, a dendritically localized neuronal transcript.",
+  "reading_complete" : "2020-08-02T16:49:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:44:28Z",
+  "trigger" : "binds",
+  "evidence" : [ "MARTA1), which binds the 3'-UTR of MAP2" ],
+  "pmc_id" : "3976132",
+  "score" : 0
+}

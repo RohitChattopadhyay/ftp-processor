@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833565",
+      "entity_text" : "heparin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01326",
+      "entity_text" : "FGFRs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The site is necessary for the stable binding of FGFRs / heparin like molecules and local signaling in a paracrine manner.",
+  "reading_complete" : "2020-08-02T10:17:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:13:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of FGFRs/heparin" ],
+  "pmc_id" : "3038562",
+  "score" : 0
+}

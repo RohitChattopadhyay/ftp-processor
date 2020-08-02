@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Another study reported that the inhibition of the phosphorylation of ERK1/2 attenuates the polymerization of F-actin induced by LPS.",
+  "reading_complete" : "2020-08-02T15:43:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:42:30Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK1/2" ],
+  "pmc_id" : "3782553",
+  "score" : 0
+}

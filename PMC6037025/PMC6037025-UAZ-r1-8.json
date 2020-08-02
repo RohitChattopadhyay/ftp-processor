@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14654",
+      "entity_text" : "IRS4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07581",
+      "entity_text" : "CK1gamma2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Using Scansite, which has been widely used to identify the short protein linear motifs that are likely to be phosphorylated by kinases, we found that Akt, Erk, GSK3beta, CK1gamma2, CK2B, CDC2, CDK5 and GSK3alpha are the protein kinases that can potentially phosphorylate IRS4.",
+  "reading_complete" : "2020-08-02T17:18:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:08Z",
+  "evidence" : [ "CK1gamma2, CK2B, CDC2, CDK5 and GSK3alpha are the protein kinases that can potentially phosphorylate IRS4" ],
+  "pmc_id" : "6037025",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Reports additionally indicate that the activation of p38 reduces insulin responsiveness [XREF_BIBR], so the exact mechanism by which the MAPK pathway is involved in glucose metabolism still remains controversial.",
+  "reading_complete" : "2020-08-02T13:40:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:36:33Z",
+  "trigger" : "reduces",
+  "evidence" : [ "p38 reduces insulin" ],
+  "pmc_id" : "3317196",
+  "score" : 0
+}

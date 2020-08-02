@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "iNOS may lead to the production of large amounts of NO for a sustained period of time, but the excessive amounts of NO are sufficiently cytotoxic, inducing the apoptosis of cardiomyocytes and impairing cardiac contractile function, which has been demonstrated in patients with CHF and animal models.",
+  "reading_complete" : "2020-08-02T12:23:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:21:56Z",
+  "trigger" : "inducing",
+  "evidence" : [ "NO are sufficiently cytotoxic, inducing the apoptosis" ],
+  "pmc_id" : "4199399",
+  "score" : 0
+}

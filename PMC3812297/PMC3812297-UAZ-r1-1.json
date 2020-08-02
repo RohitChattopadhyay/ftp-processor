@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "insulin receptor substrate 1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01019",
+      "entity_text" : "Ang II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mechanistically, Ang II, by AT1R, impairs the phosphorylation of insulin receptor substrate 1 (IRS-1) by alternative phosphorylation on a serine, instead of a tyrosine residue, thereby decreasing phosphatidylinositol 3-kinase (PI3K) activity and enhancing mitogen activated protein kinase (MAPK) pathways.",
+  "reading_complete" : "2020-08-02T14:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:29:17Z",
+  "trigger" : "impairs",
+  "evidence" : [ "Ang II, by AT1R, impairs the phosphorylation of insulin receptor substrate 1" ],
+  "pmc_id" : "3812297",
+  "score" : 0
+}

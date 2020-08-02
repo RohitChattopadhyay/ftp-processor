@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01392",
+      "entity_text" : "L esters",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "(Following ingestion, the L esters are hydrolyzed prior to reaching the circulation.",
+  "reading_complete" : "2020-08-02T10:20:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:17:37Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "L esters are hydrolyzed" ],
+  "pmc_id" : "5852865",
+  "score" : 0
+}

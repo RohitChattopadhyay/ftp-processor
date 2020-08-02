@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14210",
+      "entity_text" : "HGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "HGF is upregulated in inflamed colonic mucosal tissue in patients with CD or UC, and plasma HGF levels are elevated in animal models of acute colitis.",
+  "reading_complete" : "2020-08-02T12:11:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:09:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "HGF levels" ],
+  "pmc_id" : "4020479",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "T286",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "cyclin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GSK3beta phosphorylates cyclin D1 at T286, which directs its proteolytic degradation.",
+  "reading_complete" : "2020-08-02T12:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:52:02Z",
+  "evidence" : [ "GSK3beta phosphorylates cyclin D1 at T286" ],
+  "pmc_id" : "3573735",
+  "score" : 0
+}

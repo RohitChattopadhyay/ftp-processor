@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55916",
+      "entity_text" : "UCP3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86YN6",
+      "entity_text" : "PGC-1beta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Meanwhile, decreased expression of PGC-1beta appears to : a) upregulate UCP3, leading to uncoupling and reduced ATP synthesis rate; and b) alter immuno-inflammatory gene expression in skeletal muscle [in cachexia XREF_FIG; in experimental burn injury].",
+  "reading_complete" : "2020-08-02T13:27:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:25:35Z",
+  "trigger" : "upregulate",
+  "evidence" : [ "PGC-1beta appears to: a) upregulate UCP3" ],
+  "pmc_id" : "3712618",
+  "score" : 0
+}

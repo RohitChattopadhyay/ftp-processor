@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In addition, it was confirmed that the active pharmaceutical ingredient release of the DSPE-PEG 1k -Pt (IV) prodrug was sensitive to GSH levels and US stimulation.",
+  "reading_complete" : "2020-08-02T17:58:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:50:32Z",
+  "trigger" : "levels",
+  "evidence" : [ "GSH levels" ],
+  "pmc_id" : "6401401",
+  "score" : 0
+}

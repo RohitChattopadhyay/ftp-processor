@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0005604" ],
+      "Organ" : [ "uberon:UBERON:0000486" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000216" ]
+    }
+  },
+  "verbose_text" : "The mean testosterone levels of rats in group C were lower (P < 0.05) than that of group D between day 56 and end of the experiment (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:58:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:58:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "5309462",
+  "score" : 0
+}

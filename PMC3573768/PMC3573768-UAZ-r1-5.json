@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "pRb",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q4R1J6",
+      "entity_text" : "survivin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Interestingly, a recent research report indicated that overexpression of survivin in the nucleus could increase control over the G1/S checkpoint by increasing the nuclear accumulation of cyclin D1 and CDK4, following pRb phosphorylation, which enhanced viral protein expression and viral replication.",
+  "reading_complete" : "2020-08-02T13:25:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:24:49Z",
+  "trigger" : "increase",
+  "evidence" : [ "survivin in the nucleus could increase control over the G1/S checkpoint by increasing the nuclear accumulation of cyclin D1 and CDK4, following pRb phosphorylation" ],
+  "pmc_id" : "3573768",
+  "score" : 0
+}

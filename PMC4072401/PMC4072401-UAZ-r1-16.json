@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75473",
+      "entity_text" : "LGR5",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Downregulation of LGR5 expression suppresses invasion and increases the chemosensitivity of HT29 spheroid cells.",
+  "reading_complete" : "2020-08-02T15:13:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:12:45Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "LGR5 expression suppresses invasion" ],
+  "pmc_id" : "4072401",
+  "score" : 0
+}

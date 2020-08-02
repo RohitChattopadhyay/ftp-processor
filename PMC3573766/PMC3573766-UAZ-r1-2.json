@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04788",
+      "entity_text" : "miR-1187",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Taken together, we speculate that overexpression of miR-1187 suppresses caspase-8, then down-regulates downstream genes including caspase-3, caspase-7 and caspase-9, consequently attenuating the apoptosis of hepatocytes.",
+  "reading_complete" : "2020-08-02T16:09:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:09:15Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "miR-1187 suppresses caspase-8, then down-regulates downstream genes including caspase-3, caspase-7 and caspase-9, consequently attenuating the apoptosis" ],
+  "pmc_id" : "3573766",
+  "score" : 0
+}

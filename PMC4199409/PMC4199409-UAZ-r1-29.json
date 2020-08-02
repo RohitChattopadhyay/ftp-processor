@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC2",
+      "entity_text" : "mTORC2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC1",
+      "entity_text" : "mTORC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0019" ],
+      "Species" : [ "taxonomy:12814" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "We hypothesised that DEPTOR is an integral modulator of both the mTORC1 and mTORC2 complexes, and the presence or degree of binding to the complexes may determine at which point mTOR will be inhibited / activated, thus leading to a neuroprotective or neurotoxic effect.",
+  "reading_complete" : "2020-08-02T14:38:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:37:43Z",
+  "trigger" : "complexes",
+  "evidence" : [ "mTORC1 and mTORC2 complexes" ],
+  "pmc_id" : "4199409",
+  "score" : 0
+}
