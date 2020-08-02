@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60709",
+      "entity_text" : "Actb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0150" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Western blot analyses revealed that the expression levels of Dpysl2 and neurofilament proteins in the prefrontal cortex were significantly lower in the rats exposed to PNS than in the control rats (all P-values < 0.05; XREF_FIG and XREF_FIG), whereas the expression levels of of Actb in the prefrontal cortex were similar in all groups.",
+  "reading_complete" : "2020-08-02T11:14:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:14:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of of Actb" ],
+  "pmc_id" : "4249748",
+  "score" : 0
+}

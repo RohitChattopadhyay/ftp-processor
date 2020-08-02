@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35226",
+      "entity_text" : "BMI1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In agreement with our results, the increased expression level of BMI1 has been shown to promote the proliferation of ovarian cancer cells.",
+  "reading_complete" : "2020-08-02T11:12:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:11:13Z",
+  "trigger" : "promote",
+  "evidence" : [ "BMI1 has been shown to promote the proliferation" ],
+  "pmc_id" : "4494586",
+  "score" : 0
+}

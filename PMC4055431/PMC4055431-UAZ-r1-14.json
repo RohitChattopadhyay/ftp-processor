@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H668",
+      "entity_text" : "STN1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q2NKJ3",
+      "entity_text" : "CTC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4896" ],
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ]
+    }
+  },
+  "verbose_text" : "In addition, CTC1 binds to the telomeric single stranded DNA (ssDNA) in a sequence independent manner together with STN1 and TEN1.",
+  "reading_complete" : "2020-08-02T11:16:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T11:16:00Z",
+  "trigger" : "binds",
+  "evidence" : [ "CTC1 binds to the telomeric single-stranded DNA (ssDNA) in a sequence-independent manner together with STN1" ],
+  "pmc_id" : "4055431",
+  "score" : 0
+}
