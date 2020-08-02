@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7022320",
+      "entity_text" : "kg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0980" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Reduction in body weight was progressive, resulting in an average weight loss of 4.4 +/- 0.3 kg at week 82 [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:40:59Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 4.4 +/- 0.3 kg" ],
+  "pmc_id" : "3147122",
+  "score" : 0
+}

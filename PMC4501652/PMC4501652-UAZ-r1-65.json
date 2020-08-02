@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5743",
+      "entity_text" : "dexamethasone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "A previous study proposed that the proliferation of ANX A1 +/+ cells were inhibited by dexamethasone in a concentration dependent manner (0.01-1 muM), whereas the ANX A1 -/- cells were not significantly affected at these dexamethasone concentrations.",
+  "reading_complete" : "2020-08-02T12:59:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:58:02Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "proliferation of ANX A1 +/+  cells were inhibited by dexamethasone" ],
+  "pmc_id" : "4501652",
+  "score" : 0
+}

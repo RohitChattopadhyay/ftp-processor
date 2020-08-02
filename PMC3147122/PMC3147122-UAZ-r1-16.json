@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While cortisol increases leptin production in a dose dependent manner [XREF_BIBR], the regulation of leptin by glucocorticoids is not absolute [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:40:59Z",
+  "trigger" : "increases",
+  "evidence" : [ "cortisol increases leptin" ],
+  "pmc_id" : "3147122",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Williams et al. [XREF_BIBR] observed that insulin levels only rose significantly in resistance trained men after ingestion of a carbohydrate protein supplement compared to when the same subjects ingested a placebo following bouts of resistance exercise using a load equal to each subject 's 10-RM [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T13:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:40:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "3147122",
+  "score" : 0
+}

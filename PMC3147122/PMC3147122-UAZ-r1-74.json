@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Serum insulin levels are most sensitive to changes in blood glucose concentrations.",
+  "reading_complete" : "2020-08-02T13:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:40:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "3147122",
+  "score" : 0
+}
