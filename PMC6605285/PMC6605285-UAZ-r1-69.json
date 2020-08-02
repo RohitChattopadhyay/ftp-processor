@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8N138",
+      "entity_text" : "ORMDL3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellLine" : [ "cellosaurus:CVCL_0112" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To investigate whether SPHK1 is involved in ORMDL3 induced airway barrier dysfunction, ORMDL3 overexpressing cells were treated with DMS, which resulted in decreased ORMDL3 levels in these cells, although not reaching the normal levels.",
+  "reading_complete" : "2020-08-02T13:45:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:44:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "ORMDL3 levels" ],
+  "pmc_id" : "6605285",
+  "score" : 0
+}

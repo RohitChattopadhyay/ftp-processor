@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992350",
+      "entity_text" : "MF",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To examine whether TGF-beta1 was activated in AAC induced MF, the expression levels of TGF-beta1 were assessed by western blot analysis.",
+  "reading_complete" : "2020-08-02T13:44:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:43:08Z",
+  "trigger" : "induced",
+  "evidence" : [ "induced MF, the expression levels of TGF-beta1" ],
+  "pmc_id" : "6089778",
+  "score" : 0
+}

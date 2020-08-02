@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01816",
+      "entity_text" : "TEER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8N138",
+      "entity_text" : "ORMDL3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The results suggested that ORMDL3 overexpression significantly increased TEER, decreased permeability, downregulated Claudin-18 at the mRNA and protein levels, and altered E-cadherin distribution in 16HBE cells, while si-RNA-mediated ORMDL3 silencing had opposite effects.",
+  "reading_complete" : "2020-08-02T13:45:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:44:07Z",
+  "trigger" : "increased",
+  "evidence" : [ "ORMDL3 overexpression significantly increased TEER" ],
+  "pmc_id" : "6605285",
+  "score" : 0
+}

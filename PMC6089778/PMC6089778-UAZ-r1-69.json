@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00206",
+      "entity_text" : "TLR4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Taken together, the present study demonstrated that EPO may have a critical role against MF by activating PI3K / Akt signaling and by down-regulating TLR4 expression, thereby inhibiting the release of TGF-beta1, TNF-alpha, IL-6, IL-1beta, IL-17A, MMP-9 and MMP-2.",
+  "reading_complete" : "2020-08-02T13:44:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:43:08Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "TLR4 expression, thereby inhibiting the release of TGF-beta1, TNF-alpha" ],
+  "pmc_id" : "6089778",
+  "score" : 0
+}
