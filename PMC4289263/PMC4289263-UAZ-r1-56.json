@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0125" ],
+      "CellType" : [ "cl:CL:0000120" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We found that 84.8% (56/66) of samples, including all the classic MBs and four of the desmoplastic variant samples, showed no detectable or only weak levels of PTEN in tumor cells.",
+  "reading_complete" : "2020-08-02T15:30:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:27:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PTEN" ],
+  "pmc_id" : "4289263",
+  "score" : 0
+}
