@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Considering the experimental result that piceatannol is an ATP-competitive inhibitor of PI3K, we docked the compound to the ATP binding site of PI3K (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:32:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:31:16Z",
+  "trigger" : "inhibitor",
+  "evidence" : [ "result that piceatannol is an ATP-competitive inhibitor of PI3K" ],
+  "pmc_id" : "3812238",
+  "score" : 0
+}

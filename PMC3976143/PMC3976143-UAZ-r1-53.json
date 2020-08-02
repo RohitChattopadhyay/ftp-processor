@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NR96",
+      "entity_text" : "TLR9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In lung tissue, mtDNA increased NF-kappaB, IkappaB-alpha and TLR9 mRNA levels (p < 0.05); it also increased phosphorylated NF-kappaB p65 and TLR9 protein levels in the macrophage cultures.",
+  "reading_complete" : "2020-08-02T16:33:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:32:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "TLR9 mRNA levels" ],
+  "pmc_id" : "3976143",
+  "score" : 0
+}
