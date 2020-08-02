@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2X9",
+      "entity_text" : "KCC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0151" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0001946" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "In the inferior colliculus of gerbils, bilateral cochlear ablation before the onset of hearing also reduces the ability of neurons to transport Cl -, although the levels of NKCC1 and KCC2 mRNA are unchanged.",
+  "reading_complete" : "2020-08-02T09:05:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:02:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NKCC1 and KCC2" ],
+  "pmc_id" : "3062222",
+  "score" : 0
+}
