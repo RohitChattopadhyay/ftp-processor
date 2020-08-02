@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "TP53",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Within the progressors, we assessed the results from Aurora A in association with DNA ploidy status and advancing degrees of dysplasia, as well as with the protein levels of p53 and the TP53 mutation status.",
+  "reading_complete" : "2020-08-02T10:56:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:55:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p53 and the TP53" ],
+  "pmc_id" : "4249752",
+  "score" : 0
+}

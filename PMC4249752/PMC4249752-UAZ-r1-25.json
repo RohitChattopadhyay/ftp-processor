@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0276" ],
+      "Organ" : [ "uberon:UBERON:0000344" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This is consistent with a previous report, demonstrating that Aurora A phosphorylates p53 at Ser315, leading to murine double minute 2 (MDM2)-mediated ubiquitination and degradation of p53.",
+  "reading_complete" : "2020-08-02T10:56:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:55:09Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "MDM2)-mediated ubiquitination" ],
+  "pmc_id" : "4249752",
+  "score" : 0
+}

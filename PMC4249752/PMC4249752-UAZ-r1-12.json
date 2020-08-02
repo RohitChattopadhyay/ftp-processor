@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "Cellular_component" : [ "go:GO:0072686" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If wild-type p53 is assumed to be a negative regulator of the mitotic spindle kinase Aurora A, the loss of functional p53 may have serious implications for regulation of the spindle checkpoint.",
+  "reading_complete" : "2020-08-02T10:56:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:55:09Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of functional p53" ],
+  "pmc_id" : "4249752",
+  "score" : 0
+}

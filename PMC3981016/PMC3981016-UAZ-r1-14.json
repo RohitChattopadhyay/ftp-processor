@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01487",
+      "entity_text" : "adenosine receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6021",
+      "entity_text" : "inosine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "2A" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0002518" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "First, inosine can bind to A 2A adenosine receptors activating several receptor dependent intracellular signaling pathways.",
+  "reading_complete" : "2020-08-02T10:55:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:53:30Z",
+  "trigger" : "bind",
+  "evidence" : [ "inosine can bind to A 2A  adenosine receptors" ],
+  "pmc_id" : "3981016",
+  "score" : 0
+}
