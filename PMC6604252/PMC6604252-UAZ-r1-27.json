@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0410" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000087" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "Thus, ESCs have high fidelity mechanisms involved in DNA repair, high activity of the multiple antioxidant enzymes and low levels of ROS with the consequent low mutation rate [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T17:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:20:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ROS" ],
+  "pmc_id" : "6604252",
+  "score" : 0
+}

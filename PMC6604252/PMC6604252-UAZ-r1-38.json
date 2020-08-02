@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00390",
+      "entity_text" : "Gsr",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H9S0",
+      "entity_text" : "Nanog",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The analysis revealed peaks indicating that Nanog was bound to Gsr gene, both upstream the transcription start site and in the first intron, in multiple experiments performed in ESCs (Additional file 1 : Figure S1).",
+  "reading_complete" : "2020-08-02T17:21:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:20:09Z",
+  "trigger" : "bound",
+  "evidence" : [ "Nanog was bound to Gsr" ],
+  "pmc_id" : "6604252",
+  "score" : 0
+}

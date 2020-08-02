@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0636" ]
+    }
+  },
+  "verbose_text" : "Although the amount of calcium in water is relatively low, it is an interesting source of calcium considering that water intakes are high and calcium water has a good bioavailability, similar to that of cow 's milk [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T17:19:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T17:17:15Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of calcium" ],
+  "pmc_id" : "4302104",
+  "score" : 0
+}
