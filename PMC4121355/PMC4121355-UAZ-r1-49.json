@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29474",
+      "entity_text" : "eNOS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10632",
+      "entity_text" : "CYP2C8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, western blot analysis revealed a CYP2C8 protein overexpression in HUVECs (XREF_FIG) and eNOS was upregulated by CYP2C8 overexpression, which was decreased significantly under the stimulation of TNF-alpha (XREF_FIG).",
+  "reading_complete" : "2020-08-02T09:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:12Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "eNOS was upregulated by CYP2C8" ],
+  "pmc_id" : "4121355",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "serine 536",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00849",
+      "entity_text" : "NF-kappaB p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10632",
+      "entity_text" : "CYP2C8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We also observed that CYP2C8 derived EETs inhibited the TNF-alpha-induced phosphorylation of NF-kappaB p65 at serine 536 and nuclear translocation of NF-kappaB p65.",
+  "reading_complete" : "2020-08-02T09:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:36:12Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "CYP2C8-derived EETs inhibited the TNF-alpha-induced phosphorylation of NF-kappaB p65 at serine 536" ],
+  "pmc_id" : "4121355",
+  "score" : 0
+}
