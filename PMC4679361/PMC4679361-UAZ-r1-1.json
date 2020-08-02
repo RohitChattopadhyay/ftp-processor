@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04390",
+      "entity_text" : "miR-375",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of miR-375 in liver cancer cells decreased cell proliferation, clonogenicity, migration / invasion and simultaneously induced G1 arrest and apoptosis XREF_BIBR.",
+  "reading_complete" : "2020-08-02T12:33:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:32:06Z",
+  "trigger" : "induced",
+  "evidence" : [ "miR-375 in liver cancer cells decreased cell proliferation, clonogenicity, migration/invasion and simultaneously induced G1 arrest and apoptosis" ],
+  "pmc_id" : "4679361",
+  "score" : 0
+}
