@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07071",
+      "entity_text" : "K eq",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:31193",
+      "entity_text" : "CD",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "Both CD species bind paxlitaxel with K eq values on the order of 10 2 M -1.",
+  "reading_complete" : "2020-08-02T16:23:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:17:42Z",
+  "trigger" : "bind",
+  "evidence" : [ "CD species bind paxlitaxel with K eq" ],
+  "pmc_id" : "6567965",
+  "score" : 0
+}
