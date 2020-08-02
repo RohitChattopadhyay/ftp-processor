@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51790",
+      "entity_text" : "ClC-3",
+      "features" : [ {
+        "position" : "tyrosine 342",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activated Src kinase then phosphorylates ClC-3 tyrosine 342, which results in the opening of volume activated Cl - channels.",
+  "reading_complete" : "2020-08-02T10:41:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:40:27Z",
+  "trigger" : "Activated",
+  "evidence" : [ "Activated Src kinase then phosphorylates ClC-3" ],
+  "pmc_id" : "4729769",
+  "score" : 0
+}

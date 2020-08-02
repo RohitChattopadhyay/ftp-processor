@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08183",
+      "entity_text" : "MDR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In order to determine whether activation of the TGF-beta1 / Smad signaling pathway and acetylation of histone H3 modulates the activity of the MDR1 promoter, we used a MDR1 promoter driven luciferase gene construction (pMDR1 (-1202) plasmid).",
+  "reading_complete" : "2020-08-02T10:41:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:40:27Z",
+  "trigger" : "modulates",
+  "evidence" : [ "histone H3 modulates the activity of the MDR1" ],
+  "pmc_id" : "4729769",
+  "score" : 0
+}

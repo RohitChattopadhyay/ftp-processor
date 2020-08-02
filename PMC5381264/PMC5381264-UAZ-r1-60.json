@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15118",
+      "entity_text" : "PDK1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07837",
+      "entity_text" : "SLC3A1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our data revealed that SLC3A1 overexpression activated PDK1 but this activation was not influenced by the H2O2 treatment and did not affect redox- regulated AKT signaling, suggesting redox regulated AKT activation was not dependent on PDK1.",
+  "reading_complete" : "2020-08-02T10:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:29Z",
+  "trigger" : "activated",
+  "evidence" : [ "SLC3A1 overexpression activated PDK1" ],
+  "pmc_id" : "5381264",
+  "score" : 0
+}

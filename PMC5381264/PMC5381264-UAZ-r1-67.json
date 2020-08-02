@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54829",
+      "entity_text" : "step",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The second step is catalyzed by GSH synthase, which adds glycine to gamma-glutamylcysteine to form gamma-glutamylcysteinylglycine or GSH, which exerts a negative feedback inhibition on GCL.",
+  "reading_complete" : "2020-08-02T10:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T10:36:29Z",
+  "trigger" : "catalyzed",
+  "evidence" : [ "step is catalyzed by GSH" ],
+  "pmc_id" : "5381264",
+  "score" : 0
+}
