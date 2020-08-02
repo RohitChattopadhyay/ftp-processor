@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003000",
+      "entity_text" : "sirtuin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Upregulation of miR-181a in diabetic livers and hepatocytes decreases sirtuin 1 expression, thus inactivating insulin signaling and glucose metabolism.",
+  "reading_complete" : "2020-08-02T13:14:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:13:54Z",
+  "trigger" : "inactivating",
+  "evidence" : [ "sirtuin 1 expression, thus inactivating insulin" ],
+  "pmc_id" : "5819906",
+  "score" : 0
+}

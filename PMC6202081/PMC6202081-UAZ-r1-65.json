@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0142" ]
+    }
+  },
+  "verbose_text" : "IL-1 was observed to be able to regulate the invasion of trophoblasts via controlling the phosphorylation of JAK2 and STAT3.",
+  "reading_complete" : "2020-08-02T13:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:12:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of JAK2 and STAT3" ],
+  "pmc_id" : "6202081",
+  "score" : 0
+}

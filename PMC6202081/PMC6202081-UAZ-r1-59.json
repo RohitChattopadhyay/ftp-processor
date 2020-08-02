@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ]
+    }
+  },
+  "verbose_text" : "Next, activated JAK2 phosphorylates STAT3 and these activated STATs formed dimers, then the dimers enter into cell nucleus and regulate the downstream gene expression.",
+  "reading_complete" : "2020-08-02T13:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:12:51Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates STAT3" ],
+  "pmc_id" : "6202081",
+  "score" : 0
+}

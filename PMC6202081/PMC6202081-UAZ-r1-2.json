@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "Janus kinase 2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01455",
+      "entity_text" : "siRNA-ANXA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, siRNA-ANXA1 repressed the phosphorylation of Janus kinase 2 (JAK2) and signal transducer and activator of transcription 3 (STAT3); however, siRNA-ANXA1 did not alter the levels of JAK2 and STAT3.",
+  "reading_complete" : "2020-08-02T13:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:12:51Z",
+  "trigger" : "repressed",
+  "evidence" : [ "siRNA-ANXA1 repressed the phosphorylation of Janus kinase 2" ],
+  "pmc_id" : "6202081",
+  "score" : 0
+}
