@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In her last month of life, her platelets dropped to 15 with normal white blood count and hemoglobin levels.",
+  "reading_complete" : "2020-08-02T08:17:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:16:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "hemoglobin levels" ],
+  "pmc_id" : "4408922",
+  "score" : 0
+}
