@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9986" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "CellType" : [ "cl:CL:1001607" ]
+    }
+  },
+  "verbose_text" : "It has been reported that SNP can hinder electron transfer process and raise the level of reduced cytochrome c, resulting in production of ROS.",
+  "reading_complete" : "2020-08-02T16:33:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:32:42Z",
+  "trigger" : "level",
+  "evidence" : [ "level of reduced cytochrome c" ],
+  "pmc_id" : "5846644",
+  "score" : 0
+}

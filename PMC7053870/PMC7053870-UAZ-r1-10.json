@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "AST-120 had no effect on body weight, relative kidney weight, or blood BUN and creatinine levels, but significantly reduced IS and PCS levels in the blood (XREF_FIG).",
+  "reading_complete" : "2020-08-02T16:32:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:31:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "7053870",
+  "score" : 0
+}

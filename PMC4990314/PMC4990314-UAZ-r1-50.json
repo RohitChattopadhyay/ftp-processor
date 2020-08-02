@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The activation of iNOS during sepsis results in increased NO levels that causes tubular injury through the local generation of reactive nitrogen species, and the selective inhibition of iNOS has been suggested as a potential novel treatment for sepsis induced AKI.",
+  "reading_complete" : "2020-08-02T16:34:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:33:24Z",
+  "trigger" : "causes",
+  "evidence" : [ "NO levels that causes tubular injury" ],
+  "pmc_id" : "4990314",
+  "score" : 0
+}
