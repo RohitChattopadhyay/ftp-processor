@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08575",
+      "entity_text" : "CD45",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:11103" ]
+    }
+  },
+  "verbose_text" : "The amount of CD45 + CD31 + CD42b - leukocyte MPs was low (4.6% in platelet-poor plasma).",
+  "reading_complete" : "2020-08-02T12:16:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:13:18Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of CD45" ],
+  "pmc_id" : "5497416",
+  "score" : 0
+}

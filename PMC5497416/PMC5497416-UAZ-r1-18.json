@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:947",
+      "entity_text" : "nitrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:11103" ]
+    }
+  },
+  "verbose_text" : "By design, bilirubin, creatinine levels, and Child-Pugh score were higher in cirrhotic patients with ascites than in patients without ascites, and serum urea nitrogen levels were higher in cirrhotic patients with ascites than in the healthy controls.",
+  "reading_complete" : "2020-08-02T12:16:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:13:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "nitrogen levels" ],
+  "pmc_id" : "5497416",
+  "score" : 0
+}

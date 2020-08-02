@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00740",
+      "entity_text" : "PTC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "BCL2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "Organ" : [ "uberon:UBERON:3010752" ],
+      "Species" : [ "taxonomy:76720" ]
+    }
+  },
+  "verbose_text" : "Genetic associations between BCL2 and PTC were investigated.",
+  "reading_complete" : "2020-08-02T12:14:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T12:13:33Z",
+  "trigger" : "associations",
+  "evidence" : [ "associations between BCL2 and PTC" ],
+  "pmc_id" : "3173707",
+  "score" : 0
+}
