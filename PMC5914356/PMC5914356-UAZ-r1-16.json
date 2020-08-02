@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR This pathway mediates insulin resistance by phosphorylation of IRS-1 by S6K1.",
+  "reading_complete" : "2020-08-02T09:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:45:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IRS-1" ],
+  "pmc_id" : "5914356",
+  "score" : 0
+}

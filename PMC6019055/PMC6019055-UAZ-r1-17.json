@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439177",
+      "entity_text" : "glycogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The use of muscle glycogen during exercise reduces glucose uptake from the blood, thereby helping to maintain blood glucose in the absence of exogenous carbohydrate intake.",
+  "reading_complete" : "2020-08-02T09:53:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:49:56Z",
+  "trigger" : "reduces",
+  "evidence" : [ "glycogen during exercise reduces glucose" ],
+  "pmc_id" : "6019055",
+  "score" : 0
+}
