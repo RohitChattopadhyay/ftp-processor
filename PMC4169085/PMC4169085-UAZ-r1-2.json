@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "All of our patients had serum creatinine values within the normal range and within that range, changes in SUV due to changes in creatinine level may be minimal.",
+  "reading_complete" : "2020-08-02T16:46:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:44:28Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "4169085",
+  "score" : 0
+}

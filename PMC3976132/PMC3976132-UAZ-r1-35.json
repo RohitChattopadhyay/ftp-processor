@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26378",
+      "entity_text" : "HuD",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0281" ],
+      "CellType" : [ "cl:CL:0002608" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The role of PKC was confirmed in cultured hippocampal neurons, where phosphorylation of HuD regulates BDNF, NGF, NT-3 and GAP-43 mRNAs stability and protein expression.",
+  "reading_complete" : "2020-08-02T16:49:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T16:44:28Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of HuD" ],
+  "pmc_id" : "3976132",
+  "score" : 0
+}
