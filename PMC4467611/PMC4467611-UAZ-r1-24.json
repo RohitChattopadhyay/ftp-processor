@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016477",
+      "entity_text" : "cell migration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5360545",
+      "entity_text" : "Na",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Notably, expression of the membrane Na + / H + exchanger, NHE1 (SLC9A12), which contributes to cell migration by extruding protons [XREF_BIBR - XREF_BIBR] and interacting with the cytoskeleton [XREF_BIBR, XREF_BIBR], is upregulated in a peak at the rim [XREF_BIBR].",
+  "reading_complete" : "2020-08-02T15:05:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:02:12Z",
+  "trigger" : "contributes",
+  "evidence" : [ "Na + /H +  exchanger, NHE1 (SLC9A12), which contributes to cell migration" ],
+  "pmc_id" : "4467611",
+  "score" : 0
+}

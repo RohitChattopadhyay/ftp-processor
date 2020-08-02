@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04406",
+      "entity_text" : "GAPDH",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In these sections, expression of GAPDH was upregulated more than V-ATPase.",
+  "reading_complete" : "2020-08-02T15:05:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:02:12Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of GAPDH" ],
+  "pmc_id" : "4467611",
+  "score" : 0
+}
