@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0964" ],
+      "Organ" : [ "uberon:UBERON:0000175" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The specific gravity, LDH, and glucose levels of the pleural effusion were 1.029, 2140 IU/L, and 118 mg/dL, respectively.",
+  "reading_complete" : "2020-08-02T09:19:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:19:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4614661",
+  "score" : 0
+}

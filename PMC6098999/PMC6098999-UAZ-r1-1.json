@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12821",
+      "entity_text" : "ACE",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12305" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "CellType" : [ "cl:CL:0000025" ]
+    }
+  },
+  "verbose_text" : "His ACE level and complement levels were normal.",
+  "reading_complete" : "2020-08-02T09:17:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T09:16:48Z",
+  "trigger" : "level",
+  "evidence" : [ "ACE level" ],
+  "pmc_id" : "6098999",
+  "score" : 0
+}
