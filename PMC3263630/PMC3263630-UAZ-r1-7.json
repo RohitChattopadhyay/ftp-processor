@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0360" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "By DNA methylation, histone deacetylation, or through posttranscriptional modification of the genome and proteome, genes can be upregulated or downregulated without changes to the genetic sequence but with changes to the resulting phenotype.",
+  "reading_complete" : "2020-08-02T15:41:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:32:58Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "histone deacetylation" ],
+  "pmc_id" : "3263630",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "glutathione",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0544" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0160" ]
+    }
+  },
+  "verbose_text" : "Oridonin increases hydrogen peroxide and decreases superoxide anion and glutathione levels in SW1116 cells.",
+  "reading_complete" : "2020-08-02T15:41:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:40:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "glutathione levels" ],
+  "pmc_id" : "3577350",
+  "score" : 0
+}

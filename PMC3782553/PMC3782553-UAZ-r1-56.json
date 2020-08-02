@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0080" ],
+      "Cellular_component" : [ "go:GO:0005856" ]
+    }
+  },
+  "verbose_text" : "This suggests the Raf/MEK/ERK cascade inhibited phosphorylated ERK polymerization with F-actin, inhibiting the depolymerization and decreased density of central F-actin in the PMVECs.",
+  "reading_complete" : "2020-08-02T15:43:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T15:42:30Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated ERK" ],
+  "pmc_id" : "3782553",
+  "score" : 0
+}
