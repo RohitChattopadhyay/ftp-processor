@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37231",
+      "entity_text" : "PPARgamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since PPARgamma activation upregulates the regulators of cholesterol efflux in macrophages XREF_BIBR, XREF_BIBR and reduces inflammation in atheroma by inhibiting nuclear factor-kappa B activity XREF_BIBR - XREF_BIBR, this pathway could be an attractive target for treating atherosclerosis.",
+  "reading_complete" : "2020-08-02T08:55:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:54:20Z",
+  "trigger" : "upregulates",
+  "evidence" : [ "PPARgamma activation upregulates the regulators of cholesterol" ],
+  "pmc_id" : "5743459",
+  "score" : 0
+}

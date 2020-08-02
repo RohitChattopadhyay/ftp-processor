@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01579",
+      "entity_text" : "Fc region",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02810",
+      "entity_text" : "Protein A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_U379" ],
+      "Species" : [ "taxonomy:9986" ],
+      "Cellular_component" : [ "go:GO:0031672" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Protein A binds to the Fc region of mammalian immunoglobulins, including rabbit IgG in a 1:1 molar ratio [XREF_BIBR], in turn, IgG molecules owns two antigen binding sites.",
+  "reading_complete" : "2020-08-02T08:57:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:55:42Z",
+  "trigger" : "binds",
+  "evidence" : [ "Protein A binds to the Fc region" ],
+  "pmc_id" : "2703206",
+  "score" : 0
+}

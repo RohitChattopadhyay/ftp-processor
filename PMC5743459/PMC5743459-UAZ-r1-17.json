@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:3010752" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The level of cholesterol in macrophage foam cells was significantly lower in the MMR-Lobe group compared to controls.",
+  "reading_complete" : "2020-08-02T08:55:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T08:54:20Z",
+  "trigger" : "level",
+  "evidence" : [ "level of cholesterol" ],
+  "pmc_id" : "5743459",
+  "score" : 0
+}
