@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9823" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0000134" ]
+    }
+  },
+  "verbose_text" : "Blood glucose levels, intravenous and oral glucose tolerance test (OGTT), serum insulin, C-peptide and islets histology were analyzed.",
+  "reading_complete" : "2020-08-02T13:41:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:40:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4055443",
+  "score" : 0
+}

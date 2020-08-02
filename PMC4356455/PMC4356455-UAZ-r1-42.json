@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SOS",
+      "entity_text" : "SOS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62993",
+      "entity_text" : "Grb2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "SH3 domains" ],
+    "context" : {
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The SH3 domains of Grb2 bind to the proline rich C-terminal domain of SOS, a guanine nucleotide exchange factor (GEF) for Ras.",
+  "reading_complete" : "2020-08-02T13:40:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:39:11Z",
+  "trigger" : "bind",
+  "evidence" : [ "SH3 domains of Grb2 bind to the proline-rich C-terminal domain of SOS" ],
+  "pmc_id" : "4356455",
+  "score" : 0
+}

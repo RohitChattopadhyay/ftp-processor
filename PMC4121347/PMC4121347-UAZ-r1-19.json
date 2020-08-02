@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14406",
+      "entity_text" : "CSL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03304",
+      "entity_text" : "IC-Notch",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1107" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0002062" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Following activation, the intracellular domain of Notch (IC-Notch) translocates into the nucleus and binds the DNA binding protein CSL (CBF1 / suppressor of hairless / Lag-1) through its RAM23 domain.",
+  "reading_complete" : "2020-08-02T13:39:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:38:12Z",
+  "trigger" : "binds",
+  "evidence" : [ "IC-Notch) translocates into the nucleus and binds the DNA-binding protein CSL" ],
+  "pmc_id" : "4121347",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "MAPK",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "CellType" : [ "cl:CL:0002372" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The involvement of MAPKs was confirmed using the specific inhibitor SB203580, which downregulated the expression of native and phosphorylated MAPK proteins in transfected cells without any changes in insulin stimulated glucose uptake.",
+  "reading_complete" : "2020-08-02T13:40:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:36:33Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of native and phosphorylated MAPK" ],
+  "pmc_id" : "3317196",
+  "score" : 0
+}

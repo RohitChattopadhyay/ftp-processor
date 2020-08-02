@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60312",
+      "entity_text" : "Atp10c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Silencing Atp10c RNA decreases cellular glucose uptake, which might be of consequence to impaired insulin signaling.",
+  "reading_complete" : "2020-08-02T13:40:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T13:36:33Z",
+  "trigger" : "decreases",
+  "evidence" : [ "Atp10c RNA decreases cellular glucose" ],
+  "pmc_id" : "3317196",
+  "score" : 0
+}
