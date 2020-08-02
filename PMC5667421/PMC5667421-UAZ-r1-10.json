@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Conclusion : Akt phosphorylation at Ser473 by ginsenoside Rg1 is critical for its gluconeogenesis lowering effect, suggesting a potential for pharmaceutical intervention in response to fasting hormone glucagon.",
+  "reading_complete" : "2020-08-02T14:43:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-02T14:42:25Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt phosphorylation at Ser473" ],
+  "pmc_id" : "5667421",
+  "score" : 0
+}
