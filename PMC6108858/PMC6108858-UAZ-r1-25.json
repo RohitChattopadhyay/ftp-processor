@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In order to investigate the inflammatory state in patients with T2DM, ELISA was performed using blood plasma and the expression levels of IL-1, IL-6 and TNF-alpha were measured.",
+  "reading_complete" : "2020-08-03T17:21:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:20:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-1, IL-6" ],
+  "pmc_id" : "6108858",
+  "score" : 0
+}

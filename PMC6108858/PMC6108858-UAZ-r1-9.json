@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The expression level of IL-6 was significantly different between the T2DM group and control group (P = 0.028) and was positively correlated with circANKRD36.",
+  "reading_complete" : "2020-08-03T17:21:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:20:36Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IL-6" ],
+  "pmc_id" : "6108858",
+  "score" : 0
+}

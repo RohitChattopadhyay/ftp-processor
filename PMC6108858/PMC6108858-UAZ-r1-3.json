@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_TABLE, the expression levels of IL-6 and TNF-alpha were elevated in patients with T2DM, compared with those in control subjects (13.202 +/-9.937, vs. 6.151 +/-3.787, and 16.158 +/-5.964, vs. 13.165 +/-2.69, respectively).",
+  "reading_complete" : "2020-08-03T17:21:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:20:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-6 and TNF-alpha" ],
+  "pmc_id" : "6108858",
+  "score" : 0
+}

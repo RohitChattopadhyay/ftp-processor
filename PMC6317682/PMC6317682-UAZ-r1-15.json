@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00938",
+      "entity_text" : "lipoprotein",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UJY1",
+      "entity_text" : "HSP22",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Atorvastatin (ATV) exerts its anti-atherosclerotic effects by targeting the receptor for advanced glycation end products in human umbilical vein endothelial cells (HUVECs) and in Goto Kakisaki rats, or by downregulating HSP22 expression induced by oxidized low-density lipoprotein (ox-LDL) in HUVECs.",
+  "reading_complete" : "2020-08-03T17:20:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:19:45Z",
+  "trigger" : "induced",
+  "evidence" : [ "HSP22 expression induced by oxidized low-density lipoprotein" ],
+  "pmc_id" : "6317682",
+  "score" : 0
+}
