@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-1050" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "ROS levels were significantly higher in the tongue tissues of old rats (P = 0.001; old rats : 7,133 +/-345 and young rats : 5,247 +/- 418 nmol DCF/mg tissue) (XREF_FIG).",
+  "reading_complete" : "2020-08-03T16:15:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:12:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "5678042",
+  "score" : 0
+}
