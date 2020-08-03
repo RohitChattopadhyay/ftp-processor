@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As the severity of the NAFLD increases, there is an increase in leptin levels and a decrease in adiponectin levels, leading to liver fat loss, which is seen in cirrhosis and advanced fibrosis [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T19:58:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:52:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "leptin levels" ],
+  "pmc_id" : "6185929",
+  "score" : 0
+}

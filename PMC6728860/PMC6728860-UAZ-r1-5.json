@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the current study, it was found that lower levels of ammonia become more toxic in the presence of Mn.",
+  "reading_complete" : "2020-08-03T20:01:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:58:44Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ammonia" ],
+  "pmc_id" : "6728860",
+  "score" : 0
+}
