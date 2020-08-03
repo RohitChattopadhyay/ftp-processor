@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "Organ" : [ "uberon:UBERON:0007023" ]
+    }
+  },
+  "verbose_text" : "The unsteady state might have increased the variation in the measurements due to differences in the pubertal development, which was a factor we tried adjusting for by including delta testosterone levels as covariate in most analyses.",
+  "reading_complete" : "2020-08-03T17:23:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "3136153",
+  "score" : 0
+}
