@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "RB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00054",
+      "entity_text" : "late S",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The reachability of late S could be prevented when narrowing the forms of E2F1 able to upregulate the cyclin A2 gene to the complexes where E2F1 is associated only to DP1 or associated to DP1 and RB phosphorylated three times.",
+  "reading_complete" : "2020-08-03T08:56:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T08:44:10Z",
+  "trigger" : "prevented",
+  "evidence" : [ "late S could be prevented when narrowing the forms of E2F1 able to upregulate the cyclin A2 gene to the complexes where E2F1 is associated only to DP1 or associated to DP1 and RB phosphorylated" ],
+  "pmc_id" : "4910245",
+  "score" : 0
+}

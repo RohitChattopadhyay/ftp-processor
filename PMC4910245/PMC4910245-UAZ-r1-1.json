@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "RB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CDK",
+      "entity_text" : "CDKs",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In particular, CDKs phosphorylate RB, slowly releasing its hold on E2F transcription factors.",
+  "reading_complete" : "2020-08-03T08:56:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T08:44:10Z",
+  "evidence" : [ "CDKs phosphorylate RB" ],
+  "pmc_id" : "4910245",
+  "score" : 0
+}
