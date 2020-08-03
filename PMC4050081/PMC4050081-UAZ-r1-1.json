@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MMP",
+      "entity_text" : "MMPs",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:54684461",
+      "entity_text" : "doxycycline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MMPs have synthetic inhibitors and doxycycline, a tetracycline antibiotic, inhibits MMPs.",
+  "reading_complete" : "2020-08-03T18:20:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:19:24Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "doxycycline, a tetracycline antibiotic, inhibits MMPs" ],
+  "pmc_id" : "4050081",
+  "score" : 0
+}

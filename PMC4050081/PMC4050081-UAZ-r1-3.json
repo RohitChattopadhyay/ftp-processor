@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0279" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "The administration of a MMP inhibitor reportedly reduced the amount of inflammatory cells and the levels of ICAM-1 and VCAM-1 mRNA and protein, supporting the notion that MMP inhibitors inhibit inflammatory cell migration by causing a decrease in adhesion molecules [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:20:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:19:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ICAM-1" ],
+  "pmc_id" : "4050081",
+  "score" : 0
+}

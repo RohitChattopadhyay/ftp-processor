@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P2X3",
+      "entity_text" : "impact",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0478" ],
+      "Organ" : [ "uberon:UBERON:0002226" ],
+      "CellType" : [ "cl:CL:0000601" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Impact noise is different from continuous noise, and it seems difficult to correlate hearing loss with the amount of impact noise [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:19:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:16:32Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of impact" ],
+  "pmc_id" : "6315213",
+  "score" : 0
+}
