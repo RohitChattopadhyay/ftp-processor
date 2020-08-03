@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0455" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To investigate the effect of LPS on phosphorylation of ERK1/2 and p38 MAPK, NCI-H292 cells were incubated with LPS (100 ng/mL) for different lengths of time (0, 10, 20, 30, 60, and 120 minutes).",
+  "reading_complete" : "2020-08-03T19:07:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:04:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK1/2" ],
+  "pmc_id" : "4135156",
+  "score" : 0
+}

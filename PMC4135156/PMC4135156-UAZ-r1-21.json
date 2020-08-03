@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HC84",
+      "entity_text" : "MUC5B",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The results of this study showed that LPS induced MUC8 and MUC5B expression and LPS induced TLR4 expression and phosphorylation of ERK1/2 and p38 MAPK.",
+  "reading_complete" : "2020-08-03T19:07:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:04:23Z",
+  "trigger" : "induced",
+  "evidence" : [ "MUC5B expression and LPS induced TLR4 expression and phosphorylation of ERK1/2" ],
+  "pmc_id" : "4135156",
+  "score" : 0
+}

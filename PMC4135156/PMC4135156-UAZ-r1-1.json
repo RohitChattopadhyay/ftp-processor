@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:68245",
+      "entity_text" : "delphinidin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The result of Western blot showed that delphinidin significantly decreased LPS induced phosphorylation of ERK1/2 and p38 MAPK (XREF_FIG).",
+  "reading_complete" : "2020-08-03T19:07:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:04:23Z",
+  "trigger" : "induced",
+  "evidence" : [ "delphinidin significantly decreased LPS-induced phosphorylation of ERK1/2" ],
+  "pmc_id" : "4135156",
+  "score" : 0
+}

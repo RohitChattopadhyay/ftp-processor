@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01643",
+      "entity_text" : "Mucins",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000170" ]
+    }
+  },
+  "verbose_text" : "Mucins, which are highly glycosylated proteins, are the major components of mucus.",
+  "reading_complete" : "2020-08-03T19:07:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:04:23Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "Mucins, which are highly glycosylated" ],
+  "pmc_id" : "4135156",
+  "score" : 0
+}

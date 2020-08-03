@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "MAPK",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35354",
+      "entity_text" : "COX-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In LPS activated murine macrophage cells, anthocyanidins inhibit LPS induced COX-2 expression by blocking MAPK mediated pathways with the attendant activation of NF-kappaB, activator protein-1 (AP-1) [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T19:07:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:04:23Z",
+  "trigger" : "blocking",
+  "evidence" : [ "COX-2 expression by blocking MAPK" ],
+  "pmc_id" : "4135156",
+  "score" : 0
+}
