@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "Vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0001" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Serum calcium, parathyroid hormone, and Vitamin D levels were within normal limits (9.2 mg/dL, 33 pg/mL, and 22 ng/mL, respectively).",
+  "reading_complete" : "2020-08-03T17:35:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:35:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "Vitamin D levels" ],
+  "pmc_id" : "5676266",
+  "score" : 0
+}

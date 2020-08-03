@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0012198" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Biology showed hemoglobin level at 10.2 g/dL, white blood cells at 20,120/mm 3, platelet at 190,000/mm 3, CRP = 233.35 mg/L, ASAT = 66 UI/L, ALAT = 132 UI/L, GGT = 177 UI/L, and ALP = 162 UI/L.",
+  "reading_complete" : "2020-08-03T17:38:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:38:02Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "5771876",
+  "score" : 0
+}
