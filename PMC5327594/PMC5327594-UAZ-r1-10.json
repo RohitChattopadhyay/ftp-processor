@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5988",
+      "entity_text" : "sugar",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Elevated blood sugar level> = 200 gm/dL is associated with reduced neutrophil activity [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:46:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:44:50Z",
+  "trigger" : "level",
+  "evidence" : [ "sugar level" ],
+  "pmc_id" : "5327594",
+  "score" : 0
+}

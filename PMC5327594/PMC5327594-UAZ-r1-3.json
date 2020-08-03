@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81172",
+      "entity_text" : "hepcidin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Modulation of hepcidin expression during infection decreases the availability of iron to invading pathogens.",
+  "reading_complete" : "2020-08-03T18:46:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:44:50Z",
+  "trigger" : "decreases",
+  "evidence" : [ "hepcidin expression during infection decreases the availability of iron" ],
+  "pmc_id" : "5327594",
+  "score" : 0
+}
