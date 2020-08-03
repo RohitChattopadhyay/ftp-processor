@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cellular growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10265",
+      "entity_text" : "protease",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We first used the S. cerevisiae TEF1 promoter to express TEV protease, but the strong expression of TEV protease from the TEF1 promoter on the high-copy gTOW plasmid in itself caused a cellular growth defect (data not shown).",
+  "reading_complete" : "2020-08-03T17:19:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:15:55Z",
+  "trigger" : "caused",
+  "evidence" : [ "protease from the TEF1 promoter on the high-copy gTOW plasmid in itself caused a cellular growth" ],
+  "pmc_id" : "3892067",
+  "score" : 0
+}
