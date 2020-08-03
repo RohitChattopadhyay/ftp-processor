@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03408",
+      "entity_text" : "TetR2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23957",
+      "entity_text" : "Tc",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0039" ]
+    }
+  },
+  "verbose_text" : "This phenomenon is observed because the higher the affinity of Tc for TetR2, the easier and faster the binding of Tc to TetR2, and consequently the gene induction.",
+  "reading_complete" : "2020-08-03T15:19:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:17:01Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Tc to TetR2" ],
+  "pmc_id" : "3037858",
+  "score" : 0
+}
