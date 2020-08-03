@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSA1",
+      "entity_text" : "FGF21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In the present study, the phosphorylation of ERK1/2 was significantly induced by FGF21 overexpression, indicating that FGF21 may activate the ERK1/2 signaling pathway.",
+  "reading_complete" : "2020-08-03T17:19:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:22Z",
+  "trigger" : "induced",
+  "evidence" : [ "phosphorylation of ERK1/2 was significantly induced by FGF21" ],
+  "pmc_id" : "5627875",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSA1",
+      "entity_text" : "FGF21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In order to investigate this hypothesis, H9c2 cells were treated with FGFR1 and ERK1/2 inhibitors, and it was found that the anti-apoptotic effect mediated by FGF21 overexpression was attenuated, and the inhibition of FGF21 overexpression mediated ER stress associated signaling pathways was reversed.",
+  "reading_complete" : "2020-08-03T17:19:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:22Z",
+  "trigger" : "mediated",
+  "evidence" : [ "FGF21 overexpression-mediated ER" ],
+  "pmc_id" : "5627875",
+  "score" : 0
+}

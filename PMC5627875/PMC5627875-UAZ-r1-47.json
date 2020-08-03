@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11362",
+      "entity_text" : "FGFR1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0115" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "These changes were associated with the inhibition of ER stress mediated apoptosis signaling pathways, as well as increased phosphorylation of FGFR1 and ERK1/2.",
+  "reading_complete" : "2020-08-03T17:19:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:22Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of FGFR1" ],
+  "pmc_id" : "5627875",
+  "score" : 0
+}

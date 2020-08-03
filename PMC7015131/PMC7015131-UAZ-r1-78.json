@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D000375",
+      "entity_text" : "senescence",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H3M7",
+      "entity_text" : "TXNIP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "RT-qPCR data revealed that the levels of p16 and p21 were downregulated by siTXNIP, and that low level of TXNIP could partially reverse the senescence of endothelial cell induced by miR-20b inhibitor and H 2 O 2.",
+  "reading_complete" : "2020-08-03T17:18:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:17:03Z",
+  "trigger" : "reverse",
+  "evidence" : [ "TXNIP could partially reverse the senescence" ],
+  "pmc_id" : "7015131",
+  "score" : 0
+}

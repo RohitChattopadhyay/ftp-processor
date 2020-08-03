@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11362",
+      "entity_text" : "FGFR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSA1",
+      "entity_text" : "FGF21",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0651" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Yang et al identified that FGF19 and FGF21 bind to the integrative FGFR1 - beta - Klotho complex and activate downstream ERK1/2 signaling in 3T3L1 adipocytes.",
+  "reading_complete" : "2020-08-03T17:19:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:22Z",
+  "trigger" : "bind",
+  "evidence" : [ "FGF21 bind to the integrative FGFR1" ],
+  "pmc_id" : "5627875",
+  "score" : 0
+}

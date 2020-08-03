@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M605" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Ahonen et al observed significantly higher levels of IL-1 and IL-6 in LPS stimulated macrophages following incubation with 5-HT in their study.",
+  "reading_complete" : "2020-08-03T17:14:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:13:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-1 and IL-6" ],
+  "pmc_id" : "4771115",
+  "score" : 0
+}

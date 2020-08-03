@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZJ5",
+      "entity_text" : "PERK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PERK phosphorylates eIF2alpha to induce the translation of ATF4.",
+  "reading_complete" : "2020-08-03T17:19:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:22Z",
+  "evidence" : [ "PERK phosphorylates eIF2alpha" ],
+  "pmc_id" : "5627875",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "p-eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSA1",
+      "entity_text" : "FGF21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, the decrease of key proteins associated with the PERK-eIF2alpha-ATF4-CHOP signaling pathway, including p-PERK, p-eIF2alpha, ATF4 and CHOP mediated by FGF21 overexpression were reversed following treatment with FGFR1 and ERK1/2 inhibitors (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:19:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:22Z",
+  "trigger" : "mediated",
+  "evidence" : [ "p-eIF2alpha, ATF4 and CHOP mediated by FGF21" ],
+  "pmc_id" : "5627875",
+  "score" : 0
+}

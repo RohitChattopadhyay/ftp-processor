@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04327",
+      "entity_text" : "miR-494",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The present study demonstrated that overexpression of miR-494 promoted cell apoptosis and LDH activity, and inhibited cell growth in an SCI model compared with in the negative control group.",
+  "reading_complete" : "2020-08-03T17:17:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:16:07Z",
+  "trigger" : "promoted",
+  "evidence" : [ "miR-494 promoted cell apoptosis" ],
+  "pmc_id" : "6414168",
+  "score" : 0
+}

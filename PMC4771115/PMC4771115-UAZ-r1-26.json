@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48061",
+      "entity_text" : "CXCL12",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3822",
+      "entity_text" : "ketanserin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The chemotaxis index indicated that ketanserin significantly reduced the migration of macrophages towards CXCL12 (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:14:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:13:56Z",
+  "trigger" : "reduced",
+  "evidence" : [ "ketanserin significantly reduced the migration of macrophages towards CXCL12" ],
+  "pmc_id" : "4771115",
+  "score" : 0
+}
