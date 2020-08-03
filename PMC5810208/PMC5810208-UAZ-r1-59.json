@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It has been demonstrated that acetylated FoxO1 can become more sensitive to Akt dependent phosphorylation, suggesting that acetylation and phosphorylation can cooperatively regulate the function of FoxO1.",
+  "reading_complete" : "2020-08-03T18:20:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:19:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt-dependent phosphorylation" ],
+  "pmc_id" : "5810208",
+  "score" : 0
+}

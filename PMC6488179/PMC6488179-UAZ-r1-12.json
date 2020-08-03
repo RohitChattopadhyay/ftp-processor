@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell survival",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PTEN is expressed in various cell types, including cardiomyocytes, fibroblasts, endothelial cells and vascular smooth muscle cells, where it modulates cell survival / apoptosis, hypertrophy, contractility, fibrosis and metabolism.",
+  "reading_complete" : "2020-08-03T18:18:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:17:56Z",
+  "trigger" : "modulates",
+  "evidence" : [ "PTEN is expressed in various cell types, including cardiomyocytes, fibroblasts, endothelial cells and vascular smooth muscle cells, where it modulates cell survival" ],
+  "pmc_id" : "6488179",
+  "score" : 0
+}

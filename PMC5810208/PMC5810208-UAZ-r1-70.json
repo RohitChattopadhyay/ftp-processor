@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Upon oxidative insult, Nrf2 is dissociated from its cytoplasmic repressor Keap1, and then translocated to the nucleus, where it binds to antioxidant response element (ARE) to stimulate the transcription of its target genes, including HO-1, SOD1 and NQO1.",
+  "reading_complete" : "2020-08-03T18:20:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:19:46Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "Nrf2 is dissociated from its cytoplasmic repressor Keap1, and then translocated to the nucleus, where it binds to antioxidant response element (ARE) to stimulate the transcription" ],
+  "pmc_id" : "5810208",
+  "score" : 0
+}

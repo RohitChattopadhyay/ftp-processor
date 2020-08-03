@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12778",
+      "entity_text" : "FoxO1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Whereas nuclear Sirt1 can deacetylate and reactivate the transcriptional activity of FoxO1, the inactivated form of FoxO1, which is acetylated by dissociation from Sirt1, can be translocated back to the cytoplasm.",
+  "reading_complete" : "2020-08-03T18:20:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:19:46Z",
+  "trigger" : "acetylated",
+  "evidence" : [ "FoxO1, which is acetylated" ],
+  "pmc_id" : "5810208",
+  "score" : 0
+}

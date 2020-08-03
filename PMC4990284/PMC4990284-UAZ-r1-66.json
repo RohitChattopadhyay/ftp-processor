@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of DJ-1 reduces the ubiquitination of Nrf2 to stabilize the Nrf2 protein level, whereas the knockdown of DJ-1 decreases the stability of Nrf2 protein.",
+  "reading_complete" : "2020-08-03T18:17:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:16:43Z",
+  "trigger" : "decreases",
+  "evidence" : [ "Nrf2 to stabilize the Nrf2 protein level, whereas the knockdown of DJ-1 decreases the stability of Nrf2" ],
+  "pmc_id" : "4990284",
+  "score" : 0
+}
