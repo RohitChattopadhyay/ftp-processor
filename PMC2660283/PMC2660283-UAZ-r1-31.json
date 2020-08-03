@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16489",
+      "entity_text" : "gain",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It is important to note that, while reverse causal analysis identified Ppar activation as a hypothesis downstream of small molecule activation of SIRT1, we did not observe the full range of pharmacological effects associated with fibrate or TZD treatment, such as increased peroxisome mass, body weight gain, increased adipocyte proliferation and edema.",
+  "reading_complete" : "2020-08-03T19:54:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:48:20Z",
+  "trigger" : "increased",
+  "evidence" : [ "gain, increased adipocyte proliferation" ],
+  "pmc_id" : "2660283",
+  "score" : 0
+}

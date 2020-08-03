@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBK2",
+      "entity_text" : "Ppargc1alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "SIRT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The key node of this network is transcriptional activation of Ppargc1alpha, which, as mentioned previously, is deacetylated by SIRT1, leading to increased transcriptional activity of Ppargc1alpha [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T19:54:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:48:20Z",
+  "trigger" : "activation",
+  "evidence" : [ "activation of Ppargc1alpha, which, as mentioned previously, is deacetylated by SIRT1" ],
+  "pmc_id" : "2660283",
+  "score" : 0
+}
