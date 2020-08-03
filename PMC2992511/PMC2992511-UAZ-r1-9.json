@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "The cellular metabolism experimental data can be incorporated into the model by considering that the ATP level, a (t), decays exponentially from its initial value, a (0), to a basal value, ATP *, with a characteristic time tau ATP, which implies a net ATP consumption given by (4) f (a) =(a-ATP *)/tauATP.",
+  "reading_complete" : "2020-08-03T12:59:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:56:58Z",
+  "trigger" : "level",
+  "evidence" : [ "ATP level" ],
+  "pmc_id" : "2992511",
+  "score" : 0
+}
