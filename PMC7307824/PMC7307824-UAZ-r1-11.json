@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12824",
+      "entity_text" : "SMARCB1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The ectopic expression of EZH2 also promotes cancers driven by the loss of SMARCB1 in malignant rhabdoid tumor.",
+  "reading_complete" : "2020-08-03T16:48:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:05Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of SMARCB1" ],
+  "pmc_id" : "7307824",
+  "score" : 0
+}

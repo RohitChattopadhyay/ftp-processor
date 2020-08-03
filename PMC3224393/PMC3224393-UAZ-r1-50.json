@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123631",
+      "entity_text" : "gefitinib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Yun et al [XREF_BIBR] showed that gefitinib directly binds more tightly to the L858R mutant than to the wild type EGFR in vitro, while Fabian et al [XREF_BIBR] indicated that EGFR with gefitinib sensitive mutations does not differ from wild type EGFR in terms of gefitinib binding affinity.",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "binds",
+  "evidence" : [ "gefitinib directly binds more tightly to the L858R mutant than to the wild type EGFR" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

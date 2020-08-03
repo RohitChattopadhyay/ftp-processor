@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51805",
+      "entity_text" : "sex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "An interaction between age and sex was also evident (P < 0.01) where urine concentrations of noradrenaline in females were highest at 5 weeks of age with a concentration of 15 ng/mL before dropping to 8 ng/mL at 10 weeks of age, and remaining at this level when aged 6 months.",
+  "reading_complete" : "2020-08-03T15:18:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:13:43Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between age and sex" ],
+  "pmc_id" : "3321448",
+  "score" : 0
+}

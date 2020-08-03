@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "Following treatment, her serum creatine kinase concentration decreased from 839 to 56 mg/dL, as did her creatinine level from 4.47 to 4.26 mg/dL.",
+  "reading_complete" : "2020-08-03T16:25:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:24:55Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "5378864",
+  "score" : 0
+}

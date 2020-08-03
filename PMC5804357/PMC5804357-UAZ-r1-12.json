@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445354",
+      "entity_text" : "retinol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D957" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Given that plasma retinol is homeostatically controlled, the somewhat higher retinol levels in PKU subjects are unexplained.",
+  "reading_complete" : "2020-08-03T14:52:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:41:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "retinol levels" ],
+  "pmc_id" : "5804357",
+  "score" : 0
+}

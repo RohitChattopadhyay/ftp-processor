@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000169" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Plasma levels of leptin increase by 150% to 200% in the second and third trimesters over those occurring in the first trimester.",
+  "reading_complete" : "2020-08-03T14:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:44:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of leptin" ],
+  "pmc_id" : "3649306",
+  "score" : 0
+}

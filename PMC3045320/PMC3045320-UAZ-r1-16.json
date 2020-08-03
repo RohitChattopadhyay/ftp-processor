@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10599",
+      "entity_text" : "thioredoxin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833512",
+      "entity_text" : "NADPH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "pssk1.NADPH+ k2.pss where k 1 is rate constant for the NADPH dependent reduction of thioredoxin, k 2 is rate constant for oxidation of thioredoxin by substrate PSS, and Trx total is the moiety sum of the reduced and oxidized thioredoxin concentrations.",
+  "reading_complete" : "2020-08-03T14:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:42:47Z",
+  "trigger" : "reduction",
+  "evidence" : [ "NADPH-dependent reduction of thioredoxin" ],
+  "pmc_id" : "3045320",
+  "score" : 0
+}

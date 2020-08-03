@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0012" ]
+    }
+  },
+  "verbose_text" : "Studies made in vitro report that placental tissues from women with GDM release greater amounts of TNF-alpha in response to a glucose stimulus than those from women with normal glucose tolerance [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:44:01Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of TNF-alpha" ],
+  "pmc_id" : "3649306",
+  "score" : 0
+}

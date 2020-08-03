@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1175",
+      "entity_text" : "uric acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Some authors consider hyperuricemia in metabolic syndrome to be the consequence of elevated serum insulin levels, which have been shown to stimulate renal reabsorption of uric acid.",
+  "reading_complete" : "2020-08-03T14:41:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:37:02Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "insulin levels, which have been shown to stimulate renal reabsorption of uric acid" ],
+  "pmc_id" : "4339788",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PDGF",
+      "entity_text" : "PDGF",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000134" ]
+    }
+  },
+  "verbose_text" : "In the model of lung fibrosis induced by radiation, radiation induces the high expression of PDGF, resulting in the phosphorylation of PDGF receptors, which activates downstream pathways; this process is inhibited by PDGF receptor tyrosine kinase inhibitor, attenuating the process of pulmonary fibrosis.",
+  "reading_complete" : "2020-08-03T16:30:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:28:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of PDGF" ],
+  "pmc_id" : "5179184",
+  "score" : 0
+}

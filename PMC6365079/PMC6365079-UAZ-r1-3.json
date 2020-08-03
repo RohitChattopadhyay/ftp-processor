@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31483",
+      "entity_text" : "TIA1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04120",
+      "entity_text" : "miR-335",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It should be noted that miR-335 inhibited TIA1 phosphorylation in MCAO rats in the present study.",
+  "reading_complete" : "2020-08-03T16:59:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:58:40Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "miR-335 inhibited TIA1 phosphorylation" ],
+  "pmc_id" : "6365079",
+  "score" : 0
+}

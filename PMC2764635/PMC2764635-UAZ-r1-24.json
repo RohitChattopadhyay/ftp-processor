@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:RAF",
+      "entity_text" : "Raf",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03781",
+      "entity_text" : "Rap1-GTP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Ras-GTP and Rap1-GTP bind Raf kinases with high affinity translocating them from the cytoplasm to the cell membrane where they are activated.",
+  "reading_complete" : "2020-08-03T16:07:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:59:57Z",
+  "trigger" : "bind",
+  "evidence" : [ "Rap1-GTP bind Raf" ],
+  "pmc_id" : "2764635",
+  "score" : 0
+}

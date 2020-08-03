@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5484352",
+      "entity_text" : "AA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_TABLE, the associations between AA and CRP, serum albumin, triglycerides, HDL-C, and LDL-C remained significant after adjustment for age, sex, smoking, and alcohol consumption in ANOVA models.",
+  "reading_complete" : "2020-08-03T12:50:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:44:28Z",
+  "trigger" : "associations",
+  "evidence" : [ "associations between AA and CRP, serum albumin" ],
+  "pmc_id" : "4460253",
+  "score" : 0
+}

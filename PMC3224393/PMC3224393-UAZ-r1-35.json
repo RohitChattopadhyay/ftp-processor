@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SOS",
+      "entity_text" : "SOS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62993",
+      "entity_text" : "Grb2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This complex can dissociate, yielding the EGFR dimer, the Grb2 / SOS complex, and Shc (steps 10, 11, 13, and 14).",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "complex",
+  "evidence" : [ "Grb2/SOS complex" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "AKT phosphorylated mTOR to generate activated p-mTOR and triggers downstream signaling to inhibit autophagy.",
+  "reading_complete" : "2020-08-03T16:55:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:54:41Z",
+  "evidence" : [ "AKT phosphorylated mTOR" ],
+  "pmc_id" : "6605496",
+  "score" : 0
+}

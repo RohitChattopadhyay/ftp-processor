@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445354",
+      "entity_text" : "retinol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The participants with low serum retinol concentrations were 1.7 times more likely to have anaemia than those who had normal serum retinol levels (OR : 1.68; CI : 0.10-0.99; p = 0.049) (XREF_TABLE).",
+  "reading_complete" : "2020-08-03T13:32:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:27:32Z",
+  "trigger" : "levels",
+  "evidence" : [ "retinol levels" ],
+  "pmc_id" : "7288204",
+  "score" : 0
+}

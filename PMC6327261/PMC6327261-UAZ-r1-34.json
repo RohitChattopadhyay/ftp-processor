@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281915",
+      "entity_text" : "CoQ10",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:21618712",
+      "entity_text" : "sulfonylurea",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The classic diabetic patient is on a biguanide and or sulfonylurea which both inhibit CoQ10 (XREF_TABLE) and have shown to cause neuropathy.",
+  "reading_complete" : "2020-08-03T16:28:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:22:26Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "sulfonylurea which both inhibit CoQ10" ],
+  "pmc_id" : "6327261",
+  "score" : 0
+}

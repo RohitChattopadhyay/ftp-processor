@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0591" ]
+    }
+  },
+  "verbose_text" : "In fact, the phosphorylation of EGFR (XREF_FIG) is important for transactivation of interleukin (IL)-1beta through the CXCL1 and CXCR2 axis.",
+  "reading_complete" : "2020-08-03T16:41:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:40:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of EGFR" ],
+  "pmc_id" : "5500920",
+  "score" : 0
+}

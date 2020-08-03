@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01270",
+      "entity_text" : "PTH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0088" ]
+    }
+  },
+  "verbose_text" : "The association between parathyroid hormone (PTH) and vitamin D may be an important determinant of bone remodeling, mainly in the elderly.",
+  "reading_complete" : "2020-08-03T12:00:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:56:00Z",
+  "trigger" : "association",
+  "evidence" : [ "association between parathyroid hormone (PTH) and vitamin D" ],
+  "pmc_id" : "5318626",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:769",
+      "entity_text" : "bicarbonate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Organ" : [ "uberon:UBERON:0013755" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "She was intubated, and an arterial blood gas showed a pH of 6.92, partial pressure of CO 2 of 19 mmHg, partial pressure of oxygen of 243 mmHg, bicarbonate level of 4 mEq/L, and Hgb of 3.5 g/dL.",
+  "reading_complete" : "2020-08-03T16:26:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:25:52Z",
+  "trigger" : "level",
+  "evidence" : [ "bicarbonate level" ],
+  "pmc_id" : "5986000",
+  "score" : 0
+}

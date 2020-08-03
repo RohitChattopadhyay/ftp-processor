@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0480" ]
+    }
+  },
+  "verbose_text" : "An 82-year-old woman presented with symptomatic hypoglycemia (blood glucose level (BGL) 2.4 mmol/L), which was corrected to 6.8 mmol/L with intravenous dextrose.",
+  "reading_complete" : "2020-08-03T16:13:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:13:05Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "5889260",
+  "score" : 0
+}

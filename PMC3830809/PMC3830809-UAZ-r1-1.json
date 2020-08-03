@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16671",
+      "entity_text" : "fat",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0514" ],
+      "CellLine" : [ "cellosaurus:CVCL_1Y92" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The scalp veins become prominent because of loss of subcutaneous fat and loss of hair.",
+  "reading_complete" : "2020-08-03T16:32:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:31:26Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of subcutaneous fat" ],
+  "pmc_id" : "3830809",
+  "score" : 0
+}

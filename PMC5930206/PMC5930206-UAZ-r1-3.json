@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The risk of acute kidney injury significantly increases when total serum bilirubin level rises above 20 mg/dL particularly in the existence of hypoalbuminemia and acidosis 10, 11, 12, 13.",
+  "reading_complete" : "2020-08-03T15:50:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:49:19Z",
+  "trigger" : "level",
+  "evidence" : [ "bilirubin level" ],
+  "pmc_id" : "5930206",
+  "score" : 0
+}

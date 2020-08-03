@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01236",
+      "entity_text" : "prolactin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:2000106" ]
+    }
+  },
+  "verbose_text" : "At 1 month postpartum, the prolactin level reduced from 1459 ng/mL at 2 days postpartum to 427 ng/mL.",
+  "reading_complete" : "2020-08-03T14:13:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:12:43Z",
+  "trigger" : "level",
+  "evidence" : [ "prolactin level" ],
+  "pmc_id" : "6637432",
+  "score" : 0
+}

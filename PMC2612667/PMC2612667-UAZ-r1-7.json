@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "When the cholesterol level is low, Insig1 interaction with SREBP - SCAP complex is relieved allowing SREBP-SCAP to migrate to the Golgi apparatus where SREBP is cleaved by two proteases called S1P and S2P.",
+  "reading_complete" : "2020-08-03T15:12:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:07:41Z",
+  "trigger" : "level",
+  "evidence" : [ "cholesterol level" ],
+  "pmc_id" : "2612667",
+  "score" : 0
+}

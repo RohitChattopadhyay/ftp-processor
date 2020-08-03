@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03930",
+      "entity_text" : "(EGF-EGFR)2*",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P01133",
+      "entity_text" : "EGF",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For instance, since the auto-phosphorylation reaction (v3) of the EGF - EGFR complex is rate limiting for the pathway between EGF to (EGF-EGFR) 2 *, its rate is used for the single reaction that transforms EGF to (EGF-EGFR) 2 * in the smaller model.",
+  "reading_complete" : "2020-08-03T16:28:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:23:20Z",
+  "trigger" : "limiting",
+  "evidence" : [ "EGF-EGFR complex is rate limiting for the pathway between EGF to (EGF-EGFR)2*" ],
+  "pmc_id" : "2807436",
+  "score" : 0
+}

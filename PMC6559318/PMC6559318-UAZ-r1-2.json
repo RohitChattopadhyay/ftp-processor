@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61024",
+      "entity_text" : "CKS1B",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It also known that CKS1B is a tumor promoter that has been largely investigated in previous studies, which revealed that elevated expression of CKS1B contributes to increased cell proliferation and a poor prognosis in oral, gastric, and hepatocellular carcinomas, among others, and that CKS1B ablation strongly induces apoptosis.",
+  "reading_complete" : "2020-08-03T16:51:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:49:59Z",
+  "trigger" : "contributes",
+  "evidence" : [ "CKS1B contributes to increased cell proliferation" ],
+  "pmc_id" : "6559318",
+  "score" : 0
+}

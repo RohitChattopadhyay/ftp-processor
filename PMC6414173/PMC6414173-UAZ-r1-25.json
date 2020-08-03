@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Following the induction of RANKL, p65 translocates to the nucleus to activate gene transcription, and this translocation was suppressed by magnolol in the present study.",
+  "reading_complete" : "2020-08-03T16:58:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:57:53Z",
+  "trigger" : "activate",
+  "evidence" : [ "p65 translocates to the nucleus to activate gene transcription" ],
+  "pmc_id" : "6414173",
+  "score" : 0
+}

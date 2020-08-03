@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03512",
+      "entity_text" : "R molecules",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Once the R molecules have degraded, A can reactivate transcription and initiate a new cycle.",
+  "reading_complete" : "2020-08-03T15:28:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:19:55Z",
+  "trigger" : "degraded",
+  "evidence" : [ "R molecules have degraded, A can reactivate transcription" ],
+  "pmc_id" : "2657111",
+  "score" : 0
+}

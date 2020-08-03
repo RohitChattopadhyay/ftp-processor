@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123631",
+      "entity_text" : "gefitinib",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In this paper, we attempted to build such a unified model that could uncover the cell specific regulatory mechanisms produced by overexpression and mutation of the EGFR and the association with gefitinib sensitivity.",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "produced",
+  "evidence" : [ "produced by overexpression and mutation of the EGFR and the association with gefitinib" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55851",
+      "entity_text" : "UCP2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, UCP2 overexpression decreased ROS generation, PTP opening, and cytochrome c release induced by HG.",
+  "reading_complete" : "2020-08-03T16:42:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:42:20Z",
+  "trigger" : "decreased",
+  "evidence" : [ "UCP2 overexpression decreased ROS generation, PTP opening, and cytochrome c" ],
+  "pmc_id" : "4771113",
+  "score" : 0
+}

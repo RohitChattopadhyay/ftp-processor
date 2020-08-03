@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Fibrinogen",
+      "entity_text" : "fibrinogen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Organ" : [ "uberon:UBERON:0010210" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Patients with type I have platelets with no ability to retract a fibrin clot and lack internal stores of fibrinogen; patients with type II have platelets with a reduced ability to retract a fibrin clot and low levels of platelet fibrinogen, while for other variant, the platelets have a differential ability to retract a fibrin clot and contain appreciable levels of platelet fibrinogen.",
+  "reading_complete" : "2020-08-03T13:33:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:31:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of platelet fibrinogen" ],
+  "pmc_id" : "6145161",
+  "score" : 0
+}

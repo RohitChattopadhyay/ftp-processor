@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0150" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Inappropriately elevated insulin levels (> 3 mIU/L) at the time of hypoglycemia (< 2.5 mmol/L), together with elevated C-peptide (> 0.2 nmol/L) and proinsulin (> = 25% or> = 22 pmol/L) levels 5, and the absence of plasma sulfonylurea are consistent with endogenous hyperinsulinism.",
+  "reading_complete" : "2020-08-03T16:47:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:46:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "5457997",
+  "score" : 0
+}

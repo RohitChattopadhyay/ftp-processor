@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:IRS",
+      "entity_text" : "insulin receptor substrate",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "Binding of leptin receptors to JAK2 also results in JAK2 autophosphorylation [XREF_BIBR], which in turn phosphorylates insulin receptor substrate proteins, and involvement of phosphatidyl inositol 3-kinase to activate downstream signals [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:44:01Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates insulin receptor substrate" ],
+  "pmc_id" : "3649306",
+  "score" : 0
+}

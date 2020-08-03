@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07098",
+      "entity_text" : "GL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:G_i",
+      "entity_text" : "GI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The association between GI or GL and risk of type 2 diabetes did not differ considerably between men and women (Model 3 : P interaction GI =.75; P interaction GL =.08) and between participants with a low and high BMI (Model 3 : P interaction GI =.32; P interaction GL =.29).",
+  "reading_complete" : "2020-08-03T15:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:03:48Z",
+  "trigger" : "association",
+  "evidence" : [ "association between GI or GL" ],
+  "pmc_id" : "3142706",
+  "score" : 0
+}

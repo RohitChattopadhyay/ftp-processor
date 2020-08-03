@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0480" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "Thus, when hypoglycemic episodes persist in a diabetic subject despite reduction or discontinuation of hypoglycemic treatment, and other causes of low blood glucose level have been ruled out, the presence of an insulin producing tumor should be considered.",
+  "reading_complete" : "2020-08-03T16:47:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:46:28Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "5457997",
+  "score" : 0
+}

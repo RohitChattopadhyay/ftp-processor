@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38646",
+      "entity_text" : "GRP75",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "The mitochondrial and total levels of DRP1 and GRP75 exhibited no significant changes in either the hippocampus or the cortex in all experimental groups.",
+  "reading_complete" : "2020-08-03T17:03:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:02:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of DRP1 and GRP75" ],
+  "pmc_id" : "6488171",
+  "score" : 0
+}

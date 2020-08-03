@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:247304",
+      "entity_text" : "ECs",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Studies have indicated that the major type of injury from oxidative damage is apoptosis, which may affect the natural function and structure of vascular ECs, and result in the loss of vascular ECs.",
+  "reading_complete" : "2020-08-03T16:55:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:54:41Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of vascular ECs" ],
+  "pmc_id" : "6605496",
+  "score" : 0
+}

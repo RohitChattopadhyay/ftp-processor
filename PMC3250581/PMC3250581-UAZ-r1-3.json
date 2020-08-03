@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14780",
+      "entity_text" : "MMP-9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, doxycycline inhibited PMA and MMP-9 induced phosphorylation of p38; SB203580 (p38 MAPK inhibitor) inhibited PMA induced MUC5B mRNA expression.",
+  "reading_complete" : "2020-08-03T16:34:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:31:45Z",
+  "trigger" : "induced",
+  "evidence" : [ "MMP-9 induced-phosphorylation of p38" ],
+  "pmc_id" : "3250581",
+  "score" : 0
+}

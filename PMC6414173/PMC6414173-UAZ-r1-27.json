@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01327",
+      "entity_text" : "IkappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Furthermore, magnolol decreased the phosphorylation of IkappaB, p65 and p50 in a time dependent manner, which subsequently suppressed gene transcription.",
+  "reading_complete" : "2020-08-03T16:58:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:57:53Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IkappaB" ],
+  "pmc_id" : "6414173",
+  "score" : 0
+}

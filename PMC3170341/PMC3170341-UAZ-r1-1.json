@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13363",
+      "entity_text" : "CtBP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02371",
+      "entity_text" : "miR200 family",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Interestingly, although Tsang et al. used their own miRNA target predition, which is different from TargetScan prediction, their protein complex result also included the interaction of the miR200 family and CtBP complex [XREF_BIBR] which includes miR-200c.",
+  "reading_complete" : "2020-08-03T15:31:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:28:14Z",
+  "trigger" : "complex",
+  "evidence" : [ "miR200 family and CtBP complex" ],
+  "pmc_id" : "3170341",
+  "score" : 0
+}

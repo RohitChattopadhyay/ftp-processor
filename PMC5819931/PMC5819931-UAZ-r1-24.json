@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0031982" ]
+    }
+  },
+  "verbose_text" : "The protein expression levels of p65, inhibitor of nuclear factor (NF)-kappaB (IkappaB) a, LC3B-I, LC3B-II and Beclin-1 were detected using western blot analysis.",
+  "reading_complete" : "2020-08-03T16:54:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:53:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p65" ],
+  "pmc_id" : "5819931",
+  "score" : 0
+}

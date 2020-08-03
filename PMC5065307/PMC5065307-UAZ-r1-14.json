@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "Erk1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10535" ],
+      "TissueType" : [ "tissuelist:TS-0650" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "Given that the Erk1/2 signaling pathway plays an important role during myoblast differentiation, we examined the changes in Erk1/2 phosphorylatoin in response to myogenic differentiation and found that the phosphorylation of Erk1/2 was decreased.",
+  "reading_complete" : "2020-08-03T16:42:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:41:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Erk1/2" ],
+  "pmc_id" : "5065307",
+  "score" : 0
+}

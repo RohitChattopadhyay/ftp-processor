@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03560",
+      "entity_text" : "miR-145-5p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the study by Ozen et al, overexpression of miR-145-5p inhibited proliferation and decreased the migration of prostate cancer cells.",
+  "reading_complete" : "2020-08-03T16:16:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:15:01Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "miR-145-5p inhibited proliferation" ],
+  "pmc_id" : "6257844",
+  "score" : 0
+}

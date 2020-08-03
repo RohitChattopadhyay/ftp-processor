@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0809" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "The lab data showed a WBC content of 3.6 x 10 3 / muL and a CRP level of 1.0 mg/dL.",
+  "reading_complete" : "2020-08-03T13:40:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:38:11Z",
+  "trigger" : "level",
+  "evidence" : [ "CRP level" ],
+  "pmc_id" : "4020557",
+  "score" : 0
+}

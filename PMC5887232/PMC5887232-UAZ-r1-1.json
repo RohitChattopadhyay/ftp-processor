@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "Proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01105",
+      "entity_text" : "set",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The method in [XREF_BIBR] provides a set of driver nodes that is enough to drive the Proliferation node to have its desired state value by using the greedy algorithm which constructs a series of bipartite graphs as shown in Additional file 6.",
+  "reading_complete" : "2020-08-03T14:16:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:04:36Z",
+  "trigger" : "drive",
+  "evidence" : [ "set of driver nodes that is enough to drive the Proliferation" ],
+  "pmc_id" : "5887232",
+  "score" : 0
+}

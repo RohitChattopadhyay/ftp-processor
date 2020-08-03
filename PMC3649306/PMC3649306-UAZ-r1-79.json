@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Insulin resistance leads to reduction of tyrosine phosphorylation of the IRS-1 and inhibits activation of PI3 kinase [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:44:01Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of the IRS-1" ],
+  "pmc_id" : "3649306",
+  "score" : 0
+}

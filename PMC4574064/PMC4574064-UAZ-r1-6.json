@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13792",
+      "entity_text" : "phoP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04099",
+      "entity_text" : "PhoP regulon",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Induction of only the PhoP regulon is predicted to decrease production of TAGs, mirroring the effect of phoP deletion.",
+  "reading_complete" : "2020-08-03T16:49:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:42:01Z",
+  "trigger" : "decrease",
+  "evidence" : [ "PhoP regulon is predicted to decrease production of TAGs, mirroring the effect of phoP" ],
+  "pmc_id" : "4574064",
+  "score" : 0
+}

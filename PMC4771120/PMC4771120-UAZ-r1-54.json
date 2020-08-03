@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20719",
+      "entity_text" : "HOXA5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The results showed that the survival rate of AML patients with stage 3A cancer correlated with HOXA5 methylation.",
+  "reading_complete" : "2020-08-03T16:43:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:42:57Z",
+  "trigger" : "methylation",
+  "evidence" : [ "HOXA5 methylation" ],
+  "pmc_id" : "4771120",
+  "score" : 0
+}

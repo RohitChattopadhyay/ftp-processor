@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histones",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000583" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "HDAC2 is a critical component of the GC-GR complex that mediates the transrepression of NF-kB transcriptional activity by deacetylating histones in the proinflammatory genes and by deacetylating GR [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:02:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:00:14Z",
+  "trigger" : "deacetylating",
+  "evidence" : [ "deacetylating histones" ],
+  "pmc_id" : "6787474",
+  "score" : 0
+}

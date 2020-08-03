@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAPK",
+      "entity_text" : "mitogen-activated protein kinase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61024",
+      "entity_text" : "CKS1B",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of CKS1B also activates the mitogen activated protein kinase kinase (MEK)/extracellular signal regulated kinase (ERK) signaling pathway.",
+  "reading_complete" : "2020-08-03T16:51:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:49:59Z",
+  "trigger" : "activates",
+  "evidence" : [ "CKS1B also activates the mitogen-activated protein kinase" ],
+  "pmc_id" : "6559318",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "JAK2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01657",
+      "entity_text" : "leptin receptors",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "Binding of leptin receptors to JAK2 also results in JAK2 autophosphorylation [XREF_BIBR], which in turn phosphorylates insulin receptor substrate proteins, and involvement of phosphatidyl inositol 3-kinase to activate downstream signals [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:44:01Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of leptin receptors to JAK2" ],
+  "pmc_id" : "3649306",
+  "score" : 0
+}

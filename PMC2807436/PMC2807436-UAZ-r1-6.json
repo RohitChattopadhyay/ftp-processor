@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01133",
+      "entity_text" : "EGF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As suggested by previous models [XREF_BIBR, XREF_BIBR], and also apparent in our simulations, attenuation of signal response occurs after an apparent reduction in signal duration caused by decreasing levels of EGF stimulus.",
+  "reading_complete" : "2020-08-03T16:28:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:23:20Z",
+  "trigger" : "caused",
+  "evidence" : [ "duration caused by decreasing levels of EGF" ],
+  "pmc_id" : "2807436",
+  "score" : 0
+}

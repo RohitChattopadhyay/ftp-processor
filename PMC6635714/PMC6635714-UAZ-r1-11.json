@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0631" ],
+      "Organ" : [ "uberon:UBERON:0001756" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because AQPs regulate water levels in the middle ear, decreased expression of these proteins would likely result in excessive accumulation of fluid in the middle ear cavity, thus causing persistent otorrhea.",
+  "reading_complete" : "2020-08-03T16:23:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:22:37Z",
+  "trigger" : "levels",
+  "evidence" : [ "water levels" ],
+  "pmc_id" : "6635714",
+  "score" : 0
+}

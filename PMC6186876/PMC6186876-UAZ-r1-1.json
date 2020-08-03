@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:VEGF",
+      "entity_text" : "vascular endothelial growth factor",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0006956" ]
+    }
+  },
+  "verbose_text" : "Next, the endothelial cells lining the lymph ducts become elongated at the capillary level, beta-1-integrin is activated, and phosphorylation of vascular endothelial growth factor receptor 3 occurs.",
+  "reading_complete" : "2020-08-03T14:14:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:13:30Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of vascular endothelial growth factor" ],
+  "pmc_id" : "6186876",
+  "score" : 0
+}

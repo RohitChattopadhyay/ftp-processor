@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "p-mTOR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Compared with the levels in the model group, the PI3K, p-AKT / AKT and p-mTOR / mTOR levels were decreased in the 50 mg/kg TMP group, indicating that autophagy was activated in the 50 mg/kg TMP group, possibly through the PI3K/AKT/mTOR signaling pathway.",
+  "reading_complete" : "2020-08-03T16:49:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "p-mTOR/mTOR levels" ],
+  "pmc_id" : "7169653",
+  "score" : 0
+}

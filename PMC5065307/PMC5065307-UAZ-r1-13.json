@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q2VPJ9",
+      "entity_text" : "Lrrc75b",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of Lrrc75b inhibits myogenic differentiation.",
+  "reading_complete" : "2020-08-03T16:42:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:41:48Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "Lrrc75b inhibits myogenic differentiation" ],
+  "pmc_id" : "5065307",
+  "score" : 0
+}

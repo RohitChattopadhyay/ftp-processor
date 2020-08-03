@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6862",
+      "entity_text" : "NAA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Previous studies demonstrated that the NAA level is positively correlated with learning and memory in different diseases, whereas a higher ratio of NAA/Cr is accompanied with better Mini-Mental State Examination scores in Alzheimer 's disease.",
+  "reading_complete" : "2020-08-03T16:40:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:39:25Z",
+  "trigger" : "level",
+  "evidence" : [ "NAA level" ],
+  "pmc_id" : "5752233",
+  "score" : 0
+}

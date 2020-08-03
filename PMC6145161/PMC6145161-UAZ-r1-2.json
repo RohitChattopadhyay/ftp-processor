@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03557",
+      "entity_text" : "integrin receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Organ" : [ "uberon:UBERON:0010210" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The different types of GT have different quantities of integrin receptor : type I has < 5% GPIIb +/-IIIa, type II 10 +/- 25%, and other variant can have 100% of the normal receptor.",
+  "reading_complete" : "2020-08-03T13:33:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:31:34Z",
+  "trigger" : "quantities",
+  "evidence" : [ "quantities of integrin receptor" ],
+  "pmc_id" : "6145161",
+  "score" : 0
+}

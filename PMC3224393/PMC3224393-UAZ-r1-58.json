@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Overexpression or mutation of EGFR has been observed in lung cancers [XREF_BIBR, XREF_BIBR, XREF_BIBR], and these molecular changes affect the prognosis and treatment sensitivity of patients [XREF_BIBR, XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "Overexpression",
+  "evidence" : [ "Overexpression or mutation of EGFR" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

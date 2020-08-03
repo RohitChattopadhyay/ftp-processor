@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "CellLine" : [ "cellosaurus:CVCL_0546" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000363" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The level of p65 in plasma was decreased, however, the level in the nucleus was increased.",
+  "reading_complete" : "2020-08-03T16:54:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:53:51Z",
+  "trigger" : "level",
+  "evidence" : [ "level of p65" ],
+  "pmc_id" : "5819931",
+  "score" : 0
+}

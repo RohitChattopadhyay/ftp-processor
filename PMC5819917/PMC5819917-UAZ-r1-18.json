@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "TissueType" : [ "tissuelist:TS-0067" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In addition, inhibition of KDM3A significantly ameliorated insulin induced VSMC proliferation and migration, which was accompanied by decreased ROS levels, cell apoptosis and inflammatory cytokine levels.",
+  "reading_complete" : "2020-08-03T17:02:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:00:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "5819917",
+  "score" : 0
+}

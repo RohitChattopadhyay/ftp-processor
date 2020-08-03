@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07098",
+      "entity_text" : "GL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:G_i",
+      "entity_text" : "GI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We explored the association between energy adjusted GI or GL and risk of type 2 diabetes using Cox proportional hazard models.",
+  "reading_complete" : "2020-08-03T15:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:03:48Z",
+  "trigger" : "association",
+  "evidence" : [ "association between energy-adjusted GI or GL" ],
+  "pmc_id" : "3142706",
+  "score" : 0
+}

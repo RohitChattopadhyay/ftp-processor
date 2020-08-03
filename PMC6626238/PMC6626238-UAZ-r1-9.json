@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Statistical results illustrated a significant difference in percutaneous bilirubin levels between control and intervention groups [MD = -2.00, 95% CI (-2.68, -1.32), P < 0.05].",
+  "reading_complete" : "2020-08-03T16:41:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:39:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "6626238",
+  "score" : 0
+}

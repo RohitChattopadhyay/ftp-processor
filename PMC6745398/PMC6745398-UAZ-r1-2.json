@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22265",
+      "entity_text" : "TSH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001443" ]
+    }
+  },
+  "verbose_text" : "Child was then started on oral l-thyroxine, initially on 25 mug/d and was increased to 50 mug/d based on the TSH levels.",
+  "reading_complete" : "2020-08-03T16:24:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:23:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "TSH levels" ],
+  "pmc_id" : "6745398",
+  "score" : 0
+}

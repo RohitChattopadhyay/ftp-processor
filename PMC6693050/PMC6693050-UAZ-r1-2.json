@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11096" ],
+      "TissueType" : [ "tissuelist:TS-0814" ],
+      "Organ" : [ "uberon:UBERON:0005986" ]
+    }
+  },
+  "verbose_text" : "Ceruloplasmin and blood and urine copper levels as well as blood iron and ferritin levels were within normal ranges.",
+  "reading_complete" : "2020-08-03T15:29:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:29:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "ferritin levels" ],
+  "pmc_id" : "6693050",
+  "score" : 0
+}

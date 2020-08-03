@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6037",
+      "entity_text" : "folic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6037",
+      "entity_text" : "folate",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Excessive folic acid intake supported by high levels of folate or folic acid biomarkers is noted to be of concern in PKU [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:52:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:41:28Z",
+  "trigger" : "supported",
+  "evidence" : [ "folic acid intake supported by high levels of folate" ],
+  "pmc_id" : "5804357",
+  "score" : 0
+}

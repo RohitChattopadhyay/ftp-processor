@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12034",
+      "entity_text" : "FGF5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04073",
+      "entity_text" : "miR-188-5p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, an induced increase in the level of miR-188-5p markedly inhibited fibroblast growth factor 5 (FGF5), whereas the restoration of FGF5 expression reversed the inhibitory effects on HCC progression.",
+  "reading_complete" : "2020-08-03T16:57:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:55:45Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "miR-188-5p markedly inhibited fibroblast growth factor 5 (FGF5" ],
+  "pmc_id" : "6365078",
+  "score" : 0
+}

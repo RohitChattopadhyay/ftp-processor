@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03588",
+      "entity_text" : "HIF-alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Interestingly, the overexpression of HIF-1alpha and activation of HIF pathways are observed in tumor cells due to lack of HIF-alpha ubiquitination and degradation in cancer patients.",
+  "reading_complete" : "2020-08-03T15:33:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:31:08Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "HIF-alpha ubiquitination" ],
+  "pmc_id" : "3121119",
+  "score" : 0
+}

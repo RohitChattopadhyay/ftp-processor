@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05002",
+      "entity_text" : "SGs",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When eukaryotes undergo different types of stress, the alpha-subunit of eukaryotic translation initiation factor 2 (eIF2alpha) is phosphorylated, which triggers the formation of SGs.",
+  "reading_complete" : "2020-08-03T16:59:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:58:40Z",
+  "trigger" : "triggers",
+  "evidence" : [ "eIF2alpha) is phosphorylated, which triggers the formation of SGs" ],
+  "pmc_id" : "6365079",
+  "score" : 0
+}

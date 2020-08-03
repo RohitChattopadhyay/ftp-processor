@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "PH domain",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The PH domain of AKT is phosphorylated by activated PI3K.",
+  "reading_complete" : "2020-08-03T16:49:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:57Z",
+  "evidence" : [ "PH domain of AKT is phosphorylated by activated PI3K" ],
+  "pmc_id" : "7169653",
+  "score" : 0
+}

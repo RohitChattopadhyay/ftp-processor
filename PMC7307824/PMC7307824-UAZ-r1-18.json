@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03954",
+      "entity_text" : "miR-144-3p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Functionally, miR-144-3p overexpression suppressed proliferation, promoted apoptosis, and suppressed the invasion and migration of OSCC cells.",
+  "reading_complete" : "2020-08-03T16:48:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:05Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "miR-144-3p overexpression suppressed proliferation" ],
+  "pmc_id" : "7307824",
+  "score" : 0
+}

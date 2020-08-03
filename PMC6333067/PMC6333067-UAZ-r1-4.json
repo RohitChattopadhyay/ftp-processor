@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "Because patients with EB avoid exposure to the sun and milk is not fortified in the UK, vitamin D levels were often deficient unless patients were on supplements.",
+  "reading_complete" : "2020-08-03T16:57:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:56:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "vitamin D levels" ],
+  "pmc_id" : "6333067",
+  "score" : 0
+}

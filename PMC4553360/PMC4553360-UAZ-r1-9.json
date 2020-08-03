@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0114" ],
+      "CellLine" : [ "cellosaurus:CVCL_1R13" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0005434" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In normal cells, STAT3 is transiently phosphorylated in response to several extracellular signals [XREF_BIBR], but in a variety of cancers (including squamous carcinomas of the head and neck) it is constitutively activated, causing neoplastic cell transformation (i.e., acting as an oncogene) [XREF_BIBR XREF_BIBR XREF_BIBR XREF_BIBR XREF_BIBR XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:04:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:00:40Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "STAT3 is transiently phosphorylated" ],
+  "pmc_id" : "4553360",
+  "score" : 0
+}

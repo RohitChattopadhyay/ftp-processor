@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In addition, high serum levels of insulin are regarded as an independent risk factor and poor prognostic indicator of CAD.",
+  "reading_complete" : "2020-08-03T17:02:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:00:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of insulin" ],
+  "pmc_id" : "5819917",
+  "score" : 0
+}

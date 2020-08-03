@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06731",
+      "entity_text" : "CEA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If computed tomography rules out colorectal cancer and reveals stool impaction, markedly elevated CEA levels may suggest the severe condition of stercoral colitis and may help to determine the indication for surgery.",
+  "reading_complete" : "2020-08-03T14:43:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:43:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "CEA levels" ],
+  "pmc_id" : "7141710",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31483",
+      "entity_text" : "TIA1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The results of the present study confirm that ROCK2 inhibited the expression of TIA1, which resulted in the reduction of SG formation and increased apoptosis level.",
+  "reading_complete" : "2020-08-03T16:59:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:58:40Z",
+  "trigger" : "increased",
+  "evidence" : [ "TIA1, which resulted in the reduction of SG formation and increased apoptosis" ],
+  "pmc_id" : "6365079",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "Initial laboratory serum results were notable for a WBC count of 3.2 k/cumm, with 65% neutrophils, 18% lymphocytes, and 13% monocytes, a hemoglobin level of 11.7 g/dL, and a platelet count of 4 k/cumm.",
+  "reading_complete" : "2020-08-03T16:37:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:36:25Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "5715429",
+  "score" : 0
+}

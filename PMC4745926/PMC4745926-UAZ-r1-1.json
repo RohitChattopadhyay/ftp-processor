@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1738",
+      "entity_text" : "HVA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1290" ],
+      "TissueType" : [ "tissuelist:TS-0407" ],
+      "Organ" : [ "uberon:UBERON:0013756" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Thus, HT was observed as the main metabolite after oral administration of 3,4-DHPEA-EDA, but a large amount of HVA was observed as one of major metabolites of HT as expected from a previous paper [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:25:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:20:17Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of HVA" ],
+  "pmc_id" : "4745926",
+  "score" : 0
+}

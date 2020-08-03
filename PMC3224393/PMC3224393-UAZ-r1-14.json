@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "extracellular signal-regulated kinase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of wild type EGFR induced high and sustained phosphorylation of EGFR, Shc, MEK (mitogen activated protein kinase kinase) and ERK (extracellular signal regulated kinase), while the L858R mutation reduced these response levels.",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "induced",
+  "evidence" : [ "EGFR induced high and sustained phosphorylation of EGFR, Shc, MEK (mitogen-activated protein kinase kinase) and ERK (extracellular signal-regulated kinase" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

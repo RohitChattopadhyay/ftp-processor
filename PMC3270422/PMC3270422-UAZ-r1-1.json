@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The San Luis study demonstrated that those with impaired glucose tolerance who consumed greater amounts of total fat had an increased risk of developing T2DM independent of obesity, insulin, and glucose levels at baseline [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:50:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:43:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3270422",
+  "score" : 0
+}

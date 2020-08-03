@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03408",
+      "entity_text" : "TetR2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pubchem:23957",
+      "entity_text" : "Tc",
+      "entity_type" : "simple_chemical"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03408",
+      "entity_text" : "TetR2",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This decrease caused by the binding of Tc to TetR2 which leads to occupation of the free TetR2 molecules.",
+  "reading_complete" : "2020-08-03T15:19:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:17:01Z",
+  "trigger" : "caused",
+  "evidence" : [ "caused by the binding of Tc to TetR2" ],
+  "pmc_id" : "3037858",
+  "score" : 0
+}

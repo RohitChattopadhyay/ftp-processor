@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although there is a variation of the ideal values to establish adequate levels of vitamin D, many experts agree that levels of 25 (OH) D below 20 ng/mL are classified as deficient, levels between 20 and 29 ng/mL as insufficiency, and those between 30 and 100 ng/mL as sufficiency [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T12:00:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:56:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of vitamin D" ],
+  "pmc_id" : "5318626",
+  "score" : 0
+}

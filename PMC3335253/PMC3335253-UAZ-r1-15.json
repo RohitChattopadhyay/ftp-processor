@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0392" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Consistent weight loss induced by a very low caloric diet improves vasodilatation mediated blood flow, an effect associated with decreased glucose blood levels [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T17:05:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:50:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose blood levels" ],
+  "pmc_id" : "3335253",
+  "score" : 0
+}
