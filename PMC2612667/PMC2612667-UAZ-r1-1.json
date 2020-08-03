@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04035",
+      "entity_text" : "HMG-CoA reductase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "They lower cholesterol by inhibiting the enzyme HMG-CoA reductase, which is rate limiting.",
+  "reading_complete" : "2020-08-03T15:12:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:07:41Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "cholesterol by inhibiting the enzyme HMG-CoA reductase" ],
+  "pmc_id" : "2612667",
+  "score" : 0
+}
