@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "interpro:IPR007702",
+      "entity_text" : "Janus",
+      "entity_type" : "family"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The binding of leptin to its receptor leads to the formation of the Ob-R / JAK2 complex and activation of STAT3, which is phosphorylated and migrates to the nucleus to presumably effect changes in gene expression [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:44:01Z",
+  "trigger" : "leads to",
+  "evidence" : [ "leptin to its receptor leads to the formation of the Ob-R/JAK2 complex and activation of STAT3, which is phosphorylated" ],
+  "pmc_id" : "3649306",
+  "score" : 0
+}

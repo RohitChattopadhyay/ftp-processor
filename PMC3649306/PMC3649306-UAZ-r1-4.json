@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60343",
+      "entity_text" : "AS160",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Insulin stimulates AS160 phosphorylation by Akt on five of six phosphor-Akt substrate motifs, leading to increased GLUT4 membrane trafficking events [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:02:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:44:01Z",
+  "trigger" : "stimulates",
+  "evidence" : [ "stimulates AS160 phosphorylation by Akt" ],
+  "pmc_id" : "3649306",
+  "score" : 0
+}
