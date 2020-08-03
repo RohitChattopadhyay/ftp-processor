@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Caspase",
+      "entity_text" : "caspases",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Then the death probability of a cell can be derived by dividing its combined expression level of caspases 3, 6, and 7 by the maximum total expression value of the 3 caspases in all the cells.",
+  "reading_complete" : "2020-08-03T11:19:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:15:26Z",
+  "trigger" : "level",
+  "evidence" : [ "level of caspases" ],
+  "pmc_id" : "5770079",
+  "score" : 0
+}
