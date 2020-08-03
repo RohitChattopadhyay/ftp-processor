@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95661",
+      "entity_text" : "rhoi",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00224",
+      "entity_text" : "Eq",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Assuming alphai = alpha and rhoi = rho (iin {1,2,..., n}), Eq (12) reduces to (14) Phitau = f (rho) n where (15) f (rho) = ln [rho (1-rho)]-1-2rho1-rho2 +21-2rho1-rho2ln [rho (1-rho)] 2 f (rho) reaches the minimal value 0.6667 at rho = 0.5959, and limrho--> 1f (rho) = infinity.",
+  "reading_complete" : "2020-08-03T17:24:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:19:34Z",
+  "trigger" : "reduces",
+  "evidence" : [ "rhoi=rho (iin{1,2,...,n}), Eq (12) reduces" ],
+  "pmc_id" : "4305980",
+  "score" : 0
+}
