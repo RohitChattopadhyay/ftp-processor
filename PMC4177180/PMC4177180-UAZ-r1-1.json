@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B0C1V9",
+      "entity_text" : "SecA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Additional pathway development steps included determining the amount of ATP hydrolyzed by SecA for each pORF (i.e., 1 ATP per ~ 25 amino acids) [XREF_BIBR], assigning 23 pORFs to lipoprotein biogenesis [XREF_BIBR], and calculating the number of TatA 's needed for each Tat translocated pORF [XREF_BIBR] (Additional file 1, Additional file 2 : Table S1, Additional file 3 : Figure S1).",
+  "reading_complete" : "2020-08-03T17:54:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:46:39Z",
+  "evidence" : [ "ATP hydrolyzed by SecA" ],
+  "pmc_id" : "4177180",
+  "score" : 0
+}
