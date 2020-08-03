@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01683",
+      "entity_text" : "epidermolysis bullosa",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02388",
+      "entity_text" : "COL7A1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Four main sub-types are based on the location of blistering in the skin : EB simplex, junctional EB, dystrophic EB, and Kindler syndrome.1 This study looks at adults with recessive dystrophic epidermolysis bullosa (RDEB), which is caused by mutation of the COL7A1 gene that encodes the protein collagen VII, an essential component in anchoring fibrils at the dermal-epidermal junction.",
+  "reading_complete" : "2020-08-03T16:57:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:56:31Z",
+  "trigger" : "caused",
+  "evidence" : [ "epidermolysis bullosa (RDEB), which is caused by mutation of the COL7A1" ],
+  "pmc_id" : "6333067",
+  "score" : 0
+}
