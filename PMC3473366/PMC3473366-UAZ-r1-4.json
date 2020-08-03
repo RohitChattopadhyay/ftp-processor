@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "ATM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, ATM phosphorylates p53 as well [XREF_BIBR, XREF_BIBR] (interaction 31), leading to expression of Wip1 later (at time scale value 3) [XREF_BIBR] (interaction 82).",
+  "reading_complete" : "2020-08-03T18:25:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:16:58Z",
+  "evidence" : [ "ATM phosphorylates p53" ],
+  "pmc_id" : "3473366",
+  "score" : 0
+}

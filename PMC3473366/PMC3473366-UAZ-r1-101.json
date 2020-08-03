@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Blockage of cell cycle arrest can cause mitotic catastrophy, a form of cell death [XREF_BIBR], whereas blocking of the anti-apoptotic transcription factor NF-kappaB promotes apoptosis [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:25:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:16:58Z",
+  "trigger" : "promotes",
+  "evidence" : [ "NF-kappaB promotes apoptosis" ],
+  "pmc_id" : "3473366",
+  "score" : 0
+}

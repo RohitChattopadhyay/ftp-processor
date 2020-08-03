@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30307",
+      "entity_text" : "Cdc25C",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10535" ],
+      "TissueType" : [ "tissuelist:TS-0114" ]
+    }
+  },
+  "verbose_text" : "In response to ionizing radiation, absence of Chk2 in our model blocked cell cycle arresting phosphorylation of Cdc25C, and one of two pathways leading to degradation of Cdc25A.",
+  "reading_complete" : "2020-08-03T18:25:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:16:58Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Cdc25C" ],
+  "pmc_id" : "3473366",
+  "score" : 0
+}

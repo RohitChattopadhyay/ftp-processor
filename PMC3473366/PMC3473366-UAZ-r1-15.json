@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38398",
+      "entity_text" : "BRCA1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "ATM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ATM dependent phosphorylation of BRCA1 is averted by loss of Nbs1 in the model, possibly further contributing to DNA repair deficiencies.",
+  "reading_complete" : "2020-08-03T18:25:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:16:58Z",
+  "evidence" : [ "ATM-dependent phosphorylation of BRCA1" ],
+  "pmc_id" : "3473366",
+  "score" : 0
+}

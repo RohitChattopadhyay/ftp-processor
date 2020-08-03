@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30307",
+      "entity_text" : "Cdc25C",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the absence of only p53, four cell survival pathways were still active, i.e. activation of anti-apoptotic NF-kappaB, cell cycle arrest induced by c-Myc downregulation, Cyclin dependent kinase 2 (Cdk2) inhibition, and phosphorylation of Cdc25C.",
+  "reading_complete" : "2020-08-03T18:25:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:16:58Z",
+  "trigger" : "induced",
+  "evidence" : [ "induced by c-Myc downregulation, Cyclin-dependent kinase 2 (Cdk2) inhibition, and phosphorylation of Cdc25C" ],
+  "pmc_id" : "3473366",
+  "score" : 0
+}
