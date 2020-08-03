@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01695",
+      "entity_text" : "GTPase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62826",
+      "entity_text" : "Ran",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "By using the node degree to prioritize the critical nodes, we found that the nuclear pore complex (NPC) and the three host proteins, Akt, PKC, and the Ran / GTPase complex (which plays a critical role in the export of proteins from the nucleus to the cytoplasm), are both critical and highly connected within the network.",
+  "reading_complete" : "2020-08-03T11:59:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:45:36Z",
+  "trigger" : "complex",
+  "evidence" : [ "Ran/GTPase complex" ],
+  "pmc_id" : "3819658",
+  "score" : 0
+}

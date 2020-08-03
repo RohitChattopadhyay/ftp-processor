@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86U86",
+      "entity_text" : "PB1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF11986",
+      "entity_text" : "PB1-F2",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:11309" ]
+    }
+  },
+  "verbose_text" : "In addition, PB1-F2 binding to PB1 affects the intracellular localization of the polymerase protein and reduces polymerase activity, potentially affecting virulence [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:59:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:45:36Z",
+  "trigger" : "binding",
+  "evidence" : [ "PB1-F2 binding to PB1" ],
+  "pmc_id" : "3819658",
+  "score" : 0
+}
