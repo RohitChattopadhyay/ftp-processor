@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001816",
+      "entity_text" : "cytokine production",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05362",
+      "entity_text" : "ICAM-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, anti ICAM-1 antibody did not inhibit cytokine production.",
+  "reading_complete" : "2020-08-03T19:01:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:01:02Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "ICAM-1 antibody did not inhibit cytokine production" ],
+  "pmc_id" : "2804092",
+  "score" : 0
+}

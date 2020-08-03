@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05113",
+      "entity_text" : "IL-5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "When the activated epithelial cells were co-cultured with PBMCs, the PBMCs produced lager amounts of TNF-alpha and IL-5.",
+  "reading_complete" : "2020-08-03T19:01:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:01:02Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of TNF-alpha and IL-5" ],
+  "pmc_id" : "2804092",
+  "score" : 0
+}

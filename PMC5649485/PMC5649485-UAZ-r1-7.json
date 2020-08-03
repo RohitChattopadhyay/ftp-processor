@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "A significant amount of reactive oxygen species (ROS) was detected in ammonia treated groups (XREF_FIG).",
+  "reading_complete" : "2020-08-03T19:04:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:01:49Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of reactive oxygen" ],
+  "pmc_id" : "5649485",
+  "score" : 0
+}

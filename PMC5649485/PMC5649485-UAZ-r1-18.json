@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000010" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "An ammonia induced rise in Ca 2+ levels has been found in cultured cells when exposed to this toxin [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T19:04:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:01:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "Ca 2+  levels" ],
+  "pmc_id" : "5649485",
+  "score" : 0
+}

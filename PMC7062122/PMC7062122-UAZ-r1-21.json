@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10407" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "Unlike these results, serum albumin levels were lower in the fibrosis> = 2 group (4.4 vs. 4.3 mg/dl; p = 0.034).",
+  "reading_complete" : "2020-08-03T19:01:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:59:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "serum albumin levels" ],
+  "pmc_id" : "7062122",
+  "score" : 0
+}
