@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaBalpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "The activation of NF-kappaB begins with the phosphorylation of IkappaBalpha, which further causes IkappaBalpha ubiquitinated and degraded eventually.",
+  "reading_complete" : "2020-08-03T17:06:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:05:16Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IkappaBalpha" ],
+  "pmc_id" : "6202089",
+  "score" : 0
+}

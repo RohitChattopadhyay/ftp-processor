@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0115" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Cardiomyocyte death as a result of low oxygen levels is regulated by complex signaling pathways.",
+  "reading_complete" : "2020-08-03T17:08:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:07:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "oxygen levels" ],
+  "pmc_id" : "6984805",
+  "score" : 0
+}

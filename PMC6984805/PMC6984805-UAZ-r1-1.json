@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00425",
+      "entity_text" : "IGF2BP3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04235",
+      "entity_text" : "let-7a-5p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The luciferase assay system was used to confirm the interaction of let-7a-5p and IGF2BP3.",
+  "reading_complete" : "2020-08-03T17:08:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:07:50Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of let-7a-5p and IGF2BP3" ],
+  "pmc_id" : "6984805",
+  "score" : 0
+}

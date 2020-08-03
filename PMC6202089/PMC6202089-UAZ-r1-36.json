@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02315",
+      "entity_text" : "NF-kappaB inhibitors",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Under normal conditions, inhibitory NF-kappaB inhibitors (IkappaBs) bind NF-kappaB in the cytoplasm.",
+  "reading_complete" : "2020-08-03T17:06:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:05:16Z",
+  "trigger" : "bind",
+  "evidence" : [ "NF-kappaB inhibitors (IkappaBs) bind NF-kappaB" ],
+  "pmc_id" : "6202089",
+  "score" : 0
+}

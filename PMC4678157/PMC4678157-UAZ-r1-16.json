@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CA05",
+      "entity_text" : "p62",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14457",
+      "entity_text" : "beclin 1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As shown by western blotting analysis, XC-302 augmented LC3-II and beclin 1 levels, and downregulated p62 in the CNE-2 cells.",
+  "reading_complete" : "2020-08-03T17:06:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:06:07Z",
+  "trigger" : "downregulated",
+  "evidence" : [ "beclin 1 levels, and downregulated p62" ],
+  "pmc_id" : "4678157",
+  "score" : 0
+}

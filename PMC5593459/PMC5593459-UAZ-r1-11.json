@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4628",
+      "entity_text" : "OA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For instance, a study from Prasadam et al demonstrated that p38 MAPK phosphorylation was decreased in OA affected chondrocytes as compared to normal chondrocytes, and that the inactivation of p38 signaling leads to OA like changes in rats.",
+  "reading_complete" : "2020-08-03T17:05:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:04:18Z",
+  "trigger" : "decreased",
+  "evidence" : [ "p38 MAPK phosphorylation was decreased in OA-affected chondrocytes as compared to normal chondrocytes, and that the inactivation of p38 signaling leads to OA" ],
+  "pmc_id" : "5593459",
+  "score" : 0
+}
