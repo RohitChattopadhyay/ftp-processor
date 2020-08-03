@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06022",
+      "entity_text" : "late IgG antibody",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31994",
+      "entity_text" : "FcgammaRIIb",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It controls the magnitude and persistence of antibody responses through effects on mature B-cells, memory B-cells, and plasma cells.9 In mice, over-expression of FcgammaRIIb has been found to lead to reduced serum IgG levels and suppression of late IgG antibody responses.10 Therefore, we examined the expression of FcgammaRIIb on monocytes, as previously described.11 This was found to be normal.",
+  "reading_complete" : "2020-08-03T16:58:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:57:38Z",
+  "trigger" : "suppression",
+  "evidence" : [ "FcgammaRIIb has been found to lead to reduced serum IgG levels and suppression of late IgG antibody" ],
+  "pmc_id" : "6293131",
+  "score" : 0
+}
