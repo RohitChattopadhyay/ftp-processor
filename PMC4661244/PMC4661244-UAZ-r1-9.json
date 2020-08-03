@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53297327",
+      "entity_text" : "kanamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0478" ]
+    }
+  },
+  "verbose_text" : "Amikacin is a semisynthetic aminoglycoside produced by the acetylation of kanamycin A.",
+  "reading_complete" : "2020-08-03T18:03:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:32Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of kanamycin" ],
+  "pmc_id" : "4661244",
+  "score" : 0
+}
