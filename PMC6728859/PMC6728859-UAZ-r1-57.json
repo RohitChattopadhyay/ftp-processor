@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48023",
+      "entity_text" : "FasL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "It is known that infiltration of T cells with high levels of FasL in the graft can induce cell death and consequently graft rejection.",
+  "reading_complete" : "2020-08-03T19:19:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:17:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of FasL" ],
+  "pmc_id" : "6728859",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10141" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0001756" ]
+    }
+  },
+  "verbose_text" : "Yilmaz et al. [XREF_BIBR] demonstrated high levels of serum MDA preoperatively, but low levels of serum SOD, GHPx, retinol, beta-carotene, alpha-tocopherole, lycopene and ascorbic acid in children with ventilation tubes due to adenoidectomy and otitis media with effusion.",
+  "reading_complete" : "2020-08-03T19:17:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:15:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of serum MDA" ],
+  "pmc_id" : "4451549",
+  "score" : 0
+}
