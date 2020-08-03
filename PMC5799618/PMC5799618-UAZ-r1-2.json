@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5920",
+      "entity_text" : "triiodothyronine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The patient was treated with oral anti-hyperthyroidism drugs such as methimazole and propylthiouracil for 3 years, but repeated thyroid function tests during follow-up continued to show elevated levels of free thyroxine and free triiodothyronine acid along with a normal serum thyroid stimulating hormone level.",
+  "reading_complete" : "2020-08-03T14:05:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:05:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of free thyroxine and free triiodothyronine" ],
+  "pmc_id" : "5799618",
+  "score" : 0
+}

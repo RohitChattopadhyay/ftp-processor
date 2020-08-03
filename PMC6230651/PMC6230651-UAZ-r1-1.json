@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11836",
+      "entity_text" : "CD20",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9615" ],
+      "CellType" : [ "cl:CL:0000055" ]
+    }
+  },
+  "verbose_text" : "In most cases, the tumors cells are positive for CD10 and CD24, and the cells have variable expression of CD20 and CD22.5 A study of 123 canine lymphomas, not confined to the ocular region, found three cases of B-LBL and eight cases of T-LBL.",
+  "reading_complete" : "2020-08-03T14:06:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:05:34Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of CD20" ],
+  "pmc_id" : "6230651",
+  "score" : 0
+}

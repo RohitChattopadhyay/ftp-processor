@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24821094",
+      "entity_text" : "ibrutinib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ibrutinib, an orally available Bruton tyrosine kinase inhibitor (BTK), plays a central role in B-cell receptor signaling and impacts homing and adhesion of B cells.19 Clinical studies on the use of ibrutinib in various non-Hodgkin 's malignant B-cell lymphomas have shown encouraging results, particularly in chronic lymphocytic leukemia and mantle cell lymphoma.20 In vitro studies on HCL have shown that ibrutinib inhibits the survival and proliferation of hairy cells.21 A phase II trial is evaluating the use of ibrutinib in patients with relapsed cHCL and vHCL.",
+  "reading_complete" : "2020-08-03T14:03:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:03:20Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "ibrutinib inhibits the survival and proliferation" ],
+  "pmc_id" : "6552962",
+  "score" : 0
+}
