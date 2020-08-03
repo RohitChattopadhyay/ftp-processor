@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5893",
+      "entity_text" : "NAD",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95544",
+      "entity_text" : "NAD kinase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It was reported that the NADPH / NAD ratio is the inverse of the ATP/ADP ratio in guard cell protoplast, which indicates that ATP phosphorylates NAD in the light period by NAD kinase (EC 2.7.1.23) and the generated NADP is reduced to NADPH in the course of photosynthesis [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:36:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:31:49Z",
+  "evidence" : [ "phosphorylates NAD in the light period by NAD kinase" ],
+  "pmc_id" : "2442833",
+  "score" : 0
+}

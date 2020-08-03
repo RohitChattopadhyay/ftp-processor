@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:4530" ]
+    }
+  },
+  "verbose_text" : "In theory, the amount of ATP consumption in the reductive pentose phosphate pathway and the photorespiratory pathway is more than ATP production in the photophosphorylation [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:36:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:31:49Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ATP" ],
+  "pmc_id" : "2442833",
+  "score" : 0
+}
