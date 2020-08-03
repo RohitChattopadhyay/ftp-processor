@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01270",
+      "entity_text" : "parathyroid hormone",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "CellType" : [ "cl:CL:0000081" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Her parathyroid hormone level were below the detection limit.",
+  "reading_complete" : "2020-08-03T17:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:21:22Z",
+  "trigger" : "level",
+  "evidence" : [ "parathyroid hormone level" ],
+  "pmc_id" : "5986046",
+  "score" : 0
+}

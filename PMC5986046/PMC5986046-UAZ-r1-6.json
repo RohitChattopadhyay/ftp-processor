@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:312",
+      "entity_text" : "chloride",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5410" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Additionally, urine loss of chloride and magnesium was inappropriately induced (fractional excretion of chloride; FECl : 2.07% and fractional excretion of magnesium; FEMg; 16.2% at the next day after admission), whereas urine calcium loss was not obvious at admission (urine calcium / creatinine ratio : 0.09 mg/mg at admission and 0.26 mg/mg on the next day).",
+  "reading_complete" : "2020-08-03T17:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:21:22Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of chloride" ],
+  "pmc_id" : "5986046",
+  "score" : 0
+}

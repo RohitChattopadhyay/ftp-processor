@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3121",
+      "entity_text" : "valproate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "She had been prescribed sodium valproate until approximately 2 weeks prior to admission to this hospital; the final monitoring for the valproate concentration was performed approximately 6 months ago, and the total valproate level was 77 mug/mL (the therapeutic range; 50-100 mug/mL).",
+  "reading_complete" : "2020-08-03T17:22:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:21:22Z",
+  "trigger" : "level",
+  "evidence" : [ "valproate level" ],
+  "pmc_id" : "5986046",
+  "score" : 0
+}
