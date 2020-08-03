@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "programmed cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02035",
+      "entity_text" : "miRNA-21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We confirmed that berberine down-regulated miRNA-21 expression and significantly up-regulated the expression of programmed cell death 4 (PDCD4), a predicted miR-21 target.",
+  "reading_complete" : "2020-08-03T12:47:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:44:48Z",
+  "trigger" : "up-regulated",
+  "evidence" : [ "miRNA-21 expression and significantly up-regulated the expression of programmed cell death" ],
+  "pmc_id" : "4096730",
+  "score" : 0
+}
