@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:HIF",
+      "entity_text" : "HIF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Furthermore, hypoxia induces HIF which binds to p53 and prevents degradation [XREF_BIBR], which we mimic by decreasing delta.",
+  "reading_complete" : "2020-08-03T10:44:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:41:41Z",
+  "trigger" : "binds",
+  "evidence" : [ "HIF which binds to p53" ],
+  "pmc_id" : "2913930",
+  "score" : 0
+}

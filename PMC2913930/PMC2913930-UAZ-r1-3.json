@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "Mdm2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "Mdm2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A more common real-world stress is DNA damage, which can trigger processes that result in (a) increased auto-ubiquitination of Mdm2, (b) decreased ubiquitination of p53 by Mdm2 and (c) weaker binding of p53-Mdm2 [XREF_BIBR, XREF_BIBR, XREF_BIBR], corresponding in our model to increasing gamma, decreasing delta, and increasing k D.",
+  "reading_complete" : "2020-08-03T10:44:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:41:41Z",
+  "trigger" : "decreased",
+  "evidence" : [ "auto-ubiquitination of Mdm2, (b) decreased ubiquitination of p53 by Mdm2" ],
+  "pmc_id" : "2913930",
+  "score" : 0
+}
