@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:31193",
+      "entity_text" : "CD",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0000047" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because mammalian cells do not express significant amounts of CD, as shown in the present study, 5-FC is not toxic at concentrations that result in strong antimicrobial activity.",
+  "reading_complete" : "2020-08-03T19:15:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:13:43Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of CD" ],
+  "pmc_id" : "3781232",
+  "score" : 0
+}
