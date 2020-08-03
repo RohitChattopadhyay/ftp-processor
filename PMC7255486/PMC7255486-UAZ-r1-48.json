@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01033",
+      "entity_text" : "TIMP-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75581",
+      "entity_text" : "LRP6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The present study has shown that overexpression of LRP6 not only promoted the expression of MMP-2 and MMP-9, but also inhibited the secretion of TIMP-1 and TIMP-2, in trophoblast cells, whereas transfection with siLRP6 led to entirely the opposite effects on gestational choriocarcinoma cells.",
+  "reading_complete" : "2020-08-03T18:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:06:06Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "LRP6 not only promoted the expression of MMP-2 and MMP-9, but also inhibited the secretion of TIMP-1" ],
+  "pmc_id" : "7255486",
+  "score" : 0
+}

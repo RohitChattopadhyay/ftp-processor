@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0500" ],
+      "CellLine" : [ "cellosaurus:CVCL_9T09" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In immortalized human keratinocytes (HaCaT cells), we further proved that Kindlin-1 was necessary for mediating EGF induced activation signals, including integrin beta1 activation, focal adhesion kinase (FAK) phosphorylation and actin re-organization, which finally led to enhanced cell proliferation and migration.",
+  "reading_complete" : "2020-08-03T18:09:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:07:47Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and actin" ],
+  "pmc_id" : "5360437",
+  "score" : 0
+}

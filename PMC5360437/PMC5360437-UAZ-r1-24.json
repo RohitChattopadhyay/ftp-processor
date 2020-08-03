@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BQL6",
+      "entity_text" : "Kindlin-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The fold induction of cell viability following exposure to EGF was quantified as shown in XREF_FIG [EGF (+)/EGF (-)]; Kindlin-1 shRNA repressed cell proliferation compared to the control shRNA group (approximately 45% reduction, lane 3 vs. lane 2).",
+  "reading_complete" : "2020-08-03T18:09:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:07:47Z",
+  "trigger" : "repressed",
+  "evidence" : [ "Kindlin-1 shRNA repressed cell proliferation" ],
+  "pmc_id" : "5360437",
+  "score" : 0
+}

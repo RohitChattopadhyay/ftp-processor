@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17861",
+      "entity_text" : "X-box binding protein-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01723",
+      "entity_text" : "miR-214",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "A previous study indicated that aberrant overexpression of miR-214 may reduce cardiac angiogenesis by targeting X-box binding protein-1 in the maladaptive phase of cardiac hypertrophy.",
+  "reading_complete" : "2020-08-03T18:11:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:10:33Z",
+  "trigger" : "reduce",
+  "evidence" : [ "miR-214 may reduce cardiac angiogenesis by targeting X-box binding protein-1" ],
+  "pmc_id" : "5819922",
+  "score" : 0
+}

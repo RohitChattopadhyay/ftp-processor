@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03973",
+      "entity_text" : "icariin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0006767" ],
+      "CellType" : [ "cl:CL:0000062" ]
+    }
+  },
+  "verbose_text" : "However, recent studies have demonstrated that icariin is enzymatically hydrolyzed, and then subsequently metabolized to desmethyl icaritin and icaritin; desmethyl icaritin is suggested to have more potent pharmacological effects compared with icariin.",
+  "reading_complete" : "2020-08-03T18:10:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:09:57Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "icariin is enzymatically hydrolyzed" ],
+  "pmc_id" : "7015123",
+  "score" : 0
+}

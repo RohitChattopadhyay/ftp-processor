@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0038" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In this study, we also observed FAK phosphorylation in response to EGF stimuli in serum starved normal HaCaT cells, (XREF_FIG), which is consistent with the study by Kim and Kim.",
+  "reading_complete" : "2020-08-03T18:09:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:07:47Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "FAK phosphorylation" ],
+  "pmc_id" : "5360437",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BQL6",
+      "entity_text" : "Kindlin-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0038" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These results implied that EGF evoked both the expression and binding of Kindlin-1 and integrin beta1 (ac), while Kindlin-1 shRNA suppressed this effect.",
+  "reading_complete" : "2020-08-03T18:09:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:07:47Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Kindlin-1 and integrin" ],
+  "pmc_id" : "5360437",
+  "score" : 0
+}

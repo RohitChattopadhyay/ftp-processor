@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14780",
+      "entity_text" : "MMP-9",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01033",
+      "entity_text" : "TIMP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0276" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000351" ]
+    }
+  },
+  "verbose_text" : "On the other hand, specific binding of TIMP-1 to MMP-9, and of TIMP-2 to MMP-2, inhibits the invasion of MMPs, so that the invasive behavior and proliferation of trophoblast cells can be properly controlled, thereby leading to the maintenance of moderate levels of cell invasion.",
+  "reading_complete" : "2020-08-03T18:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:06:06Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of TIMP-1 to MMP-9" ],
+  "pmc_id" : "7255486",
+  "score" : 0
+}
