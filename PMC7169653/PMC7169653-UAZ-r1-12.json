@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Activated p-AKT phosphorylates mTOR directly.",
+  "reading_complete" : "2020-08-03T16:49:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:57Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates mTOR" ],
+  "pmc_id" : "7169653",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Phosphatidylinositol 4-phosphate and phosphatidylinositol 3,4-bisphosphate (PIP2) have a hydroxyl group on the inositol ring, which is activated by PI3K phosphorylation; this produces PIP2 and 3,4,5-inositol (PIP3) independently.",
+  "reading_complete" : "2020-08-03T16:49:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:57Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PI3K phosphorylation" ],
+  "pmc_id" : "7169653",
+  "score" : 0
+}

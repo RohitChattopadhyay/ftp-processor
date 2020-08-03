@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "RB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1893" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0649" ]
+    }
+  },
+  "verbose_text" : "A previous study also demonstrated that continued activation of the Raf/MEK/ERK pathway induces growth arrest, accompanied by changes in cell cycle regulators (decreased RB phosphorylation).",
+  "reading_complete" : "2020-08-03T16:51:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:49:59Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "RB phosphorylation" ],
+  "pmc_id" : "6559318",
+  "score" : 0
+}

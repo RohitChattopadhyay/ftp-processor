@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "When phosphoinositol dependent kinases (PDK) 1 and PDK2 participate in the reaction, AKT is phosphorylated at Ser473 and Thr308, thereby activating and phosphorylating AKT to produce p-AKT, which results in various physiological effects.",
+  "reading_complete" : "2020-08-03T16:49:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:57Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "AKT is phosphorylated at Ser473" ],
+  "pmc_id" : "7169653",
+  "score" : 0
+}
