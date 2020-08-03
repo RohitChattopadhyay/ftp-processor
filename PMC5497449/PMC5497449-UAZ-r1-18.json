@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01133",
+      "entity_text" : "EGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The expression levels of HGF, EGF and GAPDH genes in every sample were determined from the respective standard curve and the analyzed genes ' expression was divided by the GAPDH gene expression to obtain a normalized target value (relative expression level).",
+  "reading_complete" : "2020-08-03T19:49:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:46:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of HGF, EGF" ],
+  "pmc_id" : "5497449",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14210",
+      "entity_text" : "HGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0858" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Unfortunately, the ELISA method does not allow one to distinguish the inactive form of HGF bound in ECM from the biologically active double-chain molecule.",
+  "reading_complete" : "2020-08-03T19:49:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:46:12Z",
+  "trigger" : "bound",
+  "evidence" : [ "HGF bound in ECM" ],
+  "pmc_id" : "5497449",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10407" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "There is evidence that a high expression of PD-1 on T cells induces T cells inactivation, hence blocking PD-1 results in restoring HBV specific immune responses in CD8 T cells [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-03T19:51:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:49:37Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of PD-1" ],
+  "pmc_id" : "5497408",
+  "score" : 0
+}
