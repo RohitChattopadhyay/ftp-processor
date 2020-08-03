@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33670",
+      "entity_text" : "PtsN",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439709",
+      "entity_text" : "Fru",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Phosphorylation of PtsN by PTS Fru was restricted to conditions in which the PTS Fru was active [XREF_BIBR], i.e. it only occurred when cells were grown on fructose, but not on carbon sources that enter the central carbon degradation pathway below the level of glycolysis, like succinate.",
+  "reading_complete" : "2020-08-03T18:55:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:50:33Z",
+  "evidence" : [ "Phosphorylation of PtsN by PTS Fru" ],
+  "pmc_id" : "3562155",
+  "score" : 0
+}

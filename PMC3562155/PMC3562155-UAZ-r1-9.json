@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O31714",
+      "entity_text" : "FruB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:303" ]
+    }
+  },
+  "verbose_text" : "The high affinity leads to a high phosphorylation of FruB, 99%, hence, the substrate, unphosphorylated FruB, is rare and consequently, the flux r 4 is low.",
+  "reading_complete" : "2020-08-03T18:55:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:50:33Z",
+  "trigger" : "unphosphorylated",
+  "evidence" : [ "unphosphorylated FruB" ],
+  "pmc_id" : "3562155",
+  "score" : 0
+}
