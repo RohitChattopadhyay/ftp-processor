@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01270",
+      "entity_text" : "PTH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1229" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0003672" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A typical radiological presentation of the giant cell tumor should be completed by measurement of calcium, phosphorus, and PTH serum levels.",
+  "reading_complete" : "2020-08-03T14:30:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:28:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "PTH serum levels" ],
+  "pmc_id" : "5925163",
+  "score" : 0
+}
