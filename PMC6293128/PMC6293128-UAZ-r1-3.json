@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06376",
+      "entity_text" : "RANKL-RANK",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06372",
+      "entity_text" : "denosumab",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Prevention of RANKL-RANK interaction by denosumab inhibits osteoclast differentiation, function, and survival, thereby decreasing bone resorption.12 We report two cases where denosumab was used to treat DSO where other treatment options were unsuccessful, and we use these cases to discuss limitations of the treatment options.",
+  "reading_complete" : "2020-08-03T17:33:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:32:29Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "RANKL-RANK interaction by denosumab inhibits osteoclast differentiation" ],
+  "pmc_id" : "6293128",
+  "score" : 0
+}
