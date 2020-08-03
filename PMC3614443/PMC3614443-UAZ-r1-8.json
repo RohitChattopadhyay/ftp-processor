@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9FNB0",
+      "entity_text" : "ABAR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23749",
+      "entity_text" : "ABA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Organ" : [ "uberon:UBERON:2000106" ]
+    }
+  },
+  "verbose_text" : "The accumulation of ABA - ABAR complex in the day time leads to inactivation of PP2C and activation of SnRK2, with the peak of SnRK2 activity in the afternoon (Additional file XREF_SUPPLEMENTARY : Figure S1).",
+  "reading_complete" : "2020-08-03T18:50:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:41:34Z",
+  "trigger" : "complex",
+  "evidence" : [ "ABA-ABAR complex" ],
+  "pmc_id" : "3614443",
+  "score" : 0
+}
