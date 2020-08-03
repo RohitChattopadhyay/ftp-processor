@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "Among those with known vital status at 12 weeks, deceased participants had significantly lower BMI, CD4 + lymphocyte counts, serum albumin levels, and serum phosphate levels, but higher inflammation biomarkers (serum hsCRP and ferritin), compared to survivors (P < 0.01 for all comparisons).",
+  "reading_complete" : "2020-08-03T15:27:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:22:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "phosphate levels" ],
+  "pmc_id" : "3652146",
+  "score" : 0
+}
