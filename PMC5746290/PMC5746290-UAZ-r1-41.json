@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12830",
+      "entity_text" : "E-cadherin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Xiong et al also reported that AG490 significantly suppressed STAT3 activation; consequently, AG490 treatment upregulated E-cadherin expression but reduced the invasion of tumor cells in colorectal cancer.",
+  "reading_complete" : "2020-08-03T17:12:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:11:29Z",
+  "trigger" : "reduced",
+  "evidence" : [ "E-cadherin expression but reduced the invasion" ],
+  "pmc_id" : "5746290",
+  "score" : 0
+}

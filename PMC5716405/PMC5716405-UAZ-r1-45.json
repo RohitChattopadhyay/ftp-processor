@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06945",
+      "entity_text" : "SOX4",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000322" ]
+    }
+  },
+  "verbose_text" : "On day 1, the level of SOX4 expression was not different between the model and control groups, at both the mRNA and protein level.",
+  "reading_complete" : "2020-08-03T17:12:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:12:05Z",
+  "trigger" : "expression",
+  "evidence" : [ "SOX4 expression" ],
+  "pmc_id" : "5716405",
+  "score" : 0
+}

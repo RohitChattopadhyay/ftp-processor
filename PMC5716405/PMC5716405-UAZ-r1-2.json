@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone_H3",
+      "entity_text" : "histone 3",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04287",
+      "entity_text" : "H3K27me3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "EZH2 epigenetically silences gene expression through the trimethylation of histone 3 lysine 27 (H3K27me3), and has been implicated in several types of cancer.",
+  "reading_complete" : "2020-08-03T17:12:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:12:05Z",
+  "evidence" : [ "trimethylation of histone 3 lysine 27 (H3K27me3" ],
+  "pmc_id" : "5716405",
+  "score" : 0
+}
