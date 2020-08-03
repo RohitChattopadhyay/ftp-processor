@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09619",
+      "entity_text" : "PDGFR-beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000134" ]
+    }
+  },
+  "verbose_text" : "Moreover, it has been shown that after experiencing hyoxia, the expression levels of PDGF-BB and PDGFR-beta were increased in the lung tissue, which suggested that PDGF participates in hyperoxia induced lung injury.",
+  "reading_complete" : "2020-08-03T16:30:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:28:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PDGF-BB and PDGFR-beta" ],
+  "pmc_id" : "5179184",
+  "score" : 0
+}

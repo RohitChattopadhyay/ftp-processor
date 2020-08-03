@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6802",
+      "entity_text" : "ribonucleoside",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1044",
+      "entity_text" : "purine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000134" ]
+    }
+  },
+  "verbose_text" : "According to the enrichment points, we selected the top 10 molecular functions (XREF_FIG) : binding, protein binding, catalytic activity, ribonucleotide binding, purine nucleotide binding, small molecule binding, purine ribonucleoside triphosphate binding, nucleoside phosphate binding and nucleoside binding.",
+  "reading_complete" : "2020-08-03T16:30:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:28:29Z",
+  "trigger" : "binding",
+  "evidence" : [ "purine ribonucleoside triphosphate binding" ],
+  "pmc_id" : "5179184",
+  "score" : 0
+}
