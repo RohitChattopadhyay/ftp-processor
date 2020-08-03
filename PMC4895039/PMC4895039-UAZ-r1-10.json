@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "Organ" : [ "uberon:UBERON:0001882" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "These in vivo microdialysis experiments showed increased basal levels of dopamine and their metabolites (DOPAC and HVA), in rats subjected to a fatty-acid-deficient diet, as compared to controls, indicating alterations in the dopaminergic neurotransmission in the nucleus accumbens.",
+  "reading_complete" : "2020-08-03T14:58:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:52:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of dopamine" ],
+  "pmc_id" : "4895039",
+  "score" : 0
+}
