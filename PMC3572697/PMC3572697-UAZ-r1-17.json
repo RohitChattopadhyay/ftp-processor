@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "insulin receptor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0933" ]
+    }
+  },
+  "verbose_text" : "PTP-1B is present in liver and skeletal muscle and has been shown to negatively modulate insulin 's action on hepatic glucose metabolism through tyrosine dephosphorylation of the insulin receptor and/or insulin receptor substrates.",
+  "reading_complete" : "2020-08-03T09:48:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:45:24Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "tyrosine dephosphorylation of the insulin receptor" ],
+  "pmc_id" : "3572697",
+  "score" : 0
+}
