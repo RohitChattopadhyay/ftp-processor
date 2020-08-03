@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09919",
+      "entity_text" : "G-CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "In our case, the serum G-CSF level was elevated, and an immunohistochemical examination showed the cytoplasm of cancer cells to be stained for G-CSF.",
+  "reading_complete" : "2020-08-03T17:07:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:07:14Z",
+  "trigger" : "level",
+  "evidence" : [ "G-CSF level" ],
+  "pmc_id" : "5378863",
+  "score" : 0
+}

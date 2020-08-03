@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ],
+      "Organ" : [ "uberon:UBERON:0000120" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Cilostazol is a selective and potent inhibitor of phosphodiesterase (PDE) 3A, which limits the intracellular cAMP levels by catalyzing hydrolysis of cAMP to inactive 5 '-AMP.",
+  "reading_complete" : "2020-08-03T17:07:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:06:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "cAMP levels" ],
+  "pmc_id" : "5799642",
+  "score" : 0
+}

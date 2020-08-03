@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09919",
+      "entity_text" : "G-CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0700" ],
+      "Organ" : [ "uberon:UBERON:0004548" ]
+    }
+  },
+  "verbose_text" : "During the treatment, the WBC count and serum G-CSF level shifted as shown in Fig. XREF_FIG.",
+  "reading_complete" : "2020-08-03T17:07:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:07:14Z",
+  "trigger" : "level",
+  "evidence" : [ "G-CSF level" ],
+  "pmc_id" : "5378863",
+  "score" : 0
+}
