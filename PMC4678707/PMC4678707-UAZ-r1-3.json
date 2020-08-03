@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "IR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Upon insulin binding, a series of processes follow, including endocytosis of the IR - insulin complex, endosomal processing, sequestration of ligand (insulin) from the receptor, receptor inactivation as well as receptor recycling to the cell surface [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:25:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:19:08Z",
+  "trigger" : "complex",
+  "evidence" : [ "IR-insulin complex" ],
+  "pmc_id" : "4678707",
+  "score" : 0
+}

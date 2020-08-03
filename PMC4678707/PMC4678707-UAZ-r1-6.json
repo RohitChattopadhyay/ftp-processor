@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "IR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "The state equations of the general five-compartment model are given as follows [XREF_BIBR] 46x 1 =p 12x2+ p15x5-p21u+ p51x1x 2 =p 21ux1-p12+ p32x2x 3 =p 32x2-p43x3x 4 =p 43x3-p54x4x 5 =p 51x1+ p54x4-p15x5where the state variables denote the concentrations of the components, with x 1 as unbound surface IR, x 2 as bound surface IR, x 3 as bound phosphorylated surface IR, x 4 as bound phosphorylated internalized IR, and x 5 as unbound internalized IR.",
+  "reading_complete" : "2020-08-03T11:25:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:19:08Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated surface IR" ],
+  "pmc_id" : "4678707",
+  "score" : 0
+}

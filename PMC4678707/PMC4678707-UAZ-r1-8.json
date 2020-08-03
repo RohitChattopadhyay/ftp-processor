@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "IR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "This model describes the endosomal trafficking dynamics of hepatic insulin receptor consisting of IR autophosphorylation after receptor binding, IR endosomal internalization and trafficking, insulin dissociation from and dephosphorylation of internalized IR, and finally recycling of the insulin-free, dephosphorylated IR to the plasma membrane [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:25:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:19:08Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of internalized IR" ],
+  "pmc_id" : "4678707",
+  "score" : 0
+}
