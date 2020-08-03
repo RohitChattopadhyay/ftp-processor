@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Cabergoline treatment was effective for normalization of serum IGF-I levels for 6 years.",
+  "reading_complete" : "2020-08-03T16:02:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:02:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "IGF-I levels" ],
+  "pmc_id" : "5412802",
+  "score" : 0
+}
