@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00013",
+      "entity_text" : "protein C.",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IVL6",
+      "entity_text" : "protein B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As an example, consider the following hypothetical scenario : from protein protein interaction data, we find that protein A physically interacts with protein B, and from a signal transduction database one learns that protein B is a kinase that phosphorylates protein C.",
+  "reading_complete" : "2020-08-03T08:44:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T08:40:47Z",
+  "evidence" : [ "protein B is a kinase that phosphorylates protein C." ],
+  "pmc_id" : "3542577",
+  "score" : 0
+}
