@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Renal function test performed 4 months earlier revealed a serum creatinine level of 2.70 mg/dL and an estimated glomerular filtration rate (using the Modification of Diet in Renal Disease equation) of 23 mL/min/1.73 m 2 (stage 4 CKD).",
+  "reading_complete" : "2020-08-03T16:53:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:52:24Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "6452446",
+  "score" : 0
+}

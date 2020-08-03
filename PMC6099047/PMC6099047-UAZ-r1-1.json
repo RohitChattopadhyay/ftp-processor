@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M436" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "In fact, up to 10% of patients with AML undergoing chemotherapy have been reported to exhibit this entity, often associated with early mortality.3 This entity is usually accompanied by elevated ferritin level and triglyceride both of which were present in our patient thus making this pathology likely.",
+  "reading_complete" : "2020-08-03T16:50:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:49:55Z",
+  "trigger" : "level",
+  "evidence" : [ "ferritin level" ],
+  "pmc_id" : "6099047",
+  "score" : 0
+}
