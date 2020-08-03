@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:72715788",
+      "entity_text" : "vancomycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "Monitoring of the levels of antimicrobial drug vancomycin revealed higher peak concentration of the drug than the maximum level, suggesting increased risk of toxicity.",
+  "reading_complete" : "2020-08-03T16:45:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:44:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of antimicrobial drug vancomycin" ],
+  "pmc_id" : "5538054",
+  "score" : 0
+}

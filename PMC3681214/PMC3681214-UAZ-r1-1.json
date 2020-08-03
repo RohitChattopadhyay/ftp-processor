@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0672" ],
+      "Organ" : [ "uberon:UBERON:0002464" ]
+    }
+  },
+  "verbose_text" : "Compression of the arterial blood supply to the nerve results in increased vascular permeability, edema, and ischemia, and the amount of oxygen delivered to the nerve is thereby reduced [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:44:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:43:40Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of oxygen" ],
+  "pmc_id" : "3681214",
+  "score" : 0
+}
