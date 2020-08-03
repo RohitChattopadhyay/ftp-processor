@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0176" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "The integrity of the lipid membrane is important for maintaining cell structure and functionality, and increased levels of oxygen free radicals can lead to disordered cellular structures.",
+  "reading_complete" : "2020-08-03T18:02:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:01:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of oxygen" ],
+  "pmc_id" : "6984776",
+  "score" : 0
+}

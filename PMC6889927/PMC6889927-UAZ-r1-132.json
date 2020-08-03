@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35712",
+      "entity_text" : "SOX6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04813",
+      "entity_text" : "miR-342-3p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Based on the assumption that miR-342-3p directly targets SOX6, a dual-luciferase activity assay was carried out to confirm the targeted association between miR-342-3p and SOX6.",
+  "reading_complete" : "2020-08-03T18:06:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:05:09Z",
+  "trigger" : "association",
+  "evidence" : [ "association between miR-342-3p and SOX6" ],
+  "pmc_id" : "6889927",
+  "score" : 0
+}

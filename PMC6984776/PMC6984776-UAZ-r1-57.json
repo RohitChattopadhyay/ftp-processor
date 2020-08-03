@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "According to the present data, G-Rb3 / Rb2, G-Rb3 and DLZ treatment reduced the levels of IL-6 and TNF-alpha in the blood, thus suggesting that the cardioprotective effects of these drugs may be mediated through their anti-inflammatory properties, and at least in part through the regulation of cardiomyocyte apoptosis via TNF-alpha-mediated activation of the death receptor pathway.",
+  "reading_complete" : "2020-08-03T18:02:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:01:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-6" ],
+  "pmc_id" : "6984776",
+  "score" : 0
+}

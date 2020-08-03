@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12778",
+      "entity_text" : "FOXO1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "SIRT1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, the expression level of SIRT1 was reduced by niacinamide, which also induced the downregulation of QKI 5, FOXO1 and PPARalpha (XREF_FIG).",
+  "reading_complete" : "2020-08-03T18:05:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:04:17Z",
+  "trigger" : "induced",
+  "evidence" : [ "SIRT1 was reduced by niacinamide, which also induced the downregulation of QKI 5, FOXO1" ],
+  "pmc_id" : "6365049",
+  "score" : 0
+}

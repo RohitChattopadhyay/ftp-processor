@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-Kappab",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPKs",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The phosphorylation of ERK, JNK and p38 MAPKs can also activate NF-Kappab.",
+  "reading_complete" : "2020-08-03T18:03:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:02:34Z",
+  "trigger" : "activate",
+  "evidence" : [ "p38 MAPKs can also activate NF-Kappab" ],
+  "pmc_id" : "6202108",
+  "score" : 0
+}

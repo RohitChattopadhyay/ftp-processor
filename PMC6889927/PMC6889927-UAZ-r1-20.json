@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The use of renin / angiotensin axis inhibitors is a widely accepted treatment strategy for DKD, as it decreases the blood glucose levels and blood pressure.",
+  "reading_complete" : "2020-08-03T18:06:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:05:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6889927",
+  "score" : 0
+}
