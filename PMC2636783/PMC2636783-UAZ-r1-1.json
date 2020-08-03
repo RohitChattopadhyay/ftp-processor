@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01731",
+      "entity_text" : "xi=xi1+...+xim",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "This x i equals the sum of all sums of species with phosphorylated binding sites for the effector, xi = xi1+...+ xim.",
+  "reading_complete" : "2020-08-03T12:12:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:59:32Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated binding sites for the effector, xi=xi1+...+xim" ],
+  "pmc_id" : "2636783",
+  "score" : 0
+}
