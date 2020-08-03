@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0392" ],
+      "Organ" : [ "uberon:UBERON:0000344" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Moreover, MTX has been reported to decrease the levels of tGSH and significantly increase the levels of MDA, IL-1beta, and TNF-alpha in the mucosa [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:40:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:38:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MDA" ],
+  "pmc_id" : "5426393",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0718" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The amount of MDA was significantly increased in the MTXG group compared to the HREM, HREG, and HG groups (P < 0.001).",
+  "reading_complete" : "2020-08-03T16:40:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:38:20Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of MDA" ],
+  "pmc_id" : "5426393",
+  "score" : 0
+}
