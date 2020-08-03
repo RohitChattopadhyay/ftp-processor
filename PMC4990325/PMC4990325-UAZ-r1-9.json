@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14191",
+      "entity_text" : "Wrn",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Col4a5 was also downregulated in 5 Wrn-shRNA-incorporated lines and correlated with the decreased Wrn mRNA levels in those cell lines (XREF_FIG), confirming that Wrn is a positive regulator of Col4a5 expression at the transcriptional level.",
+  "reading_complete" : "2020-08-03T17:29:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:28:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "Wrn mRNA levels" ],
+  "pmc_id" : "4990325",
+  "score" : 0
+}

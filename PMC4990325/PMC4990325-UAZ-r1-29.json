@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29400",
+      "entity_text" : "Col4a5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_M130" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The results of RT-qPCR revealed that the Col4a5 mRNA levels in the C51, C52 and C53 cells were decreased to approximately 15-20% of the level observed for the vector-only control (VC) cells (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:29:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:28:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "Col4a5 mRNA levels" ],
+  "pmc_id" : "4990325",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:101179",
+      "entity_text" : "HG",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "First, we observed that HG treatment triggered the dephosphorylation of the PI3K and Akt proteins in H9c2 cardiomyoblasts, in accordance with previous findings.",
+  "reading_complete" : "2020-08-03T17:27:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:22:56Z",
+  "trigger" : "triggered",
+  "evidence" : [ "HG treatment triggered the dephosphorylation of the PI3K" ],
+  "pmc_id" : "5819934",
+  "score" : 0
+}

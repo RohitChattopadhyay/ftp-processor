@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:101179",
+      "entity_text" : "HG",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As shown in XREF_FIG, PI3K / Akt phosphorylation was suppressed by HG treatment compared with the control group, but this effect was abolished when the H9c2 cells were co-treated with Ang-(1-7) and HG.",
+  "reading_complete" : "2020-08-03T17:27:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:22:56Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "Akt phosphorylation was suppressed by HG" ],
+  "pmc_id" : "5819934",
+  "score" : 0
+}

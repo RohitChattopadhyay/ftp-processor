@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0005777" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This presumably reflects the shortcomings of in vitro models, such as the exclusion of other cell types, differences in extracellular matrices, supra-physiological levels of oxygen and the use of heterologous sera.",
+  "reading_complete" : "2020-08-03T17:29:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:28:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of oxygen" ],
+  "pmc_id" : "4990325",
+  "score" : 0
+}

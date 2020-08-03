@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29474",
+      "entity_text" : "eNOS",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "uaz:CVCL_9S75" ],
+      "Organ" : [ "uberon:UBERON:0001637" ]
+    }
+  },
+  "verbose_text" : "The effects of 17-beta-estradiol (E2) and G1 on eNOS phosphorylation in the HUVECs were blocked by the PI3K inhibitor, wortmannin (Wort, 100 nM) (XREF_FIG; P < 0.0001).",
+  "reading_complete" : "2020-08-03T17:30:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:29:35Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "eNOS phosphorylation" ],
+  "pmc_id" : "5428938",
+  "score" : 0
+}

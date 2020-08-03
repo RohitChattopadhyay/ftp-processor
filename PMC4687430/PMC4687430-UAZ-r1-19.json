@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01327",
+      "entity_text" : "IkappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Various inducers, such as TPA, cytokines and stress cause the dissociation of this complex, presumably through IkappaB phosphorylation, which results in NF-kappaB being released from the complex.",
+  "reading_complete" : "2020-08-03T17:28:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:27:56Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "IkappaB phosphorylation" ],
+  "pmc_id" : "4687430",
+  "score" : 0
+}

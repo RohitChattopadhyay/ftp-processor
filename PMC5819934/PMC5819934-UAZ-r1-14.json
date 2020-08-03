@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The data shown in XREF_FIG indicate that exposure of H9c2 cells to 35 mM glucose for 24 h was markedly cytotoxic, decreasing cell viability to 34.7% (P < 0.01) compared with the non treated group.",
+  "reading_complete" : "2020-08-03T17:27:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:22:56Z",
+  "trigger" : "decreasing",
+  "evidence" : [ "glucose for 24 h was markedly cytotoxic, decreasing cell viability" ],
+  "pmc_id" : "5819934",
+  "score" : 0
+}
