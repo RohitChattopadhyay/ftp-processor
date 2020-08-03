@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04698",
+      "entity_text" : "IL-8/IL-1beta/IL-6/IL-10/TNF-alpha/IL-12p",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that only the IL-8 and IL-6 levels increased significantly following stimulation with IL-1beta, independent of IL-8/IL-1beta/IL-6/IL-10/TNF-alpha/IL-12p compound stimulation (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:51:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:50:42Z",
+  "trigger" : "increased",
+  "evidence" : [ "IL-6 levels increased significantly following stimulation with IL-1beta, independent of IL-8/IL-1beta/IL-6/IL-10/TNF-alpha/IL-12p" ],
+  "pmc_id" : "5358692",
+  "score" : 0
+}

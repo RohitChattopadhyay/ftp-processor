@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02485",
+      "entity_text" : "NF-kappaB p65",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The results of western blot analysis revealed that NF-kappaB p65 expression increased in response to IL-1beta (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:51:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:50:42Z",
+  "trigger" : "increased",
+  "evidence" : [ "NF-kappaB p65 expression increased in response to IL-1beta" ],
+  "pmc_id" : "5358692",
+  "score" : 0
+}

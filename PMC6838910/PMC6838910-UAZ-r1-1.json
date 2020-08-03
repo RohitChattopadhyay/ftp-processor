@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "features" : [ {
+        "modification_type" : "glycosylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0985" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For this review, positive coping-was viewed as a positive emotion or action based response to diabetes and defined as an effective coping style that directly impacts better health benefits by lower glycosylated hemoglobin levels in patients with type 2 diabetes [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T17:55:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:50:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "hemoglobin levels" ],
+  "pmc_id" : "6838910",
+  "score" : 0
+}

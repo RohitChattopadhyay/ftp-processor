@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0996" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The level of IL-1beta is significantly higher in the synovial fluid from patients with TMD and chondral damage than in the synovial fluid from asymptomatic volunteers.",
+  "reading_complete" : "2020-08-03T17:51:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:50:42Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IL-1beta" ],
+  "pmc_id" : "5358692",
+  "score" : 0
+}

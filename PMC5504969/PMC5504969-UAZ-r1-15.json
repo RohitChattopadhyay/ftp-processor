@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15796",
+      "entity_text" : "Smad2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Pre-treatment with TGF-beta1 significantly improved the phosphorylation rate of Smad3 (P < 0.05), but had no significant effect on the phosphorylation of Smad2 (P> 0.05).",
+  "reading_complete" : "2020-08-03T17:54:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:53:00Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Smad2" ],
+  "pmc_id" : "5504969",
+  "score" : 0
+}
