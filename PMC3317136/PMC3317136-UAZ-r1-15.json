@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15848",
+      "entity_text" : "adiponectin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Cellular_component" : [ "go:GO:0005777" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "TZDs also block the ability of TNF-alpha to alter the most proximal steps of insulin signaling through the serine phosphorylation of insulin receptor and increase adiponectin expression [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:31:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:25:14Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "serine phosphorylation of insulin receptor and increase adiponectin" ],
+  "pmc_id" : "3317136",
+  "score" : 0
+}
