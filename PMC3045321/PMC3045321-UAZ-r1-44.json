@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q801G2",
+      "entity_text" : "MprA-P",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A double positive feedback loop arises due to the activation of transcription initiation of sigE by MprA-P and the activation of the transcription of the mprAB operon by the SigE - RNAP complex.",
+  "reading_complete" : "2020-08-03T09:21:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:15:18Z",
+  "trigger" : "initiation",
+  "evidence" : [ "transcription initiation of sigE by MprA-P" ],
+  "pmc_id" : "3045321",
+  "score" : 0
+}
