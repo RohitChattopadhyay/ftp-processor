@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "Previous studies have found that high-frequency mechanical ventilation led to elevated levels of TNF-alpha and IL-6 in serum and lung BALF.",
+  "reading_complete" : "2020-08-03T18:13:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:12:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha and IL-6" ],
+  "pmc_id" : "6713421",
+  "score" : 0
+}

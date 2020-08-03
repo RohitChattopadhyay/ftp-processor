@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00066",
+      "entity_text" : "Notch",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "The results showed that the NICD, Hes1, Hes5 and Hey1 mRNA and protein expression levels in the DAPT group were decreased compared with the HVT group (XREF_FIG), indicating that using DAPT could inhibit the levels of Notch pathway related protein.",
+  "reading_complete" : "2020-08-03T18:13:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:12:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Notch" ],
+  "pmc_id" : "6713421",
+  "score" : 0
+}

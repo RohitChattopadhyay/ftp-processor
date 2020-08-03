@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:923",
+      "entity_text" : "sodium",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "On the whole, our findings demonstrate that a relatively high sodium level per se directly promotes the proliferation of VSMCs through the JNK/ERK1/2/PCNA pathway.",
+  "reading_complete" : "2020-08-03T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:13:19Z",
+  "trigger" : "promotes",
+  "evidence" : [ "sodium level per se directly promotes the proliferation" ],
+  "pmc_id" : "4687433",
+  "score" : 0
+}

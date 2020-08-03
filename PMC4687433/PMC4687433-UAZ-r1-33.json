@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Organ" : [ "uberon:UBERON:0002384" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "Moreover, p38 MAPK was phosphorylated (XREF_FIG) at the same time, but played an opposite role (XREF_FIG).",
+  "reading_complete" : "2020-08-03T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:13:19Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "p38 MAPK was phosphorylated" ],
+  "pmc_id" : "4687433",
+  "score" : 0
+}

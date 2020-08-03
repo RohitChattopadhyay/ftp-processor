@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The IL-10 levels in the HVT group and DAPT group were decreased compared with the Con group, however, the IL-10 level in the DAPT group was increased compared with the HVT group (XREF_FIG).",
+  "reading_complete" : "2020-08-03T18:13:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:12:16Z",
+  "trigger" : "level",
+  "evidence" : [ "IL-10 level" ],
+  "pmc_id" : "6713421",
+  "score" : 0
+}

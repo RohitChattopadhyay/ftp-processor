@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1017",
+      "entity_text" : "M2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "For M2 macrophages, the proportions of M2 macrophages in the LVT group and the HVT group were decreased, and the level of M2 macrophages in the HVT group was decreased compared with the LVT group (XREF_FIG), suggesting that mechanical ventilation might induce polarization of macrophages in lung tissue to M1.",
+  "reading_complete" : "2020-08-03T18:13:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:12:16Z",
+  "trigger" : "level",
+  "evidence" : [ "level of M2" ],
+  "pmc_id" : "6713421",
+  "score" : 0
+}

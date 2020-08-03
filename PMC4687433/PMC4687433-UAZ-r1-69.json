@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5360545",
+      "entity_text" : "Na",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1157" ],
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Organ" : [ "uberon:UBERON:0005169" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000359" ]
+    }
+  },
+  "verbose_text" : "This level of Na + concentration could appear both in the renal medulla under physiological conditions and in the skin interstitium due to HSD.",
+  "reading_complete" : "2020-08-03T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:13:19Z",
+  "trigger" : "level",
+  "evidence" : [ "level of Na" ],
+  "pmc_id" : "4687433",
+  "score" : 0
+}

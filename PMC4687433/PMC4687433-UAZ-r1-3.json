@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:923",
+      "entity_text" : "sodium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "At the same time, this induction of the proliferation of VSMCs due to high sodium levels can be maintained at a low level via the activation of p38 MAPK.",
+  "reading_complete" : "2020-08-03T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:13:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "sodium levels" ],
+  "pmc_id" : "4687433",
+  "score" : 0
+}
