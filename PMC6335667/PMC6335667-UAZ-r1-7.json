@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005759" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "During this condition, the liver and kidney are the two organs that have high mitochondrial ROS levels raised abruptly, but the MnSOD level was observed to increase in the liver only.",
+  "reading_complete" : "2020-08-03T10:49:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:44:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "6335667",
+  "score" : 0
+}

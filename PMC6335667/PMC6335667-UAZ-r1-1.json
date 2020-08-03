@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thus, carnosine helps to lower ROS levels which inhibit the formation of AGEs and reduce production of TGFbeta, thereby preventing the risk of nephropathy among the T2DM patients [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T10:49:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:44:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "6335667",
+  "score" : 0
+}
