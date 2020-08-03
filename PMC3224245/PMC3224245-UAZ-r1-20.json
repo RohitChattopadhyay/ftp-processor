@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O85128",
+      "entity_text" : "CheB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "The noise spectrum of CheA-P has generally the same shape as the activity spectrum with a large low-frequency component, mainly due to receptor methylation and CheB phosphorylation dynamics.",
+  "reading_complete" : "2020-08-03T19:36:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:27:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "CheB phosphorylation" ],
+  "pmc_id" : "3224245",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01739",
+      "entity_text" : "CheR",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "The total methylation level M j of a receptor complex j is changed by methylation of receptors in the inactive state by CheR (first term) and demethylation (second term).",
+  "reading_complete" : "2020-08-03T19:36:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:27:54Z",
+  "trigger" : "demethylation",
+  "evidence" : [ "CheR (first term) and demethylation" ],
+  "pmc_id" : "3224245",
+  "score" : 0
+}

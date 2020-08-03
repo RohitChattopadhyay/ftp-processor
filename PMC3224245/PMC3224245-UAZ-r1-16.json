@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21813",
+      "entity_text" : "CheA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "Each step in the signalling pathway is essentially probabilistic, hence, noisy : ligand diffusion and binding, receptor switching between its functional on and off states, as well as receptor methylation and demethylation, phosphorylation and dephosphorylation of signalling proteins CheA, CheY and CheB, and switching of the rotary motor between its two states, CW and CCW rotation.",
+  "reading_complete" : "2020-08-03T19:36:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:27:54Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of signalling proteins CheA" ],
+  "pmc_id" : "3224245",
+  "score" : 0
+}
