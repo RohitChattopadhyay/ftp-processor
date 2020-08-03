@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y620" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0003712" ]
+    }
+  },
+  "verbose_text" : "This was lower than his pretreatment cortisol level, which possibly was a side effect of pasireotide therapy, but this has not been previously described.",
+  "reading_complete" : "2020-08-03T17:28:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:27:22Z",
+  "trigger" : "level",
+  "evidence" : [ "cortisol level" ],
+  "pmc_id" : "6406151",
+  "score" : 0
+}

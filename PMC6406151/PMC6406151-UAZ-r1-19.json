@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01236",
+      "entity_text" : "prolactin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Organ" : [ "uberon:UBERON:0007142" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The prolactin level was markedly elevated (1546.6 mug/L; reference range [RR], 2.1-17.1 mug/L; Figure XREF_FIG A).",
+  "reading_complete" : "2020-08-03T17:28:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:27:22Z",
+  "trigger" : "level",
+  "evidence" : [ "prolactin level" ],
+  "pmc_id" : "6406151",
+  "score" : 0
+}
