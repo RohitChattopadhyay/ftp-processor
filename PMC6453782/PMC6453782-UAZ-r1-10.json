@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "CellType" : [ "cl:CL:0000025" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "After OVA stimulation, the level of IL-10 increased in groups B and C but remained constant in group D (data not shown).",
+  "reading_complete" : "2020-08-03T19:24:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:22:37Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IL-10" ],
+  "pmc_id" : "6453782",
+  "score" : 0
+}

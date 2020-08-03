@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "The diagnostic reference ranges defining the concentrations of serum 25 (OH) D approved in Central Europe indicate : vitamin D deficiency with 25 (OH) D concentrations < 20 ng/ml, suboptimal vitamin D provision with concentrations 20-30 ng/ml, optimal / adequate vitamin D level 30-50 ng/ml, high concentrations / upper norm 50-100 ng/ml, toxic vitamin D concentrations> 100 ng/ml [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T19:22:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:20:05Z",
+  "trigger" : "level",
+  "evidence" : [ "vitamin D level" ],
+  "pmc_id" : "6431090",
+  "score" : 0
+}
