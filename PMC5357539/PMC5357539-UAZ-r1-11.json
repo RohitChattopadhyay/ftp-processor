@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1017",
+      "entity_text" : "M2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "CellType" : [ "cl:CL:0000097" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Beside the high amount of M2 macrophages secreting proinflammatory cytokines and an increase of proinflammatory T cells, neutrophils, and mast cells, the functionality of NK cells is disturbed in obese individuals [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T12:44:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:39:14Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of M2" ],
+  "pmc_id" : "5357539",
+  "score" : 0
+}
