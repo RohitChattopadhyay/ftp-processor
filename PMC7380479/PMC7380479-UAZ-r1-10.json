@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "tumor necrosis factor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0001143" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000091" ]
+    }
+  },
+  "verbose_text" : "Within the first two hours after hepatectomy, the levels of interleukin-6 (IL-6) and tumor necrosis factor alpha (TNF-alpha) increased in the liver vein, associated with activation of Kupffer cells by gut derived factors such as lipopolysaccharide [XREF_BIBR] resulting in TNF-alpha-dependent secretion of IL-6 [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T20:04:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T20:02:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of interleukin-6 (IL-6) and tumor necrosis factor" ],
+  "pmc_id" : "7380479",
+  "score" : 0
+}

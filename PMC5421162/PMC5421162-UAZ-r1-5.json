@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "Creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10376" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Creatinine level was slightly increased at 1.6 mg/dl (normally 0.9 to 1.3), but serum concentrations of sodium, potassium and urea were within normal limits.",
+  "reading_complete" : "2020-08-03T20:02:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T20:01:57Z",
+  "trigger" : "level",
+  "evidence" : [ "Creatinine level" ],
+  "pmc_id" : "5421162",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03051",
+      "entity_text" : "ROM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01583",
+      "entity_text" : "IL-1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0002364" ]
+    }
+  },
+  "verbose_text" : "Previously, only the Finnish study reported an association between IL-1alpha and ROM in children without allergic disorders [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T20:03:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T20:01:07Z",
+  "trigger" : "association",
+  "evidence" : [ "association between IL-1alpha and ROM" ],
+  "pmc_id" : "5951068",
+  "score" : 0
+}

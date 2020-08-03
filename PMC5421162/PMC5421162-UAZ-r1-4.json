@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Despite the therapy the patient 's general condition deteriorated - bilirubin level increased to 56.64 mg/dl, and INR rose to 1.7.",
+  "reading_complete" : "2020-08-03T20:02:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T20:01:57Z",
+  "trigger" : "level",
+  "evidence" : [ "bilirubin level" ],
+  "pmc_id" : "5421162",
+  "score" : 0
+}

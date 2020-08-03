@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14780",
+      "entity_text" : "MMP-9",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5743",
+      "entity_text" : "dexamethasone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As shown in XREF_FIG, dexamethasone decreases IL-1beta-induced MMP-9 activity in a dose dependent manner, while the activity of MMP-2 is not reduced in dexamethasone treated cells.",
+  "reading_complete" : "2020-08-03T20:06:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T20:05:24Z",
+  "trigger" : "decreases",
+  "evidence" : [ "dexamethasone decreases IL-1beta-induced MMP-9" ],
+  "pmc_id" : "4135152",
+  "score" : 0
+}
