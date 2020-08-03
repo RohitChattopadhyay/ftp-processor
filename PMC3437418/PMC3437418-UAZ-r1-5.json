@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281847",
+      "entity_text" : "Rottlerin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While the phosphorylation of ERK1/2 was not inhibited by Calphostin C and Rottlerin after treatment with PMA (XREF_FIG), the phosphorylation of p38 MAPK was inhibited by Calphostin C and Rottlerin after treatment with PMA (XREF_FIG).",
+  "reading_complete" : "2020-08-03T18:57:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:55:29Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "phosphorylation of ERK1/2 was not inhibited by Calphostin C and Rottlerin" ],
+  "pmc_id" : "3437418",
+  "score" : 0
+}

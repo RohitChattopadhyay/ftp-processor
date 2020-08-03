@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The IR in transgenic mice expressing the HCV core, associated with high serum concentrations of TNF-alpha, can be reverted by anti-TNF-alpha antibodies [XREF_BIBR], implying that HCV core expressing hepatocytes secrete TNF-alpha, which may then induce IR via serine phosphorylation of IRS-1.",
+  "reading_complete" : "2020-08-03T18:59:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:49:17Z",
+  "evidence" : [ "TNF-alpha, which may then induce IR via serine phosphorylation of IRS-1" ],
+  "pmc_id" : "5421163",
+  "score" : 0
+}

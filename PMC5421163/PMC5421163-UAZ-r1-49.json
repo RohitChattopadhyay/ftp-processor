@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y4H2",
+      "entity_text" : "IRS-2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11096" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "Activation of the PA28gamma dependent pathway by HCV core protein leads to suppression of IRS-1 tyrosine phosphorylation and IRS-2 expression and TNF-alpha promoter activation [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:59:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:49:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation and IRS-2" ],
+  "pmc_id" : "5421163",
+  "score" : 0
+}

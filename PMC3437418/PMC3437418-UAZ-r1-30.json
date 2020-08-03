@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "extracellular signal-regulated kinase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0455" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0002368" ]
+    }
+  },
+  "verbose_text" : "However, it did not activate phosphorylation of extracellular signal regulated kinase 1/2 (ERK1/2).",
+  "reading_complete" : "2020-08-03T18:57:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:55:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of extracellular signal-regulated kinase" ],
+  "pmc_id" : "3437418",
+  "score" : 0
+}

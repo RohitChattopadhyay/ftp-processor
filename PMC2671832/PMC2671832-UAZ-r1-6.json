@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The reason for the difference of the expression of TGF-beta1 is the decreased inflammation response at the surgical wounds of the Botox group (XREF_FIG).",
+  "reading_complete" : "2020-08-03T18:55:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:54:25Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of TGF-beta1" ],
+  "pmc_id" : "2671832",
+  "score" : 0
+}

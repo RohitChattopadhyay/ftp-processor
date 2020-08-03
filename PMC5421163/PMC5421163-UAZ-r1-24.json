@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IW75",
+      "entity_text" : "vaspin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:11096" ]
+    }
+  },
+  "verbose_text" : "This suggests vaspin to be a compensatory mechanism switching in CHC associated insulin resistance.",
+  "reading_complete" : "2020-08-03T18:59:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:49:17Z",
+  "trigger" : "associated",
+  "evidence" : [ "vaspin to be a compensatory mechanism switching in CHC-associated insulin" ],
+  "pmc_id" : "5421163",
+  "score" : 0
+}

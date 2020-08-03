@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01643",
+      "entity_text" : "mucins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXI7",
+      "entity_text" : "MUC16",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0002368" ]
+    }
+  },
+  "verbose_text" : "MUC16, one of the membrane bound mucins, is produced in human airway epithelial cells.",
+  "reading_complete" : "2020-08-03T18:57:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:55:29Z",
+  "trigger" : "bound",
+  "evidence" : [ "MUC16, one of the membrane-bound mucins" ],
+  "pmc_id" : "3437418",
+  "score" : 0
+}

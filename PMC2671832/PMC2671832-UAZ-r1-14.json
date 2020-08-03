@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The Botox treated group showed a larger wound size, less infiltration of inflammatory cells and less fibrosis, a much greater amount of collagen and a lower expression of TGF-beta1 than that of the control group.",
+  "reading_complete" : "2020-08-03T18:55:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:54:25Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of collagen" ],
+  "pmc_id" : "2671832",
+  "score" : 0
+}

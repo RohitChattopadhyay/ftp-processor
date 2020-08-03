@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37231",
+      "entity_text" : "PPARgamma",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Species" : [ "taxonomy:11096" ]
+    }
+  },
+  "verbose_text" : "On one hand visfatin exerts an insulin like effect, enhancing phosphorylation of IRS-1 and expression of PPARgamma [XREF_BIBR], but on the other hand it potentiates expression of some adhesion molecules, IL-6 and TNF-alpha [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:59:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:49:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IRS-1 and expression of PPARgamma" ],
+  "pmc_id" : "5421163",
+  "score" : 0
+}

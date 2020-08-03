@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Organ" : [ "uberon:UBERON:0001134" ],
+      "Species" : [ "taxonomy:11096" ]
+    }
+  },
+  "verbose_text" : "IR is defined as a condition when normal insulin levels are not sufficient to achieve a normal metabolic response, or a condition when higher-than-normal insulin concentrations are necessary to achieve a suitable metabolic response.",
+  "reading_complete" : "2020-08-03T18:59:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:49:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "5421163",
+  "score" : 0
+}

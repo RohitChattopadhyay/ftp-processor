@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "PMA was found to activate phosphorylation of p38 MAPK.",
+  "reading_complete" : "2020-08-03T18:57:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:55:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of p38 MAPK" ],
+  "pmc_id" : "3437418",
+  "score" : 0
+}

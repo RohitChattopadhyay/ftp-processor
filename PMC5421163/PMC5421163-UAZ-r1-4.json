@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "serine residues",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03868",
+      "entity_text" : "genotype 1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A HCV genotype specific mechanism of impairment of insulin signaling was observed, since expression of the HCV genotype 3 core protein led to downregulation of PPARgamma and upregulation of SOCS-7, while the core protein of genotype 1 activated mTOR and induced phosphorylation of IRS-1 at inhibitory serine residues [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:59:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:49:17Z",
+  "trigger" : "induced",
+  "evidence" : [ "genotype 1 activated mTOR and induced phosphorylation of IRS-1 at inhibitory serine residues" ],
+  "pmc_id" : "5421163",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02174",
+      "entity_text" : "IRS",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:11096" ]
+    }
+  },
+  "verbose_text" : "Insulin binding promotes the receptor autophosphorylation and the subsequent tyrosine phosphorylation of several insulin receptor substrates (IRS) (namely IRS-1 and IRS-2), which initiate a cascade of multifaceted events.",
+  "reading_complete" : "2020-08-03T18:59:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:49:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of several insulin receptor substrates (IRS" ],
+  "pmc_id" : "5421163",
+  "score" : 0
+}
