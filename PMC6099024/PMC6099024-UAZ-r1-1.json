@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:402",
+      "entity_text" : "hydrogen sulfide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1107" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000092" ]
+    }
+  },
+  "verbose_text" : "Hydrogen sulfide is a key messenger in various pathways that coordinate the hypoxic vasodilation / vasoconstriction of vascular beds.7 It also can induce angiogenesis and independently protect cells from ischemia.7 In ESRD, endogenous levels of hydrogen sulfide are reduced, possibly affected by reactive oxygen species or uremia,14 but restoring hydrogen sulfide balance does not seem to be an active focus of patient care in ESRD.",
+  "reading_complete" : "2020-08-03T16:41:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:41:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of hydrogen sulfide" ],
+  "pmc_id" : "6099024",
+  "score" : 0
+}
