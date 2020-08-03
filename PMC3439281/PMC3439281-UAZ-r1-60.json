@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15493",
+      "entity_text" : "RC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C786" ],
+      "Cellular_component" : [ "go:GO:0005657" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Because the timing of our model is fixed, the various state concentrations (RC levels) indicate the progression from licensing to firing.",
+  "reading_complete" : "2020-08-03T18:08:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "RC levels" ],
+  "pmc_id" : "3439281",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13257",
+      "entity_text" : "Mad2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "When it reaches a threshold value, DNA synthesis is presumed to have begun, and triggers an increase in the value of the parameter k mad2 (activity level of the Mad2 protein) leading to an inactivation of Cdc20, which is required for mitotic exit.",
+  "reading_complete" : "2020-08-03T18:08:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:17Z",
+  "trigger" : "level",
+  "evidence" : [ "level of the Mad2" ],
+  "pmc_id" : "3439281",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CDK",
+      "entity_text" : "CDK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C789" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "To simplify the description of the phosphorylation of ORC by CDK (RC7), we do not describe phosporylation and dephosphorylation explicitly, but combine them into a single dephosphorylation event whose rate is inversely proportional to the level of CDK (v 17).",
+  "reading_complete" : "2020-08-03T18:08:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:17Z",
+  "trigger" : "level",
+  "evidence" : [ "level of CDK" ],
+  "pmc_id" : "3439281",
+  "score" : 0
+}

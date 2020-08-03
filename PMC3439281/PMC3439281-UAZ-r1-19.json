@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08639",
+      "entity_text" : "Sld3",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "cyclin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The phosphorylation of MCM by DDK is coincident with the phosphorylation of the protein factors Sld2 and Sld3 by Clb5-Cdc28, a cyclin dependent kinase (CDK) complex, the activity of which rises just prior to S-phase entry.",
+  "reading_complete" : "2020-08-03T18:08:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:17Z",
+  "evidence" : [ "phosphorylation of the protein factors Sld2 and Sld3 by Clb5-Cdc28, a cyclin" ],
+  "pmc_id" : "3439281",
+  "score" : 0
+}

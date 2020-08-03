@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33993",
+      "entity_text" : "Mcm2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBU7",
+      "entity_text" : "Dbf4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C786" ],
+      "Cellular_component" : [ "go:GO:0005657" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Jones et al. [XREF_BIBR] showed that the interaction between the MCM complex and Dbf4 was reduced to half its wild-type level when a Dbf4 domain that binds Mcm2 was mutated, impairing S-phase progression.",
+  "reading_complete" : "2020-08-03T18:08:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:17Z",
+  "trigger" : "binds",
+  "evidence" : [ "Dbf4 domain that binds Mcm2" ],
+  "pmc_id" : "3439281",
+  "score" : 0
+}

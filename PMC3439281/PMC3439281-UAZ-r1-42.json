@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00311",
+      "entity_text" : "Cdc7",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBU7",
+      "entity_text" : "Dbf4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005657" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The same is true for Dbf4, although in this case its role in activation of the Cdc7 kinase renders the system highly sensitive to its concentration; firing cannot occur without the Dbf4 - Cdc7 complex.",
+  "reading_complete" : "2020-08-03T18:08:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:17Z",
+  "trigger" : "complex",
+  "evidence" : [ "Dbf4-Cdc7 complex" ],
+  "pmc_id" : "3439281",
+  "score" : 0
+}

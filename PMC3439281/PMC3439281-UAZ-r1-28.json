@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H211",
+      "entity_text" : "Cdt1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22033",
+      "entity_text" : "MCM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C784" ],
+      "Cellular_component" : [ "go:GO:0031965" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "RC1 (Replication complex, state 1) : origin bound ORC RC2 : origin bound ORC associated with CDC6 RC3 : origin bound ORC associated with CDC6, with MCM loaded RC4 : origin bound ORC, with MCM loaded RC5 : origin bound ORC, with MCM loaded and DBF4 associated RC6 : origin bound ORC, with MCM loaded and DBF4 and CDC45 associated RC7 : origin bound phosphorylated ORC FORK : the elongation fork, with MCM and CDC45 associated CDC6N : non chromatin associated nuclear Cdc6 DBF4N : non chromatin associated nuclear Dbf4 CDC45N : non chromatin associated nuclear Cdc45 MCMC : cytosolic MCM CDT1C : cytosolic CDT1 MCM.CDT1N : non chromatin associated nuclear MCM bound to Cdt1 CDT1N : non chromatin associated nuclear Cdt1 MCMN : non chromatin associated nuclear MCM The MCM species corresponds to dimers of Mcm2-7 heterohexamers, as two complexes are loaded at each origin.",
+  "reading_complete" : "2020-08-03T18:08:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:17Z",
+  "trigger" : "bound",
+  "evidence" : [ "MCM bound to Cdt1" ],
+  "pmc_id" : "3439281",
+  "score" : 0
+}
