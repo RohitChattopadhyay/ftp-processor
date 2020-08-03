@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281915",
+      "entity_text" : "CoQ10",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0002495" ],
+      "CellType" : [ "cl:CL:0000899" ]
+    }
+  },
+  "verbose_text" : "Nitrogen bisphosphonate use has also been shown to decrease serum antioxidant vitamin E and CoQ10 levels in postmenopausal women [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:28:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:22:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "CoQ10 levels" ],
+  "pmc_id" : "6327261",
+  "score" : 0
+}

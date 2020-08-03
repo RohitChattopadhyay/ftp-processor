@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5991",
+      "entity_text" : "estrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "CellType" : [ "cl:CL:0000092" ]
+    }
+  },
+  "verbose_text" : "When estrogen levels are low, osteoprotegerin is also low which leads to increased bone resorption.",
+  "reading_complete" : "2020-08-03T16:28:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:22:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "estrogen levels" ],
+  "pmc_id" : "6327261",
+  "score" : 0
+}
