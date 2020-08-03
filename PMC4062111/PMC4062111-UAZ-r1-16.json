@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00138",
+      "entity_text" : "Lamp2a receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0019" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Organ" : [ "uberon:UBERON:0006108" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The model has been validated by ASYN overexpression data from SH-SY5Y cells and predicted behaviors that indicate increased cell survival probability in three hypothesized intervention scenarios : halved production rate of ASYN, triplication of Lamp2a receptor levels in the lysosome, and cut-off of dopamine production.",
+  "reading_complete" : "2020-08-03T09:01:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T08:56:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "Lamp2a receptor levels" ],
+  "pmc_id" : "4062111",
+  "score" : 0
+}
