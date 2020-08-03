@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "All the reactions except GTP hydrolysis (RT--> RD, RTA--> RDA, RTE--> RDE) are reversible.",
+  "reading_complete" : "2020-08-03T12:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:29:04Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "GTP hydrolysis" ],
+  "pmc_id" : "3878955",
+  "score" : 0
+}
