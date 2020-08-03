@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0933" ]
+    }
+  },
+  "verbose_text" : "As previously mentioned, catecholamines and adiponectin facilitate PGC-1alpha activity by promoting its expression, and insulin inhibits PGC-1alpha through downstream phosphorylation, all independent of AMPK.",
+  "reading_complete" : "2020-08-03T10:30:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:48:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation, all independent of AMPK" ],
+  "pmc_id" : "5828461",
+  "score" : 0
+}

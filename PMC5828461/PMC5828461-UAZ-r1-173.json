@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "A decline in ATP implies a relative increase in AMP and ADP, which would facilitate AMPK phosphorylation and activation.",
+  "reading_complete" : "2020-08-03T10:30:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:48:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "AMPK phosphorylation" ],
+  "pmc_id" : "5828461",
+  "score" : 0
+}

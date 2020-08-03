@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3013625",
+      "entity_text" : "GP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B0C5D4",
+      "entity_text" : "FPG",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The levels of FPG in the control group were slightly reduced to 0.2 +/- 1.5 versus 1.9 +/- 1.0 mmol/L in GP group (P < 0.001), and the effect on FPG was reversed after exchanging treatments.",
+  "reading_complete" : "2020-08-03T09:48:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:45:24Z",
+  "trigger" : "reduced",
+  "evidence" : [ "FPG in the control group were slightly reduced to 0.2 +/- 1.5 versus 1.9 +/- 1.0 mmol/L in GP" ],
+  "pmc_id" : "3572697",
+  "score" : 0
+}

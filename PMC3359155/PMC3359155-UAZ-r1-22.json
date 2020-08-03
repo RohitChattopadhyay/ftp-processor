@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00973",
+      "entity_text" : "alphaCaMKII",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Cellular_component" : [ "go:GO:0045202" ]
+    }
+  },
+  "verbose_text" : "Using this analytical expression we explain how the loss of alphaCaMKII in synapses due to protein degradation is balanced by synthesis of new alphaCaMKII molecules.",
+  "reading_complete" : "2020-08-03T10:48:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:44:41Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of alphaCaMKII" ],
+  "pmc_id" : "3359155",
+  "score" : 0
+}

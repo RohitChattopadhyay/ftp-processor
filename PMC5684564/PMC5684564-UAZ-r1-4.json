@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:586",
+      "entity_text" : "creatine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9615" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "Most creatine is phosphorylated and stored as phosphocreatine in skeletal muscle, where it is used to replenish ATP concentrations.",
+  "reading_complete" : "2020-08-03T11:33:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:27:56Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "creatine is phosphorylated" ],
+  "pmc_id" : "5684564",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The evaluation at baseline included detailed medical history and clinical examination, fasting plasma glucose (FPG) and oral glucose tolerance test, (OGTT), HbA 1C, livers and renal function tests, fasting lipid profile, and plasma insulin level.",
+  "reading_complete" : "2020-08-03T09:48:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:45:24Z",
+  "trigger" : "level",
+  "evidence" : [ "insulin level" ],
+  "pmc_id" : "3572697",
+  "score" : 0
+}

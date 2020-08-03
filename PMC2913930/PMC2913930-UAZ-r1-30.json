@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "Mdm2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8N726",
+      "entity_text" : "ARF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "They lead to increased transcription of ARF, which binds to Mdm2 and inhibits its E3 ligase activity [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T10:44:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:41:41Z",
+  "trigger" : "binds",
+  "evidence" : [ "ARF, which binds to Mdm2" ],
+  "pmc_id" : "2913930",
+  "score" : 0
+}

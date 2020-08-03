@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55211",
+      "entity_text" : "caspase-9",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09923",
+      "entity_text" : "IAP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Solving the differential equation dCCD95Rdt =-kLR.CCD95R.CCD95L, we obtained the analytical function for the receptor concentration : (14) CCD95R = R0-L01-L0/R0.exp-kLR.R0-L0.t The module of caspase-9 activation consisted of 19 species and 14 reactions (besides the reactions of degradation) including activation of caspase-9 triggered by cytochrome C, cleavage / activation of Bid by caspases-2 and -8, IAP inhibition of caspase-9 activity and binding of inhibitors by Smac (br15-br26, br35, br38).",
+  "reading_complete" : "2020-08-03T09:41:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:37:45Z",
+  "trigger" : "inhibition",
+  "evidence" : [ "IAP inhibition of caspase-9" ],
+  "pmc_id" : "3626841",
+  "score" : 0
+}

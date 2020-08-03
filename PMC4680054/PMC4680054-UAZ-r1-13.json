@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "ethanol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0003481" ]
+    }
+  },
+  "verbose_text" : "The amount of ethanol in the blood and residual ethanol in the stomach was determined using headspace gas chromatography, as previously described [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:44:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:42:32Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ethanol" ],
+  "pmc_id" : "4680054",
+  "score" : 0
+}

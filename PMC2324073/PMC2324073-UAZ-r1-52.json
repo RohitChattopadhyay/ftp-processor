@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13972",
+      "entity_text" : "tetR",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10646",
+      "entity_text" : "lacI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "On the other hand, in presence of inducer IPTG, the activity of protein lacI is suppressed which enables expression tetR from P lac1 promoter.",
+  "reading_complete" : "2020-08-03T09:46:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:41:41Z",
+  "trigger" : "enables",
+  "evidence" : [ "lacI is suppressed which enables expression tetR" ],
+  "pmc_id" : "2324073",
+  "score" : 0
+}

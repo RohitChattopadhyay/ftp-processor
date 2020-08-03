@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40126",
+      "entity_text" : "dt",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The specific growth rate at time t is given by 1N (t) dN (t) dt where N (t) is the number of mycobacterial cells at time t. Nutrient depletion limits growth and proliferation and culminates in the activation of stress response genes.",
+  "reading_complete" : "2020-08-03T09:21:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:15:18Z",
+  "trigger" : "limits",
+  "evidence" : [ "dt where N(t) is the number of mycobacterial cells at time t. Nutrient depletion limits growth and proliferation" ],
+  "pmc_id" : "3045321",
+  "score" : 0
+}

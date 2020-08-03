@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "This suggests that the inhibition occurs very early in the glycolysis pathway, either at glucose transport or its phosphorylation, although additional experimentation will be required to confirm this hypothesis given the labile nature of glucose-6-phosphate.",
+  "reading_complete" : "2020-08-03T10:34:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:30:22Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "glucose transport or its phosphorylation" ],
+  "pmc_id" : "4518999",
+  "score" : 0
+}

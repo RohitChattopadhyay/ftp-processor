@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The lack of lactate dehydrogenase can potentially attribute to the macroscopic observation of high levels of lactate in the blood of obese diabetics, as compared to normal obese individuals [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:38:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:35:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of lactate" ],
+  "pmc_id" : "3219569",
+  "score" : 0
+}

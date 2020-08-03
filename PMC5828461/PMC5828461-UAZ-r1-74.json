@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Given the central role of mitochondria in oxidative phosphorylation and ROS production, the overlap between bioenergetic and antioxidant signaling is not surprising and is possibly an outcome of evolution favoring efficiency.",
+  "reading_complete" : "2020-08-03T10:30:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:48:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and ROS" ],
+  "pmc_id" : "5828461",
+  "score" : 0
+}

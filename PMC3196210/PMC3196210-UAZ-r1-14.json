@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00327",
+      "entity_text" : "BMAL1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15516",
+      "entity_text" : "CLOCK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The transcription of PER and CRY is stimulated by the CLOCK - BMAL1 heterodimer bound to the E-box enhancer as illustrated in Figure XREF_FIG B.",
+  "reading_complete" : "2020-08-03T09:55:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:52:45Z",
+  "trigger" : "heterodimer",
+  "evidence" : [ "CLOCK-BMAL1 heterodimer" ],
+  "pmc_id" : "3196210",
+  "score" : 0
+}

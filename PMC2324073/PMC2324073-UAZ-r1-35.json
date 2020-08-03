@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10646",
+      "entity_text" : "lacI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Maximize Z =((PlacIaTC-PlacIIPTGPlacIaTC) + (PtetRIPTG-PtetRaTcPtetRIPTG))/2 In Eq 1.1, PlacIaTC, PtetRaTC represent the levels of transcripts lacI and tetR in presence of inducer aTc and similarly, PlacIIPTG, PtetRIPTG represent the levels of lacI and tetR in presence of inducer IPTG respectively.",
+  "reading_complete" : "2020-08-03T09:46:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:41:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of transcripts lacI" ],
+  "pmc_id" : "2324073",
+  "score" : 0
+}

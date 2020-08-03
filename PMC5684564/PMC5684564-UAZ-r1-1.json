@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9615" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "Dogs with increased body weight have increased urinary creatinine excretion, suggesting increased creatine turnover, consistent with the higher levels of creatinine in larger dogs noted in our study [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:33:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:27:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of creatinine" ],
+  "pmc_id" : "5684564",
+  "score" : 0
+}

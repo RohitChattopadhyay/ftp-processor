@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q801G2",
+      "entity_text" : "MprA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TEZ7",
+      "entity_text" : "MprB-P",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The phosphorylated MprB-P phosphorylates MprA via phosphotransfer reactions.",
+  "reading_complete" : "2020-08-03T09:21:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:15:18Z",
+  "evidence" : [ "MprB-P phosphorylates MprA" ],
+  "pmc_id" : "3045321",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7408104",
+      "entity_text" : "HM",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The HM imports alanine and produces both glucose and urea.",
+  "reading_complete" : "2020-08-03T11:38:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:35:35Z",
+  "trigger" : "produces",
+  "evidence" : [ "HM imports alanine and produces both glucose" ],
+  "pmc_id" : "3219569",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Blood samples of fasting subjects were taken before, during (every second week for ten weeks), and after the treatment course for measurement of plasma glucose, HbA 1C, liver transferase (ALT, AST), BUN, creatinine, lipid profiles, and insulin levels.",
+  "reading_complete" : "2020-08-03T09:48:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:45:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "3572697",
+  "score" : 0
+}

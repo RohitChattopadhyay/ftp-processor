@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The absence of lactate dehydrogenase in diabetic patients is a potential metabolic mechanism for higher levels of lactate in the blood as the liver and muscle are unable to utilize lactate as a carbohydrate source.",
+  "reading_complete" : "2020-08-03T11:38:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:35:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of lactate" ],
+  "pmc_id" : "3219569",
+  "score" : 0
+}

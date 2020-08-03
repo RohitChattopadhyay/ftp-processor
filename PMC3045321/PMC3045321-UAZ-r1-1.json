@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "autophosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TEZ7",
+      "entity_text" : "MprB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00222",
+      "entity_text" : "mprAB operon",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "On activation of the mprAB operon, MprB autophosphorylates itself with poly P serving as the phosphate donor [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T09:21:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:15:18Z",
+  "trigger" : "activation",
+  "evidence" : [ "activation of the mprAB operon, MprB autophosphorylates" ],
+  "pmc_id" : "3045321",
+  "score" : 0
+}

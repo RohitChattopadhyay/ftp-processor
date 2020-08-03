@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E034" ],
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "While stomatal opening is required for the uptake of carbon dioxide, open stomata facilitate evaporative loss of water from the plant (i.e., transpiration).",
+  "reading_complete" : "2020-08-03T10:00:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:54:35Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of water" ],
+  "pmc_id" : "4037934",
+  "score" : 0
+}

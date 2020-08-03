@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Overall, systolic blood pressure was reduced by 2.9 mm Hg, total cholesterol level by 0.01 mmol/L, and smoking prevalence by 1.7%.",
+  "reading_complete" : "2020-08-03T11:24:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:20:33Z",
+  "trigger" : "level",
+  "evidence" : [ "cholesterol level" ],
+  "pmc_id" : "7292975",
+  "score" : 0
+}
