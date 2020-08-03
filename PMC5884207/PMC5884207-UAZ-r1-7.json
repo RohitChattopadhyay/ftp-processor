@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03856",
+      "entity_text" : "sun",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "A Sun Exposure Index (SEI) was calculated as the number of hours per week spent in direct sun without sunscreen protection multiplied by the fraction of BSA exposed sunlight to determine the amount of sun exposure for each participant [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T15:47:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:35:14Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of sun" ],
+  "pmc_id" : "5884207",
+  "score" : 0
+}
