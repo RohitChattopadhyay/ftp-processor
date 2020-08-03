@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "uniprot:SL-0154" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "In addition, a significant (p < 0.01) increase in serum creatinine levels was noted in the HFD control mice compared with intact the controls.",
+  "reading_complete" : "2020-08-03T17:33:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:31:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "5428967",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26641",
+      "entity_text" : "EEF1G",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The high expression level of EEF1G may promote the synthesis of several proteins to prevent oxidative stress and nutrient deprivation, resulting in the excessive proliferation of cells and development of cancer.",
+  "reading_complete" : "2020-08-03T17:31:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:31:02Z",
+  "trigger" : "promote",
+  "evidence" : [ "EEF1G may promote the synthesis of several proteins to prevent oxidative stress and nutrient deprivation, resulting in the excessive proliferation" ],
+  "pmc_id" : "5819923",
+  "score" : 0
+}

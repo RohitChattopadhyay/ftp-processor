@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23957",
+      "entity_text" : "TC",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0042588" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The mice treated with MPh at 250 or 500 mg/kg in particular exhibited a marked decrease in TC and TG levels compared with the HFD controls (XREF_TABLE).",
+  "reading_complete" : "2020-08-03T17:33:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:31:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "TC and TG levels" ],
+  "pmc_id" : "5428967",
+  "score" : 0
+}
