@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hydration properties are interchangeably described as water holding capacity and water binding capacity, and this describes the ability of fiber to incorporate and hold water in its structure, which is measured as the amount of water a certain amount of fiber is able to hold.",
+  "reading_complete" : "2020-08-03T09:45:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:33:19Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of water" ],
+  "pmc_id" : "6360548",
+  "score" : 0
+}
