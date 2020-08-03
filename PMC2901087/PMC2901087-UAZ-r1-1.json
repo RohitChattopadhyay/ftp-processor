@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0183" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0004529" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "If rewards are typically associated with some reinforcement signals often attributed to a neuromodulator like dopamine released at the time of reward, then the neural activity associated with each action may be followed by different amounts of dopamine depending on temporal contiguity.",
+  "reading_complete" : "2020-08-03T10:22:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:21:31Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of dopamine" ],
+  "pmc_id" : "2901087",
+  "score" : 0
+}
