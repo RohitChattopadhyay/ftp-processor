@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0869" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Cerebrospinal fluid (CSF) examination on the second day of life had an elevated total protein (89 mg/dL) with a normal glucose level (35 mg/dL) and normal white blood cell count.",
+  "reading_complete" : "2020-08-03T14:43:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:42:15Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6230596",
+  "score" : 0
+}

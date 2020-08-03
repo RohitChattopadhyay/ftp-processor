@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06731",
+      "entity_text" : "CEA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "CellType" : [ "cl:CL:0011108" ]
+    }
+  },
+  "verbose_text" : "While the half-life of CEA in blood is reported to be 4-12 days,25, 26, 27 the rate of decrease in serum CEA levels in our case was clearly faster than that.",
+  "reading_complete" : "2020-08-03T14:43:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:43:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "CEA levels" ],
+  "pmc_id" : "7141710",
+  "score" : 0
+}
