@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4946",
+      "entity_text" : "propranolol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Increasing the amount of propranolol to 4 mug showed no difference in evoked potentials compared to vehicle injected controls [ANOVA : F (1, 279) = 3.35; p = 0.07, n = 6].",
+  "reading_complete" : "2020-08-03T09:52:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:49:50Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of propranolol" ],
+  "pmc_id" : "3358719",
+  "score" : 0
+}
