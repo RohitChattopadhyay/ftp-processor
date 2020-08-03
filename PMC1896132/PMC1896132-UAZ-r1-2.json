@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00575",
+      "entity_text" : "S1",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0005569" ],
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "This results that S1 can be decomposed to S2 and S3 without loss of mass and, after each decomposition, the amount of S1 becomes doubled.",
+  "reading_complete" : "2020-08-03T17:36:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:30:28Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of S1" ],
+  "pmc_id" : "1896132",
+  "score" : 0
+}
