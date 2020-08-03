@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14145",
+      "entity_text" : "Kelch-like ECH-associated protein-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "It has been demonstrated that the nuclear factor Nrf2 binds to Kelch like ECH associated protein-1 (Keap1) to form the Keap1 - Nrf2 complex and limit Nrf2 mediated gene expression in the cytoplasm under normal physiological circumstances.",
+  "reading_complete" : "2020-08-03T16:28:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:27:28Z",
+  "trigger" : "binds",
+  "evidence" : [ "Nrf2 binds to Kelch-like ECH-associated protein-1" ],
+  "pmc_id" : "4899007",
+  "score" : 0
+}

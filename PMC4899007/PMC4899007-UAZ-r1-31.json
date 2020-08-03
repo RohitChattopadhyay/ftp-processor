@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:74873",
+      "entity_text" : "DSS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "p-Akt",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The HO-1 inhibitor, zinc protoporphyrin IX (ZnPP-IX), did not decrease the expression of p-Akt and Nrf2, although it abolished the anti-apoptotic and antioxidant effects of DSS and HSYA.",
+  "reading_complete" : "2020-08-03T16:28:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:27:28Z",
+  "trigger" : "abolished",
+  "evidence" : [ "p-Akt and Nrf2, although it abolished the anti-apoptotic and antioxidant effects of DSS" ],
+  "pmc_id" : "4899007",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0430" ],
+      "CellLine" : [ "cellosaurus:CVCL_U565" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "It was correlated with the mRNA level of Bcl-2 expression increase, and it also inhibited Bax gene expression (XREF_FIG).",
+  "reading_complete" : "2020-08-03T16:27:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:26:50Z",
+  "trigger" : "level",
+  "evidence" : [ "level of Bcl-2" ],
+  "pmc_id" : "5593495",
+  "score" : 0
+}
