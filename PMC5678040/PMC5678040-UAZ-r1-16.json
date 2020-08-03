@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08700",
+      "entity_text" : "IL-3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3676",
+      "entity_text" : "lidocaine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The exact mechanism has not been clearly identified but lidocaine is known to suppress the action of IL-3 and granulocyte-macrophage colony stimulating factor resulting in reduced eosinophil survival and eosinophil superoxide production [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T18:29:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:28:20Z",
+  "trigger" : "suppress",
+  "evidence" : [ "lidocaine is known to suppress the action of IL-3" ],
+  "pmc_id" : "5678040",
+  "score" : 0
+}
