@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The tubulopathic process is essentially correctable if the increase in bilirubin blood levels is curtailed in the early course of disease 4, 16, 17.",
+  "reading_complete" : "2020-08-03T15:50:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:49:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin blood levels" ],
+  "pmc_id" : "5930206",
+  "score" : 0
+}
