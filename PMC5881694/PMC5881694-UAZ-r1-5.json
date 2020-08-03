@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99467",
+      "entity_text" : "RP105",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Organ" : [ "uberon:UBERON:0001133" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "RP105 transduction was obviously visible in Ad-EGFP-RP105 group, whereas only very low levels of endogenous RP105 were detected in Ad-EGFP group (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:50:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:49:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of endogenous RP105" ],
+  "pmc_id" : "5881694",
+  "score" : 0
+}

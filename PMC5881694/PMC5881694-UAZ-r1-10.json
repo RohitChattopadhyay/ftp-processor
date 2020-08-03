@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14653",
+      "entity_text" : "IRF3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10535" ]
+    }
+  },
+  "verbose_text" : "TRAF3 is the trigger of kinase TBK1 activation, as a result of IRF3 phosphorylation and translocation into the nucleus.",
+  "reading_complete" : "2020-08-03T17:50:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:49:28Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "IRF3 phosphorylation" ],
+  "pmc_id" : "5881694",
+  "score" : 0
+}

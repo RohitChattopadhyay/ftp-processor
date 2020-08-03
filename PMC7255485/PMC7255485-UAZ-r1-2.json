@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02568",
+      "entity_text" : "miR-410",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, ATG16L1 plays an important role in autophagy and a previous study verified that suppression of autophagy by miR-410 overexpression in osteo-sarcoma cells was achieved partly through downregulation of ATG16L1.",
+  "reading_complete" : "2020-08-03T17:48:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:47:57Z",
+  "trigger" : "suppression",
+  "evidence" : [ "suppression of autophagy by miR-410" ],
+  "pmc_id" : "7255485",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04669",
+      "entity_text" : "E2-SUMO",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pfam:PF02246",
+      "entity_text" : "B1",
+      "entity_type" : "family"
+    }, {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "E2",
+      "entity_type" : "simple_chemical"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Unlike known SUMOylation inhibitors, such as ginkgolic acid, spectomycin B1 binds directly to E2 (Ubc9) and selectively blocks the formation of the E2-SUMO intermediate.",
+  "reading_complete" : "2020-08-03T17:49:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:48:49Z",
+  "trigger" : "blocks",
+  "evidence" : [ "B1 binds directly to E2 (Ubc9) and selectively blocks the formation of the E2-SUMO" ],
+  "pmc_id" : "5716456",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02104",
+      "entity_text" : "CK-MB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10535" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "After RP105 transduction into myocardium, the CK-MB and LDH level decreased significantly compared to IR group or Ad-EGFP group (Ad-RP105 group vs. IR group, P < 0.05; Ad-RP105 group vs. Ad-EGFP group, P < 0.05).",
+  "reading_complete" : "2020-08-03T17:50:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:49:28Z",
+  "trigger" : "level",
+  "evidence" : [ "CK-MB and LDH level" ],
+  "pmc_id" : "5881694",
+  "score" : 0
+}

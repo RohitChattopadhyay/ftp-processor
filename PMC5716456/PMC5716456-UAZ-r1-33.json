@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01860",
+      "entity_text" : "Oct4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0411" ],
+      "CellType" : [ "cl:CL:0002248" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The SUMOylation of Oct4 significantly increases Oct4 stability and increases DNA binding.",
+  "reading_complete" : "2020-08-03T17:49:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:48:49Z",
+  "trigger" : "SUMOylation",
+  "evidence" : [ "SUMOylation of Oct4" ],
+  "pmc_id" : "5716456",
+  "score" : 0
+}

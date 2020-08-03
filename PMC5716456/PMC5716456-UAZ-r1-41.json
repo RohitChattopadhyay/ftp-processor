@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01860",
+      "entity_text" : "Oct4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0411" ],
+      "CellType" : [ "cl:CL:0000134" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Oct4 is a target for SUMO-1 modification, and SUMOylation of Oct4 occurs at a single lysine, Lys118, located at the end of the amino-terminal transactivation domain and next to the Pit1-Oct-Unc86 (POU) DNA binding domain.",
+  "reading_complete" : "2020-08-03T17:49:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:48:49Z",
+  "trigger" : "SUMOylation",
+  "evidence" : [ "SUMOylation of Oct4 occurs at a single lysine" ],
+  "pmc_id" : "5716456",
+  "score" : 0
+}

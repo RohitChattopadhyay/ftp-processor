@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009362",
+      "entity_text" : "metastasis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04083",
+      "entity_text" : "ANXA1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In conclusion, we demonstrate that the overexpression of ANXA1 promotes the proliferation of ESCC cells, and promotes the invasion and metastasis of ESCC cells by increasing the expression of the transcription factor Snail, while inhibiting that of E-cadherin.",
+  "reading_complete" : "2020-08-03T17:47:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:47:01Z",
+  "trigger" : "promotes",
+  "evidence" : [ "ANXA1 promotes the proliferation of ESCC cells, and promotes the invasion and metastasis" ],
+  "pmc_id" : "5358711",
+  "score" : 0
+}

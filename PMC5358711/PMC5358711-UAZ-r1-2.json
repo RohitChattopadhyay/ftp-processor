@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016477",
+      "entity_text" : "cell migration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04083",
+      "entity_text" : "ANXA1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Similarly, the results of invasion assay revealed that the number of cells in the ANXA1 group that penetrated the basement membrane was significantly increased than those in the empty-vector group (79 cells / HPF vs. 36 cells / HPF, p = 0.011; XREF_FIG), indicating that the overexpression of ANXA1 enhanced the cell migration and invasion ability.",
+  "reading_complete" : "2020-08-03T17:47:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:47:01Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "ANXA1 enhanced the cell migration" ],
+  "pmc_id" : "5358711",
+  "score" : 0
+}
