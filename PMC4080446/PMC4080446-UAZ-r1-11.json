@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01105",
+      "entity_text" : "set",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For the differentially and non differentially methylated gene sets, the count ratios of the hypermethylated genes were approximate, while the count ratio of the hypomethylated genes in differentially methylated gene set was much more than that in non differentially methylated gene set (fold change above 15).",
+  "reading_complete" : "2020-08-03T12:51:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:47:04Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated gene set" ],
+  "pmc_id" : "4080446",
+  "score" : 0
+}
