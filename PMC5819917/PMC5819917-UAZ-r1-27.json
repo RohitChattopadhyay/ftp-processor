@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "interleukin-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "TissueType" : [ "tissuelist:TS-0067" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The mRNA expression levels of interleukin-6 and monocyte chemotactic protein-1 were measured by reverse transcription-quantitative polymerase chain reaction.",
+  "reading_complete" : "2020-08-03T17:02:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:00:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of interleukin-6" ],
+  "pmc_id" : "5819917",
+  "score" : 0
+}

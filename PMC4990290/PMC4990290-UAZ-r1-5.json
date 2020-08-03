@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04171",
+      "entity_text" : "IL-15RX receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40933",
+      "entity_text" : "IL-15",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0038" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000097" ]
+    }
+  },
+  "verbose_text" : "Conversely, IL-15 in mast cells binds to its cognate IL-15RX receptor and does not require IL-2 receptor input.",
+  "reading_complete" : "2020-08-03T17:04:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:03:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "IL-15 in mast cells binds to its cognate IL-15RX receptor" ],
+  "pmc_id" : "4990290",
+  "score" : 0
+}

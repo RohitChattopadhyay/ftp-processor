@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95140",
+      "entity_text" : "Mfn2",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytoplasm",
+    "from_location_text" : "mitochondria",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005739",
+    "to_location_id" : "go:GO:0005737",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0001627" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000598" ]
+    }
+  },
+  "verbose_text" : "In the present study, the data of WB and laser scanning confocal microscopy analysis are in favor of the view that Mfn2 is released from mitochondria to the cytoplasm even after transient global brain ischemia for 15 min.",
+  "reading_complete" : "2020-08-03T17:03:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:02:41Z",
+  "trigger" : "released",
+  "evidence" : [ "Mfn2 is released from mitochondria to the cytoplasm" ],
+  "pmc_id" : "6488171",
+  "score" : 0
+}

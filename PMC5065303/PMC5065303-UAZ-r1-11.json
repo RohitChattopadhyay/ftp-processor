@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "synapses",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0045202",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0845" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Lu et al observed that post-synaptic GlyRs, when facing GABAergic nerve endings, could be activated by synaptic GABA release in auditory synapses.",
+  "reading_complete" : "2020-08-03T17:00:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:59:50Z",
+  "trigger" : "release",
+  "evidence" : [ "GABA release in auditory synapses" ],
+  "pmc_id" : "5065303",
+  "score" : 0
+}

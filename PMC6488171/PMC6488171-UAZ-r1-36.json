@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21796",
+      "entity_text" : "VDAC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Markedly elevated levels of the VDAC1 protein were also documented in total cell extracts isolated from the hippocampus of rats after 15 min of global brain ischemia followed by 3 h of reperfusion, and from the cerebral cortex of rats after 15 min of global brain ischemia followed by 72 h of reperfusion.",
+  "reading_complete" : "2020-08-03T17:03:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:02:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the VDAC1" ],
+  "pmc_id" : "6488171",
+  "score" : 0
+}

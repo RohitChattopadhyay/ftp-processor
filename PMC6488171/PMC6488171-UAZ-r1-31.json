@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95140",
+      "entity_text" : "Mfn2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Mfn2 translocation was followed by decreased expression of Mfn2 during reperfusion.",
+  "reading_complete" : "2020-08-03T17:03:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:02:41Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Mfn2" ],
+  "pmc_id" : "6488171",
+  "score" : 0
+}

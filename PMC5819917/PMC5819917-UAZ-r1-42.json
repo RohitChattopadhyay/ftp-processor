@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "TissueType" : [ "tissuelist:TS-0067" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Furthermore, KDM3A gene silencing mitigated phosphorylation of MAPKs and NF-kappaB / p65 activation.",
+  "reading_complete" : "2020-08-03T17:02:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:00:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of MAPKs and NF-kappaB" ],
+  "pmc_id" : "5819917",
+  "score" : 0
+}
