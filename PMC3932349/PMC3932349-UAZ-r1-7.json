@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5746",
+      "entity_text" : "MMC",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It is suspected that as MMC inhibits fibroblast proliferation, MMC might reduce not only collagen synthesis but also the synthesis of other interstitial proteins required for optimal vibration.",
+  "reading_complete" : "2020-08-03T17:43:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:42:31Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "MMC inhibits fibroblast proliferation" ],
+  "pmc_id" : "3932349",
+  "score" : 0
+}
