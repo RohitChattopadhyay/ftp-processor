@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0360" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000711" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "High levels of cAMP keep oocytes in the meiotic arrest phase by activating cAMP dependent protein kinase.",
+  "reading_complete" : "2020-08-03T12:29:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:24:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cAMP" ],
+  "pmc_id" : "5883354",
+  "score" : 0
+}
