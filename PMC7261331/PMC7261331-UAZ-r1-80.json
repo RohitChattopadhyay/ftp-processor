@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00206",
+      "entity_text" : "TLR4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, high glucose levels stimulated TLR4 and resulted in NF-kappaB activation followed by upregulation of growth factors such as transforming growth factor (TGF) beta and connective tissue growth factor (CTGF), which was accompanied by ECM accumulation in tendons in T2D patients [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:17:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:56:47Z",
+  "trigger" : "stimulated",
+  "evidence" : [ "glucose levels stimulated TLR4" ],
+  "pmc_id" : "7261331",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0007023" ]
+    }
+  },
+  "verbose_text" : "These processes are accompanied by an inflammatory response that induces the accumulation of the extracellular matrix (fibrosis) and the apoptotic death of islet beta-cells, resulting in the progressive failure of beta-cells to produce sufficient levels of insulin, followed by a decrease in insulin stimulated glucose uptake and long lasting hyperglycaemia.",
+  "reading_complete" : "2020-08-03T11:17:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:56:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of insulin" ],
+  "pmc_id" : "7261331",
+  "score" : 0
+}

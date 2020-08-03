@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006099",
+      "entity_text" : "TCA cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, in the absence of physical activity, the TCA cycle remained transcriptionally inactivated and was inhibited by ROS and insufficient levels of intermediates [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:17:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:56:47Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "TCA cycle remained transcriptionally inactivated and was inhibited by ROS" ],
+  "pmc_id" : "7261331",
+  "score" : 0
+}

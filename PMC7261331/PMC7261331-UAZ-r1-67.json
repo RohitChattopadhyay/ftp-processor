@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35568",
+      "entity_text" : "IRS-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "The IR state involves induction of the inhibitory serine phosphorylation of IRS-1, preventing the involvement of IRS-1 in insulin receptor signalling and thus inhibiting insulin action [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:17:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:56:47Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "serine phosphorylation of IRS-1" ],
+  "pmc_id" : "7261331",
+  "score" : 0
+}
