@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q54HS3",
+      "entity_text" : "H3-K4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CG47",
+      "entity_text" : "ubiquitin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Removal of ubiquitin from H2B-K123 by Doa4 / Ubp4 would disrupt the association of Swd2 / Cps35 with chromatin, inhibiting H3-K4 trimethylation.",
+  "reading_complete" : "2020-08-03T19:23:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T19:01:27Z",
+  "trigger" : "disrupt",
+  "evidence" : [ "ubiquitin from H2B-K123 by Doa4/Ubp4 would disrupt the association of Swd2/Cps35 with chromatin, inhibiting H3-K4 trimethylation" ],
+  "pmc_id" : "2717920",
+  "score" : 0
+}
