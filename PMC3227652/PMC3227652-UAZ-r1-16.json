@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD",
+      "entity_text" : "Smad",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_V312" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Figure XREF_FIG shows the clear segregation of the \" sustained \" (red) and \" transient \" (transient) parameter sets in a plane spanned by the parameters that determine the strength of the negative feedback ((k14 x k18)/(k15 x k17 x k19) x k5/k6) and the speed of Smad dephosphorylation, k8 x (k11 x k13)/k10.",
+  "reading_complete" : "2020-08-03T12:21:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:16:36Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "Smad dephosphorylation" ],
+  "pmc_id" : "3227652",
+  "score" : 0
+}
