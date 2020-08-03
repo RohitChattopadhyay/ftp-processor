@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "pSTAT3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1R13" ],
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Cox regression model also excluded any significant difference in DFS (in months) for different pSTAT3 expression levels in the oral tongue carcinoma cells (P = 0.50).",
+  "reading_complete" : "2020-08-03T14:04:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:00:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "pSTAT3 expression levels" ],
+  "pmc_id" : "4553360",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01445",
+      "entity_text" : "DFS",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "CellLine" : [ "cellosaurus:CVCL_1R13" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Our findings ruled out any association of serine phosphorylated nuclear STAT3 expression with tumor stage, grade, lymph node involvement, recurrence rate, or DFS.",
+  "reading_complete" : "2020-08-03T14:04:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:00:40Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated nuclear STAT3 expression with tumor stage, grade, lymph node involvement, recurrence rate, or DFS" ],
+  "pmc_id" : "4553360",
+  "score" : 0
+}

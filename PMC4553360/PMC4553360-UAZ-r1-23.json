@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In tumors, STAT proteins remain persistently phosphorylated, and consequently activated : phosphorylated STAT3 (pSTAT3) dimerizes and moves to the nucleus, regulating the transcription of target genes.",
+  "reading_complete" : "2020-08-03T14:04:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:00:40Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated STAT3" ],
+  "pmc_id" : "4553360",
+  "score" : 0
+}
