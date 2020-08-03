@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cellular growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UJM3",
+      "entity_text" : "Mig6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We predicted and experimentally verified that Mig6, which is a known negative regulator of EGFR and specifically expressed in H1299L858R cells, synergized with gefitinib to suppress cellular growth.",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "suppress",
+  "evidence" : [ "Mig6, which is a known negative regulator of EGFR and specifically expressed in H1299L858R cells, synergized with gefitinib to suppress cellular growth" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

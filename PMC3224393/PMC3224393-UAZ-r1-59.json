@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As a result, the combination of a lower k 3 (the rate constant for the forward reaction of the EGFR phosphorylation) and k 8 (the rate constant for the forward reaction of binding of EGFR to Shc) contributed to effectively inhibit the total phosphorylation of ERK in the presence of gefitinib.",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "EGFR phosphorylation" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

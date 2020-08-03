@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123631",
+      "entity_text" : "gefitinib",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Earlier studies showed that the EGFR is frequently overexpressed in non-small-cell lung cancer (NSCLC) and EGFR mutations at specific amino acid residues in the kinase domain induce altered responsiveness to gefitinib, a small molecule EGFR tyrosine kinase inhibitor.",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "induce",
+  "evidence" : [ "EGFR mutations at specific amino acid residues in the kinase domain induce altered responsiveness to gefitinib" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

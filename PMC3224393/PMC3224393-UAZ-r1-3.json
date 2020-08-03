@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MEK",
+      "entity_text" : "MEK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "features" : [ {
+        "modification_type" : "dephosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The MAPK cascade is negatively regulated by PP2A (protein phosphatase 2A) for the dephosphorylation of MEK (steps 21 and 23) and by MKP3 (MAPK phosphatase 3) for the dephosphorylation of ERK (steps 25 and 27) [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "negatively regulated",
+  "evidence" : [ "negatively regulated by PP2A (protein phosphatase 2A) for the dephosphorylation of MEK (steps 21 and 23) and by MKP3 (MAPK phosphatase 3) for the dephosphorylation of ERK" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}

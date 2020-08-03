@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22681",
+      "entity_text" : "Cbl",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The modified parameters were the rate constant for the forward reaction of the EGFR phosphorylation (k 3), the binding of EGFR to Cbl (k 5), GAP (k 7), and Shc (k 8) (steps 3, 5, 7, and 8).",
+  "reading_complete" : "2020-08-03T16:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:02Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of EGFR to Cbl" ],
+  "pmc_id" : "3224393",
+  "score" : 0
+}
