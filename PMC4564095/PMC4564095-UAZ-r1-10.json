@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281222",
+      "entity_text" : "butein",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, butein has been shown to inhibit AKT phosphorylation, resulting in the suppression of in breast cancer and prostate cancer cell growth.",
+  "reading_complete" : "2020-08-03T17:42:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:40:49Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "butein has been shown to inhibit AKT phosphorylation" ],
+  "pmc_id" : "4564095",
+  "score" : 0
+}

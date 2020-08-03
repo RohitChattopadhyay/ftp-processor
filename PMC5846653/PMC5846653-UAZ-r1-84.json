@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13232",
+      "entity_text" : "IL-7",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12644",
+      "entity_text" : "BMP4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0002496" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To establish whether the interaction between BMP4 and IL-7 regulates the number of IELs, exogenous BMP4 (30 ng/ml) and IL-7 (2 ng/ml) proteins were added to cultured IELs for 6 h. Flow cytometry demonstrated that treatment with IL-7 reduced the extent of apoptosis of IELs (11.1 +/-0.93%), and enhanced the apoptosis of IELs in the presence of BMP4 (11.8 +/-0.47%).",
+  "reading_complete" : "2020-08-03T17:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:43:45Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between BMP4 and IL-7" ],
+  "pmc_id" : "5846653",
+  "score" : 0
+}

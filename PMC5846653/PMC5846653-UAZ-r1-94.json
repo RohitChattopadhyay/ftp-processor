@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04609",
+      "entity_text" : "BMPRIA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12644",
+      "entity_text" : "BMP4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002496" ]
+    }
+  },
+  "verbose_text" : "Typically, BMP4 binds to BMPRIA and BMPRIB, both of which have a high-affinity binding site for BMP4.",
+  "reading_complete" : "2020-08-03T17:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:43:45Z",
+  "trigger" : "binds",
+  "evidence" : [ "BMP4 binds to BMPRIA" ],
+  "pmc_id" : "5846653",
+  "score" : 0
+}

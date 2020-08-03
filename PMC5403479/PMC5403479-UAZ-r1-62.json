@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaBalpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CG47",
+      "entity_text" : "ubiquitin",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Regarding the fact that upon phosphorylation and ubiquitin dependent degradation of IkappaBalpha, NF-kappaB translocates to the nucleus and functions as a transcription factor, it is possible that IkappaBalpha may be a potential substrate of Ufm1 and Ufm1 inhibits the NF-kappaB nuclear translocation through IkappaBalpha ufmylation.",
+  "reading_complete" : "2020-08-03T17:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:39:50Z",
+  "trigger" : "degradation",
+  "evidence" : [ "ubiquitin-dependent degradation of IkappaBalpha" ],
+  "pmc_id" : "5403479",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:STAT5",
+      "entity_text" : "STAT5",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, the expression of CD127 and the phosphorylation of STAT5 were downregulated in IELs that were cultured in the presence of BMP4 (30 ng/ml) (CD127, 7.30 +/-0.48%; and p-STAT5, 4.77 +/-1.77%), but these effects were abolished with the application of NOGGIN (30 ng/ml), as shown in XREF_FIG.",
+  "reading_complete" : "2020-08-03T17:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:43:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of STAT5" ],
+  "pmc_id" : "5846653",
+  "score" : 0
+}

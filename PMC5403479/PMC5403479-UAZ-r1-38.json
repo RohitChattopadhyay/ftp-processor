@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "uaz:CVCL_9S75" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Upon LPS treatment, the protein level of NF-kappaB in the nucleus was significantly increased while it was decreased in the cytoplasm (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:39:50Z",
+  "trigger" : "level",
+  "evidence" : [ "level of NF-kappaB" ],
+  "pmc_id" : "5403479",
+  "score" : 0
+}

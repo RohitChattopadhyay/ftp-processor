@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FoxO3a",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We found that combined treatment with butein and cisplatin increased the nuclear translocation and expression of FoxO3a compared to treatment with cisplatin alone, and the downregulation of FoxO3a by RNAi significantly inhibited the synergistic effects of butein and cisplatin in HeLa cells, suggesting that butein exerts its chemosensitizing effects, in part through FoxO3a activation.",
+  "reading_complete" : "2020-08-03T17:42:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:40:49Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "FoxO3a by RNAi significantly inhibited the synergistic effects of butein and cisplatin" ],
+  "pmc_id" : "4564095",
+  "score" : 0
+}

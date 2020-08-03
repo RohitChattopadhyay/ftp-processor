@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The inhibition of p38 by SB203580 has been shown to significantly block Met induced apoptosis in A549 / CDDP cells, while other researchers have found that the inhibition of p38 sensitizes breast and gastric cancer cells to cisplatin induced apoptosis and enhanced p38 activation has been associated with a poor overall survival in patients with breast cancer and hepatocellular carcinoma.",
+  "reading_complete" : "2020-08-03T17:42:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:40:49Z",
+  "trigger" : "induced",
+  "evidence" : [ "cisplatin-induced apoptosis" ],
+  "pmc_id" : "4564095",
+  "score" : 0
+}

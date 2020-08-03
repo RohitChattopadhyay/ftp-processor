@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:STAT5",
+      "entity_text" : "STAT5",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13232",
+      "entity_text" : "IL-7",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, IL-7 induces the phosphorylation of STAT5, which then translocates into the nucleus where it controls the expression of target genes that are involved in the survival and proliferation of T cells.",
+  "reading_complete" : "2020-08-03T17:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:43:45Z",
+  "trigger" : "induces",
+  "evidence" : [ "IL-7 induces the phosphorylation of STAT5" ],
+  "pmc_id" : "5846653",
+  "score" : 0
+}

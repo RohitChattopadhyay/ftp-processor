@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02267",
+      "entity_text" : "AKT inhibitor",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In addition, we observed that the AKT inhibitor decreased the phosphorylation of ERK and p38, while the inhibition of ERK and p38 had no effects on AKT activation, indicating that AKT may be the upstream signal of ERK and p38.",
+  "reading_complete" : "2020-08-03T17:42:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:40:49Z",
+  "trigger" : "decreased",
+  "evidence" : [ "AKT inhibitor decreased the phosphorylation of ERK and p38" ],
+  "pmc_id" : "4564095",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:STAT5",
+      "entity_text" : "STAT5",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0002496" ]
+    }
+  },
+  "verbose_text" : "To better understand CD127 and the changes in phosphorylation of STAT5 in IELs after I/R, flow cytometric analysis was performed and revealed that CD127 expression and the phosphorylation of STAT5 decreased after I/R (CD127, 12.87 +/-1.32%; and p-STAT5, 6.48 +/-1.23%), as shown in XREF_FIG.",
+  "reading_complete" : "2020-08-03T17:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:43:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of STAT5" ],
+  "pmc_id" : "5846653",
+  "score" : 0
+}

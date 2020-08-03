@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FoxO3a",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The AKT and ERK mediated phosphorylation of FoxO3a stimulate its ubiquitination, resulting in proteasomal degradation.",
+  "reading_complete" : "2020-08-03T17:42:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:40:49Z",
+  "trigger" : "mediated",
+  "evidence" : [ "ERK-mediated phosphorylation of FoxO3a" ],
+  "pmc_id" : "4564095",
+  "score" : 0
+}

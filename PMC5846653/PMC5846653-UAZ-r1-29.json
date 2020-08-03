@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02507",
+      "entity_text" : "BMP receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02608",
+      "entity_text" : "BMP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "CellType" : [ "cl:CL:0002496" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Therefore, it may be hypothesized that BMP binds to BMP receptors and activates NF-kappaB signaling in IELs of the small intestine.",
+  "reading_complete" : "2020-08-03T17:45:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:43:45Z",
+  "trigger" : "binds",
+  "evidence" : [ "BMP binds to BMP receptors" ],
+  "pmc_id" : "5846653",
+  "score" : 0
+}

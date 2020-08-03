@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9C000",
+      "entity_text" : "NLRP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04839",
+      "entity_text" : "NOX2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "However, whether the overexpression of NOX2 can activate the NLRP1 inflammasome and accelerate neuronal senescence remains to be fully elucidated.",
+  "reading_complete" : "2020-08-03T17:43:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:42:54Z",
+  "trigger" : "activate",
+  "evidence" : [ "NOX2 can activate the NLRP1" ],
+  "pmc_id" : "6317692",
+  "score" : 0
+}
