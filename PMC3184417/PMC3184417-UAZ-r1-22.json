@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NTG7",
+      "entity_text" : "SIRT3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43490",
+      "entity_text" : "visfatin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of visfatin (also called Nampt), which catalyze first and the rate limiting step in NAD + biosynthesis from NAM, can markedly induce SIRT1 and SIRT3 activity [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:13:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:08:01Z",
+  "trigger" : "induce",
+  "evidence" : [ "visfatin (also called Nampt), which catalyze first and the rate-limiting step in NAD +  biosynthesis from NAM, can markedly induce SIRT1 and SIRT3" ],
+  "pmc_id" : "3184417",
+  "score" : 0
+}
