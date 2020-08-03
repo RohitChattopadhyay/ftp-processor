@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0011956" ]
+    }
+  },
+  "verbose_text" : "Her initial ammonia level was 33 mmol/L (normal range 11-32 mmol/L), and liver function tests (LFTs) were within normal range.",
+  "reading_complete" : "2020-08-03T14:34:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:34:09Z",
+  "trigger" : "level",
+  "evidence" : [ "ammonia level" ],
+  "pmc_id" : "7141714",
+  "score" : 0
+}

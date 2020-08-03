@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00151",
+      "entity_text" : "lipase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3549" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Laboratories revealed a lipase level greater than three times the upper limit, mixed pattern of liver injury, thrombocytopenia, and renal failure.",
+  "reading_complete" : "2020-08-03T14:37:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:37:24Z",
+  "trigger" : "level",
+  "evidence" : [ "lipase level" ],
+  "pmc_id" : "7141725",
+  "score" : 0
+}
