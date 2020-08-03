@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBX0",
+      "entity_text" : "HESX1",
+      "features" : [ {
+        "to_base" : "R",
+        "site" : 159,
+        "feature_type" : "mutation",
+        "evidence" : "R159W"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This observation was confirmed by Western blot analysis from transfected cells, which showed an approximate 60% reduction in levels of expression of HESX1 R159W mutant protein compared with HESX1-WT.",
+  "reading_complete" : "2020-08-03T16:00:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:58:52Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of HESX1" ],
+  "pmc_id" : "5378840",
+  "score" : 0
+}
