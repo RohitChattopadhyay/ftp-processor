@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellLine" : [ "cellosaurus:CVCL_E529" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, hepatic steatosis is seen in mice even at low insulin levels [XREF_BIBR], suggesting that different mechanisms could regulate the induction of hepatic steatosis depending on the animal 's physiological condition.",
+  "reading_complete" : "2020-08-03T13:01:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:50:10Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "3160137",
+  "score" : 0
+}
