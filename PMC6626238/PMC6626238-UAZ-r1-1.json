@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "(2) Serum total bilirubin level (sample size < 100).",
+  "reading_complete" : "2020-08-03T16:41:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:39:01Z",
+  "trigger" : "level",
+  "evidence" : [ "bilirubin level" ],
+  "pmc_id" : "6626238",
+  "score" : 0
+}

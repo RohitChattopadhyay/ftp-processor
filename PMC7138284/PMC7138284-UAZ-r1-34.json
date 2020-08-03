@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07812",
+      "entity_text" : "Bax",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the present study, CRA decreased the expression levels of pro apoptotic protein Bax and increased the activity of anti-apoptotic protein Bcl2 both in vivo and in vitro, confirming the function of CRA in inhibiting apoptosis of cardiomyocytes.",
+  "reading_complete" : "2020-08-03T16:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:38:08Z",
+  "trigger" : "increased",
+  "evidence" : [ "Bax and increased the activity of anti-apoptotic protein Bcl2" ],
+  "pmc_id" : "7138284",
+  "score" : 0
+}

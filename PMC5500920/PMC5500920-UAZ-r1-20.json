@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03396",
+      "entity_text" : "c-Src",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1122" ],
+      "CellType" : [ "cl:CL:0000653" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For instance, protein kinase B is only activated follo wing phosphorylation of its Ser and Thr residues and, thus, is able to regulate cell survival; on the other hand, when proto-oncogene tyrosine protein kinase (c-Src) is dephosphorylated, it is turned off causing a block in the regulation of cell growth.",
+  "reading_complete" : "2020-08-03T16:41:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:40:15Z",
+  "trigger" : "dephosphorylated",
+  "evidence" : [ "c-Src) is dephosphorylated" ],
+  "pmc_id" : "5500920",
+  "score" : 0
+}

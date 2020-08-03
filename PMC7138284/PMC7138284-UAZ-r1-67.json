@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In heart failure, the expression of the pro apoptotic protein Bax in patients is increased, while the activity of Bcl2 is decreased; therefore, enhancing the expression of Bcl2 can effectively reduce the occurrence of apoptosis.",
+  "reading_complete" : "2020-08-03T16:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:38:08Z",
+  "trigger" : "reduce",
+  "evidence" : [ "Bcl2 can effectively reduce the occurrence of apoptosis" ],
+  "pmc_id" : "7138284",
+  "score" : 0
+}

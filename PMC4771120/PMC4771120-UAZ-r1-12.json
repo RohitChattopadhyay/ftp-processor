@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The study of Wang et al suggested that specific siRNA of CXCR4 effectively downregulates the expression of the CXCR4 gene and induces cell cycle arrest and apoptosis of Jurkat cells, while inhibiting cell proliferation.",
+  "reading_complete" : "2020-08-03T16:43:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:42:57Z",
+  "trigger" : "induces",
+  "evidence" : [ "CXCR4 gene and induces cell cycle" ],
+  "pmc_id" : "4771120",
+  "score" : 0
+}

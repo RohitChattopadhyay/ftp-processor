@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "Erk1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10535" ],
+      "TissueType" : [ "tissuelist:TS-0650" ],
+      "CellType" : [ "cl:CL:0002372" ]
+    }
+  },
+  "verbose_text" : "Lrrc75b affects the phosphorylation of Erk1/2.",
+  "reading_complete" : "2020-08-03T16:42:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:41:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Erk1/2" ],
+  "pmc_id" : "5065307",
+  "score" : 0
+}

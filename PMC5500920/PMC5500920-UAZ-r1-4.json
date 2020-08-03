@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01250",
+      "entity_text" : "ribosomal protein S6",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:RSK",
+      "entity_text" : "RSK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It is activated through phosphorylation of MAPK which in turn phosphorylates many substrates, including 40S ribosomal protein S6 kinase (RSK, which then phosphorylates ribosomal protein S6), c-Myc and MNK (which then phosphorylates CREB in this cascade).",
+  "reading_complete" : "2020-08-03T16:41:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:40:15Z",
+  "evidence" : [ "RSK, which then phosphorylates ribosomal protein S6" ],
+  "pmc_id" : "5500920",
+  "score" : 0
+}
