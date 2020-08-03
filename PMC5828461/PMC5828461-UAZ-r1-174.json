@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser 485",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Insulin inhibits AMPK activity by stimulating protein kinase B (PKB) to phosphorylate the Ser 485 residue of the alpha subunit, thereby inhibiting phosphorylation at Thr 172 [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T10:30:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:48:55Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate the Ser 485  residue of the alpha" ],
+  "pmc_id" : "5828461",
+  "score" : 0
+}

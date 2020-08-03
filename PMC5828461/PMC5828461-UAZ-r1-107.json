@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00151",
+      "entity_text" : "p160 myb",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00144",
+      "entity_text" : "XREF_BIBR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "PGC-1alpha is activated by p38 MAPK [XREF_BIBR, XREF_BIBR] through phosphorylation [XREF_BIBR], which prevents repression [XREF_BIBR] by blocking interaction with the p160 myb binding protein [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T10:30:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:48:55Z",
+  "trigger" : "binding",
+  "evidence" : [ "p160 myb binding protein [ XREF_BIBR" ],
+  "pmc_id" : "5828461",
+  "score" : 0
+}

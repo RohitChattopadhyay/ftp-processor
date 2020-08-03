@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:928",
+      "entity_text" : "NADH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "This occurred in conjunction with decreased NADH levels, suggesting that ketones may additionally decrease mtROS production by enhancing electron transport along the mtETC after NADH oxidation and, in turn, decreasing mitochondrial Deltap and associated O 2 *- production.",
+  "reading_complete" : "2020-08-03T10:30:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T09:48:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "NADH levels" ],
+  "pmc_id" : "5828461",
+  "score" : 0
+}
