@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "B-Raf",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 600,
+        "feature_type" : "mutation",
+        "evidence" : "V600E"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "By far the most common mutation is a single substitution of glutamic acid to valine at residue 600 (B-Raf V600E) which greatly elevates the kinase activity of B-Raf and results in the constitutive activation of ERK in vivo, independent of Ras [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T16:07:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:59:57Z",
+  "trigger" : "activation",
+  "evidence" : [ "B-Raf V600E ) which greatly elevates the kinase activity of B-Raf and results in the constitutive activation of ERK" ],
+  "pmc_id" : "2764635",
+  "score" : 0
+}

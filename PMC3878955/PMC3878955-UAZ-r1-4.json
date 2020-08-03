@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10266",
+      "entity_text" : "RT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "The structure of the chemical reaction network of this ODE model is depicted on the left-hand-side of Figure XREF_FIG : the three forms of the Rho protein (GDP bound RD, GTP bound RT, and nucleotide free R) in the middle layer form complexes with GEF (E) in the bottom layer and with GAP (A) in the top layer.",
+  "reading_complete" : "2020-08-03T12:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:29:04Z",
+  "trigger" : "bound",
+  "evidence" : [ "GTP-bound RT" ],
+  "pmc_id" : "3878955",
+  "score" : 0
+}

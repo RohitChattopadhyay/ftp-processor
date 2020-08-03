@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5234",
+      "entity_text" : "salt",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The increased calcium level may cause salt to be deposited in the soft tissues, with the consequent involvement of sclera (band keratitis), tendons (calcific tendonitis), joint cartilage (chondrocalcinosis and arthralgia), kidney parenchyma (nephrocalcinosis), and the pancreas.",
+  "reading_complete" : "2020-08-03T13:45:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:42:51Z",
+  "trigger" : "cause",
+  "evidence" : [ "calcium level may cause salt" ],
+  "pmc_id" : "5322443",
+  "score" : 0
+}

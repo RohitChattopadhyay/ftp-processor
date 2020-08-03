@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104727",
+      "entity_text" : "alumina",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0130" ],
+      "Cellular_component" : [ "go:GO:0016234" ],
+      "Organ" : [ "uberon:UBERON:0003714" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Patient 's postoperative cerebrospinal fluid alumina level was increased, suggesting aluminum release after exposure of cerebrovascular fluid to BC which used for reconstruction.",
+  "reading_complete" : "2020-08-03T14:53:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:50:24Z",
+  "trigger" : "level",
+  "evidence" : [ "alumina level" ],
+  "pmc_id" : "6102333",
+  "score" : 0
+}

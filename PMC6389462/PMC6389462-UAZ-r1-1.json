@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00253",
+      "entity_text" : "ART",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5978",
+      "entity_text" : "vincristine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "Organ" : [ "uberon:UBERON:0003706" ]
+    }
+  },
+  "verbose_text" : "There is data evaluating the influence of ART on the pharmacokinetics of doxorubicin and cyclophosphamide6; however, no pharmacokinetic studies evaluating the interactions between vincristine and ART were identified.",
+  "reading_complete" : "2020-08-03T14:20:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:19:27Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between vincristine and ART" ],
+  "pmc_id" : "6389462",
+  "score" : 0
+}

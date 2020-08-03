@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BQ51",
+      "entity_text" : "PD-L2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00306",
+      "entity_text" : "Nivolumab",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Nivolumab binds to PD-1 on the surface of T cells, and blocks the interaction between PD-1 and its ligands, PD-L1, and PD-L2.",
+  "reading_complete" : "2020-08-03T14:29:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:28:31Z",
+  "trigger" : "blocks",
+  "evidence" : [ "Nivolumab binds to PD-1 on the surface of T cells, and blocks the interaction between PD-1 and its ligands, PD-L1, and PD-L2" ],
+  "pmc_id" : "5412830",
+  "score" : 0
+}

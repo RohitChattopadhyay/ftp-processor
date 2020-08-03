@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23957",
+      "entity_text" : "Tc",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Again, this implies that a decrease in the affinity of Tc for TetR2 could result in high intracellular Tc amounts causing cell death.",
+  "reading_complete" : "2020-08-03T15:19:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:17:01Z",
+  "trigger" : "causing",
+  "evidence" : [ "Tc amounts causing cell death" ],
+  "pmc_id" : "3037858",
+  "score" : 0
+}

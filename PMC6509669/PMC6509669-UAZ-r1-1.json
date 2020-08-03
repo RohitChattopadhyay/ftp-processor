@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Postoperatively, no significant myocardial damage, which would be indicated by an increased level of creatinine phosphokinase (CPK), was observed.",
+  "reading_complete" : "2020-08-03T14:14:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:14:29Z",
+  "trigger" : "level",
+  "evidence" : [ "level of creatinine" ],
+  "pmc_id" : "6509669",
+  "score" : 0
+}

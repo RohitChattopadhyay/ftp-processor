@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22265",
+      "entity_text" : "TSH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In our case, the TSH level was markedly elevated at the time of diagnosis with normal free T4 and free T3.",
+  "reading_complete" : "2020-08-03T14:04:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:04:06Z",
+  "trigger" : "level",
+  "evidence" : [ "TSH level" ],
+  "pmc_id" : "5457989",
+  "score" : 0
+}

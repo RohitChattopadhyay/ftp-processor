@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02074",
+      "entity_text" : "DNaseHS",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000125" ]
+    }
+  },
+  "verbose_text" : "The chromatin modification pattern of GAPDH was significantly correlated with that of the two connected differentially methylated genes, but the modification intensities of DNaseHS and H3K4me3 were higher than the two differentially methylated genes.",
+  "reading_complete" : "2020-08-03T12:51:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:47:04Z",
+  "trigger" : "methylated",
+  "evidence" : [ "DNaseHS and H3K4me3 were higher than the two differentially methylated" ],
+  "pmc_id" : "4080446",
+  "score" : 0
+}

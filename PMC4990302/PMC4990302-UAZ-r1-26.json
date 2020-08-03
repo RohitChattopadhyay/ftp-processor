@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0168" ],
+      "Species" : [ "taxonomy:12814" ],
+      "CellType" : [ "cl:CL:0002368" ]
+    }
+  },
+  "verbose_text" : "To analyze whether the induction of aberrant HDAC2 expression by RSV infection is the direct course of altered histone acetylation, TSA, a pan-HDAC inhibitor, was administered to the RSV infected airway epithelial cells (AECs).",
+  "reading_complete" : "2020-08-03T16:17:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:06Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "histone acetylation" ],
+  "pmc_id" : "4990302",
+  "score" : 0
+}

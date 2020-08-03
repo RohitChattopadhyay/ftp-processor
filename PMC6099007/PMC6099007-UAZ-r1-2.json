@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:26623",
+      "entity_text" : "mercury",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000170" ]
+    }
+  },
+  "verbose_text" : "Although a mercury thermometer contains about 500-700 mg of elemental mercury, which is virtually nontoxic,6 significant exposure may occur through acute inhalation, which can cause acute pneumonia, adult respiratory distress syndrome, and death.7, 8 In this patient, it is probable that the hot shower immediately after exposure increased the volatility of the mercury spilled over the skin and, therefore, the amount of mercury inhaled.3, 4 The clinical picture of mercury vapor poisoning has three phases.",
+  "reading_complete" : "2020-08-03T15:24:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:24:12Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of mercury" ],
+  "pmc_id" : "6099007",
+  "score" : 0
+}

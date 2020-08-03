@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "T2D could be diagnosed by detecting the levels of blood glucose, glucose tolerance and HbA1c (glycosylated haemoglobin) [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T12:51:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:47:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of blood glucose" ],
+  "pmc_id" : "4080446",
+  "score" : 0
+}

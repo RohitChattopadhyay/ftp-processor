@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10376" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellType" : [ "cl:CL:0000081" ]
+    }
+  },
+  "verbose_text" : "The C-reactive protein (CRP) level was 2.86 mg/dL and the ferritin level was markedly elevated (4731 ng/mL).",
+  "reading_complete" : "2020-08-03T14:31:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:30:31Z",
+  "trigger" : "level",
+  "evidence" : [ "ferritin level" ],
+  "pmc_id" : "6452483",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1060" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:103820" ]
+    }
+  },
+  "verbose_text" : "Glucose consumption of all groups (after stem cell seeding) were similar to the group with cells only (76 mg/dL), whereas the glucose level in empty trachea sample remained highest (101 mg/dL) as no consumption was expected.",
+  "reading_complete" : "2020-08-03T15:22:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:19:15Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6315211",
+  "score" : 0
+}

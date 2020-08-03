@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "Serum level of potassium was 1.5 mmol/L, and serum magnesium was 0.4 mmol/L.",
+  "reading_complete" : "2020-08-03T15:55:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:54:54Z",
+  "trigger" : "level",
+  "evidence" : [ "level of potassium" ],
+  "pmc_id" : "5628240",
+  "score" : 0
+}

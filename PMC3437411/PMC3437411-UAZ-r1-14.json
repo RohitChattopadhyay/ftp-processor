@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55011",
+      "entity_text" : "NKCC1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0093" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0001946" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Although we could not rule out the possibility that kanamycin itself affected KCC2 or NKCC1 expression, this seems unlikely at present.",
+  "reading_complete" : "2020-08-03T16:09:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:06:08Z",
+  "trigger" : "expression",
+  "evidence" : [ "NKCC1 expression" ],
+  "pmc_id" : "3437411",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5819",
+      "entity_text" : "thyroxin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It should be noted that physiologically catecholamines stimulate thyroxin secretion via beta-adrenergic receptors while dopamine inhibits thyroxin release.",
+  "reading_complete" : "2020-08-03T15:31:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:30:38Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "dopamine inhibits thyroxin" ],
+  "pmc_id" : "6452525",
+  "score" : 0
+}

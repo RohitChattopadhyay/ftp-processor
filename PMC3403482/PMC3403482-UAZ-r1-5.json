@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "sirolimus",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284373",
+      "entity_text" : "cyclosporine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For instance, cyclosporine increases the effect of sirolimus, while bupropion decreases the effect of cyclosporine.",
+  "reading_complete" : "2020-08-03T12:16:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:12:11Z",
+  "trigger" : "increases",
+  "evidence" : [ "cyclosporine increases the effect of sirolimus" ],
+  "pmc_id" : "3403482",
+  "score" : 0
+}

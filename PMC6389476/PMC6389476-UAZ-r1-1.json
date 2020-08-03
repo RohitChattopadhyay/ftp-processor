@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16455",
+      "entity_text" : "MGMT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1230" ],
+      "Organ" : [ "uberon:UBERON:0002422" ]
+    }
+  },
+  "verbose_text" : "On the other hand, the tumor was MGMT methylated, found to be predictive for better effect of TMZ,10 as also observed at start of treatment in this case.",
+  "reading_complete" : "2020-08-03T14:03:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:02:31Z",
+  "trigger" : "methylated",
+  "evidence" : [ "MGMT methylated" ],
+  "pmc_id" : "6389476",
+  "score" : 0
+}

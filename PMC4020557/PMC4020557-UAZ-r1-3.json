@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0809" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although the WBC and CRP levels were not remarkable, the BT rose on POD 2.",
+  "reading_complete" : "2020-08-03T13:40:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:38:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "CRP levels" ],
+  "pmc_id" : "4020557",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The loss of SDH activity leads to a massive accumulation of succinate and high levels of this metabolite cause it to act as an oncometabolite, activating the hypoxia induced signaling pathway related to angiogenesis, cell metabolism, and other tumor growth factors.20, 21, 22 In addition, succinate can also promote a particular CpG island methylation phenotype (CIMP) by impairment of histone demethylation.21 Metabolomics allowed to group PGLs into two clusters depending on pathogenesis and catecholamine phenotype.",
+  "reading_complete" : "2020-08-03T15:31:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:30:38Z",
+  "trigger" : "demethylation.21",
+  "evidence" : [ "histone demethylation.21" ],
+  "pmc_id" : "6452525",
+  "score" : 0
+}

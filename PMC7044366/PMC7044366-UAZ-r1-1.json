@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3121",
+      "entity_text" : "VPA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Organ" : [ "uberon:UBERON:0007380" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Since after five days there occurred a sudden onset of fever (38.5-39degreesC), abnormalities of basal electroencephalography (EEG), specifically slow, often paroxysmal waves unresponsive to stimuli, and alterations of some blood chemistry tests (specifically, uricemia up to 8.10 mg/dL, C-reactive protein [CRP] up to 15.6 mg/dL, white blood cells up to 14.000 and VPA levels up to 85.04 mug/dL), VPA and antipsychotics were stopped.",
+  "reading_complete" : "2020-08-03T15:01:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:59:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "VPA levels" ],
+  "pmc_id" : "7044366",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF17122",
+      "entity_text" : "zinc-finger",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37275",
+      "entity_text" : "ZEB1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0210" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Very recent reports have shown that the miR-200 family regulates epithelial to mesenchymal transition (EMT) by targeting the transcriptional repressor zinc-finger E-box binding homebox 1 (ZEB1) and ZEB2 [XREF_BIBR, XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-03T15:31:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:28:14Z",
+  "trigger" : "binding",
+  "evidence" : [ "zinc-finger E-box binding homebox 1 (ZEB1" ],
+  "pmc_id" : "3170341",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0007380" ]
+    }
+  },
+  "verbose_text" : "This connection is particularly challenging because classic population dynamics approaches [XREF_BIBR] would require the death rate to peak at an intermediate ATP level to account for adaptation at low ATP levels, which paradoxically would imply that low ATP levels strongly favor survival.",
+  "reading_complete" : "2020-08-03T12:59:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:56:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "2992511",
+  "score" : 0
+}

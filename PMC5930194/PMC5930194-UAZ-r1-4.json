@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:216326",
+      "entity_text" : "lenalidomide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In multiple myeloma cells, the combination of lenalidomide and dexamethasome works synergistically to inhibit cell proliferation and induce apoptosis.",
+  "reading_complete" : "2020-08-03T15:33:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:33:37Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "lenalidomide and dexamethasome works synergistically to inhibit cell proliferation" ],
+  "pmc_id" : "5930194",
+  "score" : 0
+}

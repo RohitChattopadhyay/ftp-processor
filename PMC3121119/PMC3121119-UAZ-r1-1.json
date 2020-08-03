@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E780" ],
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-0859" ]
+    }
+  },
+  "verbose_text" : "Using human renal cell carcinoma (KEGG pathway : hsa05211) as an example while focusing on the HIF subpathway shown in Figure XREF_FIG, a total of 14 genes are displayed in the rectangular boxes, which are correlated with the HIF transcriptional complex and respond to changes in cellular oxygen levels.",
+  "reading_complete" : "2020-08-03T15:33:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:31:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "oxygen levels" ],
+  "pmc_id" : "3121119",
+  "score" : 0
+}

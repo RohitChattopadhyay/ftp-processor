@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00788",
+      "entity_text" : "RA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Both RA and periodontitis are associated with bone destruction, mediated by inflammatory cytokines such as interleukin 1 (IL-1), tumor necrosis factor-alpha (TNF-alpha), and prostaglandin E2 [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T15:31:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:30:03Z",
+  "trigger" : "associated",
+  "evidence" : [ "RA and periodontitis are associated with bone destruction, mediated by inflammatory cytokines such as interleukin 1 (IL-1), tumor necrosis factor-alpha (TNF-alpha" ],
+  "pmc_id" : "4258373",
+  "score" : 0
+}

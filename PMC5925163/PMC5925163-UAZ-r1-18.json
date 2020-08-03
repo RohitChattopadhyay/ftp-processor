@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Secondary hyperparathyroidism (SHPT) is caused by defective phosphate excretion and failure to activate vitamin D. Elevated phosphate level, decreased calcium level, and reduced serum vitamin D lead to continuous stimulation of the parathyroid glands that increases PTH release [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T14:30:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:28:15Z",
+  "trigger" : "reduced",
+  "evidence" : [ "calcium level, and reduced serum vitamin D" ],
+  "pmc_id" : "5925163",
+  "score" : 0
+}

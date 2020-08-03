@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "C-reactive protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0013756" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Laboratory data shows white blood cell count 14,000/uL with 51.6% lymphocyte (absolute lymphocyte count 7224/uL), negative for C-reactive protein level, and lactate 12.0 mg/dL.",
+  "reading_complete" : "2020-08-03T14:55:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:54:48Z",
+  "trigger" : "level",
+  "evidence" : [ "C-reactive protein level" ],
+  "pmc_id" : "5930190",
+  "score" : 0
+}

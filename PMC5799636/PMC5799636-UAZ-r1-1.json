@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "uniprot:SL-0032" ],
+      "Organ" : [ "uberon:UBERON:0004539" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The urinalysis showed WBC (1+), renal function, and coagulation profiles were WNL, but her lipid profile showed high cholesterol level.",
+  "reading_complete" : "2020-08-03T15:18:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:17:54Z",
+  "trigger" : "level",
+  "evidence" : [ "cholesterol level" ],
+  "pmc_id" : "5799636",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15941",
+      "entity_text" : "MUC1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of p70S6K1 and MUC1 restored the colony formation and invasion abilities that were inhibited by miR-145.",
+  "reading_complete" : "2020-08-03T16:16:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:15:01Z",
+  "trigger" : "restored",
+  "evidence" : [ "MUC1 restored the colony formation and invasion" ],
+  "pmc_id" : "6257844",
+  "score" : 0
+}

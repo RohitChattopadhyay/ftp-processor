@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0002020" ],
+      "CellType" : [ "cl:CL:0000128" ]
+    }
+  },
+  "verbose_text" : "Therefore, oligodendrocytes, which are the myelin producing cells of the central nervous system and require higher levels of oxygen and glucose than other glial types, might be particularly vulnerable to hypoxia due to their relative lack of collateral blood flow 1, 2.",
+  "reading_complete" : "2020-08-03T16:08:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:08:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of oxygen" ],
+  "pmc_id" : "5986050",
+  "score" : 0
+}

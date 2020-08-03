@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q53EL6",
+      "entity_text" : "PDCD4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This led to increased PDCD4 expression, which is likely to result in suppression of the p53 signaling pathway.",
+  "reading_complete" : "2020-08-03T12:47:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:44:48Z",
+  "trigger" : "suppression",
+  "evidence" : [ "PDCD4 expression, which is likely to result in suppression of the p53" ],
+  "pmc_id" : "4096730",
+  "score" : 0
+}

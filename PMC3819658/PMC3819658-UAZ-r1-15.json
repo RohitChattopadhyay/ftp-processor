@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13019211",
+      "entity_text" : "M1",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:11309" ]
+    }
+  },
+  "verbose_text" : "The latter is thought to form a bridge between vRNPs and NEP / NS2 [XREF_BIBR - XREF_BIBR], and M1 association with vRNP may require M1 SUMOylation [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:59:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:45:36Z",
+  "trigger" : "SUMOylation",
+  "evidence" : [ "M1 SUMOylation" ],
+  "pmc_id" : "3819658",
+  "score" : 0
+}

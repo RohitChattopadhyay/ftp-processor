@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06731",
+      "entity_text" : "CEA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0001555" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "In contrast, in cancer tissues that have lost single-layer organization, neoplastic cells located deep inside tumor glands express CEA on all sides of the cell surface directly facing the blood vessels.12, 14 Smithson et al reported that CEA is upregulated in inflamed human intestinal tissues.15 Sugarbaker reported markedly elevated serum CEA levels in patients with acute colonic obstruction from colorectal cancer.16 Bowel decompressive procedures prior to tumor resection markedly reduce serum CEA levels, which suggests that colonic obstruction is independently associated with the elevation of serum CEA levels.",
+  "reading_complete" : "2020-08-03T14:43:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:43:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "CEA levels" ],
+  "pmc_id" : "7141710",
+  "score" : 0
+}

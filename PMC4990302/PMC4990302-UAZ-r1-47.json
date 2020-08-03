@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11096" ],
+      "TissueType" : [ "tissuelist:TS-0023" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "Our results showed that RSV infection in the airway epithelium significantly increased HDAC2 expression, which is associated with aberrant histone acetylation.",
+  "reading_complete" : "2020-08-03T16:17:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:16:06Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "histone acetylation" ],
+  "pmc_id" : "4990302",
+  "score" : 0
+}
