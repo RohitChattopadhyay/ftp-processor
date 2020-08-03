@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8058",
+      "entity_text" : "hexane",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Triglyceride and diacylglycerol fractions were scraped from the TLC plate and were then methylated by incubating with toluene, methanol, and acetyl chloride (0.5 : 1.2 : 0.1) at 100degreesC for 60 min and separated in hexane.",
+  "reading_complete" : "2020-08-03T14:08:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:02:43Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated by incubating with toluene, methanol, and acetyl chloride (0.5 : 1.2 : 0.1) at 100degreesC for 60 min and separated in hexane" ],
+  "pmc_id" : "3171760",
+  "score" : 0
+}
