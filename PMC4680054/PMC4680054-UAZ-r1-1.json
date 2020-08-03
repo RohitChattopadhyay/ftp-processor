@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02019",
+      "entity_text" : "WIF",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It seems unlikely that WIF accelerated alcohol metabolism; thus, we suspect that WIF inhibited alcohol absorption in the gastrointestinal tract.",
+  "reading_complete" : "2020-08-03T11:44:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:42:32Z",
+  "trigger" : "accelerated",
+  "evidence" : [ "WIF accelerated alcohol" ],
+  "pmc_id" : "4680054",
+  "score" : 0
+}
