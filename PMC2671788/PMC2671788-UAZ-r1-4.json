@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q776B5",
+      "entity_text" : "growth factor",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Pro inflammatory cytokines such as interleukin-1alpha and interleukin-1beta, (IL-1alpha, IL-1beta) released from matrix keratinocytes stimulate keratinocytes growth factor (KGF) expression, which in turn induced proliferation of the cholesteatoma keratinocytes.",
+  "reading_complete" : "2020-08-03T14:44:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:44:05Z",
+  "trigger" : "induced",
+  "evidence" : [ "growth factor (KGF) expression, which in turn induced proliferation" ],
+  "pmc_id" : "2671788",
+  "score" : 0
+}
