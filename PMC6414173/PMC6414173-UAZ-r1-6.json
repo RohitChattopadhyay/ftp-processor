@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It was also observed that magnolol suppressed the MAPK pathway, as indicated by inhibition of the phosphorylation of ERK, p38 and JNK.",
+  "reading_complete" : "2020-08-03T16:58:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:57:53Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK, p38 and JNK" ],
+  "pmc_id" : "6414173",
+  "score" : 0
+}

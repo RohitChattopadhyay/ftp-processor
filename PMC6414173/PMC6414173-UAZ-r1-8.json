@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6Q6",
+      "entity_text" : "RANK",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14788",
+      "entity_text" : "RANKL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0721" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "RANKL binds to RANK on immature osteoclasts, resulting in the activation of the NF-kappaB and MAPK pathways.",
+  "reading_complete" : "2020-08-03T16:58:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:57:53Z",
+  "trigger" : "binds",
+  "evidence" : [ "RANKL binds to RANK" ],
+  "pmc_id" : "6414173",
+  "score" : 0
+}

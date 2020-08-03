@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14457",
+      "entity_text" : "Beclin-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In addition, the expression of autophagic markers, including the ratio of LC3B-II and LC3B-I, and Beclin-1 were significantly decreased, suggesting cbFeD inhibited autophagy.",
+  "reading_complete" : "2020-08-03T16:54:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:53:51Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "Beclin-1 were significantly decreased, suggesting cbFeD inhibited autophagy" ],
+  "pmc_id" : "5819931",
+  "score" : 0
+}
