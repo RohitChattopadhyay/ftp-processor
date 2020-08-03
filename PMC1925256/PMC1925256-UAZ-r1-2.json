@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:402",
+      "entity_text" : "sulfur",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:1773" ]
+    }
+  },
+  "verbose_text" : "This difference reflects the relatively larger amount of sulfur as a percent of total biomass in M. tb compared to E. coli, which is consistent with knowledge of M. tb 's composition [XREF_BIBR].",
+  "reading_complete" : "2020-08-03T11:04:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:00:35Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of sulfur" ],
+  "pmc_id" : "1925256",
+  "score" : 0
+}
