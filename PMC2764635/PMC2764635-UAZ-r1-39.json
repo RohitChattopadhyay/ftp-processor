@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Our model predicts that normal EGFR signalling results in a transient ERK signal due to receptor degradation, NGF signalling results in a sustained ERK signal (via the Rap1 pathway) as there is no degradation of the TrkA receptor, and cancerous EGFR signalling results in a constitutive / sustained ERK signal (via the Rap1 pathway) because receptor degradation is either abolished or counteracted.",
+  "reading_complete" : "2020-08-03T16:07:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:59:57Z",
+  "trigger" : "signal",
+  "evidence" : [ "EGFR signalling results in a transient ERK signal" ],
+  "pmc_id" : "2764635",
+  "score" : 0
+}

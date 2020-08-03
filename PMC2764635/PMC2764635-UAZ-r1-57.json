@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04049",
+      "entity_text" : "Raf-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Due to the presence of the PI3K -> Akt -> Raf-1 feed-forward loop which deactivates Raf-1, the mutated Ras appears to signal predominately via B-Raf.",
+  "reading_complete" : "2020-08-03T16:07:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:59:57Z",
+  "trigger" : "deactivates",
+  "evidence" : [ "PI3K -> Akt -> Raf-1 feed-forward loop which deactivates Raf-1" ],
+  "pmc_id" : "2764635",
+  "score" : 0
+}
