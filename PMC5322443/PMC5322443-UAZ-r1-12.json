@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01270",
+      "entity_text" : "PTH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0000353" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The increased serum PTH level leads to excessive osteoclastic activity, with the release of calcium, phosphorus, and hydroxyproline due to the generalized demineralization of the bone district.",
+  "reading_complete" : "2020-08-03T13:45:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T13:42:51Z",
+  "trigger" : "level",
+  "evidence" : [ "PTH level" ],
+  "pmc_id" : "5322443",
+  "score" : 0
+}
