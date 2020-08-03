@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03283",
+      "entity_text" : "PAE",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The results demonstrated that PAE treatment increased STAT3 phosphorylation in the cytoplasm followed by nuclear translocation (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:59:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:58:36Z",
+  "trigger" : "increased",
+  "evidence" : [ "PAE treatment increased STAT3 phosphorylation" ],
+  "pmc_id" : "5504994",
+  "score" : 0
+}

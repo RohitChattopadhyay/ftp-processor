@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13085",
+      "entity_text" : "ACC1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "AMPK phosphorylation negatively regulates ACC1 and ACC2 enzyme activity in vivo, inhibiting the activity of ACC1 and ACC2.",
+  "reading_complete" : "2020-08-03T17:56:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:55:31Z",
+  "trigger" : "negatively regulates",
+  "evidence" : [ "AMPK phosphorylation negatively regulates ACC1" ],
+  "pmc_id" : "6889919",
+  "score" : 0
+}

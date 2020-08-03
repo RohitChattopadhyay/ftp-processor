@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6IAA8",
+      "entity_text" : "Lamtor1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These data suggest that the loss of Lamtor1 enhances insulin secretion in pancreatic beta-cells.",
+  "reading_complete" : "2020-08-03T17:56:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:55:31Z",
+  "trigger" : "enhances",
+  "evidence" : [ "Lamtor1 enhances insulin" ],
+  "pmc_id" : "6889919",
+  "score" : 0
+}

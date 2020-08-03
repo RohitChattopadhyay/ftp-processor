@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04725",
+      "entity_text" : "miR-19b",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the present study, overexpression of miR-19b in ECs markedly decreased STAT3 tyrosine phosphorylation (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:57:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:56:33Z",
+  "trigger" : "decreased",
+  "evidence" : [ "miR-19b in ECs markedly decreased STAT3 tyrosine phosphorylation" ],
+  "pmc_id" : "5752162",
+  "score" : 0
+}

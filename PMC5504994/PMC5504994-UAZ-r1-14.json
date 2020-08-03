@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0038" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of STAT3 was decreased after treatment with stattic in a dose dependent manner in the HaCaT cells.",
+  "reading_complete" : "2020-08-03T17:59:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:58:36Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of STAT3" ],
+  "pmc_id" : "5504994",
+  "score" : 0
+}

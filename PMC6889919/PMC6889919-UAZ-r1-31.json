@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5958",
+      "entity_text" : "glucose 6-phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In pancreatic beta-cells, glucose is transported by the glucose transporter 2 (GLUT2) and phosphorylated by glucokinase to produce glucose 6-phosphate, which is then oxidatively phosphorylated by the mitochondria, resulting in an increase in the adenosine triphosphate / adenosine diphosphate (ATP/ADP) ratio in the cytoplasm.",
+  "reading_complete" : "2020-08-03T17:56:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:55:31Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "glucose 6-phosphate, which is then oxidatively phosphorylated" ],
+  "pmc_id" : "6889919",
+  "score" : 0
+}

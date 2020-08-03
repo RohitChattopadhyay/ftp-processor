@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The following factors are considered to be associated with the decreased expression of Runx3 : methylation of its promoter region, histone modification, micro-RNA regulation, cytoplasmic allotopic expression and hemizygote absence.",
+  "reading_complete" : "2020-08-03T18:00:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:59:22Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of its promoter region              , histone" ],
+  "pmc_id" : "5627869",
+  "score" : 0
+}

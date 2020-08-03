@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04741",
+      "entity_text" : "EFGR inhibitors",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "features" : [ {
+        "to_base" : "T",
+        "site" : 790,
+        "feature_type" : "mutation",
+        "evidence" : "T790M"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As the mutation of T790M reduces the activity of EFGR inhibitors through inhibition of part of their interaction, in the resistant T790M mutant EGFR, pi cation interactions or H-bonds with residue Lys745 were present, but the H-bond between the compounds and Met790 was not.",
+  "reading_complete" : "2020-08-03T17:57:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:57:06Z",
+  "trigger" : "reduces",
+  "evidence" : [ "reduces the activity of EFGR inhibitors through inhibition of part of their interaction, in the resistant T790M mutant EGFR" ],
+  "pmc_id" : "6365047",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04772",
+      "entity_text" : "SMAD1/5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "After activation, SMAD1/5 is recognized and phosphorylated by type I receptors.",
+  "reading_complete" : "2020-08-03T18:01:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:31Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "SMAD1/5 is recognized and phosphorylated" ],
+  "pmc_id" : "4790673",
+  "score" : 0
+}

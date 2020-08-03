@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04283",
+      "entity_text" : "STAT3 inhibitor",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Pretreatment with a STAT3 inhibitor blocked the cell proliferation and migration induced by PAE.",
+  "reading_complete" : "2020-08-03T17:59:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:58:36Z",
+  "trigger" : "blocked",
+  "evidence" : [ "STAT3 inhibitor blocked the cell proliferation" ],
+  "pmc_id" : "5504994",
+  "score" : 0
+}

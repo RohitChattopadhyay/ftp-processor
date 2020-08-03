@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3901" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In order to investigate whether the inhibitory role of miR-19b in ECs was mediated by STAT3, EA.hy926 cells were transfected with miR-19b mimic for 24 h and STAT3 tyrosine phosphorylation was detected by western blot analysis.",
+  "reading_complete" : "2020-08-03T17:57:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:56:33Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "STAT3 tyrosine phosphorylation" ],
+  "pmc_id" : "5752162",
+  "score" : 0
+}

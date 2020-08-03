@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10663",
+      "entity_text" : "malonyl-CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ACC1 catalyzes the carboxylation of acetyl-CoA to form malonyl-CoA, which inhibits mitochondrial fatty acid oxidation and results in insulin secretion.",
+  "reading_complete" : "2020-08-03T17:56:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:55:31Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "malonyl-CoA, which inhibits mitochondrial fatty acid" ],
+  "pmc_id" : "6889919",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35610",
+      "entity_text" : "STAT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The canonical JAK / STAT signaling pathway involves the activation of JAK or growth factor receptor kinases, phosphorylation of STAT proteins, their dimerization and translocation into the nucleus whereas STATs act as transcription factors with pleiotropic downstream effects.",
+  "reading_complete" : "2020-08-03T17:59:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:58:36Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of STAT" ],
+  "pmc_id" : "5504994",
+  "score" : 0
+}

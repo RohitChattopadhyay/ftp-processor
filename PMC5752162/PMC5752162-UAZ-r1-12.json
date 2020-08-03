@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3901" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG, STAT3 phosphorylation was markedly decreased by ~ 40% in the miR-19b mimic group compared with in the NC group (P < 0.01).",
+  "reading_complete" : "2020-08-03T17:57:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:56:33Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "STAT3 phosphorylation" ],
+  "pmc_id" : "5752162",
+  "score" : 0
+}

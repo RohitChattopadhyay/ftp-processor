@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13950",
+      "entity_text" : "RUNX2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2469" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Cellular_component" : [ "go:GO:0031012" ]
+    }
+  },
+  "verbose_text" : "Western blot analysis showed that LIN dose-dependently increased the protein levels of BMP-2 and RUNX2 and enhanced the phosphorylation of SMAD1/5.",
+  "reading_complete" : "2020-08-03T18:01:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of BMP-2 and RUNX2" ],
+  "pmc_id" : "4790673",
+  "score" : 0
+}

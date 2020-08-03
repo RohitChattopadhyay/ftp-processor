@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "The interaction between insulin and glucose plays a crucial role in the stabilization of blood glucose, which is closely related to various diseases including diabetes.",
+  "reading_complete" : "2020-08-03T17:56:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:55:31Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between insulin and glucose" ],
+  "pmc_id" : "6889919",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13485",
+      "entity_text" : "SMAD4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02191",
+      "entity_text" : "p-SMAD1/5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This p-SMAD1/5 forms a complex with SMAD4 and then moves to the cell nucleus where it recognizes the regulatory elements of target genes associated with differentiation.",
+  "reading_complete" : "2020-08-03T18:01:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T18:00:31Z",
+  "trigger" : "forms a complex",
+  "evidence" : [ "p-SMAD1/5 forms a complex with SMAD4" ],
+  "pmc_id" : "4790673",
+  "score" : 0
+}

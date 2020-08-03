@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00938",
+      "entity_text" : "lipoprotein",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The risk factors of CAD include hypertension, diabetes mellitus, elevated low-density lipoprotein cholesterol levels and cigarette smoke, all of which may lead to endothelial injury.",
+  "reading_complete" : "2020-08-03T17:57:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:56:33Z",
+  "trigger" : "lead",
+  "evidence" : [ "lipoprotein cholesterol levels and cigarette smoke, all of which may lead to endothelial injury" ],
+  "pmc_id" : "5752162",
+  "score" : 0
+}
