@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:65064",
+      "entity_text" : "EGCG",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In this study, PMA induced MUC5B expression and phosphorylation of p38 MAPK in NCI-H292 airway epithelial cells, and EGCG significantly decreased PMA induced phosphorylation of p38 MAPK.",
+  "reading_complete" : "2020-08-03T17:16:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:15:55Z",
+  "trigger" : "decreased",
+  "evidence" : [ "EGCG significantly decreased PMA-induced phosphorylation of p38 MAPK" ],
+  "pmc_id" : "3863673",
+  "score" : 0
+}

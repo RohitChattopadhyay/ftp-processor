@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The result of Western blot showed that EGCG significantly decreased PMA induced phosphorylation of p38 MAPK (XREF_FIG).",
+  "reading_complete" : "2020-08-03T17:16:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:15:55Z",
+  "trigger" : "decreased",
+  "evidence" : [ "result of Western blot showed that EGCG significantly decreased PMA-induced phosphorylation of p38 MAPK" ],
+  "pmc_id" : "3863673",
+  "score" : 0
+}

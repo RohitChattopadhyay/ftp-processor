@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0455" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0002368" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To investigate the MAPK signaling pathway of PMA induced MUC5B expression, NCI-H292 airway epithelial cells were incubated with PMA (10 nM) and phosphorylation of ERK1/2 and p38 MAPK were analyzed by Western blot.",
+  "reading_complete" : "2020-08-03T17:16:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:15:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK1/2 and p38 MAPK" ],
+  "pmc_id" : "3863673",
+  "score" : 0
+}

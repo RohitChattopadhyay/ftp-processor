@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08235",
+      "entity_text" : "MR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Considering the neurovascular bundles that run medially between the SO and MR [XREF_BIBR], injury of the superior aspect of the MR would cause injury of the neurovascular structures as well as the SO.",
+  "reading_complete" : "2020-08-03T17:13:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:10:58Z",
+  "trigger" : "cause",
+  "evidence" : [ "MR would cause injury" ],
+  "pmc_id" : "3604266",
+  "score" : 0
+}

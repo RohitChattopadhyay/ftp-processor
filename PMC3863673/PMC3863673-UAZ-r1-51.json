@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04302",
+      "entity_text" : "p38 mitogen-activated protein kinase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0455" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0002368" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In NCI-H292 airway epithelial cells, PMA induced MUC5B expression, phosphorylation of p38 mitogen activated protein kinase (MAPK), and matrix metalloproteinase-9 (MMP-9) expression and protein activity.",
+  "reading_complete" : "2020-08-03T17:16:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:15:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of p38 mitogen-activated protein kinase" ],
+  "pmc_id" : "3863673",
+  "score" : 0
+}
