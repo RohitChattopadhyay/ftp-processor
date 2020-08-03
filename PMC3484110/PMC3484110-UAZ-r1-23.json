@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00142",
+      "entity_text" : "RasGTP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Although we were not able to measure GTP bound active Ras (RasGTP) by flow cytometry, the population average dose and dynamic responses were assayed via pull-down and Western blotting, and then quantified.",
+  "reading_complete" : "2020-08-03T14:42:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:38:47Z",
+  "trigger" : "bound",
+  "evidence" : [ "GTP-bound active Ras (RasGTP" ],
+  "pmc_id" : "3484110",
+  "score" : 0
+}
