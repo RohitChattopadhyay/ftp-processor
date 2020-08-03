@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O96013",
+      "entity_text" : "p21-activated kinase 4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03113",
+      "entity_text" : "miR-140-5p",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Peng and Pang found that miR-140-5p overexpression suppressed the growth of OSCC tumor xenografts in mice by downregulating p21 activated kinase 4 (PAK4).",
+  "reading_complete" : "2020-08-03T16:48:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:48:05Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "miR-140-5p overexpression suppressed the growth of OSCC tumor xenografts in mice by downregulating p21-activated kinase 4" ],
+  "pmc_id" : "7307824",
+  "score" : 0
+}

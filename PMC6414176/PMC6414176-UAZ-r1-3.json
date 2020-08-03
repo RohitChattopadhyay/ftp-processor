@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NYT0",
+      "entity_text" : "PLEK2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "According to the TCGA data, PLEK2 is significantly overexpressed in GBM tissues as compared with the normal tissue (XREF_FIG).",
+  "reading_complete" : "2020-08-03T16:46:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:45:15Z",
+  "trigger" : "overexpressed",
+  "evidence" : [ "PLEK2 is significantly overexpressed" ],
+  "pmc_id" : "6414176",
+  "score" : 0
+}
