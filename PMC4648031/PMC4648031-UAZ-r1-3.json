@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5893",
+      "entity_text" : "NAD",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:1000010" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "It is likely that some of the enzyme sample remains unadsorbed and is removed during the particle washing step, so the amount of NAD + reductase is likely to be overestimated.",
+  "reading_complete" : "2020-08-03T12:09:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T12:05:58Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of NAD" ],
+  "pmc_id" : "4648031",
+  "score" : 0
+}
