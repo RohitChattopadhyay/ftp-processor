@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04781",
+      "entity_text" : "serotonin receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ]
+    }
+  },
+  "verbose_text" : "Cyproheptadine, a 5HT 2A antagonist, has been reported to have variable success for treatment of serotonin syndrome in humans.12 Cyproheptadine binds serotonin receptors to competitively prevent serotonin molecules from binding to receptors.",
+  "reading_complete" : "2020-08-03T16:10:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:09:12Z",
+  "trigger" : "binds",
+  "evidence" : [ "serotonin syndrome in humans.12 Cyproheptadine binds serotonin receptors" ],
+  "pmc_id" : "6332764",
+  "score" : 0
+}
