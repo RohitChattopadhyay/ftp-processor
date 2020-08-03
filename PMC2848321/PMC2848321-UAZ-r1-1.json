@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1315" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "The hemoglobin level was 6.7 g/dL and the patient received 2 units of packed red blood cells.",
+  "reading_complete" : "2020-08-03T17:17:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:17:40Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "2848321",
+  "score" : 0
+}

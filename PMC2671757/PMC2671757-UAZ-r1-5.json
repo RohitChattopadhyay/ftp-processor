@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7009579",
+      "entity_text" : "SA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The mere presence of SA in the nose does not necessarily induce SA induced inflammation, as suggested by the SA hypothesis.",
+  "reading_complete" : "2020-08-03T17:17:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:17:19Z",
+  "trigger" : "induced",
+  "evidence" : [ "SA-induced inflammation" ],
+  "pmc_id" : "2671757",
+  "score" : 0
+}
