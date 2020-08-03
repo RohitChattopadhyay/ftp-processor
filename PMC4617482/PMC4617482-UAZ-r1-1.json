@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:RAF",
+      "entity_text" : "Raf",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0526" ],
+      "TissueType" : [ "tissuelist:TS-0501" ],
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "The activation rate of Ras and Raf interaction (p 27) also has relevant MIRI.",
+  "reading_complete" : "2020-08-03T10:06:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T10:01:36Z",
+  "trigger" : "interaction",
+  "evidence" : [ "Ras and Raf interaction" ],
+  "pmc_id" : "4617482",
+  "score" : 0
+}
