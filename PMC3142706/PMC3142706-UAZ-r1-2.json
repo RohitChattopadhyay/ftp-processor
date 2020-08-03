@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:4113" ],
+      "TissueType" : [ "tissuelist:TS-0361" ]
+    }
+  },
+  "verbose_text" : "Median CRP concentration was 1.65 mg/L, and 1,097 (25%) participants had an elevated CRP level (> 3 mg/L) at baseline.",
+  "reading_complete" : "2020-08-03T15:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:03:48Z",
+  "trigger" : "level",
+  "evidence" : [ "CRP level" ],
+  "pmc_id" : "3142706",
+  "score" : 0
+}
