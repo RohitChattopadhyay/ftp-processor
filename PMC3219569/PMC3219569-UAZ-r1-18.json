@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6993082",
+      "entity_text" : "MM",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The amino acid lower bound for the MM was scaled to a ratio similar to the MM biomass amino acid makeup.",
+  "reading_complete" : "2020-08-03T11:38:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T11:35:35Z",
+  "trigger" : "bound",
+  "evidence" : [ "acid lower bound for the MM" ],
+  "pmc_id" : "3219569",
+  "score" : 0
+}
