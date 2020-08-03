@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12872",
+      "entity_text" : "MAP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:51537604",
+      "entity_text" : "minocycline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Corbacella et al. investigated the effect of minocycline on gentamicin (GM)-induced ototoxicity, and reported that minocycline inhibited p38 MAP kinase phosphorylation and caspase 3 activation.",
+  "reading_complete" : "2020-08-03T17:27:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:26:39Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "minocycline inhibited p38 MAP kinase phosphorylation" ],
+  "pmc_id" : "3109331",
+  "score" : 0
+}

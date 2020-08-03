@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05412",
+      "entity_text" : "p-JUN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D899" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10141" ]
+    }
+  },
+  "verbose_text" : "HEI-OC1 cells expressed high levels of p-JUN, cleaved PARP, and AIF, which are in the caspase independent pathway following exposure to 4 mug/mL and 8 mug/mL cisplatin.",
+  "reading_complete" : "2020-08-03T17:27:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:26:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p-JUN" ],
+  "pmc_id" : "3109331",
+  "score" : 0
+}
