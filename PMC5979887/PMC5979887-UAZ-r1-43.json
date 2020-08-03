@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "VEGFR2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0107" ]
+    }
+  },
+  "verbose_text" : "The receptor tyrosine kinase VEGFR2 is phosphorylated and activated by binding to extracellular VEGF-A and mediates almost all known VEGF-A-induced cellular responses.",
+  "reading_complete" : "2020-08-03T16:36:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:35:35Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "VEGFR2 is phosphorylated" ],
+  "pmc_id" : "5979887",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0107" ]
+    }
+  },
+  "verbose_text" : "HIF1alpha expression within the callus was examined to determine the association between HIF1alpha and VEGF.",
+  "reading_complete" : "2020-08-03T16:36:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:35:35Z",
+  "trigger" : "association",
+  "evidence" : [ "association between HIF1alpha and VEGF" ],
+  "pmc_id" : "5979887",
+  "score" : 0
+}

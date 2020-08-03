@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00661",
+      "entity_text" : "matrix",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As mature chondrocytes begin to secrete cartilage matrix factors, blood vessels grow into the cartilage callus along the matrix, resulting in increased levels of oxygen, which induce osteoblastic differentiation and gradual mineralization of the matrix, thus resulting in the generation of a large amount of woven bone.",
+  "reading_complete" : "2020-08-03T16:36:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:35:35Z",
+  "trigger" : "induce",
+  "evidence" : [ "oxygen, which induce osteoblastic differentiation and gradual mineralization of the matrix" ],
+  "pmc_id" : "5979887",
+  "score" : 0
+}

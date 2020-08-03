@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07355",
+      "entity_text" : "ANXA2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The present study indicated that, according to flow cytometry and cell cycle progression analysis, overexpression of ANXA2 and ANXA2P3 reduced cell apoptosis rates and induced cell cycle arrest in G 2 phase; therefore, ANXA2 and ANXA2P3 may serve a protective role in the process of liver injury.",
+  "reading_complete" : "2020-08-03T16:34:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:33:21Z",
+  "trigger" : "reduced",
+  "evidence" : [ "ANXA2 and ANXA2P3 reduced cell apoptosis" ],
+  "pmc_id" : "6317672",
+  "score" : 0
+}
