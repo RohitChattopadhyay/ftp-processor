@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NYG5",
+      "entity_text" : "ANAPC11",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistently, overexpression of ANAPC11 or inhibition of miR-1261 significantly rescued liver cancer cell proliferation induced by knockdown of lncRNA BCAR4.",
+  "reading_complete" : "2020-08-03T16:18:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:18:10Z",
+  "trigger" : "rescued",
+  "evidence" : [ "ANAPC11 or inhibition of miR-1261 significantly rescued liver cancer cell proliferation" ],
+  "pmc_id" : "7255484",
+  "score" : 0
+}

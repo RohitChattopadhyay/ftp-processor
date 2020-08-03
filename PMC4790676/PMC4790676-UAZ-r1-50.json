@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99717",
+      "entity_text" : "SMAD5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0322" ],
+      "Organ" : [ "uberon:UBERON:0014437" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The iliac crest derived MSCs (by fine-needle aspiration) exhibited a decreased methylation of the RUNX2 gene in comparison with the femur derived MSCs (using the RIA technique and using a spoon) and a decreased methylation of the SMAD5 gene in comparison with the iliac crest derived MSCs (using a spoon).",
+  "reading_complete" : "2020-08-03T16:20:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:18:38Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of the SMAD5" ],
+  "pmc_id" : "4790676",
+  "score" : 0
+}

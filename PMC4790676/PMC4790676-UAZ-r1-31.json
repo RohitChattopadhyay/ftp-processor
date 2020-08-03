@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:597",
+      "entity_text" : "cytosine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "CpG dinucleotides in mammalian genomic DNA may be methylated at cytosine moieties.",
+  "reading_complete" : "2020-08-03T16:20:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:18:38Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated at cytosine" ],
+  "pmc_id" : "4790676",
+  "score" : 0
+}

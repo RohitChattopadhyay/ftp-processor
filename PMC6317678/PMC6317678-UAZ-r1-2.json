@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "mTOR, a serine/threonine kinase, is highly conserved in evolution, and may be phosphorylated by activated Akt.",
+  "reading_complete" : "2020-08-03T16:21:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:20:21Z",
+  "trigger" : "activated",
+  "evidence" : [ "mTOR, a serine/threonine kinase, is highly conserved in evolution              , and may be phosphorylated by activated Akt" ],
+  "pmc_id" : "6317678",
+  "score" : 0
+}

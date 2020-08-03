@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6993082",
+      "entity_text" : "mM",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Following 24 h of exposure in HT22 cells, 25 mM of l-Glu substantially reduced the phosphorylation of Akt and mTOR compared with the control cells (XREF_FIG), and these reductions were markedly reversed by 3 h of pre-incubation of crocin (XREF_FIG).",
+  "reading_complete" : "2020-08-03T16:21:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:20:21Z",
+  "trigger" : "reduced",
+  "evidence" : [ "mM of l-Glu substantially reduced the phosphorylation of Akt and mTOR" ],
+  "pmc_id" : "6317678",
+  "score" : 0
+}

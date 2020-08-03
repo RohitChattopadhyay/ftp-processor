@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00167",
+      "entity_text" : "fibroblast growth factor",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0322" ],
+      "CellLine" : [ "cellosaurus:CVCL_D953" ],
+      "Organ" : [ "uberon:UBERON:0014437" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000048" ]
+    }
+  },
+  "verbose_text" : "It has been demonstrated that the reaming debris obtained using the RIA technique contains elevated levels of fibroblast growth factor (FGF)-1, platelet derived growth factor (PDGF), insulin like growth factor (IGF)-1, transforming- growth factor (TGF)-beta1 and bone morphogenetic protein (BMP) -1 in comparison with samples obtained from the iliac crest using the needle puncture / aspiration technique.",
+  "reading_complete" : "2020-08-03T16:20:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:18:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of fibroblast growth factor" ],
+  "pmc_id" : "4790676",
+  "score" : 0
+}

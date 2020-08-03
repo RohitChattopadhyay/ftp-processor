@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O73683",
+      "entity_text" : "Abeta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22303",
+      "entity_text" : "AchE",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Oxidative stress may enhance the expression of AchE, which helps to promote the formation of Abeta and its aggregation into Abeta plaques.",
+  "reading_complete" : "2020-08-03T16:21:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T16:20:21Z",
+  "trigger" : "promote",
+  "evidence" : [ "AchE              , which helps to promote the formation of Abeta" ],
+  "pmc_id" : "6317678",
+  "score" : 0
+}
