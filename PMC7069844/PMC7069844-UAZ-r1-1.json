@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0896" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "She had iron overload related to her disease and her ferritin level was 1256 ng/mL and she was under treatment with 1 g deferoxamine.",
+  "reading_complete" : "2020-08-03T15:33:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T15:32:48Z",
+  "trigger" : "level",
+  "evidence" : [ "ferritin level" ],
+  "pmc_id" : "7069844",
+  "score" : 0
+}
