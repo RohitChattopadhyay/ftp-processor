@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D596" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Organ" : [ "uberon:UBERON:0010211" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although, in western blot analysis, the phosphorylation of JNK was not detectable in hGFs before / after TGF-beta1 (5 ng/ml) stimulation (data not shown), it remains to be clarified whether JNK affects the TGF-beta1-induced fibrogenic and migratory activities of hGFs.",
+  "reading_complete" : "2020-08-03T17:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:34:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of JNK" ],
+  "pmc_id" : "4899021",
+  "score" : 0
+}

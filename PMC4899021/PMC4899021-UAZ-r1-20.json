@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04534",
+      "entity_text" : "polarity protein Par6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellLine" : [ "cellosaurus:CVCL_D596" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ],
+      "Organ" : [ "uberon:UBERON:0010211" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0008019" ]
+    }
+  },
+  "verbose_text" : "On the other hand, Ozdamar et al reported that the phosphorylation of polarity protein Par6 is required for TGF-beta1-dependent epithelial-to-mesenchymal transition (EMT) in mammary gland ECs and controls the interaction of Par6 with the E3 ubiquitin ligase Smurf1.",
+  "reading_complete" : "2020-08-03T17:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:34:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of polarity protein Par6" ],
+  "pmc_id" : "4899021",
+  "score" : 0
+}

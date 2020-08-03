@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In fact, TGF-beta1 upregulated the phosphorylation of p38 MAPK in hGFs; however, ZA (Cmax) did not suppress the TGF-beta1 (5 ng/ml)-induced phosphorylation of p38 MAPK in hGFs (data not shown), suggesting that p38 MAPK activity is not related to the suppressive effects of ZA (Cmax) on TGF-beta1-induced fibrogenic activity of hGFs.",
+  "reading_complete" : "2020-08-03T17:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:34:51Z",
+  "evidence" : [ "TGF-beta1 (5 ng/ml)-induced phosphorylation of p38 MAPK" ],
+  "pmc_id" : "4899021",
+  "score" : 0
+}

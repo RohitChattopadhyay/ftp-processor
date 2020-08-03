@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD2_3",
+      "entity_text" : "Smad2/3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These results suggest that ZA (Cmax) suppressed TGF-beta1-induced MF differentiation of hGFs through inhibition of Smad2/3 phosphorylation by TGF-beta1.",
+  "reading_complete" : "2020-08-03T17:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:34:51Z",
+  "trigger" : "inhibition",
+  "evidence" : [ "inhibition of Smad2/3 phosphorylation by TGF-beta1" ],
+  "pmc_id" : "4899021",
+  "score" : 0
+}

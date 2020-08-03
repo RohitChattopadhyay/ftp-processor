@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD2_3",
+      "entity_text" : "Smad2/3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D596" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, it remains to be clarified whether ZA (Cmax) directly suppresses the TGF-beta1-induced phosphorylation of Smad2/3, or indirectly suppresses that through the inhibition of the TGF-beta type I receptor expression on the surface of hGFs.",
+  "reading_complete" : "2020-08-03T17:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:34:51Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Smad2/3" ],
+  "pmc_id" : "4899021",
+  "score" : 0
+}
