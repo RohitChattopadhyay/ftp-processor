@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06219",
+      "entity_text" : "FLI-1 gene",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0005902" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000556" ]
+    }
+  },
+  "verbose_text" : "Heterozygous loss of the FLI-1 gene is associated with dysmegakaryocytopoiesis 1, 11.",
+  "reading_complete" : "2020-08-03T17:18:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:17:21Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the FLI-1 gene" ],
+  "pmc_id" : "6028426",
+  "score" : 0
+}

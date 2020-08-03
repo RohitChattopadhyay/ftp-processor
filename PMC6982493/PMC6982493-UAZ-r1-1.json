@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06731",
+      "entity_text" : "CEA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Organ" : [ "uberon:UBERON:2002107" ],
+      "CellType" : [ "cl:CL:0002138" ]
+    }
+  },
+  "verbose_text" : "Neoplastic from benign cysts can be distinguished through cyst fluid analysis in which a cyst fluid CEA level> 200 ng/mL is strongly supportive of a diagnosis of MCN.",
+  "reading_complete" : "2020-08-03T17:15:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:14:11Z",
+  "trigger" : "level",
+  "evidence" : [ "CEA level" ],
+  "pmc_id" : "6982493",
+  "score" : 0
+}

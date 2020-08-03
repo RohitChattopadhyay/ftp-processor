@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01350",
+      "entity_text" : "gas",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1315" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Arterial blood gas levels were abnormal : pH, 7.432; pCO 2, 27 Torr; pO 2, 127.0 Torr; glucose, 172 mg/dL; base excess -5.5, indicating lactic acidosis with respiratory compensation.",
+  "reading_complete" : "2020-08-03T17:18:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T17:18:37Z",
+  "trigger" : "levels",
+  "evidence" : [ "gas levels" ],
+  "pmc_id" : "5889268",
+  "score" : 0
+}
