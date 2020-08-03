@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54296",
+      "entity_text" : "M protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_M436" ],
+      "Cellular_component" : [ "go:GO:0005604" ],
+      "Organ" : [ "uberon:UBERON:0001273" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We used the diagnostic criteria of the International Myeloma Working Group14 to diagnose MM in this patient based on the serum M protein level, extramedullary plasmacytoma, and presence of the iliac lesion.",
+  "reading_complete" : "2020-08-03T14:14:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:14:02Z",
+  "trigger" : "level",
+  "evidence" : [ "M protein level" ],
+  "pmc_id" : "6509933",
+  "score" : 0
+}
