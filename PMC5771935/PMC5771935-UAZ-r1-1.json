@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BQR3",
+      "entity_text" : "MPN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "JAK2",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 617,
+        "feature_type" : "mutation",
+        "evidence" : "V617F"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Indeed, it has been suggested that JAK2 V617F only confers a weak proliferative advantage on the hematopoietic stem cell (HSC), such that on its own, it would cause an MPN with a very long latency; thus, JAK2 V617F -bearing HSCs may remain harmless for a long time, until genetic or environmental changes such as hematopoietic stress or aging allow clonal dominance and MPN emergence 6.",
+  "reading_complete" : "2020-08-03T14:52:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-03T14:50:59Z",
+  "trigger" : "cause",
+  "evidence" : [ "JAK2\n V617F  only confers a weak proliferative advantage on the hematopoietic stem cell (HSC), such that on its own, it would cause an MPN" ],
+  "pmc_id" : "5771935",
+  "score" : 0
+}
