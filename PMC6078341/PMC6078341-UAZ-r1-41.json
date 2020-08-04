@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Bcl-2 was overexpressed, whereas the pro apoptotic molecule Bax was downregulated in hTERT high CSCs (XREF_FIG G), suggesting that hTERT blocks chemotherapy induced apoptosis in breast CSCs by preferential activation of the Bcl-2 cell survival response.",
+  "reading_complete" : "2020-08-04T09:24:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:23:24Z",
+  "trigger" : "blocks",
+  "evidence" : [ "Bcl-2 was overexpressed, whereas the pro-apoptotic molecule Bax was downregulated in hTERT high  CSCs ( XREF_FIG G), suggesting that hTERT blocks chemotherapy-induced apoptosis" ],
+  "pmc_id" : "6078341",
+  "score" : 0
+}

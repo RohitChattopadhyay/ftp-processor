@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52701",
+      "entity_text" : "MSH6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00443",
+      "entity_text" : "EGFP-KDM4A-C fusions",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "IF analysis shows that overexpression of EGFP-KDM4A-C fusions (green) diminished the intensity of H3K36me3 signal (gray) and impaired MSH6 foci during S phase (red) (XREF_FIG).",
+  "reading_complete" : "2020-08-04T09:25:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:24:41Z",
+  "trigger" : "diminished",
+  "evidence" : [ "EGFP-KDM4A-C fusions (green) diminished the intensity of H3K36me3 signal (gray) and impaired MSH6" ],
+  "pmc_id" : "4400592",
+  "score" : 0
+}

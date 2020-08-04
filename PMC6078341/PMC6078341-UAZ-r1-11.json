@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "CellType" : [ "cl:CL:0002451" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For instance, mammary stem cells with high levels of Wnt / beta-catenin signaling have greater tumorigenic potential than their counterparts with low Wnt / beta-catenin signaling levels.",
+  "reading_complete" : "2020-08-04T09:24:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:23:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Wnt/beta-catenin" ],
+  "pmc_id" : "6078341",
+  "score" : 0
+}

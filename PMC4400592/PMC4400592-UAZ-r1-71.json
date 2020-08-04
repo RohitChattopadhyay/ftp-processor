@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22897",
+      "entity_text" : "MMR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00427",
+      "entity_text" : "KDM4A-C",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We predicted therefore that the removal of H3K36me3 mark following KDM4A-C overexpression should disrupt the integrity of DNA MMR.",
+  "reading_complete" : "2020-08-04T09:25:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:24:41Z",
+  "trigger" : "disrupt",
+  "evidence" : [ "KDM4A-C overexpression should disrupt the integrity of DNA MMR" ],
+  "pmc_id" : "4400592",
+  "score" : 0
+}

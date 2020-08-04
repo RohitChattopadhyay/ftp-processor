@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00436",
+      "entity_text" : "H3K9me3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H3R0",
+      "entity_text" : "KDM4C",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 198,
+        "feature_type" : "mutation",
+        "evidence" : "S198M"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Previously, we have established a catalytically inert KDM4C S198M mutant that does not demethylate H3K9me3.",
+  "reading_complete" : "2020-08-04T09:25:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:24:41Z",
+  "evidence" : [ "KDM4C-S198M mutant that does not demethylate H3K9me3" ],
+  "pmc_id" : "4400592",
+  "score" : 0
+}

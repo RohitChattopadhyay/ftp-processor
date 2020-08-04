@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q3BK13",
+      "entity_text" : "MSI",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00427",
+      "entity_text" : "KDM4A-C",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Altogether, our data suggest that overexpression of KDM4A-C, but not KDM4D, disrupts the integrity of DNA MMR and leads to MSI.",
+  "reading_complete" : "2020-08-04T09:25:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:24:41Z",
+  "trigger" : "leads",
+  "evidence" : [ "KDM4A-C, but not KDM4D, disrupts the integrity of DNA MMR and leads to MSI" ],
+  "pmc_id" : "4400592",
+  "score" : 0
+}
