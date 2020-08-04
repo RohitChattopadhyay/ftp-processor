@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CTNNA",
+      "entity_text" : "alpha-catenin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Alpha-catenin knockdown livers exhibited almost a doubling of the percentage of YAP positive nuclei, verifying that YAP signalling is indeed potentiated by the loss of alpha-catenin (XREF_FIG).",
+  "reading_complete" : "2020-08-04T12:38:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:57Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of alpha-catenin" ],
+  "pmc_id" : "4213774",
+  "score" : 0
+}

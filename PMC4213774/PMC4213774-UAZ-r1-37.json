@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000529",
+      "entity_text" : "S6",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In our case, however, the increase in cell size was not attributed to an up-regulation of the mTOR pathway, as we did not observe any change in phosphorylated S6 kinase levels (data not shown).",
+  "reading_complete" : "2020-08-04T12:38:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "S6 kinase levels" ],
+  "pmc_id" : "4213774",
+  "score" : 0
+}
