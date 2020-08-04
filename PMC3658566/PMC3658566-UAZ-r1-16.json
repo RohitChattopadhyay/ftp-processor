@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:61503",
+      "entity_text" : "D-lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "D-lactate is a product of anaerobic metabolism and thus released in increased amounts during hypoxia.",
+  "reading_complete" : "2020-08-04T12:06:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:04:22Z",
+  "trigger" : "is a product",
+  "evidence" : [ "D-lactate is a product of anaerobic metabolism" ],
+  "pmc_id" : "3658566",
+  "score" : 0
+}

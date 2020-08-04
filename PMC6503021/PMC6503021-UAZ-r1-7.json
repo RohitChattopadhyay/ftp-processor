@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439177",
+      "entity_text" : "Glycogen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35573",
+      "entity_text" : "AGL",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Glycogen storage disease type III (GSDIII) is caused by mutations of AGL gene with debranching enzyme deficiency.",
+  "reading_complete" : "2020-08-04T12:07:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:04Z",
+  "trigger" : "caused",
+  "evidence" : [ "Glycogen storage disease type III (GSDIII) is caused by mutations of AGL" ],
+  "pmc_id" : "6503021",
+  "score" : 0
+}
