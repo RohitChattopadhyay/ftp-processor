@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF14848",
+      "entity_text" : "DNA binding domain",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "Organ" : [ "uberon:UBERON:0002488" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Kipreos et al. also reported that the hyperphosphorylation of the c-Abl DNA binding domain inactivates its DNA binding activity when cells enter mitosis, implying that c-Abl may play a role in cell cycle progression by transcriptional regulation [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:35:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:33:13Z",
+  "trigger" : "hyperphosphorylation",
+  "evidence" : [ "hyperphosphorylation of the c-Abl DNA binding domain" ],
+  "pmc_id" : "5462482",
+  "score" : 0
+}

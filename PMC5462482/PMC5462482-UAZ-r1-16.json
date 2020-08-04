@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0859" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A recent study found that c-Abl was activated in fumarate hydratase deficient kidney tumors (hereditary leiomyomatosis and renal cell carcinoma, HLRCC), which are characterized by high glycolysis and accumulate high levels of fumarate, lactate and hypoxia stimulated transcription factor (HIF1alpha) [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:35:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:33:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of fumarate, lactate" ],
+  "pmc_id" : "5462482",
+  "score" : 0
+}
