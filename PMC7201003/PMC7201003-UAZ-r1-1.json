@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477710",
+      "entity_text" : "chondroitin sulfate A",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:103820" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "In contrast, addition of equimolar amounts of chondroitin sulfate A (XREF_FIG) or 2-fucosyllactose (XREF_FIG) did not affect intracellular bacterial numbers in either CHO cell line.",
+  "reading_complete" : "2020-08-04T10:22:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:21:23Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of chondroitin sulfate A" ],
+  "pmc_id" : "7201003",
+  "score" : 0
+}
