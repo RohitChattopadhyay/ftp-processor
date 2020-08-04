@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00429",
+      "entity_text" : "DRP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9XGY4",
+      "entity_text" : "Tim8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000530" ]
+    }
+  },
+  "verbose_text" : "Based upon these findings, one theory to account for DDON syndrome pathogenesis would be that the primary neurons of these sensory pathways along with other cortical tracts require an advanced level of regulation of their mitochondrial morphology via the Tim8 and DRP1 interaction to ensure the appropriate distribution of mitochondria as these primary neurons further differentiate.",
+  "reading_complete" : "2020-08-04T11:05:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:04:42Z",
+  "trigger" : "interaction",
+  "evidence" : [ "Tim8 and DRP1 interaction" ],
+  "pmc_id" : "7057109",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4725",
+      "entity_text" : "PCV",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "CellLine" : [ "cellosaurus:CVCL_E508" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000767" ]
+    }
+  },
+  "verbose_text" : "Differences in RBC count, PCV and Hb level were not significant (p> 0.05), yet, the values are below the minimum limit of normal in both (b2a2 and b3a2) transcripts.",
+  "reading_complete" : "2020-08-04T11:07:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:05:35Z",
+  "trigger" : "level",
+  "evidence" : [ "PCV and Hb level" ],
+  "pmc_id" : "6687619",
+  "score" : 0
+}

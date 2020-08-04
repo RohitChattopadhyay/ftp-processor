@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00429",
+      "entity_text" : "DRP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9XGY4",
+      "entity_text" : "Tim8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000530" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This Tim8 / DRP1 interaction must play a central role in the primary neurons of the auditory and visual sensory pathways so that in its absence, degeneration occurs to produce the hallmark DDON symptomology and histopathologic findings.",
+  "reading_complete" : "2020-08-04T11:05:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:04:42Z",
+  "trigger" : "interaction",
+  "evidence" : [ "Tim8/DRP1 interaction" ],
+  "pmc_id" : "7057109",
+  "score" : 0
+}
