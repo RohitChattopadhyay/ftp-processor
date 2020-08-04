@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000232" ],
+      "Species" : [ "taxonomy:3649" ]
+    }
+  },
+  "verbose_text" : "Patients with SCD that have adequate vitamin B 6 and B 12 status, but elevated plasma homocysteine levels with indicated suboptimal folate status, especially pediatric sickle cell patients, may benefit from folate supplementation to reduce their high risk for endothelial damage [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:00:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "homocysteine levels" ],
+  "pmc_id" : "3586489",
+  "score" : 0
+}

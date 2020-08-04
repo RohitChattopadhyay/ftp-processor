@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:888",
+      "entity_text" : "magnesium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "Children with SCD are reported to demonstrate or exhibit normal serum magnesium level with accompanying hyperphosphataemia and hypocalcaemia [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:00:13Z",
+  "trigger" : "level",
+  "evidence" : [ "magnesium level" ],
+  "pmc_id" : "3586489",
+  "score" : 0
+}
