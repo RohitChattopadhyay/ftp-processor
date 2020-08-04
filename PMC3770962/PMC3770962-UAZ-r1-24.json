@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Cellular_component" : [ "go:GO:0072686" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The number of metaphases present in the control population peaked at 9 h (11.5%) while cells cultured in 100 nM panobinostat showed a highly significant reduction in metaphase cells (p < 0.0001), confirming the reduced mitotic entry observed by histone H3 phosphorylation.",
+  "reading_complete" : "2020-08-04T10:49:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:48:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "histone H3 phosphorylation" ],
+  "pmc_id" : "3770962",
+  "score" : 0
+}

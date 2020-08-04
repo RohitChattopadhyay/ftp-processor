@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "14",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06493",
+      "entity_text" : "Cdc2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7707" ],
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Pettazzoni et al. also show an increase in mitotic cells, normal Cyclin B1 protein expression and a subtle decrease in Cdc2 phosphorylation at threonine 14 and tyrosine 15 in an asynchronous population following treatment with panobinostat.",
+  "reading_complete" : "2020-08-04T10:49:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:48:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Cdc2 phosphorylation at threonine 14" ],
+  "pmc_id" : "3770962",
+  "score" : 0
+}

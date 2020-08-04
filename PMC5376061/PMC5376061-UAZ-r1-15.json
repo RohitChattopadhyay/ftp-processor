@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000312" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "IFN-gamma has been reported to be able to up-regulate K17 expression by activating STAT1 - STAT3 complex, and this signal pathway in keratinocytes is likely involved in the hyperproliferative psoriatic epidermis XREF_BIBR.",
+  "reading_complete" : "2020-08-04T10:42:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:40:19Z",
+  "trigger" : "complex",
+  "evidence" : [ "STAT1-STAT3 complex" ],
+  "pmc_id" : "5376061",
+  "score" : 0
+}

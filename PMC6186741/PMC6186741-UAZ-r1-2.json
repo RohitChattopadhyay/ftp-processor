@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15796",
+      "entity_text" : "Smad2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "TEW-7197 also abrogated TGF-beta1-induced enhancement in extracellular matrix production and hydroxyproline content in PD fibroblast in vitro by blocking TGF-beta1-induced phosphorylation and nuclear translocation of Smad2 and Smad3, and by inhibiting TGF-beta1-induced transdifferentiation of fibroblasts into myofibroblasts.",
+  "reading_complete" : "2020-08-04T10:48:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:48:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and nuclear translocation of Smad2" ],
+  "pmc_id" : "6186741",
+  "score" : 0
+}

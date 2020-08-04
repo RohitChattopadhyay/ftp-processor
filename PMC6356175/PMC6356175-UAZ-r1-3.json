@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7150",
+      "entity_text" : "methyl benzoate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_K240" ]
+    }
+  },
+  "verbose_text" : "It was noticed that benzoic acid was universally formed during the reaction, which was derived from the hydrolysis of methyl benzoate or the direct hydrocarboxylation of PhI.",
+  "reading_complete" : "2020-08-04T10:59:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:55:16Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of methyl benzoate" ],
+  "pmc_id" : "6356175",
+  "score" : 0
+}

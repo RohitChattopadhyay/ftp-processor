@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NVI1",
+      "entity_text" : "FANCI",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BXW9",
+      "entity_text" : "FANCD2",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The ubiquitinated FANCD2 / FANCI heterodimer then interacts with downstream proteins (FANCD1 / BRCA2, FANCJ / BRIP1, FANCN / PALB2, FANCO / RAD51C, FANCP / SLX4, FANCQ / XPF-ERCC4, FANCR / RAD51, FANCS / BRCA1, FANCU / XRCC2, and FANCV/MAD2L2/REV7) and other nucleases such as FAN1, MUS81-EME1, and SLX1 that mediate DNA damage response (Deans and West 2011; Kottemann and Smogorzewska 2013; Garaycoechea and Patel 2014; Bogliolo and Surralles 2015; Dong et al. 2015; Wang and Smogorzewska 2015; Ceccaldi et al. 2016; Mamrak et al. 2016).",
+  "reading_complete" : "2020-08-04T10:54:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:51:51Z",
+  "trigger" : "heterodimer",
+  "evidence" : [ "FANCD2/FANCI heterodimer" ],
+  "pmc_id" : "5511800",
+  "score" : 0
+}
