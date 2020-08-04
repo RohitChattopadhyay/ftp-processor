@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04040",
+      "entity_text" : "CAT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61006",
+      "entity_text" : "MEL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0809" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Two-way ANOVA analysis revealed that all the enzymes, SOD, POD, CAT, APOX, GR, DHAR, PPO, GST, and GPOX, had a statistically significant difference except in the case of the F ratio of the Cr (VI) x MEL interaction in CAT activity.",
+  "reading_complete" : "2020-08-04T12:33:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:52Z",
+  "trigger" : "interaction",
+  "evidence" : [ "MEL interaction in CAT" ],
+  "pmc_id" : "7076638",
+  "score" : 0
+}
