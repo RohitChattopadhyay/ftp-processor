@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14210",
+      "entity_text" : "SF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_A239" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The reduction of the moisture evaporation temperature may be caused by the conformation change of SF from random coil to beta-sheet structure that enhanced the intermolecular hydrogen bonds between SF and CS molecules and reduced the interaction between SF and water.",
+  "reading_complete" : "2020-08-04T15:38:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:33:34Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between SF and water" ],
+  "pmc_id" : "3366240",
+  "score" : 0
+}
