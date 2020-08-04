@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000775" ],
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "Previous data revealed that lipid alterations modulate the formation of NETs : decreased level of cholesterol mediated by methyl-beta-cyclodextrin in primary blood derived neutrophils led to increased spontaneous NET formation.",
+  "reading_complete" : "2020-08-04T11:30:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:28:59Z",
+  "trigger" : "level",
+  "evidence" : [ "level of cholesterol" ],
+  "pmc_id" : "5122589",
+  "score" : 0
+}
