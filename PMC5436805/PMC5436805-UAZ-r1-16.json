@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The report suggests that a higher dose in the micromolar range of rapamycin was needed to completely block G1 cell cycle progression and that too was dependent on the sensitivity of the cells to rapamycin.",
+  "reading_complete" : "2020-08-04T15:46:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:45:35Z",
+  "trigger" : "block",
+  "evidence" : [ "rapamycin was needed to completely block G1 cell cycle" ],
+  "pmc_id" : "5436805",
+  "score" : 0
+}

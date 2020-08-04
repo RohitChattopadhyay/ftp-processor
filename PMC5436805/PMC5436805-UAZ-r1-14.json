@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000529",
+      "entity_text" : "S6",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "Organ" : [ "uberon:UBERON:0010168" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When PC1 is inactivated, cyst lining epithelial cells show activation of mTOR as measured by phosphorylation of mTOR and S6 kinase, a downstream effector.",
+  "reading_complete" : "2020-08-04T15:46:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:45:35Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of mTOR and S6" ],
+  "pmc_id" : "5436805",
+  "score" : 0
+}
