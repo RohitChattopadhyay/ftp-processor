@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P24530",
+      "entity_text" : "ET-B",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellLine" : [ "cellosaurus:CVCL_D975" ],
+      "Cellular_component" : [ "go:GO:0042470" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000148" ]
+    }
+  },
+  "verbose_text" : "Given that the expression of ET-1 and ET-B, but not the other two interesting pairs of ligands and receptors (alphaMSH / MC1R and SCF / KIT), was confirmed to be concomitantly increased in SLs compared to their adjacent sun exposed control areas, it was reasonable to hypothesize that ET-1 signaling plays a substantial role in developing and/or maintaining hyperpigmentation.",
+  "reading_complete" : "2020-08-04T11:29:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:27:49Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of ET-1 and ET-B" ],
+  "pmc_id" : "4610214",
+  "score" : 0
+}
