@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:21635054",
+      "entity_text" : "cocaine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_N717" ],
+      "Species" : [ "taxonomy:103820" ],
+      "TissueType" : [ "tissuelist:TS-0891" ]
+    }
+  },
+  "verbose_text" : "Using a calibration curve obtained upon adding increasing amounts of cocaine, a limit of detection of 5.0x10 -7 m is calculated.",
+  "reading_complete" : "2020-08-04T13:29:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:19:34Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of cocaine" ],
+  "pmc_id" : "5974560",
+  "score" : 0
+}
