@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "Moreover, our study showed that the phosphorylation of NF-kappaB, which has been shown to participate in NETs formation, is not involved in DXM modulated NETosis.",
+  "reading_complete" : "2020-08-04T12:01:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:00:25Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of NF-kappaB" ],
+  "pmc_id" : "5299007",
+  "score" : 0
+}
