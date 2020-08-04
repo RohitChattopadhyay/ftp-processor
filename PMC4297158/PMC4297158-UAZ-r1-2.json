@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14727",
+      "entity_text" : "apoptotic protease-activating factor 1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42574",
+      "entity_text" : "caspase-3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0138" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As the main executioner protein, activated caspase-3 binds with apoptotic protease activating factor 1, cytochrome C, and adenosine triphosphate to form an apoptosome complex; this is common to both the intrinsic and the extrinsic apoptosis pathways.",
+  "reading_complete" : "2020-08-04T22:53:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:52:19Z",
+  "trigger" : "binds",
+  "evidence" : [ "caspase-3 binds with apoptotic protease-activating factor 1" ],
+  "pmc_id" : "4297158",
+  "score" : 0
+}
