@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5755",
+      "entity_text" : "prednisolone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0046" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "In the prednisone treated group, the serum level of prednisolone is 7.63 +/- 1.64 mug/ml (mean +/- SD).",
+  "reading_complete" : "2020-08-04T11:28:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:26:54Z",
+  "trigger" : "level",
+  "evidence" : [ "level of prednisolone" ],
+  "pmc_id" : "6625094",
+  "score" : 0
+}

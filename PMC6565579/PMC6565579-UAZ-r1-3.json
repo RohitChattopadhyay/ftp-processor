@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22607",
+      "entity_text" : "FGFR3",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "Since FGFR3 is expressed in keratinocytes, a variant in FOXN1, a downstream gene, may affect the skin phenotype (Mandinova et al., 2009).",
+  "reading_complete" : "2020-08-04T12:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:17:36Z",
+  "trigger" : "expressed",
+  "evidence" : [ "FGFR3 is expressed" ],
+  "pmc_id" : "6565579",
+  "score" : 0
+}

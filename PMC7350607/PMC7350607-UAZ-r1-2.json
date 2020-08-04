@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14653",
+      "entity_text" : "interferon regulatory factor 3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04112",
+      "entity_text" : "SARS-CoV",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similarly, the Orf3b protein of SARS-CoV inhibits phosphorylation of interferon regulatory factor 3 (IRF3), a protein involved in the activation of IFN-alpha / beta.",
+  "reading_complete" : "2020-08-04T12:53:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:51:46Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "SARS-CoV inhibits phosphorylation of interferon regulatory factor 3" ],
+  "pmc_id" : "7350607",
+  "score" : 0
+}

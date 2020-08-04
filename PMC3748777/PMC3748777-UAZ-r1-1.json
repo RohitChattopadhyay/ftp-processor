@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "CellTiter-Glo Reagent induces cell lysis and generation of luminescence which is proportional to the amount of cellular ATP that cells contain, and the luminescence is then read using a luminometer [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:26:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:21:17Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of cellular ATP" ],
+  "pmc_id" : "3748777",
+  "score" : 0
+}

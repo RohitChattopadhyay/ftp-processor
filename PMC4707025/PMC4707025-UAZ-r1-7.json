@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01864",
+      "entity_text" : "OI type III",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08123",
+      "entity_text" : "COL1A2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This COL1A2 mutation was previously reported to cause OI type III, but no description of the phenotype was provided and there was no mention of whether or not there were dentin defects (Lee et al. 2006).",
+  "reading_complete" : "2020-08-04T12:20:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:15Z",
+  "trigger" : "cause",
+  "evidence" : [ "COL1A2 mutation was previously reported to cause OI type III" ],
+  "pmc_id" : "4707025",
+  "score" : 0
+}

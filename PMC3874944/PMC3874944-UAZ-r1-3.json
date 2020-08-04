@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:241",
+      "entity_text" : "benzene",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Cellular_component" : [ "go:GO:0005694" ]
+    }
+  },
+  "verbose_text" : "Men exposed to high levels of benzene are more likely to have an abnormal amount of chromosome in their sperm, which impacts fertility and fetal development.",
+  "reading_complete" : "2020-08-04T12:36:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:34:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of benzene" ],
+  "pmc_id" : "3874944",
+  "score" : 0
+}

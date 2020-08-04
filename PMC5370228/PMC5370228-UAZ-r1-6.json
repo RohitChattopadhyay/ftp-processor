@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37840",
+      "entity_text" : "alpha-synuclein",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04062",
+      "entity_text" : "beta-glucocerebrosidase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "Lys-441" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We aimed to replicate their interaction between beta-glucocerebrosidase and alpha-synuclein, but Lys 441 did not contribute significantly to the protein protein interaction in our simulations.",
+  "reading_complete" : "2020-08-04T11:54:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:53:04Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between beta-glucocerebrosidase and alpha-synuclein, but Lys-441" ],
+  "pmc_id" : "5370228",
+  "score" : 0
+}

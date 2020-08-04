@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There were some studies that originally reported low to high levels of testosterone [XREF_FIG (numbers 16 to 25) and XREF_TABLE], but we converted these comparisons to high to low and recalculated the 95% CI 's for statistical significance purposes.",
+  "reading_complete" : "2020-08-04T12:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of testosterone" ],
+  "pmc_id" : "5503974",
+  "score" : 0
+}

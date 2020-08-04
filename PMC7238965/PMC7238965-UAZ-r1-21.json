@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01233",
+      "entity_text" : "EUI1 gene",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01277",
+      "entity_text" : "ELONGATED UPPERMOST INTERNODE1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of the ELONGATED UPPERMOST INTERNODE1 (EUI1) gene causes the dwarf phenotype, and Null mutations of the EUI1 gene result in the accumulation of active GAs and elongated uppermost internodes and increased plant height [XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:53:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:48:14Z",
+  "trigger" : "causes",
+  "evidence" : [ "ELONGATED UPPERMOST INTERNODE1 (EUI1) gene causes the dwarf phenotype, and Null mutations of the EUI1 gene" ],
+  "pmc_id" : "7238965",
+  "score" : 0
+}

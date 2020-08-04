@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D004249",
+      "entity_text" : "DNA damage",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:31193",
+      "entity_text" : "Cadmium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cadmium induces DNA damage in HepG2 cells, as previously reported [XREF_BIBR, XREF_BIBR], and as confirmed by our experiments on single-strand breaks formation (data not shown).",
+  "reading_complete" : "2020-08-04T11:47:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:44:30Z",
+  "trigger" : "induces",
+  "evidence" : [ "Cadmium induces DNA damage" ],
+  "pmc_id" : "3976861",
+  "score" : 0
+}

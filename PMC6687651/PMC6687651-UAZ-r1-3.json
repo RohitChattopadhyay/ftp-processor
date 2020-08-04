@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01328",
+      "entity_text" : "RTT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O76039",
+      "entity_text" : "CDKL5",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Typical RTT is caused by de novo mutations of the gene MECP2 (OMIM * 300005), and atypical forms of RTT can be caused by mutations of the CDKL5 (OMIM * 300203) and FOXG1 (OMIM * 164874) genes.",
+  "reading_complete" : "2020-08-04T11:52:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:38Z",
+  "trigger" : "caused",
+  "evidence" : [ "RTT is caused by de novo mutations of the gene MECP2 (OMIM*300005), and atypical forms of RTT can be caused by mutations of the CDKL5" ],
+  "pmc_id" : "6687651",
+  "score" : 0
+}

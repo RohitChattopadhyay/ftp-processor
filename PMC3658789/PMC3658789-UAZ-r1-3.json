@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:15625",
+      "entity_text" : "dioxin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0636" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There is no ADI for PCBs, nor a TDI specifically for them that is, for PCBs considered distinctly from dioxin and furan levels.",
+  "reading_complete" : "2020-08-04T12:55:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:50:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "dioxin and furan levels" ],
+  "pmc_id" : "3658789",
+  "score" : 0
+}

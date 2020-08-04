@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0672" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "MDA levels in experimental group A were significantly lower than those in other four groups at 2 and 4 week.",
+  "reading_complete" : "2020-08-04T12:42:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:42:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "MDA levels" ],
+  "pmc_id" : "4842712",
+  "score" : 0
+}

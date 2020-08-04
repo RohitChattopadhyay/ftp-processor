@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01877",
+      "entity_text" : "cause DGI-II",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZW4",
+      "entity_text" : "DSPP",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, while the locations of the mutations that cause DD-II or DGI-II tend to cluster, there is overlap (McKnight et al. 2008a), and DSPP mutations that cause DD-II in one family or individual cause DGI-II in others (Wang et al. 2011).",
+  "reading_complete" : "2020-08-04T12:20:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:15Z",
+  "trigger" : "cause",
+  "evidence" : [ "DSPP mutations that cause DD-II in one family or individual cause DGI-II" ],
+  "pmc_id" : "4707025",
+  "score" : 0
+}

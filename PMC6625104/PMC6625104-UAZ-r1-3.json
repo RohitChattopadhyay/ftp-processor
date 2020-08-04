@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01214",
+      "entity_text" : "OMIM#615663",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96BZ9",
+      "entity_text" : "TBC1D20",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, Warburg Micro syndrome-4 (WARBM4) (OMIM # 615663) caused by homozygous mutation of the TBC1D20 gene has been associated with corpus callosum hypoplasia and severe mental retardation (Liegel et al., 2013; Martsolf, Hunter, & Haworth, 1978; Warburg, Sjo, Fledelius, & Pedersen, 1993).",
+  "reading_complete" : "2020-08-04T11:45:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:44:31Z",
+  "trigger" : "caused",
+  "evidence" : [ "OMIM#615663) caused by homozygous mutation of the TBC1D20" ],
+  "pmc_id" : "6625104",
+  "score" : 0
+}

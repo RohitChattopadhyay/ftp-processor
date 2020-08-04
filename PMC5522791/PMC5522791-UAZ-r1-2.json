@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "K+",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:103820" ],
+      "TissueType" : [ "tissuelist:TS-1090" ],
+      "Organ" : [ "uberon:UBERON:0000009" ],
+      "CellType" : [ "cl:CL:0000097" ]
+    }
+  },
+  "verbose_text" : "The level of potassium required to depolarise nerves and muscles sits around 8-10 mEq/L, which is significantly lower than the K+ level in urine ~ 30-120 mEq/L.",
+  "reading_complete" : "2020-08-04T12:40:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:39:25Z",
+  "trigger" : "level",
+  "evidence" : [ "K+ level" ],
+  "pmc_id" : "5522791",
+  "score" : 0
+}
