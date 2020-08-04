@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0011115" ]
+    }
+  },
+  "verbose_text" : "Here we optimized our entropy based QDMR strategy to quantify the variation of epigenetic modifications (including DNA methylation and three specific histone modification patterns) across mouse ESCs, neural precursor cells (NPCs) and adult brain, and investigated the relationship among different kinds of epigenetic variations in CGIs during the differentiation of neurons at the macro scale.",
+  "reading_complete" : "2020-08-04T10:44:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:42:40Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation and three specific histone" ],
+  "pmc_id" : "6505400",
+  "score" : 0
+}
