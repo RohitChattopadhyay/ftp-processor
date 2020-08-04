@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:177",
+      "entity_text" : "acetaldehyde",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "For this reason, yeast aldehyde dehydrogenases play an important role in lowering the intracellular levels of acetaldehyde by converting it to another metabolically utilizable molecule, acetate [acetaldehyde+ NAD (P) + + H 2 O--> acetate+ NAD (P) H].",
+  "reading_complete" : "2020-08-04T09:53:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:51:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of acetaldehyde" ],
+  "pmc_id" : "7197708",
+  "score" : 0
+}
