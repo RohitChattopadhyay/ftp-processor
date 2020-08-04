@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007165",
+      "entity_text" : "signal transduction",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pfam:PF03409",
+      "entity_text" : "transmembrane glycoprotein",
+      "entity_type" : "family"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MUC1 is a transmembrane glycoprotein that can bind to epidermal growth factor receptor (EGFR) family members and beta-catenin to activate signal transduction and growth related pathways [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T15:34:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:32:52Z",
+  "trigger" : "activate",
+  "evidence" : [ "transmembrane glycoprotein that can bind to epidermal growth factor receptor (EGFR) family members and beta-catenin to activate signal transduction" ],
+  "pmc_id" : "5788241",
+  "score" : 0
+}

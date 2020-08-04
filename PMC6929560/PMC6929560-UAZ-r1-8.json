@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16363",
+      "entity_text" : "LAMA4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The results showed that the absorbance value of HTR-8 / SVneo cells was lower and the proliferation rate was significantly reduced in the silencing group compared with the empty vector group (p < 0.05) (XREF_FIG), indicating that downregulation of LAMA4 expression inhibited the proliferation of HTR-8 / SVneo cells.",
+  "reading_complete" : "2020-08-04T15:37:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:34:25Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "LAMA4 expression inhibited the proliferation" ],
+  "pmc_id" : "6929560",
+  "score" : 0
+}
