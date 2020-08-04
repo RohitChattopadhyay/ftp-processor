@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75923",
+      "entity_text" : "Dysferlin",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:187",
+      "entity_text" : "Ach",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While these pharmacological findings support the hypothesis that there is a deficit of Ach signaling in Dysferlin mutant mice, they also suggest the intriguing possibility that LGMD2B patients might benefit from AchE.I therapy.",
+  "reading_complete" : "2020-08-04T10:22:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:21:30Z",
+  "trigger" : "signaling",
+  "evidence" : [ "Ach signaling in Dysferlin" ],
+  "pmc_id" : "3828772",
+  "score" : 0
+}

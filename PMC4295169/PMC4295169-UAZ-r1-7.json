@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61006",
+      "entity_text" : "Rab8a",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "Cellular_component" : [ "uniprot:SL-0198" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "As determined by Western blot analysis, Rab8a protein levels increased over the first 10 days after birth and then gradually faded, as previously described (XREF_FIG).",
+  "reading_complete" : "2020-08-04T10:23:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:22:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "Rab8a protein levels" ],
+  "pmc_id" : "4295169",
+  "score" : 0
+}

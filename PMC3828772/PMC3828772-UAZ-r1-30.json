@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:586",
+      "entity_text" : "creatine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Limb-Girdle Muscular Dystrophy 2B, or Dysferlinopathy, is an incurable muscle disorder in which patients usually present in the second or third decade of life with proximal and/or distal muscle weakness, elevated serum creatine kinase (CK) levels, and generally slow disease progression.",
+  "reading_complete" : "2020-08-04T10:22:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:21:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatine kinase (CK) levels" ],
+  "pmc_id" : "3828772",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0971" ],
+      "Organ" : [ "uberon:UBERON:0002532" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This depends on the presence of wild-type cells and involves establishing lower levels of c-Myc in cells that are later eliminated by apoptosis.",
+  "reading_complete" : "2020-08-04T10:21:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:19:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of c-Myc" ],
+  "pmc_id" : "5829504",
+  "score" : 0
+}
