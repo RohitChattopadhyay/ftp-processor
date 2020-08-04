@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2092" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0007023" ]
+    }
+  },
+  "verbose_text" : "Kelly et al. [XREF_BIBR] reported that vitamin D levels significantly decreased after TKA and this could be overcome by vitamin D supplementation.",
+  "reading_complete" : "2020-08-04T17:55:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:52:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "vitamin D levels" ],
+  "pmc_id" : "7291554",
+  "score" : 0
+}
