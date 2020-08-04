@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00749",
+      "entity_text" : "uPA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Li et al. reported that overexpression of miR-193b inhibited uPA expression in breast cancer cell lines, while anti-miR-193b could induce uPA expression and increase cell invasion capacity, suggesting that miR-193b might be closely associated with clinical metastasis in breast cancer [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:49:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:47:02Z",
+  "trigger" : "induce",
+  "evidence" : [ "uPA expression in breast cancer cell lines, while anti-miR-193b could induce uPA expression and increase cell invasion" ],
+  "pmc_id" : "4687946",
+  "score" : 0
+}
