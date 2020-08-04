@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5743",
+      "entity_text" : "dexamethasone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Additionally, dexamethasone inhibits necrotic cell death by promoting the dephosphorylation of p38 MAPK.",
+  "reading_complete" : "2020-08-04T10:21:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:15:23Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "dexamethasone inhibits necrotic cell death by promoting the dephosphorylation of p38 MAPK" ],
+  "pmc_id" : "7248393",
+  "score" : 0
+}

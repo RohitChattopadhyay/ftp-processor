@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NB16",
+      "entity_text" : "MLKL",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "plasma membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005886",
+    "context" : {
+      "Species" : [ "taxonomy:1280" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "In neutrophils, MLKL translocates to the plasma membrane and binds phosphatidylinositol phosphates, which activates NADPH oxidase derived ROS production to trigger the breakdown of the nuclear membrane and extrusion of bacteriostatic NETs.",
+  "reading_complete" : "2020-08-04T10:21:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:15:23Z",
+  "trigger" : "translocates",
+  "evidence" : [ "MLKL translocates to the plasma membrane" ],
+  "pmc_id" : "7248393",
+  "score" : 0
+}

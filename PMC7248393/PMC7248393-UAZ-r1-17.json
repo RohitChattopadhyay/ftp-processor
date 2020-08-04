@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23975",
+      "entity_text" : "NET",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13546",
+      "entity_text" : "RIPK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This process is known to require RIPK1, as RIPK1 inhibition or kinase deficiency inhibits NET generation by mouse and human neutrophils.",
+  "reading_complete" : "2020-08-04T10:21:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:15:23Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "RIPK1 inhibition or kinase deficiency inhibits NET" ],
+  "pmc_id" : "7248393",
+  "score" : 0
+}
