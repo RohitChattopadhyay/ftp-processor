@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3652",
+      "entity_text" : "hydroxychloroquine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Higher blood levels of hydroxychloroquine led to higher levels of remission in patients with CLE, implying that increased adherence in these patients was associated with better outcomes [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T09:49:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:44:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of hydroxychloroquine" ],
+  "pmc_id" : "4470959",
+  "score" : 0
+}
