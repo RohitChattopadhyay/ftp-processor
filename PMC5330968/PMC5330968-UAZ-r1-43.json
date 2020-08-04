@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22880",
+      "entity_text" : "NMDA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5486971",
+      "entity_text" : "pregabalin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "By increasing acetylcholine, cholinesterase inhibitors may have opposing serotonergic action through the muscarinic (decrease serotonin) and nicotinic (increase serotonin) receptors, while predicted pregabalin NMDA binding may increase serotonin neurotransmission.",
+  "reading_complete" : "2020-08-04T12:12:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:15Z",
+  "trigger" : "binding",
+  "evidence" : [ "pregabalin NMDA binding" ],
+  "pmc_id" : "5330968",
+  "score" : 0
+}
