@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41064",
+      "entity_text" : "a-tubulin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "CellType" : [ "cl:CL:0002609" ]
+    }
+  },
+  "verbose_text" : "Knockdown of MEC-17 leads to reduction in a-tubulin acetylation, impaired migration of cortical neurons [XREF_BIBR], and induces abnormal structure of flagella in mouse sperms, and decreases the contact inhibition during cell proliferation [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:44:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:43:13Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "a-tubulin acetylation" ],
+  "pmc_id" : "5545626",
+  "score" : 0
+}

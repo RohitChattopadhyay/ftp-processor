@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1155" ],
+      "TissueType" : [ "tissuelist:TS-0150" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The phosphorylation level of beta-catenin also decreased in a time- and concentration dependent manner.",
+  "reading_complete" : "2020-08-04T18:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:41:13Z",
+  "trigger" : "level",
+  "evidence" : [ "level of beta-catenin" ],
+  "pmc_id" : "4402583",
+  "score" : 0
+}

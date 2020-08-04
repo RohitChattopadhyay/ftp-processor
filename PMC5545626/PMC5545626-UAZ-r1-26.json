@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "brain-derived neurotrophic factor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, elevated tubulin acetylation promotes the vesicular transport of brain derived neurotrophic factor and kinesin-1 [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:44:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:43:13Z",
+  "trigger" : "promotes",
+  "evidence" : [ "tubulin acetylation promotes the vesicular transport of brain-derived neurotrophic factor" ],
+  "pmc_id" : "5545626",
+  "score" : 0
+}

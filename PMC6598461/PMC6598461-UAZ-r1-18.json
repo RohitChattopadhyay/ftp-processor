@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06493",
+      "entity_text" : "Cdc2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_S611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The 8-deoxylactucin-induced cell cycle arrest of RB355 cells was also associated with inhibition of cyclin A and B1 expression, as well as the inhibition of Cdc2 phosphorylation.",
+  "reading_complete" : "2020-08-04T18:41:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:39:33Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Cdc2 phosphorylation" ],
+  "pmc_id" : "6598461",
+  "score" : 0
+}
