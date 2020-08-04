@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441300",
+      "entity_text" : "ABC",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3702" ],
+      "TissueType" : [ "tissuelist:TS-0788" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "Translocation of metal complexes via the tonoplast is carried out mainly by ATP binding cassette (ABC)-type membrane transporters.",
+  "reading_complete" : "2020-08-04T11:52:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:46:34Z",
+  "trigger" : "binding",
+  "evidence" : [ "ATP-binding cassette (ABC" ],
+  "pmc_id" : "7238198",
+  "score" : 0
+}
