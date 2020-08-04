@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28907",
+      "entity_text" : "CD38",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02454",
+      "entity_text" : "Daratumumab",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "TissueType" : [ "tissuelist:TS-0649" ],
+      "CellType" : [ "cl:CL:0000974" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Daratumumab binds an epitope of CD38, inhibiting its cyclase activity and efficiently promoting CD38 + cell lysis in vivo.",
+  "reading_complete" : "2020-08-04T11:24:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:21:24Z",
+  "trigger" : "binds",
+  "evidence" : [ "Daratumumab binds an epitope of CD38" ],
+  "pmc_id" : "6048227",
+  "score" : 0
+}

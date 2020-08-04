@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007155",
+      "entity_text" : "adhesion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28907",
+      "entity_text" : "CD38",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, baseline expression of CD38 in monocytes is expected to mediate endothelial cell adhesion, which is necessary for monocyte extravasation into tissues.",
+  "reading_complete" : "2020-08-04T11:24:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:21:24Z",
+  "trigger" : "mediate",
+  "evidence" : [ "CD38 in monocytes is expected to mediate endothelial cell adhesion" ],
+  "pmc_id" : "6048227",
+  "score" : 0
+}

@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02559",
+      "entity_text" : "ILT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17693",
+      "entity_text" : "HLA-G",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1070" ],
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "Organ" : [ "uberon:UBERON:0000453" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "HLA-G binds, members of the immunoglobulin like transcript (ILT) ILT2 and ILT4, a family of receptors expressed in NK cells to induce growth factors important for fetal development.",
+  "reading_complete" : "2020-08-04T11:25:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:24:04Z",
+  "trigger" : "binds",
+  "evidence" : [ "HLA-G binds, members of the immunoglobulin-like transcript (ILT" ],
+  "pmc_id" : "7046796",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Chemokine",
+      "entity_text" : "chemokines",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellType" : [ "cl:CL:0000091" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Con A treatment also significantly increased hepatic levels of the neutrophil chemokines, CXCL1 and CXCL2 (XREF_FIG), which was inhibited by mirtazapine treatment (XREF_FIG).",
+  "reading_complete" : "2020-08-04T11:28:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:25:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the neutrophil chemokines" ],
+  "pmc_id" : "6474187",
+  "score" : 0
+}
