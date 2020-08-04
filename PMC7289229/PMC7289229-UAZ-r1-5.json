@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "pro",
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0DML2",
+      "entity_text" : "PL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0883" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The same compounds had IC 50 values ranging between 7.6 +/- 0.4 muM and 136.9 +/- 4.7 muM in deubiquitination assay for PL pro, where the most active one was papyriflavonol A.",
+  "reading_complete" : "2020-08-04T19:27:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:14:18Z",
+  "trigger" : "deubiquitination",
+  "evidence" : [ "deubiquitination assay for PL pro" ],
+  "pmc_id" : "7289229",
+  "score" : 0
+}

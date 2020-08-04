@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6057",
+      "entity_text" : "l-tyrosine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "pH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The interaction between pH and l-tyrosine was found to highly significant because its solubility is decreases at neutral and alkaline conditions while l-tyrosine soluble at acidic conditions [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T19:30:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:27:31Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between pH and l-tyrosine" ],
+  "pmc_id" : "4050310",
+  "score" : 0
+}
