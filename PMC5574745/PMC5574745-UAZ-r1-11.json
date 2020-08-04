@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ascorbic acid has a theorized benefit of decreasing reactive oxygen species, which decreases inflammation in melasma lesions [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:31:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:22:51Z",
+  "trigger" : "decreases",
+  "evidence" : [ "oxygen species, which decreases inflammation" ],
+  "pmc_id" : "5574745",
+  "score" : 0
+}

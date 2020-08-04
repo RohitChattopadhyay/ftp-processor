@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9547172",
+      "entity_text" : "DOPA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14679",
+      "entity_text" : "tyrosinase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This compound works by inhibiting tyrosinase, which prevents the conversion of DOPA to melanin [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:31:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:22:51Z",
+  "trigger" : "prevents",
+  "evidence" : [ "tyrosinase, which prevents the conversion of DOPA" ],
+  "pmc_id" : "5574745",
+  "score" : 0
+}
