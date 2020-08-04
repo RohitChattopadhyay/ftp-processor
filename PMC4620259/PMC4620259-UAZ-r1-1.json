@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43034",
+      "entity_text" : "MDS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02893",
+      "entity_text" : "GRAM",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "On each successful submission of a task, the GRAM initiates the MDS service to discover the suitable resources to execute the task.",
+  "reading_complete" : "2020-08-04T11:21:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:18:19Z",
+  "trigger" : "initiates",
+  "evidence" : [ "GRAM initiates the MDS" ],
+  "pmc_id" : "4620259",
+  "score" : 0
+}
