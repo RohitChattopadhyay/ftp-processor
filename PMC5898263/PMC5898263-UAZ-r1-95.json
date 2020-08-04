@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01178",
+      "entity_text" : "oxt",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000700" ]
+    }
+  },
+  "verbose_text" : "The observed lack of expression changes of transcription factors required for oxt expression in the PO of the med12 mutants indicates that loss of oxt in the med12 mutant is independent of known transcription factors controlling oxt expression.",
+  "reading_complete" : "2020-08-04T10:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:17:54Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of oxt" ],
+  "pmc_id" : "5898263",
+  "score" : 0
+}

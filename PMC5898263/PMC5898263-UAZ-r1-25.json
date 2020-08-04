@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01185",
+      "entity_text" : "avp",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0380" ],
+      "CellType" : [ "cl:CL:0000850" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "It seems unlikely, however, that loss of ascl1a or lhx1 is responsible for the loss of oxt, avp, crh, and trh that we observed in the med12 mutant, because the ascl1a and lhx1 expression patterns do not appear to overlap with all of the relevant expression domains in the PO, vH, PT and Lc.",
+  "reading_complete" : "2020-08-04T10:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:17:54Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of oxt, avp" ],
+  "pmc_id" : "5898263",
+  "score" : 0
+}

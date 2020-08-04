@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01178",
+      "entity_text" : "oxt",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "apc",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This suggests that reduced pou3f2b in the apc mutant could underlie its reduced oxt expression phenotype.",
+  "reading_complete" : "2020-08-04T10:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:17:54Z",
+  "trigger" : "underlie",
+  "evidence" : [ "apc mutant could underlie its reduced oxt" ],
+  "pmc_id" : "5898263",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q93074",
+      "entity_text" : "Med12",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Wnt",
+      "entity_text" : "Wnt",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Here we show that in zebrafish Med12 is epistatic to Apc, a component of the Wnt pathway, and that expression of a Wnt reporter is reduced in the med12 mutant, supporting a role for Med12 as an activator of Wnt signaling in zebrafish.",
+  "reading_complete" : "2020-08-04T10:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:17:54Z",
+  "trigger" : "reduced",
+  "evidence" : [ "Wnt reporter is reduced in the med12 mutant, supporting a role for Med12" ],
+  "pmc_id" : "5898263",
+  "score" : 0
+}
