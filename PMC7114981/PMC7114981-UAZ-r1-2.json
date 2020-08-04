@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BVP2",
+      "entity_text" : "Ns",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94907",
+      "entity_text" : "sk",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We start by describing the fitting process of a simplified version of the generative DPM by assuming that the patch for each landmark sk is reduced to 1x1 (Ns = 1), that is 1 pixel is used to represent the appearance of each landmark and similarly the appearance model in (2) has a total of N = u pixels.",
+  "reading_complete" : "2020-08-04T17:53:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:44:08Z",
+  "trigger" : "reduced",
+  "evidence" : [ "sk is reduced to 1x1 (Ns" ],
+  "pmc_id" : "7114981",
+  "score" : 0
+}

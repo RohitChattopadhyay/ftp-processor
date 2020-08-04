@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03482",
+      "entity_text" : "SIC",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04930",
+      "entity_text" : "Fast-SIC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although Fast-SIC and especially aFast-SIC reduce the complexity of the original SIC algorithm dramatically (from O ((n+ m) 2N+ n2N) to O ((n+ m) N+ n2N), they still require expensive matrix multiplications per iteration, and significant memory requirements (both the appearance model and its gradients must be stored in memory).",
+  "reading_complete" : "2020-08-04T17:53:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:44:08Z",
+  "trigger" : "reduce",
+  "evidence" : [ "Fast-SIC and especially aFast-SIC reduce the complexity of the original SIC" ],
+  "pmc_id" : "7114981",
+  "score" : 0
+}
