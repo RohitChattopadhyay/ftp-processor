@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H3R5",
+      "entity_text" : "CENPH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In vitro assays indicated that knockdown of CENPH reduced cell proliferation, apoptosis, and cell cycle arrest at G0/G1.",
+  "reading_complete" : "2020-08-04T14:42:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:42:06Z",
+  "trigger" : "reduced",
+  "evidence" : [ "CENPH reduced cell proliferation" ],
+  "pmc_id" : "4708801",
+  "score" : 0
+}

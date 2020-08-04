@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24316",
+      "entity_text" : "cGMP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0943" ],
+      "Organ" : [ "uberon:UBERON:0006609" ]
+    }
+  },
+  "verbose_text" : "Inhibition of PDE5 led to increased levels of cGMP and cavernosal smooth muscle relaxation.",
+  "reading_complete" : "2020-08-04T14:44:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cGMP" ],
+  "pmc_id" : "4837309",
+  "score" : 0
+}

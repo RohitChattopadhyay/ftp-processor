@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H3R5",
+      "entity_text" : "CENPH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0302" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "The expression level of CENPH was higher in ccRCC tissues and cell lines than in corresponding adjacent normal tissues and normal human proximal tubule epithelial cell line HK-2.",
+  "reading_complete" : "2020-08-04T14:42:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:42:06Z",
+  "trigger" : "level",
+  "evidence" : [ "level of CENPH" ],
+  "pmc_id" : "4708801",
+  "score" : 0
+}

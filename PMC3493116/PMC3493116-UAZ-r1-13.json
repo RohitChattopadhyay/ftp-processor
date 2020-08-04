@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04040",
+      "entity_text" : "cat",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6166",
+      "entity_text" : "DOC",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, this improvement might have different causes, because SDS produces an apparently equivalent effect on k cat and K M whereas DOC positively impacts K M but decreases k cat (XREF_TABLE).",
+  "reading_complete" : "2020-08-04T14:45:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:14Z",
+  "trigger" : "decreases",
+  "evidence" : [ "DOC positively impacts K M  but decreases k cat" ],
+  "pmc_id" : "3493116",
+  "score" : 0
+}
