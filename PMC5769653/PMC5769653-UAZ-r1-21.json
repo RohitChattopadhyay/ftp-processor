@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992830",
+      "entity_text" : "HS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1018" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Comparing the consequences of tinkering with overall levels of HS (heparanase treatment) as opposed to its modification (Hs2st -/- and Hs6st1 -/-) supports the hypothesis that regulating specific HS sulphation via expression of HS modifying enzymes provides a more nuanced mechanism to control Fgf8 morphogen function than globally regulating HS synthesis.",
+  "reading_complete" : "2020-08-04T11:50:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:39:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of HS" ],
+  "pmc_id" : "5769653",
+  "score" : 0
+}

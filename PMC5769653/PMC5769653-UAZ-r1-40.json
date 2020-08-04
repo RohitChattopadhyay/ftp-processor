@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55075",
+      "entity_text" : "Fgf8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0003053" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000143" ]
+    }
+  },
+  "verbose_text" : "Hs2st -/- and Hs6st1 -/- embryos exhibit hyperactive Erk signalling triggering precocious glial guidepost cell migration from the VZ to ectopic midline positions where they subsequently misdirect corpus callosal axons, a phenotype linked to elevated Fgf8 levels in Hs6st1 -/- but not Hs2st -/- embryos.",
+  "reading_complete" : "2020-08-04T11:50:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:39:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "Fgf8 levels" ],
+  "pmc_id" : "5769653",
+  "score" : 0
+}
