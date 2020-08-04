@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0176" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hypogonadal patients had a significantly higher mean body mass index (BMI), however (39.82 vs. 25.57, P = 0.011), and BMI was correlated to testosterone levels (rho -0.873, P < 0.001).",
+  "reading_complete" : "2020-08-04T13:27:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:26:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "6127533",
+  "score" : 0
+}
