@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119828",
+      "entity_text" : "parecoxib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although miRNA-29c was identified as being upregulated by parecoxib to inhibit cell proliferation and invasion abilities of GBM, the mechanisms underlying the anti-tumor effect of parecoxib may be complicated.",
+  "reading_complete" : "2020-08-04T10:14:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:14:05Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "upregulated by parecoxib to inhibit cell proliferation" ],
+  "pmc_id" : "5374396",
+  "score" : 0
+}
