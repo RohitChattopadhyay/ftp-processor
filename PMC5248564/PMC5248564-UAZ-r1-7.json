@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38398",
+      "entity_text" : "BRCA1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1R13" ],
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "NSCLC patients lacking the expression of ERCC1 and BRCA1 benefit more from adjuvant cisplatin based chemotherapy compared with patients that expressed either ERCC1 or BRCA1 [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:22:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:20:52Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of ERCC1 and BRCA1" ],
+  "pmc_id" : "5248564",
+  "score" : 0
+}

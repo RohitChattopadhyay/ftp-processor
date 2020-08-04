@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The expression levels of Akt, MAPK, and STAT3 were detected by Western blot to investigate possible signaling pathways in quinalizarin induced apoptosis.",
+  "reading_complete" : "2020-08-04T13:28:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:26:31Z",
+  "trigger" : "induced",
+  "evidence" : [ "STAT3 were detected by Western blot to investigate possible signaling pathways in quinalizarin-induced apoptosis" ],
+  "pmc_id" : "6014151",
+  "score" : 0
+}

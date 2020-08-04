@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32940",
+      "entity_text" : "ETC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104806",
+      "entity_text" : "peroxynitrite",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The mechanism by which peroxynitrite can impact sperm motility may involve the inhibition of mitochondrial respiration, because peroxynitrite inhibits components of the ETC.",
+  "reading_complete" : "2020-08-04T13:08:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:07:51Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "peroxynitrite inhibits components of the ETC" ],
+  "pmc_id" : "6256041",
+  "score" : 0
+}

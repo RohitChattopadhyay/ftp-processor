@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17693",
+      "entity_text" : "HLA-G",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99706",
+      "entity_text" : "KIR2DL4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0193" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Differently from other iKIR2D receptors, KIR2DL4 binds to HLA-G, a non classical HLA class I molecule that, in healthy cells, is restricted to the trophoblast cells invading the maternal decidua during early pregnancy.",
+  "reading_complete" : "2020-08-04T11:10:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:05:52Z",
+  "trigger" : "binds",
+  "evidence" : [ "KIR2DL4 binds to HLA-G" ],
+  "pmc_id" : "6558367",
+  "score" : 0
+}

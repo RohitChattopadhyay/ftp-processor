@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3955",
+      "entity_text" : "loperamide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_A241" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "The patient experienced TdP in the ED and admitted to ingesting large amount of loperamide daily.",
+  "reading_complete" : "2020-08-04T12:12:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:15Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of loperamide" ],
+  "pmc_id" : "5330968",
+  "score" : 0
+}

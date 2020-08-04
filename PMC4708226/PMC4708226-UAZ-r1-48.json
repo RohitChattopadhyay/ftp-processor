@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Caspase",
+      "entity_text" : "caspase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "bcl-2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In CRPC specifically, docetaxel leads to phosphorylation of bcl-2 (B-cell lymphoma 2), which causes caspase activation and apoptosis in vivo and in vitro.",
+  "reading_complete" : "2020-08-04T13:31:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:29:20Z",
+  "trigger" : "causes",
+  "evidence" : [ "bcl-2 (B-cell lymphoma 2), which causes caspase" ],
+  "pmc_id" : "4708226",
+  "score" : 0
+}

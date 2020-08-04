@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25942",
+      "entity_text" : "CD40",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000898" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In line with these findings, B cells of active MS patients compared to controls express increased amounts of CD40 together with higher level of MHC class II and CD80 suggesting that they harbor an enhanced APC capacity.",
+  "reading_complete" : "2020-08-04T10:35:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:33:50Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of CD40" ],
+  "pmc_id" : "6375838",
+  "score" : 0
+}

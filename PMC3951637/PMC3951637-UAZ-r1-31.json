@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3345",
+      "entity_text" : "fentanyl",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Discussion : The amount of fentanyl contained in a single trans-dermal patch can cause significant morbidity and mortality.",
+  "reading_complete" : "2020-08-04T13:24:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:06:39Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of fentanyl" ],
+  "pmc_id" : "3951637",
+  "score" : 0
+}

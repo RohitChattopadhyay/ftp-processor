@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O73683",
+      "entity_text" : "Abeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0043205" ],
+      "CellType" : [ "cl:CL:0000740" ]
+    }
+  },
+  "verbose_text" : "Depletion of specific autophagy genes (Atg7 and Map1lc3B) leads to increased levels of Abeta aggregates in microglia, without interfering with the uptake of Abeta fibrils.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Abeta" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:IL12",
+      "entity_text" : "IL-12",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29965",
+      "entity_text" : "CD40L",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since CD8 + T cell expressed CD40L has the ability to induce the production of IL-12 p70 in DCs in vitro, the expression of CD40L on CD8 + T cells may serve to enhance IL-12 production and Th1 induction.",
+  "reading_complete" : "2020-08-04T10:32:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:30:30Z",
+  "trigger" : "enhance",
+  "evidence" : [ "CD40L on CD8 +  T cells may serve to enhance IL-12" ],
+  "pmc_id" : "5672143",
+  "score" : 0
+}

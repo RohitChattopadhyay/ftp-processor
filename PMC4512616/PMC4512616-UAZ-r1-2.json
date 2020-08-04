@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The mechanism underlying uremic pruritus seems to depend on many factors, including dryness of the skin, secondary hyperparathyroidism, divalent ion abnormalities, hypervitaminosis A, peripheral neuropathy and neurological changes, inflammation, abnormal mast-cell proliferation in skin of patients on hemodialysis, and elevated levels of serotonin concentrations or some combination of these.",
+  "reading_complete" : "2020-08-04T11:41:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:35:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of serotonin" ],
+  "pmc_id" : "4512616",
+  "score" : 0
+}

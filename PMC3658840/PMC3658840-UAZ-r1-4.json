@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Type I diabetes, often called juvenile diabetes, results from the loss of active insulin producing pancreatic-beta cells which causes an insulin deficit.",
+  "reading_complete" : "2020-08-04T13:17:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:15:52Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of active insulin" ],
+  "pmc_id" : "3658840",
+  "score" : 0
+}

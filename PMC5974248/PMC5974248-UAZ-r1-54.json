@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01178",
+      "entity_text" : "Mutant",
+      "features" : [ {
+        "to_base" : "H",
+        "site" : 486,
+        "feature_type" : "mutation",
+        "evidence" : "H486R"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mutant H486R also fails to inhibit NF-kappaB activation upon IRAK1 mediated activation.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "Mutant H486R also fails to inhibit NF-kappaB" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

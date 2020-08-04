@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:890",
+      "entity_text" : "phytic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92633",
+      "entity_text" : "lpa1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "lpa1 mutation does not modify the total amount of seed P but reduces phytic acid content, thus leading to a proportionally increased level of free phosphate [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:40:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:33:53Z",
+  "trigger" : "reduces",
+  "evidence" : [ "lpa1 mutation does not modify the total amount of seed P but reduces phytic acid" ],
+  "pmc_id" : "6681281",
+  "score" : 0
+}

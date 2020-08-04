@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10376" ],
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Cellular_component" : [ "go:GO:0005776" ],
+      "CellType" : [ "cl:CL:0002038" ]
+    }
+  },
+  "verbose_text" : "To summarize, ATG5 deficiency and mTOR elevation in innate immunity leads to insufficient autophagy, which results in reduced dead cells clearance, enhanced levels of cytoplasmic nucleic acid and autoantigens.",
+  "reading_complete" : "2020-08-04T12:17:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:15:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cytoplasmic nucleic acid" ],
+  "pmc_id" : "6080611",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, TGF-beta is known to inhibit cell growth in benign cells but promote progression in cancer cells, a phenomenon known as TGF-beta paradox.",
+  "reading_complete" : "2020-08-04T12:15:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:15:17Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "TGF-beta is known to inhibit cell growth" ],
+  "pmc_id" : "4708382",
+  "score" : 0
+}

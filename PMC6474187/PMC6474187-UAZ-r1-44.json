@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "Hepatic serotonin levels increased insignificantly in Con A treated vs. vehicle and mirtazapine treated mice; however, mirtazapine treatment in Con A treated mice significantly increased hepatic serotonin levels, compared to both control groups (hepatic serotonin levels [pg/mg protein]; vehicle : 127.2 +/-17.2 vs. mirtazapine treated : 119.0 +/- 12.2 vs. Con A : 157.0 +/- 11.3 vs. Con A + mirtazapine : * 192.6 +/- 23.1; * p < 0.05 vs. vehicle and mirtazapine groups; n = 4-5 mice per group).",
+  "reading_complete" : "2020-08-04T11:28:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:25:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "serotonin levels" ],
+  "pmc_id" : "6474187",
+  "score" : 0
+}

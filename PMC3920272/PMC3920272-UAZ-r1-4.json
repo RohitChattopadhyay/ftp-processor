@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02932",
+      "entity_text" : "SFKs",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TEW6",
+      "entity_text" : "DOK4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1180" ],
+      "Species" : [ "taxonomy:7227" ]
+    }
+  },
+  "verbose_text" : "In agreement with this hypothesis, the recently identified adapter protein IRS5 / DOK4 binds to SFKs upon phosphorylation by the insulin receptor XREF_BIBR.",
+  "reading_complete" : "2020-08-04T11:32:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:31:05Z",
+  "trigger" : "binds",
+  "evidence" : [ "DOK4 binds to SFKs" ],
+  "pmc_id" : "3920272",
+  "score" : 0
+}

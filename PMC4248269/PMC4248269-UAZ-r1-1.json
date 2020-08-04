@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0071944" ]
+    }
+  },
+  "verbose_text" : "Each kinesin has two identical microtubule binding motor domains (\" heads \"), which the motor uses alternately to hydrolyze ATP and to step along the microtubule.",
+  "reading_complete" : "2020-08-04T10:40:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:37:58Z",
+  "trigger" : "hydrolyze",
+  "evidence" : [ "hydrolyze ATP" ],
+  "pmc_id" : "4248269",
+  "score" : 0
+}

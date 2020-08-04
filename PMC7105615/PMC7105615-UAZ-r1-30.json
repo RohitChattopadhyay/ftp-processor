@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q29980",
+      "entity_text" : "MICB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26718",
+      "entity_text" : "NKG2D",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "NKG2D binds to MICA, MICB, and ULBP1-6.",
+  "reading_complete" : "2020-08-04T12:27:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:24:52Z",
+  "trigger" : "binds",
+  "evidence" : [ "NKG2D binds to MICA, MICB" ],
+  "pmc_id" : "7105615",
+  "score" : 0
+}

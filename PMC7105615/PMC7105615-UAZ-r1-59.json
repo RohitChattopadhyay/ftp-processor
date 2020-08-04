@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78536",
+      "entity_text" : "ADAM17",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A correlative study using data from the cancer genome atlas found that DLBCLs with a low PD-L1 protein-to-mRNA ratio while also having higher relative expression levels of ADAM10 or ADAM17 had worse overall survival than high PD-L1 protein-to-mRNA counterparts.",
+  "reading_complete" : "2020-08-04T12:27:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:24:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ADAM10 or ADAM17" ],
+  "pmc_id" : "7105615",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1224" ]
+    }
+  },
+  "verbose_text" : "Through a series of experiments if has been established that the PI3K and AR pathways Based on these findings, studies have demonstrated that AR target gene activity in primary and metastatic prostate cancer specimens is quite variable and also dependent on genetic context with tumors displaying loss of PTEN having reduced AR target gene expression compared to tumors with a normal PTEN status (XREF_FIG).",
+  "reading_complete" : "2020-08-04T11:47:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:47:23Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PTEN" ],
+  "pmc_id" : "4708180",
+  "score" : 0
+}

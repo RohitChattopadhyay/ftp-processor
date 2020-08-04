@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833512",
+      "entity_text" : "NADPH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "In the enzyme 's deficient state (G6PD deficiency), only limited amounts of NADPH may generate, rendering the RBCs sensitive to oxidative damage, which may result in severe haemolytic episodes and in newborns with extreme hyperbilirubinemia and bilirubin encephalopathy.",
+  "reading_complete" : "2020-08-04T11:19:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:17:15Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of NADPH" ],
+  "pmc_id" : "7005621",
+  "score" : 0
+}

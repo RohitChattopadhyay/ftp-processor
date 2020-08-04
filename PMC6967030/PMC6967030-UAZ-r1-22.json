@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01891",
+      "entity_text" : "HLA-A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01804",
+      "entity_text" : "KIGDFGLATEK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "According to NetMHC, KIGDFGLATEK binds weakly to HLA-A * 11:01 and HLA-A * 03:01, expressed by respectively n = 11/104 (11%) and n = 25/104 (24%) LCH-patients from our cohort.",
+  "reading_complete" : "2020-08-04T10:52:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:47:08Z",
+  "trigger" : "binds",
+  "evidence" : [ "KIGDFGLATEK binds weakly to HLA-A * 11:01 and HLA-A" ],
+  "pmc_id" : "6967030",
+  "score" : 0
+}

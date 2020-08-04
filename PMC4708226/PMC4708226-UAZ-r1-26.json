@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10275",
+      "entity_text" : "AR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The main agent in this class is enzalutamide (MDV-3100, ENZA, Xtandi), which has been demonstrated to have a multi pronged approach--preventing testosterone binding to AR, AR nuclear translocation, AR binding to DNA, and co-activator recruitment.",
+  "reading_complete" : "2020-08-04T13:31:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:29:20Z",
+  "trigger" : "binding",
+  "evidence" : [ "testosterone binding to AR" ],
+  "pmc_id" : "4708226",
+  "score" : 0
+}

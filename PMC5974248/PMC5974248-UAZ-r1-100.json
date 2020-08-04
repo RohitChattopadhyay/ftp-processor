@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UHD2",
+      "entity_text" : "TBK-1",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "mitochondria",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005739",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Optineurin also recruits TBK-1 to poly-ubiquitinated mitochondria, where in turn, TBK-1 phosphorylates optineurin, enhancing its binding to ubiquitin and facilitating LC3 recruitment and mitophagy.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "recruits",
+  "evidence" : [ "recruits TBK-1 to poly-ubiquitinated mitochondria" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

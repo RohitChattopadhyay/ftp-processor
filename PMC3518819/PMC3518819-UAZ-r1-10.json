@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr-19",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99497",
+      "entity_text" : "DJ-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although methionine oxidation can occur ex vivo during sample processing (i.e., its significance is unclear) and phosphorylation has been reported at Tyr 67 XREF_BIBR, both phosphorylation at Thr 19 and HNE adduction of DJ-1 are novel and potentially important to PD pathogenesis in addition to their utility as biomarkers.",
+  "reading_complete" : "2020-08-04T11:05:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:04:10Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation at Thr-19 and HNE adduction of DJ-1" ],
+  "pmc_id" : "3518819",
+  "score" : 0
+}

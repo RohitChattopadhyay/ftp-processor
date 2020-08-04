@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22897",
+      "entity_text" : "MMR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "The largest discontinuation study to date, the European stop TKI (EURO-SKI) trial has recently reported a molecular recurrence-free survival of 52% (CI : 48-56%) in 750 CP CML patients treated with imatinib, nilotinib, or dasatinib at 24 months, using loss of MMR as the criteria for relapse.",
+  "reading_complete" : "2020-08-04T10:01:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:57:39Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of MMR" ],
+  "pmc_id" : "5402174",
+  "score" : 0
+}

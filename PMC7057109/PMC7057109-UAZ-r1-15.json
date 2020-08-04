@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00429",
+      "entity_text" : "DRP1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Likewise, hippocampal primary neurons in rats with suppressed DRP1 expression slowed cell death and fragmentation of mitochondria when compared to overexpression of DRP1, but ultimately did not protect against necrotic death of the neuron (Estaquier & Arnoult, 2007).",
+  "reading_complete" : "2020-08-04T11:05:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:04:42Z",
+  "trigger" : "slowed",
+  "evidence" : [ "DRP1 expression slowed cell death" ],
+  "pmc_id" : "7057109",
+  "score" : 0
+}

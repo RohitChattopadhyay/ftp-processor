@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01167",
+      "entity_text" : "GABRB3 receptor",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Haplotype C-A may increase GABA neurotransmitters by increasing GABRB3 receptor expression, thereby reducing protein expression.",
+  "reading_complete" : "2020-08-04T11:44:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:43:23Z",
+  "trigger" : "increase",
+  "evidence" : [ "increase GABA neurotransmitters by increasing GABRB3 receptor" ],
+  "pmc_id" : "6503024",
+  "score" : 0
+}

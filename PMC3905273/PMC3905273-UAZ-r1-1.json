@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5289590",
+      "entity_text" : "d-xylulose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75191",
+      "entity_text" : "Xylulokinase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Xylulokinase is required for the phosphorylation of d-xylulose, yielding d-xylulose-5-phosphate, a key intermediate in the PPP.",
+  "reading_complete" : "2020-08-04T11:55:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:54:07Z",
+  "evidence" : [ "Xylulokinase is required for the phosphorylation of d-xylulose" ],
+  "pmc_id" : "3905273",
+  "score" : 0
+}

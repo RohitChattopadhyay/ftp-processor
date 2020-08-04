@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PKC",
+      "entity_text" : "protein kinase C",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:31193",
+      "entity_text" : "Cd",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:10029" ]
+    }
+  },
+  "verbose_text" : "Cd and Pb mimic Ca and Zn at their specific sites and bind calmodulin [XREF_BIBR, XREF_BIBR], protein kinase C [XREF_BIBR - XREF_BIBR], and synaptic proteins [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T11:57:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:52:01Z",
+  "trigger" : "bind",
+  "evidence" : [ "Cd and Pb mimic Ca and Zn at their specific sites and bind calmodulin [ XREF_BIBR ,  XREF_BIBR ], protein kinase C" ],
+  "pmc_id" : "3658387",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UIK5",
+      "entity_text" : "TMEFF2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "p-STAT3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Also, the results from Western blot showed that TMEFF2 knockdown resulted in an increased level of p-STAT3, while SHP-1 overexpression inhibited the effect of TMEFF2 knockdown and suppressed p-STAT3.",
+  "reading_complete" : "2020-08-04T12:37:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:19Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "p-STAT3, while SHP-1 overexpression inhibited the effect of TMEFF2" ],
+  "pmc_id" : "6510056",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01059",
+      "entity_text" : "pMHC complexes",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04234",
+      "entity_text" : "TCR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This process results in a repertoire of T cells with highly specific and selective TCRs, and it is estimated that each TCR can only bind a few thousand distinct pMHC complexes (of a total of more than 20 6 possibilities, assuming up to 3 MHC anchor positions).",
+  "reading_complete" : "2020-08-04T10:15:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:10:26Z",
+  "trigger" : "bind",
+  "evidence" : [ "TCR can only bind a few thousand                            distinct pMHC complexes" ],
+  "pmc_id" : "6724566",
+  "score" : 0
+}

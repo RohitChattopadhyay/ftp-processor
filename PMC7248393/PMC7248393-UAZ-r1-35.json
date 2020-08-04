@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57764",
+      "entity_text" : "GSDMD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This is caused by YopK inhibiting the phosphorylation / activation of TAK1 and IKK, which blocks apoptosis in response to infection, and enables GSDMD mediated cell death to predominate while other Yop proteins inhibit the activity of IL-1beta and its proinflammatory function.",
+  "reading_complete" : "2020-08-04T10:21:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:15:23Z",
+  "trigger" : "mediated",
+  "evidence" : [ "GSDMD-mediated cell death" ],
+  "pmc_id" : "7248393",
+  "score" : 0
+}

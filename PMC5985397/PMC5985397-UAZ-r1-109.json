@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000545" ]
+    }
+  },
+  "verbose_text" : "IFN-gamma ligand binding to its receptor induces Janus kinase 1/2 mediated tyrosine phosphorylation and subsequent dimerization of STAT1, which binds as a homodimer to cis elements known as IFN-gamma-activated sites in the promoter of target M1 signature genes [e.g., NOS2, IL-12, and class II transactivator (CIITA)].",
+  "reading_complete" : "2020-08-04T11:03:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:00:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation and subsequent dimerization of STAT1" ],
+  "pmc_id" : "5985397",
+  "score" : 0
+}

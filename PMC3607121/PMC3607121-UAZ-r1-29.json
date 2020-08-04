@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07288",
+      "entity_text" : "prostate-specific antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The majority of patients with advanced prostate cancer have an initial response to ADT; however, most patients develop castration resistant prostate cancer (CRPC), which is characterized by disease advancement with increasing levels of prostate specific antigen (PSA) and/or deterioration of symptoms despite anorchid testosterone (T) levels XREF_BIBR.",
+  "reading_complete" : "2020-08-04T10:37:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:35:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of prostate-specific antigen" ],
+  "pmc_id" : "3607121",
+  "score" : 0
+}

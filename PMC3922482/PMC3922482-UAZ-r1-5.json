@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9842457",
+      "entity_text" : "finasteride",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Species" : [ "taxonomy:111938" ]
+    }
+  },
+  "verbose_text" : "Samples containing 70 and 90% blank urine were spiked with a defined amount of finasteride, and the concentration was determined using capped S1-AB-i.",
+  "reading_complete" : "2020-08-04T10:38:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:36:10Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of finasteride" ],
+  "pmc_id" : "3922482",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13127",
+      "entity_text" : "rest",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2336",
+      "entity_text" : "bp",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0019" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Several studies identified the transcription factor binding site RE-1 in the region from -680 bp to -365 bp (ATG +1) that can bind to the inhibitory transcription factor NRSF (neuron-restrictive silencer factor) or rest (the repressor element 1 silencing transcription factor) to inhibit transcriptional activity and likely plays an important role in neuronal epigenetics (Ballas & Mandel, 2005; Chen, Paquette, & Anderson, 1998).",
+  "reading_complete" : "2020-08-04T11:44:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:43:23Z",
+  "trigger" : "bind",
+  "evidence" : [ "bp (ATG+1) that can bind to the inhibitory transcription factor NRSF (neuron-restrictive silencer factor) or rest" ],
+  "pmc_id" : "6503024",
+  "score" : 0
+}

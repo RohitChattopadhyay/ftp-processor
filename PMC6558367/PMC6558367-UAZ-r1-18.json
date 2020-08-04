@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13747",
+      "entity_text" : "HLA-E",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26717",
+      "entity_text" : "NKG2C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The activating counterpart of CD94 : NKG2A is represented by CD94 : NKG2C heterodimer, which binds HLA-E as well, although with lower affinity.",
+  "reading_complete" : "2020-08-04T11:10:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:05:52Z",
+  "trigger" : "binds",
+  "evidence" : [ "NKG2C heterodimer, which binds HLA-E" ],
+  "pmc_id" : "6558367",
+  "score" : 0
+}

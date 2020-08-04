@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:148123",
+      "entity_text" : "docetaxel",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition to blocking docetaxel induced apoptosis, docetaxel 's anti-mitotic activity itself directly initiates survival pathways in prostate cancer cell lines.",
+  "reading_complete" : "2020-08-04T13:31:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:29:20Z",
+  "trigger" : "induced",
+  "evidence" : [ "docetaxel-induced apoptosis" ],
+  "pmc_id" : "4708226",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55087",
+      "entity_text" : "AQP4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "Organ" : [ "uberon:UBERON:0002316" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Corroborating this notion, active NMO lesions contain areas of co-localizing Ig and complement depositions with a vast loss of AQP4 and glial fibrillary acid protein immunoreactivity that points toward an antibody mediated destruction of astrocytes.",
+  "reading_complete" : "2020-08-04T10:35:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:33:50Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of AQP4" ],
+  "pmc_id" : "6375838",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NADPH_oxidase",
+      "entity_text" : "NADPH oxidase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23975",
+      "entity_text" : "NET",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0001652" ],
+      "Organ" : [ "uberon:UBERON:0001130" ],
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "Generation of reactive oxygen species (ROS) is a key event for NET formation, and NET based antimicrobial activity crucially depends on the formation of ROS through the membrane bound NADPH oxidase enzyme complex as well as MPO.",
+  "reading_complete" : "2020-08-04T11:30:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:28:59Z",
+  "trigger" : "bound",
+  "evidence" : [ "NET-based antimicrobial activity crucially depends on the formation of ROS through the membrane-bound NADPH oxidase" ],
+  "pmc_id" : "5122589",
+  "score" : 0
+}

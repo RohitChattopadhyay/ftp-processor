@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MEK",
+      "entity_text" : "MEK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01185",
+      "entity_text" : "Evodiamine",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We examined the effect of Evodiamine on the RAF/MEK/ERK pathway and found that Evodiamine prevented the phosphorylation of MEK and ERK, suggesting that Evodiamine is a potential candidate to target this pathway.",
+  "reading_complete" : "2020-08-04T12:51:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:50:14Z",
+  "trigger" : "prevented",
+  "evidence" : [ "Evodiamine prevented the phosphorylation of MEK" ],
+  "pmc_id" : "6118161",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Organ" : [ "uberon:UBERON:0001555" ]
+    }
+  },
+  "verbose_text" : "When the latter was combined with AA, the ammonia level exceeded that in case of the separate application of cyclophosphamide (XREF_FIG).",
+  "reading_complete" : "2020-08-04T13:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:48:15Z",
+  "trigger" : "level",
+  "evidence" : [ "ammonia level" ],
+  "pmc_id" : "3658549",
+  "score" : 0
+}

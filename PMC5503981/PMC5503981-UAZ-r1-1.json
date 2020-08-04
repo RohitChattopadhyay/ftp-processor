@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07288",
+      "entity_text" : "PSA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "Benign pathologies, such as benign prostatic hyperplasia (BPH) can raise PSA levels, and normal PSA levels cannot exclude the presence of clinically significant PCa.",
+  "reading_complete" : "2020-08-04T11:02:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:00:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "PSA levels" ],
+  "pmc_id" : "5503981",
+  "score" : 0
+}

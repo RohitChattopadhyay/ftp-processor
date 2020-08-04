@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CA05",
+      "entity_text" : "p62",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "p62 is an LC3 adaptor protein that is degraded by autophagy XREF_BIBR XREF_BIBR, hence an increase in autophagic flux should result in reduced p62 levels XREF_BIBR.",
+  "reading_complete" : "2020-08-04T12:06:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:03:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "p62 levels" ],
+  "pmc_id" : "3572444",
+  "score" : 0
+}

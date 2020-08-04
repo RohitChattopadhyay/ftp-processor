@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22897",
+      "entity_text" : "MMR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E508" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "More recent molecular data (A-STIM and EURO-SKI trials) demonstrating fluctuating BCR-ABL1 levels just below MMR without loss of MMR, and therefore without TKI resumption, has all but confirmed the importance of the role of immune surveillance for sustained TFR in CML.",
+  "reading_complete" : "2020-08-04T10:01:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:57:39Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of MMR" ],
+  "pmc_id" : "5402174",
+  "score" : 0
+}

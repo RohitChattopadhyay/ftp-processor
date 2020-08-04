@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3440",
+      "entity_text" : "transit",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3652",
+      "entity_text" : "hydroxychloroquine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Azithromycin weakly blocks hERG from conducting potassium ions across the cardiac membrane while chloroquine and hydroxychloroquine decrease the number of ions available for transit.",
+  "reading_complete" : "2020-08-04T13:45:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:37:45Z",
+  "trigger" : "decrease",
+  "evidence" : [ "hydroxychloroquine decrease the number of ions available for transit" ],
+  "pmc_id" : "7192319",
+  "score" : 0
+}

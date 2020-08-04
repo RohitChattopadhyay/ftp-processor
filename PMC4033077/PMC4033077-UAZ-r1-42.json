@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02548",
+      "entity_text" : "Pax5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01312",
+      "entity_text" : "Igkappa locus",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000786" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This is the first report, to our knowledge, of a Pax5 binding site within the Igkappa locus which binds Pax5 at the time of locus activation.",
+  "reading_complete" : "2020-08-04T10:28:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:26:42Z",
+  "trigger" : "binds",
+  "evidence" : [ "Igkappa locus which binds Pax5" ],
+  "pmc_id" : "4033077",
+  "score" : 0
+}

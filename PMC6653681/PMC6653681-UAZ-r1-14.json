@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "With regard to the activation of HSCs in liver fibrogenesis, the integrin alphavbeta3 is expressed on HSCs, promotes HSCs adhesion and migration, and binds to ECM by means of a three amino acid sequence of RGD [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T11:22:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:08:40Z",
+  "trigger" : "binds",
+  "evidence" : [ "integrin alphavbeta3 is expressed on HSCs, promotes HSCs adhesion and migration, and binds to ECM" ],
+  "pmc_id" : "6653681",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Cyclin",
+      "entity_text" : "cyclins",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Cellular_component" : [ "go:GO:0005819" ]
+    }
+  },
+  "verbose_text" : "This E2 protein catalyzes the ubiquitination and degradation of cyclins A and B and acts together with the E3 ligase of the anaphase promoting complex (APC) to participate in the regulation of the spindle assembly checkpoint XREF_BIBR XREF_BIBR XREF_BIBR.",
+  "reading_complete" : "2020-08-04T12:57:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:56:11Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination and degradation of cyclins" ],
+  "pmc_id" : "4223683",
+  "score" : 0
+}

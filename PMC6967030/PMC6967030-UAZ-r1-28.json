@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006955",
+      "entity_text" : "immunity",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "BRAF",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 600,
+        "feature_type" : "mutation",
+        "evidence" : "V600E"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Encouraged by published results suggesting that BRAF V600E protein derived neopeptides can trigger antitumor immunity, we used the most recent version of publicly accessible NetMHC software to explore putatively HLA class I binding neoantigens derived from the BRAF V600E protein.",
+  "reading_complete" : "2020-08-04T10:52:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:47:08Z",
+  "trigger" : "trigger",
+  "evidence" : [ "BRAF V600E  protein-derived neopeptides can trigger antitumor immunity" ],
+  "pmc_id" : "6967030",
+  "score" : 0
+}

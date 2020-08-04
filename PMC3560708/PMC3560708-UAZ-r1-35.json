@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1070" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "The serum level of IFN-gamma was significantly higher in PE than in PIH and the control group, probably because of the Th1 activation in the immune system postulated in pre-eclampsia etiology.",
+  "reading_complete" : "2020-08-04T13:09:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:07:47Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IFN-gamma" ],
+  "pmc_id" : "3560708",
+  "score" : 0
+}

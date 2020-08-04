@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006955",
+      "entity_text" : "immune response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This inhibition of apoptosis also indirectly inhibits the host immune response, by limiting the production of cytokines and the recruitment of immune cells typically coordinated by caspase-3 and -7 dependent cell death.",
+  "reading_complete" : "2020-08-04T10:21:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:15:23Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "apoptosis also indirectly inhibits the host immune response" ],
+  "pmc_id" : "7248393",
+  "score" : 0
+}

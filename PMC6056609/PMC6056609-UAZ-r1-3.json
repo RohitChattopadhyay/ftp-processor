@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1290" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0002038" ]
+    }
+  },
+  "verbose_text" : "PD1 + Tfh cells positively correlate with blood glucose levels and negatively to the Glomerular Filtration Rate (eGFR) in patients with diabetic nephropathy.",
+  "reading_complete" : "2020-08-04T12:51:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:45:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6056609",
+  "score" : 0
+}

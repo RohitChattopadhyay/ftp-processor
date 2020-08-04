@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9XH48",
+      "entity_text" : "Tim13",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005829" ]
+    }
+  },
+  "verbose_text" : "Prior reports demonstrated variable loss of Tim13 in DDONS / MTS patient cells.",
+  "reading_complete" : "2020-08-04T11:05:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:04:42Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Tim13" ],
+  "pmc_id" : "7057109",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser-217",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10275",
+      "entity_text" : "AR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While it is also upstream of some critical signaling proteins, such as mTOR, it has also been found that AKT directly phosphorylates AR at two locations, Ser 217 and Ser 791, particularly in a castrate-state, though the clinical significance is not yet certain.",
+  "reading_complete" : "2020-08-04T13:31:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:29:20Z",
+  "trigger" : "directly",
+  "evidence" : [ "AKT directly phosphorylates AR at two locations, Ser-217" ],
+  "pmc_id" : "4708226",
+  "score" : 0
+}

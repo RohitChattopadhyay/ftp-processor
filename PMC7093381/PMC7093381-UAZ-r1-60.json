@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-115",
+      "entity_text" : "HLA-DR",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0580" ],
+      "CellType" : [ "cl:CL:0000990" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Both populations are CD45 + Lin - (CD3/CD19/CD56) HLA-DR + CD11c + CD14 - but differ in the level of HLA-DR and CD11c expression.",
+  "reading_complete" : "2020-08-04T10:08:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:03:47Z",
+  "trigger" : "level",
+  "evidence" : [ "level of HLA-DR" ],
+  "pmc_id" : "7093381",
+  "score" : 0
+}

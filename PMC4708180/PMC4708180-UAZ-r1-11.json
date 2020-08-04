@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11308",
+      "entity_text" : "ERG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1224" ]
+    }
+  },
+  "verbose_text" : "PTEN loss is reported to occur in approximately 50% of metastatic prostate cancer specimens and is significantly associated with concomitant loss of TP53 and ERG genomic rearrangements.",
+  "reading_complete" : "2020-08-04T11:47:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:47:23Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of TP53 and ERG" ],
+  "pmc_id" : "4708180",
+  "score" : 0
+}

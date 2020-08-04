@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Excessive glucose in the blood and the loss of insulin produces vascular damage via glycosylation and activation of oxidative and nitrosative stress linked to all of the symptoms associated with diabetes, including peripheral and autonomic neuropathy, nephropathy, and retinopathy.",
+  "reading_complete" : "2020-08-04T13:17:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:15:52Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of insulin" ],
+  "pmc_id" : "3658840",
+  "score" : 0
+}

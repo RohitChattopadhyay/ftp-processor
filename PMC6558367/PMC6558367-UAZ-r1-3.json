@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04222",
+      "entity_text" : "HLA-C",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02135",
+      "entity_text" : "KIR2DL2/L3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Increasing evidences indicate that both KIR2DL2/L3 and KIR2DL1, in addition to their ability to discriminate between C1 and C2 epitopes, bind numerous peptide / HLA-C combinations retaining a degree of peptide selectivity.",
+  "reading_complete" : "2020-08-04T11:10:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:05:52Z",
+  "trigger" : "bind",
+  "evidence" : [ "KIR2DL2/L3 and KIR2DL1, in addition to their ability to discriminate between C1 and C2 epitopes, bind numerous peptide/HLA-C" ],
+  "pmc_id" : "6558367",
+  "score" : 0
+}

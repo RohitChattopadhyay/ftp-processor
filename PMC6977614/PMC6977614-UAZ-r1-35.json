@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:135103",
+      "entity_text" : "AGS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The findings from this study showed that SF3B1 inhibition increased the levels of PTEN and reduced AKT protein phosphorylation in AGS and MKN28 human gastric cancer cells in vitro.",
+  "reading_complete" : "2020-08-04T12:29:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:27:26Z",
+  "trigger" : "reduced",
+  "evidence" : [ "PTEN and reduced AKT protein phosphorylation in AGS" ],
+  "pmc_id" : "6977614",
+  "score" : 0
+}

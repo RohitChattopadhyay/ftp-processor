@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histones",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "It is known that the gene expression pattern of a cell is modulated (upregulated or silenced) by epigenetic changes, such as DNA methylation, post-translational modifications of histones, chromatin remodeling, and modulation of non coding RNAs.",
+  "reading_complete" : "2020-08-04T10:03:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:02:24Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation, post-translational modifications of histones" ],
+  "pmc_id" : "5483442",
+  "score" : 0
+}

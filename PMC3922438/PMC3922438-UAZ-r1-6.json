@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF06745",
+      "entity_text" : "ATPase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5234",
+      "entity_text" : "salt",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, the thiopyrylium salt AA1 (3) XREF_BIBR strongly inhibited mitochondrial ATPase activity and proved to be 10-times more toxic to colon carcinoma cells (CX-1) than to normal monkey kidney cells (CV-1).",
+  "reading_complete" : "2020-08-04T10:13:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:11:45Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "salt AA1 (3) XREF_BIBR  strongly inhibited mitochondrial ATPase" ],
+  "pmc_id" : "3922438",
+  "score" : 0
+}

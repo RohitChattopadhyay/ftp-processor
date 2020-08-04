@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Dissolved oxygen levels were monitored in the primary cell culture using a Fibox4-PSt3 measurement system.",
+  "reading_complete" : "2020-08-04T11:30:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:28:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "oxygen levels" ],
+  "pmc_id" : "5122589",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:31193",
+      "entity_text" : "cadmium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0025" ],
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ]
+    }
+  },
+  "verbose_text" : "We suggest that cadmium, bound to GSH, is transported by MRP1 across the basolateral membrane in the immature intestinal cells, a transport that is upregulated by cadmium pretreatment.",
+  "reading_complete" : "2020-08-04T11:52:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:47:41Z",
+  "trigger" : "bound",
+  "evidence" : [ "cadmium, bound to GSH" ],
+  "pmc_id" : "3658413",
+  "score" : 0
+}

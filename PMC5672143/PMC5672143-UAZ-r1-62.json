@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25942",
+      "entity_text" : "CD40",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00140",
+      "entity_text" : "DC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Finally, our data do not completely rule out the relevance of T cell-T cell interactions where CD40-CD40L binding occurs directly between two CD8 + T cells and bypasses DC bound CD40.",
+  "reading_complete" : "2020-08-04T10:32:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:30:30Z",
+  "trigger" : "bound",
+  "evidence" : [ "DC-bound CD40" ],
+  "pmc_id" : "5672143",
+  "score" : 0
+}

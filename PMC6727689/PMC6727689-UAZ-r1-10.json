@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54829",
+      "entity_text" : "step",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02985",
+      "entity_text" : "heat",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Each RT-qPCR reaction was performed using the following cycling parameters : 2 min at 95degreesC (heat activation step); 40 cycles of 15 s at 95degreesC, 1 min at 60degreesC.",
+  "reading_complete" : "2020-08-04T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:41:04Z",
+  "trigger" : "activation",
+  "evidence" : [ "heat-activation step" ],
+  "pmc_id" : "6727689",
+  "score" : 0
+}

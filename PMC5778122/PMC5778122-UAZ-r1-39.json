@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10914",
+      "entity_text" : "IRF1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01106",
+      "entity_text" : "MYC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Next, we determined the number of shared M2 macrophage associated genes containing EGR2, MYC and IRF1 binding motifs in the promoter sequence.",
+  "reading_complete" : "2020-08-04T12:24:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:21:42Z",
+  "trigger" : "binding",
+  "evidence" : [ "MYC and IRF1 binding" ],
+  "pmc_id" : "5778122",
+  "score" : 0
+}

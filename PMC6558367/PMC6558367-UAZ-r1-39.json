@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00713",
+      "entity_text" : "HLA class I molecules",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since HLA-E binds peptides cleaved from the leader sequences (from -22 to -14 residues) of HLA-A, -B, or -C, it has been generally considered as a sensor of the overall amount of HLA class I molecules expressed on the cell surface.",
+  "reading_complete" : "2020-08-04T11:10:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:05:52Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of HLA class I molecules" ],
+  "pmc_id" : "6558367",
+  "score" : 0
+}

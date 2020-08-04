@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "By contrast, mice without depletion of CD4 + T cells (high plasma levels of IFN-gamma) or mice depleted completely of CD4 + T cells (undetectable plasma level of IFN-gamma) were unable to control the first wave of parasitemia and died on day 7-10 postinfection.",
+  "reading_complete" : "2020-08-04T10:02:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:01:13Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IFN-gamma" ],
+  "pmc_id" : "5594077",
+  "score" : 0
+}

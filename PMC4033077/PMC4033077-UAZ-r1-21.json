@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSE2",
+      "entity_text" : "cis",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02548",
+      "entity_text" : "Pax5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E012" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000785" ]
+    }
+  },
+  "verbose_text" : "In conclusion, we propose the Dm element as a novel Pax5 binding cis regulatory element, which works in concert with the known enhancers, and plays a role in Igkappa demethylation and SHM.",
+  "reading_complete" : "2020-08-04T10:28:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:26:42Z",
+  "trigger" : "binding",
+  "evidence" : [ "Pax5-binding cis" ],
+  "pmc_id" : "4033077",
+  "score" : 0
+}

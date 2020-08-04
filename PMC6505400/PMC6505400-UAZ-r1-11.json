@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02102",
+      "entity_text" : "H3K4me2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "We selected 8337 of the CGIs that had four epigenetic modifications (DNA methylation, H3K4me2, H3K4me3 or H3K27me3) in the three development stages, ESCs, NPCs and adult brain.",
+  "reading_complete" : "2020-08-04T10:44:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:42:40Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation, H3K4me2" ],
+  "pmc_id" : "6505400",
+  "score" : 0
+}

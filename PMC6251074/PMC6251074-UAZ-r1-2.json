@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00581",
+      "entity_text" : "miR-221",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Another study illustrated that overexpression of miR-221 promotes proliferation, migration and invasion by targeting TIMP2 in KIRC [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:06:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:03:02Z",
+  "trigger" : "promotes",
+  "evidence" : [ "miR-221 promotes proliferation" ],
+  "pmc_id" : "6251074",
+  "score" : 0
+}

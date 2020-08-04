@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q93070",
+      "entity_text" : "DO",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00751",
+      "entity_text" : "DM",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It is important to note that even though the interaction between DM and DO is stable, the interaction between DM and DR is transient and was only stabilized under highly stringent conditions, which included generation of peptide-receptive DR molecules.",
+  "reading_complete" : "2020-08-04T11:45:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:44:21Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between DM and DO" ],
+  "pmc_id" : "3756479",
+  "score" : 0
+}

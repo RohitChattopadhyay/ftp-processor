@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02702",
+      "entity_text" : "ALS optineurin",
+      "features" : [ {
+        "to_base" : "E",
+        "site" : 478,
+        "feature_type" : "mutation",
+        "evidence" : "E478G"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The ALS optineurin mutant E478G induced cell death specifically in motor neuron like cells, compared to glaucoma mutants E50K or M98K, which did not affect cell survival.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "induced",
+  "evidence" : [ "ALS optineurin mutant E478G induced cell death" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

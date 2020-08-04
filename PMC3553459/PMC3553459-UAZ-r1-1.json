@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104729",
+      "entity_text" : "cobalt",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42680",
+      "entity_text" : "TEC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mismatch in TEC will restrict the cobalt based cathodes from practical application.",
+  "reading_complete" : "2020-08-04T10:37:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:37:06Z",
+  "trigger" : "restrict",
+  "evidence" : [ "TEC will restrict the cobalt" ],
+  "pmc_id" : "3553459",
+  "score" : 0
+}
