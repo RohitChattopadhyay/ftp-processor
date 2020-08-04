@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07379",
+      "entity_text" : "mir-21",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, p38 phosphorylation was blocked by electron beam irradiation and depleted mir-21.",
+  "reading_complete" : "2020-08-04T15:27:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:26:38Z",
+  "trigger" : "depleted",
+  "evidence" : [ "p38 phosphorylation was blocked by electron beam irradiation and depleted mir-21" ],
+  "pmc_id" : "5155526",
+  "score" : 0
+}

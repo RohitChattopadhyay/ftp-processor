@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14780",
+      "entity_text" : "MMP9",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "A study on the regulatory effect of the LAMA4 gene on EVTs in placental development showed that the growth of EVTs can be obviously inhibited, and the levels of MMP2 and MMP9 can also be lowered by the inhibition of LAMA4 in negative mediation of the p38 signaling pathway [XREF_BIBR], indicating that the LAMA4 gene is involved in regulating the occurrence and development of preeclampsia.",
+  "reading_complete" : "2020-08-04T15:37:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:34:25Z",
+  "trigger" : "mediation",
+  "evidence" : [ "MMP9 can also be lowered by the inhibition of LAMA4 in negative mediation of the p38" ],
+  "pmc_id" : "6929560",
+  "score" : 0
+}

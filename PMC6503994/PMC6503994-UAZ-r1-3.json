@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thioredoxin interacting protein, TXNIP, expression is strongly induced by diabetes and high glucose (HG) levels in all tissues examined, including different cell types in the retina.",
+  "reading_complete" : "2020-08-04T15:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:30:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose (HG) levels" ],
+  "pmc_id" : "6503994",
+  "score" : 0
+}

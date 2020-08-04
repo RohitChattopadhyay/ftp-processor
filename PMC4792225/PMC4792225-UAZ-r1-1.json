@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "SIRT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SIRT1 deacetylates p53, thus regulating cell apoptosis during kidney injury [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T15:24:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:22:51Z",
+  "evidence" : [ "SIRT1 deacetylates p53" ],
+  "pmc_id" : "4792225",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Transfection of miR-143 induces the apoptosis of prostate cancer LNCap cells by down-regulating Bcl-2 expression, suggesting that Bcl-2 might be a potential therapeutic target for prostate cancer.",
+  "reading_complete" : "2020-08-04T15:26:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:24:59Z",
+  "trigger" : "induces",
+  "evidence" : [ "induces the apoptosis of prostate cancer LNCap cells by down-regulating Bcl-2" ],
+  "pmc_id" : "5278922",
+  "score" : 0
+}

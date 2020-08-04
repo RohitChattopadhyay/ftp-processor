@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00548",
+      "entity_text" : "Dll1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uaz:UA-ORG-623" ],
+      "CellType" : [ "cl:CL:0000031" ]
+    }
+  },
+  "verbose_text" : "Analysis of cell death and proliferation and emergence of neuronal markers at different amounts of Dll1 (i.e. those in Dll1 +/+, Dll1 +/LacZ, Dll1 lacZ / lacZ mice) suggest that as Dll1 decreases, the differentiation rate increases, meaning that fewer NPCs divide and more exit the cell cycle to become neuroblasts.",
+  "reading_complete" : "2020-08-04T15:20:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:17:51Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of Dll1" ],
+  "pmc_id" : "4810735",
+  "score" : 0
+}

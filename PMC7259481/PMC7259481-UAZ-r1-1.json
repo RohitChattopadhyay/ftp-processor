@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13929",
+      "entity_text" : "MSE",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04229",
+      "entity_text" : "TFC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, TFC continues to reduce the MSE and maximum error on the test and training set as more training points are added, whereas the LS-SVM method error increases slightly between 8 and 16 points and then stays approximately the same.",
+  "reading_complete" : "2020-08-04T15:28:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:14:55Z",
+  "trigger" : "reduce",
+  "evidence" : [ "TFC continues to reduce the MSE" ],
+  "pmc_id" : "7259481",
+  "score" : 0
+}

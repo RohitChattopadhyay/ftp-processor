@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06330",
+      "entity_text" : "RBPj",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46531",
+      "entity_text" : "NICD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0011115" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In the CNS of mammals, the NICD - RBPj complex induces the expression of Hes1 and Hes5, genes encoding basic helix-loop-helix transcription factors that, in turn, can repress the expression of pro neural genes (including Notch ligand genes), thereby inhibiting neuronal differentiation and maintaining the pool of neural precursor cells (NPC).",
+  "reading_complete" : "2020-08-04T15:20:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:17:51Z",
+  "trigger" : "complex",
+  "evidence" : [ "NICD-RBPj complex" ],
+  "pmc_id" : "4810735",
+  "score" : 0
+}

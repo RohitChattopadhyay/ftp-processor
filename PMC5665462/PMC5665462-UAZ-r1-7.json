@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0043205" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Following stimulation with TGF-beta1, epithelial cells showed increases in the levels of all three ECM components which accumulated in a fibrillar matrix structure and at levels not significantly different to fibroblasts (XREF_FIG B-D).",
+  "reading_complete" : "2020-08-04T15:33:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:32:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of all three ECM" ],
+  "pmc_id" : "5665462",
+  "score" : 0
+}

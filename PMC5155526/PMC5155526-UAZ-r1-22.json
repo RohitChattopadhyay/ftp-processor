@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These data did not show any significant differences for the expression of any gene between the time points of 24 and 48 h. Therefore, we chose the time point of 48 h to detect Col-1 expression and p38 phosphorylation.",
+  "reading_complete" : "2020-08-04T15:27:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:26:38Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p38 phosphorylation" ],
+  "pmc_id" : "5155526",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96AT9",
+      "entity_text" : "RPE",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07425",
+      "entity_text" : "redox proteins",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "HG levels increase TXNIP expression in both mitochondria and the cytosol and decrease the expression of redox proteins, such as cytosolic Trx1 and mitochondrial Trx2, suggesting that hyperglycemia induces RPE redox stress.",
+  "reading_complete" : "2020-08-04T15:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:30:38Z",
+  "trigger" : "induces",
+  "evidence" : [ "redox proteins, such as cytosolic Trx1 and mitochondrial Trx2, suggesting that hyperglycemia induces RPE" ],
+  "pmc_id" : "6503994",
+  "score" : 0
+}

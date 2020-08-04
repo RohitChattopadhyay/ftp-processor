@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07379",
+      "entity_text" : "mir-21",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The overexpression of mir-21 increases cell proliferation, migration, invasion and metastasis in a number of cancer cell lines.",
+  "reading_complete" : "2020-08-04T15:27:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:26:38Z",
+  "trigger" : "increases",
+  "evidence" : [ "mir-21 increases cell proliferation, migration, invasion" ],
+  "pmc_id" : "5155526",
+  "score" : 0
+}

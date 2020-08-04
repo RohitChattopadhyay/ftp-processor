@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2A3",
+      "entity_text" : "Ngn2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00548",
+      "entity_text" : "Dll1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000700" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The dynamic model of differentiation we propose indicate that dopaminergic NPCs exhaust due to a higher rate of differentiation than proliferation, a process regulated by the interaction between Dll1 and Ngn2.",
+  "reading_complete" : "2020-08-04T15:20:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:17:51Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between Dll1 and Ngn2" ],
+  "pmc_id" : "4810735",
+  "score" : 0
+}
