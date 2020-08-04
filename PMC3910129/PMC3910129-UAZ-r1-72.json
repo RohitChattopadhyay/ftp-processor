@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14790",
+      "entity_text" : "caspase-8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "miR-214 upregulates expression of Bax, caspase-9, caspase-8, and caspase-3, enhances apoptosis and inhibits cell growth, and increases sensitivity to cisplatin by silencing Bcl2l2 expression [XREF_BIBR], and miR-218 induces apoptosis, suppresses tumor growth, and increases sensitivity to cisplatin through the AKT-mTOR signaling pathway in cervical cancer cells [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:06:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:01:06Z",
+  "trigger" : "enhances",
+  "evidence" : [ "caspase-8, and caspase-3, enhances apoptosis" ],
+  "pmc_id" : "3910129",
+  "score" : 0
+}

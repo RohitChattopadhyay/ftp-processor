@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03662",
+      "entity_text" : "telomerase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03639",
+      "entity_text" : "hTERT mRNA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Telomerase activity depends on expression of human telomerase reverse transcriptase (hTERT), and miR-138 suppresses the hTERT mRNA level and reduces telomerase activity.",
+  "reading_complete" : "2020-08-04T17:06:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:01:06Z",
+  "trigger" : "reduces",
+  "evidence" : [ "hTERT mRNA level and reduces telomerase" ],
+  "pmc_id" : "3910129",
+  "score" : 0
+}

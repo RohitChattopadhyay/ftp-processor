@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03633",
+      "entity_text" : "miR-21",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q53EL6",
+      "entity_text" : "PDCD4",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Expression of PDCD4 is implicated in apoptosis and also blocks translation and inhibits tumor growth, and thus miR-21 binding to the PDCD4 3 ' UTR enhances cell growth [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:06:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:01:06Z",
+  "trigger" : "enhances",
+  "evidence" : [ "miR-21 binding to the PDCD4 3' UTR enhances cell growth" ],
+  "pmc_id" : "3910129",
+  "score" : 0
+}

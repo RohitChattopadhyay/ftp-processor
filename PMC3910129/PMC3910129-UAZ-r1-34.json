@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UIV1",
+      "entity_text" : "CAF1",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P43354",
+      "entity_text" : "NOT",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51679",
+      "entity_text" : "CCR4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10566" ],
+      "TissueType" : [ "tissuelist:TS-1006" ]
+    }
+  },
+  "verbose_text" : "The RNA induced silencing complex (RISC) containing a miRNA binds the 3 '-UTR in mRNAs and induces formation of the CCR4 - CAF1 - NOT complex, a poly A tail truncating enzyme, resulting in truncation of the downstream poly A tail, reduced binding of translation initiation factors, and repression of translation [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:06:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:01:06Z",
+  "trigger" : "complex",
+  "evidence" : [ "CCR4-CAF1-NOT complex" ],
+  "pmc_id" : "3910129",
+  "score" : 0
+}

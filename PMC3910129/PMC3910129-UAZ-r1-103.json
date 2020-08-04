@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q93034",
+      "entity_text" : "CUL5",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cullin 5 (CUL5) is targeted by both miR-19a and miR-19b, but expression of CUL5 excluding the 3 ' UTR decreases cell growth and invasion induced by miR-19a and miR-19b [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:06:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:01:06Z",
+  "trigger" : "decreases",
+  "evidence" : [ "CUL5 excluding the 3' UTR decreases cell growth and invasion" ],
+  "pmc_id" : "3910129",
+  "score" : 0
+}
