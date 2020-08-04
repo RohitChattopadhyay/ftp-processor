@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9SF47",
+      "entity_text" : "PAH1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005635" ]
+    }
+  },
+  "verbose_text" : "In yeast, loss of PAH1 leads to an overdeveloped ER membrane, which in turn results in nuclear expansion.",
+  "reading_complete" : "2020-08-04T09:39:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:38:18Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PAH1" ],
+  "pmc_id" : "5703613",
+  "score" : 0
+}

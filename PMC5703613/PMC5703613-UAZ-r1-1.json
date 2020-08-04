@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9SF47",
+      "entity_text" : "Pah1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00546",
+      "entity_text" : "Cdc28",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In yeast, Cdc28 phosphorylation of Pah1 is critical for cell cycle progression while phosphorylation by Pho85 plays other roles; in mammals, mTOR kinases phosphorylate lipins.",
+  "reading_complete" : "2020-08-04T09:39:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:38:18Z",
+  "evidence" : [ "Cdc28 phosphorylation of Pah1" ],
+  "pmc_id" : "5703613",
+  "score" : 0
+}
