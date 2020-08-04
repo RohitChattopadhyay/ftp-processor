@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15465",
+      "entity_text" : "Shh",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14770",
+      "entity_text" : "Meis2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In Wnt1-Cre2; Meis2 fl/fl apoptosis is significantly increased while cell proliferation is normal, which is again in accordance with findings in Shh mutants.",
+  "reading_complete" : "2020-08-04T15:17:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:16:02Z",
+  "trigger" : "increased",
+  "evidence" : [ "Meis2 fl/fl  apoptosis is significantly increased while cell proliferation is normal, which is again in accordance with findings in Shh" ],
+  "pmc_id" : "7331463",
+  "score" : 0
+}
