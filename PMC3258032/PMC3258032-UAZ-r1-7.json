@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000025" ]
+    }
+  },
+  "verbose_text" : "We found that smoking was associated with increased serum levels of testosterone, E 1, E 2, AMH and a trend for increased FSH levels.",
+  "reading_complete" : "2020-08-04T21:44:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:42:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of testosterone" ],
+  "pmc_id" : "3258032",
+  "score" : 0
+}

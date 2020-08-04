@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02545",
+      "entity_text" : "Maf",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0138" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "36 This suggests the possibility that small Maf / Nrf2 heterodimers may be involved in the negative regulation of chondrocyte differentiation, although no expression data for small Mafs are available in chondrocytes.",
+  "reading_complete" : "2020-08-04T21:46:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:45:04Z",
+  "trigger" : "heterodimers",
+  "evidence" : [ "Maf/Nrf2 heterodimers" ],
+  "pmc_id" : "4300789",
+  "score" : 0
+}

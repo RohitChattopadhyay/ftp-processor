@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02508",
+      "entity_text" : "c-Jun",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y5Q3",
+      "entity_text" : "MafB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "20 MafA can heterodimerize with c-Jun but not with c-Fos, whereas MafB can form heterodimers with c-Fos but not with c-Jun.",
+  "reading_complete" : "2020-08-04T21:46:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:45:04Z",
+  "trigger" : "form heterodimers",
+  "evidence" : [ "MafB can form heterodimers with c-Fos but not with c-Jun" ],
+  "pmc_id" : "4300789",
+  "score" : 0
+}

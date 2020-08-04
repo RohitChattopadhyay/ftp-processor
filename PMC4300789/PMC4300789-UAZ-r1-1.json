@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NHW3",
+      "entity_text" : "MafA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MAPK pathway is activated upon interaction of FGFR and ligand, and the FGF / MAPK cascade leads to the activation of ERK1/2 kinases, which can phosphorylate MafA.",
+  "reading_complete" : "2020-08-04T21:46:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:45:04Z",
+  "evidence" : [ "ERK1/2 kinases, which can phosphorylate MafA" ],
+  "pmc_id" : "4300789",
+  "score" : 0
+}
