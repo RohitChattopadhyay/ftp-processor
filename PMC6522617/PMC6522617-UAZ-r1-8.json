@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14317",
+      "entity_text" : "p75",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "Etanercept, a human recombinant TNF receptor p75 protein which binds to both TNF-alpha and TNF-beta, was one of the first biologics and has been shown to achieve a 75% or greater improvement from baseline in Patient Area and Severity Index (PASI) score (PASI75) in 34-57% of patients at week 12 [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:26:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:21:47Z",
+  "trigger" : "binds",
+  "evidence" : [ "p75 protein which binds to both TNF-alpha" ],
+  "pmc_id" : "6522617",
+  "score" : 0
+}

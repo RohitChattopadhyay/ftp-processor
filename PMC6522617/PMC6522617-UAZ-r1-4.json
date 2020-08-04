@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52119",
+      "entity_text" : "PASI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:2000106" ]
+    }
+  },
+  "verbose_text" : "After week 10, treatment was stopped; those patients who had a loss of PASI greater than 50% were immediately re-treated at their original dose.",
+  "reading_complete" : "2020-08-04T14:26:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:21:47Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PASI" ],
+  "pmc_id" : "6522617",
+  "score" : 0
+}
