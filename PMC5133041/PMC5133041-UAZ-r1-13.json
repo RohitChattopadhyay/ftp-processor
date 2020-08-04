@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "methionine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "Homocysteine (Hcy) is an amino acid that was discovered in 1932 by Vigneaud that is formed as a product of the transmethylation of methionine, an essential amino acid.",
+  "reading_complete" : "2020-08-04T19:11:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:11:06Z",
+  "trigger" : "transmethylation",
+  "evidence" : [ "transmethylation of methionine, an essential amino acid" ],
+  "pmc_id" : "5133041",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "The primary plasma level of homocysteine did not show a statistically significant difference among the cigarette smoker population of the 3 groups (p = 0.075).",
+  "reading_complete" : "2020-08-04T19:11:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:11:06Z",
+  "trigger" : "level",
+  "evidence" : [ "level of homocysteine" ],
+  "pmc_id" : "5133041",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123286",
+      "entity_text" : "phosphorus",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Biologically, inactive vitamin D reduces intestinal calcium absorption, which causes hypocalcemia and eventually increases secondary hyperparathyroidism and parathyroid hormone, which reduces levels of phosphorus while increasing calcium and alkaline phosphatase.",
+  "reading_complete" : "2020-08-04T19:13:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:12:18Z",
+  "trigger" : "increasing",
+  "evidence" : [ "phosphorus while increasing calcium" ],
+  "pmc_id" : "5217819",
+  "score" : 0
+}
