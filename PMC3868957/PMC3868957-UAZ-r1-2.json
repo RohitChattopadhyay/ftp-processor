@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P50726",
+      "entity_text" : "RibU",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:643976",
+      "entity_text" : "riboflavin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005615" ]
+    }
+  },
+  "verbose_text" : "Binding of riboflavin to RibU is hydrophobic.",
+  "reading_complete" : "2020-08-04T13:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:42:07Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of riboflavin to RibU" ],
+  "pmc_id" : "3868957",
+  "score" : 0
+}

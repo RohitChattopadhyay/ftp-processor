@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02991",
+      "entity_text" : "ATG8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, increased autophagy allowed cells to survive trastuzumab therapy, as silencing of ATG8 / LC3 expression via transient transfection with siRNA was sufficient to significantly reduce proliferation rates in trastuzumab adapted breast cancer cells and supra-additively interacted with trastuzumab to reverse acquired resistance.",
+  "reading_complete" : "2020-08-04T13:45:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:43:10Z",
+  "trigger" : "reduce",
+  "evidence" : [ "ATG8/LC3 expression via transient transfection with siRNA was sufficient to significantly reduce proliferation" ],
+  "pmc_id" : "3749547",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78543",
+      "entity_text" : "PC3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04962",
+      "entity_text" : "mir124",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Lentivirus mediated mir124 expression decreased the proliferation and viability of PC3 while endogenous iASPP were knocked down.",
+  "reading_complete" : "2020-08-04T13:45:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:45:45Z",
+  "trigger" : "decreased",
+  "evidence" : [ "mir124 expression decreased the proliferation and viability of PC3" ],
+  "pmc_id" : "4708314",
+  "score" : 0
+}

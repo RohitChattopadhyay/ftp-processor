@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13501",
+      "entity_text" : "SQSTM1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2077" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Given that the relative mRNA levels of SQSTM1 / p62 were not significantly altered as measured by qRT-PCR XREF_BIBR, these findings indicate that the decreased cellular content of SQSTM1 / p62 indirectly reflects enhanced autophagic degradation in trastuzumab-refractory JIMT-1 cells.",
+  "reading_complete" : "2020-08-04T13:45:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:43:10Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of SQSTM1" ],
+  "pmc_id" : "3749547",
+  "score" : 0
+}
