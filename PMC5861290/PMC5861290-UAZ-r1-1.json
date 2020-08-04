@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07288",
+      "entity_text" : "PSA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0828" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "PCa, including clinically significant PCa, is not rare among men with low PSA levels or in men with previous negative Bx.",
+  "reading_complete" : "2020-08-04T11:46:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:45:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "PSA levels" ],
+  "pmc_id" : "5861290",
+  "score" : 0
+}
