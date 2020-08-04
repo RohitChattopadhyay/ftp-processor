@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01469",
+      "entity_text" : "FABP5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The peak QTL region harbors fatty acid binding protein 5 (FABP5) on SSC4 which is known to have functions in lipid metabolism; the knockdown of FABP5 decreased the cellular cholesterol.",
+  "reading_complete" : "2020-08-04T14:43:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:38:52Z",
+  "trigger" : "decreased",
+  "evidence" : [ "FABP5 decreased the cellular cholesterol" ],
+  "pmc_id" : "3146427",
+  "score" : 0
+}

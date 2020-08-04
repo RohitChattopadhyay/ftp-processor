@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q1QXE1",
+      "entity_text" : "beta1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0001725" ],
+      "Organ" : [ "uberon:UBERON:0010210" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "For example, beta3 integrin, but not beta1, interacts directly with and activates Src.",
+  "reading_complete" : "2020-08-04T14:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:09Z",
+  "trigger" : "interacts",
+  "evidence" : [ "beta1, interacts directly with and activates Src" ],
+  "pmc_id" : "4728310",
+  "score" : 0
+}
