@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40225",
+      "entity_text" : "ml",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For 3 cases (3.8%) none of the typical autopsy findings was described, despite individual absolute blood losses of 2100 ml (2 cases) and 2500 ml.",
+  "reading_complete" : "2020-08-04T19:12:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:09:03Z",
+  "trigger" : "losses",
+  "evidence" : [ "losses of 2100 ml" ],
+  "pmc_id" : "7181451",
+  "score" : 0
+}
