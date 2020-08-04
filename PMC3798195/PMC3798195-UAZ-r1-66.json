@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZY8",
+      "entity_text" : "MFF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "By contrast, peroxisomal proliferation, resulting from peroxisomal fission, was not increased by the overexpression of MFF despite massive recruitment of DLP1 to the peroxisomal membrane (XREF_FIG, XREF_FIG).",
+  "reading_complete" : "2020-08-04T11:18:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:17:29Z",
+  "trigger" : "increased",
+  "evidence" : [ "proliferation, resulting from peroxisomal fission, was not increased by the overexpression of MFF" ],
+  "pmc_id" : "3798195",
+  "score" : 0
+}

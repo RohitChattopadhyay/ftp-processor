@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P83103",
+      "entity_text" : "Haspin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005819" ]
+    }
+  },
+  "verbose_text" : "In human cells instead it was reported that PLK1 phosphorylates Haspin thus stimulating Histone H3 phosphorylation at Thr 3 and contributing to Aurora B kinetochore recruitment.",
+  "reading_complete" : "2020-08-04T12:24:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:23:01Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates Haspin" ],
+  "pmc_id" : "4728306",
+  "score" : 0
+}

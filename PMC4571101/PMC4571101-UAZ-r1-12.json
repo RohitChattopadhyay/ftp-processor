@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P98196",
+      "entity_text" : "ATPase is",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "CellLine" : [ "cellosaurus:CVCL_AQ26" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "A recent study from our laboratory suggests that Na + / K + ATPase is ubiquitinated in a Dube3a dependent manner.",
+  "reading_complete" : "2020-08-04T13:21:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:19:49Z",
+  "trigger" : "ubiquitinated",
+  "evidence" : [ "ATPase is ubiquitinated" ],
+  "pmc_id" : "4571101",
+  "score" : 0
+}

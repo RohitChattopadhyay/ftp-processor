@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The moderation of intracellular ROS levels can promote cell proliferation and differentiation, and the overproduction of ROS can lead to cytotoxicity in cancer cells [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:28:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:26:31Z",
+  "trigger" : "promote",
+  "evidence" : [ "ROS levels can promote cell proliferation and differentiation" ],
+  "pmc_id" : "6014151",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05607",
+      "entity_text" : "FruBM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49880",
+      "entity_text" : "EcR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "TissueType" : [ "tissuelist:TS-0842" ]
+    }
+  },
+  "verbose_text" : "In view of the fact that EcR forms a complex with FruBM (XREF_FIG), it would be conceivable that the effect of EcR on robo1 transcription is, at least in part, mediated through the EcR - FruBM complex.",
+  "reading_complete" : "2020-08-04T13:49:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:46:30Z",
+  "trigger" : "complex",
+  "evidence" : [ "EcR-FruBM complex" ],
+  "pmc_id" : "5861360",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03549",
+      "entity_text" : "MsGSTU8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MsGSTU8 overexpression with higher GST activity might reduce the ROS accumulation by increasing other antioxidant enzyme activities to improve osmotic regulation to relieve ROS damage; it also might influence the transcription levels of the antioxidative genes and various stress resistance related genes in stress responsive pathways to participate in the elimination of redundant ROS in transgenic tobacco lines.",
+  "reading_complete" : "2020-08-04T12:06:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:05:18Z",
+  "trigger" : "reduce",
+  "evidence" : [ "MsGSTU8 overexpression with higher GST activity might reduce the ROS" ],
+  "pmc_id" : "6777358",
+  "score" : 0
+}

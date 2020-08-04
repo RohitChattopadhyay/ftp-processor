@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123286",
+      "entity_text" : "phosphorus",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0501" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:381124" ]
+    }
+  },
+  "verbose_text" : "The lpa1-1 allele used in this work was characterized by a decrease in phytic acid synthesis (from 50% to 95%) and by a proportional increase of the level of free phosphorus inside the kernel.",
+  "reading_complete" : "2020-08-04T12:40:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:33:53Z",
+  "trigger" : "level",
+  "evidence" : [ "level of free phosphorus" ],
+  "pmc_id" : "6681281",
+  "score" : 0
+}

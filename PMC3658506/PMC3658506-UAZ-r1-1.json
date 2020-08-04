@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:923",
+      "entity_text" : "sodium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6324668",
+      "entity_text" : "TTX",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When ingested by humans, TTX acts to block the sodium channels in the nerve cells and skeletal muscles [XREF_BIBR], and to thereby block excitatory conduction, resulting in the occurrence of typical symptoms and signs (XREF_TABLE) and even death in severe cases [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:42:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:34Z",
+  "trigger" : "block",
+  "evidence" : [ "TTX acts to block the sodium" ],
+  "pmc_id" : "3658506",
+  "score" : 0
+}

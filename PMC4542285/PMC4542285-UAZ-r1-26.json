@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43303",
+      "entity_text" : "CP110",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0005813" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000477" ]
+    }
+  },
+  "verbose_text" : "We found that reducing Neurl4 activity also led to elevated CP110 levels in Drosophila, but the severity and type of the defect varied dramatically depending on cell type.",
+  "reading_complete" : "2020-08-04T11:17:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:15:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "CP110 levels" ],
+  "pmc_id" : "4542285",
+  "score" : 0
+}

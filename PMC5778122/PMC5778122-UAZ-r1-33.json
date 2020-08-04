@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "IRF1 and STAT1 directly bound to TNF-alpha, CCL2, CXCL2, and CXCL10 promoter regions in the LPS induced RAW264.7 macrophage cell line.",
+  "reading_complete" : "2020-08-04T12:24:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:21:42Z",
+  "trigger" : "bound",
+  "evidence" : [ "STAT1 directly bound to TNF-alpha" ],
+  "pmc_id" : "5778122",
+  "score" : 0
+}

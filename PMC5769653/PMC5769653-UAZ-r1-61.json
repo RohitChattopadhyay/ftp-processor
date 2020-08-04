@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55075",
+      "entity_text" : "Fgf8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The [Fgf8] gradient is determined by three independent factors : [Fgf8] at the source; the amount of Fgf8 protein in the gradient (the amplitude); and the rate at which [Fgf8] decays with increasing distance from the source (the decay).",
+  "reading_complete" : "2020-08-04T11:50:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:39:36Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Fgf8" ],
+  "pmc_id" : "5769653",
+  "score" : 0
+}

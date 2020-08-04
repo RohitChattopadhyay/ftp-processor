@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28358",
+      "entity_text" : "HOXD10",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y3M8",
+      "entity_text" : "STARD13",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "RNA binding protein RNPC1 has been shown to play suppressive roles in various tumors, such as RNPC1 as a suppresser of metastasis and epithelial-mesenchymal transition (EMT) of breast cancer via directly binding to HOXD10 and CDH5 mRNAs and thus resulting in the activation of STARD13 correlated competitive endogenous RNA (ceRNA) relationship [XREF_BIBR] and inducing the sensitivity of HER-2-positive breast cancer cells to trastuzumab through upregulating HER2 [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:07:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:05:14Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding to HOXD10 and CDH5 mRNAs and thus resulting in the activation of STARD13" ],
+  "pmc_id" : "7055196",
+  "score" : 0
+}

@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08133",
+      "entity_text" : "p70",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 6,
+        "feature_type" : "mutation",
+        "evidence" : "S6K"
+      } ],
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As expected, the mTORC1 inhibitor rapamycin inhibited p70 S6K phosphorylation.",
+  "reading_complete" : "2020-08-04T11:27:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:26:38Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "rapamycin inhibited p70 S6K phosphorylation" ],
+  "pmc_id" : "6078346",
+  "score" : 0
+}

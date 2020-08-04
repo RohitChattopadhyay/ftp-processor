@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29972",
+      "entity_text" : "AQP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031672" ],
+      "CellType" : [ "cl:CL:0000023" ],
+      "Species" : [ "taxonomy:8400" ]
+    }
+  },
+  "verbose_text" : "The glycosylation of AQP1 and AQP3 was observed by the smeared band at a higher MW (~ 37 kDa), and is consistent with what others have reported in the literature.",
+  "reading_complete" : "2020-08-04T12:57:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:55:10Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation of AQP1" ],
+  "pmc_id" : "5936062",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser139",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000803" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000018" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Thus, phosphorylation of Tyr142 and Ser139 of H2AX are distinctly regulated during spermatogenesis (XREF_FIG H).",
+  "reading_complete" : "2020-08-04T12:08:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:10Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Tyr142 and Ser139 of H2AX" ],
+  "pmc_id" : "4571090",
+  "score" : 0
+}

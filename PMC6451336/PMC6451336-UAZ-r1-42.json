@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-Catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1698" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "One mechanism of how PAK4 / Mbt influences E-Cad AJ is phosphorylation of beta-Catenin / Armadillo.",
+  "reading_complete" : "2020-08-04T14:35:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:33:57Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of beta-Catenin" ],
+  "pmc_id" : "6451336",
+  "score" : 0
+}

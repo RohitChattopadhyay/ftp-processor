@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00151",
+      "entity_text" : "lipase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0001" ],
+      "Organ" : [ "uberon:UBERON:0001194" ]
+    }
+  },
+  "verbose_text" : "Tumoral markers ruled out a diagnosis of pancreatic cancer and high lipase levels confirmed the diagnosis of pancreatitis.",
+  "reading_complete" : "2020-08-04T14:15:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:14:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "lipase levels" ],
+  "pmc_id" : "5990257",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11542",
+      "entity_text" : "LG4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14118",
+      "entity_text" : "alpha-DG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "LG5 domains" ],
+    "context" : {
+      "Species" : [ "taxonomy:9986" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005783" ]
+    }
+  },
+  "verbose_text" : "These carbohydrate decorations of alpha-DG are important for the calcium dependent, high-affinity binding of alpha-DG to the LG4 and LG5 domains of laminin alpha-subunits as well as to a number of other LG domain containing extracellular ligands of alpha-DG, including agrin, perlecan and neurexin.",
+  "reading_complete" : "2020-08-04T12:05:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:03:07Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of alpha-DG to the LG4 and LG5 domains" ],
+  "pmc_id" : "4582122",
+  "score" : 0
+}

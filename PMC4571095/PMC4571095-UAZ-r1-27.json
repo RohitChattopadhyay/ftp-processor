@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151134",
+      "entity_text" : "Fe",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6H8Y1",
+      "entity_text" : "TfnR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "TfnR binds Fe 3+ -loaded Tfn at the cell surface, and is internalized via clathrin coated vesicles and delivered to early / sorting endosomes.",
+  "reading_complete" : "2020-08-04T12:46:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:44:55Z",
+  "trigger" : "binds",
+  "evidence" : [ "TfnR binds Fe" ],
+  "pmc_id" : "4571095",
+  "score" : 0
+}

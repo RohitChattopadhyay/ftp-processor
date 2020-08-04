@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Organ" : [ "uberon:UBERON:0013481" ]
+    }
+  },
+  "verbose_text" : "Loss of Id2 reduces the protein level of c-Myc and increases the mRNA level of its antagonist Mxd1 in ileal crypt epithelium of Apc Delta716 mice.",
+  "reading_complete" : "2020-08-04T12:44:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:49Z",
+  "trigger" : "level",
+  "evidence" : [ "level of c-Myc" ],
+  "pmc_id" : "4542283",
+  "score" : 0
+}

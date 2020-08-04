@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:74483",
+      "entity_text" : "PFOS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The mean serum levels of PFOS for this population were also on the higher side at 26 ng/g for females and 29 ng/g for males, which approaches the 75% percentile in the NHANES study.",
+  "reading_complete" : "2020-08-04T13:57:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:51:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PFOS" ],
+  "pmc_id" : "3782832",
+  "score" : 0
+}

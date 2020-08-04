@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00203",
+      "entity_text" : "albumin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00528",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000988" ]
+    }
+  },
+  "verbose_text" : "Within these cells, FcRn resides predominantly in acidified intracellular compartments where the low pH triggers binding of IgG and albumin to FcRn.",
+  "reading_complete" : "2020-08-04T11:33:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:32:16Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of IgG and albumin" ],
+  "pmc_id" : "3552320",
+  "score" : 0
+}

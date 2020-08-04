@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "ethanol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-0690" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "The severity of these effects was related with the amount of ethanol and the timing of ethanol exposure.",
+  "reading_complete" : "2020-08-04T14:13:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:12:29Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ethanol" ],
+  "pmc_id" : "5004616",
+  "score" : 0
+}

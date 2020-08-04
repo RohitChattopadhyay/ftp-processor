@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20061",
+      "entity_text" : "HC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60934",
+      "entity_text" : "Nbs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y622" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To confirm that the generated Nbs bound specifically to the HC, we also screened for binding towards human beta2-microglobulin by ELISA, and conclusively demonstrated that all four Nbs bound specifically to the hFcRn HC (XREF_FIG).",
+  "reading_complete" : "2020-08-04T11:33:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:32:16Z",
+  "trigger" : "bound",
+  "evidence" : [ "Nbs bound specifically to the HC" ],
+  "pmc_id" : "3552320",
+  "score" : 0
+}

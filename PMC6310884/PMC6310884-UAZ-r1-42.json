@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Lys71",
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35558",
+      "entity_text" : "PEPCK1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "TissueType" : [ "tissuelist:TS-1340" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Therefore, our results showing acetylation of PEPCK1 Lys70, Lys71 and Lys594 does not affect ubiquitination by and binding to UBR5 is not surprising.",
+  "reading_complete" : "2020-08-04T12:33:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:32:20Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of PEPCK1 Lys70, Lys71" ],
+  "pmc_id" : "6310884",
+  "score" : 0
+}

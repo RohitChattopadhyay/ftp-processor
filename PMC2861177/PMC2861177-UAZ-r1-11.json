@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:887",
+      "entity_text" : "methanol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Assuming the remaining osmol gap is due to methanol alone, the estimated serum methanol level would be around 400 mg/dL, if multiplied by a conversion factor of 3.2 (one-tenth the molecular weight of methanol) [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:37:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:35:19Z",
+  "trigger" : "level",
+  "evidence" : [ "methanol level" ],
+  "pmc_id" : "2861177",
+  "score" : 0
+}

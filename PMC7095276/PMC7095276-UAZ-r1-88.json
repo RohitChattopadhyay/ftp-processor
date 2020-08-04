@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2955",
+      "entity_text" : "dapsone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1071" ]
+    }
+  },
+  "verbose_text" : "A serum dapsone level was 13 mcg/mL (normal 0.1-7 mcg/mL).",
+  "reading_complete" : "2020-08-04T13:04:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:30Z",
+  "trigger" : "level",
+  "evidence" : [ "dapsone level" ],
+  "pmc_id" : "7095276",
+  "score" : 0
+}

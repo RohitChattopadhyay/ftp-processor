@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00533",
+      "entity_text" : "EGFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellType" : [ "cl:CL:2000042" ]
+    }
+  },
+  "verbose_text" : "Similarly, immunoblot analyses of mouse embryonic fibroblasts (MEFs) isolated from Rhbdf2 +/+ and Rhbdf2 P159L / P159L mice also revealed enhanced EGFR signaling as demonstrated by reduced EGFR protein levels (due to downregulation of sustained EGFR receptor activation), and by enhanced protein levels of phospho-AKT, phospho-ERK1/2 and phospho-S6 in Rhbdf2 P159L / P159L MEFs compared with those of Rhbdf2 +/+ mice (XREF_FIG B).",
+  "reading_complete" : "2020-08-04T10:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:34:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "EGFR protein levels" ],
+  "pmc_id" : "5576083",
+  "score" : 0
+}

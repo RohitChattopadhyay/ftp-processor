@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "The authors proposed that the morning HSPC peak coincides with a transient increase in NE and TNF levels in the BM driving beta2-AR-mediated HSPC proliferation and differentiation, which is followed by a wave of HSPC egress into the bloodstream mediated by beta3-AR-dependent processes.",
+  "reading_complete" : "2020-08-04T12:10:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "NE and TNF levels" ],
+  "pmc_id" : "7344327",
+  "score" : 0
+}

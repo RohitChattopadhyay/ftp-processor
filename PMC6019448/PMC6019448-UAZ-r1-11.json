@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95786",
+      "entity_text" : "RIG-I",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15646",
+      "entity_text" : "OASL",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When mutations were introduced at three conserved D residues homologous to D75-D77-D148 of hOAS1, two avian (dOASL-3D * and oOASL-3D *) and one mammalian (mOasl2-3D *) OASL mutants lost 2-5A activity and changed to enhance the RIG-I signaling like hOASL did.",
+  "reading_complete" : "2020-08-04T12:38:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:34:24Z",
+  "trigger" : "enhance",
+  "evidence" : [ "OASL mutants lost 2-5A activity and changed to enhance the RIG-I" ],
+  "pmc_id" : "6019448",
+  "score" : 0
+}

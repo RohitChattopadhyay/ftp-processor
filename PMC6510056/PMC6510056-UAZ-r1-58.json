@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29381",
+      "entity_text" : "SHP-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of SHP-1 suppressed cell proliferation, but there is no significant change of proliferation rate in BXPC3 cells when TMEFF2 was silenced.",
+  "reading_complete" : "2020-08-04T12:37:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:19Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "SHP-1 suppressed cell proliferation" ],
+  "pmc_id" : "6510056",
+  "score" : 0
+}

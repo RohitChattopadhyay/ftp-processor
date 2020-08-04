@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16769",
+      "entity_text" : "QC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D969" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0000004" ]
+    }
+  },
+  "verbose_text" : "Trueness error (%) was calculated as (% = [estimated concentration / nominal value] x100) by comparing the measured average concentration with the nominal concentrations at each QC level.",
+  "reading_complete" : "2020-08-04T10:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:05:11Z",
+  "trigger" : "level",
+  "evidence" : [ "QC level" ],
+  "pmc_id" : "7050500",
+  "score" : 0
+}

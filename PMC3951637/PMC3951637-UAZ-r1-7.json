@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1983",
+      "entity_text" : "acetaminophen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The 4 h acetaminophen level was 343 mug/mL and she was started on IV NAC.",
+  "reading_complete" : "2020-08-04T13:24:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:06:39Z",
+  "trigger" : "level",
+  "evidence" : [ "acetaminophen level" ],
+  "pmc_id" : "3951637",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10836",
+      "entity_text" : "methamphetamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "CellType" : [ "cl:CL:0000990" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hypothesis : There is a correlation between the amount of methamphetamine seized by state police to methamphetamine exposures reported to the Illinois Poison Center (IPC).",
+  "reading_complete" : "2020-08-04T13:04:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:30Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of methamphetamine" ],
+  "pmc_id" : "7095276",
+  "score" : 0
+}

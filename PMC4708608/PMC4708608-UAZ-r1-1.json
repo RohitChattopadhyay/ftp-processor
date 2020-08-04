@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23979",
+      "entity_text" : "cm",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0758" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "All patients were satisfied with postoperative penile length while shortening of the penis was noted in 13 patients \\ n (40%) with median penile length loss of 1.5 cm.",
+  "reading_complete" : "2020-08-04T13:24:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:24:11Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 1.5 cm" ],
+  "pmc_id" : "4708608",
+  "score" : 0
+}

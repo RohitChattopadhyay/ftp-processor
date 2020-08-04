@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF-A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "VEGF-A stimulation caused a 3.7-fold (P < 0.05) increase in ERK1/2 phosphorylation in UBA1 depleted endothelial cells compared to controls (XREF_FIG A, D).",
+  "reading_complete" : "2020-08-04T13:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:39:44Z",
+  "trigger" : "caused",
+  "evidence" : [ "VEGF-A stimulation caused a 3.7-fold (P<0.05) increase in ERK1/2 phosphorylation" ],
+  "pmc_id" : "5665470",
+  "score" : 0
+}

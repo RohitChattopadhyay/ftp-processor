@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35869",
+      "entity_text" : "AhR",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "CellLine" : [ "cellosaurus:CVCL_0025" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Since TCDD induces IL-6 expression through the AhR pathway, this synergistic effect could be partly explained by an inflammation induced increase in AhR expression.",
+  "reading_complete" : "2020-08-04T14:13:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:11:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "AhR expression" ],
+  "pmc_id" : "3818893",
+  "score" : 0
+}

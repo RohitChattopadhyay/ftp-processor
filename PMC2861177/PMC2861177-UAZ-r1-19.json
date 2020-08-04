@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6375",
+      "entity_text" : "nitromethane",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Based on the history of ingestion of \" Blue Thunder \" fuel which may contain varying amounts of methanol (43-77%) and nitromethane (5-35%) and the presence of a large osmolal gap even after accounting for the contribution of the nitromethane, we recommended treatment with fomepizole, thiamine (the patient was suspected to be an alcoholic), folate, and transfer to a facility with dialysis capabilities.",
+  "reading_complete" : "2020-08-04T13:37:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:35:19Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of methanol (43-77%) and nitromethane" ],
+  "pmc_id" : "2861177",
+  "score" : 0
+}

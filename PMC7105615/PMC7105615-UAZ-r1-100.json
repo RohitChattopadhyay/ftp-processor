@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14672",
+      "entity_text" : "ADAM10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000845" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The loss of ADAM10 in B cell development results in the loss of the marginal zone B cell (MZB) compartment.",
+  "reading_complete" : "2020-08-04T12:27:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:24:52Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ADAM10" ],
+  "pmc_id" : "7105615",
+  "score" : 0
+}

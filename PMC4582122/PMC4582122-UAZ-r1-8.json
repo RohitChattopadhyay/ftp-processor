@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14118",
+      "entity_text" : "beta-DG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "cysteine" ],
+    "context" : {
+      "Species" : [ "taxonomy:9986" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005794" ]
+    }
+  },
+  "verbose_text" : "Intracellularly, the extreme C-terminus of beta-DG binds to the cysteine rich, C-terminal domain of the actin binding protein, dystrophin, ensuring a connection to the F-actin cytoskeleton.",
+  "reading_complete" : "2020-08-04T12:05:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:03:07Z",
+  "trigger" : "binds",
+  "evidence" : [ "beta-DG binds to the cysteine-rich, C-terminal domain of the actin" ],
+  "pmc_id" : "4582122",
+  "score" : 0
+}

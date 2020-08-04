@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00203",
+      "entity_text" : "albumin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04278",
+      "entity_text" : "sex hormone binding globulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0001556" ]
+    }
+  },
+  "verbose_text" : "About 98% of testosterone is bound to albumin and sex hormone binding globulin (SHBG), and only free testosterone and that bound to albumin are biologically active in the body.",
+  "reading_complete" : "2020-08-04T11:49:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:48:10Z",
+  "trigger" : "bound",
+  "evidence" : [ "bound to albumin and sex hormone binding globulin" ],
+  "pmc_id" : "5182217",
+  "score" : 0
+}

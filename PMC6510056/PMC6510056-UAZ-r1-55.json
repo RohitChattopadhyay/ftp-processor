@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UIK5",
+      "entity_text" : "TMEFF2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Knockdown of expression of TMEFF2 resulted in the increased expression of p-STAT3, MCL1, and VEGF, increased cell proliferation and decreased cell apoptosis, which were reversed by overexpression of SHP-1.",
+  "reading_complete" : "2020-08-04T12:37:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:19Z",
+  "trigger" : "increased",
+  "evidence" : [ "TMEFF2 resulted in the increased expression of p-STAT3, MCL1, and VEGF, increased cell proliferation" ],
+  "pmc_id" : "6510056",
+  "score" : 0
+}

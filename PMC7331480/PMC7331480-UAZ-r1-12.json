@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Chemokine",
+      "entity_text" : "chemokine",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02355",
+      "entity_text" : "C-C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Cellular_component" : [ "go:GO:0045121" ],
+      "CellType" : [ "cl:CL:0000988" ]
+    }
+  },
+  "verbose_text" : "The result showed that DEGs were primarily enriched in GO-MF, including the activities of complement receptor, phosphofructokinase activity, interleukin-1 receptor binding, C-C chemokine binding, and UDP-glucosyltransferase activity (XREF_FIG, XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-04T14:22:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:21:05Z",
+  "trigger" : "binding",
+  "evidence" : [ "C-C chemokine binding" ],
+  "pmc_id" : "7331480",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL1B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although activation of STAT3 is known to reduce apoptosis, it could contribute to the upregulation of IL1B in combination with APP, mir-155, and DUSP1.",
+  "reading_complete" : "2020-08-04T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:41:04Z",
+  "trigger" : "reduce",
+  "evidence" : [ "reduce apoptosis, it could contribute to the upregulation of IL1B" ],
+  "pmc_id" : "6727689",
+  "score" : 0
+}

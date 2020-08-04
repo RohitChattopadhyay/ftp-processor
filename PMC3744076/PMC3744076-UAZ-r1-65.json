@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15393",
+      "entity_text" : "SAP130",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As expected, overexpression of SAP130 reduced Skp2-V5 binding to Cul1, corroborating the result with endogenous Skp2 in XREF_FIG.",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "reduced",
+  "evidence" : [ "SAP130 reduced Skp2-V5 binding to Cul1, corroborating the result" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}

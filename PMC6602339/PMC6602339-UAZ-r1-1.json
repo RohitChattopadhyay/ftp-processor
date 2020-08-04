@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12834",
+      "entity_text" : "Cdc20",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytoplasm",
+    "hypothesis_information" : true,
+    "to_location_id" : "go:GO:0005737",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000413" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "These results suggest that once imported into the nucleus, Cdc20 is not exported back into the cytoplasm.",
+  "reading_complete" : "2020-08-04T14:52:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:51:22Z",
+  "trigger" : "exported",
+  "evidence" : [ "Cdc20 is not exported back into the cytoplasm" ],
+  "pmc_id" : "6602339",
+  "score" : 0
+}

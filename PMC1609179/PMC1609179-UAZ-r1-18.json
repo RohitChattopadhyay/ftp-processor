@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q27297",
+      "entity_text" : "DMR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Methylation of the DMR would inactivate this enhancer paternally, and the Gtl2lacZ and Gtl2Delta5'Neo integrations might alter its structure.",
+  "reading_complete" : "2020-08-04T13:09:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:04:04Z",
+  "trigger" : "Methylation",
+  "evidence" : [ "Methylation of the DMR" ],
+  "pmc_id" : "1609179",
+  "score" : 0
+}

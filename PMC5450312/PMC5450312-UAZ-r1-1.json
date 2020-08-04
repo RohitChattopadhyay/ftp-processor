@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9ULK5",
+      "entity_text" : "vangl2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0273" ],
+      "Organ" : [ "uberon:UBERON:2001463" ],
+      "CellType" : [ "cl:CL:0000223" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "This indicates that the loss of both vangl2 and gpc4 causes a greater defect than the loss of vangl2 or gpc4 alone, and demonstrates that these genes do not play redundant roles during endodermal morphogenesis.",
+  "reading_complete" : "2020-08-04T12:02:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:01:05Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of both vangl2" ],
+  "pmc_id" : "5450312",
+  "score" : 0
+}

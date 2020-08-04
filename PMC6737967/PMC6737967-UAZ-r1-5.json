@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00261",
+      "entity_text" : "tropomyosin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin",
+      "entity_text" : "troponin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0440" ],
+      "Cellular_component" : [ "go:GO:0036379" ],
+      "Species" : [ "taxonomy:7227" ]
+    }
+  },
+  "verbose_text" : "Myofilament calcium sensitivity results from the balance between Ca 2+ association and dissociation rates (k on and k off) with the components of troponin / tropomyosin complex.",
+  "reading_complete" : "2020-08-04T12:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:06:26Z",
+  "trigger" : "complex",
+  "evidence" : [ "troponin/tropomyosin complex" ],
+  "pmc_id" : "6737967",
+  "score" : 0
+}

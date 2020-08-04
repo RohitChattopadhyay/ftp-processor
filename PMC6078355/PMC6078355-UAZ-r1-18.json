@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0690" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0002329" ]
+    }
+  },
+  "verbose_text" : "SHH signaling is reduced with age in the lumbar vertebrae, causing the age related collapse of the NP cells and loss of ECM in the entire disc.",
+  "reading_complete" : "2020-08-04T14:30:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:28:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ECM" ],
+  "pmc_id" : "6078355",
+  "score" : 0
+}

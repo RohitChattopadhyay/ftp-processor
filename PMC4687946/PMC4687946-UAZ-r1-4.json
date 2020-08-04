@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "cyclin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02068",
+      "entity_text" : "miR-193b",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, enforced expression of miR-193b could inhibit proliferation, colony formation, migration, and invasion of hepatoma cells by regulating cyclin D1 and ETS1 [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:49:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:47:02Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "miR-193b could inhibit proliferation, colony formation, migration, and invasion of hepatoma cells by regulating cyclin" ],
+  "pmc_id" : "4687946",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZW4",
+      "entity_text" : "DPP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There must either be other (unidentified) kinases in the secretory pathway that can phosphorylate DPP or G-CK can also phosphorylate Ser-X-Asp sites.",
+  "reading_complete" : "2020-08-04T12:20:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:15Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate DPP" ],
+  "pmc_id" : "4707025",
+  "score" : 0
+}

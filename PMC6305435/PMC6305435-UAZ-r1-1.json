@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23510",
+      "entity_text" : "OX40 ligand",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "Serum levels of the OX40 binding partner OX40 ligand (0X40L) are increased in patients with SSc and were shown to be predictive of the worsening of dermal and lung fibrosis.",
+  "reading_complete" : "2020-08-04T12:15:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:14:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the OX40 binding partner OX40 ligand" ],
+  "pmc_id" : "6305435",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00429",
+      "entity_text" : "DLP1",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "peroxisomes",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005777",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0005777" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Translocation of DLP1 to peroxisomes was not observed in cells co-expressing HA 2 -DLP1 and FLAG Mff mutants such as MffDeltaTMD, which lacks a transmembrane domain (TMD), and MffDeltaN, which lacks amino acids 1-87 including two repeat regions (XREF_FIG).",
+  "reading_complete" : "2020-08-04T11:18:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:17:29Z",
+  "trigger" : "Translocation",
+  "evidence" : [ "Translocation of DLP1 to peroxisomes" ],
+  "pmc_id" : "3798195",
+  "score" : 0
+}

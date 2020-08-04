@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04449",
+      "entity_text" : "torsinA",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0183" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0002606" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "The integrity of the NE seems to be tightly associated to torsinA expression in neurons, since we were able to detect cells expressing torsinA next to cells that were not having visible torsinA expression.",
+  "reading_complete" : "2020-08-04T12:48:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:46:37Z",
+  "trigger" : "expression",
+  "evidence" : [ "torsinA expression" ],
+  "pmc_id" : "6078351",
+  "score" : 0
+}

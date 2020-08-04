@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q26261",
+      "entity_text" : "UNC-5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04651",
+      "entity_text" : "UNC-40",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "UNC-6 is thought to interact with UNC-40 homodimer receptor complexes and with UNC-40 and UNC-5 complexes.",
+  "reading_complete" : "2020-08-04T13:01:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:59:34Z",
+  "trigger" : "complexes",
+  "evidence" : [ "UNC-40 and UNC-5 complexes" ],
+  "pmc_id" : "3863414",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "TissueType" : [ "tissuelist:TS-0138" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found that ubiquitination of a GFP tagged Prickle1 was enhanced by Wnt5a and Ryk in presence of MG132, a proteasome inhibitor (XREF_FIG, compare lane2 with lane1).",
+  "reading_complete" : "2020-08-04T13:37:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:36:14Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of a GFP" ],
+  "pmc_id" : "4163663",
+  "score" : 0
+}

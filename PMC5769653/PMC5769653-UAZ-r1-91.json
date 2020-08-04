@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "Erk",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55075",
+      "entity_text" : "Fgf8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our ex vivo experiments revealed that Hs2st -/- CSB has difficulty maintaining a stable [Fgf8] gradient and increased Erk sensitivity to Fgf8, while Hs6st1 -/- CSB has significantly increased Fgf8 levels compared to WT and decreased Erk sensitivity to Fgf8.",
+  "reading_complete" : "2020-08-04T11:50:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:39:36Z",
+  "trigger" : "decreased",
+  "evidence" : [ "Fgf8 levels compared to WT and decreased Erk" ],
+  "pmc_id" : "5769653",
+  "score" : 0
+}

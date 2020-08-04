@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9554",
+      "entity_text" : "PFOA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001089" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The same 4 of the 20 study participants had serum levels of PFOS that were above the 90th percentile in the NHANES Study and PFOA levels above the 50th percentile of the NHANES group.",
+  "reading_complete" : "2020-08-04T12:13:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:08:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "PFOA levels" ],
+  "pmc_id" : "3776372",
+  "score" : 0
+}

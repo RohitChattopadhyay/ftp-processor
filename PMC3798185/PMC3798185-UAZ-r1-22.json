@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NVI1",
+      "entity_text" : "FancI",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005813" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "FancI can be phosphorylated, and the candidate kinase such as CDKs and ATM / ATR are also found at the centrosome (supplementary material Table S1).",
+  "reading_complete" : "2020-08-04T12:38:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:56Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "FancI can be phosphorylated" ],
+  "pmc_id" : "3798185",
+  "score" : 0
+}

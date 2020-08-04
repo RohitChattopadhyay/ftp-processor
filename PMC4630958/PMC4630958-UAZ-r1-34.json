@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:148123",
+      "entity_text" : "docetaxel",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Evidence has shown that an elevated Bcl-2 level could contribute to the docetaxel involved chemotherapy efficacy in breast cancer, indicating that Bcl-2 expression may be regarded as a predictive biomarker for the sensitivity to this chemotherapy [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:12:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:09:10Z",
+  "trigger" : "contribute",
+  "evidence" : [ "Bcl-2 level could contribute to the docetaxel" ],
+  "pmc_id" : "4630958",
+  "score" : 0
+}

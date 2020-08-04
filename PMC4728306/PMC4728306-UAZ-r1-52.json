@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "Histone H3",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03857",
+      "entity_text" : "Hesperadin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since Aurora B can also phosphorylate Histone H3 on Ser10 we verified by FACS that the low levels of Hesperadin used do not reduce the intensity of Histone H3 pSer10 in the remaining fraction of Histone H3 pSer10 positive cells.",
+  "reading_complete" : "2020-08-04T12:24:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:23:01Z",
+  "trigger" : "reduce",
+  "evidence" : [ "Hesperadin used do not reduce the intensity of Histone H3" ],
+  "pmc_id" : "4728306",
+  "score" : 0
+}

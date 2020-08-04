@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p-p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0291" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The apoptosis related protein expression levels of p-p53, Bad, cleaved caspase-3, cleaved PARP and p-JNK were increased in quinalizarin treated cells, while protein expression levels Bcl-2, p-Akt, p-ERK, and p-STAT3 were decreased.",
+  "reading_complete" : "2020-08-04T13:28:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:26:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p-p53" ],
+  "pmc_id" : "6014151",
+  "score" : 0
+}

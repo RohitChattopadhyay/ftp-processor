@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99314",
+      "entity_text" : "Sas-5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6UVJ0",
+      "entity_text" : "Sas-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_T882" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005814" ]
+    }
+  },
+  "verbose_text" : "The Sas-6 - Sas-5 complex is recruited to the site of procentriole formation immediately after Zyg1 recruitment, but it seems that Sas-6 is an unlikely target of Zyg1.",
+  "reading_complete" : "2020-08-04T10:00:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:59:52Z",
+  "trigger" : "complex",
+  "evidence" : [ "Sas-6-Sas-5 complex" ],
+  "pmc_id" : "4359743",
+  "score" : 0
+}

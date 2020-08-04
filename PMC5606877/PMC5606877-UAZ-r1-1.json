@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75445",
+      "entity_text" : "USH2A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The amount of restored USH2A protein expression was calculated as the ratio of Flag positive cells in PTC124 treated p.Trp3955 *-transfected cells, normalized to the total amount of analyzed cells.",
+  "reading_complete" : "2020-08-04T11:31:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:28:18Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of restored USH2A" ],
+  "pmc_id" : "5606877",
+  "score" : 0
+}

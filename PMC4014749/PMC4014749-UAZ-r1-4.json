@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13972",
+      "entity_text" : "RASGRF1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hysi et al. found that RASGRF1 expression can activate Ras by encoding protein which is highly expressed in neurons and retina in mice implicating this gene has functional influence on myopia pathogenesis [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:01:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:59:11Z",
+  "trigger" : "activate",
+  "evidence" : [ "RASGRF1 expression can activate Ras" ],
+  "pmc_id" : "4014749",
+  "score" : 0
+}

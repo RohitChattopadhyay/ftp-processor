@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00204",
+      "entity_text" : "EGFP",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0130" ],
+      "Cellular_component" : [ "go:GO:0030054" ],
+      "Organ" : [ "uberon:UBERON:0004086" ],
+      "Species" : [ "taxonomy:7955" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Differences in localisation of EGFP expression were found, due to accumulation of expressed protein in the cytoplasm of cells in the TgBAC (cldn5a : EGFP) vum1 transgene and localisation of antibody labelling at the cell membranes.",
+  "reading_complete" : "2020-08-04T13:33:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:32:29Z",
+  "trigger" : "expression",
+  "evidence" : [ "EGFP expression" ],
+  "pmc_id" : "5861362",
+  "score" : 0
+}

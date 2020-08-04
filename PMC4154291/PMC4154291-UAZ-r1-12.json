@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "CellType" : [ "cl:CL:0000255" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The kinesin motor proteins bind to microtubules and hydrolyze ATP, producing force in the cell to transport cargo along microtubules or slide microtubules relative to one another.",
+  "reading_complete" : "2020-08-04T12:01:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:58:57Z",
+  "trigger" : "hydrolyze",
+  "evidence" : [ "hydrolyze ATP" ],
+  "pmc_id" : "4154291",
+  "score" : 0
+}

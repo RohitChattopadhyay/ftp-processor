@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51159",
+      "entity_text" : "Rab27a",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477912",
+      "entity_text" : "phosphatidylinositol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0008021" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Rabphilin 3a consists of an N-terminal domain that binds Rab3a and Rab27a, a linker region that binds 14-3-3, and two tandem C2 domains that bind Ca 2+ and phosphatidylinositol 4,5-bisphosphate (PIP2) (Kato et al., 1996; Shirataki et al., 1993; Sun, Bittner, & Holz, 2003).",
+  "reading_complete" : "2020-08-04T11:42:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:40:39Z",
+  "trigger" : "binds",
+  "evidence" : [ "binds Rab3a and Rab27a, a linker region that binds 14-3-3, and two tandem C2 domains that bind Ca 2+  and phosphatidylinositol" ],
+  "pmc_id" : "6014458",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13469",
+      "entity_text" : "NFATC2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0161" ],
+      "CellLine" : [ "cellosaurus:CVCL_1R13" ],
+      "Cellular_component" : [ "go:GO:0005912" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "NFATC2 is known to be overexpressed in lung cancer, and depleting the expression of NFATC2 in NSCLC cells can inhibit cell invasion, migration, and metastasis.",
+  "reading_complete" : "2020-08-04T13:22:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:20:52Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of NFATC2" ],
+  "pmc_id" : "5248564",
+  "score" : 0
+}

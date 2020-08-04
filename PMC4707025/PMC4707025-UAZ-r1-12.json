@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24759",
+      "entity_text" : "hyaluronic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZW4",
+      "entity_text" : "dentin sialoprotein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9823" ],
+      "Organ" : [ "uberon:UBERON:0001751" ]
+    }
+  },
+  "verbose_text" : "The N-terminal domain of DSPP is dentin sialoprotein (DSP), a proteoglycan that binds hyaluronic acid, and forms covalent dimers via a disulfide bridge at Cys 205 (the only cysteine in DSPP).",
+  "reading_complete" : "2020-08-04T12:20:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:15Z",
+  "trigger" : "binds",
+  "evidence" : [ "dentin sialoprotein (DSP), a proteoglycan that binds hyaluronic acid" ],
+  "pmc_id" : "4707025",
+  "score" : 0
+}

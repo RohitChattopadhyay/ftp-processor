@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13635",
+      "entity_text" : "PTCH1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14623",
+      "entity_text" : "IHH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The binding between IHH and PTCH1 contributes to the blocking of inhibitory effects of PTHC1 on the activity of SMO, thus activating the IHH signaling downstream targets [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:38:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:35:03Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding between IHH and PTCH1" ],
+  "pmc_id" : "6335781",
+  "score" : 0
+}

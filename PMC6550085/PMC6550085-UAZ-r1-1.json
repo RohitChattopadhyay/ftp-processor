@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7570",
+      "entity_text" : "MDR",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6NDG6",
+      "entity_text" : "P-gp",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We initially thought that the transfer of P-gp levels would disrupt the cell 's long lasting multidrug resistance (MDR), as studies found that acquired drug resistant cells (AqMDRs) died gradually in medium containing 1 mug/ml doxorubicin (DOX).",
+  "reading_complete" : "2020-08-04T12:21:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:21:46Z",
+  "trigger" : "disrupt",
+  "evidence" : [ "P-gp levels would disrupt the cell's long-lasting multidrug resistance (MDR" ],
+  "pmc_id" : "6550085",
+  "score" : 0
+}

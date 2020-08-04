@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Fibrinogen",
+      "entity_text" : "fibrinogen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Alpha-TEG values continued to fall until a significant rebound on day 3 with a corresponding fibrinogen level of 264.",
+  "reading_complete" : "2020-08-04T13:04:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:30Z",
+  "trigger" : "level",
+  "evidence" : [ "fibrinogen level" ],
+  "pmc_id" : "7095276",
+  "score" : 0
+}

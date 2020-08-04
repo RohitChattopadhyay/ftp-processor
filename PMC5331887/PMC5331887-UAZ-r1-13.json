@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBC3",
+      "entity_text" : "DNMT3B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0114" ]
+    }
+  },
+  "verbose_text" : "Together, all these findings imply that there may be certain interaction between DNMT3B, PTEN, and hMLH1 in endometrial carcinomas.",
+  "reading_complete" : "2020-08-04T13:20:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:18:56Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between DNMT3B, PTEN" ],
+  "pmc_id" : "5331887",
+  "score" : 0
+}

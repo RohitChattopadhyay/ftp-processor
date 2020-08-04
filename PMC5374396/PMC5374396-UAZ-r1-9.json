@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119828",
+      "entity_text" : "parecoxib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The MTT assays showed that overexpression of miRNA-29c mimics significantly inhibited the cell viability of GBM cells, and a combination of miRNA-29c mimics and parecoxib could not further decrease the cell viability compared to parecoxib treatment alone.",
+  "reading_complete" : "2020-08-04T10:14:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:14:05Z",
+  "trigger" : "decrease",
+  "evidence" : [ "parecoxib could not further decrease the cell viability" ],
+  "pmc_id" : "5374396",
+  "score" : 0
+}

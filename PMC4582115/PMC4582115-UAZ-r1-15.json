@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48431",
+      "entity_text" : "Sox2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "Cellular_component" : [ "go:GO:0044297" ],
+      "Organ" : [ "uberon:UBERON:2002219" ],
+      "Species" : [ "taxonomy:7955" ],
+      "CellType" : [ "cl:CL:0002085" ]
+    }
+  },
+  "verbose_text" : "While cells lying adjacent to the ventricle had nuclear localization Sox2, cells lying more distant, such as HuC positive cells show a cytoplasmic expression of Sox2.",
+  "reading_complete" : "2020-08-04T12:32:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:30:59Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Sox2" ],
+  "pmc_id" : "4582115",
+  "score" : 0
+}

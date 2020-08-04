@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62424",
+      "entity_text" : "RpL7a",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10909",
+      "entity_text" : "Clu",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "However, most importantly, we can show that Clu is able to bind RpL7a in the mitochondrial fraction but not in the cytoplasm.",
+  "reading_complete" : "2020-08-04T12:36:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:44Z",
+  "trigger" : "bind",
+  "evidence" : [ "Clu is able to bind RpL7a" ],
+  "pmc_id" : "4823986",
+  "score" : 0
+}

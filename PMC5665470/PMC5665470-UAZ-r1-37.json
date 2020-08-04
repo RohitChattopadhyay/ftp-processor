@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007165",
+      "entity_text" : "signal transduction pathways",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "be:VEGF",
+      "entity_text" : "vascular endothelial growth factor",
+      "entity_type" : "family"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "VEGF binding to a vascular endothelial growth factor receptor (VEGFR) can trigger multiple signal transduction pathways and cellular responses in vascular and non vascular cells and tissues.",
+  "reading_complete" : "2020-08-04T13:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:39:44Z",
+  "trigger" : "trigger",
+  "evidence" : [ "VEGF binding to a vascular endothelial growth factor receptor (VEGFR) can trigger multiple signal transduction pathways" ],
+  "pmc_id" : "5665470",
+  "score" : 0
+}

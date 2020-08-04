@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02068",
+      "entity_text" : "miR-193b",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Nakano et al. showed that overexpression of miR-193b in ovarian cancer cells could not only inhibit cell proliferation by affecting cell cycle, but also induce apoptosis via activating caspase 3 and 7 [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:49:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:47:02Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "miR-193b in ovarian cancer cells could not only inhibit cell proliferation" ],
+  "pmc_id" : "4687946",
+  "score" : 0
+}

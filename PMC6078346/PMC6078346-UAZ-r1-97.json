@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC1",
+      "entity_text" : "mTORC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activation of the mTORC1 pathway by Cif would inhibit autophagy and hence benefit the survival of the bacteria.",
+  "reading_complete" : "2020-08-04T11:27:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:26:38Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "mTORC1 pathway by Cif would inhibit autophagy" ],
+  "pmc_id" : "6078346",
+  "score" : 0
+}

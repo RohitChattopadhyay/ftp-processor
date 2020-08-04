@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15468",
+      "entity_text" : "STIL",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytoplasm",
+    "from_location_text" : "centrosome",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005813",
+    "to_location_id" : "go:GO:0005737",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_T882" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "STIL is translocated from the centrosome to the cytoplasm and then degraded in early anaphase by the APC/C.",
+  "reading_complete" : "2020-08-04T10:00:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:59:52Z",
+  "trigger" : "translocated",
+  "evidence" : [ "STIL is translocated from the centrosome to the cytoplasm" ],
+  "pmc_id" : "4359743",
+  "score" : 0
+}

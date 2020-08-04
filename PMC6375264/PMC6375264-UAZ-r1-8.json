@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The major amputation patients who died had higher mean serum creatinine levels - 3.65 mg/dL (SD 2.6) - and lower mean serum hemoglobin levels - 6.48 g/dL (SD 1.7) - when compared with major amputation patients who did not die.",
+  "reading_complete" : "2020-08-04T14:49:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:49:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "6375264",
+  "score" : 0
+}

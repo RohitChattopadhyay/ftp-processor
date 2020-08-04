@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46060",
+      "entity_text" : "RanGAP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49792",
+      "entity_text" : "Nup358",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "As Nup358 exists in complex with SUMO modified RanGAP1, and this complex is assumed to be responsible for GTP hydrolysis on Ran, removal of Nup358 would be predicted to decrease the RanGAP1 activity, and thereby leading to the accumulation of RanGTP in the cytoplasm.",
+  "reading_complete" : "2020-08-04T11:58:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:58:07Z",
+  "trigger" : "decrease",
+  "evidence" : [ "Nup358 would be predicted to decrease the RanGAP1" ],
+  "pmc_id" : "3828775",
+  "score" : 0
+}

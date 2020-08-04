@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:145068",
+      "entity_text" : "nitric oxide",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "C-reactive protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increased C-reactive protein reduces production and bioavailability of nitric oxide, which in turn inhibits angiogenesis [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:35:04Z",
+  "trigger" : "reduces",
+  "evidence" : [ "C-reactive protein reduces production and bioavailability of nitric oxide" ],
+  "pmc_id" : "4917334",
+  "score" : 0
+}

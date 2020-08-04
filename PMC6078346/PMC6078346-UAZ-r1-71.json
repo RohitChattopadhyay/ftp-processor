@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08133",
+      "entity_text" : "p70",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 6,
+        "feature_type" : "mutation",
+        "evidence" : "S6K"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Species" : [ "taxonomy:28450" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG A, there was no significant change in the phosphorylation levels of p70 S6K when Cif was transfected compared to cells transfected with empty vector.",
+  "reading_complete" : "2020-08-04T11:27:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:26:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p70" ],
+  "pmc_id" : "6078346",
+  "score" : 0
+}

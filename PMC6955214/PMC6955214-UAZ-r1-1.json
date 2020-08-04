@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12830",
+      "entity_text" : "E-cadherin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005912" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "In epithelial cells, beta-catenin binds to E-cadherin at the plasma membrane to form adherens junctions, which maintain cell integrity and they are involved in several intracellular signaling pathways.",
+  "reading_complete" : "2020-08-04T13:07:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:07:03Z",
+  "trigger" : "binds",
+  "evidence" : [ "beta-catenin binds to E-cadherin" ],
+  "pmc_id" : "6955214",
+  "score" : 0
+}

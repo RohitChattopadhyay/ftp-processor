@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1423" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "The gene for histidinol-phosphatase (hisJ, EC : 3.1.3.15), which catalyzes the dephosphorylation of histidinol phosphate to histidinol, is absent from all the B. coagulans genomes.",
+  "reading_complete" : "2020-08-04T11:55:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:54:07Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of histidinol phosphate" ],
+  "pmc_id" : "3905273",
+  "score" : 0
+}

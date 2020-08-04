@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02170",
+      "entity_text" : "miR-495",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The reporter gene 's luciferase activity was suppressed by over-expression of miR-495 while the suppression effect was abolished by mutations in the miRNA binding site (XREF_FIG).",
+  "reading_complete" : "2020-08-04T13:57:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:56:38Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "luciferase activity was suppressed by over-expression of miR-495" ],
+  "pmc_id" : "5633066",
+  "score" : 0
+}

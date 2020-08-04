@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "To answer this, we would have to know how streptozotocin kills the beta cells of the pancreas causing the loss of insulin.",
+  "reading_complete" : "2020-08-04T13:17:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:15:52Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of insulin" ],
+  "pmc_id" : "3658840",
+  "score" : 0
+}

@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00821",
+      "entity_text" : "PEPCK",
+      "features" : [ {
+        "to_base" : "K",
+        "site" : 277,
+        "feature_type" : "mutation",
+        "evidence" : "K277A"
+      } ],
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "TissueType" : [ "tissuelist:TS-1340" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, PEPCK K277A mutant was still ubiquitinated when it was co-overexpressed with ubiquitin in HEK293T cells (XREF_FIG D).",
+  "reading_complete" : "2020-08-04T12:33:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:32:20Z",
+  "trigger" : "ubiquitinated",
+  "evidence" : [ "PEPCK K277A mutant was still ubiquitinated" ],
+  "pmc_id" : "6310884",
+  "score" : 0
+}

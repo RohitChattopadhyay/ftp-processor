@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "phospho-eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Conversely, we overexpressed the protein phosphatase regulatory subunit, GADD34, to decrease levels of phospho-eIF2alpha by recruiting protein phosphatase 1 to dephosphorylate phospho-eIF2alpha (XREF_FIG B).",
+  "reading_complete" : "2020-08-04T14:16:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:15:14Z",
+  "trigger" : "dephosphorylate",
+  "evidence" : [ "dephosphorylate phospho-eIF2alpha" ],
+  "pmc_id" : "5087684",
+  "score" : 0
+}

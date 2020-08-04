@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8223",
+      "entity_text" : "ergotamine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01820",
+      "entity_text" : "CYP3A4 inhibitors",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Most cases are caused by interaction with CYP3A4 inhibitors, which increase ergotamine bioavailability at least fourfold.",
+  "reading_complete" : "2020-08-04T13:24:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:06:39Z",
+  "trigger" : "increase",
+  "evidence" : [ "CYP3A4 inhibitors, which increase ergotamine" ],
+  "pmc_id" : "3951637",
+  "score" : 0
+}

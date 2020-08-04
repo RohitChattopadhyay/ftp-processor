@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:969516",
+      "entity_text" : "curcumin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The pre-treatment with curcumin significantly reduced the phosphorylation of MKK4, MKK7, and JNK, as well as the nuclear translocation of NF-kappaB, in pancreatic tissue of SAP rats in a concentration dependent manner.",
+  "reading_complete" : "2020-08-04T12:59:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:57:46Z",
+  "trigger" : "reduced",
+  "evidence" : [ "curcumin significantly reduced the phosphorylation of MKK4, MKK7, and JNK" ],
+  "pmc_id" : "5921955",
+  "score" : 0
+}

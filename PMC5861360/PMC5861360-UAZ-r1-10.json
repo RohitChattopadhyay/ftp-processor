@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05607",
+      "entity_text" : "FruBM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00582",
+      "entity_text" : "Usp",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "We conclude that the two isoforms of EcR tested (EcR-A and EcR-B1) and Usp form a complex with FruBM.",
+  "reading_complete" : "2020-08-04T13:49:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:46:30Z",
+  "trigger" : "form a complex",
+  "evidence" : [ "Usp form a complex with FruBM" ],
+  "pmc_id" : "5861360",
+  "score" : 0
+}

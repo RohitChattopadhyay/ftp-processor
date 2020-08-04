@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439709",
+      "entity_text" : "fructose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "In the absence of sodium or potassium (0 mM; vertical axis intercepts), there was still a considerable amount of glucose and fructose uptake by hepatopancreatic BBMV and intestinal transepithelial transport (XREF_FIG, XREF_FIG, XREF_FIG, XREF_FIG), suggesting the possible presence of lobster GLUT2 like and GLUT5 like transporters, respectively.",
+  "reading_complete" : "2020-08-04T14:06:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:00:21Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of glucose and fructose" ],
+  "pmc_id" : "4154300",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15468",
+      "entity_text" : "STIL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00444",
+      "entity_text" : "PLK4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005814" ]
+    }
+  },
+  "verbose_text" : "In humans and flies, the binding of PLK4 / Sak to STIL / Ana2 initiates daughter centriole assembly.",
+  "reading_complete" : "2020-08-04T10:35:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:34:57Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of PLK4/Sak to STIL" ],
+  "pmc_id" : "5374404",
+  "score" : 0
+}

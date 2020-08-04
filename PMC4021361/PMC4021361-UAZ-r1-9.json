@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-SC-00369",
+      "entity_text" : "NAD(P) +",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01018",
+      "entity_text" : "Ald4p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "As Ald4p binds NAD (P) + or NAD (P) H as a coenzyme, autofluorescence emitted by MFIBs may be due to NAD (P) H in its bound form.",
+  "reading_complete" : "2020-08-04T11:55:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:53:22Z",
+  "trigger" : "binds",
+  "evidence" : [ "Ald4p binds NAD(P) +" ],
+  "pmc_id" : "4021361",
+  "score" : 0
+}

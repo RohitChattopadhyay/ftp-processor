@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35221",
+      "entity_text" : "ctnna1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02610",
+      "entity_text" : "alpha-catenin-DeltaVBS-GFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As shown in XREF_FIG C, alpha-catenin-DeltaVBS-GFP is able to rescue the embryonic lethal phenotype, caused by a defect in barrier maintenance, of zygotic ctnna1 mutants in a dose dependent manner.",
+  "reading_complete" : "2020-08-04T11:15:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:14:03Z",
+  "trigger" : "rescue",
+  "evidence" : [ "alpha-catenin-DeltaVBS-GFP is able to rescue the embryonic lethal phenotype, caused by a defect in barrier maintenance, of zygotic ctnna1" ],
+  "pmc_id" : "5087688",
+  "score" : 0
+}

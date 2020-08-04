@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_4744" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It promotes formation of a superchaperone complex by regulating the recruitment of p23, a co-chaperone, to ATP bound Hsp90, which in turns keeps AR in a conformation with high-affinity for ligand binding.",
+  "reading_complete" : "2020-08-04T13:31:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:29:20Z",
+  "trigger" : "bound",
+  "evidence" : [ "ATP-bound Hsp90" ],
+  "pmc_id" : "4708226",
+  "score" : 0
+}

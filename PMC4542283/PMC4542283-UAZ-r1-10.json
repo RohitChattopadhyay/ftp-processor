@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02363",
+      "entity_text" : "Id2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of Id2 increases anchorage independent proliferation of both SW480 and HT29 colon cancer cells, and knockdown of Id2 decreases cell proliferation of HCT116 cells.",
+  "reading_complete" : "2020-08-04T12:44:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:49Z",
+  "trigger" : "increases",
+  "evidence" : [ "Id2 increases anchorage-independent proliferation" ],
+  "pmc_id" : "4542283",
+  "score" : 0
+}

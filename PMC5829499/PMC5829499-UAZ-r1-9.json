@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IZQ8",
+      "entity_text" : "Myocd",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6STE5",
+      "entity_text" : "Baf60c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0115" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We have not tested a genetic interaction between Baf60c and Myocd.",
+  "reading_complete" : "2020-08-04T11:32:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:30:58Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between Baf60c and Myocd" ],
+  "pmc_id" : "5829499",
+  "score" : 0
+}

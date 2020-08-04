@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15382",
+      "entity_text" : "Rheb",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00579",
+      "entity_text" : "miR-155",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "We performed a luciferase activity assay so that the association between miR-155 and Rheb could be fully assessed.",
+  "reading_complete" : "2020-08-04T12:20:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:03Z",
+  "trigger" : "association",
+  "evidence" : [ "association between miR-155 and Rheb" ],
+  "pmc_id" : "5215517",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04753",
+      "entity_text" : "NMDA receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00632",
+      "entity_text" : "alpha-actinin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1158" ],
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Activation of NMDARs leads to shedding of ICAM-5 ectodomain, resulting in dissociation of its cytoplasmic tail from alpha-actinin, which is then bound to NMDA receptors and becomes clustered at the spine heads.",
+  "reading_complete" : "2020-08-04T13:02:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:01:33Z",
+  "trigger" : "bound",
+  "evidence" : [ "alpha-actinin, which is then bound to NMDA receptors" ],
+  "pmc_id" : "4365481",
+  "score" : 0
+}

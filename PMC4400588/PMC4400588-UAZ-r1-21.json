@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0221" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Taken together, these results indicate that mutant forms of Vas with non conservative amino acid substitutions in motifs implicated in ATP binding, and thus also in its RNA helicase activity that depends on ATP hydrolysis, can nevertheless rescue oogenesis to vas-null females to a substantial degree.",
+  "reading_complete" : "2020-08-04T12:12:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:11:04Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "4400588",
+  "score" : 0
+}

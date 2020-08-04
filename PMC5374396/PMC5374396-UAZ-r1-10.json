@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119828",
+      "entity_text" : "parecoxib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Compared with the control, the number of invasive GBM cells incubated with 100 muM and 200 muM parecoxib was decreased significantly (XREF_FIG A, B), indicating that parecoxib could significantly decrease the invasion abilities of GBM cells.",
+  "reading_complete" : "2020-08-04T10:14:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:14:05Z",
+  "trigger" : "decrease",
+  "evidence" : [ "parecoxib could significantly decrease the invasion" ],
+  "pmc_id" : "5374396",
+  "score" : 0
+}

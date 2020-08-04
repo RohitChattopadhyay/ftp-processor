@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02845",
+      "entity_text" : "cue",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04665",
+      "entity_text" : "UNC-40 receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "The UNC-40 receptor binds the extracellular guidance cue UNC-6 and is required for axon outgrowth.",
+  "reading_complete" : "2020-08-04T13:01:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:59:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "UNC-40 receptor binds the extracellular guidance cue" ],
+  "pmc_id" : "3863414",
+  "score" : 0
+}

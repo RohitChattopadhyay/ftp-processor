@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60716",
+      "entity_text" : "CAs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "[XREF_BIBR, XREF_BIBR] Every year, about six million patients undergo MRI studies of which 30% are performed using Gd based contrast agents (CAs), which significantly reduce the spin-lattice relaxation time T 1 of water protons leading to an increase of the signal intensity and improved contrast.",
+  "reading_complete" : "2020-08-04T12:16:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:11:13Z",
+  "trigger" : "reduce",
+  "evidence" : [ "CAs), which significantly reduce the spin-lattice relaxation time T 1  of water" ],
+  "pmc_id" : "3922590",
+  "score" : 0
+}

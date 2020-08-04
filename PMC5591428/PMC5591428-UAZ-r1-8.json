@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "This crosstalk is exemplified by an alcoholic liver disease model in which NF-kappaB was observed to regulate protein expression levels of the catalytic subunit TERT, which in turn modulated NF-kappaB signaling to promote macrophage polarization toward an inflammatory M1 phenotype with increased expression of IL-6 and TNF-alpha.",
+  "reading_complete" : "2020-08-04T12:34:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:33:18Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of IL-6 and TNF-alpha" ],
+  "pmc_id" : "5591428",
+  "score" : 0
+}

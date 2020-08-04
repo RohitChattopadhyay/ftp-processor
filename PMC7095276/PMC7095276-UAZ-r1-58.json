@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "ethanol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hypothesis : Alcohol testing by breathalyzer analysis does not accurately reflect blood ethanol levels.",
+  "reading_complete" : "2020-08-04T13:04:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "ethanol levels" ],
+  "pmc_id" : "7095276",
+  "score" : 0
+}

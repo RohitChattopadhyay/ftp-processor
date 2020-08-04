@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF06745",
+      "entity_text" : "ATPase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellLine" : [ "cellosaurus:CVCL_8990" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "One might expect that if the loss of Dube3a is causing the more negative RMP in muscle via an effect on Na + / K + ATPase levels or activity, then the motorneurons may also be affected because regulation of muscle and nerve cell membrane potential both depend on the Na + / K + ATPase.",
+  "reading_complete" : "2020-08-04T13:21:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:19:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATPase levels" ],
+  "pmc_id" : "4571101",
+  "score" : 0
+}

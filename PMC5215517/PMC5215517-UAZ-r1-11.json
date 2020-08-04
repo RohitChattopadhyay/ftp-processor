@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC2",
+      "entity_text" : "mTORC2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC1",
+      "entity_text" : "mTORC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "MTOR, a non typical serine/threonine protein kinase, consists of two distinct signaling complexes mTORC1 and mTORC2 which have different roles in regulating life activities.",
+  "reading_complete" : "2020-08-04T12:20:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:03Z",
+  "trigger" : "complexes",
+  "evidence" : [ "complexes mTORC1 and mTORC2" ],
+  "pmc_id" : "5215517",
+  "score" : 0
+}

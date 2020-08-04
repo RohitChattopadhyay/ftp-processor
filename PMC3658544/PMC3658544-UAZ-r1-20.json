@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10145",
+      "entity_text" : "IL-8",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01188",
+      "entity_text" : "isohelenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since it is reported that isohelenin, an NF-kappaB inhibitor [XREF_BIBR, XREF_BIBR], down-regulates IL-8 at the mRNA level in A549 cells [XREF_BIBR], we chose it as an NF-kappaB inhibitor for validation of the prediction model of IL-8 (XREF_TABLE).",
+  "reading_complete" : "2020-08-04T11:44:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:41:54Z",
+  "trigger" : "down-regulates",
+  "evidence" : [ "isohelenin, an NF-kappaB inhibitor [ XREF_BIBR ,  XREF_BIBR ], down-regulates IL-8" ],
+  "pmc_id" : "3658544",
+  "score" : 0
+}

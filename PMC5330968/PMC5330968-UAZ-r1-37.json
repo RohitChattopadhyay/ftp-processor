@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "Discussion : The treatment of hyperkalemia with calcium IV in digoxin toxicity may result in a state of myocardial tetany or \" stone heart \" due to elevated intracellular calcium levels in the cardiac myocytes.",
+  "reading_complete" : "2020-08-04T12:12:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "calcium levels" ],
+  "pmc_id" : "5330968",
+  "score" : 0
+}

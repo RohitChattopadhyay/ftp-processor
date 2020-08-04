@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0221" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Although this represents a significant decrease in the amount of ATP, the lifespan, egg laying capacity and climbing ability are normal, indicating adults could tolerate substantially reduced levels of ATP (XREF_FIG C, D).",
+  "reading_complete" : "2020-08-04T12:36:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:44Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ATP" ],
+  "pmc_id" : "4823986",
+  "score" : 0
+}

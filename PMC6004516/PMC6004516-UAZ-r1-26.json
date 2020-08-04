@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23276",
+      "entity_text" : "KEL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "TissueType" : [ "tissuelist:TS-0221" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Loss of detectable KEL on the RBC surface did not reflect antigen masking by C3, but instead appeared to result from actual removal of the KEL antigen, as western blot analysis demonstrated complete loss of detectable KEL protein.",
+  "reading_complete" : "2020-08-04T11:58:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:55:39Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of detectable KEL" ],
+  "pmc_id" : "6004516",
+  "score" : 0
+}

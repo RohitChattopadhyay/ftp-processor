@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92633",
+      "entity_text" : "lpa1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13510",
+      "entity_text" : "Ac",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Of course, this result leaves open the possibility that the lpa1 mutant phenotype is caused by an Ac insertion into the promoter or in other regulative sequences, which could be very distant from the lpa1 locus.",
+  "reading_complete" : "2020-08-04T12:40:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:33:53Z",
+  "trigger" : "caused",
+  "evidence" : [ "lpa1 mutant phenotype is caused by an Ac" ],
+  "pmc_id" : "6681281",
+  "score" : 0
+}

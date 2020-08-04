@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03478",
+      "entity_text" : "MMI-0100",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "administration of MMI-0100 could not decrease the phosphorylation of ERK, JNK, and p38 in the hippocampus of LPS- or Abeta 1-42 -induced AD model mice.",
+  "reading_complete" : "2020-08-04T12:21:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:17:36Z",
+  "trigger" : "decrease",
+  "evidence" : [ "MMI-0100 could not decrease the phosphorylation of ERK" ],
+  "pmc_id" : "6901946",
+  "score" : 0
+}

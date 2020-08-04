@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0009790",
+      "entity_text" : "embryogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10695961",
+      "entity_text" : "cefotaxime",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Unlike ampicillin, cefotaxime inhibited embryogenesis induction even at a low concentration, whereas at a concentration of 1000 mg/L, microspore development was suppressed completely.",
+  "reading_complete" : "2020-08-04T12:07:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:04:29Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "cefotaxime inhibited embryogenesis" ],
+  "pmc_id" : "7238966",
+  "score" : 0
+}

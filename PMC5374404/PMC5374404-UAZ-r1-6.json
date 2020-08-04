@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04003",
+      "entity_text" : "Sas-4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20023",
+      "entity_text" : "CR2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005814" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "STIL / Ana2 proteins generally contain several conserved regions (XREF_FIG A) including a STAN domain implicated in binding Sas-6, a short N-terminal region (CR2) that binds Sas-4, and a predicted coiled-coil domain (CCD) usually located close to the centre of the protein.",
+  "reading_complete" : "2020-08-04T10:35:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:34:57Z",
+  "trigger" : "binds",
+  "evidence" : [ "CR2) that binds Sas-4" ],
+  "pmc_id" : "5374404",
+  "score" : 0
+}

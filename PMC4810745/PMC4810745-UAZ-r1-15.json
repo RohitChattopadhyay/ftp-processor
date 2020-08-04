@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49366",
+      "entity_text" : "Ds",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00224",
+      "entity_text" : "Pk",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1122" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:7227" ]
+    }
+  },
+  "verbose_text" : "This mechanism would only explain polarization in Sple dependent tissues, since Pk does not bind to Ds or D. Whether Pk dependent tissues might use a corresponding mechanism such as Pk binding and anchoring to another protein is not known.",
+  "reading_complete" : "2020-08-04T13:59:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:57:44Z",
+  "trigger" : "bind",
+  "evidence" : [ "Pk does not bind to Ds" ],
+  "pmc_id" : "4810745",
+  "score" : 0
+}

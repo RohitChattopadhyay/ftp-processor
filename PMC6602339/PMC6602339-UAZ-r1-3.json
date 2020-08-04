@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12834",
+      "entity_text" : "Cdc20-GFP",
+      "entity_type" : "protein"
+    },
+    "from_location_text" : "nucleus",
+    "hypothesis_information" : true,
+    "from_location_id" : "go:GO:0005634",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005654" ],
+      "CellType" : [ "cl:CL:0000413" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "In light of the minimal fluorescence loss in nucleus 2, we hypothesized that the 27.9% fluorescence recovery of Cdc20-GFP in nucleus 1 was due to the import of Cdc20 molecules from the cytoplasm and not due to export of Cdc20-GFP from nucleus 2.",
+  "reading_complete" : "2020-08-04T14:52:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:51:22Z",
+  "trigger" : "export",
+  "evidence" : [ "export of Cdc20-GFP from nucleus" ],
+  "pmc_id" : "6602339",
+  "score" : 0
+}

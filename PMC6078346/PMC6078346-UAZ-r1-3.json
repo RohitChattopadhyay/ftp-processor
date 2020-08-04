@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaBalpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR002959",
+      "entity_text" : "TNFalpha",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "TNFalpha and various other stimuli induce the phosphorylation and subsequent CRL dependent degradation of IkappaBalpha, leading to NF-kappaB activation.",
+  "reading_complete" : "2020-08-04T11:27:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:26:38Z",
+  "trigger" : "induce",
+  "evidence" : [ "TNFalpha and various other stimuli induce the phosphorylation and subsequent CRL-dependent degradation of IkappaBalpha" ],
+  "pmc_id" : "6078346",
+  "score" : 0
+}

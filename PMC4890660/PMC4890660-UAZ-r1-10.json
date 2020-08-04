@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23978",
+      "entity_text" : "copper",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "This agrees with the findings of XREF_BIBR, who found that the oxidative DNA damage by the H 2 O 2 / Cu (II) was induced by the generation of ROS, such as HO * and a copper - oxygen complex with similar reactivity to HO *.",
+  "reading_complete" : "2020-08-04T10:52:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:50:02Z",
+  "trigger" : "complex",
+  "evidence" : [ "copper-oxygen complex" ],
+  "pmc_id" : "4890660",
+  "score" : 0
+}

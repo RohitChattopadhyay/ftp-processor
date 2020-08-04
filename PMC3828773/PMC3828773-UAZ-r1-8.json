@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02667",
+      "entity_text" : "CD317",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "Given that CD317 is not expressed in unstimulated HEK293-T cells, but is expressed in HeLa cells, it is conceivable that hetero-dimerisation with endogenous CD317 could explain the differing results that have been seen.",
+  "reading_complete" : "2020-08-04T11:20:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:18:46Z",
+  "trigger" : "expressed",
+  "evidence" : [ "CD317 is not expressed in unstimulated HEK293-T cells, but is expressed" ],
+  "pmc_id" : "3828773",
+  "score" : 0
+}

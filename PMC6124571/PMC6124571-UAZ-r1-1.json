@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05645",
+      "entity_text" : "U428",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05625",
+      "entity_text" : "snord68 ASO",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These data show that snord68 ASO treatment significantly reduces U428 methylation, as evidenced by a 1.7-fold increase in the amount of the U428 fragment.",
+  "reading_complete" : "2020-08-04T13:50:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:49:30Z",
+  "trigger" : "reduces",
+  "evidence" : [ "snord68 ASO treatment significantly reduces U428 methylation" ],
+  "pmc_id" : "6124571",
+  "score" : 0
+}

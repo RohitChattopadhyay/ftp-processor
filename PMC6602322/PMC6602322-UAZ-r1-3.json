@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31749",
+      "entity_text" : "Akt1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "Syap1 has been shown to be important for adipocyte differentiation from murine embryonic stem cells by stimulating phosphorylation of Akt1 kinase.",
+  "reading_complete" : "2020-08-04T12:35:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:34:50Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Akt1" ],
+  "pmc_id" : "6602322",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3121",
+      "entity_text" : "Valproate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Valproate level declined from 1830 mg/L to 223 mug/mL during dialysis, indicating an 88% lowering of serum levels and a half-life of 74.4 minutes.",
+  "reading_complete" : "2020-08-04T13:04:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:30Z",
+  "trigger" : "level",
+  "evidence" : [ "Valproate level" ],
+  "pmc_id" : "7095276",
+  "score" : 0
+}

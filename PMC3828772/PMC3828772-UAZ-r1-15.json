@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O76096",
+      "entity_text" : "CMAP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75923",
+      "entity_text" : "Dysferlin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We hypothesized that if the CMAP defect caused by loss of Dysferlin was similar to that found in myasthenic conditions, then the Dysferlin CMAP defect might be improved via AchE.I therapy.",
+  "reading_complete" : "2020-08-04T10:22:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:21:30Z",
+  "trigger" : "caused",
+  "evidence" : [ "CMAP defect caused by loss of Dysferlin" ],
+  "pmc_id" : "3828772",
+  "score" : 0
+}

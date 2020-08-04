@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:25429",
+      "entity_text" : "carbendazim",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0958" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Several systemic fungicides have been used to control Colletotrichum spp. such as benzimidazole or benzimidazole fungicide carbendazim (MBC) demethylation inhibitor (DMI), phenylamide, carboximides, strobilurin, hydroxyanilide and carbamate.",
+  "reading_complete" : "2020-08-04T12:04:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:52:51Z",
+  "trigger" : "demethylation",
+  "evidence" : [ "carbendazim (MBC) demethylation" ],
+  "pmc_id" : "6784085",
+  "score" : 0
+}
