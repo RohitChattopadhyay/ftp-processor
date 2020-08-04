@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZW4",
+      "entity_text" : "DPP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0001751" ]
+    }
+  },
+  "verbose_text" : "Perhaps other factors can influence the target-site specificity of the kinase complex in a way that could account for the observed phosphorylation of DPP.",
+  "reading_complete" : "2020-08-04T12:20:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of DPP" ],
+  "pmc_id" : "4707025",
+  "score" : 0
+}
