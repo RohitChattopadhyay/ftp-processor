@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01148",
+      "entity_text" : "GnRH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hyperprolactinemia is known to affect the natural pulsatile secretion of GnRH as well as the pituitary response to GnRH, which leads to decreased testosterone production and secretion by the Leydig cells.",
+  "reading_complete" : "2020-08-04T13:48:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:47:05Z",
+  "trigger" : "leads to",
+  "evidence" : [ "GnRH, which leads to decreased testosterone" ],
+  "pmc_id" : "5182242",
+  "score" : 0
+}

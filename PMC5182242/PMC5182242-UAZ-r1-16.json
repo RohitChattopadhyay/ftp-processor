@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "CellType" : [ "cl:CL:0000437" ]
+    }
+  },
+  "verbose_text" : "Hypothyroidism has been associated with low total testosterone levels, assumed to be due to low SHBG levels.",
+  "reading_complete" : "2020-08-04T13:48:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:47:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "5182242",
+  "score" : 0
+}

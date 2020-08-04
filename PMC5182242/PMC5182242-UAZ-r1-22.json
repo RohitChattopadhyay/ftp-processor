@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:FSH",
+      "entity_text" : "FSH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01236",
+      "entity_text" : "prolactin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Prolactin receptors have been shown to be present on Leydig and Sertoli cells in mammalian testes, where physiologic levels of prolactin increase the number of LH and FSH receptors, among other effects.",
+  "reading_complete" : "2020-08-04T13:48:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:47:05Z",
+  "trigger" : "increase",
+  "evidence" : [ "prolactin increase the number of LH and FSH" ],
+  "pmc_id" : "5182242",
+  "score" : 0
+}
