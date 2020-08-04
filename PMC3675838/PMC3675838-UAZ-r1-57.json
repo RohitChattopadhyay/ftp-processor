@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123831",
+      "entity_text" : "ADMA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_BT01" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uaz:UA-ORG-92" ]
+    }
+  },
+  "verbose_text" : "Our findings are in disagreement with results from the study by Siroen et al. [XREF_BIBR], who observed similar levels of ADMA in women with preeclampsia compared to normotensive pregnant women.",
+  "reading_complete" : "2020-08-04T16:12:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:08:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ADMA" ],
+  "pmc_id" : "3675838",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "During normal pregnancy, physiological homocysteine levels are reduced secondary to hormonal changes and kidney, liver, and placental metabolism.",
+  "reading_complete" : "2020-08-04T16:12:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:08:28Z",
+  "trigger" : "reduced",
+  "evidence" : [ "homocysteine levels are reduced secondary to hormonal changes and kidney, liver, and placental metabolism" ],
+  "pmc_id" : "3675838",
+  "score" : 0
+}

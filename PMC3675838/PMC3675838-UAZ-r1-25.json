@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123831",
+      "entity_text" : "ADMA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0000371" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Elevated levels of ADMA and unchanged levels of eNOS in pregnancies complicated by severe preeclampsia suggest that the nitric oxide deficiency in this pregnancy disorder results not from a reduced level or activity of eNOS, but from elevated levels of asymmetric dimethylarginine, an endogenous eNOS inhibitor.",
+  "reading_complete" : "2020-08-04T16:12:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:08:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ADMA" ],
+  "pmc_id" : "3675838",
+  "score" : 0
+}
