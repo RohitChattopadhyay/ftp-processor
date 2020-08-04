@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8JH68",
+      "entity_text" : "MxA protein",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "IFN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Anti-TNF-alpha therapies produce a decrease of TNF-alpha, but can also induce high levels of IFN, which may lead to an increase of MxA protein [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:12:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:11:39Z",
+  "trigger" : "lead to",
+  "evidence" : [ "IFN, which may lead to an increase of MxA protein" ],
+  "pmc_id" : "5120639",
+  "score" : 0
+}
