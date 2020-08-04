@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03593",
+      "entity_text" : "ADAI",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13751",
+      "entity_text" : "LAMB3",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Recently, a heterozygous LAMB3 mutation (c.3392_3393insG) has been reported to cause ADAI in a family.",
+  "reading_complete" : "2020-08-04T15:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:56:39Z",
+  "trigger" : "cause",
+  "evidence" : [ "LAMB3 mutation (c.3392_3393insG) has been reported to cause ADAI" ],
+  "pmc_id" : "4302247",
+  "score" : 0
+}
