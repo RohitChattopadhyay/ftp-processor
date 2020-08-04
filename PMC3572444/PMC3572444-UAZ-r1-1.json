@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03598",
+      "entity_text" : "SirT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In these studies, cell death was associated with inhibition of SirT induced p53 deacetylation and inactivation, resulting in amplification of p53 dependent responses.",
+  "reading_complete" : "2020-08-04T12:06:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:03:31Z",
+  "trigger" : "induced",
+  "evidence" : [ "SirT-induced p53 deacetylation" ],
+  "pmc_id" : "3572444",
+  "score" : 0
+}
