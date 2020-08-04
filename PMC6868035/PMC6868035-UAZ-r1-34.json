@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasiveness",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14627",
+      "entity_text" : "IL-13Ralpha2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "IL-13Ralpha2 expression alone can induce invasiveness of GB cells without affecting cell growth, but together with the epidermal growth factor receptor variant EGFRvIII promotes GB cell proliferation.",
+  "reading_complete" : "2020-08-04T12:30:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:27:11Z",
+  "trigger" : "induce",
+  "evidence" : [ "IL-13Ralpha2 expression alone can induce invasiveness" ],
+  "pmc_id" : "6868035",
+  "score" : 0
+}
