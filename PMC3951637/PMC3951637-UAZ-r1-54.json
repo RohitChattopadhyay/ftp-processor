@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:72715788",
+      "entity_text" : "vancomycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Per the recommendations of the poison center, the patient was transferred to a pediatric tertiary care hospital, where continuous venovenous hemofiltration (CVVH) was performed with an HF 1,200 filter (Medivators, Inc.) at a flow rate of 100 mL/min for 16.5 h. During CVVH, the renal function improved and the vancomycin level declined to 38.9 mg/L.",
+  "reading_complete" : "2020-08-04T13:24:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:06:39Z",
+  "trigger" : "level",
+  "evidence" : [ "vancomycin level" ],
+  "pmc_id" : "3951637",
+  "score" : 0
+}
