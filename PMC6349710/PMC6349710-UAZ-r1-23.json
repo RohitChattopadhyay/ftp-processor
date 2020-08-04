@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000863" ]
+    }
+  },
+  "verbose_text" : "As shown in Figure XREF_FIG, serum levels of glucose in Spred2 KO mice were significantly higher than those in WT mice, although the insulin levels were similar between the groups.",
+  "reading_complete" : "2020-08-04T12:45:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "6349710",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CW71",
+      "entity_text" : "MCP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Upon stimulation of macrophages with SFA (palmitic acid; PA), Spred2 KO-macrophages produced significantly higher levels of TNFalpha and MCP-1 than WT-BMDMs.",
+  "reading_complete" : "2020-08-04T12:45:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNFalpha and MCP-1" ],
+  "pmc_id" : "6349710",
+  "score" : 0
+}
