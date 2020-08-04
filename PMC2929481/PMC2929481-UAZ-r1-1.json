@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6324668",
+      "entity_text" : "Tetrodotoxin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Out of 38 blood samples sent for toxicological analysis, 27 patients had detectable levels of Tetrodotoxin (TTX) in their blood, and in 11 patients blood TTX level was not detectable (< 1.6 ng/ml).",
+  "reading_complete" : "2020-08-04T13:06:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:04:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Tetrodotoxin" ],
+  "pmc_id" : "2929481",
+  "score" : 0
+}
