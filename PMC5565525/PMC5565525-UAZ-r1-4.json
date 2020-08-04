@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7097402",
+      "entity_text" : "PCa",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "Of note, bioinformatics analysis also revealed multiple functional roles of SPC25 in regulating cell proliferation, apoptosis, invasion, role of tissue factor in cancer, TGF-beta signaling, and sumoylation pathway in PCa.",
+  "reading_complete" : "2020-08-04T13:58:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:58:01Z",
+  "trigger" : "sumoylation",
+  "evidence" : [ "sumoylation pathway in PCa" ],
+  "pmc_id" : "5565525",
+  "score" : 0
+}

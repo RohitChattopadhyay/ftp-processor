@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151428",
+      "entity_text" : "KS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23352",
+      "entity_text" : "KAL1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Variant alleles of KAL1 related to X linked recessive KS expand the spectrum of KAL1 mutations causing KS.",
+  "reading_complete" : "2020-08-04T13:59:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:59:01Z",
+  "trigger" : "causing",
+  "evidence" : [ "KAL1 mutations causing KS" ],
+  "pmc_id" : "4708518",
+  "score" : 0
+}

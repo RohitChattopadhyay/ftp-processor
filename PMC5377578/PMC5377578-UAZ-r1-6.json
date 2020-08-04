@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02774",
+      "entity_text" : "GC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03634",
+      "entity_text" : "TCP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Species" : [ "taxonomy:4530" ]
+    }
+  },
+  "verbose_text" : "The DNA Binding site selection assays revealed that the two TCP classes can specifically recognize and bind to slightly different but partly overlapping GC rich DNA sequences which act as cis-element in a large number of plant genes.",
+  "reading_complete" : "2020-08-04T14:02:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:00:28Z",
+  "trigger" : "bind",
+  "evidence" : [ "TCP classes can specifically recognize and bind to slightly different but partly overlapping GC" ],
+  "pmc_id" : "5377578",
+  "score" : 0
+}

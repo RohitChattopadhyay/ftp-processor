@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000586" ]
+    }
+  },
+  "verbose_text" : "The groups of diabetic rats with the RMD supplement, compared to those without supplement, showed improved plasma glucose control, attenuated insulin resistance and recovery of testosterone level & spermatogenesis stage.",
+  "reading_complete" : "2020-08-04T13:58:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:58:30Z",
+  "trigger" : "level",
+  "evidence" : [ "testosterone level" ],
+  "pmc_id" : "4708865",
+  "score" : 0
+}
