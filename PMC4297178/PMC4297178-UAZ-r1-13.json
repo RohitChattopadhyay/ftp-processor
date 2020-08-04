@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01196",
+      "entity_text" : "RUNX1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13951",
+      "entity_text" : "CBFbeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:4000059" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR The CBFbeta - RUNX1 complex activates the transcription of proteins involved in cartilage differentiation, increases the synthesis of components of the cartilage matrix (such as collagen type II, aggrecan, and tissue inhibitors of metalloproteinases).",
+  "reading_complete" : "2020-08-04T22:47:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:47:06Z",
+  "trigger" : "complex",
+  "evidence" : [ "CBFbeta-RUNX1 complex" ],
+  "pmc_id" : "4297178",
+  "score" : 0
+}
