@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05305",
+      "entity_text" : "ET-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000120" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Significantly decreased ET-1 plasma levels in the MS patients could reflect the non active disease at the time of ET-1 measurements or the effects of immunomodulatory treatment, but it cannot be excluded that decreased ET-1 plasma levels in these patients might result from vascular dysregulation.",
+  "reading_complete" : "2020-08-04T15:44:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:41:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "ET-1 plasma levels" ],
+  "pmc_id" : "4403550",
+  "score" : 0
+}

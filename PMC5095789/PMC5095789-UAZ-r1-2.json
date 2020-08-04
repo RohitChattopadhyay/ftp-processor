@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1149" ],
+      "Organ" : [ "uberon:UBERON:0005902" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The frontal cortex had significantly lower levels of GABA + / tCr than all the other analyzed regions, with no significant differences among those regions.",
+  "reading_complete" : "2020-08-04T15:47:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:45:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GABA" ],
+  "pmc_id" : "5095789",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05305",
+      "entity_text" : "ET-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000120" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "In the present study we observed significantly lower plasma levels of ET-1 in MS patients compared to healthy subjects, unlike earlier studies [XREF_BIBR, XREF_BIBR] that found significantly higher ET-1 blood levels in MS patients than in controls.",
+  "reading_complete" : "2020-08-04T15:44:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:41:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "ET-1 blood levels" ],
+  "pmc_id" : "4403550",
+  "score" : 0
+}
