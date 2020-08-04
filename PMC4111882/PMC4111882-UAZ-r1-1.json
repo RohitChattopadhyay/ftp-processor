@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151134",
+      "entity_text" : "Fe",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17752",
+      "entity_text" : "TPH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "Glu317" ],
+    "context" : {
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Although Glu317 of TPH bound with Fe, it also interacts with bacoside A 3 / A at a different side chain.",
+  "reading_complete" : "2020-08-04T18:37:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:35:19Z",
+  "trigger" : "bound",
+  "evidence" : [ "Glu317 of TPH bound with Fe" ],
+  "pmc_id" : "4111882",
+  "score" : 0
+}
