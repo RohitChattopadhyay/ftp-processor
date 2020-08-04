@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01925",
+      "entity_text" : "miRNA-21 intracellular",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Up-regulation of miRNA-21 expression by ANGII was observed, and up-regulation of miRNA-21 intracellular levels increased aldosterone secretion but not cortisol in the human adrenocortical cell line [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T20:48:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:41:48Z",
+  "trigger" : "increased",
+  "evidence" : [ "miRNA-21 intracellular levels increased aldosterone secretion but not cortisol" ],
+  "pmc_id" : "5384352",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Proteasome",
+      "entity_text" : "proteasome",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Cellular_component" : [ "go:GO:0005783" ]
+    }
+  },
+  "verbose_text" : "Little is known about Asb3, but Chung et al. reported that Asb3 is a negative regulator of cellular responses to TNF-alpha by ubiquitination and proteasome mediated degradation of tumor necrosis factor receptor II (TNF-R2) [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T20:48:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:41:48Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination and proteasome" ],
+  "pmc_id" : "5384352",
+  "score" : 0
+}

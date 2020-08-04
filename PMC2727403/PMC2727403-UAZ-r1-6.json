@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "CellLine" : [ "cellosaurus:CVCL_0095" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Organ" : [ "uberon:UBERON:0003702" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000216" ]
+    }
+  },
+  "verbose_text" : "Plasma testosterone levels in MBP exposed animals at birth (2.32 +/- 0.76 ng/ml; mean +/- SEM; n = 6) were comparable to controls (2.41 +/- 0.72 ng/ml; n = 5).",
+  "reading_complete" : "2020-08-04T20:49:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:48:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "2727403",
+  "score" : 0
+}
