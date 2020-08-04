@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27918",
+      "entity_text" : "CFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "Note : there are many possible causes for why there is more YFP fluorescence for a given amount of CFP fluorescence at high intensity levels compared to lower intensity levels for the YFP : : CFP fusion (XREF_FIG E) including : increased transcription and translation termination, and decreased CFP fluorescence and/or increased YFP fluorescence due to altered protein folding and aggregate formation.",
+  "reading_complete" : "2020-08-04T15:13:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:09:54Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of CFP" ],
+  "pmc_id" : "5200903",
+  "score" : 0
+}

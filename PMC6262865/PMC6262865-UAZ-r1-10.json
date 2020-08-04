@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006810",
+      "entity_text" : "transport",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5886",
+      "entity_text" : "NADP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Given that NADP + is a major acceptor of electrons in PSI, depletion of NADP + accelerates the transport of electrons from PSI to molecular oxygen with generation of H 2 O 2 via O 2 * -.",
+  "reading_complete" : "2020-08-04T15:09:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:07:15Z",
+  "trigger" : "accelerates",
+  "evidence" : [ "NADP +  accelerates the transport" ],
+  "pmc_id" : "6262865",
+  "score" : 0
+}
