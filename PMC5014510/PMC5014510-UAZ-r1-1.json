@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10695961",
+      "entity_text" : "cefotaxime",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01181",
+      "entity_text" : "CTX-M-Beta Lactamases",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "At present, CTX-M-Beta Lactamases are encoded in a plasmid and can hydrolyze both ceftazidime and cefotaxime, but give a high level of resistance to cefotaxime and a low level of activity against ceftazidime.",
+  "reading_complete" : "2020-08-04T19:34:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:34:06Z",
+  "evidence" : [ "CTX-M-Beta Lactamases are encoded in a plasmid and can hydrolyze both ceftazidime and cefotaxime" ],
+  "pmc_id" : "5014510",
+  "score" : 0
+}
