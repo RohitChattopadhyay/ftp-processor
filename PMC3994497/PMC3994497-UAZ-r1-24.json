@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Interestingly the direct co-culture model of macrophage and osteoblast shows much lower level of TNF-alpha, IL-1beta and nitric oxide (NO) production in comparison to macrophage only model, which can be explained by the cellular cross-talk.",
+  "reading_complete" : "2020-08-04T09:51:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:50:20Z",
+  "trigger" : "level",
+  "evidence" : [ "level of TNF-alpha" ],
+  "pmc_id" : "3994497",
+  "score" : 0
+}
