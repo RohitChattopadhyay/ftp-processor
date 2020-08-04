@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01877",
+      "entity_text" : "RNA binding",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13285",
+      "entity_text" : "SF1",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Expression of the SF1 gene is q specific precursor in mRNA splicing in cells, and the phosphorylation of SF1 might enhance the RNA binding [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T19:45:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:42:06Z",
+  "trigger" : "enhance",
+  "evidence" : [ "SF1 might enhance the RNA binding" ],
+  "pmc_id" : "6929537",
+  "score" : 0
+}
