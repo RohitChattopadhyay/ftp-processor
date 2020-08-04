@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UMF0",
+      "entity_text" : "ICAM-5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03885",
+      "entity_text" : "beta1 integrins",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "beta1 integrins from the pre-synaptic terminals, one of the counter receptors for ICAM-5, bind to ICAM-5 preventing further spine maturation.",
+  "reading_complete" : "2020-08-04T13:02:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:01:33Z",
+  "trigger" : "bind",
+  "evidence" : [ "beta1 integrins from the pre-synaptic terminals, one of the counter receptors for ICAM-5, bind to ICAM-5" ],
+  "pmc_id" : "4365481",
+  "score" : 0
+}

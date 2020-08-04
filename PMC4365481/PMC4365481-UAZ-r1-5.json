@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UMF0",
+      "entity_text" : "ICAM-5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1158" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The amounts of ICAM-5 constructs were excessive relative to EGFP, and 97% of EGFP transfected cells were ICAM-5 positive (data not shown).",
+  "reading_complete" : "2020-08-04T13:02:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:01:33Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of ICAM-5" ],
+  "pmc_id" : "4365481",
+  "score" : 0
+}
