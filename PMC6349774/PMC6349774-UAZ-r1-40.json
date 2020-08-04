@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "IL-6 is a key cytokine in Th17 / Treg balance, since TGF-beta alone polarizes naive Th-cells to Tregs, while TGF-beta together with IL-6 induces Th17-cells.",
+  "reading_complete" : "2020-08-04T09:24:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:23:11Z",
+  "trigger" : "induces",
+  "evidence" : [ "TGF-beta together with IL-6 induces" ],
+  "pmc_id" : "6349774",
+  "score" : 0
+}

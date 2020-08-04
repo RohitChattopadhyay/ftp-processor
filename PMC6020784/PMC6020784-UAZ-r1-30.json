@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00390",
+      "entity_text" : "GR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123286",
+      "entity_text" : "P4",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000815" ]
+    }
+  },
+  "verbose_text" : "In murine models, GR engagement increases regulatory T cell (Treg) immune-suppressive function, and P4 binding to GR is thought to be responsible for this finding in pregnancy.",
+  "reading_complete" : "2020-08-04T09:22:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:21:10Z",
+  "trigger" : "binding",
+  "evidence" : [ "P4 binding to GR" ],
+  "pmc_id" : "6020784",
+  "score" : 0
+}

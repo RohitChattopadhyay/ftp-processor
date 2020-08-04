@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06401",
+      "entity_text" : "PR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000815" ]
+    }
+  },
+  "verbose_text" : "In contrast to most animal models of pregnancy, where there is a systemic withdrawal of P4 prior to the onset of labor, in the human, the literature suggests that there is a functional withdrawal at the level of the PR at the end of pregnancy.",
+  "reading_complete" : "2020-08-04T09:22:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:21:10Z",
+  "trigger" : "level",
+  "evidence" : [ "level of the PR" ],
+  "pmc_id" : "6020784",
+  "score" : 0
+}
