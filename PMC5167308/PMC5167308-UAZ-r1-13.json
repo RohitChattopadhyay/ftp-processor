@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0002248" ]
+    }
+  },
+  "verbose_text" : "The brain and nervous system functions involve precise orchestration of diverse bioactive factors, intricate receptor signaling, and alteration in epigenetic programs.1 Therefore, defective modifications in the intertwined brain synapses and neurotransmitter networks are difficult to repair.2 Epigenetic cell-fate regulation often supersedes the local microenvironmental cues.3 Mainly, histone deacetylase (HDAC)-governed acetylation and deacetylation of histone proteins play a critical role in neural fate decisions by changing the accessibility of DNA towards transcription factors (TFs).4 Several HDAC inhibitors, including valproic acid and sodium butyrate, have been shown to promote transcription associated with neuronal differentiate and brain development.5 Besides, reversal of histone deacetylation could also promote differentiation of human pluripotent stem cells (hPSCs) towards neural progenitor cells (NPCs).6 SAHA is known to enhance neuronal differentiation / regeneration and is particularly attractive, as it is the most common HDAC inhibitor already approved by the FDA for therapeutic applications.7 However, lack of gene specificity and tunable targeting efficacy is a major shortcoming of SAHA as a potential drug to treat the pathological nervous system.",
+  "reading_complete" : "2020-08-04T12:06:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:04:40Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "histone deacetylation" ],
+  "pmc_id" : "5167308",
+  "score" : 0
+}
