@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01194",
+      "entity_text" : "haemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "A patient with thalassemia, not only has lower levels of haemoglobin present in his or her bloodstream but also lacks good quality haemoglobin.",
+  "reading_complete" : "2020-08-04T19:54:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:54:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of haemoglobin" ],
+  "pmc_id" : "5407235",
+  "score" : 0
+}
