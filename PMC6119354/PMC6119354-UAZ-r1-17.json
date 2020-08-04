@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01719",
+      "entity_text" : "miR-23b inhibitor",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P98177",
+      "entity_text" : "FOXO4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "After transfecting miR-23b inhibitor, the expression both of XR007793 and FOXO4 was increased.",
+  "reading_complete" : "2020-08-04T13:11:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:09:56Z",
+  "trigger" : "increased",
+  "evidence" : [ "miR-23b inhibitor, the expression both of XR007793 and FOXO4 was increased" ],
+  "pmc_id" : "6119354",
+  "score" : 0
+}

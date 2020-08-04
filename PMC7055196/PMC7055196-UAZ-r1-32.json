@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01698",
+      "entity_text" : "MST1/2 mRNA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H0Z9",
+      "entity_text" : "RNPC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0028" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the current work, it was found that RNPC1 directly bound to MST1/2 mRNA and enhanced its stability, thus RNPC1/MST1/2 axis suppressed EC cell stemness.",
+  "reading_complete" : "2020-08-04T13:07:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:05:14Z",
+  "trigger" : "bound",
+  "evidence" : [ "RNPC1 directly bound to MST1/2 mRNA" ],
+  "pmc_id" : "7055196",
+  "score" : 0
+}
