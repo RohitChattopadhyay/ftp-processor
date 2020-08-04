@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As recent studies suggest that RBCs with decreased levels of antigen may not possess the ability to induce Abs despite equivalent levels of total antigen exposure, the presentation of antigen on the cell surface appears to be critical for effective immune recognition and response.",
+  "reading_complete" : "2020-08-04T11:58:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:55:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of total antigen" ],
+  "pmc_id" : "6004516",
+  "score" : 0
+}
