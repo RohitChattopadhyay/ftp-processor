@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXI7",
+      "entity_text" : "CA125",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Organ" : [ "uberon:UBERON:4000142" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "During routine medical examinations at a research facility from 2008 to 2012, 614 female cynomolgus monkeys of reproductive age (6-25 years) were screened for endometriosis by the presence of regular menstrual bleeding, serum CA125 levels and palpation of the abdomen.",
+  "reading_complete" : "2020-08-04T20:23:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:22:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "CA125 levels" ],
+  "pmc_id" : "6012197",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E831" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0004019" ]
+    }
+  },
+  "verbose_text" : "Hour-by-hour analysis of MAP with telemetry suggests that TRPV1 ablation with WD intake results in pressure rising during the dark cycle and falling during the light cycle, which is consistent with the increased SNA and leptin levels in TRPV1 -/- -WD at nighttime.",
+  "reading_complete" : "2020-08-04T20:22:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:19:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "leptin levels" ],
+  "pmc_id" : "6635649",
+  "score" : 0
+}

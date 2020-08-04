@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0954" ],
+      "CellLine" : [ "cellosaurus:CVCL_E831" ],
+      "Cellular_component" : [ "go:GO:0044299" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000101" ]
+    }
+  },
+  "verbose_text" : "The systemic SNA was elevated with WD intake, showing urinary NE level increased in WD intake mice, with further elevated NE levels in TRPV1 -/- -WD.",
+  "reading_complete" : "2020-08-04T20:22:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:19:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "NE levels" ],
+  "pmc_id" : "6635649",
+  "score" : 0
+}
