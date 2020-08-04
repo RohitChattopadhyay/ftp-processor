@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5994",
+      "entity_text" : "progesterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "These data suggest that existing high progesterone levels during ovarian stimulation do not impact oocyte (and possibly embryo) competence, as already suggested by a review recently published.",
+  "reading_complete" : "2020-08-04T20:04:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:02:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "progesterone levels" ],
+  "pmc_id" : "6070116",
+  "score" : 0
+}
