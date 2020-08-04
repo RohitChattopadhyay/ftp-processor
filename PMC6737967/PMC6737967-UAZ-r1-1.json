@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "cytosol",
+    "from_location_text" : "sarcoplasmic reticulum",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0016529",
+    "to_location_id" : "go:GO:0005829",
+    "context" : {
+      "Cellular_component" : [ "go:GO:0036379" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:7227" ]
+    }
+  },
+  "verbose_text" : "When an action potential depolarizes the cell membrane, the intracellular Ca 2+ concentration increases due to a massive Ca 2+ release from the sarcoplasmic reticulum (SR) into the cytosol, where Ca 2+ binds to the myofilaments, thus inducing its contraction.",
+  "reading_complete" : "2020-08-04T12:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:06:26Z",
+  "trigger" : "release",
+  "evidence" : [ "Ca 2+  release from the sarcoplasmic reticulum (SR) into the cytosol" ],
+  "pmc_id" : "6737967",
+  "score" : 0
+}
