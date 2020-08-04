@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1150" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000586" ]
+    }
+  },
+  "verbose_text" : "Treatment of hosts bearing second-trimester xenografts with hCG resulted in nearly a 10-fold increase (mean 0.68 +/- 0.23 ng/ml, P = 0.004) in serum testosterone levels.",
+  "reading_complete" : "2020-08-04T22:40:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:39:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "2939754",
+  "score" : 0
+}
