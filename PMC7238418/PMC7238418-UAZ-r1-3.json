@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03294",
+      "entity_text" : "NRIP1-p50",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03222",
+      "entity_text" : "N receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12242" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "The NRIP1-p50 pre-complex allows subsequent interaction between the N receptor and NRIP1-p50 pre-complex for turning on downstream signaling for immunity [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:18:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:10:00Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between the N receptor and NRIP1-p50" ],
+  "pmc_id" : "7238418",
+  "score" : 0
+}

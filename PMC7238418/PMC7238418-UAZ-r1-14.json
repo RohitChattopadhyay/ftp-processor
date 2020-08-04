@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16611",
+      "entity_text" : "bak1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03345",
+      "entity_text" : "SlSERK3B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In tomato, SlSERK3A and SlSERK3B can partially rescue the Arabidopsis bak1 mutant phenotype [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:18:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:10:00Z",
+  "trigger" : "rescue",
+  "evidence" : [ "SlSERK3B can partially rescue the Arabidopsis bak1" ],
+  "pmc_id" : "7238418",
+  "score" : 0
+}

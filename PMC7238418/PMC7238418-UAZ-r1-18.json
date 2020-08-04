@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03317",
+      "entity_text" : "CaPIK1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03319",
+      "entity_text" : "CaSGT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D957" ],
+      "Species" : [ "taxonomy:4100" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Interestingly, CaSGT1 could bind to CaPIK1, which was also previously reported to be involved in ETI by AvrBsT; CaPIK1 mediated phosphorylation was necessary to promote this response [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:18:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:10:00Z",
+  "trigger" : "bind",
+  "evidence" : [ "CaSGT1 could bind to CaPIK1" ],
+  "pmc_id" : "7238418",
+  "score" : 0
+}
