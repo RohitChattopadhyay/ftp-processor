@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CTNNA",
+      "entity_text" : "alpha-catenin",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CTNNA",
+      "entity_text" : "alpha-catenin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Expression of either wild-type or mechano defective alpha-catenin fully rescues barrier function in alpha catenin mutants; however, expression of mechano defective alpha-catenin also induces convergence and extension defects.",
+  "reading_complete" : "2020-08-04T11:15:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:14:03Z",
+  "trigger" : "rescues",
+  "evidence" : [ "alpha-catenin fully rescues barrier function in alpha-catenin" ],
+  "pmc_id" : "5087688",
+  "score" : 0
+}
