@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75223",
+      "entity_text" : "GGCT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95453",
+      "entity_text" : "PARN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This indicates that even though PARN is not mediating the degradation of GGCT, SDI1 and SHM7, other active mRNA degradation enzymes might act on those transcripts upon sulfur resupply.",
+  "reading_complete" : "2020-08-04T19:36:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:30:22Z",
+  "trigger" : "mediating",
+  "evidence" : [ "PARN is not mediating the degradation of GGCT" ],
+  "pmc_id" : "6843384",
+  "score" : 0
+}
