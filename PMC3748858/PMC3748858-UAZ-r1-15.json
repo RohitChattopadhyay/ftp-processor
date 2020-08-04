@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02774",
+      "entity_text" : "GC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03403",
+      "entity_text" : "Sp",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "uaz:CVCL_9S75" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As an extension of these findings, we determined whether Sp1 was essential or dispensable for ERbeta dependent changes in gene expression and EC function by using both Mithramycin A, an inhibitor of Sp binding to GC rich promoter sequences and Sp1 specific siRNA knockdown.",
+  "reading_complete" : "2020-08-04T18:33:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:30:56Z",
+  "trigger" : "binding",
+  "evidence" : [ "Sp binding to GC" ],
+  "pmc_id" : "3748858",
+  "score" : 0
+}

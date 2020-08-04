@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "E2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In HEECs and HUVECs, treatment with DPN or E2 increased cell proliferation (Supplementary data, Fig. S3A and C); the changes observed in UtMVECs were not significant (Supplementary data, Fig. S3B).",
+  "reading_complete" : "2020-08-04T18:33:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:30:56Z",
+  "trigger" : "increased",
+  "evidence" : [ "E2 increased cell proliferation" ],
+  "pmc_id" : "3748858",
+  "score" : 0
+}
