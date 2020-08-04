@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13464",
+      "entity_text" : "ROCK1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04342",
+      "entity_text" : "miR-340",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The activation of ROCK1 has been reported to promote tumor cell invasion [XREF_BIBR]; the inhibition of ROCK1 by miR-340 has been reported to be associated with suppressed tumor growth and metastasis of osteosarcoma tumor [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:31:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:29:08Z",
+  "trigger" : "inhibition",
+  "evidence" : [ "inhibition of ROCK1 by miR-340" ],
+  "pmc_id" : "5999052",
+  "score" : 0
+}

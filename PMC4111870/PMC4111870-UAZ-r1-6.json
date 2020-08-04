@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:961",
+      "entity_text" : "hydroxy",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1240" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The 1 H and 13 C NMR data of 2 were similar to those of 1, except for the appearance of an additional acetyl group [delta H 2.08/2.09 (3H, s) and delta C 173.31/173.25 (CO), 21.23/21.18 (CH 3)] and the down-field shift of C-3 and H-3 to delta C 76.69 and delta H 5.50, respectively, suggesting that the hydroxy group at C-3 in 1 was acetylated in 2.",
+  "reading_complete" : "2020-08-04T18:32:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:19:52Z",
+  "trigger" : "acetylated",
+  "evidence" : [ "hydroxy group at C-3 in 1 was acetylated" ],
+  "pmc_id" : "4111870",
+  "score" : 0
+}

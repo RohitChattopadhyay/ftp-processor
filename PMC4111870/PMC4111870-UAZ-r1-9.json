@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:180",
+      "entity_text" : "acetone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_A760" ],
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Treated leaf discs were painted with 20 muL of acetone solution containing the test compounds, and control leaf discs with the same amount of acetone.",
+  "reading_complete" : "2020-08-04T18:32:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:19:52Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of acetone" ],
+  "pmc_id" : "4111870",
+  "score" : 0
+}
