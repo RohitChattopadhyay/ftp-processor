@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UIK5",
+      "entity_text" : "TMEFF2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29381",
+      "entity_text" : "SHP-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of SHP-1 abolished the effects of TMEFF2 knockdown on MCL1 and VEGF.",
+  "reading_complete" : "2020-08-04T12:37:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:19Z",
+  "trigger" : "abolished",
+  "evidence" : [ "SHP-1 abolished the effects of TMEFF2" ],
+  "pmc_id" : "6510056",
+  "score" : 0
+}
