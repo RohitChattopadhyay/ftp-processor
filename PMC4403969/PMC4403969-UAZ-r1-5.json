@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0627" ],
+      "Cellular_component" : [ "go:GO:0043209" ],
+      "CellType" : [ "cl:CL:0000128" ]
+    }
+  },
+  "verbose_text" : "It was recently shown that oligodendrocyte apoptosis can occur within days following CPZ treatment due to a selective reduction in amino acid levels, and thus without extensive microgliosis.",
+  "reading_complete" : "2020-08-04T15:15:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:13:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "acid levels" ],
+  "pmc_id" : "4403969",
+  "score" : 0
+}

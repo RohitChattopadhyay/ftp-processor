@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q66K79",
+      "entity_text" : "CPZ",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Neurons are metabolically very active but are protected from CPZ induced ATP shortage via the metabolic coupling to astrocytes (Glu Gln shuttle).",
+  "reading_complete" : "2020-08-04T15:15:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:13:53Z",
+  "trigger" : "induced",
+  "evidence" : [ "CPZ-induced ATP" ],
+  "pmc_id" : "4403969",
+  "score" : 0
+}
