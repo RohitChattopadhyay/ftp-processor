@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00180",
+      "entity_text" : "tocilizumab",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In Il6ra +/+ -hIL6 transgenic mice, which express mouse Il6ra but not human IL6R, tocilizumab cannot inhibit IL6 signaling.",
+  "reading_complete" : "2020-08-04T09:02:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:01:17Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "tocilizumab cannot inhibit IL6" ],
+  "pmc_id" : "3561642",
+  "score" : 0
+}

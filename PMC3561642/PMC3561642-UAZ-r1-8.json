@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40189",
+      "entity_text" : "IL6R",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Plasma levels of human soluble IL6R and human IL6 were elevated after 4-week treatment of tocilizumab in this mouse model similarly to the result previously reported in patients treated with tocilizumab.",
+  "reading_complete" : "2020-08-04T09:02:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:01:17Z",
+  "trigger" : "elevated",
+  "evidence" : [ "IL6R and human IL6 were elevated after 4-week treatment of tocilizumab in this mouse model similarly to the result" ],
+  "pmc_id" : "3561642",
+  "score" : 0
+}

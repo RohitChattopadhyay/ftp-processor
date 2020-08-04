@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:179",
+      "entity_text" : "Acetoin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00253",
+      "entity_text" : "AcoABCL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Acetoin was reported to be degraded by AcoABCL with an activity 81% that of methylacetoin XREF_BIBR; therefore, it should be a good substrate for AcoAB.",
+  "reading_complete" : "2020-08-04T09:06:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:02:52Z",
+  "trigger" : "degraded",
+  "evidence" : [ "Acetoin was reported to be degraded by AcoABCL" ],
+  "pmc_id" : "3744081",
+  "score" : 0
+}
