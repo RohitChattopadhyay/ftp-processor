@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0009056",
+      "entity_text" : "catabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1175",
+      "entity_text" : "uric acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The increase can be explained by the fact that uric acid is a product of ATP catabolism, which is known to be enhanced in PA due to enhanced xanthineoxdiase activity on reperfusion, and this might contribute to oxidative stress in PA.",
+  "reading_complete" : "2020-08-04T18:05:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:04:54Z",
+  "trigger" : "is a product",
+  "evidence" : [ "uric acid is a product of ATP catabolism" ],
+  "pmc_id" : "5014499",
+  "score" : 0
+}
