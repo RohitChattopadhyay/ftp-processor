@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01270",
+      "entity_text" : "PTH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:888",
+      "entity_text" : "magnesium",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It is supposed that although the low level of magnesium can induce the secretion of PTH, the very low concentration of Mg may depress the parathyroid hormone secretion which results in hypocalcemia in harsh hypomagnesemia.",
+  "reading_complete" : "2020-08-04T18:37:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:37:03Z",
+  "trigger" : "induce",
+  "evidence" : [ "magnesium can induce the secretion of PTH" ],
+  "pmc_id" : "5053457",
+  "score" : 0
+}

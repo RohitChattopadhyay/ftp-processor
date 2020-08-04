@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:11096" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0001988" ]
+    }
+  },
+  "verbose_text" : "We collected extensive data, including age, gender, serum albumin (ALB) level, total bilirubin level (T-Bil), and alanine aminotransferase (ALT) level.",
+  "reading_complete" : "2020-08-04T18:42:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:41:53Z",
+  "trigger" : "level",
+  "evidence" : [ "bilirubin level" ],
+  "pmc_id" : "4821316",
+  "score" : 0
+}

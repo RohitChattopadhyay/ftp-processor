@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "Mouse studies have shown that phosphorylation of H2AX happens in the oocyte nucleus around 10 min after DNA damage, reaching a peak after 24 h.",
+  "reading_complete" : "2020-08-04T18:40:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:39:04Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of H2AX" ],
+  "pmc_id" : "6736429",
+  "score" : 0
+}
