@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0650" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0002372" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "FAK phosphorylation was similar on modified L. lactis and FN coated glass (XREF_FIG), in good correlation with the high levels of cell differentiation found in this work (XREF_FIG).",
+  "reading_complete" : "2020-08-04T14:31:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:28:35Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "FAK phosphorylation" ],
+  "pmc_id" : "5376178",
+  "score" : 0
+}

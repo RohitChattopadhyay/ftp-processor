@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95238",
+      "entity_text" : "SPDEF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Higher level of SPDEF is thought to correlate with increased PCa aggressiveness and metastatic potential.",
+  "reading_complete" : "2020-08-04T14:33:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:32:16Z",
+  "trigger" : "level",
+  "evidence" : [ "level of SPDEF" ],
+  "pmc_id" : "6178315",
+  "score" : 0
+}

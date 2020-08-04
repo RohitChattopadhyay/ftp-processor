@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08415",
+      "entity_text" : "NRPs",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05339",
+      "entity_text" : "integrins",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1090" ],
+      "Cellular_component" : [ "go:GO:0097197" ]
+    }
+  },
+  "verbose_text" : "At a functional level, the association between integrins and NRPs was shown to be important for the endocytic trafficking of integrin, resulting in increased cell adhesion to fibronectin.",
+  "reading_complete" : "2020-08-04T14:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:29:47Z",
+  "trigger" : "association",
+  "evidence" : [ "association between integrins and NRPs" ],
+  "pmc_id" : "4708555",
+  "score" : 0
+}

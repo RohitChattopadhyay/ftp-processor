@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0650" ],
+      "CellType" : [ "cl:CL:0002372" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "An intermediary step between adhesion and downstream targets, including MAPK pathways, is the phosphorylation of FAK XREF_BIBR; as a result, FAK phosphorylation at Tyr397 plays a central role during myoblast differentiation in 2D cultures XREF_BIBR XREF_BIBR.",
+  "reading_complete" : "2020-08-04T14:31:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:28:35Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of FAK" ],
+  "pmc_id" : "5376178",
+  "score" : 0
+}
