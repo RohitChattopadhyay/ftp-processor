@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1017",
+      "entity_text" : "M2",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5234",
+      "entity_text" : "salt",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "High salt levels inhibit alternative activation of macrophages (M2) resulting in attenuation of tissue inflammation.",
+  "reading_complete" : "2020-08-04T12:11:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:10:27Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "salt levels inhibit alternative activation of macrophages (M2" ],
+  "pmc_id" : "5141241",
+  "score" : 0
+}

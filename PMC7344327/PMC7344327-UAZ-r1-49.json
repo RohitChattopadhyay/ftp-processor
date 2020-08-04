@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A1CIL1",
+      "entity_text" : "CREB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "Organ" : [ "uberon:UBERON:0000959" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Here, neurotransmitter signaling through NMDA (N-methyl-D-aspartate) or AMPA (alpha-amino-3-hydroxy-5-methyl-4-isoxazoleproprionic acid) receptors results in CREB binding to cAMP response elements in promoters of the so called \" clock genes \".",
+  "reading_complete" : "2020-08-04T12:10:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:29Z",
+  "trigger" : "binding",
+  "evidence" : [ "CREB binding to cAMP" ],
+  "pmc_id" : "7344327",
+  "score" : 0
+}

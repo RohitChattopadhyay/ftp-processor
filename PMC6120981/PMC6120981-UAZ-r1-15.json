@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04141",
+      "entity_text" : "GM-CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "CellType" : [ "cl:CL:0000763" ]
+    }
+  },
+  "verbose_text" : "As Ly6C can be downregulated on monocytes / macrophages under high levels of GM-CSF, expression of CCR2 reporter we also used to aid identification of monocytic myeloid cell subsets.",
+  "reading_complete" : "2020-08-04T12:14:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:12:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GM-CSF" ],
+  "pmc_id" : "6120981",
+  "score" : 0
+}
