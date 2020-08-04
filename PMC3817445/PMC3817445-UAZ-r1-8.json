@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05066",
+      "entity_text" : "Sry",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG, SRY protein containing FLAG and S-tag were detected from wt Sry expressed cells, whereas no signal was detected from mutant Sry expressed cells.",
+  "reading_complete" : "2020-08-04T14:52:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:51:31Z",
+  "trigger" : "expressed",
+  "evidence" : [ "Sry expressed" ],
+  "pmc_id" : "3817445",
+  "score" : 0
+}

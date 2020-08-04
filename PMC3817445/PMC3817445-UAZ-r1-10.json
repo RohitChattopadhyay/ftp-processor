@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05066",
+      "entity_text" : "SRY",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:25113109",
+      "entity_text" : "KO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Considering these reports, it is reasonable that the Sry KO allele in our KO mouse does not produce functional SRY protein because 92% of the ORF was not translated and functionally important motifs were located on the missing residues.",
+  "reading_complete" : "2020-08-04T14:52:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:51:31Z",
+  "trigger" : "produce",
+  "evidence" : [ "KO mouse does not produce functional SRY" ],
+  "pmc_id" : "3817445",
+  "score" : 0
+}
