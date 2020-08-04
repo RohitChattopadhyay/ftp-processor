@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:42113",
+      "entity_text" : "desflurane",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In three studies comparing the effects of propofol and isoflurane, although the findings from two studies found no difference in the effect of these two drugs, another study revealed that isoflurane and desflurane reduced arterial oxygen pressure in animal models.",
+  "reading_complete" : "2020-08-04T19:50:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:49:05Z",
+  "trigger" : "reduced",
+  "evidence" : [ "desflurane reduced arterial oxygen" ],
+  "pmc_id" : "5878029",
+  "score" : 0
+}
