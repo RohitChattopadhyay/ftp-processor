@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "CellType" : [ "cl:CL:0000134" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "A previous study suggested that APS may be used as a new target in reducing hyperpigmentation through the ERK signal pathway [XREF_BIBR] and can regulate the TLR4 / NF-kappaB signaling pathway to inhibit cell damage caused by TNF-. In the present study, APS attenuated the growth inhibition of bystander cells and reduced genomic instability (such as alleviating MN and 53BP1 increase) induced by RIBE, which may be related to downregulation of the MAPK related protein phosphorylation, COX-2 expression, and ROS level.",
+  "reading_complete" : "2020-08-04T19:35:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:32:22Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "MAPK-related protein phosphorylation" ],
+  "pmc_id" : "6069470",
+  "score" : 0
+}

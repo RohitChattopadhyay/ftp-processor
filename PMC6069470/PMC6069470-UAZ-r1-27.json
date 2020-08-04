@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01147",
+      "entity_text" : "NF-kappaB P65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Cellular_component" : [ "go:GO:0031040" ],
+      "CellType" : [ "cl:CL:0000134" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The levels of phosphorylated p38, JNK, ERK1/2, NF-kappaB P65, and COX-2 proteins were increased by conditioned medium but were decreased by pre-treatment with APS.",
+  "reading_complete" : "2020-08-04T19:35:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:32:22Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated p38, JNK, ERK1/2, NF-kappaB P65" ],
+  "pmc_id" : "6069470",
+  "score" : 0
+}

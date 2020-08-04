@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14492",
+      "entity_text" : "APS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35354",
+      "entity_text" : "COX-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The expression level of COX-2 increases in bystander cells and APS inhibits this increase.",
+  "reading_complete" : "2020-08-04T19:35:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:32:22Z",
+  "trigger" : "increases",
+  "evidence" : [ "COX-2 increases in bystander cells and APS" ],
+  "pmc_id" : "6069470",
+  "score" : 0
+}
