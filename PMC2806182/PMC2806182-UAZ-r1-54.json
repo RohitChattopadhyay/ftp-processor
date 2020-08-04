@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NFkappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0591" ]
+    }
+  },
+  "verbose_text" : "Alternatively interactions between NFkappaB and ER may be mediated via one of the mechanisms that have been documented to occur when there is a negative interaction between these signalling pathways (as detailed above).",
+  "reading_complete" : "2020-08-04T21:39:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:38:02Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between NFkappaB and ER" ],
+  "pmc_id" : "2806182",
+  "score" : 0
+}

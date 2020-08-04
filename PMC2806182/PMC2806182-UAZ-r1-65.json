@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NFkappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "CellLine" : [ "cellosaurus:CVCL_0042" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "The cofactors CBP and p300 are reported to mediate interactions between NFkappaB and ER in human liver and coronary smooth muscle cells, respectively.",
+  "reading_complete" : "2020-08-04T21:39:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:38:02Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between NFkappaB and ER" ],
+  "pmc_id" : "2806182",
+  "score" : 0
+}

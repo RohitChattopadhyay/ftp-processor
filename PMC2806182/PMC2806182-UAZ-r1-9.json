@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NFkappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0288" ]
+    }
+  },
+  "verbose_text" : "The positive interaction between NFkappaB and ER may be involved in the regulation of epithelial cell function at implantation and aberrant interactions between these signalling pathways may be involved in pathologies such as early pregnancy failure and infertility.",
+  "reading_complete" : "2020-08-04T21:39:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:38:02Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between NFkappaB and ER" ],
+  "pmc_id" : "2806182",
+  "score" : 0
+}
