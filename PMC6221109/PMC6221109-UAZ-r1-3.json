@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02102",
+      "entity_text" : "SNR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A thousand realizations of Rician noise were added to the synthesized signal to simulate SNR levels of 10, 20, 30, 50, 70 and 90, with SNR defined as the average over standard deviation of the signal value corresponding to b = 0 s/mm 2.",
+  "reading_complete" : "2020-08-04T14:37:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:34:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "SNR levels" ],
+  "pmc_id" : "6221109",
+  "score" : 0
+}
