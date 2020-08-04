@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60341",
+      "entity_text" : "LSD-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2235" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "mesh:D061745" ],
+      "Organ" : [ "uberon:UBERON:0000428" ]
+    }
+  },
+  "verbose_text" : "Cai et al. showed that lysine specific demethylation-1 (LSD-1) was recruited to AREs in intron 2 of the AR gene and acts as a repressor when AR-FL was activated.",
+  "reading_complete" : "2020-08-04T12:48:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:47:08Z",
+  "trigger" : "demethylation-1",
+  "evidence" : [ "lysine-specific demethylation-1 (LSD-1" ],
+  "pmc_id" : "4209743",
+  "score" : 0
+}

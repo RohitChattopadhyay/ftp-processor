@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60953",
+      "entity_text" : "Cdc42",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04130",
+      "entity_text" : "extracellular alpha-Syn",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 53,
+        "feature_type" : "mutation",
+        "evidence" : "A53T"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These morphological changes matched well with the results that Rac1 but not Cdc42 activation was inhibited by extracellular alpha-Syn (A53T) (XREF_FIG).",
+  "reading_complete" : "2020-08-04T12:47:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:45:10Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "Cdc42 activation was inhibited by extracellular alpha-Syn" ],
+  "pmc_id" : "5122898",
+  "score" : 0
+}
