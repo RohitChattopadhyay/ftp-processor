@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03971",
+      "entity_text" : "AMH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We were unable to determine the assay used in cases where the AMH level was processed at an outside laboratory, which may lead to some inter-assay variation between the reported AMH levels.",
+  "reading_complete" : "2020-08-04T22:58:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:56:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "AMH levels" ],
+  "pmc_id" : "7337822",
+  "score" : 0
+}

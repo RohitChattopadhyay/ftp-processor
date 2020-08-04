@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CW71",
+      "entity_text" : "MCP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_5J51" ],
+      "Organ" : [ "uberon:UBERON:0001268" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:1000490" ]
+    }
+  },
+  "verbose_text" : "Peritoneal fluid levels of MCP-1 are increased in patients with endometriosis.",
+  "reading_complete" : "2020-08-04T22:56:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:56:02Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MCP-1" ],
+  "pmc_id" : "2517154",
+  "score" : 0
+}
