@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05934",
+      "entity_text" : "adducin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PKC",
+      "entity_text" : "PKC",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PKC dependent phosphorylation causes adducin to translocate from the actin-spectrin cytoskeleton at cell-cell adhesion sites to the cytoplasm in epithelial cells.",
+  "reading_complete" : "2020-08-04T14:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:06:30Z",
+  "trigger" : "causes",
+  "evidence" : [ "PKC-dependent phosphorylation causes adducin" ],
+  "pmc_id" : "4265757",
+  "score" : 0
+}

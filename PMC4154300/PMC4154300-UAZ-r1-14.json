@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006810",
+      "entity_text" : "transport",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439709",
+      "entity_text" : "D-fructose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These results suggest that [3 H]-glucose influx in KCl incubation medium occurred by a carrier mediated transport process that appeared to be competitively inhibited by D-fructose in the intestine.",
+  "reading_complete" : "2020-08-04T14:06:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:00:21Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "transport process that appeared to be competitively inhibited by D-fructose" ],
+  "pmc_id" : "4154300",
+  "score" : 0
+}

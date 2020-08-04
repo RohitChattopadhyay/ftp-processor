@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05934",
+      "entity_text" : "adducin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ]
+    }
+  },
+  "verbose_text" : "By analogy to other MARCKS-homology domain containing proteins, we hypothesize that phosphorylation of adducin at the RTPS-serine may alter the electrostatic interaction between adducin and phosphoinositides, thus reversing the binding between them and causing translocation of adducin from the membrane to the cytosol.",
+  "reading_complete" : "2020-08-04T14:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:06:30Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of adducin" ],
+  "pmc_id" : "4265757",
+  "score" : 0
+}
