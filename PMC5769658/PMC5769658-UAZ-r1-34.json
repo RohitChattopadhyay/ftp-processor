@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S345",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04337",
+      "entity_text" : "Chk1-S173A",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:4896" ]
+    }
+  },
+  "verbose_text" : "As in the earlier experiments, Chk1-S173A was fully phosphorylated at S345 in Deltacds1 cells (XREF_FIG D).",
+  "reading_complete" : "2020-08-04T12:43:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:42:15Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Chk1-S173A was fully phosphorylated at S345" ],
+  "pmc_id" : "5769658",
+  "score" : 0
+}
