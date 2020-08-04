@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:54670067",
+      "entity_text" : "vitamin C",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0392" ],
+      "CellLine" : [ "cellosaurus:CVCL_D957" ],
+      "Cellular_component" : [ "go:GO:0009509" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:4081" ]
+    }
+  },
+  "verbose_text" : "Finally, in view of the limited difference in total polyphenols at fruit maturity, the data imply a higher nutritional value of PEP1, considering that the amount of vitamin C and polyphenols highly correlates with the antioxidant capacity in plants [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:12:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:08:41Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of vitamin C" ],
+  "pmc_id" : "6681188",
+  "score" : 0
+}
