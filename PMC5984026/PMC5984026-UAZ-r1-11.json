@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "urea",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0002221" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The serum level of sodium, potassium, urea and creatinine were 141.83 +/-8.88 mEq/L, 4.61 +/-1.44 mEq/L, 34.45 +/-23.17 mg/dL and 0.6 +/-0.28 mg/dL, respectively (XREF_TABLE).",
+  "reading_complete" : "2020-08-04T19:57:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:57:25Z",
+  "trigger" : "level",
+  "evidence" : [ "level of sodium, potassium, urea" ],
+  "pmc_id" : "5984026",
+  "score" : 0
+}
