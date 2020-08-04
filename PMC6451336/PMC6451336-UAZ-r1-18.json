@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7L0Q8",
+      "entity_text" : "RhoU",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O96013",
+      "entity_text" : "PAK4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1698" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1193" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "For example, human PAK4 binds to and thereby protects RhoU from ubiquitination in a kinase activity and Cdc42 independent manner.",
+  "reading_complete" : "2020-08-04T14:35:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:33:57Z",
+  "trigger" : "binds",
+  "evidence" : [ "PAK4 binds to and thereby protects RhoU" ],
+  "pmc_id" : "6451336",
+  "score" : 0
+}

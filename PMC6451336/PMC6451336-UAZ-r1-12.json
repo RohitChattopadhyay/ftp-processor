@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19022",
+      "entity_text" : "GST-N-Cad",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1698" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0044215" ]
+    }
+  },
+  "verbose_text" : "For both SRC isoforms, this interaction resulted in tyrosine phosphorylation of GST-N-Cad (intra).",
+  "reading_complete" : "2020-08-04T14:35:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:33:57Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of GST-N-Cad" ],
+  "pmc_id" : "6451336",
+  "score" : 0
+}
