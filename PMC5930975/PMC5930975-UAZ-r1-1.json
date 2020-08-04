@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61244",
+      "entity_text" : "max",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1180" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To minimize these limitations, ROIs were drawn on 3 sections at the max levels of the tumor and the normal wall, and the mean value of these 3 ROIs were recorded.",
+  "reading_complete" : "2020-08-04T18:03:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:01:10Z",
+  "trigger" : "levels",
+  "evidence" : [ "max levels" ],
+  "pmc_id" : "5930975",
+  "score" : 0
+}
