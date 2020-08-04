@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "Insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Insulin stimulates glucose uptake with the acute translocation of GLUT4 from peri-nuclear compartments to the cell surface.",
+  "reading_complete" : "2020-08-04T11:39:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:38:09Z",
+  "trigger" : "stimulates",
+  "evidence" : [ "Insulin stimulates glucose" ],
+  "pmc_id" : "6994957",
+  "score" : 0
+}
