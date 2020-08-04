@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "TissueType" : [ "tissuelist:TS-1070" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Incubating CTB in the presence of MG132 (a proteasome inhibitor) increases the amount of p53 in CTB as measured by western blots indicating that the normal proteolytic p53 pathway is active in CTB.",
+  "reading_complete" : "2020-08-04T20:20:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:19:42Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of p53" ],
+  "pmc_id" : "2538584",
+  "score" : 0
+}
