@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15746",
+      "entity_text" : "pMLCK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "To determine if MLCK acts downstream of folic acid in vivo, stage 7 chicken embryos were incubated with or without folic acid for 2 h and immunolabeled with an antibody specific for the activated, phosphorylated form of MLCK (pMLCK) (XREF_FIG A-B).",
+  "reading_complete" : "2020-08-04T09:09:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:07:35Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated form of MLCK (pMLCK" ],
+  "pmc_id" : "6361208",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46531",
+      "entity_text" : "Notch1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1071" ],
+      "Organ" : [ "uberon:UBERON:0001579" ],
+      "CellType" : [ "cl:CL:0002375" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Furthermore, since expression of the constitutively active Notch1 mutant protein was only activated in targeted cranial neural crest derived cells following doxycycline injection at E4, our findings also reveal the plasticity of cranial neural crest derived frontonasal mesenchyme and developing olfactory ensheathing glia.",
+  "reading_complete" : "2020-08-04T09:11:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:09:09Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of the constitutively active Notch1" ],
+  "pmc_id" : "5374403",
+  "score" : 0
+}

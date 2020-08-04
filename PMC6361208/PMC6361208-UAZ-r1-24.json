@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser19",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "myosin light chain",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:6239" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0042641" ]
+    }
+  },
+  "verbose_text" : "For example, MRCK, a kinase capable phosphorylating Thr18 / Ser19 of the myosin light chain, was recently reported to drive AC in Caenorhabditis elegans embryos making it a possible target for folic acid activation.",
+  "reading_complete" : "2020-08-04T09:09:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:07:35Z",
+  "trigger" : "phosphorylating",
+  "evidence" : [ "phosphorylating Thr18/Ser19 of the myosin light chain" ],
+  "pmc_id" : "6361208",
+  "score" : 0
+}

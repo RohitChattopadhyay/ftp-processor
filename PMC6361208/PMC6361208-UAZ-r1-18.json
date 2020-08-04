@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00160",
+      "entity_text" : "Rho-kinase",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Because it was observed that pMLC junctional localization increases with the addition of folic acid, it was hypothesized that folic acid may activate a distinct pathway that is capable of phosphorylating myosin II. Myosin light chain kinase (MLCK) phosphorylates myosin light chain at the same amino acids as Rho-kinase and has been implicated in regulating AC.",
+  "reading_complete" : "2020-08-04T09:09:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:07:35Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates myosin light chain at the same amino acids as Rho-kinase" ],
+  "pmc_id" : "6361208",
+  "score" : 0
+}

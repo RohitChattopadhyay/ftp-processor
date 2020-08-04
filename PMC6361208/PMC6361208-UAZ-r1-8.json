@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TF72",
+      "entity_text" : "Shroom3",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00156",
+      "entity_text" : "folic acid receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It was determined that folic acid and the folic acid receptor, Folr1, can rescue the function of the Rho-kinase-binding deficient mutation of Shroom3.",
+  "reading_complete" : "2020-08-04T09:09:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:07:35Z",
+  "trigger" : "rescue",
+  "evidence" : [ "folic acid receptor, Folr1, can rescue the function of the Rho-kinase-binding deficient mutation of Shroom3" ],
+  "pmc_id" : "6361208",
+  "score" : 0
+}

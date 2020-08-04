@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TF72",
+      "entity_text" : "Shroom3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00160",
+      "entity_text" : "Rho-kinase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0030054" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "The importance of Rho-kinase binding to Shroom3 function is highlighted by the finding that a missense mutation of Shroom3 that inhibits Rho-kinase binding (Shroom3 R1838C) also causes NTDs that are similar to the mouse loss of function allele.",
+  "reading_complete" : "2020-08-04T09:09:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:07:35Z",
+  "trigger" : "binding",
+  "evidence" : [ "Rho-kinase binding to Shroom3" ],
+  "pmc_id" : "6361208",
+  "score" : 0
+}
