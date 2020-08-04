@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06493",
+      "entity_text" : "CDK1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02246",
+      "entity_text" : "B1",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1223" ]
+    }
+  },
+  "verbose_text" : "We identified 361 DEGs, mainly involving oncogene induced cell senescence, cyclin B1 - CDK1 complex, protein kinase A catalytic subunit binding, cell cycle, and p53 signaling pathway.",
+  "reading_complete" : "2020-08-04T16:45:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:44:38Z",
+  "trigger" : "complex",
+  "evidence" : [ "B1-CDK1 complex" ],
+  "pmc_id" : "6941780",
+  "score" : 0
+}
