@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52926",
+      "entity_text" : "HMGA2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant-type"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Results showed that co-transfection of miR-204 mimics and wild-type HMGA2 vector lead to an obvious reduction of luciferase activity, while co-transfection of miR-204 mimics and mutant-type HMGA2 vector eliminated the repression of luciferase activity, suggesting that miR-204 targets HMGA2 by directly binding to its 3 ' untranslated region.",
+  "reading_complete" : "2020-08-04T10:48:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:48:00Z",
+  "trigger" : "eliminated",
+  "evidence" : [ "HMGA2 vector eliminated the repression of luciferase" ],
+  "pmc_id" : "4874347",
+  "score" : 0
+}
