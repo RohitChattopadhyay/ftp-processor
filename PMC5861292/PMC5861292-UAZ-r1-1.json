@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The genetic losses and amplifications included several genes related to aggressive prostate cancer such as loss of PTEN, RB1, TP53 and amplification of MYC.",
+  "reading_complete" : "2020-08-04T11:06:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:05:08Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PTEN" ],
+  "pmc_id" : "5861292",
+  "score" : 0
+}

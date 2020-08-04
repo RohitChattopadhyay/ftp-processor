@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4082203",
+      "entity_text" : "silicon",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0095" ]
+    }
+  },
+  "verbose_text" : "Assuming a constant corrosion rate, the corrosion current density from microscopic Si/AgNPs galvanic cells reaches 1.3 mA/cm 2 using Faraday 's law based on the mass loss of silicon and galvanic current-time curve measured for macroscopic p-Si / Graphite galvanic cell in the presence of AgNPs.",
+  "reading_complete" : "2020-08-04T11:04:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:03:29Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of silicon" ],
+  "pmc_id" : "3888973",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10635",
+      "entity_text" : "DHT",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The reduced DHT suppresses angiogenesis through the downregulation of vascular endothelial growth factor (VEGF).",
+  "reading_complete" : "2020-08-04T11:05:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:03:58Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "DHT suppresses angiogenesis" ],
+  "pmc_id" : "5522804",
+  "score" : 0
+}
