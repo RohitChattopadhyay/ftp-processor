@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NVI1",
+      "entity_text" : "FANCI",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The FANCM complex (FANCM, FAAP24, FAAP16 / MHF1, and FAAP10 / MHF2) recruits the FA proteins of the core complex to the chromatin, where it is associated to FANCT / UBE2T forming the catalytic subunit E2/E3 that monoubiquitinates FANCD2 and FANCI.",
+  "reading_complete" : "2020-08-04T10:54:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:51:51Z",
+  "trigger" : "monoubiquitinates",
+  "evidence" : [ "monoubiquitinates FANCD2 and FANCI" ],
+  "pmc_id" : "5511800",
+  "score" : 0
+}
