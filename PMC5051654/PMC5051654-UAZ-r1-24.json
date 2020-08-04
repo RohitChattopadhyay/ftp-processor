@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Species" : [ "taxonomy:10141" ]
+    }
+  },
+  "verbose_text" : "The best characterized FAK phosphorylation event is the autophosphorylation that takes place at Tyr397.",
+  "reading_complete" : "2020-08-04T09:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:32:18Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "FAK phosphorylation" ],
+  "pmc_id" : "5051654",
+  "score" : 0
+}

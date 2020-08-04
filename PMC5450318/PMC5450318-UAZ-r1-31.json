@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7427",
+      "entity_text" : "trehalose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:6239" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "CellType" : [ "cl:CL:0002371" ]
+    }
+  },
+  "verbose_text" : "By hydrolyzing trehalose, various tissues and organs obtain glucose, which effectively protects somatic cells and allows them to adapt to a stress environment and enhance their resilience.",
+  "reading_complete" : "2020-08-04T09:30:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:29:30Z",
+  "trigger" : "hydrolyzing",
+  "evidence" : [ "hydrolyzing trehalose" ],
+  "pmc_id" : "5450318",
+  "score" : 0
+}

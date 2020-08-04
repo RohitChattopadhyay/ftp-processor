@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00641",
+      "entity_text" : "cytochalasin D",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, disruption of the actin cytoskeleton by cytochalasin D enhances cAMP formation and phosphorylation of PKA substrates in response to prostacyclin.",
+  "reading_complete" : "2020-08-04T09:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:32:18Z",
+  "trigger" : "enhances",
+  "evidence" : [ "cytochalasin D enhances cAMP formation and phosphorylation" ],
+  "pmc_id" : "5051654",
+  "score" : 0
+}

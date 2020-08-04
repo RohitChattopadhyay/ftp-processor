@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49023",
+      "entity_text" : "paxillin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Species" : [ "taxonomy:10141" ]
+    }
+  },
+  "verbose_text" : "This finding suggests that the phosphorylation of FAK and paxillin may facilitate the recruitment of talin and vinculin.",
+  "reading_complete" : "2020-08-04T09:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:32:18Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of FAK and paxillin" ],
+  "pmc_id" : "5051654",
+  "score" : 0
+}

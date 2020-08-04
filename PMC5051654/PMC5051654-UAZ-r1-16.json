@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49023",
+      "entity_text" : "paxillin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00629",
+      "entity_text" : "talin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "uniprot:SL-0007" ],
+      "Species" : [ "taxonomy:10141" ]
+    }
+  },
+  "verbose_text" : "Our results detailing changes in the co-localization and co-immunoprecipitation of paxillin with vinculin and talin (XREF_FIG B) suggest that in non capacitated spermatozoa, talin and vinculin weakly associate with paxillin and therefore with the focal adhesion complex.",
+  "reading_complete" : "2020-08-04T09:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:32:18Z",
+  "trigger" : "associate",
+  "evidence" : [ "talin and vinculin weakly associate with paxillin" ],
+  "pmc_id" : "5051654",
+  "score" : 0
+}

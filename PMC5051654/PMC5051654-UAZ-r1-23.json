@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Organ" : [ "uberon:UBERON:0001306" ],
+      "Species" : [ "taxonomy:10141" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "Successful fertilization of the oocyte requires that spermatozoa undergo physiological and biochemical changes that are known as capacitation : increased metabolism, membrane fluidity, intracellular Ca 2+ concentration, membrane hyperpolarization, intracellular cAMP concentration, protein tyrosine phosphorylation (Tyr phosphorylation), concentration of reactive oxygen species, actin polymerization, and motility.",
+  "reading_complete" : "2020-08-04T09:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:32:18Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation (Tyr phosphorylation), concentration of reactive oxygen species, actin" ],
+  "pmc_id" : "5051654",
+  "score" : 0
+}

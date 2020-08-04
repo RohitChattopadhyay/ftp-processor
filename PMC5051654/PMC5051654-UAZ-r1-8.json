@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18206",
+      "entity_text" : "vinculin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00629",
+      "entity_text" : "talin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9913" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0005925" ]
+    }
+  },
+  "verbose_text" : "In addition, the direct association of vinculin with F-actin indicates that the recruitment of talin and vinculin is related to a major interaction of these focal adhesion complexes with F-actin.",
+  "reading_complete" : "2020-08-04T09:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:32:18Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of talin and vinculin" ],
+  "pmc_id" : "5051654",
+  "score" : 0
+}

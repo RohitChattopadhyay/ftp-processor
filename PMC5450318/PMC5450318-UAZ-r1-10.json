@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7427",
+      "entity_text" : "trehalose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:6239" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "CellType" : [ "cl:CL:0002371" ]
+    }
+  },
+  "verbose_text" : "In most eukaryotes, trehalose-6-phosphate synthase (TPS) and trehalose-6-phosphate phosphatase (TPP) are responsible for trehalose synthesis, with trehalase (TRE) catalyzing the hydrolysis of trehalose.",
+  "reading_complete" : "2020-08-04T09:30:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:29:30Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of trehalose" ],
+  "pmc_id" : "5450318",
+  "score" : 0
+}

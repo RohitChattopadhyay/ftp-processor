@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00629",
+      "entity_text" : "talin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Species" : [ "taxonomy:10141" ]
+    }
+  },
+  "verbose_text" : "Recently, the interaction of vinculin with the talin - integrin complex has been shown to drive the recruitment, release, and reorganization of core focal adhesion components.",
+  "reading_complete" : "2020-08-04T09:34:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:32:18Z",
+  "trigger" : "complex",
+  "evidence" : [ "talin-integrin complex" ],
+  "pmc_id" : "5051654",
+  "score" : 0
+}

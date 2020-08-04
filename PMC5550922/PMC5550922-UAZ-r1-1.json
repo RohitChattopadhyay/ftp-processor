@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02810",
+      "entity_text" : "PA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12689",
+      "entity_text" : "acid phosphatase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Afterwards, PA is dephosphorylated by phosphatidic acid phosphatase (PAP; EC 3.1.3.4) to generate sn-1,2-diacylglycerol (DAG), followed by the final acylation at the sn-3 position of sn-1, 2-DAG to produce TAG, catalysed by diacylglycerol acyltransferase (DGAT; EC 3.2.1.20) using acyl-CoA as the acyl donor.",
+  "reading_complete" : "2020-08-04T09:29:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:27:45Z",
+  "evidence" : [ "PA is dephosphorylated by phosphatidic acid phosphatase" ],
+  "pmc_id" : "5550922",
+  "score" : 0
+}
