@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05595",
+      "entity_text" : "EcR-B1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:19212",
+      "entity_text" : "ecdysone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "It is plausible that the inclusion of EcR-B1 in the FruBM containing complex enhances transcriptional repression of robo1 in the absence of ecdysone, and binding of ecdysone to EcR-B1 results in the restoration of robo1 transcription (XREF_FIG).",
+  "reading_complete" : "2020-08-04T13:49:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:46:30Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of ecdysone to EcR-B1" ],
+  "pmc_id" : "5861360",
+  "score" : 0
+}

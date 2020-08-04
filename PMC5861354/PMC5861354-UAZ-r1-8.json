@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444899",
+      "entity_text" : "arachidonic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0412" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:39059" ]
+    }
+  },
+  "verbose_text" : "Membrane lipids of bivalve haemocytes are characterized by elevated amounts of arachidonic acid (20:4 n-6), presumably to regulate immune responses.",
+  "reading_complete" : "2020-08-04T13:46:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:45:01Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of arachidonic acid" ],
+  "pmc_id" : "5861354",
+  "score" : 0
+}
