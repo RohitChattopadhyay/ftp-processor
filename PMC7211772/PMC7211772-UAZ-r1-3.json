@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16552",
+      "entity_text" : "IL-17",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0649" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000899" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A meta-analysis of 2902 patients from 28 studies found correlations between high IL-17 levels and poorer outcomes for certain tumors, although overall survival and progression-free survival were positively associated with high IL-17 levels in patients with esophageal squamous carcinoma and ovarian cancer, respectively [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:25:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:14:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-17 levels" ],
+  "pmc_id" : "7211772",
+  "score" : 0
+}
