@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These results indicate that inhibiting miR-449 allows the attenuation of cisplatin induced injury in NRK-52E cells, suggesting that miR-449 is a potential target for treating AKI.",
+  "reading_complete" : "2020-08-04T15:24:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:22:51Z",
+  "trigger" : "induced",
+  "evidence" : [ "cisplatin-induced injury" ],
+  "pmc_id" : "4792225",
+  "score" : 0
+}

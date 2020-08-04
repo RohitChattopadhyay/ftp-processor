@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01888",
+      "entity_text" : "miR-143",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0395" ],
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To our best knowledge, the current study is the first report on the association between miR-143 and Bcl-2 in prostate cancer, although the anti-apoptosis effect of Bcl-2 has been previously detected in other types of cancers [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T15:26:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:24:59Z",
+  "trigger" : "association",
+  "evidence" : [ "association between miR-143 and Bcl-2" ],
+  "pmc_id" : "5278922",
+  "score" : 0
+}

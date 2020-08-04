@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It can be deduced that the cisplatin induced miR-449 up-regulation inhibits SIRT1, which further elevates acetylated p53 and BAX levels, thus activating the p53 / BAX signaling of the mitochondria apoptosis pathway.",
+  "reading_complete" : "2020-08-04T15:24:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:22:51Z",
+  "trigger" : "signaling",
+  "evidence" : [ "p53/BAX signaling of the mitochondria apoptosis" ],
+  "pmc_id" : "4792225",
+  "score" : 0
+}

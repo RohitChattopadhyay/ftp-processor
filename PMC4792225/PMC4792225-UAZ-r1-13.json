@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Compared to the control group, cisplatin induced significant up-regulation of miR-449 expression in NRK-52E cells (P < 0.05), implying the possible relationship of miR-449 expression and the cisplatin induced renal tubular cell injury, which inspired us to investigate the role of miR-449 by inhibiting its expression in renal cell injury.",
+  "reading_complete" : "2020-08-04T15:24:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:22:51Z",
+  "trigger" : "induced",
+  "evidence" : [ "cisplatin-induced renal tubular cell injury" ],
+  "pmc_id" : "4792225",
+  "score" : 0
+}
