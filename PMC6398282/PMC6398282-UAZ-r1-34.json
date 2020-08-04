@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17301",
+      "entity_text" : "ITGA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "For example, ITGA2 was reported to be overexpressed in squamous cell carcinoma and might serve as a tumor promoter [XREF_BIBR], while the loss of ITGA2 in breast cancer could be a biomarker for tumor progression [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:33:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:31:22Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ITGA2" ],
+  "pmc_id" : "6398282",
+  "score" : 0
+}
