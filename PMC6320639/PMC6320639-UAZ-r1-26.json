@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O77618",
+      "entity_text" : "p19ARF protein",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Suzuki et al. [XREF_BIBR] concluded that Tbx3 gene expression was inhibited by inhibiting the expression of p19ARF protein, thereby enhancing hepatic progenitor cell proliferation and hepatocyte differentiation and inhibiting cholangiocyte differentiation.",
+  "reading_complete" : "2020-08-04T18:29:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:27:06Z",
+  "trigger" : "enhancing",
+  "evidence" : [ "p19ARF protein, thereby enhancing hepatic progenitor cell proliferation" ],
+  "pmc_id" : "6320639",
+  "score" : 0
+}
