@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00748",
+      "entity_text" : "ice",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06122",
+      "entity_text" : "AFPs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0451" ]
+    }
+  },
+  "verbose_text" : "Takamichi et al. [XREF_BIBR] measured the accumulation of AFPIII fused to GFP and suggested that AFPs may progressively bind to ice over a few hours.",
+  "reading_complete" : "2020-08-04T20:22:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:15:30Z",
+  "trigger" : "bind",
+  "evidence" : [ "AFPs may\nprogressively bind to ice" ],
+  "pmc_id" : "4233703",
+  "score" : 0
+}
