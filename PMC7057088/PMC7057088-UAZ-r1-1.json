@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0000055" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Blood tests showed a white blood cell count of 25.46 x 10 9 / L, hemoglobin level of 87 g/L, and platelet count of 39 x 10 9 / L. Morphologic examination of BM smears disclosed infiltration by 94% of lymphoblasts.",
+  "reading_complete" : "2020-08-04T11:33:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:32:23Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "7057088",
+  "score" : 0
+}
