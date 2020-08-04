@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60260",
+      "entity_text" : "Parkin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BXM7",
+      "entity_text" : "PINK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005741" ]
+    }
+  },
+  "verbose_text" : "In addition, Clu genetically and biochemically interacts with the PINK1 - Parkin complex, suggesting it not only has a role in supporting mitochondrial function, but can also play a role in mitochondrial quality control.",
+  "reading_complete" : "2020-08-04T12:36:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:44Z",
+  "trigger" : "complex",
+  "evidence" : [ "PINK1-Parkin complex" ],
+  "pmc_id" : "4823986",
+  "score" : 0
+}
