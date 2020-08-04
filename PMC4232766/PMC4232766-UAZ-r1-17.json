@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10633" ]
+    }
+  },
+  "verbose_text" : "This is unusual, since fusion of vesicles requires GTP hydrolysis by the Rab GTPases, and suggests a distinct mode of transfer of RNP to the mitochondrial surface, e.g.",
+  "reading_complete" : "2020-08-04T13:11:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:09:40Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "GTP hydrolysis" ],
+  "pmc_id" : "4232766",
+  "score" : 0
+}

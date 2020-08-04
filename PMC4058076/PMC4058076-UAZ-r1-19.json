@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96S59",
+      "entity_text" : "RanBPM",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Expression of a RanBPM mutant (Delta360) that impaired complex formation with HDAC6 elicited a modest, but significant reduction in aggresome formation by HDAC6.",
+  "reading_complete" : "2020-08-04T13:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:12:41Z",
+  "trigger" : "Expression",
+  "evidence" : [ "Expression of a RanBPM" ],
+  "pmc_id" : "4058076",
+  "score" : 0
+}

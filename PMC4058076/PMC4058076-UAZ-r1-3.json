@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q71G51",
+      "entity_text" : "alpha-tubulin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00880",
+      "entity_text" : "proteasome inhibitors",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Hyperacetylation of alpha-tubulin in response to proteasome inhibitors was previously noted by others; however, the mechanism by which this hyperacetylation occurs has not been elucidated.",
+  "reading_complete" : "2020-08-04T13:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:12:41Z",
+  "trigger" : "in response to",
+  "evidence" : [ "Hyperacetylation of alpha-tubulin in response to proteasome inhibitors" ],
+  "pmc_id" : "4058076",
+  "score" : 0
+}

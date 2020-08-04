@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96S59",
+      "entity_text" : "RanBPM",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0016235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Using a deacetylation assay, we detected an increased deacetylation activity in RanBPM Hela shRNA cells, further suggesting that RanBPM functions as an HDAC6 inhibitor.",
+  "reading_complete" : "2020-08-04T13:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:12:41Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "deacetylation activity in RanBPM" ],
+  "pmc_id" : "4058076",
+  "score" : 0
+}
