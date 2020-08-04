@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:115250",
+      "entity_text" : "taraxasterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the results, taraxasterol was found to decrease inflammation by 38.2% after three hours and by 31.4% after 24 h. Meanwhile, prednisolone decreased inflammation by 35.3% after three hours and by 32.6% after 24 h.",
+  "reading_complete" : "2020-08-04T14:14:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:05:51Z",
+  "trigger" : "decrease",
+  "evidence" : [ "taraxasterol was found to decrease inflammation" ],
+  "pmc_id" : "6410315",
+  "score" : 0
+}
