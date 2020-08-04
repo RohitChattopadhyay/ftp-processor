@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37840",
+      "entity_text" : "alpha-synuclein",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000125" ]
+    }
+  },
+  "verbose_text" : "In a recently published study, a fALS patient bearing an optineurin mutation (E478G) displayed features of several proteinopathies, including phosphorylated TDP-43, phosphorylated tau, and alpha-synuclein, although it was not examined whether optineurin is present in these inclusions.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated TDP-43, phosphorylated tau, and alpha-synuclein" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

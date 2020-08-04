@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The first study on patients with COVID-19 revealed that low levels of IFN-gamma and TNF-alpha in CD4 + T cells are associated with severity.",
+  "reading_complete" : "2020-08-04T12:53:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:51:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IFN-gamma" ],
+  "pmc_id" : "7350607",
+  "score" : 0
+}

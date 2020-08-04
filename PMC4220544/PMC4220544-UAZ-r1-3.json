@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:16755646",
+      "entity_text" : "ornithine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Loss of ornithine, arginine and lysine does not cause any known phenotypic traits.",
+  "reading_complete" : "2020-08-04T12:06:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:05:58Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of ornithine" ],
+  "pmc_id" : "4220544",
+  "score" : 0
+}

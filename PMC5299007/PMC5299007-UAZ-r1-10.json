@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000775" ],
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "The phosphorylation of NF-kappaB has been believed to be involved in NETs generation.",
+  "reading_complete" : "2020-08-04T12:01:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:00:25Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of NF-kappaB" ],
+  "pmc_id" : "5299007",
+  "score" : 0
+}

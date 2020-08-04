@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477737",
+      "entity_text" : "digoxin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0005437" ]
+    }
+  },
+  "verbose_text" : "The serum digoxin level at 2 h was 0.8 ng/mL and trended downwards.",
+  "reading_complete" : "2020-08-04T12:12:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:15Z",
+  "trigger" : "level",
+  "evidence" : [ "digoxin level" ],
+  "pmc_id" : "5330968",
+  "score" : 0
+}

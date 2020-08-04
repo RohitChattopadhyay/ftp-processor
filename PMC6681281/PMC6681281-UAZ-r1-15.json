@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0210" ],
+      "Species" : [ "taxonomy:381124" ]
+    }
+  },
+  "verbose_text" : "This mutation does not modify the total amount of seed P, but reduces phytic acid content, leading to a proportionally increased level of free phosphate [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:40:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:33:53Z",
+  "trigger" : "level",
+  "evidence" : [ "level of free phosphate" ],
+  "pmc_id" : "6681281",
+  "score" : 0
+}

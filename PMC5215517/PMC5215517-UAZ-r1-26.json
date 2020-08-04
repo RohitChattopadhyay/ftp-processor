@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006412",
+      "entity_text" : "translation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000529",
+      "entity_text" : "S6",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A large number of studies discovered that P-S6K stimulated mRNA translation by phosphorylating the subunit of ribosomal S6, while p-4E-BP1 in conjunction with other translational control proteins stimulated mRNA translation by releasing eIF4E to be linked with the 5 ' end of mRNA [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:20:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:03Z",
+  "trigger" : "stimulated",
+  "evidence" : [ "S6, while p-4E-BP1 in conjunction with other translational control proteins stimulated mRNA translation" ],
+  "pmc_id" : "5215517",
+  "score" : 0
+}

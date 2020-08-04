@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42081",
+      "entity_text" : "CD86",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000763" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Our data and data from the recent study are somewhat different from a previous study showing that DCs generated with low GM-CSF (5 U/mL) expressed low levels of CD86 and represent immature DCs while DCs generated with high (100 U/mL) GM-CSF expressed high levels of CD86.",
+  "reading_complete" : "2020-08-04T12:14:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:12:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CD86" ],
+  "pmc_id" : "6120981",
+  "score" : 0
+}

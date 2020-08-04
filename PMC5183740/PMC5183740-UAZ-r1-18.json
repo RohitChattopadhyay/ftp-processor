@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "endotoxin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0647" ],
+      "CellType" : [ "cl:CL:0000899" ]
+    }
+  },
+  "verbose_text" : "The endotoxin levels per injection were below 150 EU, which is below the accepted endotoxin limit in humans; nevertheless, endotoxins may have contributed to the local response and possibly to the deleterious priming.",
+  "reading_complete" : "2020-08-04T12:41:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:38:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "endotoxin levels" ],
+  "pmc_id" : "5183740",
+  "score" : 0
+}

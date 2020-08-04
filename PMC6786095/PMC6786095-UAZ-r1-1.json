@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1118",
+      "entity_text" : "sulfuric acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6497",
+      "entity_text" : "dimethyl sulfate",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The pH of the reaction was kept at 11.5 by continuously adding NaOH to the reaction to compensate for the rapid hydrolysis of dimethyl sulfate that produced sulfuric acid.",
+  "reading_complete" : "2020-08-04T12:35:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:31:25Z",
+  "trigger" : "produced",
+  "evidence" : [ "dimethyl sulfate that produced sulfuric acid" ],
+  "pmc_id" : "6786095",
+  "score" : 0
+}

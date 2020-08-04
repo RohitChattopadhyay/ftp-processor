@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95786",
+      "entity_text" : "RIG-I",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15646",
+      "entity_text" : "OASL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This observation, combined with that truncations of avian and mammalian non enzymatic OASL proteins, did not prevent against virus infection, indicates that the OLD domain of OASL is sufficient to mediate the interaction between OASL and RIG-I but insufficient to enhance RIG-I signaling.",
+  "reading_complete" : "2020-08-04T12:38:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:34:24Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between OASL and RIG-I" ],
+  "pmc_id" : "6019448",
+  "score" : 0
+}

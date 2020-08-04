@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:99716",
+      "entity_text" : "ED",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11321969",
+      "entity_text" : "TT",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The inverse association between TT and ED is most likely due to the increase of SHBG.",
+  "reading_complete" : "2020-08-04T12:39:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:39:19Z",
+  "trigger" : "association",
+  "evidence" : [ "association between TT and ED" ],
+  "pmc_id" : "4708342",
+  "score" : 0
+}

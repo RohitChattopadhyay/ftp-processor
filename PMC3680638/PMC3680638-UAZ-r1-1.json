@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13635",
+      "entity_text" : "PTCH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6993105",
+      "entity_text" : "Hh",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7227" ],
+      "TissueType" : [ "tissuelist:TS-0516" ]
+    }
+  },
+  "verbose_text" : "When the Hh ligand binds to PTCH, the inhibitory effects on Smo are released allowing the signal to propagate.",
+  "reading_complete" : "2020-08-04T11:40:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:35:16Z",
+  "trigger" : "binds",
+  "evidence" : [ "Hh ligand binds to PTCH" ],
+  "pmc_id" : "3680638",
+  "score" : 0
+}

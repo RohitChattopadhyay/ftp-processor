@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32302",
+      "entity_text" : "CXCR5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000899" ]
+    }
+  },
+  "verbose_text" : "We found that the TFH cells expressed high levels of BCL6 and CXCR5 compared to naive T helper cells and TH17 cells.",
+  "reading_complete" : "2020-08-04T11:33:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:32:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of BCL6 and CXCR5" ],
+  "pmc_id" : "5835081",
+  "score" : 0
+}

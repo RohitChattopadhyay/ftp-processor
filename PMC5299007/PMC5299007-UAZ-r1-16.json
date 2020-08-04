@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:1280" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Nevertheless, as we only detected the phosphorylation of NF-kappaB in whole cell, it could not be excluded that there were NF-kappaB shifting from plasma to nucleus.",
+  "reading_complete" : "2020-08-04T12:01:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:00:25Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of NF-kappaB" ],
+  "pmc_id" : "5299007",
+  "score" : 0
+}

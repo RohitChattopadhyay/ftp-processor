@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "HFD caused an elevation in serum levels of total cholesterol and triglycerides at the age of 20 weeks.",
+  "reading_complete" : "2020-08-04T12:45:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of total cholesterol" ],
+  "pmc_id" : "6349710",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63146",
+      "entity_text" : "UBE2B",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In vitro analyses showed that testosterone increased UBE2B expression and activated H2A ubiquitylation, while downregulation of UBE2B blocked the testosterone induced H2A ubiquitylation.",
+  "reading_complete" : "2020-08-04T12:19:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:57Z",
+  "trigger" : "increased",
+  "evidence" : [ "testosterone increased UBE2B expression and activated H2A ubiquitylation" ],
+  "pmc_id" : "4708485",
+  "score" : 0
+}

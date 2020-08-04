@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "mesh:D059016",
+      "entity_text" : "tumor microenvironment",
+      "entity_type" : "bioprocess"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Systemic administration of TNFalpha can lead to hypotension and hepatotoxicity while IL-6 is known to be present in the tumor microenvironment, where it supports the survival and proliferation of cancer cells.",
+  "reading_complete" : "2020-08-04T12:05:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:04:21Z",
+  "trigger" : "supports",
+  "evidence" : [ "tumor microenvironment, where it supports the survival and proliferation" ],
+  "pmc_id" : "5879147",
+  "score" : 0
+}

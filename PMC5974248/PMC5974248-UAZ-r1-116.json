@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CV9",
+      "entity_text" : "optineurin",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "from_location_text" : "Golgi apparatus",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005794",
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This protection correlates with changes in the subcellular localization of optineurin, which translocates in a Rab8 GTPase dependent manner from the Golgi apparatus to the nucleus.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "translocates",
+  "evidence" : [ "optineurin, which translocates in a Rab8 GTPase-dependent manner from the Golgi apparatus to the nucleus" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

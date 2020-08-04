@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48061",
+      "entity_text" : "CXCL12",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Expression of CXCL12 within bone tissue is known to be important for retention of CXCR4 + HSPCs in hematopoietic niches and suppression of their mobilization.",
+  "reading_complete" : "2020-08-04T12:10:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:29Z",
+  "trigger" : "retention",
+  "evidence" : [ "CXCL12 within bone tissue is known to be important for retention of CXCR4" ],
+  "pmc_id" : "7344327",
+  "score" : 0
+}

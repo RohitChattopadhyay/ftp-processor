@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02975",
+      "entity_text" : "FcRn from rhesus monkey",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02979",
+      "entity_text" : "Nb218-H4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Cellular_component" : [ "go:GO:0005783" ]
+    }
+  },
+  "verbose_text" : "Besides hFcRn, we have found that Nb218-H4 binds strongly to FcRn from rhesus monkey, weakly to FcRn from pig, and not at all to FcRn from mouse and rat (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-04T11:33:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:32:16Z",
+  "trigger" : "binds",
+  "evidence" : [ "Nb218-H4 binds strongly to FcRn from rhesus monkey" ],
+  "pmc_id" : "3552320",
+  "score" : 0
+}

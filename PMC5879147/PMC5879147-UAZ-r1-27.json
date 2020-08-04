@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000860" ]
+    }
+  },
+  "verbose_text" : "While the accumulation of MDSC in inflammatory states was initially associated with increased TNFalpha and IL-6 levels, more recent data suggest that increased TNFalpha expression in the tumor microenvironment reduces MDSC infiltration and supports tumor regression.",
+  "reading_complete" : "2020-08-04T12:05:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:04:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-6 levels" ],
+  "pmc_id" : "5879147",
+  "score" : 0
+}

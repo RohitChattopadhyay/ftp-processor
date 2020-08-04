@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04012",
+      "entity_text" : "catenin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00028",
+      "entity_text" : "cadherin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005912" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Adherens junctions, which are the first critical event in junction formation, initiate from a cadherin - catenin complex.",
+  "reading_complete" : "2020-08-04T12:38:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:36:57Z",
+  "trigger" : "complex",
+  "evidence" : [ "cadherin-catenin complex" ],
+  "pmc_id" : "4213774",
+  "score" : 0
+}

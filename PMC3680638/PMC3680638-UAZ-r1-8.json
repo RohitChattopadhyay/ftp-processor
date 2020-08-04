@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99835",
+      "entity_text" : "Smo",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24776445",
+      "entity_text" : "vismodegib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E508" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Further evaluation implicated that this particular mutation affected vismodegib binding to Smo.",
+  "reading_complete" : "2020-08-04T11:40:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:35:16Z",
+  "trigger" : "binding",
+  "evidence" : [ "vismodegib binding to Smo" ],
+  "pmc_id" : "3680638",
+  "score" : 0
+}

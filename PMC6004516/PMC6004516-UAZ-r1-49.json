@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03122",
+      "entity_text" : "impact antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As C5 did not appear to impact antigen levels or Ab formation, these results suggest that C5 or corresponding C5 receptors are not required for this process to occur.",
+  "reading_complete" : "2020-08-04T11:58:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:55:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "impact antigen levels" ],
+  "pmc_id" : "6004516",
+  "score" : 0
+}

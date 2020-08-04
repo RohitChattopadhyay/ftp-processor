@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95786",
+      "entity_text" : "RIG-I",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15646",
+      "entity_text" : "OASL",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This observation is similar to the case in mammals, where one non enzymatic (hOASL) and one enzymatic OASL mutant (mOasl2-3D *) significantly enhanced the RIG-I activation, while their enzymatic OASL proteins (hOASL-3D and mOasl2) and another non enzymatic mutant (hOASL-R * K * K *) did not.",
+  "reading_complete" : "2020-08-04T12:38:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:34:24Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "OASL mutant (mOasl2-3D*) significantly enhanced the RIG-I" ],
+  "pmc_id" : "6019448",
+  "score" : 0
+}

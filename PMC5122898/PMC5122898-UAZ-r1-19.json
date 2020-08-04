@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PDGF",
+      "entity_text" : "PDGF",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04131",
+      "entity_text" : "alpha-Syn",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 53,
+        "feature_type" : "mutation",
+        "evidence" : "A53T"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The potency of alpha-Syn (A53T) to inhibit PDGF induced chemotaxis was stronger than that of the wild-type (XREF_FIG).",
+  "reading_complete" : "2020-08-04T12:47:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:45:10Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "alpha-Syn(A53T) to inhibit PDGF" ],
+  "pmc_id" : "5122898",
+  "score" : 0
+}

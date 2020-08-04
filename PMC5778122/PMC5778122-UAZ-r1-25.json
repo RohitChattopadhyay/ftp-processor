@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03532",
+      "entity_text" : "type II receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05112",
+      "entity_text" : "IL-4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0000912" ],
+      "CellType" : [ "cl:CL:0000094" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "IL-4 and IL-13 are unique in that these cytokines can bind to two distinct receptor complexes; in particular, IL-4 binds to the IL-4Ralpha chain and the type II receptor.",
+  "reading_complete" : "2020-08-04T12:24:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:21:42Z",
+  "trigger" : "binds",
+  "evidence" : [ "IL-4 binds to the IL-4Ralpha chain and the type II receptor" ],
+  "pmc_id" : "5778122",
+  "score" : 0
+}
