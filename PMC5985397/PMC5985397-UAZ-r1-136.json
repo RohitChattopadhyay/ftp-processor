@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01999",
+      "entity_text" : "miR-23a cluster promoter",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Notably, STAT3, but not STAT1, also binds to the miR-23a cluster promoter, suggesting that STAT3 may be involved in the miR-23a-mediated inhibition of M2 macrophage polarization.",
+  "reading_complete" : "2020-08-04T11:03:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:00:07Z",
+  "trigger" : "binds",
+  "evidence" : [ "STAT1, also binds to the miR-23a cluster promoter" ],
+  "pmc_id" : "5985397",
+  "score" : 0
+}
