@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01133",
+      "entity_text" : "EGF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833565",
+      "entity_text" : "heparin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In addition, inhibition of MMP, thereby preventing cleavage of heparin bound EGF and binding of EGF to its receptor, also prevented PROK1 mediated CTGF expression, further confirming that PROK1 signals via this pathway to regulate CTGF expression.",
+  "reading_complete" : "2020-08-04T18:12:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:11:09Z",
+  "trigger" : "bound",
+  "evidence" : [ "heparin-bound EGF" ],
+  "pmc_id" : "3005999",
+  "score" : 0
+}
