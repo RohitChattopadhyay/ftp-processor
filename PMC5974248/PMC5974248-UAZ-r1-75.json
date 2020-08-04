@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7010532",
+      "entity_text" : "VI",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CV9",
+      "entity_text" : "optineurin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "Interestingly, optineurin binding to myosin VI was also decreased in spinal cord lysates from sALS patients compared to controls, implying that dysfunction to optineurin is also present in the much more common sporadic forms of ALS.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "binding",
+  "evidence" : [ "optineurin binding to myosin VI" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

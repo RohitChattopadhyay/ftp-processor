@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CV9",
+      "entity_text" : "optineurin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:MAP1LC3",
+      "entity_text" : "LC3",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Optineurin interacts with LC3 via its LC3 interacting motif (LIR, Figure XREF_FIG), and the importance of this binding site is demonstrated by the fact that mutation to the LIR domain (F178A) abrogates LC3 binding to optineurin.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "binding",
+  "evidence" : [ "LC3 binding to optineurin" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

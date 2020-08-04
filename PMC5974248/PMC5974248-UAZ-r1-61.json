@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6K9",
+      "entity_text" : "NEMO",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CV9",
+      "entity_text" : "optineurin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, despite this similarity, optineurin did not bind to IKKbeta, IKKalpha, or NEMO and it also lacked kinase activity.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "bind",
+  "evidence" : [ "optineurin did not bind to IKKbeta, IKKalpha, or NEMO" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

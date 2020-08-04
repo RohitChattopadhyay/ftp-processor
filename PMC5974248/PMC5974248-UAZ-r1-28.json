@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAP1LC3",
+      "entity_text" : "LC3",
+      "entity_type" : "family"
+    },
+    "to_location_text" : "mitochondria",
+    "hypothesis_information" : true,
+    "to_location_id" : "go:GO:0005739",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "p62 was not required for optineurin / LC3 recruitment to damaged mitochondria in HeLa cells, implying that optineurin and p62 regulate mitophagy by different mechanisms.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "LC3 recruitment to damaged mitochondria" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}
