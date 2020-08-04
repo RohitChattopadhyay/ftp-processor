@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BY32",
+      "entity_text" : "ITPA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51580",
+      "entity_text" : "TPMT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Samples were also collected from patients with documented leukopenia in our prior study that examined the association between TPMT, ITPA, and neutropenia after informed reconsent.",
+  "reading_complete" : "2020-08-04T14:13:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:11:50Z",
+  "trigger" : "association",
+  "evidence" : [ "association between TPMT, ITPA" ],
+  "pmc_id" : "7090103",
+  "score" : 0
+}
