@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02204",
+      "entity_text" : "SRE-luc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The CRE-luc and SRE-luc assays showed higher maximum S/B than the NFAT-luc assay, but SRE mediated gene transcription is known to be rapidly induced by serum; thus, serum must be removed when transfecting cells with SRE-luc, which may cause cell death.",
+  "reading_complete" : "2020-08-04T10:50:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:49:51Z",
+  "trigger" : "cause",
+  "evidence" : [ "SRE-luc, which may cause cell death" ],
+  "pmc_id" : "4306921",
+  "score" : 0
+}

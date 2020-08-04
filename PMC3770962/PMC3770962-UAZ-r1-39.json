@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "10",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0395" ],
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Indeed, a study by Brazelle et al. XREF_BIBR in which various non small cell lung cancer cells were treated with 40 nM panobinostat documented a G2/M arrest but also noted a subtle increase in the phosphorylation of histone H3 at serine 10 and an increase in multinucleated cells that indicates mitotic catastrophe.",
+  "reading_complete" : "2020-08-04T10:49:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:48:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of histone H3 at serine 10" ],
+  "pmc_id" : "3770962",
+  "score" : 0
+}
