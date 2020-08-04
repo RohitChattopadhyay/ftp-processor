@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:305",
+      "entity_text" : "choline",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "CHKA catalyzes the phosphorylation of choline to form PCho, which is the first reaction in the CDP-choline pathway for PC synthesis, and PHOSPHO1 catalyzes the reverse reaction XREF_BIBR.",
+  "reading_complete" : "2020-08-04T10:15:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:14:16Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of choline" ],
+  "pmc_id" : "4325332",
+  "score" : 0
+}
