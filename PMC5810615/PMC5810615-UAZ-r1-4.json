@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04141",
+      "entity_text" : "CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0130" ]
+    }
+  },
+  "verbose_text" : "The CSF levels of catecholamine metabolite were within normal range in patient 3, but HVA and MHPG were close to the lower reference range limit, which may be related to testing error or severity of disease.",
+  "reading_complete" : "2020-08-04T19:18:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:16:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "CSF levels" ],
+  "pmc_id" : "5810615",
+  "score" : 0
+}
