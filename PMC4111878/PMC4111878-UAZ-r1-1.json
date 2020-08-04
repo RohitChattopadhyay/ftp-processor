@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01189",
+      "entity_text" : "pNPP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40347",
+      "entity_text" : "PTPase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The activity of PTPase catalyzed hydrolysis of pNPP was determined by measuring the amount of p-nitrophenol and the absorbance at 405 nm was recorded as the amount of p-nitrophenol.",
+  "reading_complete" : "2020-08-04T16:57:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:53:38Z",
+  "trigger" : "catalyzed",
+  "evidence" : [ "PTPase-catalyzed hydrolysis of pNPP" ],
+  "pmc_id" : "4111878",
+  "score" : 0
+}
