@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60568",
+      "entity_text" : "IL-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000010" ]
+    }
+  },
+  "verbose_text" : "The profile of measured factors was very similar to that obtained in a previous study, with the exception that we found higher levels of IL-2, IL-4, and IL-8 [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:16:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:14:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-2" ],
+  "pmc_id" : "5795917",
+  "score" : 0
+}
