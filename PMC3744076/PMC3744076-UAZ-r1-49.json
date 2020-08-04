@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13616",
+      "entity_text" : "Cul1",
+      "features" : [ {
+        "to_base" : "R",
+        "site" : 473,
+        "feature_type" : "mutation",
+        "evidence" : "R473E"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15393",
+      "entity_text" : "SAP130",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that SAP130 binds to both the neddylation deficient K720R Cul1 mutant and the neddylation enhanced K472E / R473E Cul1 mutant.",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "SAP130 binds to both the neddylation-deficient K720R Cul1 mutant and the neddylation-enhanced K472E/R473E Cul1" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06747",
+      "entity_text" : "Skp1-Skp2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15393",
+      "entity_text" : "SAP130",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that SAP130 binds to Cul1 and that overexpression of SAP130 inhibits binding of the adaptor and substrate receptor module Skp1-Skp2 to Cul1.",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "SAP130 inhibits binding of the adaptor and substrate receptor module Skp1-Skp2" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}
