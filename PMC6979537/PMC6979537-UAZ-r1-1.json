@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00375",
+      "entity_text" : "SDF",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "At each iteration the gradients of the cost function guide the back projected points with Pf> Pb towards the zero-level of the SDF and also force points with Pf < Pb to move outside the object.",
+  "reading_complete" : "2020-08-04T16:21:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:15:51Z",
+  "trigger" : "zero-level",
+  "evidence" : [ "zero-level of the SDF" ],
+  "pmc_id" : "6979537",
+  "score" : 0
+}
