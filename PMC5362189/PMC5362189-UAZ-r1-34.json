@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q43731",
+      "entity_text" : "p50",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0003387" ]
+    }
+  },
+  "verbose_text" : "As we all know, the p50 / p65 heterodimer of NF-kappaB is the most widely distributed kappaB binding factor [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:08:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:07:16Z",
+  "trigger" : "heterodimer",
+  "evidence" : [ "p50/p65 heterodimer" ],
+  "pmc_id" : "5362189",
+  "score" : 0
+}
