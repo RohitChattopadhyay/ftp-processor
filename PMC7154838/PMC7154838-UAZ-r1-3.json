@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22945",
+      "entity_text" : "NR protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:381124" ],
+      "TissueType" : [ "tissuelist:TS-1128" ]
+    }
+  },
+  "verbose_text" : "NR activity measured in presence of EDTA (NR max) is considered a reflection of the total amount of NR protein, whereas NR real reflects the activity of the dephosphorylated activated protein [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:58:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:47:19Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of NR protein" ],
+  "pmc_id" : "7154838",
+  "score" : 0
+}
