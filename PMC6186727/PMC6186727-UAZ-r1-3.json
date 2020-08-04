@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Organ" : [ "uberon:UBERON:0004533" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "MOTILIPERM treatment of VC induced groups or the groups administered FINA, CIS, adriamycin significantly increased left testis weight, testosterone level, sperm motility, count and spermatogenic cell density.",
+  "reading_complete" : "2020-08-04T14:14:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:13:53Z",
+  "trigger" : "level",
+  "evidence" : [ "testosterone level" ],
+  "pmc_id" : "6186727",
+  "score" : 0
+}

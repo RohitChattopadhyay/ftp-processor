@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0949" ]
+    }
+  },
+  "verbose_text" : "Rather, it was observed that patients with a resultant testosterone> = 250 ng/dL had a 22% higher sperm retrieval rate compared to patients with testosterone levels < 250 ng/dL.",
+  "reading_complete" : "2020-08-04T14:16:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:14:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "6087845",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0949" ]
+    }
+  },
+  "verbose_text" : "A significant (P < 0.01) decrease in sex hormone binding globulin of 30% was observed with a corresponding 36% increase in free testosterone levels (P < 0.01), Moreover, FSH, LH, and 17alpha-hydroxyprogesterone all experienced significant (P < 0.05) increases by 20%, 15%, and 90%, respectively.",
+  "reading_complete" : "2020-08-04T14:16:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:14:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "6087845",
+  "score" : 0
+}
