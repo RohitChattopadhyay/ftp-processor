@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:LH",
+      "entity_text" : "LH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "Organ" : [ "uberon:UBERON:0012317" ]
+    }
+  },
+  "verbose_text" : "This dose of DHT was selected after initial validation experiments, summarized in XREF_SUPPLEMENTARY, using a 3-fold higher dose of DHT (7.5 mg/capsule), which caused persistently elevated DHT but massively suppressed basal and kisspeptin stimulated LH levels.",
+  "reading_complete" : "2020-08-04T21:49:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:44:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "LH levels" ],
+  "pmc_id" : "6936723",
+  "score" : 0
+}
