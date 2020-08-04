@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0478" ],
+      "Organ" : [ "uberon:UBERON:0024151" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The additional otoconial mass did not contain detectable amounts of iron.",
+  "reading_complete" : "2020-08-04T15:29:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:28:40Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of iron" ],
+  "pmc_id" : "6124575",
+  "score" : 0
+}

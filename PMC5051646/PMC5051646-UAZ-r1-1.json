@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92834",
+      "entity_text" : "RPGR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P36405",
+      "entity_text" : "ARL3",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although not validated yet, GTP bound ARL3, a small GTPase that localizes to cilia, is expected to bind to PDE6D and induce the release of RPGR from PDE6D and eventually RPGR membrane anchoring.",
+  "reading_complete" : "2020-08-04T15:34:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:33:06Z",
+  "trigger" : "induce",
+  "evidence" : [ "GTP-bound ARL3, a small GTPase that localizes to cilia, is expected to bind to PDE6D and induce the release of RPGR" ],
+  "pmc_id" : "5051646",
+  "score" : 0
+}

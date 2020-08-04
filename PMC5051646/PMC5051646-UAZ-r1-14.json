@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43924",
+      "entity_text" : "PDE6D",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92834",
+      "entity_text" : "RPGR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "RPGRIP1 and RPGRIP1L may also be involved in the initial entry of the RPGR - PDE6D complex into the cilium.",
+  "reading_complete" : "2020-08-04T15:34:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:33:06Z",
+  "trigger" : "complex",
+  "evidence" : [ "RPGR-PDE6D complex" ],
+  "pmc_id" : "5051646",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16070",
+      "entity_text" : "CD44",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280343",
+      "entity_text" : "quercetin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This suggests that quercetin inhibits both non CD44 + / CD24 - and CD44 + / CD24 - CSCs (XREF_FIG).",
+  "reading_complete" : "2020-08-04T15:34:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:32:52Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "quercetin inhibits both non-CD44" ],
+  "pmc_id" : "5788241",
+  "score" : 0
+}

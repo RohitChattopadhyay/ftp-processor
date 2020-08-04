@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1109" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0013076" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "We also investigated the inhibition of snake venom metalloproteinases (SVMPs) that damage proteins in the extracellular matrix and hydrolyze collagen.",
+  "reading_complete" : "2020-08-04T15:30:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:29:17Z",
+  "trigger" : "hydrolyze",
+  "evidence" : [ "hydrolyze collagen" ],
+  "pmc_id" : "6451346",
+  "score" : 0
+}

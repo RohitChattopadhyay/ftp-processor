@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51159",
+      "entity_text" : "Rab27a",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q2QL34",
+      "entity_text" : "Mlph",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0613" ],
+      "Cellular_component" : [ "go:GO:0015629" ]
+    }
+  },
+  "verbose_text" : "Mlph binds with MyoVa at one end and Rab27a, which is itself targeted to the melanosomal membrane, at the other.",
+  "reading_complete" : "2020-08-04T15:32:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:30:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "Mlph binds with MyoVa at one end and Rab27a" ],
+  "pmc_id" : "2253553",
+  "score" : 0
+}
