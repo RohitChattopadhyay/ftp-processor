@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01275",
+      "entity_text" : "GLP-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "Thus, whether the observed effect of PRP-19 reflects a direct ubiquitination of GLP-1, or is indirectly related to its role in splicing, will need to be determined by future experiments.",
+  "reading_complete" : "2020-08-04T15:37:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:35:25Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of GLP-1" ],
+  "pmc_id" : "6078339",
+  "score" : 0
+}

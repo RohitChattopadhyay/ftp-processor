@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UKB5",
+      "entity_text" : "AJAP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0150" ],
+      "Cellular_component" : [ "go:GO:0031012" ]
+    }
+  },
+  "verbose_text" : "Deletion or epigenetic silencing, caused by hyper-methylation of the proximal promoter as shown in glioblastoma tumors, leads to loss of AJAP1 and is associated with cancer development.",
+  "reading_complete" : "2020-08-04T15:38:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:37:15Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of AJAP1" ],
+  "pmc_id" : "5483013",
+  "score" : 0
+}
