@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:311",
+      "entity_text" : "Citrate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1113" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Citrate synthase levels in flies expressing the linker were not altered compared to those in controls (XREF_FIG G), indicating that the mitochondrial fragmentation observed upon linker expression was not accompanied by a loss of mitochondrial mass.",
+  "reading_complete" : "2020-08-04T12:57:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:57:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "Citrate synthase levels" ],
+  "pmc_id" : "6994956",
+  "score" : 0
+}
