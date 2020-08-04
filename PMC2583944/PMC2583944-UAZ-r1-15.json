@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15431",
+      "entity_text" : "SCP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "CellType" : [ "cl:CL:0000017" ]
+    }
+  },
+  "verbose_text" : "Importantly, we show that in the normal human testis, the SC, and SCP1, SCP2 but not SCP3 are SUMOylated.",
+  "reading_complete" : "2020-08-04T22:29:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:28:41Z",
+  "trigger" : "SUMOylated",
+  "evidence" : [ "SCP1, SCP2 but not SCP3 are SUMOylated" ],
+  "pmc_id" : "2583944",
+  "score" : 0
+}

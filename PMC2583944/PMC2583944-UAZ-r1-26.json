@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96PL5",
+      "entity_text" : "SC",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "CellType" : [ "cl:CL:0000017" ]
+    }
+  },
+  "verbose_text" : "SC proteins are SUMOylated.",
+  "reading_complete" : "2020-08-04T22:29:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:28:41Z",
+  "trigger" : "SUMOylated",
+  "evidence" : [ "SC proteins are SUMOylated" ],
+  "pmc_id" : "2583944",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14595",
+      "entity_text" : "SCP2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000017" ]
+    }
+  },
+  "verbose_text" : "Herein, we demonstrate that specific SCPs, SCP1 and SCP2, are SUMOylated in the human testis.",
+  "reading_complete" : "2020-08-04T22:29:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:28:41Z",
+  "trigger" : "SUMOylated",
+  "evidence" : [ "SCP2, are SUMOylated" ],
+  "pmc_id" : "2583944",
+  "score" : 0
+}
