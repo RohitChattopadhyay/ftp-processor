@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03477",
+      "entity_text" : "Abeta 1-42",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49137",
+      "entity_text" : "MK2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As shown in XREF_FIG, the phosphorylation of MK2 was significantly up-regulated in the hippocampus of LPS or Abeta 1-42 -induced AD model mice, while MMI-0100 treatment markedly decreased p-MK2.",
+  "reading_complete" : "2020-08-04T12:21:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:17:36Z",
+  "trigger" : "up-regulated",
+  "evidence" : [ "MK2 was significantly up-regulated in the hippocampus of LPS or Abeta 1-42" ],
+  "pmc_id" : "6901946",
+  "score" : 0
+}

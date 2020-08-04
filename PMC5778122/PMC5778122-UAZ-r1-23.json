@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The interaction of LPS and IFN-gamma triggers downstream signaling leading to an inflammatory response.",
+  "reading_complete" : "2020-08-04T12:24:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:21:42Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of LPS and IFN-gamma" ],
+  "pmc_id" : "5778122",
+  "score" : 0
+}
