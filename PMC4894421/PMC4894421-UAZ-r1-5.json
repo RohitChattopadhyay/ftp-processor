@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Critically, this allows us to model situations where, during the time of decreasing glucose levels, ISF glucose may fall in advance of blood glucose and reach nadir values that are lower than the corresponding blood glucose levels XREF_BIBR XREF_BIBR.",
+  "reading_complete" : "2020-08-04T13:53:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:52:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4894421",
+  "score" : 0
+}
