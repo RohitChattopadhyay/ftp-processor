@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63162",
+      "entity_text" : "SNRPN",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005694" ]
+    }
+  },
+  "verbose_text" : "A normal person or normal hESCs have both methylated and unmethylated SNRPN gene sites.",
+  "reading_complete" : "2020-08-04T22:17:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:15:49Z",
+  "trigger" : "unmethylated",
+  "evidence" : [ "unmethylated SNRPN" ],
+  "pmc_id" : "2538585",
+  "score" : 0
+}

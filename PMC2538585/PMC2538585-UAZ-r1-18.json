@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63162",
+      "entity_text" : "SNRPN",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000805" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "MSP analysis demonstrated that all of the hESC lines have a normal SNRPN methylation status.",
+  "reading_complete" : "2020-08-04T22:17:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:15:49Z",
+  "trigger" : "methylation",
+  "evidence" : [ "SNRPN methylation" ],
+  "pmc_id" : "2538585",
+  "score" : 0
+}
