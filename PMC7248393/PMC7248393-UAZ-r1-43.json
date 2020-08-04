@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009336",
+      "entity_text" : "necrosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF-1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This tends to drive cells toward a necrotic phenotype, but the activity of HIF-1alpha antagonizes the induction of necrosis.",
+  "reading_complete" : "2020-08-04T10:21:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:15:23Z",
+  "trigger" : "antagonizes",
+  "evidence" : [ "HIF-1alpha antagonizes the induction of necrosis" ],
+  "pmc_id" : "7248393",
+  "score" : 0
+}

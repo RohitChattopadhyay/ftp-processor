@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y572",
+      "entity_text" : "RIPK3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Necroptosis is negatively regulated by caspase-8 and inhibitor of apoptosis proteins (IAPs), with the inactivation of caspase-8 resulting in the phosphorylation and activation of RIPK1, RIPK3, and MLKL which complex together to form the necrosome.",
+  "reading_complete" : "2020-08-04T10:21:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:15:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and activation of RIPK1, RIPK3" ],
+  "pmc_id" : "7248393",
+  "score" : 0
+}

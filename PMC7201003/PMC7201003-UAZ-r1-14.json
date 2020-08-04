@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14210",
+      "entity_text" : "sfGFP",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:103820" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "To investigate if a lack of proteoglycans might affect subcellular localization of intracellular bacteria, CHO WT and CHO DeltaXylT cells were infected with a S. Typhimurium reporter strain expressing DsRed protein constitutively and sfGFP only when bacteria are located in the cytosol.",
+  "reading_complete" : "2020-08-04T10:22:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:21:23Z",
+  "trigger" : "expressing",
+  "evidence" : [ "expressing DsRed protein constitutively and sfGFP" ],
+  "pmc_id" : "7201003",
+  "score" : 0
+}

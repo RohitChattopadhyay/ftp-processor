@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9TU27",
+      "entity_text" : "Il12p35",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "To exclude the participation of IL-35 cytokine because it is formed by EBI3 and IL12p35, we analyzed the gene expression of Il12p35 in the same tissues; however, we did not detect any difference in all times analyzed (XREF_FIG).",
+  "reading_complete" : "2020-08-04T10:25:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:24:33Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Il12p35" ],
+  "pmc_id" : "6997342",
+  "score" : 0
+}
