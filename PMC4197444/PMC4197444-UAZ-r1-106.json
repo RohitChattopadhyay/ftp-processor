@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine 705",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "Stat3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Stat3 phosphorylation at tyrosine 705 is essential for mESC-self-renewal mediated by Stat3.",
+  "reading_complete" : "2020-08-04T14:53:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:52:27Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Stat3 phosphorylation at tyrosine 705" ],
+  "pmc_id" : "4197444",
+  "score" : 0
+}

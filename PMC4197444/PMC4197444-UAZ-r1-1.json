@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine 705",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "Stat3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Upon stimulation by cytokines, Stat3 is first recruited to the receptors via its Src-homology-2 (SH2) domain, and then phosphorylated on tyrosine 705, leading to dimerization and translocation to the nucleus, where it binds specific DNA sequences and activates target gene transcription.",
+  "reading_complete" : "2020-08-04T14:53:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:52:27Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Stat3 is first recruited to the receptors via its Src-homology-2 (SH2) domain, and then phosphorylated on tyrosine 705" ],
+  "pmc_id" : "4197444",
+  "score" : 0
+}

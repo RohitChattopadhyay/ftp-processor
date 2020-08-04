@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "Stat3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We examined Stat3 phosphorylation levels in B6-S3Y118F mESCs and found that the Stat3 phosphorylation level was significantly elevated in B6-S3Y118F mESCs treated with GCSF than ESCs treated with LIF and that the Stat3 phosphorylation level could be modulated via applying varying concentrations of GCSF and JAKi.",
+  "reading_complete" : "2020-08-04T14:53:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:52:27Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Stat3 phosphorylation" ],
+  "pmc_id" : "4197444",
+  "score" : 0
+}

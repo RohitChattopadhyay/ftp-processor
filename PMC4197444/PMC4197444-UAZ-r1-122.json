@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "Stat3",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "We examined total and phosphorylated Stat3 levels in LIF stimulated B6 mESCs and found that they were both markedly lower than that of LIF stimulated 46C mESCs, a feeder independent ESC line derived from the 129 strain of mouse (supplementary material Fig. S1A, B).",
+  "reading_complete" : "2020-08-04T14:53:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:52:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "Stat3 levels" ],
+  "pmc_id" : "4197444",
+  "score" : 0
+}

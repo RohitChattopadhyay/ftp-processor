@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52951",
+      "entity_text" : "Gbx2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Not surprisingly, expression of Gbx2 and Klf4, which are also the downstream targets of Stat3, were initially upregulated but then quickly downregulated 4-8 hours after the addition of GCSF (supplementary material Fig. S3), indicating rapid differentiation of B6-S3Y118F mESCs induced by GCSF.",
+  "reading_complete" : "2020-08-04T14:53:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:52:27Z",
+  "trigger" : "downregulated",
+  "evidence" : [ "Gbx2 and Klf4, which are also the downstream targets of Stat3, were initially upregulated but then quickly downregulated 4-8 hours after the addition of GCSF (supplementary material Fig. S3), indicating rapid differentiation" ],
+  "pmc_id" : "4197444",
+  "score" : 0
+}
