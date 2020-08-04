@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In addition, increased levels of TNF-alpha have been correlated with a greater risk of disease progression, relapse, and difficulty with treatment [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:15:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:12:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "3510393",
+  "score" : 0
+}
