@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23976",
+      "entity_text" : "chromium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Organ" : [ "uberon:UBERON:0000004" ],
+      "Species" : [ "taxonomy:1313" ]
+    }
+  },
+  "verbose_text" : "The highest amount of chromium was noted in Brassica campestris 200mg/kg and in Recipe 1 was 199mg/kg.",
+  "reading_complete" : "2020-08-04T17:12:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:08:22Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of chromium" ],
+  "pmc_id" : "6918150",
+  "score" : 0
+}
