@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29965",
+      "entity_text" : "CD40L",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0001772" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Currently, there is some evidence that the expression of CD40 on CD8 + T cells is important in some models of CD8 + T cell activation and since CD40L is expressed on CD8 + T cells themselves, it may be possible that CD8 + T cell-T cell interactions involving CD40-CD40L may be relevant.",
+  "reading_complete" : "2020-08-04T10:32:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:30:30Z",
+  "trigger" : "expressed",
+  "evidence" : [ "CD40L is expressed" ],
+  "pmc_id" : "5672143",
+  "score" : 0
+}

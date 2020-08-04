@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Indeed, B cells are not only a relevant source of pro inflammatory, but moreover of anti-inflammatory cytokines : while antigen activated B cells mostly secrete pro inflammatory ones, antigen-naive B cells, plasmablasts, and plasma cells produce relevant amounts of anti-inflammatory IL-10, IL-35, and transforming growth factor beta (TGF-beta).",
+  "reading_complete" : "2020-08-04T10:35:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:33:50Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of anti-inflammatory IL-10" ],
+  "pmc_id" : "6375838",
+  "score" : 0
+}

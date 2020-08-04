@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03403",
+      "entity_text" : "sp",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000978" ]
+    }
+  },
+  "verbose_text" : "The GO spectrum contains a large D band again due to defects, which in this case are the sp 3 hybridised carbon bound to the oxygen containing groups.",
+  "reading_complete" : "2020-08-04T10:35:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:32:51Z",
+  "trigger" : "bound",
+  "evidence" : [ "sp 3  hybridised carbon bound to the oxygen" ],
+  "pmc_id" : "6445062",
+  "score" : 0
+}
