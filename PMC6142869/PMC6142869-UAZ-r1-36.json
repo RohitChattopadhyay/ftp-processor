@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR029643",
+      "entity_text" : "calpain-1",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Binding of calcium to calpain-1 and calpain-2 can induce the release of a regulatory subunit, sequentially activating a catalytic subunit.",
+  "reading_complete" : "2020-08-04T17:05:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:03:32Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of calcium to calpain-1" ],
+  "pmc_id" : "6142869",
+  "score" : 0
+}

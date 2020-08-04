@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003020",
+      "entity_text" : "AE",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "According to the MTT assay, AE significantly reduced cell viability in SW620 cells (XREF_FIG) and HT-29 cells (XREF_FIG) at the concentration of 10, 20, and 40 muM.",
+  "reading_complete" : "2020-08-04T17:05:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:03:32Z",
+  "trigger" : "reduced",
+  "evidence" : [ "AE significantly reduced cell viability" ],
+  "pmc_id" : "6142869",
+  "score" : 0
+}

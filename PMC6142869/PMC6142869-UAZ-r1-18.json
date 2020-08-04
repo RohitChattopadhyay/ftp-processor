@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "p-eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZJ5",
+      "entity_text" : "PERK",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The dissociation of GRP78 from PERK initiates the phosphorylation of PERK and activates the downstream protein p-eIF2alpha [XREF_BIBR], which finally induces upregulation of CHOP (C/EBP homologous protein), which plays a vital role in promoting cell apoptosis.",
+  "reading_complete" : "2020-08-04T17:05:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:03:32Z",
+  "trigger" : "activates",
+  "evidence" : [ "PERK and activates the downstream protein p-eIF2alpha" ],
+  "pmc_id" : "6142869",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0320" ],
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "After treatment with various concentrations of AE (10, 20, and 40 muM), cell proliferation, cell apoptosis, reactive oxygen species (ROS) generation, cytosolic calcium level, and related gene expression were analyzed.",
+  "reading_complete" : "2020-08-04T17:05:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:03:32Z",
+  "trigger" : "level",
+  "evidence" : [ "calcium level" ],
+  "pmc_id" : "6142869",
+  "score" : 0
+}

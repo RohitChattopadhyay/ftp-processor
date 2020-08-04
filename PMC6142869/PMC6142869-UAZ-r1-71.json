@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB02168",
+      "entity_text" : "superoxide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0547" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005783" ]
+    }
+  },
+  "verbose_text" : "The intracellular hydrogen peroxide and superoxide levels were detected by flow cytometric assay.",
+  "reading_complete" : "2020-08-04T17:05:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:03:32Z",
+  "trigger" : "levels",
+  "evidence" : [ "superoxide levels" ],
+  "pmc_id" : "6142869",
+  "score" : 0
+}
