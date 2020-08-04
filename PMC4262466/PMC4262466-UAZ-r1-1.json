@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "Transferrin in high concentrations can inhibit FSH to interact with its receptors on the granulosa cells and this can affect the maturation of oocytes by decreasing the levels of cAMP.",
+  "reading_complete" : "2020-08-04T20:28:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:26:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cAMP" ],
+  "pmc_id" : "4262466",
+  "score" : 0
+}

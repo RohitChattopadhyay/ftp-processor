@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48431",
+      "entity_text" : "Sox2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86X55",
+      "entity_text" : "CARM1",
+      "features" : [ {
+        "modification_type" : "methylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of the histone methyltransferase that methylates this residue on H3, PRMT4 / CARM1, into individual blastomeres not only induced upregulation of Nanog and Sox2, but also resulted in an almost complete allocation of these blastomeres into the ICM compartment.",
+  "reading_complete" : "2020-08-04T20:30:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:29:37Z",
+  "trigger" : "induced",
+  "evidence" : [ "CARM1, into individual blastomeres not only induced upregulation of Nanog and Sox2" ],
+  "pmc_id" : "2387218",
+  "score" : 0
+}
