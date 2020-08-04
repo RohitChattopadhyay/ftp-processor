@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00671",
+      "entity_text" : "TFIIH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00744",
+      "entity_text" : "holo",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0015629" ]
+    }
+  },
+  "verbose_text" : "Therefore, while the failure of XPG-CSB and XPG-XPB interactions likely cause defects in the stability of the holo - TFIIH complex, it is still possible that other mechanism (s) are involved in CSB and XPB/CS.",
+  "reading_complete" : "2020-08-04T09:37:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:35:05Z",
+  "trigger" : "complex",
+  "evidence" : [ "holo-TFIIH complex" ],
+  "pmc_id" : "3892158",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00707",
+      "entity_text" : "tpm1Delta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Rad2p induced hyper-polarized cell growth is suppressed by tpm1Delta.",
+  "reading_complete" : "2020-08-04T09:37:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:35:05Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "cell growth is suppressed by tpm1Delta" ],
+  "pmc_id" : "3892158",
+  "score" : 0
+}

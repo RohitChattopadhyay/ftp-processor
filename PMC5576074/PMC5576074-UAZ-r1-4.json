@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00664",
+      "entity_text" : "cyclooxigenase-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In vitro, Tec inhibited the expression levels of type X collagen, cyclooxigenase-2, matrix metalloproteinase (MMP) -3 and MMP-13, but enhanced the expression of Runx1, type II collagen and aggrecan in the presence of IL-1beta.",
+  "reading_complete" : "2020-08-04T09:35:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:34:04Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "cyclooxigenase-2, matrix metalloproteinase (MMP)-3 and MMP-13, but enhanced the expression of Runx1, type II collagen and aggrecan in the presence of IL-1beta" ],
+  "pmc_id" : "5576074",
+  "score" : 0
+}

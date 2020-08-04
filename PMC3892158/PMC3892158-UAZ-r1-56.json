@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P39748",
+      "entity_text" : "RAD2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Moreover, the cell growth arrest and mitotic catastrophe induced by overexpression of yeast RAD2 alone suggest a role for RAD2 in cell cycle regulation.",
+  "reading_complete" : "2020-08-04T09:37:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:35:05Z",
+  "trigger" : "induced",
+  "evidence" : [ "cell growth arrest and mitotic catastrophe induced by overexpression of yeast RAD2" ],
+  "pmc_id" : "3892158",
+  "score" : 0
+}
