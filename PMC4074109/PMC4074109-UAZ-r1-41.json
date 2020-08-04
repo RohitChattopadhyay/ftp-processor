@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "High levels of ROS can induce cell death, which has previously been explained as the result of apoptosis that occurs through the activation of caspase [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:56:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:55:12Z",
+  "trigger" : "induce",
+  "evidence" : [ "ROS can induce cell death" ],
+  "pmc_id" : "4074109",
+  "score" : 0
+}

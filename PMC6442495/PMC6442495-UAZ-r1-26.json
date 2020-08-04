@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "Compared to the insulin group, the levels of MDA, SOD, and GSH-PX significantly decreased in the metformin group.",
+  "reading_complete" : "2020-08-04T18:59:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:56:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MDA" ],
+  "pmc_id" : "6442495",
+  "score" : 0
+}

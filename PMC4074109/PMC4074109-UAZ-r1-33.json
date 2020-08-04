@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser536",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9986" ],
+      "TissueType" : [ "uaz:CVCL_9S75" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Quantitative analysis of the immunoblotting bands indicated p65 phosphorylation at Ser536 increased 4.61-fold compared to control within as little as 15 min of supplementation of H 2 O 2.",
+  "reading_complete" : "2020-08-04T18:56:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:55:12Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p65 phosphorylation at Ser536" ],
+  "pmc_id" : "4074109",
+  "score" : 0
+}

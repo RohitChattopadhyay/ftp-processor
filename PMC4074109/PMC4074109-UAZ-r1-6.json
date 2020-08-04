@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser365",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "uaz:CVCL_9S75" ],
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Interestingly, with the treatment of H 2 O 2 on HUVECs, the phosphorylation of p65 at Ser365 was elevated, while total level of p65 protein remained the same.",
+  "reading_complete" : "2020-08-04T18:56:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:55:12Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of p65 at Ser365" ],
+  "pmc_id" : "4074109",
+  "score" : 0
+}

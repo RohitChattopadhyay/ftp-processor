@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000120" ]
+    }
+  },
+  "verbose_text" : "Metformin is a clinically common first-line agent for the treatment of type 2 diabetes, which can reduce insulin resistance, reduce liver glycogen formation, promote the use of peripheral glucose, and then effectively control blood glucose levels.",
+  "reading_complete" : "2020-08-04T18:59:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:56:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6442495",
+  "score" : 0
+}
