@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14778",
+      "entity_text" : "IL-1Ra",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has been demonstrated that following interaction with medical-grade concentrator beads, the post-conditioned serum level of IL-1Ra is significantly elevated in relation to IL-1b [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:05:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:57:51Z",
+  "trigger" : "level",
+  "evidence" : [ "level of IL-1Ra" ],
+  "pmc_id" : "7219223",
+  "score" : 0
+}

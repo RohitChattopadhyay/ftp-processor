@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151134",
+      "entity_text" : "Fe",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The primary role of ferritin is to protect cells from the damage caused by the Fenton reaction; where, in oxidising conditions, free Fe (II) produces harmful reactive oxygen species that can damage the cellular machinery XREF_BIBR.",
+  "reading_complete" : "2020-08-04T16:02:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:00:40Z",
+  "trigger" : "produces",
+  "evidence" : [ "Fe(II) produces harmful reactive oxygen" ],
+  "pmc_id" : "4571993",
+  "score" : 0
+}
