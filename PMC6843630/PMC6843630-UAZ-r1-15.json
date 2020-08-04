@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5462224",
+      "entity_text" : "Mg",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q21YM9",
+      "entity_text" : "Rubisco",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0539" ],
+      "Species" : [ "taxonomy:112509" ]
+    }
+  },
+  "verbose_text" : "When Rubisco binds to Mg 2+, carboxylation is favored and proceeds 4 to 11 times faster than oxygenation, but when Rubisco binds to Mn 2+ carboxylation and oxygenation occur at similar rates [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T19:46:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:36:30Z",
+  "trigger" : "binds",
+  "evidence" : [ "Rubisco binds to Mg" ],
+  "pmc_id" : "6843630",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12852",
+      "entity_text" : "cupin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16790",
+      "entity_text" : "Mn",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0200" ],
+      "Species" : [ "taxonomy:112509" ]
+    }
+  },
+  "verbose_text" : "When Mn was bound to the cupin site it possessed high thermodynamic stability and no ligand exchange with Cu 2+ or Zn 2+ was observed.",
+  "reading_complete" : "2020-08-04T19:46:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:36:30Z",
+  "trigger" : "bound",
+  "evidence" : [ "Mn was bound to the cupin" ],
+  "pmc_id" : "6843630",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12252",
+      "entity_text" : "side",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16790",
+      "entity_text" : "Mn",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "His" ],
+    "context" : {
+      "Species" : [ "taxonomy:112509" ],
+      "TissueType" : [ "tissuelist:TS-0210" ],
+      "Cellular_component" : [ "go:GO:0048046" ]
+    }
+  },
+  "verbose_text" : "Crystallographic assessment of OxOx from barley has revealed that Mn is bound by the side chains of a 3 His cluster and 1 Glu residue, as well as two adjacent water molecules in an octahedral (Oh, XREF_FIG a) metal complex [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T19:46:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:36:30Z",
+  "trigger" : "bound",
+  "evidence" : [ "Mn is bound by the side chains of a 3 His" ],
+  "pmc_id" : "6843630",
+  "score" : 0
+}

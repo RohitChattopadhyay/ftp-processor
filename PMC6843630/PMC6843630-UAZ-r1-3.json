@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5462224",
+      "entity_text" : "Mg",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001423" ],
+      "Species" : [ "taxonomy:112509" ]
+    }
+  },
+  "verbose_text" : "Khrustalev et al. [XREF_BIBR] investigated several hundred Mn and Mg metalloproteins and found that Mg and Mn are typically bound to oxygen in the carboxylate groups of Asp and Glu.",
+  "reading_complete" : "2020-08-04T19:46:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:36:30Z",
+  "trigger" : "bound",
+  "evidence" : [ "Mg and Mn are typically bound to oxygen" ],
+  "pmc_id" : "6843630",
+  "score" : 0
+}
