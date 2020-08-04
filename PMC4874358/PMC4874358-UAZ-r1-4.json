@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03815",
+      "entity_text" : "H3K4me3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07395",
+      "entity_text" : "RAG1 endonuclease",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As a complex, RAG1 endonuclease binds to the RSS, while RAG2 binds to trimethylated histone 3 lysine 4 (H3K4me3).",
+  "reading_complete" : "2020-08-04T15:28:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:27:24Z",
+  "evidence" : [ "RAG1 endonuclease binds to the RSS, while RAG2 binds to trimethylated histone 3 lysine 4 (H3K4me3" ],
+  "pmc_id" : "4874358",
+  "score" : 0
+}
