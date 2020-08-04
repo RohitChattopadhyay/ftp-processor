@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02403",
+      "entity_text" : "AAV capsid",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00150",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ]
+    }
+  },
+  "verbose_text" : "Interestingly, some individuals carry non neutralizing IgG binding to the AAV capsid.",
+  "reading_complete" : "2020-08-04T11:18:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:15:48Z",
+  "trigger" : "binding",
+  "evidence" : [ "IgG binding to the AAV capsid" ],
+  "pmc_id" : "7181373",
+  "score" : 0
+}

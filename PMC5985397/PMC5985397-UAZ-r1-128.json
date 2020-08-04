@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001816",
+      "entity_text" : "cytokine production",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00842",
+      "entity_text" : "miR-155",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Induction of miR-155 significantly decreases the cytokine production in TAMs via inhibiting the expression of C/EBP-beta at both mRNA and protein levels.",
+  "reading_complete" : "2020-08-04T11:03:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:00:07Z",
+  "trigger" : "decreases",
+  "evidence" : [ "miR-155 significantly decreases the cytokine production" ],
+  "pmc_id" : "5985397",
+  "score" : 0
+}

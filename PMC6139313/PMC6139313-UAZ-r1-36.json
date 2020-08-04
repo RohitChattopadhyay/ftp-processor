@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "CellType" : [ "cl:CL:0000160" ]
+    }
+  },
+  "verbose_text" : "Consistent with these phenotypes, higher levels of TNF-alpha, IFN-gamma, and IL-6 were detected in the serum of FADD-DN mice, while no significant differences in IL-12p40 and IL-1beta.",
+  "reading_complete" : "2020-08-04T11:04:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:03:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "6139313",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02137",
+      "entity_text" : "KIR-L",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02157",
+      "entity_text" : "aKIR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11096" ],
+      "TissueType" : [ "tissuelist:TS-0114" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "Remarkably, this aKIR / KIR-L interaction is highly peptide dependent.",
+  "reading_complete" : "2020-08-04T11:10:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:05:52Z",
+  "trigger" : "interaction",
+  "evidence" : [ "aKIR/KIR-L interaction" ],
+  "pmc_id" : "6558367",
+  "score" : 0
+}

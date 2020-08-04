@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "Inositol monophosphatase domain containing 1 (Impad1) encodes gPAPP, which is a Golgi-resident nucleotide phosphatase that hydrolyzes phosphoadenosine phosphate (PAP), the by-product of sulfotransferase reactions, to AMP.",
+  "reading_complete" : "2020-08-04T11:15:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:14:37Z",
+  "trigger" : "hydrolyzes",
+  "evidence" : [ "hydrolyzes phosphoadenosine phosphate" ],
+  "pmc_id" : "7057111",
+  "score" : 0
+}

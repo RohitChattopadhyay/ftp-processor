@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81460",
+      "entity_text" : "Con A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR002959",
+      "entity_text" : "TNFalpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our current data shows that mirtazapine treatment suppresses Con A induced hepatic macrophage / monocyte TNFalpha production, and significantly attenuates the Con A induced increase in hepatic TNFalpha levels, which in turn inhibits the development of Con A hepatitis.",
+  "reading_complete" : "2020-08-04T11:28:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:25:15Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "TNFalpha levels, which in turn inhibits the development of Con A" ],
+  "pmc_id" : "6474187",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28907",
+      "entity_text" : "CD38",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02454",
+      "entity_text" : "daratumumab",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, while daratumumab inhibits CD38 cyclase activity, it in turn enhances hydrolase enzymatic activity.",
+  "reading_complete" : "2020-08-04T11:24:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:21:24Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "daratumumab inhibits CD38" ],
+  "pmc_id" : "6048227",
+  "score" : 0
+}
