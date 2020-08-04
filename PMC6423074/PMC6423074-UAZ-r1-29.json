@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40692",
+      "entity_text" : "MLH1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54278",
+      "entity_text" : "PMS2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E012" ],
+      "Species" : [ "taxonomy:157914" ]
+    }
+  },
+  "verbose_text" : "Unexpectedly, endonuclease complex PMS2 / MLH1, which is involved in ncMMR by making the incision for exonuclease EXO1, has a very small to no effect on A/T mutagenesis.",
+  "reading_complete" : "2020-08-04T10:38:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:36:09Z",
+  "trigger" : "complex",
+  "evidence" : [ "complex PMS2/MLH1" ],
+  "pmc_id" : "6423074",
+  "score" : 0
+}
