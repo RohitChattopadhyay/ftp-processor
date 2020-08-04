@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BZW7",
+      "entity_text" : "TSGA10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1090" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Patients with high expression levels of TSGA10 had significantly reduced overall survival (OS) in months compared with patients with low expression levels, and the patients in the higher expression group had reduced OS in months (XREF_FIG).",
+  "reading_complete" : "2020-08-04T17:10:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:08:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TSGA10" ],
+  "pmc_id" : "6652375",
+  "score" : 0
+}

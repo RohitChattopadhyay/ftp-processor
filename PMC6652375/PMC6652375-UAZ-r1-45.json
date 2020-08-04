@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BZW7",
+      "entity_text" : "TSGA10",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Also, TSGA10 expression reduced cell apoptosis and facilitated cell migration as well as EMT in vitro.",
+  "reading_complete" : "2020-08-04T17:10:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:08:45Z",
+  "trigger" : "reduced",
+  "evidence" : [ "TSGA10 expression reduced cell apoptosis" ],
+  "pmc_id" : "6652375",
+  "score" : 0
+}
