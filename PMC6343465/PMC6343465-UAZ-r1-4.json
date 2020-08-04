@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:LH",
+      "entity_text" : "LH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0949" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Predictors collected by routine tests for NOA patients undergoing TESA, such as LH levels, were excluded from the prediction model because of the lack of association with outcomes.",
+  "reading_complete" : "2020-08-04T18:25:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:23:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "LH levels" ],
+  "pmc_id" : "6343465",
+  "score" : 0
+}
