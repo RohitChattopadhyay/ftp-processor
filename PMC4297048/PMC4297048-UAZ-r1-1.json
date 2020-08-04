@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "CellLine" : [ "cellosaurus:CVCL_D990" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000134" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR - XREF_BIBR By systematic penetration of the subchondral bone plate, microfracture leads to formation of a blood clot that contains pluripotent, marrow derived mesenchymal stem cells, which develops into a fibrocartilage repair tissue with varying amounts of type II collagen content.",
+  "reading_complete" : "2020-08-04T21:33:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:32:32Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of type II collagen" ],
+  "pmc_id" : "4297048",
+  "score" : 0
+}

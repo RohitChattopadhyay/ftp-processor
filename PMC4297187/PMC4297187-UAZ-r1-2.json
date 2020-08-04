@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08137",
+      "entity_text" : "DVL",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02396",
+      "entity_text" : "LRP5/6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The activation of FZD and LRP5/6 triggers phosphorylation of DVL, which disrupts the beta-catenin degradation complex, consisting of AXIN, APC, and GSK-3beta.",
+  "reading_complete" : "2020-08-04T21:37:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:35:44Z",
+  "trigger" : "triggers",
+  "evidence" : [ "LRP5/6 triggers phosphorylation of DVL" ],
+  "pmc_id" : "4297187",
+  "score" : 0
+}
