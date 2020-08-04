@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:VEGFR",
+      "entity_text" : "VEGF receptor",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "Dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Dopamine agonists inhibit VEGF receptor phosphorylation and thereby decrease vascular permeability.",
+  "reading_complete" : "2020-08-04T18:06:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:03:06Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "Dopamine agonists inhibit VEGF receptor phosphorylation" ],
+  "pmc_id" : "2839910",
+  "score" : 0
+}
