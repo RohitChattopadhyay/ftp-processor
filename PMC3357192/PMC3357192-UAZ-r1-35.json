@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "H19",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14790",
+      "entity_text" : "CASP8",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0076" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Using data on methylation within the promoters of APC, KISS1, PTPN6, CASP8 and AR as well as methylation at the H19 / IGF2 ICR and at a consensus LINE-1 sequence, we used ANOVA to determine whether the variation in methylation was greater between samples taken from different sites than for those taken from different depths within the same site.",
+  "reading_complete" : "2020-08-04T20:41:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:39:51Z",
+  "trigger" : "methylation",
+  "evidence" : [ "CASP8 and AR as well as methylation at the H19" ],
+  "pmc_id" : "3357192",
+  "score" : 0
+}

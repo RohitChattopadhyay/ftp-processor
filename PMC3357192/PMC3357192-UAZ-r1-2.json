@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15726",
+      "entity_text" : "KISS1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0799" ],
+      "Organ" : [ "uberon:UBERON:0001213" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "On the other hand, PTPN6 methylation tends to be correlated with KISS1 methylation but did not show the same effect.",
+  "reading_complete" : "2020-08-04T20:41:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:39:51Z",
+  "trigger" : "methylation",
+  "evidence" : [ "KISS1 methylation" ],
+  "pmc_id" : "3357192",
+  "score" : 0
+}
