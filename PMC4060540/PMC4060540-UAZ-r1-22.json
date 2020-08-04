@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04040",
+      "entity_text" : "catalase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7009579",
+      "entity_text" : "SA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Zitta et al. [XREF_BIBR] reports that 10 muM SA leads to a significant 4-fold increase in H 2 O 2 concentrations, which may be attributed to the fact that SA can directly reduce the activity of catalase that decompose of H 2 O 2 (XREF_FIG).",
+  "reading_complete" : "2020-08-04T12:13:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:09:11Z",
+  "trigger" : "reduce",
+  "evidence" : [ "SA can directly reduce the activity of catalase" ],
+  "pmc_id" : "4060540",
+  "score" : 0
+}
