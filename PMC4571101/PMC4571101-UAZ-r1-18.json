@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05086",
+      "entity_text" : "UBE3A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "CellLine" : [ "cellosaurus:CVCL_8990" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "These data suggest that reduced UBE3A expression levels may cause global changes that affect RMP and neurotransmitter release from motorneurons at the neuromuscular junction.",
+  "reading_complete" : "2020-08-04T13:21:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:19:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "UBE3A expression levels" ],
+  "pmc_id" : "4571101",
+  "score" : 0
+}

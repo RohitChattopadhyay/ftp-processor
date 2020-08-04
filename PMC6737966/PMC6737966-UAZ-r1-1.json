@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "On the other hand, small mitochondria in presynaptic terminals may enable the large elevation of cytoplasmic Ca 2+ levels required for release of high amounts of neurotransmitter.",
+  "reading_complete" : "2020-08-04T13:24:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:23:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "Ca 2+  levels" ],
+  "pmc_id" : "6737966",
+  "score" : 0
+}
