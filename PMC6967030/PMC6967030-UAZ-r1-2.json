@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15056",
+      "entity_text" : "BRAF",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 600,
+        "feature_type" : "mutation",
+        "evidence" : "V600E"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0108" ],
+      "TissueType" : [ "tissuelist:TS-0161" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We also included an HLA-A * 01/HLA-A * 24 bearing BRAF V600E mutated colon carcinoma cell line (HT29) with earlier confirmed HLA and BRAF V600E protein expression in our analysis.",
+  "reading_complete" : "2020-08-04T10:52:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:47:08Z",
+  "trigger" : "expression",
+  "evidence" : [ "BRAF V600E  protein                            expression" ],
+  "pmc_id" : "6967030",
+  "score" : 0
+}

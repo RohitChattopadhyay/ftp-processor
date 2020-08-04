@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33681",
+      "entity_text" : "CD80",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Moreover, transcriptome analyses revealed that LCH-cells express similar levels of CD40, CD80, and CD86 messenger RNA when compared to normal epidermal CD207 + Langerhans cells, and that they confer high expression of genes relevant for antigen presentation (including CD1E) and genes encoding members of the HLA (class II) complex.",
+  "reading_complete" : "2020-08-04T10:52:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:47:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CD40, CD80" ],
+  "pmc_id" : "6967030",
+  "score" : 0
+}
