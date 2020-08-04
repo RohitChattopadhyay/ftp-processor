@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00144",
+      "entity_text" : "beta-lactamase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:16204478",
+      "entity_text" : "clavulanate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Because resistance to beta-lactam agents among isolates of S pneumoniae does not involve beta-lactamase production, the addition of clavulanate to amoxicillin does not increase its activity against DRSP.",
+  "reading_complete" : "2020-08-04T09:14:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:09:53Z",
+  "trigger" : "increase",
+  "evidence" : [ "beta-lactamase production, the addition of clavulanate to amoxicillin does not increase" ],
+  "pmc_id" : "7124290",
+  "score" : 0
+}
