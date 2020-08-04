@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1983",
+      "entity_text" : "paracetamol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The quantity of indophenol is determined using spectrophotometry at a wavelength of 600 nm and is directly proportional to the amount of paracetamol in the sample.",
+  "reading_complete" : "2020-08-04T13:48:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:45:11Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of paracetamol" ],
+  "pmc_id" : "3730223",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "At the background of their combined dosing, the blood ammonia level increased 2.3 times at 1.5 h, while at the background of the separate application of cyclophosphamide this could be observed 1.5 h later.",
+  "reading_complete" : "2020-08-04T13:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:48:15Z",
+  "trigger" : "level",
+  "evidence" : [ "ammonia level" ],
+  "pmc_id" : "3658549",
+  "score" : 0
+}
