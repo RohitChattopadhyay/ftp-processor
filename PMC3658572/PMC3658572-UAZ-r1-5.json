@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "estradiol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0363" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0918" ]
+    }
+  },
+  "verbose_text" : "This enzyme is responsible for the conversion of testosterone into estradiol, and the increase in it activity might result in alteration of the amount of testosterone, estradiol, and di-hydrotestosterone (DHT), since it is also produced from conversion of testosterone.",
+  "reading_complete" : "2020-08-04T12:47:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:44:23Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of testosterone, estradiol" ],
+  "pmc_id" : "3658572",
+  "score" : 0
+}
