@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02531",
+      "entity_text" : "PSAD",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0665" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Then they were divided into low level subgroup (4.1-10.0 ng/mL) and high level subgroup (> 10.1 ng/mL) according to the level of PSA, A subgroup (D> 0.15) and B subgroup (D < 0.15) according to the level of PSAD.",
+  "reading_complete" : "2020-08-04T14:07:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:07:18Z",
+  "trigger" : "level",
+  "evidence" : [ "level of PSAD" ],
+  "pmc_id" : "4708750",
+  "score" : 0
+}
