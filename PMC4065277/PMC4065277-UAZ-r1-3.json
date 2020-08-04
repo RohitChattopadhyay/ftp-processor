@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16552",
+      "entity_text" : "IL-17A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01808",
+      "entity_text" : "mAb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "CellType" : [ "cl:CL:0000899" ]
+    }
+  },
+  "verbose_text" : "Secukinumab (Novartis Pharma AG, Basel, Switzerland) is a fully human IgG1kappa monoclonal antibody (mAb) that selectively binds and neutralizes IL-17A.",
+  "reading_complete" : "2020-08-04T12:55:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:49:02Z",
+  "trigger" : "binds",
+  "evidence" : [ "mAb) that selectively binds and neutralizes IL-17A" ],
+  "pmc_id" : "4065277",
+  "score" : 0
+}
