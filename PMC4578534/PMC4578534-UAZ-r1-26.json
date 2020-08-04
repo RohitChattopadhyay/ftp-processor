@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Serum MDA levels in the GCIR group were significantly higher than the SO group (p < 0.001).",
+  "reading_complete" : "2020-08-04T18:32:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:31:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "MDA levels" ],
+  "pmc_id" : "4578534",
+  "score" : 0
+}
