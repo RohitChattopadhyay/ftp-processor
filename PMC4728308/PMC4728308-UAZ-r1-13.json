@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01544",
+      "entity_text" : "Cora",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63000",
+      "entity_text" : "Rac1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Together, these data show that Rac1 and Cora are linked in a positive feedback loop in which Cora increases the activation level of Rac1, which signals back to Cora to control its appropriate subcellular distribution.",
+  "reading_complete" : "2020-08-04T14:15:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:14:38Z",
+  "trigger" : "signals",
+  "evidence" : [ "Rac1, which signals back to Cora" ],
+  "pmc_id" : "4728308",
+  "score" : 0
+}

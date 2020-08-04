@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00170",
+      "entity_text" : "myosin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06031",
+      "entity_text" : "hdp 2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These results are consistent with earlier studies, which demonstrated that, despite a lack of single molecule data, the hdp 2 mutation induced a myosin dependent, hypercontractile state and enhanced calcium-sensitivity of contractile activation due to an impaired ability of troponin I to properly promote tropomyosin dependent relaxation.",
+  "reading_complete" : "2020-08-04T14:14:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:13:40Z",
+  "trigger" : "induced",
+  "evidence" : [ "hdp 2  mutation induced a myosin" ],
+  "pmc_id" : "6737974",
+  "score" : 0
+}

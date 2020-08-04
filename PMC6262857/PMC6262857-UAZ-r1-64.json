@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05998",
+      "entity_text" : "Zac1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Moreover, Zac1 misexpression was previously shown to reduce proliferation in the neocortex, whereas in this study we showed that both Plag1 and Plagl2 were sufficient to promote BrdU uptake and block neurogenesis.",
+  "reading_complete" : "2020-08-04T14:12:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:09:42Z",
+  "trigger" : "reduce",
+  "evidence" : [ "Zac1 misexpression was previously shown to reduce proliferation" ],
+  "pmc_id" : "6262857",
+  "score" : 0
+}
