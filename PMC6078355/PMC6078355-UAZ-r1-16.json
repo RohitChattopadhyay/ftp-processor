@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1158" ],
+      "Organ" : [ "uberon:UBERON:0003690" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Vascularization of the AF has been described with aging and disc degeneration, and has been related to loss of ECM, mostly proteoglycans.",
+  "reading_complete" : "2020-08-04T14:30:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:28:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ECM" ],
+  "pmc_id" : "6078355",
+  "score" : 0
+}
