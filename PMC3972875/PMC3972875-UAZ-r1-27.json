@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:27099",
+      "entity_text" : "Cu",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "pH",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Higher levels of pH can decrease the solubility of Cd, Cu, and Pb, while lower pH levels can dissolve metal complexes, releasing free metal ions into the water column [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:07:37Z",
+  "trigger" : "decrease",
+  "evidence" : [ "pH can decrease the solubility of Cd, Cu" ],
+  "pmc_id" : "3972875",
+  "score" : 0
+}
