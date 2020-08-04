@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35558",
+      "entity_text" : "PEPCK1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Organ" : [ "uberon:UBERON:3010752" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To discover the ubiquitination site (s) of PEPCK1, which is currently unknown, the Lys residues of PEPCK1 were mutated to Ala and the ubiquitination level of the PEPCK1 mutants was assessed.",
+  "reading_complete" : "2020-08-04T12:33:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:32:20Z",
+  "trigger" : "level",
+  "evidence" : [ "level of the PEPCK1" ],
+  "pmc_id" : "6310884",
+  "score" : 0
+}

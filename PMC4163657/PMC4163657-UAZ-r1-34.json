@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62330",
+      "entity_text" : "Arf6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61006",
+      "entity_text" : "Rab8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "TissueType" : [ "tissuelist:TS-0672" ],
+      "Cellular_component" : [ "go:GO:0055037" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Here we report that Rab35 and MICAL-L1 promote the recruitment of Rab8, Rab13, and Rab36 to Arf6 positive recycling endosomes during neurite outgrowth.",
+  "reading_complete" : "2020-08-04T12:30:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:29:24Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of Rab8, Rab13, and Rab36 to Arf6" ],
+  "pmc_id" : "4163657",
+  "score" : 0
+}

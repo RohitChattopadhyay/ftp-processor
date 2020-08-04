@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35558",
+      "entity_text" : "PEPCK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This reaction is the rate limiting step of gluconeogenesis, thus the level of PEPCK1 in cells plays a most critical role in maintaining the glucose homeostasis.",
+  "reading_complete" : "2020-08-04T12:33:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:32:20Z",
+  "trigger" : "level",
+  "evidence" : [ "level of PEPCK1" ],
+  "pmc_id" : "6310884",
+  "score" : 0
+}
