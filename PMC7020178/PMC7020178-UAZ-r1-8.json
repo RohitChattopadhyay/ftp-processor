@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "proline residues",
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5810",
+      "entity_text" : "hydroxyproline",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005618" ],
+      "Species" : [ "taxonomy:4565" ]
+    }
+  },
+  "verbose_text" : "Smirnoff and Wheeler [XREF_BIBR] in a comprehensive review reported that ascorbate is involved in cell division and expansion of plants as a cofactor for prolyl hydroxylase that hydroxylates proline residues in cell wall hydroxyproline rich glycoproteins [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:36:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:30:57Z",
+  "trigger" : "hydroxylates",
+  "evidence" : [ "hydroxylates proline residues in cell wall hydroxyproline" ],
+  "pmc_id" : "7020178",
+  "score" : 0
+}
