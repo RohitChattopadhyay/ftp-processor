@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:151134",
+      "entity_text" : "Fe",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Because malaria parasites contain a high amount of Fe (II) in the form of heme molecules [XREF_BIBR], artemisinin 's anti-malarial bioactivity is due to its reaction with the intra-parasitic iron source and the generation of free radicals leading to cellular destruction [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:41:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:38:57Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Fe" ],
+  "pmc_id" : "4050314",
+  "score" : 0
+}

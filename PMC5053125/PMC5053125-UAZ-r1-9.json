@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20338",
+      "entity_text" : "Rab4a",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF14891",
+      "entity_text" : "effector protein",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0416" ],
+      "Cellular_component" : [ "go:GO:0005794" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "NDRG1 is a Rab4a effector protein that is localized at perinuclear recycling / sorting vesicles in the trans-Golgi network by binding to PI4P [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:42:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:41:20Z",
+  "trigger" : "binding",
+  "evidence" : [ "Rab4a effector protein that is localized at perinuclear recycling/sorting vesicles in the trans-Golgi network by binding" ],
+  "pmc_id" : "5053125",
+  "score" : 0
+}
