@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35858",
+      "entity_text" : "ALS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35637",
+      "entity_text" : "FUS",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "More than 50 different FUS mutations have been discovered to cause familial ALS (fALS).",
+  "reading_complete" : "2020-08-04T13:30:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:29:29Z",
+  "trigger" : "cause",
+  "evidence" : [ "FUS mutations have been discovered to cause familial ALS" ],
+  "pmc_id" : "6215410",
+  "score" : 0
+}
