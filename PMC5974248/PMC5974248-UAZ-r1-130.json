@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00441",
+      "entity_text" : "SOD1",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 93,
+        "feature_type" : "mutation",
+        "evidence" : "G93A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00206",
+      "entity_text" : "TLR4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, depletion of TLR4 prolongs the survival of G93A SOD1 mice.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "prolongs",
+  "evidence" : [ "TLR4 prolongs the survival of G93A SOD1" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

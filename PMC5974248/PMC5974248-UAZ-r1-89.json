@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006810",
+      "entity_text" : "transport",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7010532",
+      "entity_text" : "VI",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Whilst the absence of myosin VI inhibits ER-Golgi transport, depletion of optineurin had no effect on this process.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "VI inhibits ER-Golgi transport" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

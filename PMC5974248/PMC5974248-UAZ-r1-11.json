@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02246",
+      "entity_text" : "TAX1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This is mediated by binding of optineurin to TAX1 binding protein (TAXBP1), which regulates the ubiquitination of TAX1.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of TAX1" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02786",
+      "entity_text" : "TfR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CV9",
+      "entity_text" : "optineurin",
+      "features" : [ {
+        "to_base" : "E",
+        "site" : 50,
+        "feature_type" : "mutation",
+        "evidence" : "E50K"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "E50K optineurin also leads to enhanced inhibition of Rab8 by TBC1D17, causing defective endocytic recycling of TfR and linking this to RGC death.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "causing",
+  "evidence" : [ "optineurin also leads to enhanced inhibition of Rab8 by TBC1D17, causing defective endocytic recycling of TfR" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

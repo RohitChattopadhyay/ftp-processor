@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "H1299",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P68976",
+      "entity_text" : "E3-14.7K",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0060" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In contrast, depletion of optineurin did not influence p65 phosphorylation, pro inflammatory IL-8 secretion, or the protective effect of E3-14.7K in H1299 cells, implying that optineurin was not required for NF-kappaB activation.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation, pro-inflammatory IL-8 secretion, or the protective effect of E3-14.7K in H1299" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

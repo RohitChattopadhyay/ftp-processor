@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E992" ],
+      "Species" : [ "taxonomy:76720" ]
+    }
+  },
+  "verbose_text" : "and its main MS 2 diagnostic fragments were [C 6 H 12 O 6 -H] - at m/z 179, corresponding to deprotonated glucose, and [M-C 7 H 12 O 8 -H] - at m/z 149 resulting from the loss of the glucose, H 2 O, and CO 2 moieties.",
+  "reading_complete" : "2020-08-04T11:27:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:13:54Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the glucose" ],
+  "pmc_id" : "6963686",
+  "score" : 0
+}
