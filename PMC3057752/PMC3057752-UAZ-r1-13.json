@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:408",
+      "entity_text" : "cotinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3694" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hb at 28 weeks was associated with SGA (unadjusted OR per g/dl increase in Hb = 1.4, 95% CI : 1.1, 1.8, P = 0.02; OR adjusted for maternal age, salivary cotinine levels and alcohol intake = 1.4, 95% CI : 1, 1.8, P = 0.03).",
+  "reading_complete" : "2020-08-04T21:16:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:15:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "cotinine levels" ],
+  "pmc_id" : "3057752",
+  "score" : 0
+}

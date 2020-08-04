@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "IVF pregnancies had nearly double the odds of GDM (OR = 1.83, 95% CI : 1.03-3.26) and elevated fasting (mean difference = 0.12 mmol/L, 95% CI : 0.00-0.24) and OGTT 2-h blood glucose levels (mean difference = 0.64 mmol/L, 95% CI : 0.27-1.01), after adjusting for commonly recognized risk factors for GDM.",
+  "reading_complete" : "2020-08-04T21:17:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:16:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "5638004",
+  "score" : 0
+}
