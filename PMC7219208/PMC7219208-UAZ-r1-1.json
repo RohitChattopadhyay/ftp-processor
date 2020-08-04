@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hematologic status was evaluated on the basis of hemoglobin level, hematocrit level, white blood cell count, and platelet count.",
+  "reading_complete" : "2020-08-04T18:20:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:15:12Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "7219208",
+  "score" : 0
+}
