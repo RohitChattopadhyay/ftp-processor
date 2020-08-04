@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:RAR",
+      "entity_text" : "retinoic acid receptors",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78395",
+      "entity_text" : "PRAME",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has been shown that PRAME can bind to the retinoic acid receptors and inhibit the target gene transcription, such as the tumor necrosis factor related apoptosis inducing ligand (TRAIL), leading to the inhibition cell differentiation [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:48:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:46:55Z",
+  "trigger" : "bind",
+  "evidence" : [ "PRAME can bind to the retinoic acid receptors" ],
+  "pmc_id" : "4913835",
+  "score" : 0
+}

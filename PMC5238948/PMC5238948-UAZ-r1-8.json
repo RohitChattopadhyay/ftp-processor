@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38936",
+      "entity_text" : "p21",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0520" ],
+      "TissueType" : [ "tissuelist:TS-1041" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "miR-340 elevated the protein level of cell cycle inhibitor p27, but did not affect the level of p21.",
+  "reading_complete" : "2020-08-04T17:49:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:48:04Z",
+  "trigger" : "level",
+  "evidence" : [ "level of p21" ],
+  "pmc_id" : "5238948",
+  "score" : 0
+}
