@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q3SEK0",
+      "entity_text" : "ICL1e",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:59837" ],
+      "Cellular_component" : [ "go:GO:0005856" ]
+    }
+  },
+  "verbose_text" : "In dividing BP cells, the GFP - ICL1e complex duplicates first, while the 1A9-reactive spots will re-assemble later (XREF_FIG A).",
+  "reading_complete" : "2020-08-04T15:07:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:05:28Z",
+  "trigger" : "complex",
+  "evidence" : [ "GFP-ICL1e complex" ],
+  "pmc_id" : "5483020",
+  "score" : 0
+}

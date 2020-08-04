@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9VUL1",
+      "entity_text" : "CTPsyn",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0097268" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The total amount of CTPsyn is the sum of free CTPsyn monomers and those sequestered in filaments : Here is the critical number of free CTPsyn monomers and is From the above equation, we can derive the relationship between free CTPsyn monomers and total amount of CTPsyn.",
+  "reading_complete" : "2020-08-04T15:05:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:03:55Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of CTPsyn" ],
+  "pmc_id" : "4232762",
+  "score" : 0
+}
