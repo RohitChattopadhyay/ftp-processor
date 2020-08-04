@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78317",
+      "entity_text" : "SNURF",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Cellular_component" : [ "go:GO:0000805" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Conversely, both ORMES-9 and rPESC-2 lines were heavily methylated within the SNURF / SNRPN IC, whereas ORMES-22 contained methylated and unmethylated clones (Supplementary Data, Fig. S1B).",
+  "reading_complete" : "2020-08-04T21:10:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:07:16Z",
+  "trigger" : "methylated",
+  "evidence" : [ "methylated within the SNURF" ],
+  "pmc_id" : "2907230",
+  "score" : 0
+}

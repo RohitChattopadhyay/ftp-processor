@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "RAS",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0229" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Interestingly, high levels of paternally imprinted DIRAS family, GTP binding RAS like 3 (DIRAS3) and insulin like growth factor 2 (IGF2) were observed in both ORMES-9 and parthenogenetic rPESC-2.",
+  "reading_complete" : "2020-08-04T21:10:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:07:16Z",
+  "trigger" : "binding",
+  "evidence" : [ "GTP-binding RAS" ],
+  "pmc_id" : "2907230",
+  "score" : 0
+}
