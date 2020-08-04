@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49366",
+      "entity_text" : "Ds",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00224",
+      "entity_text" : "Pk",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1122" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:7227" ]
+    }
+  },
+  "verbose_text" : "Since Sple, but not Pk, binds Ds and D, this mechanism is only possible in Sple dependent tissues and could co-exist with the microtubule biasing mechanism.",
+  "reading_complete" : "2020-08-04T13:59:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:57:44Z",
+  "trigger" : "binds",
+  "evidence" : [ "Pk, binds Ds" ],
+  "pmc_id" : "4810745",
+  "score" : 0
+}
