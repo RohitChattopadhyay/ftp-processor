@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5994",
+      "entity_text" : "progesterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0193" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "During pregnancy, a larger amount of progesterone is produced to control the physiological status of the body so as to maintain pregnancy.",
+  "reading_complete" : "2020-08-04T14:02:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:01:12Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of progesterone" ],
+  "pmc_id" : "5448630",
+  "score" : 0
+}
