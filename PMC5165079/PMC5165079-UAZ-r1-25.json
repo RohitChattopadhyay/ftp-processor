@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P24530",
+      "entity_text" : "ETRB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05305",
+      "entity_text" : "ET-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0799" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Contrarily, ETRA blocking augmented this effect, likely due to a higher fraction of ET-1 being bound to ETRB.",
+  "reading_complete" : "2020-08-04T19:36:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:34:11Z",
+  "trigger" : "bound",
+  "evidence" : [ "ET-1 being bound to ETRB" ],
+  "pmc_id" : "5165079",
+  "score" : 0
+}

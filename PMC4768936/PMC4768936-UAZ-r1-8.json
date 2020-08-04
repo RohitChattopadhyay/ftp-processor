@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Further research has shown that the extract reduces the level of fasting serum triglyceride by 49.8%, while metformin drugs reduces levels by 27.7%, but neither the extract or metformin affect cholesterol levels.",
+  "reading_complete" : "2020-08-04T19:36:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:34:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "4768936",
+  "score" : 0
+}
