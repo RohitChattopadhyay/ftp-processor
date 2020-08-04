@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5B2K4",
+      "entity_text" : "ACPA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0996" ],
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Moreover, RA sera and immunoglobulin fractions from RA patients which high levels of ACPA and/or rheumatoid factor significantly enhance NETosis.",
+  "reading_complete" : "2020-08-04T10:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:09:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ACPA" ],
+  "pmc_id" : "4410602",
+  "score" : 0
+}

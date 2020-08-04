@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:2001840" ],
+      "CellType" : [ "cl:CL:0000990" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Regarding T cell induction, intestinal cDCs from UC patients induced less T cell proliferation and the same amount of integrin beta7 but more CCR9 on naive CD4 + T cells compared to those from controls.",
+  "reading_complete" : "2020-08-04T10:08:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:03:47Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of integrin" ],
+  "pmc_id" : "7093381",
+  "score" : 0
+}

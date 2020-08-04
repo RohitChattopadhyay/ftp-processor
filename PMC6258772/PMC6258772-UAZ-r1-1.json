@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48357",
+      "entity_text" : "leptin receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00937",
+      "entity_text" : "mCRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000451" ]
+    }
+  },
+  "verbose_text" : "Sudhakar et al. showed increased CRP in non morbidly obese individuals and preferred mCRP binding to the leptin receptor in human plasma and this could link to low-grade systemic infection on over-weight individuals.",
+  "reading_complete" : "2020-08-04T10:09:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:08:42Z",
+  "trigger" : "binding",
+  "evidence" : [ "mCRP binding to the leptin receptor" ],
+  "pmc_id" : "6258772",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9322",
+      "entity_text" : "thiocyanate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:837" ],
+      "TissueType" : [ "tissuelist:TS-1315" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "It is interesting to note that smoking results in elevated thiocyanate levels in the lungs, which can be converted by MPO into cyanate in the presence of hydrogen peroxide.",
+  "reading_complete" : "2020-08-04T10:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:09:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "thiocyanate levels" ],
+  "pmc_id" : "4410602",
+  "score" : 0
+}
