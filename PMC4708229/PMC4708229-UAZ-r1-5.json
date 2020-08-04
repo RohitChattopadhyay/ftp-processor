@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00592",
+      "entity_text" : "PC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BWK5",
+      "entity_text" : "MRI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Only applying TB in man with suspicious MRI (PIRADS score> = 2) may reduce both, cost and overdetection of low-risk PC, but would have underdiagnosed 11 patients with GS> = 3 +4 PC (14.6%).",
+  "reading_complete" : "2020-08-04T11:22:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:20:02Z",
+  "trigger" : "reduce",
+  "evidence" : [ "MRI (PIRADS score >=2) may reduce both, cost and overdetection of low-risk PC" ],
+  "pmc_id" : "4708229",
+  "score" : 0
+}
