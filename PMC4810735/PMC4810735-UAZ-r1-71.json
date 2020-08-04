@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00066",
+      "entity_text" : "Notch",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00548",
+      "entity_text" : "Dll1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the simple mathematical model described above, d = 0 represents complete Dll1 deficiency (no Notch signalling), and d x = I 1 (x)/[P+ I 1 (x) + I 2 + N] when there is ' x ' fraction of I 1 than in wild-type embryos, an estimation of the Dll1 level triggering Notch signalling in P; for instance, x in Dll1 heterozygous embryos might equal 1/2.",
+  "reading_complete" : "2020-08-04T15:20:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:17:51Z",
+  "trigger" : "triggering",
+  "evidence" : [ "Dll1 level triggering Notch" ],
+  "pmc_id" : "4810735",
+  "score" : 0
+}
