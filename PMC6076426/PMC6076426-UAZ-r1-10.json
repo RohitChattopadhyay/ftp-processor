@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y4K3",
+      "entity_text" : "TRAF6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14788",
+      "entity_text" : "RANKL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0721" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:1773" ]
+    }
+  },
+  "verbose_text" : "RANKL secreted by osteoblasts can bind with RANK in osteoclast precursors to upregulate expression of NFATc1, which is critical for osteoclast differentiation, via TRAF6 to initiate the downstream NF-kappaB signal pathway [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:59:30Z",
+  "trigger" : "bind",
+  "evidence" : [ "RANKL secreted by osteoblasts can bind with RANK in osteoclast precursors to upregulate expression of NFATc1, which is critical for osteoclast differentiation, via TRAF6" ],
+  "pmc_id" : "6076426",
+  "score" : 0
+}

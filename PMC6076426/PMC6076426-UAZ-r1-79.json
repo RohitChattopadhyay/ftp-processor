@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03252",
+      "entity_text" : "c-Fox",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mohamed et al. showed that IL-10 significantly suppressed expression of NF-kappaB p50, phosphorylated JNK, NFATc1, c-Fox, and c-Jun in RANKL induced osteoclasts, thus inhibiting differentiation and bone absorption potency of osteoclasts [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:59:30Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "c-Fox, and c-Jun in RANKL-induced osteoclasts, thus inhibiting differentiation" ],
+  "pmc_id" : "6076426",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:1773" ]
+    }
+  },
+  "verbose_text" : "During the initial phase of MTB infection, inflammatory responses such as abundant activation of macrophages, MTB phagocytosis, and large amounts of TNF-alpha release play the major role in immune clearance.",
+  "reading_complete" : "2020-08-04T16:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:59:30Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of TNF-alpha" ],
+  "pmc_id" : "6076426",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Fibrinogen",
+      "entity_text" : "fibrinogen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We found that occurrence of bleeding was correlated with decreased levels of fibrinogen and platelets, but not with PT, APTT, or D-dimer.",
+  "reading_complete" : "2020-08-04T15:59:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:57:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of fibrinogen" ],
+  "pmc_id" : "5985706",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:TGFB",
+      "entity_text" : "TGF-beta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The present study observed that the overexpression of TGF-beta and/or IL-10 gene could upregulate TGF-beta and IL-10 factor contents and decrease inflammatory factor TNF-alpha content in the co-culture system, demonstrating the anti-inflammatory role of TGF-beta and IL-10.",
+  "reading_complete" : "2020-08-04T16:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:59:30Z",
+  "trigger" : "decrease",
+  "evidence" : [ "TGF-beta and/or IL-10 gene could upregulate TGF-beta and IL-10 factor contents and decrease inflammatory factor TNF-alpha" ],
+  "pmc_id" : "6076426",
+  "score" : 0
+}
