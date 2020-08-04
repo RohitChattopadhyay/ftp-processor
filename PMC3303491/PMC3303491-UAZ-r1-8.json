@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01117",
+      "entity_text" : "ovarian hormone",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "We have carefully staged the tissues used in this study based on reported day of cycle, serum ovarian hormone levels on the day of biopsy and histological dating.",
+  "reading_complete" : "2020-08-04T19:28:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:27:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "ovarian hormone levels" ],
+  "pmc_id" : "3303491",
+  "score" : 0
+}

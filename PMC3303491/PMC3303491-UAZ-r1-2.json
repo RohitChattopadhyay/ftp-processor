@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5994",
+      "entity_text" : "progesterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0276" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "If pregnancy does not occur, the corpus luteum regresses in the late secretory phase and progesterone levels decline.",
+  "reading_complete" : "2020-08-04T19:28:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:27:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "progesterone levels" ],
+  "pmc_id" : "3303491",
+  "score" : 0
+}
