@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04305",
+      "entity_text" : "PY14Cav1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Silencing Cav1 expression in ESCC cells not only decreased Cav1 and PY14Cav1 levels, but also suppressed ESCC cell migration and invasion.",
+  "reading_complete" : "2020-08-04T17:45:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:43:09Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "PY14Cav1 levels, but also suppressed ESCC cell migration and invasion" ],
+  "pmc_id" : "5757863",
+  "score" : 0
+}

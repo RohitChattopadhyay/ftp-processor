@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7009577",
+      "entity_text" : "IA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08123",
+      "entity_text" : "COL1A2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0001614" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Several studies have been conducted to explore the genetic association between COL1A2 and IA.",
+  "reading_complete" : "2020-08-04T17:46:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:45:05Z",
+  "trigger" : "association",
+  "evidence" : [ "association between COL1A2 and IA" ],
+  "pmc_id" : "5507803",
+  "score" : 0
+}
