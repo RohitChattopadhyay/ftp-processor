@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6037",
+      "entity_text" : "folic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000081" ]
+    }
+  },
+  "verbose_text" : "In addition, an investigation has shown significantly increased plasma homocysteine levels and significantly decreased folic acid levels in patients after isotretinoin therapy; the relevance of the former and whether supplementation should be initiated for the latter remain to be determined [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T15:14:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:08:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "folic acid levels" ],
+  "pmc_id" : "6994586",
+  "score" : 0
+}
