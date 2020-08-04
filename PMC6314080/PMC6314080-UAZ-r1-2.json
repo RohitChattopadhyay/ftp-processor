@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:187",
+      "entity_text" : "acetylcholine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Acetylcholinesterase catalyzes the hydrolysis of the neurotransmitter acetylcholine into choline and acetic acid [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T20:16:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:08:36Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of the neurotransmitter acetylcholine" ],
+  "pmc_id" : "6314080",
+  "score" : 0
+}
