@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04885",
+      "entity_text" : "Dlk1-Gtl2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0309" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000165" ]
+    }
+  },
+  "verbose_text" : "The reciprocal changes in gene expression seen after loss of Dlk1-Gtl2 imprinting suggest that the Dlk1 and Gtl2 genes may share common enhancers for those tissues in which they are coexpressed.",
+  "reading_complete" : "2020-08-04T13:09:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:04:04Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Dlk1-Gtl2" ],
+  "pmc_id" : "1609179",
+  "score" : 0
+}

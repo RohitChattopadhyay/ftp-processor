@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04871",
+      "entity_text" : "Gtl2 DMR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The maternal Gtl2 DMR is not normally methylated, and does not acquire methylation in the Gtl2lacZMat and Gtl2Delta5'NeoMat animals, so it would have to function by another mechanism.",
+  "reading_complete" : "2020-08-04T13:09:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:04:04Z",
+  "trigger" : "methylated",
+  "evidence" : [ "Gtl2 DMR is not normally methylated" ],
+  "pmc_id" : "1609179",
+  "score" : 0
+}
