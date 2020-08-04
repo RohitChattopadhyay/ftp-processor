@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24316",
+      "entity_text" : "cGMP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0006314" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "DPP4 cleavage of the physiologically active BNP (1-32) to BNP (3-32) effectively lowers plasma cGMP levels, reduces diuresis and natriuresis, and inhibits vasodilatation.",
+  "reading_complete" : "2020-08-04T09:52:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:47:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "cGMP levels" ],
+  "pmc_id" : "4515598",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00640",
+      "entity_text" : "plasmin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0031975" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:12721" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "Upon ADA binding, activation of plasminogen-2 occurs, which raises plasmin levels.",
+  "reading_complete" : "2020-08-04T09:52:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:47:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "plasmin levels" ],
+  "pmc_id" : "4515598",
+  "score" : 0
+}

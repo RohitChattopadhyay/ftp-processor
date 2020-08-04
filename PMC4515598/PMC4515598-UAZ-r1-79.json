@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6021",
+      "entity_text" : "inosine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0002049" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000359" ]
+    }
+  },
+  "verbose_text" : "Increased inosine levels in turn are known to induce vasoconstriction due to mast cell degranulation.",
+  "reading_complete" : "2020-08-04T09:52:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:47:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "inosine levels" ],
+  "pmc_id" : "4515598",
+  "score" : 0
+}

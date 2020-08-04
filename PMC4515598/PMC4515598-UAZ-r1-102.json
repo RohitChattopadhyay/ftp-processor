@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00813",
+      "entity_text" : "ADA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27487",
+      "entity_text" : "DPP4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "Importantly, the interaction of DPP4 and ADA preserves the enzymatic function of both binding partners.",
+  "reading_complete" : "2020-08-04T09:52:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:47:07Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of DPP4 and ADA" ],
+  "pmc_id" : "4515598",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Upon binding to G-protein-coupled receptors on the beta cells, intracellular cAMP level is elevated and the protein kinases, Epac1 and 2, are activated, which leads to an increase of insulin secretion.",
+  "reading_complete" : "2020-08-04T09:52:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:47:07Z",
+  "trigger" : "level",
+  "evidence" : [ "cAMP level" ],
+  "pmc_id" : "4515598",
+  "score" : 0
+}

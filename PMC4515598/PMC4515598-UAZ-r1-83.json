@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460602",
+      "entity_text" : "S2",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00641",
+      "entity_text" : "vilda-",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Class 1 contains vilda- and saxagliptin, which only bind to the S1 and S2 subsites and form a covalent bond with the nitrile group of their cyanopyrrolidine moiety and Ser630 of DPP4.",
+  "reading_complete" : "2020-08-04T09:52:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:47:07Z",
+  "trigger" : "bind",
+  "evidence" : [ "vilda- and saxagliptin, which only bind to the S1 and S2" ],
+  "pmc_id" : "4515598",
+  "score" : 0
+}
