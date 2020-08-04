@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "infiltration",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR002959",
+      "entity_text" : "TNFalpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "While the accumulation of MDSC in inflammatory states was initially associated with increased TNFalpha and IL-6 levels, more recent data suggest that increased TNFalpha expression in the tumor microenvironment reduces MDSC infiltration and supports tumor regression.",
+  "reading_complete" : "2020-08-04T12:05:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:04:21Z",
+  "trigger" : "reduces",
+  "evidence" : [ "TNFalpha expression in the tumor microenvironment reduces MDSC infiltration" ],
+  "pmc_id" : "5879147",
+  "score" : 0
+}
