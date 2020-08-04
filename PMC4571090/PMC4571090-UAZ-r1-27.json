@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Tyr142",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000586" ]
+    }
+  },
+  "verbose_text" : "One possible factor for such a function is BAZ1B (bromodomain adjacent to zinc finger domain, 1b; also known as WSTF : Williams syndrome transcription factor), a chromatin remodeling factor and also a tyrosine protein kinase that mediates Tyr142 phosphorylation of H2AX (pTyr142) in somatic cells.",
+  "reading_complete" : "2020-08-04T12:08:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:10Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Tyr142 phosphorylation of H2AX" ],
+  "pmc_id" : "4571090",
+  "score" : 0
+}
