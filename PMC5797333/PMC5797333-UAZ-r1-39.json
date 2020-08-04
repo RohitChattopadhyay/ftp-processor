@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992076",
+      "entity_text" : "LL",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "High preoperative LL was identified as a risk factor for loss of LL from preoperative to postoperative in several studies [XREF_BIBR, XREF_BIBR], while preoperative low LL was a risk factor for loss of LL from postoperative to last follow-up.",
+  "reading_complete" : "2020-08-04T16:15:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:13:38Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of LL" ],
+  "pmc_id" : "5797333",
+  "score" : 0
+}

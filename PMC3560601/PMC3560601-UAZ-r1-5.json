@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0044312" ]
+    }
+  },
+  "verbose_text" : "Blood gas analysis revealed a hemoglobin level as low as 6.0 g.dL -1.",
+  "reading_complete" : "2020-08-04T16:17:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:15:44Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "3560601",
+  "score" : 0
+}

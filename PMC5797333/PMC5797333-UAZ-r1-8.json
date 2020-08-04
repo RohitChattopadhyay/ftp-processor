@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992076",
+      "entity_text" : "LL",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The presence of two predictors (preoperative LL < 23.5 and preoperative SVA> 4.28) were significantly associated with postoperative loss of LL (p = 0.001) (XREF_TABLE).",
+  "reading_complete" : "2020-08-04T16:15:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:13:38Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of LL" ],
+  "pmc_id" : "5797333",
+  "score" : 0
+}

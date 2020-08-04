@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992076",
+      "entity_text" : "LL",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05326",
+      "entity_text" : "SVA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In multivariate logistic regression, preoperative LL (OR = 0.920, 95% CI = 0.870-0.973, p = 0.003) and preoperative SVA (OR = 1.199, 95% CI = 1.007-1.429, p = 0.041) were identify to be predictors for postoperative loss of LL, while PI (OR = 0.941, 95% CI = 0.876-1.009, p = 0.089) failed to show significant difference (XREF_TABLE).",
+  "reading_complete" : "2020-08-04T16:15:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:13:38Z",
+  "trigger" : "loss",
+  "evidence" : [ "SVA (OR=1.199, 95% CI=1.007-1.429, p=0.041) were identify to be predictors for postoperative loss of LL" ],
+  "pmc_id" : "5797333",
+  "score" : 0
+}
