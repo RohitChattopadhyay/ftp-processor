@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:187",
+      "entity_text" : "acetylcholine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF09213",
+      "entity_text" : "M3",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-1090" ],
+      "Organ" : [ "uberon:UBERON:0004228" ],
+      "CellType" : [ "cl:CL:0002088" ]
+    }
+  },
+  "verbose_text" : "Our experiments show that mechanical stretch enhanced hBSMCs proliferation and contraction by c-kit, promoting M2 and M3 binding to acetylcholine.",
+  "reading_complete" : "2020-08-04T15:04:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:00:18Z",
+  "trigger" : "binding",
+  "evidence" : [ "M3 binding to acetylcholine" ],
+  "pmc_id" : "6612242",
+  "score" : 0
+}

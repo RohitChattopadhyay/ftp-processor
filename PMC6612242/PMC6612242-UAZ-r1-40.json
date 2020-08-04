@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF09213",
+      "entity_text" : "M3",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1090" ],
+      "CellLine" : [ "cellosaurus:CVCL_D967" ],
+      "Organ" : [ "uberon:UBERON:0004228" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002088" ]
+    }
+  },
+  "verbose_text" : "We used imatinib (a c-kit kinase specific inhibitor) to carry out the experiment, and we measured growth rates using CCK-8 assays and measured mRNA and protein levels of M2 and M3 in hBSMCs in the experiment.",
+  "reading_complete" : "2020-08-04T15:04:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:00:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of M2 and M3" ],
+  "pmc_id" : "6612242",
+  "score" : 0
+}
