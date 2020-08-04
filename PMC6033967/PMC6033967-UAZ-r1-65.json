@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19453",
+      "entity_text" : "Saa3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "These findings indicate that the loss of Saa3 skews the local cytokine production toward a proinflammatory profile.",
+  "reading_complete" : "2020-08-04T09:26:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:24:37Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Saa3" ],
+  "pmc_id" : "6033967",
+  "score" : 0
+}
