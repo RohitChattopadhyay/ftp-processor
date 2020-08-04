@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00556",
+      "entity_text" : "HLA-I",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "PCNA can be recruited to the plasma membrane of tumor cells, probably through the formation of a PCNA / HLA-I complex or shuttling via exosomes.",
+  "reading_complete" : "2020-08-04T09:47:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:45:19Z",
+  "trigger" : "complex",
+  "evidence" : [ "PCNA/HLA-I complex" ],
+  "pmc_id" : "6465645",
+  "score" : 0
+}

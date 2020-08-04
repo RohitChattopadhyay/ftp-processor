@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95944",
+      "entity_text" : "NKp44",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:39059" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "Finally, although the influenza virus HA binds NKp44 and NKp46, thereby contributing to NK mediated lysis of infected cells, the virus can suppress this effect via expression of its NA protein.",
+  "reading_complete" : "2020-08-04T09:47:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:45:19Z",
+  "trigger" : "binds",
+  "evidence" : [ "HA binds NKp44" ],
+  "pmc_id" : "6465645",
+  "score" : 0
+}
