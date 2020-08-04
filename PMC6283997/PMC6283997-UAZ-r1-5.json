@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05661",
+      "entity_text" : "pMHC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04234",
+      "entity_text" : "TCR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1042" ],
+      "CellType" : [ "cl:CL:0002365" ]
+    }
+  },
+  "verbose_text" : "This analysis is independent of the particular detailed (amino acid based) model for activation of a TCR - pMHC complex.",
+  "reading_complete" : "2020-08-04T18:54:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:49:15Z",
+  "trigger" : "complex",
+  "evidence" : [ "TCR-pMHC complex" ],
+  "pmc_id" : "6283997",
+  "score" : 0
+}

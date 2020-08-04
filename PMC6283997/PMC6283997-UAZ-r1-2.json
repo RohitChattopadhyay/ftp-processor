@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05661",
+      "entity_text" : "pMHC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04234",
+      "entity_text" : "TCR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0001772" ],
+      "CellType" : [ "cl:CL:0002365" ]
+    }
+  },
+  "verbose_text" : "Other authors have assumed that a T cell responds to the triggering rate averaged over all its TCRs, where the triggering rate of a given TCR - pMHC complex is a function of its interaction energy [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:54:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:49:15Z",
+  "trigger" : "complex",
+  "evidence" : [ "TCR-pMHC complex" ],
+  "pmc_id" : "6283997",
+  "score" : 0
+}
