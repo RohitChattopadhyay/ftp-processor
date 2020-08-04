@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residues",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03322",
+      "entity_text" : "IkappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0002328" ]
+    }
+  },
+  "verbose_text" : "Upon stimulation, IkappaB is phosphorylated at critical serine residues, resulting in polyubiquitination and degradation.",
+  "reading_complete" : "2020-08-04T11:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:55:00Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "IkappaB is phosphorylated at critical serine residues" ],
+  "pmc_id" : "7197710",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02751",
+      "entity_text" : "fibronectin-",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "Cellular_component" : [ "go:GO:0005604" ],
+      "CellType" : [ "cl:CL:0000148" ]
+    }
+  },
+  "verbose_text" : "In an effort to better understand melanocyte responses to ECM substrates, we next addressed whether melanocytes exhibit different responses when stimulated by laminin-332 or collagen I. Because laminin binding integrins can mediate cellular responses distinct from those elicited by fibronectin- or collagen binding integrins, we first compared the morphology and ability of primary mouse melanocytes to migrate on no exogenous ECM, low or intermediate concentrations of collagen I (5 mug/cm 2 or 15 mug/cm 2), or laminin-332 isolated from 804G rat bladder epithelial cells.",
+  "reading_complete" : "2020-08-04T13:35:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:33:46Z",
+  "trigger" : "binding",
+  "evidence" : [ "fibronectin- or collagen-binding" ],
+  "pmc_id" : "5576081",
+  "score" : 0
+}

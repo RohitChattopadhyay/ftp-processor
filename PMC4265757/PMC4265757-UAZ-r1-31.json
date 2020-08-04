@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CAMK2_complex",
+      "entity_text" : "camkII",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04204",
+      "entity_text" : "Hts",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In striking contrast, muscle specific expression of either wild-type or non phosphorylatable Hts caused par-1 and camkII mRNA, which were observed as discreet puncta, to be dispersed throughout the muscle cytoplasm (XREF_FIG).",
+  "reading_complete" : "2020-08-04T14:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:06:30Z",
+  "trigger" : "caused",
+  "evidence" : [ "Hts caused par-1 and camkII" ],
+  "pmc_id" : "4265757",
+  "score" : 0
+}

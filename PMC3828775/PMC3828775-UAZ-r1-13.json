@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03358",
+      "entity_text" : "BPN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Downregulation of Nup358 leads to generation of multiple axons and overexpression of BPN inhibits axon-dendrite differentiation.",
+  "reading_complete" : "2020-08-04T11:58:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:58:07Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "BPN inhibits axon-dendrite differentiation" ],
+  "pmc_id" : "3828775",
+  "score" : 0
+}

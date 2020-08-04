@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15966",
+      "entity_text" : "F-box",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13616",
+      "entity_text" : "Cul1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "However, absence of SAP130 would be expected to affect the dynamic exchange, and not necessarily the steady state levels, of Cul1 bound F-box proteins.",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "bound",
+  "evidence" : [ "Cul1-bound F-box" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}

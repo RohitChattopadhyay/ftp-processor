@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49023",
+      "entity_text" : "paxillin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00629",
+      "entity_text" : "talin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Vinculin is an adaptor protein that links beta1 integrins to the actin cytoskeleton and is recruited to focal adhesions after the recruitment of talin and paxillin.",
+  "reading_complete" : "2020-08-04T12:26:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:20Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of talin and paxillin" ],
+  "pmc_id" : "3828761",
+  "score" : 0
+}

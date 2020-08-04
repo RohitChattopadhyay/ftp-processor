@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06195",
+      "entity_text" : "IFT-B",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06205",
+      "entity_text" : "IFT-A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3055" ],
+      "Cellular_component" : [ "go:GO:0005929" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "Intraflagellar transport (IFT) particles are composed of polyprotein complexes IFT-A and IFT-B as well as cargo adaptors such as the BBSome.",
+  "reading_complete" : "2020-08-04T14:24:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:22:57Z",
+  "trigger" : "complexes",
+  "evidence" : [ "complexes IFT-A and IFT-B" ],
+  "pmc_id" : "5703605",
+  "score" : 0
+}

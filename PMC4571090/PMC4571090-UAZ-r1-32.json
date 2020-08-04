@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60264",
+      "entity_text" : "SMARCA5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UIG0",
+      "entity_text" : "BAZ1B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0030849" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002371" ]
+    }
+  },
+  "verbose_text" : "Further, in spite of the putative complex formation between BAZ1B and SMARCA5, BAZ1B is dispensable for the localization of SMARCA5.",
+  "reading_complete" : "2020-08-04T12:08:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:10Z",
+  "trigger" : "complex formation",
+  "evidence" : [ "complex formation between BAZ1B and SMARCA5" ],
+  "pmc_id" : "4571090",
+  "score" : 0
+}

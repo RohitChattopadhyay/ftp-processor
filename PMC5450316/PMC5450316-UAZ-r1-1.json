@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9548602",
+      "entity_text" : "phosphocreatine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:185542" ]
+    }
+  },
+  "verbose_text" : "The amount of ATP stored in the muscles is low, and during subsequent stages of the movement, the fish fulfills the increased demands of ATP required during muscle contraction through hydrolysis of phosphocreatine (PCr), glycolysis and aerobic metabolism.",
+  "reading_complete" : "2020-08-04T13:04:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:02:54Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of phosphocreatine" ],
+  "pmc_id" : "5450316",
+  "score" : 0
+}

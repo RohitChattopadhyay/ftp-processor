@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q39101",
+      "entity_text" : "fer-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:124036" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Compared to the unc-49 single mutant, levamisole resistance was still observed in the fer-1; unc-49 double mutant (XREF_FIG), suggesting that loss of fer-1 does not cause levamisole resistance through enhanced GABA signaling.",
+  "reading_complete" : "2020-08-04T10:22:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:21:30Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of fer-1" ],
+  "pmc_id" : "3828772",
+  "score" : 0
+}

@@ -1,0 +1,40 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P60880",
+      "entity_text" : "SNAP",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P46459",
+      "entity_text" : "NSF",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0060473" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "We have demonstrated that the alpha - SNAP / NSF complex regulates membrane fusion during cortical reaction and we have proposed a working model for cortical reaction in IVO mouse oocytes.",
+  "reading_complete" : "2020-08-04T14:51:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:50:19Z",
+  "trigger" : "complex",
+  "evidence" : [ "alpha-SNAP/NSF complex" ],
+  "pmc_id" : "6310882",
+  "score" : 0
+}

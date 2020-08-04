@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "glutathione",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13423",
+      "entity_text" : "NNT",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Thus, we suggest that ALADIN plays a crucial role in regulating NADPH levels in the cell and concomitantly enhances oxidative capacity of glutathione by altered gene expression of NNT.",
+  "reading_complete" : "2020-08-04T12:03:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:02:16Z",
+  "trigger" : "enhances",
+  "evidence" : [ "enhances oxidative capacity of glutathione by altered gene expression of NNT" ],
+  "pmc_id" : "5829508",
+  "score" : 0
+}

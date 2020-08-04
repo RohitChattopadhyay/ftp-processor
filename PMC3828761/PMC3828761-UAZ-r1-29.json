@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "While variations of normal glycosylation patterns of the beta1 integrin have been identified in tumor cells, the role of integrin glycosylation in regulating collagen binding and phagocytic function has not been described.",
+  "reading_complete" : "2020-08-04T12:26:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:20Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "integrin glycosylation" ],
+  "pmc_id" : "3828761",
+  "score" : 0
+}

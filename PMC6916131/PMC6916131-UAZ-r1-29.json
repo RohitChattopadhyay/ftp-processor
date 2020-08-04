@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hyperglycemia in an adult is characterized by high levels of glucose in the blood, with glucose measuring 126 mg/dL during fasting or 200 mg/dL after meals [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:47:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of glucose" ],
+  "pmc_id" : "6916131",
+  "score" : 0
+}

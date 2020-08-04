@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04141",
+      "entity_text" : "GM-CSF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119607",
+      "entity_text" : "valdecoxib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "A recent study indicated that intratumoral COX-2 inhibition by using parecoxib or valdecoxib potentiates GM-CSF immunotherapy against established mouse GL261 brain tumors.",
+  "reading_complete" : "2020-08-04T10:14:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:14:05Z",
+  "trigger" : "potentiates",
+  "evidence" : [ "valdecoxib potentiates GM-CSF" ],
+  "pmc_id" : "5374396",
+  "score" : 0
+}

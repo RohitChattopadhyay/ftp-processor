@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49023",
+      "entity_text" : "paxillin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0071944" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We next analyzed the phosphorylation of paxillin.",
+  "reading_complete" : "2020-08-04T14:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:09Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of paxillin" ],
+  "pmc_id" : "4728310",
+  "score" : 0
+}

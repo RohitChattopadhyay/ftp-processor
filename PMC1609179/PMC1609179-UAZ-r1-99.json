@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P80370",
+      "entity_text" : "Dlk1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005694" ]
+    }
+  },
+  "verbose_text" : "The Dlk1 DMR located within the 3 ' region of the Dlk1 gene is partially methylated on the paternal allele, but unmethylated on the maternal allele [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:09:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:04:04Z",
+  "trigger" : "unmethylated",
+  "evidence" : [ "Dlk1 gene is partially methylated on the paternal allele, but unmethylated" ],
+  "pmc_id" : "1609179",
+  "score" : 0
+}

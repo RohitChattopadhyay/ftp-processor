@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Kinetochore",
+      "entity_text" : "kinetochores",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P53350",
+      "entity_text" : "PLK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "PLK1 recruitment to kinetochores is required to regulate proper chromosome alignment and its removal is important for checkpoint silencing.",
+  "reading_complete" : "2020-08-04T12:24:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:23:01Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "PLK1 recruitment to kinetochores" ],
+  "pmc_id" : "4728306",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7408258",
+      "entity_text" : "PS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4530" ],
+      "TissueType" : [ "tissuelist:TS-0420" ]
+    }
+  },
+  "verbose_text" : "It is also found that Hd1 and Hd2 largely acted additively in controlling yield traits with the removal of epistasis between the two genes due to the loss of PS activity of the functional Hd1 allele.",
+  "reading_complete" : "2020-08-04T09:55:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:54:15Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PS" ],
+  "pmc_id" : "5155538",
+  "score" : 0
+}

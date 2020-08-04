@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14222",
+      "entity_text" : "P1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02820",
+      "entity_text" : "Mbt",
+      "features" : [ {
+        "to_base" : "K",
+        "site" : 397,
+        "feature_type" : "mutation",
+        "evidence" : "K397M"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, Mbt K397M rescued the R3/R4 N-Cad AJ phenotype of mbt P1 to a similar degree as the non mutated transgene (XREF_FIG A, B).",
+  "reading_complete" : "2020-08-04T14:35:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:33:57Z",
+  "trigger" : "rescued",
+  "evidence" : [ "Mbt K397M  rescued the R3/R4 N-Cad AJ phenotype of mbt P1" ],
+  "pmc_id" : "6451336",
+  "score" : 0
+}

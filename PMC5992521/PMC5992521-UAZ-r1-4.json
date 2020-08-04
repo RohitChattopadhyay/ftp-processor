@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0397" ],
+      "CellType" : [ "cl:CL:0000099" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "The effect of a drug applied initially to a more distant ganglion was negated and/or reversed by a drug that had the opposite effect on NO levels applied subsequently to nearer ganglion.",
+  "reading_complete" : "2020-08-04T15:00:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:58:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "NO levels" ],
+  "pmc_id" : "5992521",
+  "score" : 0
+}

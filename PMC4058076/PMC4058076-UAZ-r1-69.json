@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q71G51",
+      "entity_text" : "alpha-tubulin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1223" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Increased HDAC6 activity is known to be associated with increased cell motility, in part through deacetylation of alpha-tubulin, but also due to the increased chaperone function of deacetylated Hsp90 towards oncogenic proteins such as Akt / PKB, ErbB2 and c-Raf.",
+  "reading_complete" : "2020-08-04T13:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:12:41Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "deacetylation of alpha-tubulin" ],
+  "pmc_id" : "4058076",
+  "score" : 0
+}

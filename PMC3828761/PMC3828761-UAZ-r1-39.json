@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08345",
+      "entity_text" : "DDR1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "DDR1 over-expression enhances collagen remodeling and contraction.",
+  "reading_complete" : "2020-08-04T12:26:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:20Z",
+  "trigger" : "enhances",
+  "evidence" : [ "DDR1 over-expression enhances collagen" ],
+  "pmc_id" : "3828761",
+  "score" : 0
+}

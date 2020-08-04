@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "17beta-estradiol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the other two cell lines, 17beta-estradiol did not increase cell growth and instead slightly reduced cell viability.",
+  "reading_complete" : "2020-08-04T14:21:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:17:37Z",
+  "trigger" : "increase",
+  "evidence" : [ "17beta-estradiol did not increase cell growth" ],
+  "pmc_id" : "3671687",
+  "score" : 0
+}

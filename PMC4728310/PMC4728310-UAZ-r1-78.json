@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0030027" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "WT cells attached to fibronectin, which stimulates beta1 and beta3 integrins, or vitronectin, which selectively stimulates beta3 integrin, develop lamellipodium and adhesive puncta eliciting Src / FAK activation and paxillin phosphorylation.",
+  "reading_complete" : "2020-08-04T14:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:09Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Src/FAK activation and paxillin phosphorylation" ],
+  "pmc_id" : "4728310",
+  "score" : 0
+}

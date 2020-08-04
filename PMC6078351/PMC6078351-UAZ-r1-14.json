@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14656",
+      "entity_text" : "TOR1A",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005635" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "Analyses of mutant TOR1A protein expression in various brain regions also showed a dynamic expression pattern and a reversible nuclear envelope pathology.",
+  "reading_complete" : "2020-08-04T12:48:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:46:37Z",
+  "trigger" : "expression",
+  "evidence" : [ "TOR1A protein expression" ],
+  "pmc_id" : "6078351",
+  "score" : 0
+}

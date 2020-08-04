@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05166",
+      "entity_text" : "Dube3a",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0031594" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Wu et al. found that adult flies deficient for Dube3a or expressing wild type Dube3a in neurons showed significant defects in climbing ability that were ubiquitin ligase dependent, implying an underlying defect at the neuromuscular junction that may also depend on Dube3a ubiquitination.",
+  "reading_complete" : "2020-08-04T13:21:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:19:49Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "Dube3a ubiquitination" ],
+  "pmc_id" : "4571101",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00307",
+      "entity_text" : "CH",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6329",
+      "entity_text" : "methyl group",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When going from Me 2 to Et 2, the distance of the terminal methyl group increases as in the trans series but now each methyl group not only \" sees \" the other methyl group, but also the neighboring CH 2 group.",
+  "reading_complete" : "2020-08-04T13:41:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:35:59Z",
+  "trigger" : "increases",
+  "evidence" : [ "methyl group increases as in the trans series but now each methyl group not only \"sees\" the other methyl group, but also the neighboring CH" ],
+  "pmc_id" : "5542769",
+  "score" : 0
+}

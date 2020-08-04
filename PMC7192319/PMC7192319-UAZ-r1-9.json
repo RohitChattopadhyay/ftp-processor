@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Chloroquine alters the glycosylation of ACE2, which decreases the affinity of ACE2 for the coronavirus spike protein, reducing SARS-CoV-2 entry in vitro [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:45:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:37:45Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation of ACE2" ],
+  "pmc_id" : "7192319",
+  "score" : 0
+}

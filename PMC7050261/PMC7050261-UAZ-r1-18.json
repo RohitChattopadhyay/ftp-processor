@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03399",
+      "entity_text" : "GP73",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_1655" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "Species" : [ "taxonomy:11103" ]
+    }
+  },
+  "verbose_text" : "They found significantly higher fucosylated GP73 levels in liver cirrhosis patients compared to that in HCC patients.",
+  "reading_complete" : "2020-08-04T14:09:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:03:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "GP73 levels" ],
+  "pmc_id" : "7050261",
+  "score" : 0
+}

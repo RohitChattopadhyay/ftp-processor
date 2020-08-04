@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007165",
+      "entity_text" : "signalling pathway",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZZ3",
+      "entity_text" : "CHMP5",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In mice, loss of the Vps60 ortholog CHMP5 causes early embryonic lethality and weak activation of the TGFbeta signalling pathway.",
+  "reading_complete" : "2020-08-04T11:06:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:04:53Z",
+  "trigger" : "causes",
+  "evidence" : [ "CHMP5 causes early embryonic lethality and weak activation of the TGFbeta-signalling pathway" ],
+  "pmc_id" : "6777356",
+  "score" : 0
+}

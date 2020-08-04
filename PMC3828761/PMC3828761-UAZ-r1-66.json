@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08345",
+      "entity_text" : "DDR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "Collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ]
+    }
+  },
+  "verbose_text" : "Collagen bead binding in DDR1 over-expressing 3T3 cells was> 2-fold higher (P < 0.001) than DDR1 control cells or DDR1 wild type cells while cells with DDR1 knockdown exhibited ~ 50% less bead binding than wild-type cells (XREF_FIG).",
+  "reading_complete" : "2020-08-04T12:26:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:20Z",
+  "trigger" : "binding",
+  "evidence" : [ "Collagen bead binding in DDR1" ],
+  "pmc_id" : "3828761",
+  "score" : 0
+}

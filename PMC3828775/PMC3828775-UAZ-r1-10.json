@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "APC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00254",
+      "entity_text" : "Par3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E801" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Par complex has been reported to be present at the tip of the growing axons, and the complex is transported to the location through direct interaction of Par3 with the KIF3A subunit of the Kinesin-2 complex, and APC.",
+  "reading_complete" : "2020-08-04T11:58:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:58:07Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of Par3 with the KIF3A subunit of the Kinesin-2 complex, and APC" ],
+  "pmc_id" : "3828775",
+  "score" : 0
+}

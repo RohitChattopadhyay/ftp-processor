@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01989",
+      "entity_text" : "cocaine-C1",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O64404",
+      "entity_text" : "AG4",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02025",
+      "entity_text" : "MNPs-C2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the presence of cocaine, the C2 layer on the MNPs hybridizes partly with C1-AG4 to result in the folding of the aptamer into a three-way junction on the surface of the MNPs to form a MNPs-C2 - cocaine-C1 - AG4 complex.",
+  "reading_complete" : "2020-08-04T13:29:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:19:34Z",
+  "trigger" : "complex",
+  "evidence" : [ "MNPs-C2-cocaine-C1-AG4 complex" ],
+  "pmc_id" : "5974560",
+  "score" : 0
+}

@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZY8",
+      "entity_text" : "Mff",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O00429",
+      "entity_text" : "DLP1",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02646",
+      "entity_text" : "Pex11pbeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0005777" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Wild-type HA 2 -DLP1, but not the HA 2 -DLP1 mutants, was detected in FLAG-Pex11pbeta immunoprecipitates (XREF_FIG, lanes 4-6), suggesting that the middle domain of DLP1 is required for the formation of the Pex11pbeta / Mff / DLP1 complex.",
+  "reading_complete" : "2020-08-04T11:18:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:17:29Z",
+  "trigger" : "complex",
+  "evidence" : [ "Pex11pbeta/Mff/DLP1 complex" ],
+  "pmc_id" : "3798195",
+  "score" : 0
+}

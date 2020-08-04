@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "Apc",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02363",
+      "entity_text" : "Id2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Because the loss of Id2 specifically suppresses ileal tumor initiation in Apc Delta716 mice, we confirmed the expression patterns of Id2 and other Id family members (Id1 and Id3) along the proximal-distal axis of the small intestine.",
+  "reading_complete" : "2020-08-04T12:44:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:49Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "Id2 specifically suppresses ileal tumor initiation in Apc" ],
+  "pmc_id" : "4542283",
+  "score" : 0
+}

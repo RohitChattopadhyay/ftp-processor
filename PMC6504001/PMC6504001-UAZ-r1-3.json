@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:312",
+      "entity_text" : "chloride",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This has been described as static quenching, wherein chloride binding to E 2 GFP completely inhibits fluorescence and thus prevents alterations in the ratiometric measurement of pH.",
+  "reading_complete" : "2020-08-04T09:58:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:57:59Z",
+  "trigger" : "binding",
+  "evidence" : [ "chloride binding to E 2 GFP" ],
+  "pmc_id" : "6504001",
+  "score" : 0
+}

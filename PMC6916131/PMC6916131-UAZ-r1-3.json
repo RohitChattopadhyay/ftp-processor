@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : true,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0545" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Increase in RAGE indicates the increased binding of AGE to its receptor and in-turn translocates NF-kappaB into the nucleus and activates the pathway leading to the expression of various inflammatory cytokines to sustain the oxidative damage to the neurons [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:47:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:56Z",
+  "trigger" : "translocates",
+  "evidence" : [ "translocates NF-kappaB into the nucleus" ],
+  "pmc_id" : "6916131",
+  "score" : 0
+}

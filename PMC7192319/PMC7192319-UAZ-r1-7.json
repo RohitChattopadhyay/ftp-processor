@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02018",
+      "entity_text" : "SARS-CoV-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2719",
+      "entity_text" : "chloroquine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Chloroquine was found to inhibit SARS-CoV-1 infection and he sequence and structure homologies between SARS-CoV-1 and SARS-CoV-2 suggest that chloroquine could reduce SARS-CoV-2 infectivity [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:45:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:37:45Z",
+  "trigger" : "reduce",
+  "evidence" : [ "chloroquine could reduce SARS-CoV-2" ],
+  "pmc_id" : "7192319",
+  "score" : 0
+}

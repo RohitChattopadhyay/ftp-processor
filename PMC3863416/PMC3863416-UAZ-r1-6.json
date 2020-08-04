@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10663",
+      "entity_text" : "malonyl-CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:7227" ]
+    }
+  },
+  "verbose_text" : "AMPK signaling acts downstream to inhibit protein and lipid synthesis, for example, activating elongation factor-2 kinase, which causes inhibition of the elongation step of translation; inhibiting the target-of-rapamycin (TOR) pathway, which stimulates the initiation step of protein synthesis by the phosphorylation of multiple targets; and phosphorylating and inhibiting the fatty acid synthesis and rate limiting enzyme ACC, which subsequently lowers malonyl-CoA levels and increases fatty acid uptake into mitochondria.",
+  "reading_complete" : "2020-08-04T10:23:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:23:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "malonyl-CoA levels" ],
+  "pmc_id" : "3863416",
+  "score" : 0
+}

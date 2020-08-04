@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99527",
+      "entity_text" : "GPR30",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5991",
+      "entity_text" : "estrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Organ" : [ "uberon:UBERON:0001021" ]
+    }
+  },
+  "verbose_text" : "While binding affinities of these compounds to the estrogen receptor may be low, proliferative effects have been observed when atrazine interacts with the estrogen binding protein GPR30 [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:21:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:17:37Z",
+  "trigger" : "binding",
+  "evidence" : [ "estrogen-binding protein GPR30" ],
+  "pmc_id" : "3671687",
+  "score" : 0
+}

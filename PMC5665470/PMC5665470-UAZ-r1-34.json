@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF-A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22314",
+      "entity_text" : "UBA1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These data show that loss of UBA1 elevates the endothelial cell response to VEGF-A which is reflected reflected by endothelial endothelial cell migration and monolayer wound closure.",
+  "reading_complete" : "2020-08-04T13:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:39:44Z",
+  "trigger" : "elevates",
+  "evidence" : [ "UBA1 elevates the endothelial cell response to VEGF-A" ],
+  "pmc_id" : "5665470",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03923",
+      "entity_text" : "LDL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03911",
+      "entity_text" : "protein receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9913" ],
+      "Cellular_component" : [ "go:GO:0030133" ]
+    }
+  },
+  "verbose_text" : "The LDLa is a low density lipoprotein receptor class A domain, that plays an important role in mammalian cholesterol metabolism, the protein receptor binds LDL and transports it into the cell by endocytosis [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T12:26:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "protein receptor binds LDL" ],
+  "pmc_id" : "3680339",
+  "score" : 0
+}

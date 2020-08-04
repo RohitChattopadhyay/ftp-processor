@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62491",
+      "entity_text" : "Rab11",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0031982" ]
+    }
+  },
+  "verbose_text" : "Since GTP bound Rab11 interacts with an exocyst subunit (also see XREF_FIG), we concluded that Rab11, in concert with the exocyst, is involved in tethering of Tfn-TfnR-containing recycling vesicles with the PM.",
+  "reading_complete" : "2020-08-04T12:46:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:44:55Z",
+  "trigger" : "bound",
+  "evidence" : [ "GTP-bound Rab11" ],
+  "pmc_id" : "4571095",
+  "score" : 0
+}

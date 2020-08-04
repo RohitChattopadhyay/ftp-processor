@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The accumulated beta-catenin then translocates to the nucleus where it stimulates the expression of Wnt target genes through interaction with T-cell factor / lymphocyte enhancer factor (TCF/LEF) transcription factors.",
+  "reading_complete" : "2020-08-04T12:44:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:49Z",
+  "trigger" : "translocates",
+  "evidence" : [ "beta-catenin then translocates to the nucleus" ],
+  "pmc_id" : "4542283",
+  "score" : 0
+}

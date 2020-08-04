@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0000803" ],
+      "CellType" : [ "cl:CL:0002371" ]
+    }
+  },
+  "verbose_text" : "Since the regulation of H2AX phosphorylation (Ser 139 and Tyr 142) is crucial to somatic DDR, we initially sought to examine the functional relationship between these two sites in the germline where DDR events occur in the context of normal developmental processes.",
+  "reading_complete" : "2020-08-04T12:08:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:10Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "H2AX phosphorylation" ],
+  "pmc_id" : "4571090",
+  "score" : 0
+}

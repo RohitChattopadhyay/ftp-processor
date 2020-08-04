@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:126941",
+      "entity_text" : "Methotrexate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Methotrexate is primarily bound to serum albumin and excreted unchanged in the urine [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:09:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:04:03Z",
+  "trigger" : "bound",
+  "evidence" : [ "Methotrexate is primarily bound to serum albumin" ],
+  "pmc_id" : "4257944",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5753",
+      "entity_text" : "corticosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13423",
+      "entity_text" : "Nnt",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Interestingly, it has been demonstrated that both under- or overexpression of Nnt reduced corticosterone output in mice, implying a central role for it in the control of steroidogenesis.",
+  "reading_complete" : "2020-08-04T12:03:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:02:16Z",
+  "trigger" : "reduced",
+  "evidence" : [ "Nnt reduced corticosterone" ],
+  "pmc_id" : "5829508",
+  "score" : 0
+}

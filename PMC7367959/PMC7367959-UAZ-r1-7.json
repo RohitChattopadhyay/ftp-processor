@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:126941",
+      "entity_text" : "methotrexate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6037",
+      "entity_text" : "folic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Dose reductions of methotrexate may help to avoid GI symptoms and the addition of folic acid to the therapeutic regimen is also helpful, although high doses of folic acid can diminish the therapeutic effect of methotrexate [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:45:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:26:29Z",
+  "trigger" : "diminish",
+  "evidence" : [ "folic acid can diminish the therapeutic effect of methotrexate" ],
+  "pmc_id" : "7367959",
+  "score" : 0
+}

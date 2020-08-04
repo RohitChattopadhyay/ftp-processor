@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35558",
+      "entity_text" : "PEPCK1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Organ" : [ "uberon:UBERON:3010752" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We mutated all three lysine residues thought to be acetylated in PEPCK1 but were surprised to observe no loss of binding to UBR5 HECT domain.",
+  "reading_complete" : "2020-08-04T12:33:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:32:20Z",
+  "trigger" : "acetylated",
+  "evidence" : [ "acetylated in PEPCK1" ],
+  "pmc_id" : "6310884",
+  "score" : 0
+}

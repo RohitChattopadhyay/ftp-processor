@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0000988" ]
+    }
+  },
+  "verbose_text" : "Interestingly, HDAC6 was recently shown to regulate tubulin deacetylation during platelet activation, raising the intriguing possibility of a potential interplay between HDAC6 and RanBP10 in platelet activation.",
+  "reading_complete" : "2020-08-04T13:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:12:41Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "tubulin deacetylation" ],
+  "pmc_id" : "4058076",
+  "score" : 0
+}

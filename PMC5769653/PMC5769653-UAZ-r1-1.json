@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "Erk",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P55075",
+      "entity_text" : "Fgf8",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7LGA3",
+      "entity_text" : "Hs2st",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The binding of Fgf8 to its receptor activates the phosphorylation of Erk.",
+  "reading_complete" : "2020-08-04T11:50:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:39:36Z",
+  "trigger" : "activates",
+  "evidence" : [ "Fgf8 to its receptor activates the phosphorylation of Erk" ],
+  "pmc_id" : "5769653",
+  "score" : 0
+}

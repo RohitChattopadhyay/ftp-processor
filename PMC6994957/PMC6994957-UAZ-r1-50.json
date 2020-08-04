@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Treatment with wortmannin, an inhibitor of PI3K, which is an upstream regulator of the Akt-Rab8a signaling pathway, abolished Akt phosphorylation (XREF_FIG D).",
+  "reading_complete" : "2020-08-04T11:39:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:38:09Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt phosphorylation" ],
+  "pmc_id" : "6994957",
+  "score" : 0
+}

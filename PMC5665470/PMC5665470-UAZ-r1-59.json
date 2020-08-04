@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22314",
+      "entity_text" : "UBA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If UBA1 depletion affects VEGFR2 membrane dynamics, loss of UBA1 would be expected to alter VEGFR2 distribution within these compartments.",
+  "reading_complete" : "2020-08-04T13:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:39:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of UBA1" ],
+  "pmc_id" : "5665470",
+  "score" : 0
+}

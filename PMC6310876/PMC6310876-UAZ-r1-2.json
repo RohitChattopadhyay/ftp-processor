@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11006",
+      "entity_text" : "CNS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0199" ],
+      "Organ" : [ "uberon:UBERON:2000127" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:8355" ]
+    }
+  },
+  "verbose_text" : "Simple stimuli such as clicks generally fail to stimulate cells at this level of the CNS.",
+  "reading_complete" : "2020-08-04T11:14:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:12:36Z",
+  "trigger" : "level",
+  "evidence" : [ "level of the CNS" ],
+  "pmc_id" : "6310876",
+  "score" : 0
+}

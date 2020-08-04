@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13617",
+      "entity_text" : "Cul2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15393",
+      "entity_text" : "SAP130",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Interestingly, we found that SAP130 binds with similar affinity to Cul1, Cul4 and Cul2; while it binds more strongly to Cul3 (XREF_FIG).",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "SAP130 binds with similar affinity to Cul1, Cul4 and Cul2" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}

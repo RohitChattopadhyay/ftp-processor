@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18031",
+      "entity_text" : "PTP1B",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0030027" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, transfected cells lack the peripheral ring of Src-pY418 puncta (XREF_FIG N-P), suggesting that peripheral positioning of ER bound PTP1B promotes efficient integrin dependent activation of Src.",
+  "reading_complete" : "2020-08-04T14:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:09Z",
+  "trigger" : "bound",
+  "evidence" : [ "ER-bound PTP1B" ],
+  "pmc_id" : "4728310",
+  "score" : 0
+}

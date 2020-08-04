@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine-345",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14757",
+      "entity_text" : "Chk1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20848",
+      "entity_text" : "ATR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Schizosaccharomyces pombe Chk1 is phosphorylated in its C-terminal domain at serine 345 by Rad3 (ATR) after the kinase is recruited to a broken chromosome by Rad4 (TopBP1), Crb2 (53BP1) and the Rad9-Rad1-Hus1 ring.",
+  "reading_complete" : "2020-08-04T12:43:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:42:15Z",
+  "evidence" : [ "Chk1 is phosphorylated in its C-terminal domain at serine-345 by Rad3 (ATR" ],
+  "pmc_id" : "5769658",
+  "score" : 0
+}

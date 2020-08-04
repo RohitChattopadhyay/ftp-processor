@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:313",
+      "entity_text" : "hydrochloride",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The quantity of alfuzosin hydrochloride (in%) released was quantified by using formula x as (AT/AS) x (WS/200) x (900/10) x (10/5) x (P/100) x 100 at 1 h. Net / cumulative drug dissolution was calculated at each time point after adding drug present in the volume of sample taken out as correction factor.",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:40:50Z",
+  "trigger" : "quantity",
+  "evidence" : [ "quantity of alfuzosin hydrochloride" ],
+  "pmc_id" : "3671720",
+  "score" : 0
+}

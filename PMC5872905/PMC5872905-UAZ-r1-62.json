@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:961",
+      "entity_text" : "OH",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11473",
+      "entity_text" : "VDR",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The authors suggested that a high cytochrome P450 (CYP) 27B1/low CYP24A1 profile in PTC might enhance VDR expression and reduce VDR inactivation, thereby increasing the local availability of 1,25 (OH) 2D3 [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:56:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:54:14Z",
+  "trigger" : "reduce",
+  "evidence" : [ "VDR expression and reduce VDR inactivation, thereby increasing the local availability of 1,25(OH" ],
+  "pmc_id" : "5872905",
+  "score" : 0
+}

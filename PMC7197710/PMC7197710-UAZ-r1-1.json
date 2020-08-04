@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95497",
+      "entity_text" : "Vnn1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In a diabetic model, increased Vnn1 induced a reduction in Akt phosphorylation, which might be associated with insulin resistance.",
+  "reading_complete" : "2020-08-04T11:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:55:00Z",
+  "trigger" : "induced",
+  "evidence" : [ "Vnn1 induced a reduction in Akt phosphorylation" ],
+  "pmc_id" : "7197710",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BW83",
+      "entity_text" : "IFT27",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BW83",
+      "entity_text" : "IFT27",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "IFT25 depletion in IFT25 miRNA cells caused a dramatic reduction of IFT27 protein to a level of as low as ~ 7% of wild-type level (XREF_FIG A, B), and a significant increase in IFT27 mRNA to a level of as high as ~ 133% of wild-type level (XREF_FIG C), indicating that cells respond to the loss of IFT27 protein by increasing IFT27 transcript level.",
+  "reading_complete" : "2020-08-04T14:24:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:22:57Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of IFT27 protein by increasing IFT27" ],
+  "pmc_id" : "5703605",
+  "score" : 0
+}

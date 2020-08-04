@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6STE5",
+      "entity_text" : "Baf60c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found that constitutive loss of Baf60c leads to embryonic cardiac hypoplasia and pronounced cardiac dysfunction.",
+  "reading_complete" : "2020-08-04T11:32:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:30:58Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Baf60c" ],
+  "pmc_id" : "5829499",
+  "score" : 0
+}

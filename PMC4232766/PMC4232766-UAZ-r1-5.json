@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04969",
+      "entity_text" : "RIC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04973",
+      "entity_text" : "pcRNA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Cellular_component" : [ "go:GO:0005768" ],
+      "Species" : [ "taxonomy:10633" ]
+    }
+  },
+  "verbose_text" : "Therefore, we isolated the cytosolic fraction from HepG2 cells treated with pcRNA1 - RIC complex for 2 h, and incubated it in presence of nucleotide co-factors with mitochondria from untreated FLP32.39 cells.",
+  "reading_complete" : "2020-08-04T13:11:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:09:40Z",
+  "trigger" : "complex",
+  "evidence" : [ "pcRNA1-RIC complex" ],
+  "pmc_id" : "4232766",
+  "score" : 0
+}

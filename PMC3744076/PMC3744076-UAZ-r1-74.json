@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13616",
+      "entity_text" : "Cul1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13309",
+      "entity_text" : "Skp2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W483" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Knockdown of SAP130 had no significant effect on the interaction between Skp1 / Skp2 and Cul1 measured by immunoprecipitation (data not shown).",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between Skp1/Skp2 and Cul1" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}

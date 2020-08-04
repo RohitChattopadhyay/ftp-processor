@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "extracellular signal-regulated kinase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A key feature of VEGF-A-stimulated signaling is activation of the canonical mitogen activated protein kinase (MAPK) pathway leading to phosphorylation and activation of extracellular signal regulated kinase enzymes 1 and 2 (ERK1/2).",
+  "reading_complete" : "2020-08-04T13:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:39:44Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and activation of extracellular signal-regulated kinase" ],
+  "pmc_id" : "5665470",
+  "score" : 0
+}

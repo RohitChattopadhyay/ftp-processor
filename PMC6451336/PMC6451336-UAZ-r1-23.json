@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19022",
+      "entity_text" : "N-Cadherin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02820",
+      "entity_text" : "Mbt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1698" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In contrast, Mbt stabilizes but does not bind N-Cadherin in vitro.",
+  "reading_complete" : "2020-08-04T14:35:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:33:57Z",
+  "trigger" : "bind",
+  "evidence" : [ "Mbt stabilizes but does not bind N-Cadherin" ],
+  "pmc_id" : "6451336",
+  "score" : 0
+}

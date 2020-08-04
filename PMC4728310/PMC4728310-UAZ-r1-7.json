@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18031",
+      "entity_text" : "PTP1B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PTP1B dephosphorylates the autoinhibitory tyrosine of Src (Tyr 529 in mouse), contributing to its activation.",
+  "reading_complete" : "2020-08-04T14:44:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:43:09Z",
+  "evidence" : [ "PTP1B dephosphorylates the autoinhibitory tyrosine of Src" ],
+  "pmc_id" : "4728310",
+  "score" : 0
+}

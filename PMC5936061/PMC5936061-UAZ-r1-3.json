@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01382",
+      "entity_text" : "avidin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:171548",
+      "entity_text" : "biotin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0229" ],
+      "Species" : [ "taxonomy:9031" ]
+    }
+  },
+  "verbose_text" : "The binding of biotin to egg white avidin results in its unavailability for microorganisms and thereby prevents their proliferation.",
+  "reading_complete" : "2020-08-04T13:43:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:41:57Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of biotin to egg white avidin" ],
+  "pmc_id" : "5936061",
+  "score" : 0
+}

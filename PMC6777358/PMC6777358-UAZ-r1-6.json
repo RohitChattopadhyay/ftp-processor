@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5988",
+      "entity_text" : "sugar",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MsGSTU8 in transgenic tobacco decreases ion leakage and MDA levels but increases soluble sugar content under saline-alkali stress.",
+  "reading_complete" : "2020-08-04T12:06:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:05:18Z",
+  "trigger" : "increases",
+  "evidence" : [ "MDA levels but increases soluble sugar" ],
+  "pmc_id" : "6777358",
+  "score" : 0
+}

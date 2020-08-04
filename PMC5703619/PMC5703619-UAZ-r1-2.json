@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1088",
+      "entity_text" : "sarcosine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1134" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:8355" ]
+    }
+  },
+  "verbose_text" : "We chose the one tailed test because we suspected an increase in sarcosine levels from Cont 10 to Exp 10.",
+  "reading_complete" : "2020-08-04T15:01:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:00:44Z",
+  "trigger" : "levels",
+  "evidence" : [ "sarcosine levels" ],
+  "pmc_id" : "5703619",
+  "score" : 0
+}

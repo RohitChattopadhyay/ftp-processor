@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2719",
+      "entity_text" : "chloroquine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "In a retrospective study of 191 patients with chloroquine toxicity, a serum potassium lower than 3.0 mmol/L was correlated with mortality, and the serum potassium decreased as serum chloroquine levels increased [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:45:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:37:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "chloroquine levels" ],
+  "pmc_id" : "7192319",
+  "score" : 0
+}

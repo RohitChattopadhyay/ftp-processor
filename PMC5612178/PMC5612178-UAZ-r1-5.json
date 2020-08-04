@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "In an initial study based on an Indian population, it was pointed out that IL-1beta level was remarkably elevated in inflammation sites compared to healthy sites, and Satio et al. suggested that IL-1beta production could be downregulated by platelet granule extract 2 [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:11:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:08:16Z",
+  "trigger" : "level",
+  "evidence" : [ "IL-1beta level" ],
+  "pmc_id" : "5612178",
+  "score" : 0
+}

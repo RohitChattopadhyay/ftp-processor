@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96S59",
+      "entity_text" : "RanBPM",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0016235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To verify that this effect was not cell type specific, we repeated these experiments in HEK293 cells, in which we previously generated RanBPM shRNA stably expressing cells where RanBPM expression is reduced.",
+  "reading_complete" : "2020-08-04T13:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:12:41Z",
+  "trigger" : "expression",
+  "evidence" : [ "RanBPM expression" ],
+  "pmc_id" : "4058076",
+  "score" : 0
+}

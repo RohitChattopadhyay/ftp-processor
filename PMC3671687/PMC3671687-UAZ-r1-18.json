@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXI8",
+      "entity_text" : "MCL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0828" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0002327" ]
+    }
+  },
+  "verbose_text" : "Although the levels of the pesticides used in this study are just outside the EPA recommended MCL levels (XREF_TABLE), they fall within physiological ranges for hormone studies (between 10 and 100 nM).",
+  "reading_complete" : "2020-08-04T14:21:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:17:37Z",
+  "trigger" : "levels",
+  "evidence" : [ "MCL levels" ],
+  "pmc_id" : "3671687",
+  "score" : 0
+}

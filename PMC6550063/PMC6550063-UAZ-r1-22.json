@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Organ" : [ "uberon:UBERON:0004209" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As mentioned earlier in the text, Bach2 was identified as part of the transcription factor signature of the distal renal vesicle, a compartment that receives high levels of Wnt9b / beta-catenin signaling.",
+  "reading_complete" : "2020-08-04T12:19:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:18:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Wnt9b/beta-catenin" ],
+  "pmc_id" : "6550063",
+  "score" : 0
+}

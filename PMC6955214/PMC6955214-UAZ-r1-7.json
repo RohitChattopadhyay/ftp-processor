@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02422",
+      "entity_text" : "keratin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1090" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:1000497" ],
+      "Species" : [ "taxonomy:8364" ]
+    }
+  },
+  "verbose_text" : "EGF has been reported to regulate keratin phosphorylation, inducing the reorganization of keratin filaments.",
+  "reading_complete" : "2020-08-04T13:07:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:07:03Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "keratin phosphorylation" ],
+  "pmc_id" : "6955214",
+  "score" : 0
+}

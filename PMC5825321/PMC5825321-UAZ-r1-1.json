@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12599",
+      "entity_text" : "deoxyadenosine monophosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In lymphocytes, dAdo is phosphorylated to deoxyadenosine monophosphate (dAMP) and is subsequently converted to deoxyadenosine triphosphate (dATP).",
+  "reading_complete" : "2020-08-04T13:38:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:35:55Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated to deoxyadenosine monophosphate" ],
+  "pmc_id" : "5825321",
+  "score" : 0
+}

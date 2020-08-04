@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14672",
+      "entity_text" : "GLUT4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GLUT4 translocation can be abolished by wortmannin, an inhibitor of phosphoinositide 3-kinase (PI3K), an upstream kinase that phosphorylates Akt / protein kinase B.",
+  "reading_complete" : "2020-08-04T11:39:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:38:09Z",
+  "trigger" : "abolished",
+  "evidence" : [ "GLUT4 translocation can be abolished by wortmannin, an inhibitor of phosphoinositide 3-kinase (PI3K), an upstream kinase that phosphorylates Akt" ],
+  "pmc_id" : "6994957",
+  "score" : 0
+}

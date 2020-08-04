@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51153",
+      "entity_text" : "Rab13",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61006",
+      "entity_text" : "Rab8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Cellular_component" : [ "go:GO:0055037" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "When Rab35 or MICAL-L1 was depleted by RNAi, there was a dramatic reduction in the perinuclear signals of Rab8, Rab13, and Rab36 (XREF_FIG, XREF_FIG, XREF_FIG), indicating that both Rab35 and MICAL-L1 are required for the perinuclear recruitment of Rab8, Rab13, and Rab36.",
+  "reading_complete" : "2020-08-04T12:30:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:29:24Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of Rab8, Rab13" ],
+  "pmc_id" : "4163657",
+  "score" : 0
+}

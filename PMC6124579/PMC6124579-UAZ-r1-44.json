@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:654",
+      "entity_text" : "dpf",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01698",
+      "entity_text" : "betae1-globin mRNA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MO treatment significantly reduced Hemogen protein levels by 19% at 33 hpf (Student 's t-test, P < 0.05, Fig. S4A, B) and steady-state levels of betae1-globin mRNA at 3 dpf (Student 's t-test, P < 0.05, Fig. S4C).",
+  "reading_complete" : "2020-08-04T10:25:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:23:48Z",
+  "trigger" : "reduced",
+  "evidence" : [ "reduced Hemogen protein levels by 19% at 33 hpf (Student's t-test, P<0.05, Fig. S4A,B) and steady-state levels of betae1-globin mRNA at 3 dpf" ],
+  "pmc_id" : "6124579",
+  "score" : 0
+}

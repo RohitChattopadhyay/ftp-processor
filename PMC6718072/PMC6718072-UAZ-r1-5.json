@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01642",
+      "entity_text" : "beta-subunit of RNA polymerase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:70680287",
+      "entity_text" : "rifampicin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Kanamycin interferes in translation (protein synthesis) processes and cell respiration, and causes potassium ion leakage, whereas Erythromycin inhibits protein synthesis by binding to the 50 S ribosome subunit, and rifampicin inhibits RNA synthesis by binding to beta-subunit of RNA polymerase.",
+  "reading_complete" : "2020-08-04T12:30:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:27:33Z",
+  "trigger" : "binding",
+  "evidence" : [ "rifampicin inhibits RNA synthesis by binding to beta-subunit of RNA polymerase" ],
+  "pmc_id" : "6718072",
+  "score" : 0
+}

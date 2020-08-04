@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "VEGFR2",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, during the time course of CHX treatment it was noticeable that ubiquitinated VEGFR2 levels were significantly higher in control cells than in UBA1 depleted cells (XREF_FIG E).",
+  "reading_complete" : "2020-08-04T13:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:39:44Z",
+  "trigger" : "levels",
+  "evidence" : [ "VEGFR2 levels" ],
+  "pmc_id" : "5665470",
+  "score" : 0
+}

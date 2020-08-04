@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "methionine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:778",
+      "entity_text" : "homocysteine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42898",
+      "entity_text" : "MTHFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, MTHFR causes methylation of homocysteine into methionine, leading to methylation of DNA.",
+  "reading_complete" : "2020-08-04T14:39:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:37:25Z",
+  "trigger" : "causes",
+  "evidence" : [ "MTHFR causes methylation of homocysteine into methionine" ],
+  "pmc_id" : "4368066",
+  "score" : 0
+}

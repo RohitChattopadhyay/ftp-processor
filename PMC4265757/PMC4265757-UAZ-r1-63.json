@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05940",
+      "entity_text" : "scaffolding protein Discs large",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04204",
+      "entity_text" : "Hts",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We previously have shown that Hts interacts with the scaffolding protein Discs large (Dlg), and regulates Dlg localization at the postsynaptic membrane by promoting its phosphorylation through Partitioning defective 1 (PAR-1) and Ca 2+ / calmodulin dependent protein kinase II (CaMKII), two known regulators of Dlg postsynaptic targeting.",
+  "reading_complete" : "2020-08-04T14:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:06:30Z",
+  "trigger" : "interacts",
+  "evidence" : [ "Hts interacts with the scaffolding protein Discs large" ],
+  "pmc_id" : "4265757",
+  "score" : 0
+}

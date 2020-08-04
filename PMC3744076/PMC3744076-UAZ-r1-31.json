@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15393",
+      "entity_text" : "SAP130-HA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06751",
+      "entity_text" : "Skp2-V5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "In the experiment shown, we were unable to evaluate Skp2-V5 binding to SAP130-HA because Skp2-V5 co-migrated with heavy chain IgG in the immunoprecipitate samples.",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "binding",
+  "evidence" : [ "Skp2-V5 binding to SAP130-HA" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35558",
+      "entity_text" : "PEPCK1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95071",
+      "entity_text" : "UBR5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This result indicates that UBR5 recognizes and binds to PEPCK1 through the N-lobe of the HECT domain.",
+  "reading_complete" : "2020-08-04T12:33:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:32:20Z",
+  "trigger" : "binds",
+  "evidence" : [ "UBR5 recognizes and binds to PEPCK1" ],
+  "pmc_id" : "6310884",
+  "score" : 0
+}

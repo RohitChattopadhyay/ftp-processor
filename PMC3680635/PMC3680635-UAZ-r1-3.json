@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0430" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Methotrexate is not without problems : patients often complain of nausea, hair thinning, and both physicians and patients worry about hepatotoxicity, particularly in the overweight patients and those who consume moderate amounts of alcohol.",
+  "reading_complete" : "2020-08-04T13:31:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:25:03Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of alcohol" ],
+  "pmc_id" : "3680635",
+  "score" : 0
+}

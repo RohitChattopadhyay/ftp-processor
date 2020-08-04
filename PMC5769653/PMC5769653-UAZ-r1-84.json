@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55075",
+      "entity_text" : "Fgf8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The [Fgf8]/[pErk] dose response is stable for the first 2 h, but after 4 h the cells becomes much less sensitive with saturating levels of Fgf8 eliciting ~ 60% the pErk output of the earlier time-points (blue < red = black lines in XREF_FIG I).",
+  "reading_complete" : "2020-08-04T11:50:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:39:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Fgf8" ],
+  "pmc_id" : "5769653",
+  "score" : 0
+}

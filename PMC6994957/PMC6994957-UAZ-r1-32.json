@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We confirmed that insulin dependent Akt phosphorylation was not perturbed in BAG6 knockdown cells (XREF_FIG D), suggesting that intracellular insulin signaling including the function of IR is normal in these cells.",
+  "reading_complete" : "2020-08-04T11:39:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:38:09Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt phosphorylation" ],
+  "pmc_id" : "6994957",
+  "score" : 0
+}

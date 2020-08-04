@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95861",
+      "entity_text" : "PIP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29966",
+      "entity_text" : "MARCKS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0002544" ]
+    }
+  },
+  "verbose_text" : "As mentioned above, MARCKS binds to PIP 2 as the MARCKS effector domain carries basic residue clusters that can interact with acidic lipids in the inner leaflet of the cell membrane.",
+  "reading_complete" : "2020-08-04T14:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:06:30Z",
+  "trigger" : "binds",
+  "evidence" : [ "MARCKS binds to PIP" ],
+  "pmc_id" : "4265757",
+  "score" : 0
+}

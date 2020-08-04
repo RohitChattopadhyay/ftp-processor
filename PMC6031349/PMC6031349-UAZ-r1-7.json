@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ],
+      "CellType" : [ "cl:CL:0000134" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "This amount of VEGF however, was not enough to elicit BMP and IGF production (XREF_FIG E, F, 0% BMSC-CM versus DMEM).",
+  "reading_complete" : "2020-08-04T14:25:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:24:52Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of VEGF" ],
+  "pmc_id" : "6031349",
+  "score" : 0
+}

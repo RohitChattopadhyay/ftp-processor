@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, previous studies have shown that transcription from the ID2 promoter is increased by overexpression of beta-catenin.",
+  "reading_complete" : "2020-08-04T12:44:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:43:49Z",
+  "trigger" : "increased",
+  "evidence" : [ "transcription from the ID2 promoter is increased by overexpression of beta-catenin" ],
+  "pmc_id" : "4542283",
+  "score" : 0
+}

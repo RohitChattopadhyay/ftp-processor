@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13618",
+      "entity_text" : "Cul3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CUL",
+      "entity_text" : "Cullin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "In conclusion, SAP130 is a Cullin interacting protein that binds to Cul1, Cul2, Cul3 and Cul4, and localizes in both the nucleus and cytoplasm.",
+  "reading_complete" : "2020-08-04T14:49:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:48:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "Cullin-interacting protein that binds to Cul1, Cul2, Cul3" ],
+  "pmc_id" : "3744076",
+  "score" : 0
+}

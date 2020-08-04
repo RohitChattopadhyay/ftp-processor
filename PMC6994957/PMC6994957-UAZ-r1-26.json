@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14672",
+      "entity_text" : "GLUT4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000136" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Akt phosphorylation is necessary for the suppression of AS160, a GTPase activating protein (GAP) for Rab8 family small GTPases, and AS160 knockdown increases basal GLUT4 levels on the cell surface by activating a Rab8a mediated membrane trafficking pathway.",
+  "reading_complete" : "2020-08-04T11:39:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:38:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "GLUT4 levels" ],
+  "pmc_id" : "6994957",
+  "score" : 0
+}

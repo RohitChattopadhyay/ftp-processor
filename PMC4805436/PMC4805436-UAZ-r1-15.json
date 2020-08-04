@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5893",
+      "entity_text" : "NAD",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119389",
+      "entity_text" : "Octanoate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Octanoate is known to decrease the intracellular NAD + / NADH ratio 16, which would serve to further lower the PDH activity and stimulate PEPCK, again altering the detection of HP [13 C] bicarbonate.",
+  "reading_complete" : "2020-08-04T15:00:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:49:02Z",
+  "trigger" : "decrease",
+  "evidence" : [ "Octanoate is known to decrease the intracellular NAD" ],
+  "pmc_id" : "4805436",
+  "score" : 0
+}

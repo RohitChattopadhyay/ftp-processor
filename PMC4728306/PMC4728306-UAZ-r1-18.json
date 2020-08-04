@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95229",
+      "entity_text" : "ZWINT-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Kinetochore",
+      "entity_text" : "kinetochore",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This data indicates that inhibition of PLK1 or Aurora B causes incomplete kinetochore recruitment of HEC1 and ZWINT-1, which may be required for accurate recruitment of PLK1 and maintenance of Aurora B at the kinetochore.",
+  "reading_complete" : "2020-08-04T12:24:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:23:01Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "kinetochore recruitment of HEC1 and ZWINT-1" ],
+  "pmc_id" : "4728306",
+  "score" : 0
+}

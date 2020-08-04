@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0221" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Since we observed an initial, consistent die-off of adults within the first week post-eclosion, this suggests that the amount of ATP made in Cluh expressing adults is partially insufficient during the first week of life, but is adequate if the adults can survive past that first week.",
+  "reading_complete" : "2020-08-04T12:36:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:35:44Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ATP" ],
+  "pmc_id" : "4823986",
+  "score" : 0
+}

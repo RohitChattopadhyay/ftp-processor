@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14672",
+      "entity_text" : "GLUT-4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Second, a single bout of muscle contractions leads to a translocation of GLUT-4 to the sarcolemma membrane, which acutely enhances glucose transport capacity [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T14:18:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:16:51Z",
+  "trigger" : "enhances",
+  "evidence" : [ "GLUT-4 to the sarcolemma membrane, which acutely enhances glucose" ],
+  "pmc_id" : "3680639",
+  "score" : 0
+}

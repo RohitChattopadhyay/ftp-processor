@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6STE5",
+      "entity_text" : "BAF60c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellType" : [ "cl:CL:0000746" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The set of genes that are altered due to depletion of BAF60c in differentiating C2C12 cells is remarkably similar to those altered by loss of BAF60c in the heart, indicating a commonality in the regulatory program controlled by BAF60c in cardiac and skeletal muscle.",
+  "reading_complete" : "2020-08-04T11:32:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:30:58Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of BAF60c" ],
+  "pmc_id" : "5829499",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63000",
+      "entity_text" : "Rac1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20339",
+      "entity_text" : "Rab5",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 43,
+        "feature_type" : "mutation",
+        "evidence" : "S43N"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Strikingly, both dynasore and Rab5 S43N attenuated the Rac1 V12 -induced loss of Crb (XREF_FIG D, E and Fig. S1C).",
+  "reading_complete" : "2020-08-04T14:15:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:14:38Z",
+  "trigger" : "attenuated",
+  "evidence" : [ "Rab5 S43N  attenuated the Rac1" ],
+  "pmc_id" : "4728308",
+  "score" : 0
+}

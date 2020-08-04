@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CAMK2_complex",
+      "entity_text" : "camkII",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When expressing phospho-mimetic Hts in the muscle, overall par-1 and camkII mRNA levels in the nuclei and cytoplasm were reduced, a result also observed in hts 01103 mutants (XREF_FIG).",
+  "reading_complete" : "2020-08-04T14:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:06:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "camkII mRNA levels" ],
+  "pmc_id" : "4265757",
+  "score" : 0
+}

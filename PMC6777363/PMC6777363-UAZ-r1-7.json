@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55075",
+      "entity_text" : "Fgf8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "CellLine" : [ "cellosaurus:CVCL_D953" ],
+      "Organ" : [ "uberon:UBERON:0003107" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000062" ]
+    }
+  },
+  "verbose_text" : "In the more posterior arches, Fgf3 might partially compensate for the loss of Fgf8.",
+  "reading_complete" : "2020-08-04T13:15:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:14:23Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Fgf8" ],
+  "pmc_id" : "6777363",
+  "score" : 0
+}

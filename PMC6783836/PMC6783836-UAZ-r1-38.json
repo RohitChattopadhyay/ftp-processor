@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5988",
+      "entity_text" : "sugar",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4641" ],
+      "TissueType" : [ "tissuelist:TS-0540" ],
+      "Cellular_component" : [ "go:GO:0005773" ]
+    }
+  },
+  "verbose_text" : "These results indicate that these genes may regulate stress responses by modulating sugar levels under stress conditions.",
+  "reading_complete" : "2020-08-04T15:02:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:54:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "sugar levels" ],
+  "pmc_id" : "6783836",
+  "score" : 0
+}

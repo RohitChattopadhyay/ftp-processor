@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00740",
+      "entity_text" : "PTC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "CAMP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We hypothesized that 1,25 (OH) 2D3 could inhibit the proliferation and induce the apoptosis of PTC cells by increasing levels of CAMP.",
+  "reading_complete" : "2020-08-04T14:56:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:54:14Z",
+  "trigger" : "induce",
+  "evidence" : [ "induce the apoptosis of PTC cells by increasing levels of CAMP" ],
+  "pmc_id" : "5872905",
+  "score" : 0
+}

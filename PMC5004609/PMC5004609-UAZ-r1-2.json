@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UP83",
+      "entity_text" : "Cog5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0949" ],
+      "Cellular_component" : [ "go:GO:0016007" ],
+      "Organ" : [ "uberon:UBERON:3010752" ],
+      "Species" : [ "taxonomy:4932" ],
+      "CellType" : [ "cl:CL:0000018" ]
+    }
+  },
+  "verbose_text" : "In contrast, lobe B loss causes much milder phenotypes, for example loss of Cog5 in a human patient was shown to lead to relatively mild psychomotor retardation, while loss-of-function alleles of its fly homolog, fws, cause male sterility due to incomplete cytokinesis during spermatogenesis.",
+  "reading_complete" : "2020-08-04T13:27:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:26:26Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Cog5" ],
+  "pmc_id" : "5004609",
+  "score" : 0
+}

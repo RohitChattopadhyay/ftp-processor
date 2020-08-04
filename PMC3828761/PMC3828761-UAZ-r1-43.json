@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_J350" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Notably, the alpha11 integrin, which is another integrin sub-unit that binds fibrillar collagen, was not detectable by immunoblotting of wild type or DDR1 over-expressing cells (data not shown).",
+  "reading_complete" : "2020-08-04T12:26:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:20Z",
+  "trigger" : "binds",
+  "evidence" : [ "integrin sub-unit that binds fibrillar collagen" ],
+  "pmc_id" : "3828761",
+  "score" : 0
+}

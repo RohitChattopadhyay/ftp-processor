@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:185542" ]
+    }
+  },
+  "verbose_text" : "The amount of ATP stored in the muscles is low, and during subsequent stages of the movement, the fish fulfills the increased demands of ATP required during muscle contraction through hydrolysis of phosphocreatine (PCr), glycolysis and aerobic metabolism.",
+  "reading_complete" : "2020-08-04T13:04:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:02:54Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ATP" ],
+  "pmc_id" : "5450316",
+  "score" : 0
+}

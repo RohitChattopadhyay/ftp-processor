@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8534",
+      "entity_text" : "Alizarin Red S",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:9796" ]
+    }
+  },
+  "verbose_text" : "Alizarin Red S staining binds directly to calcium, meaning it can cross react with calcium on the surface of OsteoAssay plates.",
+  "reading_complete" : "2020-08-04T11:35:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:34:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "Alizarin Red S staining binds directly to calcium" ],
+  "pmc_id" : "5992527",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Tyr142",
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14676",
+      "entity_text" : "MDC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MDC1 is required for dephosphorylated Tyr142 of H2AX on the sex chromosomes during meiosis.",
+  "reading_complete" : "2020-08-04T12:08:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:07:10Z",
+  "evidence" : [ "MDC1 is required for dephosphorylated Tyr142 of H2AX" ],
+  "pmc_id" : "4571090",
+  "score" : 0
+}

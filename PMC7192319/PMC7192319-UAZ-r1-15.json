@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02020",
+      "entity_text" : "SARS-CoV-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "uniprot:SL-0381" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002063" ]
+    }
+  },
+  "verbose_text" : "SARS-CoV-1 and SARS-CoV-2 gain entry when the spike protein on the surface of the viral capsid binds to angiotensin converting enzyme II (ACE2) on type II alveolar cells, leading to fusion of the viral and host cell membranes, and injection of the viral RNA into the host cytoplasm [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:45:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:37:45Z",
+  "trigger" : "binds",
+  "evidence" : [ "SARS-CoV-1 and SARS-CoV-2 gain entry when the spike protein on the surface of the viral capsid binds to angiotensin-converting enzyme II (ACE2" ],
+  "pmc_id" : "7192319",
+  "score" : 0
+}

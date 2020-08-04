@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00740",
+      "entity_text" : "PTC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11473",
+      "entity_text" : "VDR",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We hypothesized that the transcription or translation of the VDR may be activated in PTC pathogenesis, or that increased VDR expression might promote the occurrence of PTC.",
+  "reading_complete" : "2020-08-04T14:56:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:54:14Z",
+  "trigger" : "promote",
+  "evidence" : [ "VDR expression might promote the occurrence of PTC" ],
+  "pmc_id" : "5872905",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000094" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Inhibition of PDE4 activity leads to elevated levels of intracellular cAMP.",
+  "reading_complete" : "2020-08-04T13:31:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:25:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of intracellular cAMP" ],
+  "pmc_id" : "3680635",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60271",
+      "entity_text" : "JIP4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95755",
+      "entity_text" : "Rab36",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Cellular_component" : [ "go:GO:0055037" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "We also overexpressed the Rab36 binding domain of JIP4 (JIP4-RBD), which was expected to disrupt the interaction between Rab36 and JIP4 by masking the JIP4 binding interface of Rab36, in PC12 cells and evaluated the effect of its overexpression on neurite outgrowth.",
+  "reading_complete" : "2020-08-04T12:30:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:29:24Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between Rab36 and JIP4" ],
+  "pmc_id" : "4163657",
+  "score" : 0
+}

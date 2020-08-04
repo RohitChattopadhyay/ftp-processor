@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "T68",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q71F23",
+      "entity_text" : "PBIP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P53350",
+      "entity_text" : "PLK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similarly, PLK1 activity is continuously required for its own tethering at kinetochores which is in line with previous work demonstrating that PLK1 phosphorylates PBIP1 at T68 to create a phospho binding domain for the Polo Box Domain of PLK1 itself.",
+  "reading_complete" : "2020-08-04T12:24:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:23:01Z",
+  "evidence" : [ "PLK1 phosphorylates PBIP1 at T68" ],
+  "pmc_id" : "4728306",
+  "score" : 0
+}

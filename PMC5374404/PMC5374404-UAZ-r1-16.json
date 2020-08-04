@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15468",
+      "entity_text" : "STIL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "Organ" : [ "uberon:UBERON:0010168" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "PLK4 / Sak then recruits STIL / Ana2, activating the kinase and allowing it to phosphorylate STIL / Ana2, which can then interact with and recruit Sas-6.",
+  "reading_complete" : "2020-08-04T10:35:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:34:57Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate\nSTIL" ],
+  "pmc_id" : "5374404",
+  "score" : 0
+}

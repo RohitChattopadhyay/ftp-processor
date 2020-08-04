@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We hypothesize that increasing pulmonary-vascular dysfunction results in failure of adaptive regulation through greater levels of oxygen desaturation that ultimately leads to cardiopulmonary failure.",
+  "reading_complete" : "2020-08-04T12:52:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:51:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of oxygen" ],
+  "pmc_id" : "5155529",
+  "score" : 0
+}

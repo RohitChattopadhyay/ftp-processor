@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02303",
+      "entity_text" : "CGI",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We applied three combinations of sgRNAs (Set 1, 2, All) to test whether inducing DNA methylation of the entire CGI could decrease gene expression (XREF_FIG A).",
+  "reading_complete" : "2020-08-04T13:53:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:52:55Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of the entire CGI" ],
+  "pmc_id" : "4920199",
+  "score" : 0
+}

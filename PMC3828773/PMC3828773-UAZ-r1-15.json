@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02687",
+      "entity_text" : "DeltaGPI-CD44P construct",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0030" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "In accordance with this, immunoblot (supplementary material Fig. S1A) and immunofluorescence analysis of methanol fixed cells (supplementary material Fig. S1B) illustrated that the DeltaGPI-CD44P construct was processed far more efficiently in HEK293-T cells than in HeLa cells, with the majority of the protein being both properly glycosylated, and transported from the ER.",
+  "reading_complete" : "2020-08-04T11:20:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:18:46Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "DeltaGPI-CD44P construct was processed far more efficiently in HEK293-T cells than in HeLa cells, with the majority of the protein being both properly glycosylated" ],
+  "pmc_id" : "3828773",
+  "score" : 0
+}

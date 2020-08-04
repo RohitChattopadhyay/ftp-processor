@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16374",
+      "entity_text" : "Cif",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It is possible that Cif does not directly increase B. thailandensis proliferation but instead causes enhanced bacterial internalisation.",
+  "reading_complete" : "2020-08-04T11:27:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:26:38Z",
+  "trigger" : "increase",
+  "evidence" : [ "Cif does not directly increase B. thailandensis proliferation" ],
+  "pmc_id" : "6078346",
+  "score" : 0
+}
