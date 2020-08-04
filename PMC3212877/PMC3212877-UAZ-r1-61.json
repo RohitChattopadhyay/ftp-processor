@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0949" ],
+      "Cellular_component" : [ "go:GO:0005739" ]
+    }
+  },
+  "verbose_text" : "However, when treated with a combination of glucose and pyruvate, ATP levels were restored to non inhibited control levels.",
+  "reading_complete" : "2020-08-04T18:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:53:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "3212877",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00843",
+      "entity_text" : "mAb Tu145",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-115",
+      "entity_text" : "HLA-DR",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1070" ],
+      "Organ" : [ "uberon:UBERON:0001637" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In flow cytometry, fetal HLA-DR + Hofbauer cells bound mAb Tu145 but not mAb 6.28, whereas HLA-G + extravillous or EGF-R + VT cells did not bind either of the anti-CD48 mAbs.",
+  "reading_complete" : "2020-08-04T18:58:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:57:11Z",
+  "trigger" : "bound",
+  "evidence" : [ "HLA-DR +  Hofbauer cells bound mAb Tu145" ],
+  "pmc_id" : "2569846",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Since high lactate concentrations favor the reverse reaction of LDH and consequently an inhibition of lactic acid fermentation, we wanted to investigate whether an excess of lactate would block ATP production in our setup.",
+  "reading_complete" : "2020-08-04T18:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:53:18Z",
+  "trigger" : "block",
+  "evidence" : [ "lactate would block ATP" ],
+  "pmc_id" : "3212877",
+  "score" : 0
+}

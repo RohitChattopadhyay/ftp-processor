@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26718",
+      "entity_text" : "NKG2D",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00827",
+      "entity_text" : "NKG2DL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0363" ],
+      "TissueType" : [ "tissuelist:TS-0142" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Constitutive or soluble NKG2DL bind to NKG2D and down-regulate its expression on NK and T cells, abrogating NK activation towards the tumour or infected cell.",
+  "reading_complete" : "2020-08-04T18:58:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:57:11Z",
+  "trigger" : "bind",
+  "evidence" : [ "NKG2DL bind to NKG2D" ],
+  "pmc_id" : "2569846",
+  "score" : 0
+}

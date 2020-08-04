@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:LDH",
+      "entity_text" : "LDH",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "LDH is known to produce lactate from pyruvate under anaerobic conditions, but we hypothesized that this may be true for spermatozoa also under sufficient levels of oxygen.",
+  "reading_complete" : "2020-08-04T18:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:53:18Z",
+  "trigger" : "produce",
+  "evidence" : [ "LDH is known to produce lactate" ],
+  "pmc_id" : "3212877",
+  "score" : 0
+}

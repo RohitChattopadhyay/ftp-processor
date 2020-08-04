@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75022",
+      "entity_text" : "LILRB3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-115",
+      "entity_text" : "HLA-DR",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0193" ],
+      "Organ" : [ "uberon:UBERON:0001637" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "HLA-DR + or LILRB3 + myelomonocytic cells in the decidua did not bind either CD48 mAb relative to isotype controls.",
+  "reading_complete" : "2020-08-04T18:58:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:57:11Z",
+  "trigger" : "bind",
+  "evidence" : [ "HLA-DR +  or LILRB3 +  myelomonocytic cells in the decidua did not bind" ],
+  "pmc_id" : "2569846",
+  "score" : 0
+}

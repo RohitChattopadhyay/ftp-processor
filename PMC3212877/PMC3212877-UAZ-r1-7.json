@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0949" ]
+    }
+  },
+  "verbose_text" : "A connection between ATP content and capacitation is further supported by the observation that mouse spermatozoa lacking functional protein kinase A (PKA) showed reduced levels of tyrosine phosphorylation and endogenous ATP.",
+  "reading_complete" : "2020-08-04T18:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:53:18Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation and endogenous ATP" ],
+  "pmc_id" : "3212877",
+  "score" : 0
+}

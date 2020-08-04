@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0949" ],
+      "CellType" : [ "cl:CL:0000019" ]
+    }
+  },
+  "verbose_text" : "The fact that this process is independent of mitochondrial respiration indicates that human sperm cell motility and fertility are unaffected by low levels of oxygen as long as glucose and pyruvate are concurrently present at sufficient concentrations, as is the case in the female reproductive tract.",
+  "reading_complete" : "2020-08-04T18:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:53:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of oxygen" ],
+  "pmc_id" : "3212877",
+  "score" : 0
+}
