@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02923",
+      "entity_text" : "BamHI",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NRR4",
+      "entity_text" : "RNase III",
+      "features" : [ {
+        "to_base" : "E",
+        "site" : 110,
+        "feature_type" : "mutation",
+        "evidence" : "E110A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These results suggest that (i) BamHI access to its site is limited in ds [RNA-DNA] matrices that contain molecules exhibiting near-vertical orientations, and (ii) the binding of the E110A RNase III mutant to the dsRNA segment of the ds [RNA-DNA] structure prevents BamHI access to the contiguous dsDNA sequence.",
+  "reading_complete" : "2020-08-04T14:24:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:15:47Z",
+  "trigger" : "prevents",
+  "evidence" : [ "RNase III mutant to the dsRNA segment of the ds[RNA-DNA] structure prevents BamHI" ],
+  "pmc_id" : "3757352",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0943" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "According to the recommendation of the International Society for the Study of the Aging Male (ISSAM), LOH is defined as a clinical and biochemical syndrome associated with advancing age characterized by typical symptoms and deficiency in serum testosterone levels.",
+  "reading_complete" : "2020-08-04T14:27:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:25:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "4708250",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Compared to controls, white blood cells and reactive oxygen species are higher in SCI men, and there is an inverse correlation between the level of reactive oxygen species and sperm motility.",
+  "reading_complete" : "2020-08-04T14:25:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:24:22Z",
+  "trigger" : "level",
+  "evidence" : [ "level of reactive oxygen" ],
+  "pmc_id" : "6087847",
+  "score" : 0
+}

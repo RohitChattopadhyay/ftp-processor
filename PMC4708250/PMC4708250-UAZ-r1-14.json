@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "myosin light chain",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-1107" ],
+      "Organ" : [ "uberon:UBERON:0006609" ],
+      "CellType" : [ "cl:CL:0000359" ]
+    }
+  },
+  "verbose_text" : "Pharmacological studies have shown that Schisandra chinensis extract has a dose dependent relaxation effect on vascular smooth muscle and that vascular relaxation is mediated by an endothelium dependent NO pathway and a direct effect on vascular smooth muscle cells via dephosphorylation of the myosin light chain.",
+  "reading_complete" : "2020-08-04T14:27:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:25:54Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of the myosin light chain" ],
+  "pmc_id" : "4708250",
+  "score" : 0
+}
