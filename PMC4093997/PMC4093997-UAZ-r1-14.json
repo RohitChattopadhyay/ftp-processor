@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O42043",
+      "entity_text" : "transmembrane protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "MCTP2 is a transmembrane protein that binds calcium in the absence of phospholipids.",
+  "reading_complete" : "2020-08-04T20:42:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:41:36Z",
+  "trigger" : "binds",
+  "evidence" : [ "transmembrane protein that binds calcium" ],
+  "pmc_id" : "4093997",
+  "score" : 0
+}

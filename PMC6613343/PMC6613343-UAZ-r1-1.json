@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10407" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Model B was based on model A and additionally adjusted for some behavioural habits and health related indicators of female partners including alcohol intake (yes/no), tobacco exposure (yes/no), BMI (underweight/normal/overweight/obesity), blood pressure (hypertension or no), genital tract infection (yes/no), HBV infection (yes/no), hemoglobin level (<115 g/L/> = 115 g/L/) and TSH level (decreased/normal/elevated).",
+  "reading_complete" : "2020-08-04T20:45:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:43:35Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "6613343",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26651",
+      "entity_text" : "TTP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Elevated pre-pregnancy maternal glucose levels were associated with the couple 's lower fecundability and lead to prolonged TTP.",
+  "reading_complete" : "2020-08-04T20:45:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:43:35Z",
+  "trigger" : "lead",
+  "evidence" : [ "glucose levels were associated with the couple's lower fecundability and lead to prolonged TTP" ],
+  "pmc_id" : "6613343",
+  "score" : 0
+}

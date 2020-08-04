@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:2002175" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The Kaplan-Meier method was used to estimate the cumulative pregnancy rate in each menstrual cycle, and the discrete-time analogue of the Cox models was used to estimate the fecundability odds ratios (FORs) and 95% CIs by different pre-pregnancy maternal glucose levels (impaired fasting glucose (IFG) or diabetes as compared to normal).",
+  "reading_complete" : "2020-08-04T20:45:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:43:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6613343",
+  "score" : 0
+}

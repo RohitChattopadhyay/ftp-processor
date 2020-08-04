@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81765",
+      "entity_text" : "POI",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99963",
+      "entity_text" : "SH3GL3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000477" ]
+    }
+  },
+  "verbose_text" : "An association between SH3GL3 and POI should be further investigated.",
+  "reading_complete" : "2020-08-04T20:42:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:41:36Z",
+  "trigger" : "association",
+  "evidence" : [ "association between SH3GL3 and POI" ],
+  "pmc_id" : "4093997",
+  "score" : 0
+}

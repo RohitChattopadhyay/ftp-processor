@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43312",
+      "entity_text" : "MIM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H0U9",
+      "entity_text" : "TSPYL1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The TSPYL6 gene function is unknown, but homozygous mutations of TSPYL1 (TSPY Like 1) have been found to cause dysgenesis of the testis and sudden infant death syndrome (MIM 608800).",
+  "reading_complete" : "2020-08-04T20:42:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:41:36Z",
+  "trigger" : "cause",
+  "evidence" : [ "TSPYL1 (TSPY-Like 1) have been found to cause dysgenesis of the testis and sudden infant death syndrome (MIM" ],
+  "pmc_id" : "4093997",
+  "score" : 0
+}

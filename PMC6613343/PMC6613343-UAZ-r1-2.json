@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22265",
+      "entity_text" : "TSH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:485" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0004905" ]
+    }
+  },
+  "verbose_text" : "We categorized serum TSH levels into decreased (< 0.44 mumol/L), normal (0.44-3.45 mumol/L) and elevated (> 3.45 mumol/L) groups.",
+  "reading_complete" : "2020-08-04T20:45:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T20:43:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "TSH levels" ],
+  "pmc_id" : "6613343",
+  "score" : 0
+}
