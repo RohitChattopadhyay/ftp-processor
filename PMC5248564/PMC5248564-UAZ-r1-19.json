@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08651",
+      "entity_text" : "NFIC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1R13" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The expression level of NFIC was significantly downregulated in lung SCC compared to normal controls.",
+  "reading_complete" : "2020-08-04T13:22:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:20:52Z",
+  "trigger" : "level",
+  "evidence" : [ "level of NFIC" ],
+  "pmc_id" : "5248564",
+  "score" : 0
+}
