@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05172",
+      "entity_text" : "ECs receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:VEGF",
+      "entity_text" : "vascular endothelial growth factor",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellType" : [ "cl:CL:0000359" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Impaired ECs secrete vascular endothelial growth factor, which binds to ECs receptors on adjacent vessels, causing proliferation of ECs and the formation of new small vessels within the irreversible PAH pulmonary vascular wall [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T19:22:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:20:25Z",
+  "trigger" : "binds",
+  "evidence" : [ "vascular endothelial growth factor, which binds to ECs receptors" ],
+  "pmc_id" : "5870112",
+  "score" : 0
+}
