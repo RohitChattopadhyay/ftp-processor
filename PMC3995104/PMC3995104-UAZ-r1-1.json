@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:54670067",
+      "entity_text" : "vitamin C",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0392" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:3659" ]
+    }
+  },
+  "verbose_text" : "Containing high amounts of vitamin C, citrus fruits can be consumed raw or extracted for production of highly nutritious beverages.",
+  "reading_complete" : "2020-08-04T16:00:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:58:33Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of vitamin C" ],
+  "pmc_id" : "3995104",
+  "score" : 0
+}
