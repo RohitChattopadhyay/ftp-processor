@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "reduced glutathione",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0545" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0002224" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "At the crux of the disease is the loss of endogenous reduced glutathione; however the lens epithelial cells tend to be resilient to vision loss.",
+  "reading_complete" : "2020-08-04T18:04:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:02:31Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of endogenous reduced glutathione" ],
+  "pmc_id" : "4004860",
+  "score" : 0
+}

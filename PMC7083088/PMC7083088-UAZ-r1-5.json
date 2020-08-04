@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46060",
+      "entity_text" : "SD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000094" ]
+    }
+  },
+  "verbose_text" : "The patient population had mean +/- SD FeNO levels of 27.2 +/- 20.7 parts per billion (ppb).",
+  "reading_complete" : "2020-08-04T18:06:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:03:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "SD FeNO levels" ],
+  "pmc_id" : "7083088",
+  "score" : 0
+}

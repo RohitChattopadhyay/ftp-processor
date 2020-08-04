@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30085",
+      "entity_text" : "CK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000091" ]
+    }
+  },
+  "verbose_text" : "Particularly the levels of CK, a marker enzyme of heavy metal toxicity was increased three-fold in the sodium selenite induced group when compared to the control and C-PC treated groups.",
+  "reading_complete" : "2020-08-04T18:04:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:02:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CK" ],
+  "pmc_id" : "4004860",
+  "score" : 0
+}
