@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The observed fibrotic capsule in 3D in vitro tumors expressed different levels of common ECM proteins, such as collagen, vimentin, and laminin (XREF_FIG).",
+  "reading_complete" : "2020-08-04T09:33:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:31:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of common ECM" ],
+  "pmc_id" : "4180823",
+  "score" : 0
+}
