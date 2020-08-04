@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFNgamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0000363" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To detect a response in IFNgamma levels at least 3 weekly instillations are necessary and the IFNgamma urine levels increase further with maintenance therapy.",
+  "reading_complete" : "2020-08-04T15:00:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:00:02Z",
+  "trigger" : "levels",
+  "evidence" : [ "IFNgamma levels" ],
+  "pmc_id" : "5071200",
+  "score" : 0
+}

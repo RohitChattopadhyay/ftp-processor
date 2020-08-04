@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0407" ],
+      "CellType" : [ "cl:CL:0000899" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The AOM / DSS models are characterized by the activation of NF-kappaB, STAT3 and expression of high levels of IL-6 XREF_BIBR.",
+  "reading_complete" : "2020-08-04T14:57:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:56:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-6" ],
+  "pmc_id" : "3796738",
+  "score" : 0
+}
