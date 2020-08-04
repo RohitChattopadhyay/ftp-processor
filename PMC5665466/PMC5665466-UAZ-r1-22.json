@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CA05",
+      "entity_text" : "p62",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1221" ],
+      "CellLine" : [ "cellosaurus:CVCL_3360" ],
+      "Organ" : [ "uberon:UBERON:0001555" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000082" ]
+    }
+  },
+  "verbose_text" : "Inhibition of lysosomal degradation in HGC cells exposed to bufalin using bafilomycin A1 further increased LC3-II level, and restored p62 amount to almost normal level (XREF_FIG A).",
+  "reading_complete" : "2020-08-04T09:15:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:13:54Z",
+  "trigger" : "amount",
+  "evidence" : [ "p62 amount" ],
+  "pmc_id" : "5665466",
+  "score" : 0
+}

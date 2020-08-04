@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00280",
+      "entity_text" : "LC3-I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1221" ],
+      "CellLine" : [ "cellosaurus:CVCL_3360" ],
+      "Organ" : [ "uberon:UBERON:0001555" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000082" ]
+    }
+  },
+  "verbose_text" : "Compared to cells treated with vehicle, the levels of LC3-I and p62 significantly decreased in HGC cells treated with bufalin, whereas LC3-II increased (XREF_FIG A), indicating bufalin treatment induced LC3 conversion and p62 degradation in HGC cells.",
+  "reading_complete" : "2020-08-04T09:15:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:13:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of LC3-I" ],
+  "pmc_id" : "5665466",
+  "score" : 0
+}

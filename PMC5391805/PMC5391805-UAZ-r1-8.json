@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4530" ],
+      "TissueType" : [ "tissuelist:TS-0883" ]
+    }
+  },
+  "verbose_text" : "The amount of extractable soil water is the portion of the available soil water given by the difference between the soil water content (SWC) at any given time and the soil water content at the wilting point (WCWP).",
+  "reading_complete" : "2020-08-04T09:16:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:13:44Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of extractable soil water" ],
+  "pmc_id" : "5391805",
+  "score" : 0
+}

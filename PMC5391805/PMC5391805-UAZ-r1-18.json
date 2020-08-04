@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:947",
+      "entity_text" : "nitrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_4461" ],
+      "Species" : [ "taxonomy:4530" ],
+      "TissueType" : [ "tissuelist:TS-0540" ]
+    }
+  },
+  "verbose_text" : "The model was able to predict the low leaf N content with the higher nitrogen application in the aerobic experiment as well as the high leaf N content in the low nitrogen fertilizer application in fully irrigated environments, which confirmed the capability of ORYZA (v3) to represent the interaction of water and nitrogen.",
+  "reading_complete" : "2020-08-04T09:16:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:13:44Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of water and nitrogen" ],
+  "pmc_id" : "5391805",
+  "score" : 0
+}
