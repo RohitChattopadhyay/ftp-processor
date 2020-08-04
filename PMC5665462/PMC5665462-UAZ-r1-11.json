@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00661",
+      "entity_text" : "matrix",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the absence of exogenous stimulus, the co-culture of fibroblasts and epithelial cells resulted in higher levels of matrix deposition than could be accounted for by the same total cell number of either cell type alone and to a similar level as when stimulated by TGF-beta1 (XREF_FIG A, B).",
+  "reading_complete" : "2020-08-04T15:33:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:32:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of matrix" ],
+  "pmc_id" : "5665462",
+  "score" : 0
+}

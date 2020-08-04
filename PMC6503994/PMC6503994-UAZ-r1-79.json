@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BXM7",
+      "entity_text" : "Pink1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Parkin ubiquitinates Pink1 phosphorylated membrane proteins, including VDAC1 and Mfn2, and they are tagged for engulfment by a double membrane phagophore containing LC3BII.",
+  "reading_complete" : "2020-08-04T15:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:30:38Z",
+  "trigger" : "ubiquitinates",
+  "evidence" : [ "ubiquitinates Pink1" ],
+  "pmc_id" : "6503994",
+  "score" : 0
+}
