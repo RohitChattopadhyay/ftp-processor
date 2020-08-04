@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23253564",
+      "entity_text" : "morphine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Consequently, the amount of morphine produced from the parent drug codeine can be highly variable between individuals, ranging from 0% to nearly 75% of the total codeine dose XREF_BIBR.",
+  "reading_complete" : "2020-08-04T15:45:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:43:37Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of morphine" ],
+  "pmc_id" : "4233969",
+  "score" : 0
+}

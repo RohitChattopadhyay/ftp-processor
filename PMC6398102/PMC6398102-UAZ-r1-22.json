@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001130" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These molecules bound heterogeneous ds-DNA and in the presence of O 2 and dithiothreitol (DDT) cleaved the DNA backbone at specific sites.44 In this system, ROS such as hydroxyl radical, iron bound oxygen, and superoxide, were suspected DNA cleaving species.47 8-oxo-dG was found as the initial product from reacting deoxyguanosine with.",
+  "reading_complete" : "2020-08-04T15:49:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T15:45:57Z",
+  "trigger" : "bound",
+  "evidence" : [ "iron-bound oxygen" ],
+  "pmc_id" : "6398102",
+  "score" : 0
+}
