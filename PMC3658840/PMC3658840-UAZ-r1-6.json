@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Basically blood glucose from a control (noninjected animal) or a diabetic tridrug protected animal varies from 130 mg/deciliter to about 70 mg/deciliter with the average glucose level about 100 mg/deciliter.",
+  "reading_complete" : "2020-08-04T13:17:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:15:52Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "3658840",
+  "score" : 0
+}
