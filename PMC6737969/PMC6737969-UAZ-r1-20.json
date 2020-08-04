@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "The protein levels of p53 and Hsp70 in heart tissue were analyzed by western blot.",
+  "reading_complete" : "2020-08-04T09:00:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T08:58:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p53" ],
+  "pmc_id" : "6737969",
+  "score" : 0
+}
