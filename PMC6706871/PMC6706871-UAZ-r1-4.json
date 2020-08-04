@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05451",
+      "entity_text" : "Reg",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:76720" ],
+      "CellType" : [ "cl:CL:0000911" ]
+    }
+  },
+  "verbose_text" : "Cells were washed, resuspended, and either fixed for 20 min at RT with a 2% formaldehyde solution (evaluation of adoptive CD4+ T Reg transfer) or permeabilized with a fixation / permeabilization buffer (eBioscience, San Diego, USA) for 1 h on ice (evaluation of the amount of CD4+ T Reg after 21 days).",
+  "reading_complete" : "2020-08-04T09:42:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:37:03Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of CD4+ T Reg" ],
+  "pmc_id" : "6706871",
+  "score" : 0
+}
