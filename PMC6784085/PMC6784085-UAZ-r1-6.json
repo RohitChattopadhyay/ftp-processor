@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05408",
+      "entity_text" : "N-terminal peptide",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00665",
+      "entity_text" : "SignalP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SignalP v. 4.0 allowed to detect an N-terminal peptide of 38 amino acids, with a cleavage site between amino acids 37 and 38 (VRG-QQ), in addition no transmembrane domain was predicted.",
+  "reading_complete" : "2020-08-04T12:04:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:52:51Z",
+  "trigger" : "allowed",
+  "evidence" : [ "SignalP v. 4.0 allowed to detect an N-terminal peptide" ],
+  "pmc_id" : "6784085",
+  "score" : 0
+}
