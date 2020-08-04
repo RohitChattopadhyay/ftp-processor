@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00274",
+      "entity_text" : "IgG1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "While IgG is secreted by differentiated B-cells, it nonetheless has been shown that IgG1 glycosylation is dependent on B cell stimuli during their differentiation.",
+  "reading_complete" : "2020-08-04T10:55:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:53:10Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "IgG1 glycosylation" ],
+  "pmc_id" : "5834439",
+  "score" : 0
+}

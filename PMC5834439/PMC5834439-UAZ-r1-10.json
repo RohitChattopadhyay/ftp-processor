@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13761",
+      "entity_text" : "RUNX3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Methylation of RUNX3 promoters has an impact on several diseases, as well as on inflammation and immune response.",
+  "reading_complete" : "2020-08-04T10:55:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:53:10Z",
+  "trigger" : "Methylation",
+  "evidence" : [ "Methylation of RUNX3" ],
+  "pmc_id" : "5834439",
+  "score" : 0
+}
