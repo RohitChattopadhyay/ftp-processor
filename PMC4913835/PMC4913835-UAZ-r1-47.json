@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009362",
+      "entity_text" : "metastasis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78395",
+      "entity_text" : "PRAME",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In most cases, the high expression of PRAME has been linked to poor prognosis and increased development of metastasis [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:48:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:46:55Z",
+  "trigger" : "increased",
+  "evidence" : [ "PRAME has been linked to poor prognosis and increased development of metastasis" ],
+  "pmc_id" : "4913835",
+  "score" : 0
+}

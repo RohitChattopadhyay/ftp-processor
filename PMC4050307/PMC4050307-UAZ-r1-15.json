@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0546" ],
+      "TissueType" : [ "tissuelist:TS-0161" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Maoecrystal I did not affect beta-catenin level in SW480 cells, suggesting that maoecrystal I might inhibit Wnt signaling though downstream events of beta-catenin degradation.",
+  "reading_complete" : "2020-08-04T17:40:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:38:39Z",
+  "trigger" : "level",
+  "evidence" : [ "beta-catenin level" ],
+  "pmc_id" : "4050307",
+  "score" : 0
+}

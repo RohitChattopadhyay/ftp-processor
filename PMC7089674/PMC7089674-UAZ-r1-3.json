@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6Q6",
+      "entity_text" : "rank",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05249",
+      "entity_text" : "TILT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This formulation leads to the following optimization problem :1 argmin {L, p, E} rank (L) + lambdaE0, s.t.X (p) = L+ E.In, TILT transforms the above non convex problem into convex and subsequently solves efficiently the relaxed problem in an alternating fashion.",
+  "reading_complete" : "2020-08-04T17:23:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:13:52Z",
+  "trigger" : "leads",
+  "evidence" : [ "leads to the following optimization problem:1argmin{L,p,E}rank(L)+lambdaE0,s.t.X(p)=L+E.In                           , TILT" ],
+  "pmc_id" : "7089674",
+  "score" : 0
+}

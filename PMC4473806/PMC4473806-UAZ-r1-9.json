@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007155",
+      "entity_text" : "adhesion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03873",
+      "entity_text" : "miR-506",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In 2013, Arora reported that overexpression of miR-506 inhibited TGFbeta induced EMT and suppressed adhesion, invasion, and migration of MDA-MB-231 cells [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T17:08:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:07:17Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "miR-506 inhibited TGFbeta-induced EMT and suppressed adhesion" ],
+  "pmc_id" : "4473806",
+  "score" : 0
+}

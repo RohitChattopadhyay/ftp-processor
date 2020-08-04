@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0520" ],
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "miR-340 also suppressed the phosphorylation of AKT.",
+  "reading_complete" : "2020-08-04T17:49:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:48:04Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AKT" ],
+  "pmc_id" : "5238948",
+  "score" : 0
+}

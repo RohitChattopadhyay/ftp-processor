@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003940",
+      "entity_text" : "TGFbeta2",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0276" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0003891" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "The level of activated TGFbeta2 was undetectable by ELISA in cAMP decidualized endometrial stromal cells, and therefore this ligand is unlikely to contribute to the decidual response.",
+  "reading_complete" : "2020-08-04T18:08:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:07:29Z",
+  "trigger" : "level",
+  "evidence" : [ "level of activated TGFbeta2" ],
+  "pmc_id" : "2387221",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00762",
+      "entity_text" : "UBE2C",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04124",
+      "entity_text" : "MIR139",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The genes UBE2C and UBE2S have been reported to be indirectly regulated by MIR139, and so this result suggested that the down-regulation of expression of MIR139 could cause the upregulation of UBE2C and UBE2S.",
+  "reading_complete" : "2020-08-04T17:33:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:29:21Z",
+  "trigger" : "cause",
+  "evidence" : [ "MIR139 could cause the upregulation of UBE2C" ],
+  "pmc_id" : "6556069",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thirteen of the 17 patients had a hemoglobin level lower than 110 g/L before implantation, indicating anemia.",
+  "reading_complete" : "2020-08-04T17:57:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:55:06Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "6130172",
+  "score" : 0
+}

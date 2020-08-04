@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5991",
+      "entity_text" : "estrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ],
+      "CellType" : [ "cl:CL:0000081" ]
+    }
+  },
+  "verbose_text" : "POF patients in our study may have been exposed to elevated estrogen levels as a result of recruitment of large cohorts of oocytes in menstrual cycles occurring prior to POF onset.",
+  "reading_complete" : "2020-08-04T17:57:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:55:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "estrogen levels" ],
+  "pmc_id" : "2667790",
+  "score" : 0
+}

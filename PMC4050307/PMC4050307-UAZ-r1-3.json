@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When cells are inactivated, the destruction complex consisting of GSK-3beta/Axin2/APC/CK1, phosphorylates beta-catenin at the key N-terminal Ser and Thr residues in the cytoplasm and stimulates its ubiquitination dependent destruction.",
+  "reading_complete" : "2020-08-04T17:40:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:38:39Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates beta-catenin at the key N-terminal Ser" ],
+  "pmc_id" : "4050307",
+  "score" : 0
+}

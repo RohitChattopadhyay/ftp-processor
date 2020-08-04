@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12643",
+      "entity_text" : "BMP2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1027" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "Decidualized stromal cells secreted significantly higher amounts of BMP2 and TGFbeta1 compared with non decidualized cells (TGFbeta1 20.6 +/- 3.8 versus 14 +/- 3.1 pg/10 6 cells; BMP2 17.2 +/- 2.32 versus 8.44 +/- 1.5 pg/10 6 cells).",
+  "reading_complete" : "2020-08-04T18:08:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:07:29Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of BMP2" ],
+  "pmc_id" : "2387221",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04342",
+      "entity_text" : "miR-340",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This study showed that the overexpression of miR-340 significantly inhibited proliferation and induced apoptosis of human gastric cancer SGC-7901 cells.",
+  "reading_complete" : "2020-08-04T17:49:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:48:04Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "miR-340 significantly inhibited proliferation" ],
+  "pmc_id" : "5238948",
+  "score" : 0
+}
