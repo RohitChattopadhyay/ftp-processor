@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since rapamycin can inhibit Ca 2+ reuptake by SERCA in some cell types more detailed studies are needed to address this possibility in the Drosophila larval heart.",
+  "reading_complete" : "2020-08-04T09:04:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:03:25Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "rapamycin can inhibit Ca" ],
+  "pmc_id" : "6899040",
+  "score" : 0
+}

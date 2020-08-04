@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "Species" : [ "taxonomy:7227" ]
+    }
+  },
+  "verbose_text" : "A log-rank statistical analysis comparing pupation rate of each experimental group to that of control found that all three experimental pupation rates were significantly different from the control rate at an alpha level of 0.05 (P < 0.001).",
+  "reading_complete" : "2020-08-04T09:04:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:03:25Z",
+  "trigger" : "level",
+  "evidence" : [ "alpha level" ],
+  "pmc_id" : "6899040",
+  "score" : 0
+}

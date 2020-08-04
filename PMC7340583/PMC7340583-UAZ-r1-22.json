@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00058",
+      "entity_text" : "Pry3-VHH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Under these conditions, the Pry3-VHH fusion quantitatively bound the free GFP from the conditioned medium, thus allowing us to ascertain that the E96A mutant version of Pry3 was synthesized and transported to the cell surface at levels comparable to that of wild-type Pry3 (XREF_FIG D).",
+  "reading_complete" : "2020-08-04T09:03:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:00:16Z",
+  "trigger" : "bound",
+  "evidence" : [ "Pry3-VHH fusion quantitatively bound the free GFP" ],
+  "pmc_id" : "7340583",
+  "score" : 0
+}

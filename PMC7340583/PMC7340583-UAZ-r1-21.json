@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P47033",
+      "entity_text" : "Pry3",
+      "features" : [ {
+        "to_base" : "V",
+        "site" : 117,
+        "feature_type" : "mutation",
+        "evidence" : "V117M"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0416" ]
+    }
+  },
+  "verbose_text" : "When tested in the quantitative mating assay, overexpression of Pry3 V117M resulted in mating inhibition comparable to wild-type Pry3, indicating that fatty acid binding is not essential for the inhibitory function of Pry3 in the mating process (XREF_FIG C).",
+  "reading_complete" : "2020-08-04T09:03:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:00:16Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of Pry3" ],
+  "pmc_id" : "7340583",
+  "score" : 0
+}

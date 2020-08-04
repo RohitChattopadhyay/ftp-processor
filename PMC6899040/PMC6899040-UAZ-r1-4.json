@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "ethanol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Some studies have found that ethanol also inhibits mTOR, resulting in the same net effect of treatment with rapamycin.",
+  "reading_complete" : "2020-08-04T09:04:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:03:25Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "ethanol also inhibits mTOR" ],
+  "pmc_id" : "6899040",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P47033",
+      "entity_text" : "Pry3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "To determine whether fatty acid binding by Pry3 is important for its function in mating inhibition, we generated a mutant version in which valine at position 117 of Pry3 is exchanged for methionine.",
+  "reading_complete" : "2020-08-04T09:03:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:00:16Z",
+  "trigger" : "binding",
+  "evidence" : [ "acid binding by Pry3" ],
+  "pmc_id" : "7340583",
+  "score" : 0
+}
