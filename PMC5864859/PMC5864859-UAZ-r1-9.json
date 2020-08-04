@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03078",
+      "entity_text" : "plexins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR027231",
+      "entity_text" : "semaphorin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "Met" ],
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Consequently, semaphorin binding to plexins can lead to Met transactivation independent from HGF binding.",
+  "reading_complete" : "2020-08-04T11:53:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:52:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "semaphorin binding to plexins can lead to Met" ],
+  "pmc_id" : "5864859",
+  "score" : 0
+}
