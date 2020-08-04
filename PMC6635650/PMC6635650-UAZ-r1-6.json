@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:923",
+      "entity_text" : "sodium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The polymorphic alleles of ADD1 gene may show variations in the amount of sodium reabsorbed and potassium excreted counter to sodium ion and results in physiological change [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T21:20:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:17:50Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of sodium" ],
+  "pmc_id" : "6635650",
+  "score" : 0
+}
