@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "CellType" : [ "cl:CL:0000784" ]
+    }
+  },
+  "verbose_text" : "Furthermore, upon explantation (Ex) of the implanted WB-A cells, around day 36, persistent hyperglycemia returned, while animals that retained the transplanted cells maintained fairly normal glucose levels, confirming that the implanted WB-A cells were indeed responsible for the reduction in blood glucose levels.",
+  "reading_complete" : "2020-08-04T13:05:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:04:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3560354",
+  "score" : 0
+}

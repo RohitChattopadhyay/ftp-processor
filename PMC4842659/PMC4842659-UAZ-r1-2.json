@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "urea",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0004539" ]
+    }
+  },
+  "verbose_text" : "The blood routine and biochemical parameters were within normal range, except for an elevated serum creatinine level of 156 umol/L and serum urea level of 11.2 mmol/L.",
+  "reading_complete" : "2020-08-04T13:07:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:07:42Z",
+  "trigger" : "level",
+  "evidence" : [ "urea level" ],
+  "pmc_id" : "4842659",
+  "score" : 0
+}
