@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "adenosine triphosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "The forward reaction catalyzed by NKA can be written as in Equation [5], where intracellular adenosine triphosphate (ATP i) is hydrolyzed to ADP i and P i,5 extracellular potassium (K o +) is transported into the cell, and intracellular sodium (Na i +) is expelled.",
+  "reading_complete" : "2020-08-04T14:14:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:05:16Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "adenosine triphosphate (ATP i ) is hydrolyzed" ],
+  "pmc_id" : "4174415",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20366",
+      "entity_text" : "NKA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "On the other hand, for intact cells in culture or in tissue preparations, one cannot easily measure the kinetics of the (scalar) intracellular ATP hydrolysis caused by NKA activity.",
+  "reading_complete" : "2020-08-04T14:14:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:05:16Z",
+  "trigger" : "caused",
+  "evidence" : [ "ATP hydrolysis caused by NKA" ],
+  "pmc_id" : "4174415",
+  "score" : 0
+}
