@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "Pentoxifylline is a competitive non selective PDE inhibitor (used in the treatment of peripheral vascular disease) which raises intracellular cAMP levels to inhibit TNF and reduce inflammation.",
+  "reading_complete" : "2020-08-04T13:31:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:25:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "cAMP levels" ],
+  "pmc_id" : "3680635",
+  "score" : 0
+}
