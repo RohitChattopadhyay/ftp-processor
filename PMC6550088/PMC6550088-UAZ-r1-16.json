@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P24821",
+      "entity_text" : "TNC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0580" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0002088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In addition, the expression levels of TNC in VECs of lymph nodes with metastasis were stronger compared to those in lymph nodes without metastasis (XREF_FIG E, F).",
+  "reading_complete" : "2020-08-04T12:27:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:26:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNC" ],
+  "pmc_id" : "6550088",
+  "score" : 0
+}

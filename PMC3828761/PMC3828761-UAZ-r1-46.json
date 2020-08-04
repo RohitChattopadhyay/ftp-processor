@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08345",
+      "entity_text" : "DDR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0534" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Similar to the data for collagen bead binding, fibronectin coated bead binding (1 hr) to DDR1 over-expressing cells was higher than wild type cells (1.6-fold; P < 0.01) while binding was 50% lower in DDR1 knockdown cells compared with wild type (P < 0.01; XREF_FIG).",
+  "reading_complete" : "2020-08-04T12:26:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:20Z",
+  "trigger" : "binding",
+  "evidence" : [ "collagen bead binding, fibronectin-coated bead binding (1 hr) to DDR1" ],
+  "pmc_id" : "3828761",
+  "score" : 0
+}

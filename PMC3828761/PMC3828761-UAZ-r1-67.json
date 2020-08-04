@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08345",
+      "entity_text" : "DDR1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0534" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Collagen bead binding was not affected by the tyrosine kinase activity of DDR1 since inhibition of DDR1 's kinase activity with nilotinib (1 muM; 1 hr incubation before bead binding; IC 50 = 3.7 nM) did not affect the% of DDR1 over-expressing cells that bound collagen beads (P> 0.2).",
+  "reading_complete" : "2020-08-04T12:26:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:25:20Z",
+  "trigger" : "bound",
+  "evidence" : [ "DDR1 over-expressing cells that bound collagen" ],
+  "pmc_id" : "3828761",
+  "score" : 0
+}

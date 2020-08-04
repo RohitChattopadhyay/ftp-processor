@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96PN6",
+      "entity_text" : "SAC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Inhibition of PLK1, unlike the inhibition of Haspin, Aurora B and MPS1, is not sufficient to override the SAC induced cell cycle arrest, indicating that PLK1 is not strictly essential for the checkpoint.",
+  "reading_complete" : "2020-08-04T12:24:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:23:01Z",
+  "trigger" : "induced",
+  "evidence" : [ "SAC induced cell cycle" ],
+  "pmc_id" : "4728306",
+  "score" : 0
+}
