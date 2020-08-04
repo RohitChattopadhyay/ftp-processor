@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In the United State and Europe, nearly 10% of the general population is either an excessive amount of alcohol or alcohol dependent [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T11:28:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:22:35Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of alcohol or alcohol" ],
+  "pmc_id" : "6428077",
+  "score" : 0
+}
