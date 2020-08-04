@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Species" : [ "taxonomy:4530" ]
+    }
+  },
+  "verbose_text" : "In higher plants, the H + -ATPases located on the cell membrane utilize the energy generated from ATP hydrolysis to pump H + out of the cells to generate a transmembrane proton gradient.",
+  "reading_complete" : "2020-08-04T17:30:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:12:21Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "6630593",
+  "score" : 0
+}

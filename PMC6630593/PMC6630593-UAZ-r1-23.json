@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5360545",
+      "entity_text" : "Na",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14410",
+      "entity_text" : "Si",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, in tomato, Romero-Aranda et al. [XREF_BIBR] found that addition of Si did not decrease Na + and Cl - concentrations in leaves, but increased the tissue water content to dilute the salt ions that were absorbed.",
+  "reading_complete" : "2020-08-04T17:30:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:12:21Z",
+  "trigger" : "decrease",
+  "evidence" : [ "Si did not decrease Na" ],
+  "pmc_id" : "6630593",
+  "score" : 0
+}
