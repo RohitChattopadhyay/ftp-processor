@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:392622",
+      "entity_text" : "Ritonavir",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ritonavir is a very potent inhibitor of CYP3A4 (Ki 0.59 +/- 0.12muM), and may slow the metabolism of drugs which are substrates of CYP3A4, leading to potential dangerous drug-drug interactions [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T13:45:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:37:45Z",
+  "trigger" : "slow",
+  "evidence" : [ "Ritonavir is a very potent inhibitor of CYP3A4 (Ki 0.59 +/- 0.12muM), and may slow the metabolism" ],
+  "pmc_id" : "7192319",
+  "score" : 0
+}

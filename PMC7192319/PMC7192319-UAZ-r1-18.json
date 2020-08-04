@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02030",
+      "entity_text" : "cytochrome CYP 3A4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:392622",
+      "entity_text" : "ritonavir",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ritonavir is added to lopinavir as a pharmacokinetic booster [XREF_BIBR]; ritonavir is a potent inhibitor of cytochrome CYP 3A4, the enzyme that inactivates lopinavir.",
+  "reading_complete" : "2020-08-04T13:45:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:37:45Z",
+  "trigger" : "is a potent inhibitor",
+  "evidence" : [ "ritonavir is a potent inhibitor of cytochrome CYP 3A4" ],
+  "pmc_id" : "7192319",
+  "score" : 0
+}
