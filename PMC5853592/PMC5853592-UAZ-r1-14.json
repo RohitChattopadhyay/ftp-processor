@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02316",
+      "entity_text" : "H4K12",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "Increases in H4K12 acetylation have been implicated in susceptibility to maternal-age related meiotic errors in human oocytes.",
+  "reading_complete" : "2020-08-04T21:30:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:27:11Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "H4K12 acetylation" ],
+  "pmc_id" : "5853592",
+  "score" : 0
+}

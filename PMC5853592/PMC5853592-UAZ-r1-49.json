@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "Histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "Histone H3K9 deacetylation on maternal chromatin is followed by its trimethylation during oogenesis.",
+  "reading_complete" : "2020-08-04T21:30:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:27:11Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "Histone H3K9 deacetylation" ],
+  "pmc_id" : "5853592",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y2T7",
+      "entity_text" : "MSY2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "By analysis of the relative staining intensity of the overall ooplasm (indicated by the green circle surrounding the oocyte in Fig. XREF_FIG F), or the subcortical and the inner cytoplasmic regions separately (subtracting background staining in regions of interests outside of the oocyte; ROI 3) revealed the prominent and significant loss of overall and especially of cortical MSY2, and a relatively slight but significant increase in cytoplasmic localization.",
+  "reading_complete" : "2020-08-04T21:30:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:27:11Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of overall and especially of cortical MSY2" ],
+  "pmc_id" : "5853592",
+  "score" : 0
+}

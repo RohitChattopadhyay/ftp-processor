@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y2T7",
+      "entity_text" : "MSY2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06493",
+      "entity_text" : "CDK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "CDK1 mediated phosphorylation of MSY2 leads to an irreversible protein degradation, which downstream also relies on DCP1A and DCP2 and on mobilization of Cnot7 mRNA that causes mRNA deadenylation.",
+  "reading_complete" : "2020-08-04T21:30:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:27:11Z",
+  "trigger" : "mediated",
+  "evidence" : [ "CDK1-mediated phosphorylation of MSY2" ],
+  "pmc_id" : "5853592",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05205",
+      "entity_text" : "heterochromatin protein 1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "Subsequent recruitment of heterochromatin protein 1, alpha thalassemia / mental retardation syndrome X linked (ATRX) chromatin remodeling factor and Aurora Kinases is a crucial process after resumption of meiosis I to form a bipolar spindle.",
+  "reading_complete" : "2020-08-04T21:30:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:27:11Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of heterochromatin protein 1, alpha" ],
+  "pmc_id" : "5853592",
+  "score" : 0
+}
