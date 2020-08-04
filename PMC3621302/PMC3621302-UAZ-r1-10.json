@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cell-free hemoglobin has been found to reduce NO concentrations [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T18:07:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:59:44Z",
+  "trigger" : "reduce",
+  "evidence" : [ "hemoglobin has been found to reduce NO" ],
+  "pmc_id" : "3621302",
+  "score" : 0
+}

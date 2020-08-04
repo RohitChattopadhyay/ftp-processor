@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR006361",
+      "entity_text" : "heme",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "Free heme can bind NO and reduce its bioavailability, which promotes vaso-constriction, inflammation, and platelet aggregation.",
+  "reading_complete" : "2020-08-04T18:07:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T17:59:44Z",
+  "trigger" : "bind",
+  "evidence" : [ "heme can bind NO" ],
+  "pmc_id" : "3621302",
+  "score" : 0
+}
