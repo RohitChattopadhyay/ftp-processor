@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These modifications involve both histone methylation and acetylation, such as H3K4 monomethylation and H3K27 acetylation induced by LPS, and histone H3K4 trimethylation and H3K27 acetylation caused by beta-glucan.",
+  "reading_complete" : "2020-08-04T10:03:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:02:24Z",
+  "trigger" : "trimethylation",
+  "evidence" : [ "histone H3K4 trimethylation" ],
+  "pmc_id" : "5483442",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "In another study, silver NPs induced a decrease in methylation of H3K4me3 and H3K79me1 in mouse erythroleukemia cells, causing a reduction in hemoglobin levels.",
+  "reading_complete" : "2020-08-04T10:03:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:02:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "hemoglobin levels" ],
+  "pmc_id" : "5483442",
+  "score" : 0
+}
