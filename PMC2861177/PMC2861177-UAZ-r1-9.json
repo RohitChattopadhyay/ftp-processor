@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "The patient continued to have daily dialysis (approximately 19 h of dialysis in total) until the osmolal gap narrowed and his apparent creatinine level was reduced to 168 mumol/L (1.9 mg/dL).",
+  "reading_complete" : "2020-08-04T13:37:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:35:19Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "2861177",
+  "score" : 0
+}

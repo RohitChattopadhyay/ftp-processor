@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:887",
+      "entity_text" : "methanol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Based on these estimated levels, and without the benefit of a rapid analysis for methanol, it was decided that our patient had ingested a significant amount of methanol and he was initially treated with a loading dose of 15 mg/kg intravenous fomepizole and 2 hours of hemodialysis.",
+  "reading_complete" : "2020-08-04T13:37:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T13:35:19Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of methanol" ],
+  "pmc_id" : "2861177",
+  "score" : 0
+}
