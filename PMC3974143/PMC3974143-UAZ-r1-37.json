@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:LDH",
+      "entity_text" : "LDH",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG, 25 mM [K +] o elicited a significant loss of LDH from the astrocytes that was prevented only when the higher BzATP concentration was used.",
+  "reading_complete" : "2020-08-04T14:08:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:04:41Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of LDH" ],
+  "pmc_id" : "3974143",
+  "score" : 0
+}

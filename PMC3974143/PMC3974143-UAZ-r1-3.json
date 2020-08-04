@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In theory, even small amounts of extracellular ATP could trigger cell death based on this positive feedback loop.",
+  "reading_complete" : "2020-08-04T14:08:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:04:41Z",
+  "trigger" : "trigger",
+  "evidence" : [ "ATP could trigger cell death" ],
+  "pmc_id" : "3974143",
+  "score" : 0
+}
