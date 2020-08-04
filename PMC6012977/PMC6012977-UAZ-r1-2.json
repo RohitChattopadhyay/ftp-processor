@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0411" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "In this context, gut BM has been shown to impact both local and distant organs, modulating a variety of physiological processes including the circulating levels of testosterone, estrogens and the vitamin B complex, each of which can strongly impact spermatogenesis.",
+  "reading_complete" : "2020-08-04T21:27:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:26:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of testosterone" ],
+  "pmc_id" : "6012977",
+  "score" : 0
+}

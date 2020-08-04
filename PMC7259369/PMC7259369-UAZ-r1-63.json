@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000501" ]
+    }
+  },
+  "verbose_text" : "Metformin inhibits testosterone induced ER stress and unfolded protein response (UPR) activation by suppressing p38 MAPK phosphorylation in ovarian GCs.",
+  "reading_complete" : "2020-08-04T21:26:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:24:26Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p38 MAPK phosphorylation" ],
+  "pmc_id" : "7259369",
+  "score" : 0
+}

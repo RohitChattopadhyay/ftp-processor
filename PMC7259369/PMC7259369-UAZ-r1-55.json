@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Organ" : [ "uberon:UBERON:2002175" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000711" ]
+    }
+  },
+  "verbose_text" : "Hyperandrogenism in PCOS mouse ovaries also induced p38 MAPK phosphorylation in COCs and GCs.",
+  "reading_complete" : "2020-08-04T21:26:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:24:26Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p38 MAPK phosphorylation" ],
+  "pmc_id" : "7259369",
+  "score" : 0
+}

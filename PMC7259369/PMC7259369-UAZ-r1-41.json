@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03971",
+      "entity_text" : "AMH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0949" ],
+      "Organ" : [ "uberon:UBERON:0000038" ],
+      "CellType" : [ "cl:CL:0000711" ]
+    }
+  },
+  "verbose_text" : "The serum LH and AMH levels and LH/FSH ratios were significantly higher in the PCOS patients than in the control subjects.",
+  "reading_complete" : "2020-08-04T21:26:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:24:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "AMH levels" ],
+  "pmc_id" : "7259369",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:176155",
+      "entity_text" : "SB203580",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SB203580 inhibits the catalytic activity of p38 MAPK by binding to the ATP binding pocket but does not inhibit p38 MAPK phosphorylation (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-04T21:26:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:24:26Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "SB203580 inhibits the catalytic activity of p38 MAPK by binding to the ATP-binding pocket but does not inhibit p38 MAPK phosphorylation" ],
+  "pmc_id" : "7259369",
+  "score" : 0
+}

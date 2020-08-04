@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75460",
+      "entity_text" : "p-IRE1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "Organ" : [ "uberon:UBERON:2002175" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000711" ]
+    }
+  },
+  "verbose_text" : "The expression of the ER stress markers GRP78, CHOP and XBP1s in the cumulus cells was higher in PCOS patients than in control patients, as were the levels of the UPR sensor proteins p-IRE1alpha, p-EIF2alpha and GRP78.",
+  "reading_complete" : "2020-08-04T21:26:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T21:24:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the UPR sensor proteins p-IRE1alpha" ],
+  "pmc_id" : "7259369",
+  "score" : 0
+}
