@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00318",
+      "entity_text" : "G-protein-coupled receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01282",
+      "entity_text" : "VIP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0434" ],
+      "TissueType" : [ "tissuelist:TS-0978" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has been reported that endogenous VIP affect the growth of some gastric cancer cells [XREF_BIBR] by binding to G-protein-coupled receptors [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-04T11:15:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:12:28Z",
+  "trigger" : "binding",
+  "evidence" : [ "VIP affect the growth of some gastric cancer cells [ XREF_BIBR ] by binding to G-protein-coupled receptors" ],
+  "pmc_id" : "3817657",
+  "score" : 0
+}

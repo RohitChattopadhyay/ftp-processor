@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02449",
+      "entity_text" : "CD31",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28907",
+      "entity_text" : "CD38",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As a receptor, CD38 can bind platelet and endothelial cell adhesion molecule / CD31 to promote cell adhesion and transport across endothelial cell layers.",
+  "reading_complete" : "2020-08-04T11:24:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:21:24Z",
+  "trigger" : "bind",
+  "evidence" : [ "CD38 can bind platelet and endothelial cell adhesion molecule/CD31" ],
+  "pmc_id" : "6048227",
+  "score" : 0
+}

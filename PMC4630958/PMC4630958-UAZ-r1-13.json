@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00995",
+      "entity_text" : "miR-451",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Increased miR-451 expression may negatively regulate Bcl-2 mRNA and protein expression, followed by affecting the protein expression of caspase 3, and accelerate the apoptosis in breast cancer, indicating that miR-451 might influence the drug resistances of the Paclitaxel resistant breast cancer cell line.",
+  "reading_complete" : "2020-08-04T12:12:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:09:10Z",
+  "trigger" : "negatively regulate",
+  "evidence" : [ "miR-451 expression may negatively regulate Bcl-2" ],
+  "pmc_id" : "4630958",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:92829",
+      "entity_text" : "Gy",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Preclinical titration experiments demonstrated that an irradiation dose of 10 Gy is sufficient to inhibit proliferation of unmodified NK-92 cells as well as CAR engineered NK-92/5.28.z, without affecting their in vitro cytotoxicity for at least 48 h or reducing in vivo antitumor activity in murine models.",
+  "reading_complete" : "2020-08-04T12:30:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:27:11Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "Gy is sufficient to inhibit proliferation" ],
+  "pmc_id" : "6868035",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11912",
+      "entity_text" : "IgA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E012" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "CellType" : [ "cl:CL:0000815" ]
+    }
+  },
+  "verbose_text" : "Since IgA is the most abundant Ig in the gut, the decreased amount of serum IgA in GF-AF mice raises the possibility that intestinal IgA secretion is also decreased in GF-AF mice.",
+  "reading_complete" : "2020-08-04T11:32:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:30:14Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of serum IgA" ],
+  "pmc_id" : "6803481",
+  "score" : 0
+}

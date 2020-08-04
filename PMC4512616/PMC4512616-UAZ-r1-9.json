@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:774",
+      "entity_text" : "histamine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2756",
+      "entity_text" : "cimetidine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Pruritus in Hodgkin 's disease is thought to be caused by release of histamine, since it responds to histamine blockers like cimetidine.",
+  "reading_complete" : "2020-08-04T11:41:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:35:45Z",
+  "trigger" : "blockers",
+  "evidence" : [ "histamine blockers like cimetidine" ],
+  "pmc_id" : "4512616",
+  "score" : 0
+}

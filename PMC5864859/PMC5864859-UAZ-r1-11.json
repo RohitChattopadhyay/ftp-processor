@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43278",
+      "entity_text" : "HAI-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04756",
+      "entity_text" : "HGFA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The HGFA / HAI-1 complexes on the cell surface can be released by metalloproteinase mediated shedding of the HAI-1 ectodomain.",
+  "reading_complete" : "2020-08-04T11:53:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:52:17Z",
+  "trigger" : "complexes",
+  "evidence" : [ "HGFA/HAI-1 complexes" ],
+  "pmc_id" : "5864859",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZ94",
+      "entity_text" : "NLGN3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In GBM patients NLGN3 levels are high in the deep brain, preparing a pro GBM tumor microenvironment.",
+  "reading_complete" : "2020-08-04T12:27:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:24:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "NLGN3 levels" ],
+  "pmc_id" : "7105615",
+  "score" : 0
+}

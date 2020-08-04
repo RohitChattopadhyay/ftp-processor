@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "Oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "Formation of Neutrophil Extracellular Traps under Low Oxygen Level.",
+  "reading_complete" : "2020-08-04T11:30:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:28:59Z",
+  "trigger" : "Level",
+  "evidence" : [ "Oxygen Level" ],
+  "pmc_id" : "5122589",
+  "score" : 0
+}

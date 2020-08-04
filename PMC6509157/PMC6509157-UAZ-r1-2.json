@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03044",
+      "entity_text" : "Oil-Red-O",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0627" ],
+      "Cellular_component" : [ "uniprot:SL-0154" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Inhibition of LPL in macrophages by addition of recombinant ANGPTL4 or the LPL inhibitor Orlistat significantly reduced the amount of Oil-Red-O positive lipid droplets.",
+  "reading_complete" : "2020-08-04T11:52:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:55Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Oil-Red-O" ],
+  "pmc_id" : "6509157",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07954",
+      "entity_text" : "LRP-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35625",
+      "entity_text" : "TIMP-3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As TIMP-3 also binds to LRP-1, overexpression of TIMP-3 outcompetes other ligands of LRP-1 and thus the cell compensates by increasing expression.",
+  "reading_complete" : "2020-08-04T12:27:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:24:52Z",
+  "trigger" : "binds",
+  "evidence" : [ "TIMP-3 also binds to LRP-1" ],
+  "pmc_id" : "7105615",
+  "score" : 0
+}

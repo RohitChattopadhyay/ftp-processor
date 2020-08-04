@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8170" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:2001840" ]
+    }
+  },
+  "verbose_text" : "He had diluted the sodium chlorite in a cup with an unmeasured amount of water and was using this solution to clean his fruit.",
+  "reading_complete" : "2020-08-04T12:25:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:24:15Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of water" ],
+  "pmc_id" : "3576492",
+  "score" : 0
+}

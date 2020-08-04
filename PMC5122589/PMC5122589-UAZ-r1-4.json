@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF-1alpha protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000775" ],
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "In good correlation to our RT-qPCR results, Kirchner et al. also exhibited that hypoxia alone did not stabilize HIF-1alpha protein level.",
+  "reading_complete" : "2020-08-04T11:30:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:28:59Z",
+  "trigger" : "level",
+  "evidence" : [ "HIF-1alpha protein level" ],
+  "pmc_id" : "5122589",
+  "score" : 0
+}

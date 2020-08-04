@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19875",
+      "entity_text" : "CXCL2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0638" ],
+      "CellType" : [ "cl:CL:0000091" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Consistent with its ' impact on hepatic macrophage activation and TNFalpha production after Con A treatment, mirtazapine also suppressed Con A induced increases in hepatic CXCL2 levels.",
+  "reading_complete" : "2020-08-04T11:28:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:25:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "CXCL2 levels" ],
+  "pmc_id" : "6474187",
+  "score" : 0
+}

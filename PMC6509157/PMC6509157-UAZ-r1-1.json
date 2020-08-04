@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BY76",
+      "entity_text" : "ANGPTL4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0060" ],
+      "Organ" : [ "uberon:UBERON:0000345" ],
+      "CellType" : [ "cl:CL:0000234" ]
+    }
+  },
+  "verbose_text" : "Based on the co-occurrence of LPL positive phagocytes and ANGPTL4 deficient astrocytes in active lesions, we hypothesized that macrophages might be responsible for the observed loss of astrocytic ANGPTL4.",
+  "reading_complete" : "2020-08-04T11:52:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:55Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of astrocytic ANGPTL4" ],
+  "pmc_id" : "6509157",
+  "score" : 0
+}

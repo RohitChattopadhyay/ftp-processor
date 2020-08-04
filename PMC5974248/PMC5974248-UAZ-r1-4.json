@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H1Y0",
+      "entity_text" : "ATG5",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q676U5",
+      "entity_text" : "ATG16L1",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94817",
+      "entity_text" : "ATG12",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0031965" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Optineurin was later found to also interact with several proteins involved in autophagy, including microtubule associated proteins 1A/1B light chain 3B (LC3), p62, TBK-1, Rab1a, and the ATG12 - ATG5 - ATG16L1 complex.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "complex",
+  "evidence" : [ "ATG12-ATG5-ATG16L1 complex" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

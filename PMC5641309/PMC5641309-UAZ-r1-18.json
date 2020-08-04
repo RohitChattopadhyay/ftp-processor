@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05112",
+      "entity_text" : "IL-4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D944" ],
+      "Species" : [ "taxonomy:5664" ],
+      "TissueType" : [ "tissuelist:TS-0603" ],
+      "CellType" : [ "cl:CL:0000097" ]
+    }
+  },
+  "verbose_text" : "Mast cells did not produce detectable IL-4 levels upon L. major infection within the first 24 h p.i.",
+  "reading_complete" : "2020-08-04T12:03:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:01:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-4 levels" ],
+  "pmc_id" : "5641309",
+  "score" : 0
+}

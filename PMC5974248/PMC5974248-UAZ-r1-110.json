@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CV9",
+      "entity_text" : "optineurin",
+      "features" : [ {
+        "to_base" : "E",
+        "site" : 478,
+        "feature_type" : "mutation",
+        "evidence" : "E478G"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Wild-type and E478G optineurin overexpression resulted in the formation of a single large inclusion in the majority of yeast cells, in contrast to cells expressing TDP-43 or FUS, that formed inclusions of multiple foci with heterogeneous size.",
+  "reading_complete" : "2020-08-04T11:37:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:33:45Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "optineurin overexpression" ],
+  "pmc_id" : "5974248",
+  "score" : 0
+}

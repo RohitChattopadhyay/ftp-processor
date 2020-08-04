@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:14798",
+      "entity_text" : "NaOH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ]
+    }
+  },
+  "verbose_text" : "The EEW value of DGE in the solution was determined using equation (1), 63 (1) EEW = M/f (B-S) where M is the mass (g) of DGE, f is the NaOH concentration (M), B is the amount of NaOH solution (mL) in the blank sample, and S is the amount of NaOH solution (mL) used for the dodecyl glycidyl ether sample.",
+  "reading_complete" : "2020-08-04T12:35:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:31:25Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of NaOH" ],
+  "pmc_id" : "6786095",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5362449",
+      "entity_text" : "DXM",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "DXM decreases NETs formation independently of oxidant production and NF-kappaB phosphorylation and possibly via a TLR dependent mechanism.",
+  "reading_complete" : "2020-08-04T12:01:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:00:25Z",
+  "trigger" : "decreases",
+  "evidence" : [ "DXM decreases NETs formation independently of oxidant production and NF-kappaB phosphorylation" ],
+  "pmc_id" : "5299007",
+  "score" : 0
+}

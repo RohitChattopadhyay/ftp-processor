@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2818",
+      "entity_text" : "clozapine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "His clozapine level upon ED arrival was 255 ng/mL (reference range 350-600 ng/mL), measured 24 h after his most recent dose.",
+  "reading_complete" : "2020-08-04T12:12:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:50:15Z",
+  "trigger" : "level",
+  "evidence" : [ "clozapine level" ],
+  "pmc_id" : "5330968",
+  "score" : 0
+}
