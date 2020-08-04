@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01891",
+      "entity_text" : "HLA-A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0009986" ]
+    }
+  },
+  "verbose_text" : "Using PRM based targeted peptidomics, KIGDFGLATEK was not detected in the HLA class I peptidomes of 2/2 BRAF V600E expressing EBV-LCL (MLA BRAF V600E and SB BRAF V600E) that expressed normal levels of HLA-A * 03:01 or HLA-A * 11:01.",
+  "reading_complete" : "2020-08-04T10:52:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:47:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of HLA-A" ],
+  "pmc_id" : "6967030",
+  "score" : 0
+}

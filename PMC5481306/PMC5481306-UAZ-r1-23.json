@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00788",
+      "entity_text" : "RA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01236",
+      "entity_text" : "PRL",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Collectively, most of the evidence suggests that plasma PRL levels are on average not elevated in RA, while more validation is needed in conditions like psoriasis.",
+  "reading_complete" : "2020-08-04T10:53:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:52:14Z",
+  "trigger" : "elevated",
+  "evidence" : [ "PRL levels are on average not elevated in RA" ],
+  "pmc_id" : "5481306",
+  "score" : 0
+}
