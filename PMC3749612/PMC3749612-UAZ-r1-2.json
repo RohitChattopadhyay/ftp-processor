@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:93460",
+      "entity_text" : "voltage",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E731" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "DC motors have a nonlinear response due to friction and a dead zone in which the motor requires a certain amount of voltage before it can rotate.",
+  "reading_complete" : "2020-08-04T18:18:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:07:52Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of voltage" ],
+  "pmc_id" : "3749612",
+  "score" : 0
+}

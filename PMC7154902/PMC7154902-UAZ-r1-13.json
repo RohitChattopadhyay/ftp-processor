@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00421",
+      "entity_text" : "PSII",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since ROS inhibit the repair of PSII by suppressing the synthesis of D1 protein [XREF_BIBR, XREF_BIBR], the photodamage of PSII caused by elevated ROS production by HL exposure is likely reflected in the decreased Fv/Fm observed in our study.",
+  "reading_complete" : "2020-08-04T18:20:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T18:15:47Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "ROS inhibit the repair of PSII" ],
+  "pmc_id" : "7154902",
+  "score" : 0
+}
