@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8L925",
+      "entity_text" : "CRC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92731",
+      "entity_text" : "ERbeta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Williams et al. reported that overexpression of ERbeta promotes progression of CRC, and ERbeta was considered as a new chemopreventive target [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:30:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:28:04Z",
+  "trigger" : "promotes",
+  "evidence" : [ "ERbeta promotes progression of CRC" ],
+  "pmc_id" : "6225733",
+  "score" : 0
+}

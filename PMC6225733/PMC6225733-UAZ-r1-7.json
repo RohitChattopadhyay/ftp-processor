@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08047",
+      "entity_text" : "SP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, down-regulation of RAB27A and RAB27B is associated with metastasis and poor prognosis [XREF_BIBR], and 2 single-nucleotide polymorphisms (SNP) - rs2234767 and rs1800682 - of FAS can affect the progression of CRC by regulating the recruitment to chromatin of SP1 / STAT1 complex [XREF_BIBR].",
+  "reading_complete" : "2020-08-04T16:30:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:28:04Z",
+  "trigger" : "complex",
+  "evidence" : [ "SP1/STAT1 complex" ],
+  "pmc_id" : "6225733",
+  "score" : 0
+}

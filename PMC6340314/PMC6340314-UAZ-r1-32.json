@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "Naringenin treatment resulted in a significant reduction in serum glucose levels (p < 0.05), normalized estradiol and testosterone levels steroidogenic enzyme activity, and maintained the normal anatomy of the ovaries.",
+  "reading_complete" : "2020-08-04T16:25:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:23:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "6340314",
+  "score" : 0
+}
