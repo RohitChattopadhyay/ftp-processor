@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00661",
+      "entity_text" : "matrix",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Organ" : [ "uberon:UBERON:0035878" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The deep portion contained cells interpreted as chondrocytes, in lacunae surrounded by a modest amount of matrix (XREF_FIG).",
+  "reading_complete" : "2020-08-04T22:20:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:19:09Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of matrix" ],
+  "pmc_id" : "4297086",
+  "score" : 0
+}
