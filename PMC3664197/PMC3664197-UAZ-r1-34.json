@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60709",
+      "entity_text" : "beta-actin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10535" ]
+    }
+  },
+  "verbose_text" : "The same PVDF transfer membrane was reprobed with beta-actin antibody for a loading control and the amount of the beta-actin protein expressed in each sample showed no significant difference, indicating that the loaded sample in each lane was similar and thus the iNOS expression for each sample was comparable to each other (XREF_FIG).",
+  "reading_complete" : "2020-08-04T14:17:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T14:13:48Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of the beta-actin" ],
+  "pmc_id" : "3664197",
+  "score" : 0
+}
