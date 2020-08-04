@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00765",
+      "entity_text" : "IR-A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "IGF1 and IGF2 bind preferentially to IR-A with up to a 10-fold difference between the IR splice variants, albeit that IGF1 binding is weak XREF_BIBR XREF_BIBR.",
+  "reading_complete" : "2020-08-04T09:43:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:42:45Z",
+  "trigger" : "bind",
+  "evidence" : [ "IGF1 and IGF2 bind preferentially to IR-A" ],
+  "pmc_id" : "4300458",
+  "score" : 0
+}

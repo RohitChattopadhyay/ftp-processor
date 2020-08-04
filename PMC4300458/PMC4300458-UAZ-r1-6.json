@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "IR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the lysates from BHK cells overexpressing both IR and IGF1R (XREF_FIG), tyrosine phosphorylation of IR pY1334 was detected even at low doses of insulin.",
+  "reading_complete" : "2020-08-04T09:43:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:42:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of IR" ],
+  "pmc_id" : "4300458",
+  "score" : 0
+}

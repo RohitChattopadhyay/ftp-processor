@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06213",
+      "entity_text" : "IR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Species" : [ "taxonomy:3704" ],
+      "TissueType" : [ "tissuelist:TS-0455" ]
+    }
+  },
+  "verbose_text" : "The maximal insulin response on tyrosine phosphorylation of IR pY1334 reached 93% and 88% of the maximal response of IGF1 for Hybrid-A and Hybrid-B, respectively.",
+  "reading_complete" : "2020-08-04T09:43:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:42:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of IR" ],
+  "pmc_id" : "4300458",
+  "score" : 0
+}
