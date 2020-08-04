@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6804",
+      "entity_text" : "guanosine monophosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O76074",
+      "entity_text" : "PDE-5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "By hydrolyzing cyclic guanosine monophosphate (cGMP) PDE-5 reduces NO production via modulation of NOS.",
+  "reading_complete" : "2020-08-04T11:49:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:48:10Z",
+  "trigger" : "reduces",
+  "evidence" : [ "hydrolyzing cyclic guanosine monophosphate (cGMP) PDE-5 reduces" ],
+  "pmc_id" : "5182217",
+  "score" : 0
+}
