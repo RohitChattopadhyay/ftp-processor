@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35226",
+      "entity_text" : "Bmi-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0559" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Protein expression levels of Bmi-1 were low in the control group and were increased in the liver cancer group, while protein levels of WWOX were high in the control group and decreased in the liver cancer group (XREF_FIG).",
+  "reading_complete" : "2020-08-04T19:15:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:13:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Bmi-1" ],
+  "pmc_id" : "6166521",
+  "score" : 0
+}

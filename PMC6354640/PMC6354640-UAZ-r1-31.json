@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:123286",
+      "entity_text" : "phosphorus",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Rapid changes in serum phosphorus level and shifting of intracellular phosphorus contents may occur during dialysis, and such negative effects can be repeated 2 to 3 times per week in patients undergoing LTHD.",
+  "reading_complete" : "2020-08-04T19:13:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T19:10:56Z",
+  "trigger" : "level",
+  "evidence" : [ "phosphorus level" ],
+  "pmc_id" : "6354640",
+  "score" : 0
+}
