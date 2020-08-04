@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00892",
+      "entity_text" : "histones H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W398" ],
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0412" ],
+      "Cellular_component" : [ "go:GO:0001411" ]
+    }
+  },
+  "verbose_text" : "The yeast Tup1-Cyc8 protein complex has been demonstrated to interact with various molecules, including transcription factors, under-acetylated histones H3 and H4, class I and II histone deacetylases and phosphoinositide lipid PI (3,5) P 2.",
+  "reading_complete" : "2020-08-04T09:47:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:46:47Z",
+  "trigger" : "under-acetylated",
+  "evidence" : [ "under-acetylated histones H3" ],
+  "pmc_id" : "5200907",
+  "score" : 0
+}
