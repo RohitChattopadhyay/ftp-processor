@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00775",
+      "entity_text" : "BCR-ABL1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "CellLine" : [ "cellosaurus:CVCL_E508" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000763" ]
+    }
+  },
+  "verbose_text" : "Clinical guidelines on optimal molecular responses refer to achievement of target BCR-ABL1 levels [e.g., < = 0.1%, major molecular response (MMR)] at specific timepoints.",
+  "reading_complete" : "2020-08-04T10:01:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:57:39Z",
+  "trigger" : "levels",
+  "evidence" : [ "BCR-ABL1 levels" ],
+  "pmc_id" : "5402174",
+  "score" : 0
+}
