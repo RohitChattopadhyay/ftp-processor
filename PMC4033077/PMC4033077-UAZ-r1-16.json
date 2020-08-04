@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01312",
+      "entity_text" : "Igkappa locus",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0B87" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Interestingly, while the Lkappa transgene was almost completely unmethylated, with only 8% of the DNA remaining undigested, the LkappaDeltaDm transgene was highly methylated (73%), indicating that indeed the Dm element facilitates the hypomethylation of the Igkappa locus in B cells.",
+  "reading_complete" : "2020-08-04T10:28:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:26:42Z",
+  "trigger" : "hypomethylation",
+  "evidence" : [ "hypomethylation of the Igkappa locus" ],
+  "pmc_id" : "4033077",
+  "score" : 0
+}

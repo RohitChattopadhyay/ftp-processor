@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01315",
+      "entity_text" : "Igkappa transgene",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0B87" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "It is necessary for demethylation of a pre-rearranged Igkappa transgene, but deletion of the element in the endogenous locus does not affect the demethylation process.",
+  "reading_complete" : "2020-08-04T10:28:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:26:42Z",
+  "trigger" : "demethylation",
+  "evidence" : [ "demethylation of a pre-rearranged Igkappa transgene" ],
+  "pmc_id" : "4033077",
+  "score" : 0
+}

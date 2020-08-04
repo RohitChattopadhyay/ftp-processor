@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01334",
+      "entity_text" : "rearranged Igkappa allele",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0819" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000785" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The rearranged Igkappa allele is unmethylated from that stage onward, while alleles which do not undergo rearrangement remain methylated, even at the mature B cell stage.",
+  "reading_complete" : "2020-08-04T10:28:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:26:42Z",
+  "trigger" : "unmethylated",
+  "evidence" : [ "rearranged Igkappa allele is unmethylated" ],
+  "pmc_id" : "4033077",
+  "score" : 0
+}
