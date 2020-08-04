@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99835",
+      "entity_text" : "SMO",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01569",
+      "entity_text" : "Cyclopamine",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:381124" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "Cyclopamine binds SMO and inhibits activation of downstream Hh target genes that are essential for proper embryonic development [XREF_BIBR]; it has been implicated in the occurrence of midline cyclops appearing lambs born in the 1950s.",
+  "reading_complete" : "2020-08-04T12:22:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:16:46Z",
+  "trigger" : "binds",
+  "evidence" : [ "Cyclopamine binds SMO" ],
+  "pmc_id" : "6380977",
+  "score" : 0
+}
