@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03593",
+      "entity_text" : "CRL-7566",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpressing miR-191 in CRL-7566 significantly increased cell proliferation and invasion, while miR-191 knockdown in CRL-11731 cells significantly decreased cell proliferation and invasion.",
+  "reading_complete" : "2020-08-04T16:37:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T16:36:36Z",
+  "trigger" : "increased",
+  "evidence" : [ "CRL-7566 significantly increased cell proliferation" ],
+  "pmc_id" : "4387959",
+  "score" : 0
+}
