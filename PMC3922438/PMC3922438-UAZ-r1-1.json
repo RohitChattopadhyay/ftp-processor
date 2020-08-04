@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:64965",
+      "entity_text" : "MTT",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ETC_complex_II",
+      "entity_text" : "succinate dehydrogenase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This assay relies on the reduction of MTT by succinate dehydrogenase, intervening in the respiratory mitochondrial chain of viable cells.",
+  "reading_complete" : "2020-08-04T10:13:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T10:11:45Z",
+  "trigger" : "reduction",
+  "evidence" : [ "reduction of MTT by succinate dehydrogenase" ],
+  "pmc_id" : "3922438",
+  "score" : 0
+}
