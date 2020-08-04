@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86U86",
+      "entity_text" : "PB1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94986",
+      "entity_text" : "Cep152",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_T882" ],
+      "Cellular_component" : [ "go:GO:0005814" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Two centrosomal proteins, Cep152 and Cep192, bind to PB1 and PB2 and collaborate to recruit Plk4 to the centrosome.",
+  "reading_complete" : "2020-08-04T10:00:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:59:52Z",
+  "trigger" : "bind",
+  "evidence" : [ "Cep152 and Cep192, bind to PB1" ],
+  "pmc_id" : "4359743",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00444",
+      "entity_text" : "Plk4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15468",
+      "entity_text" : "STIL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "PB2 domains" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_T882" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR demonstrated a reduced binding of STIL to Plk4 when PB1 or PB2 domains were deleted.",
+  "reading_complete" : "2020-08-04T10:00:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T09:59:52Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of STIL to Plk4 when PB1 or PB2 domains" ],
+  "pmc_id" : "4359743",
+  "score" : 0
+}
