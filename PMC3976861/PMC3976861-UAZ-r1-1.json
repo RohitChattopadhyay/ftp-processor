@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fluorescence images showed that p53 was correctly translocated into the nucleus but that the p21 Cip1 / WAF-1, a downstream protein of p53 network involved in cell cycle regulation, was not activated at the highest cadmium concentrations used.",
+  "reading_complete" : "2020-08-04T11:47:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:44:30Z",
+  "trigger" : "translocated",
+  "evidence" : [ "p53 was correctly translocated into the nucleus" ],
+  "pmc_id" : "3976861",
+  "score" : 0
+}
