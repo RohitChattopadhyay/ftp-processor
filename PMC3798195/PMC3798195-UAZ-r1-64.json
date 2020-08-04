@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02652",
+      "entity_text" : "Pex11p",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005778" ]
+    }
+  },
+  "verbose_text" : "Interestingly, the fission of peroxisomes in the methylotrophic yeast Pichia pastoris is regulated by the interaction of Pex11p with Fis1 via phosphorylation of Pex11p in oleate medium, not methanol.",
+  "reading_complete" : "2020-08-04T11:18:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:17:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Pex11p" ],
+  "pmc_id" : "3798195",
+  "score" : 0
+}

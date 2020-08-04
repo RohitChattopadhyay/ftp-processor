@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20142",
+      "entity_text" : "PGC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF17182",
+      "entity_text" : "Osk",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To address this question we increased the initial number of PGC by overexpression of Osk.",
+  "reading_complete" : "2020-08-04T11:17:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T11:15:46Z",
+  "trigger" : "increased",
+  "evidence" : [ "increased the initial number of PGC by overexpression of Osk" ],
+  "pmc_id" : "4542285",
+  "score" : 0
+}
