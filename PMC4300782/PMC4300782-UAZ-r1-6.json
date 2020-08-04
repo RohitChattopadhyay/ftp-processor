@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03004",
+      "entity_text" : "osteoprotegrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:4200230" ],
+      "CellType" : [ "cl:CL:0000062" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "In normal adult bone, osteoclast formation is suppressed by high levels of osteoprotegrin, a soluble decoy receptor that sequesters RANKL.",
+  "reading_complete" : "2020-08-04T22:28:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:27:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of osteoprotegrin" ],
+  "pmc_id" : "4300782",
+  "score" : 0
+}

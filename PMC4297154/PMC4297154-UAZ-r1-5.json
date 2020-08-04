@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35354",
+      "entity_text" : "Ptgs2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445639",
+      "entity_text" : "Oleic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Oleic acid decreased Ptgs2 by chondrocytes in the presence of TNFalpha.",
+  "reading_complete" : "2020-08-04T22:25:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:24:33Z",
+  "trigger" : "decreased",
+  "evidence" : [ "Oleic acid decreased Ptgs2" ],
+  "pmc_id" : "4297154",
+  "score" : 0
+}

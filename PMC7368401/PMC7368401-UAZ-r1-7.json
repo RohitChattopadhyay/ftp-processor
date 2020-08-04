@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60709",
+      "entity_text" : "beta-actin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:2005000" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Data were analyzed using the 2 (-DeltaDeltaCt) method and normalized to levels of beta-actin cDNA.",
+  "reading_complete" : "2020-08-04T22:26:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T22:22:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of beta-actin" ],
+  "pmc_id" : "7368401",
+  "score" : 0
+}
