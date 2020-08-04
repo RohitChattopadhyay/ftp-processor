@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15144",
+      "entity_text" : "APN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "These cells are known to abundantly express IRAP and contain minimal amounts of contaminating APN activities.",
+  "reading_complete" : "2020-08-04T12:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:30:42Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of contaminating APN" ],
+  "pmc_id" : "4280825",
+  "score" : 0
+}

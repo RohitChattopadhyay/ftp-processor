@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:947",
+      "entity_text" : "nitrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The NH group on the tetrazole ring seems essential to the inhibitory activity since methylation of the nitrogen affords inactive compound 7.",
+  "reading_complete" : "2020-08-04T12:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:30:42Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of the nitrogen" ],
+  "pmc_id" : "4280825",
+  "score" : 0
+}

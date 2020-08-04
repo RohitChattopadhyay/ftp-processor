@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:679",
+      "entity_text" : "DMSO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Column 12 was reserved for controls : the equivalent amount of DMSO was added to wells A12-D12 (negative controls representing 0% inhibition of the enzyme), whereas a 10 mm stock solution of 3 was placed in wells E12-H12 serving as controls representing 100% inhibition of the enzyme activity.",
+  "reading_complete" : "2020-08-04T12:37:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-04T12:30:42Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of DMSO" ],
+  "pmc_id" : "4280825",
+  "score" : 0
+}
