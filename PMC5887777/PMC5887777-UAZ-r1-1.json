@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "Oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5994",
+      "entity_text" : "progesterone",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Oxygen consumption and resting ventilation increase in pregnancy as a result of an increase in tidal volume caused by rising progesterone levels.",
+  "reading_complete" : "2020-08-05T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:12:58Z",
+  "trigger" : "caused",
+  "evidence" : [ "Oxygen consumption and resting ventilation increase in pregnancy as a result of an increase in tidal volume caused by rising progesterone" ],
+  "pmc_id" : "5887777",
+  "score" : 0
+}

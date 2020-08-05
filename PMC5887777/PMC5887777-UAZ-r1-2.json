@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1102" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hematologically, in addition to the decrease in hemoglobin levels seen from the physiologic anemia, there is a relative leukocytosis.",
+  "reading_complete" : "2020-08-05T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:12:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "hemoglobin levels" ],
+  "pmc_id" : "5887777",
+  "score" : 0
+}

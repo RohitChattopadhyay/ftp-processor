@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:769",
+      "entity_text" : "bicarbonate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1102" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This results in a respiratory alkalosis with a pCO 2 of approximately 30 mm Hg and a metabolic compensation with bicarbonate levels in the 19-20 mEq/L range.",
+  "reading_complete" : "2020-08-05T18:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:12:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "bicarbonate levels" ],
+  "pmc_id" : "5887777",
+  "score" : 0
+}
