@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Baseline potassium levels were higher in patients who developed hyperkalemia during reperfusion compared to the patients without hyperkalemia and its effect size was large - 4.50 [0.49] mmol/L for the patients who experienced hyperkalemia, 3.74 [0.42] mmol/L for the patients without hyperkalemia, Student 's t-test, mean difference = 0.76 mmol/L, 95% CI : 0.41 to 1.18, p < 0.001, Cohen 's d = 1.64.",
+  "reading_complete" : "2020-08-05T20:42:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:38:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "potassium levels" ],
+  "pmc_id" : "7251297",
+  "score" : 0
+}

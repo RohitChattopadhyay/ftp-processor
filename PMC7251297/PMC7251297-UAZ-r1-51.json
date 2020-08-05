@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "According to the ROC analysis (AUC = 0.894, 95% CI : 0.779 to 1.000, p < 0.001, XREF_FIG), a pre reperfusion potassium level of 4.45 mmol/L was a good predictor of reperfusion hyperkalemia (potassium level over 5.50 mmol/L) with a sensitivity of 69.23% (95% CI : 38.57% -90.91%) and a specificity of 94.12% (95% CI : 71.31% -99.85%, positive likelihood ratio = 11.77).",
+  "reading_complete" : "2020-08-05T20:42:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:38:57Z",
+  "trigger" : "level",
+  "evidence" : [ "potassium level" ],
+  "pmc_id" : "7251297",
+  "score" : 0
+}
