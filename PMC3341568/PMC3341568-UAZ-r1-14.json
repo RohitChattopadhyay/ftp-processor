@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281915",
+      "entity_text" : "COQ10",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0005746" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We found COQ10 muscle levels around 12 mug/g in two patients with genetically confirmed mutations in COQ2 XREF_BIBR so we cannot exclude that some of these patients may be affected by a primary COQ10 biosynthetic defect carrying mutations in genes that have not been characterized so far.",
+  "reading_complete" : "2020-08-05T20:59:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:57:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "COQ10 muscle levels" ],
+  "pmc_id" : "3341568",
+  "score" : 0
+}

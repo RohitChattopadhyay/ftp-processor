@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281915",
+      "entity_text" : "COQ10",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0125" ],
+      "Cellular_component" : [ "go:GO:0005776" ]
+    }
+  },
+  "verbose_text" : "A mutation in the ADCK3 / Coq8 gene (R347X) was identified in a female patient with ataxia, seizures and markedly reduced COQ10 levels.",
+  "reading_complete" : "2020-08-05T20:59:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:57:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "COQ10 levels" ],
+  "pmc_id" : "3341568",
+  "score" : 0
+}
