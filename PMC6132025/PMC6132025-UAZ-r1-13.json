@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01043",
+      "entity_text" : "MHC-II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0627" ],
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Cellular_component" : [ "go:GO:0097413" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "More recent work has implicated mutations in HLA-DR in amplified risk for developing PD, and levels of MHC-II are increased in cases of Incidental Lewy Body Disease [Braak stage I-II;] suggesting that inflammation may be at least in part, a contributing factor to ongoing degeneration.",
+  "reading_complete" : "2020-08-05T20:03:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:01:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MHC-II" ],
+  "pmc_id" : "6132025",
+  "score" : 0
+}

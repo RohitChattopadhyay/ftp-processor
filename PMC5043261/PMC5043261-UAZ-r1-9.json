@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08069",
+      "entity_text" : "IGF-1R",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Of note, the abundance of IGF-1R expression over IGF-1 hints at the importance of peripherally produced IGF-1 in mediating the effects of IGF-1 on the CNS.",
+  "reading_complete" : "2020-08-05T20:01:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:16Z",
+  "trigger" : "produced",
+  "evidence" : [ "IGF-1R expression over IGF-1 hints at the importance of peripherally produced IGF-1" ],
+  "pmc_id" : "5043261",
+  "score" : 0
+}
