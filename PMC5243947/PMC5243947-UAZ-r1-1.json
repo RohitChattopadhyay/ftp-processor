@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5311333",
+      "entity_text" : "CTX",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_R704" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This detection limit is sufficient to detect the very small amount of CTX contaminants in fish, as stipulated by FDA regulations (0.01 ppb (= 10 pg/g) CTX1B equivalents).",
+  "reading_complete" : "2020-08-05T19:47:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:40:08Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of CTX" ],
+  "pmc_id" : "5243947",
+  "score" : 0
+}
