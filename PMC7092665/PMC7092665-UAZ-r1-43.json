@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "G. lucidum treatment was found to have prevented the T/D induced I/R injury by decreasing MDA levels of the testis.",
+  "reading_complete" : "2020-08-05T19:34:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:34:05Z",
+  "trigger" : "induced",
+  "evidence" : [ "induced I/R injury by decreasing MDA" ],
+  "pmc_id" : "7092665",
+  "score" : 0
+}
