@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00680",
+      "entity_text" : "18F-2'-FDG-6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03727",
+      "entity_text" : "hexokinase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "18F-FDG is transported to cells by glucose transporters located on the cell membrane, then phosphorylated into 18F-2 '-FDG-6 by hexokinase and are retained in the cells.",
+  "reading_complete" : "2020-08-05T19:11:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:10:47Z",
+  "evidence" : [ "phosphorylated into 18F-2'-FDG-6 by hexokinase" ],
+  "pmc_id" : "7310585",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_8170" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In this study, the results showed that knockdown of miRNA-106a reduced LPS induced the levels of inflammatory factor TNF-alpha, IL-1beta and IL-6, suggesting that inhibiting the expression of miRNA-106a might inhibit the occurrence of AKI induced by sepsis.",
+  "reading_complete" : "2020-08-05T19:14:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:13:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of inflammatory factor TNF-alpha, IL-1beta and IL-6" ],
+  "pmc_id" : "6705346",
+  "score" : 0
+}

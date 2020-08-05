@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07812",
+      "entity_text" : "Bax",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "LPS reduced cell viability and Bcl-2 expression, and increased caspase-3 activity, Bax expression, the content of TNF-alpha, IL-1beta, IL-6.",
+  "reading_complete" : "2020-08-05T19:14:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:13:16Z",
+  "trigger" : "increased",
+  "evidence" : [ "Bcl-2 expression, and increased caspase-3 activity, Bax" ],
+  "pmc_id" : "6705346",
+  "score" : 0
+}
