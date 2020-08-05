@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1655" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "This is likely because LRRK2 (unlike aSYN) is not expressed in erythrocytes which make up approximately half of whole blood volume.",
+  "reading_complete" : "2020-08-05T19:58:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:57:38Z",
+  "trigger" : "expressed",
+  "evidence" : [ "LRRK2 (unlike aSYN) is not expressed" ],
+  "pmc_id" : "7262382",
+  "score" : 0
+}
