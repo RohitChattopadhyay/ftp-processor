@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07288",
+      "entity_text" : "PSA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0098687" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "We observed significantly lower let-7b expression in PCa patients compared with healthy controls, and detected significantly lower levels in patients with high PSA levels, higher TNM staging, and hormone resistance.",
+  "reading_complete" : "2020-08-05T20:06:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:04:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "PSA levels" ],
+  "pmc_id" : "6267169",
+  "score" : 0
+}
