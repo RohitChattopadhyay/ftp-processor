@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UID3",
+      "entity_text" : "FFR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E492" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The study suggests similar safety of iFR and FFR in deferring revascularization in the midterm and reveals a strong interaction between age and FFR based deferral, potentially secondary to a varying age related hyperemic response to adenosine.",
+  "reading_complete" : "2020-08-05T19:08:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:05:52Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between age and FFR" ],
+  "pmc_id" : "7377675",
+  "score" : 0
+}

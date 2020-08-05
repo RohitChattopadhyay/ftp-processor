@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14788",
+      "entity_text" : "RANKL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00300",
+      "entity_text" : "OPG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "OPG binds to RANKL and inhibits the RANK-RANKL connection and osteoclastic bone resorption.",
+  "reading_complete" : "2020-08-05T19:06:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:05:32Z",
+  "trigger" : "binds",
+  "evidence" : [ "OPG binds to RANKL" ],
+  "pmc_id" : "6761488",
+  "score" : 0
+}
