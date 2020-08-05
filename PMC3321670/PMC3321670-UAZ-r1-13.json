@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0007023" ]
+    }
+  },
+  "verbose_text" : "In the pediatric phase III comparator study, the difference between urinary free cortisol levels in patients treated with ciclesonide 80 mcg twice daily (+1.54 nmol / mmol creatinine) versus patients treated with fluticasone propionate 88 mcg twice daily (-1.83 nmol / mmol creatinine) was statistically significant (P = 0.0062).",
+  "reading_complete" : "2020-08-05T22:13:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:09:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "3321670",
+  "score" : 0
+}

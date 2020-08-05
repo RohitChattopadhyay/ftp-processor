@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:208898",
+      "entity_text" : "dronedarone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although dronedarone can increase creatinine, it does not affect the glomerular filtration rate.",
+  "reading_complete" : "2020-08-05T22:09:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:07:19Z",
+  "trigger" : "increase",
+  "evidence" : [ "dronedarone can increase creatinine" ],
+  "pmc_id" : "2963922",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Adaptor_protein_III",
+      "entity_text" : "AP-3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:6239" ],
+      "Cellular_component" : [ "go:GO:0005764" ]
+    }
+  },
+  "verbose_text" : "Actually, LRRK2 can bind beta3A subunit of the AP-3 complex, and genetic interaction between the orthologs of LRRK2 and AP-3 was revealed in Caenorhabditis elegans in terms of the regulation of axon termination.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "bind",
+  "evidence" : [ "LRRK2 can bind beta3A subunit of the AP-3" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

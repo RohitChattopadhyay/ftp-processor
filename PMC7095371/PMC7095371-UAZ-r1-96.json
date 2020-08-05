@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation site is located in the middle of switch II region of Rab GTPases, e.g., Thr72 in Rab8a, and the structurally equivalent sites in other Rabs, which is predicted to undergo a conformational change upon GTP / GDP binding.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "binding",
+  "evidence" : [ "GTP/GDP binding" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

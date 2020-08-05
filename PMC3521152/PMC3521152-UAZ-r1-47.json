@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:F4IEM5",
+      "entity_text" : "GPCR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_U693" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "With rare exceptions, the phosphatases responsible for GPCR dephosphorylation have not been fully characterized.",
+  "reading_complete" : "2020-08-05T20:44:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:41:43Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "GPCR dephosphorylation" ],
+  "pmc_id" : "3521152",
+  "score" : 0
+}

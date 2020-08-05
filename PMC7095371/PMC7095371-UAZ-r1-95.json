@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "trans-Golgi network",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005802",
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0005767" ]
+    }
+  },
+  "verbose_text" : "The observation that Rab29 acts upstream of LRRK2 was preceded by other studies showing that Rab29 recruits LRRK2 to the trans-Golgi network (TGN) or TGN derived vesicles where Rab29 normally resides, and potently upregulates the LRRK2 kinase activity.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "recruits",
+  "evidence" : [ "recruits LRRK2 to the trans-Golgi network" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

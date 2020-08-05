@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0003669" ]
+    }
+  },
+  "verbose_text" : "CPK and creatinine levels trended to normal after treatment with intravenous (IV) fluids with bicarbonate.",
+  "reading_complete" : "2020-08-05T21:47:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:46:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "6637251",
+  "score" : 0
+}

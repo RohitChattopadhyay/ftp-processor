@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Knockdown of LRRK2 in cells stably expressing fluorescence tagged LRRK2 increased autophagic activity and prevented the starvation induced cell death, and the pharmacological inhibition of LRRK2 kinase activity similarly stimulated macroautophagy.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "prevented",
+  "evidence" : [ "LRRK2 increased autophagic activity and prevented the starvation-induced cell death" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

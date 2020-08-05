@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55211",
+      "entity_text" : "caspase 9",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0030" ],
+      "Species" : [ "taxonomy:9940" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0031966" ]
+    }
+  },
+  "verbose_text" : "After its release cytosolic cytochrome c binds to apoptotic protease activating factor-1 (Apaf-1), and activates caspase 9 in the presence of ATP or dATP to form an apoptosome, which initiates the executioner caspase-3, and ultimately leads to DNA fragmentation.",
+  "reading_complete" : "2020-08-05T20:53:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:50:43Z",
+  "trigger" : "binds",
+  "evidence" : [ "cytochrome c binds to apoptotic protease-activating factor-1 (Apaf-1), and activates caspase 9" ],
+  "pmc_id" : "3936504",
+  "score" : 0
+}

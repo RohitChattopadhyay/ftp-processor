@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20396",
+      "entity_text" : "TRH",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01471",
+      "entity_text" : "calyculin A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Dephosphorylation of TRH receptors is powerfully inhibited by calyculin A, which acts on the catalytic subunits of PP1 and PP2A, but insensitive to fostriecin, a highly selective inhibitor of PP2A.",
+  "reading_complete" : "2020-08-05T20:44:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:41:43Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "Dephosphorylation of TRH receptors is powerfully inhibited by calyculin A" ],
+  "pmc_id" : "3521152",
+  "score" : 0
+}

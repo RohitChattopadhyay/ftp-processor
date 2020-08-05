@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FOXO3a",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To examine the role of the FOXO3a and MDM2 interaction in PD induced prostate cancer cells apoptosis, MDM2 was transiently silenced by siRNA.",
+  "reading_complete" : "2020-08-05T22:13:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:10:24Z",
+  "trigger" : "interaction",
+  "evidence" : [ "FOXO3a and MDM2 interaction" ],
+  "pmc_id" : "4997962",
+  "score" : 0
+}

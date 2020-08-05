@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02350",
+      "entity_text" : "LC3-II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0005776" ],
+      "Organ" : [ "uberon:UBERON:0006108" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000129" ]
+    }
+  },
+  "verbose_text" : "In contrast, another study showed that knockdown of endogenous LRRK2 in macrophage or microglial cells decreased LC3-II levels and autophagy flux.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "LC3-II levels" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

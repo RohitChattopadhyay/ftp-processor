@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF09110",
+      "entity_text" : "HAND",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FOXO3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that expression of FOXO3 in the neuronal nucleus was elevated in HAND and that this phenomenon was associated with neuronal apoptosis in rhesus macaques infected with SHIV, which were used as HAND animal models.",
+  "reading_complete" : "2020-08-05T22:14:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:12:43Z",
+  "trigger" : "elevated",
+  "evidence" : [ "FOXO3 in the neuronal nucleus was elevated in HAND" ],
+  "pmc_id" : "6369160",
+  "score" : 0
+}

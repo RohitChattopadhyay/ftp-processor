@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Organ" : [ "uberon:UBERON:0002743" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000108" ]
+    }
+  },
+  "verbose_text" : "Aggregated amyloid beta (Abeta) and phosphorylated tau proteins are medical diagnostic features.",
+  "reading_complete" : "2020-08-05T21:07:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:04:17Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated tau" ],
+  "pmc_id" : "6370742",
+  "score" : 0
+}

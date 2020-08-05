@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:187",
+      "entity_text" : "ACh",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0397" ],
+      "Cellular_component" : [ "go:GO:0031594" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "Indeed, the use of drugs that increased the levels of ACh or blocked its actions played a key role in implicating ACh in memory.",
+  "reading_complete" : "2020-08-05T21:39:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ACh" ],
+  "pmc_id" : "6514132",
+  "score" : 0
+}

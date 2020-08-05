@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281915",
+      "entity_text" : "Coenzyme Q10",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "We defined as significative reduction of Coenzyme Q10 those values that were related to the arbitrary range of Coenzyme Q10 levels (0.79-12.5) obtained from our past experience in 3 patients with confirmed mutations in genes involved in Coenzyme Q10 biogenesis, adding a fourth mutated patient CHA987 in this series who was mutated in the ADCK3 gene.",
+  "reading_complete" : "2020-08-05T20:59:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:57:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "Coenzyme Q10 levels" ],
+  "pmc_id" : "3341568",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "These mice also showed an increase in phosphorylation of Akt and Bcl2 expression; however, Bax, a pro apoptotic mitochondria protein was decreased in the hippocampus.",
+  "reading_complete" : "2020-08-05T21:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:13:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Akt and Bcl2" ],
+  "pmc_id" : "6433828",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1180" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "The patient also had low serum sodium (131 mEq/L) and a normal potassium level (3.5 mEq/L).",
+  "reading_complete" : "2020-08-05T21:36:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:29Z",
+  "trigger" : "level",
+  "evidence" : [ "potassium level" ],
+  "pmc_id" : "6197568",
+  "score" : 0
+}

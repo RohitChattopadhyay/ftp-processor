@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CA05",
+      "entity_text" : "p62",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "uniprot:SL-0206" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Lrrk2 KO mice exhibit alterations in the levels of LC3-II and p62, a reliable autophagy marker and an autophagy substrate, respectively.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of LC3-II and p62" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

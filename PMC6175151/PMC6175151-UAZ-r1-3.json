@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33261",
+      "entity_text" : "CYP2C19",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2754",
+      "entity_text" : "cilostazol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Concurrent use of cilostazol and potent inhibitors of CYP3A4 or CYP2C19 also decreased in all databases.",
+  "reading_complete" : "2020-08-05T21:10:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:09:25Z",
+  "trigger" : "inhibitors",
+  "evidence" : [ "cilostazol and potent inhibitors of CYP3A4 or CYP2C19" ],
+  "pmc_id" : "6175151",
+  "score" : 0
+}

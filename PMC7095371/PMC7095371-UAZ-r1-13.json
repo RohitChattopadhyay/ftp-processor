@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52594",
+      "entity_text" : "Rab",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Given that Rab phosphorylation is enhanced by pathogenic LRRK2 mutations and that Rab is a critical regulator of membrane transport, it is plausible to hypothesize that the perturbation of intracellular trafficking by hyperphosphorylation of Rab GTPases may eventually cause neurodegeneration.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "Rab phosphorylation is enhanced by pathogenic LRRK2" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

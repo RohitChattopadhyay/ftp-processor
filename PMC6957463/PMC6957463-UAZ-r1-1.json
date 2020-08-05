@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16489",
+      "entity_text" : "gain",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08263",
+      "entity_text" : "GSTA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "An association between glutathione transferase GSTA1 and GSTM1 gene variants and busulphan pharmacokinetics and weight gain and mortality < = 30 days post-HSCT have been reported [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T22:07:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:59Z",
+  "trigger" : "association",
+  "evidence" : [ "association between glutathione transferase GSTA1 and GSTM1 gene variants and busulphan pharmacokinetics and weight gain" ],
+  "pmc_id" : "6957463",
+  "score" : 0
+}

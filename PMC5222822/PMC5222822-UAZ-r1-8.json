@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0001627" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In juvenile rat hippocampal slices, pyruvate administration was able to restore ATP levels and rescue neurons against NMDA mediated excitotoxicity.",
+  "reading_complete" : "2020-08-05T21:04:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:02:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "5222822",
+  "score" : 0
+}

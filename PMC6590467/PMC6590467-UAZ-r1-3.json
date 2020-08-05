@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "IFN",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1177" ],
+      "Cellular_component" : [ "go:GO:0000803" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Kastenbauer et al described a case of a 62-year-old man with aseptic meningitis after AC, in which additional investigation did not reveal evidence of an underlying type 1 or type 3 hypersensitivity mechanism.5 More recently, Castagna et al reported in vitro enzyme linked immunosorbent (ELISPOT) assay results in two women with amoxicillin DIAM, demonstrating drug specific cells producing high quantities of Interferon gamma (IFN)-gamma and gamma-ray bursts (GrB).",
+  "reading_complete" : "2020-08-05T21:59:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:58:19Z",
+  "trigger" : "quantities",
+  "evidence" : [ "quantities of Interferon gamma (IFN" ],
+  "pmc_id" : "6590467",
+  "score" : 0
+}

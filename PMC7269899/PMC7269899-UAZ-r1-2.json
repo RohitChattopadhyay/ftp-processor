@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01318",
+      "entity_text" : "procalcitonin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0649" ],
+      "CellType" : [ "cl:CL:0000842" ]
+    }
+  },
+  "verbose_text" : "During the following 5 days after infusion, the patient experienced sustained fever and temperature peaked at 40.2 degreesC but there was no significant increase in C-reactive protein and serum procalcitonin levels.",
+  "reading_complete" : "2020-08-05T21:41:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:40:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "procalcitonin levels" ],
+  "pmc_id" : "7269899",
+  "score" : 0
+}

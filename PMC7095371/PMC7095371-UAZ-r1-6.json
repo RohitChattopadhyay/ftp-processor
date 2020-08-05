@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61026",
+      "entity_text" : "Rab10",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It has been shown that pathogenic LRRK2 mutations inhibit primary cilia formation that involves Rab8a and Rab10, whereas another group has reported that LRRK2 mutations caused centrosomal defects via phosphorylation of Rab8a and Rab10 in dividing cells.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "evidence" : [ "LRRK2 mutations caused centrosomal defects via phosphorylation of Rab8a               and Rab10" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

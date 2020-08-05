@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14966",
+      "entity_text" : "Rab29",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It is also unclear how Rab29 phosphorylation by LRRK2 influences the activity of Rab29 to upregulate LRRK2, although it has been reported that a phosphomimetic mutant Rab29, harboring both T71E and S72E, abolished its activity to activate LRRK2.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "upregulate",
+  "evidence" : [ "Rab29 to upregulate LRRK2" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

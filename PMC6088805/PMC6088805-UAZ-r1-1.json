@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q68DA7",
+      "entity_text" : "LD",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TC05",
+      "entity_text" : "Mdm1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Strikingly, Mdm1 overexpression is sufficient to drive LD accumulation at the NVJ even in nonstressed cells, indicating that modulating Mdm1 expression somehow mimics the stress induced LD accumulation at the NVJ.",
+  "reading_complete" : "2020-08-05T21:05:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:04:39Z",
+  "trigger" : "drive",
+  "evidence" : [ "Mdm1 overexpression is sufficient to drive LD" ],
+  "pmc_id" : "6088805",
+  "score" : 0
+}

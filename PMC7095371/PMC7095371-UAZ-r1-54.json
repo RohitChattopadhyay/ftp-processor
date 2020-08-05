@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14966",
+      "entity_text" : "Rab29",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, GTP binding activity of Rab29 is unlikely to affect its interaction with LRRK2, although it should be noted that Rab29 is not likely a typical small GTPase; actually, a Rab29 mutant predicted to mimic the GTP bound state (Q67N) unexpectedly showed low ability to retain GTP, and that this mutant is diffusely distributed in the cytoplasm upon overexpression.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "binding activity",
+  "evidence" : [ "GTP-binding activity of Rab29" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

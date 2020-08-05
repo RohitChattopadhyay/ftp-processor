@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "p-tau",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0380" ],
+      "Cellular_component" : [ "go:GO:0005768" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Abeta mediated dysregulation of tau homeostasis, which has been demonstrated, could initiate increased levels of p-tau and tau oligomer formation.",
+  "reading_complete" : "2020-08-05T21:39:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p-tau" ],
+  "pmc_id" : "6514132",
+  "score" : 0
+}

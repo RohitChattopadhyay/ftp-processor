@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01760",
+      "entity_text" : "proNGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0044297" ],
+      "Organ" : [ "uberon:UBERON:0002743" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000108" ]
+    }
+  },
+  "verbose_text" : "During the pathological conditions of AD, metabolism of NGF has been found to be altered, resulting in an accumulation of proNGF levels and reduction of mNGF, which in rats have been shown to induce loss of cortical synapses and atrophy of the basal forebrain cholinergic neurons.",
+  "reading_complete" : "2020-08-05T21:07:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:04:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "proNGF levels" ],
+  "pmc_id" : "6370742",
+  "score" : 0
+}

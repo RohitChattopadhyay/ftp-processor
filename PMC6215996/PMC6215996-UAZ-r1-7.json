@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0045087",
+      "entity_text" : "innate immunity",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02817",
+      "entity_text" : "MUC2",
+      "features" : [ {
+        "modification_type" : "glycosylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The first line of defense mechanism is innate immunity which is glycosylated mucous (MUC2) that lines the epithelial cell of the intestine [XREF_BIBR] and cellular barrier represented by neutrophils that recruited by microbiome mediated recruitment via CXCR2 and macrophages [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T21:46:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:44:10Z",
+  "trigger" : "mediated",
+  "evidence" : [ "innate immunity which is glycosylated mucous (MUC2) that lines the epithelial cell of the intestine [ XREF_BIBR ] and cellular barrier represented by neutrophils that recruited by microbiome-mediated" ],
+  "pmc_id" : "6215996",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15391",
+      "entity_text" : "CD19",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Loss of CD19 expression is known to occur in < = 50% of patients who relapse following anti-CD19 CAR T treatment.",
+  "reading_complete" : "2020-08-05T21:43:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:41:26Z",
+  "trigger" : "expression",
+  "evidence" : [ "CD19 expression" ],
+  "pmc_id" : "7269903",
+  "score" : 0
+}

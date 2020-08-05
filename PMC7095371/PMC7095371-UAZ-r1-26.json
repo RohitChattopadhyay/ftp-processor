@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02325",
+      "entity_text" : "Rab8/10",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0019" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As Rab8/10 phosphorylation participates in the regulation of lysosome morphology and release, it would be reasonable to speculate that hyperphosphorylated Rab8/10 modulates the alpha-synuclein dynamics (clearance, aggregation or propagation) by affecting the maintenance of lysosomes.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Rab8/10 phosphorylation" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

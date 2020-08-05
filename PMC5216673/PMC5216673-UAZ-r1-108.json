@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5TCZ1",
+      "entity_text" : "fish",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01275",
+      "entity_text" : "glucagon",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Indeed, plasma insulin levels decrease and plasma glucagon levels increase in fish subjected to natural or experimental deprivation of food.",
+  "reading_complete" : "2020-08-05T21:29:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:26:20Z",
+  "trigger" : "increase",
+  "evidence" : [ "glucagon levels increase in fish" ],
+  "pmc_id" : "5216673",
+  "score" : 0
+}

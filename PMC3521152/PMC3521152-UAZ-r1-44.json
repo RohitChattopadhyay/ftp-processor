@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01436",
+      "entity_text" : "TRH receptor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The amino acid sequence surrounding the phosphosite does not seem to be a major factor because the rates of TRH receptor dephosphorylation are the same at different phosphosites.",
+  "reading_complete" : "2020-08-05T20:44:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:41:43Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "TRH receptor dephosphorylation" ],
+  "pmc_id" : "3521152",
+  "score" : 0
+}

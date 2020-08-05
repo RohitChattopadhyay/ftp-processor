@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The placebo group had a reduction in the left ventricular shortening fraction, had higher inotropic requirements and lactate levels compared to the steroid groups.",
+  "reading_complete" : "2020-08-05T21:24:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:24:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "lactate levels" ],
+  "pmc_id" : "4949398",
+  "score" : 0
+}

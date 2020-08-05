@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0627" ],
+      "Organ" : [ "uberon:UBERON:0001627" ],
+      "CellType" : [ "cl:CL:0000031" ]
+    }
+  },
+  "verbose_text" : "Removal of proliferating microglia by ganciclovir treatment decreases the level of neurotrophic IGF1, leading to the exacerbation of ischemic neuronal damage and deteriorated stroke outcomes.",
+  "reading_complete" : "2020-08-05T21:42:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:40:26Z",
+  "trigger" : "level",
+  "evidence" : [ "level of neurotrophic IGF1" ],
+  "pmc_id" : "6696904",
+  "score" : 0
+}

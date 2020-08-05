@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:442530",
+      "entity_text" : "ochratoxin A",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000910" ]
+    }
+  },
+  "verbose_text" : "An outbreak of disease in quail in Indonesia which was observed to have many of the characteristics of mycotoxicosis was investigated by Stolz et al. (1988), and a sample of the feed involved was found to contain CPA at 6000 ng/g, along with lower levels of aflatoxins (465 ng/g) and ochratoxin A (500 ng/g).",
+  "reading_complete" : "2020-08-05T22:17:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:15:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of aflatoxins (465 ng/g) and\nochratoxin A" ],
+  "pmc_id" : "3339596",
+  "score" : 0
+}

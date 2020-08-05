@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48357",
+      "entity_text" : "dB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0151" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Mean hearing loss in subjects without decrease or loss of extracochlear ECoG signals was 12 dB, compared to a mean hearing loss of 22 dB in subjects with a detectable decrease or a loss of ECoG signals (p = 0.0058, n = 51).",
+  "reading_complete" : "2020-08-05T20:39:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:38:21Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 22 dB" ],
+  "pmc_id" : "5790789",
+  "score" : 0
+}

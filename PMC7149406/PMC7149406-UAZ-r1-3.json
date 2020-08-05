@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "Laboratory testing revealed white blood count of 9,81 cells / mm3, a haemoglobin count of 10,6 g/dL and C-reactive protein value of 1,45 mg/dl; creatinine level was 1,62 mg/dl.",
+  "reading_complete" : "2020-08-05T21:48:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:47:10Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "7149406",
+  "score" : 0
+}

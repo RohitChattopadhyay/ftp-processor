@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tryptase",
+      "entity_text" : "tryptase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000097" ]
+    }
+  },
+  "verbose_text" : "The severity of organ involvement such as cardiovascular symptoms is correlated with higher serum tryptase levels.",
+  "reading_complete" : "2020-08-05T21:44:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:39:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "tryptase levels" ],
+  "pmc_id" : "7222858",
+  "score" : 0
+}

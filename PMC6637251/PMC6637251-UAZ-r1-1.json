@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Organ" : [ "uberon:UBERON:0013691" ]
+    }
+  },
+  "verbose_text" : "The patient 's creatinine phosphokinase (CPK) levels on admission were over 60,000 (normal = 15-105 u/L) and creatinine was 2.66 mg/dL (normal 0.6-1.22 mg/dL.",
+  "reading_complete" : "2020-08-05T21:47:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:46:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine phosphokinase (CPK) levels" ],
+  "pmc_id" : "6637251",
+  "score" : 0
+}

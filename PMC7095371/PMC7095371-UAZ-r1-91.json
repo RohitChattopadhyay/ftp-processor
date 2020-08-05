@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "lysosomes",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005764",
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0005767" ]
+    }
+  },
+  "verbose_text" : "This in vivo observation can be explained by our cell based studies in which Rab29 recruits LRRK2 to the overloaded lysosomes to maintain lysosomal homeostasis.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "recruits",
+  "evidence" : [ "recruits LRRK2 to the overloaded lysosomes" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00809",
+      "entity_text" : "MedDRA chosen19",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:55581" ],
+      "TissueType" : [ "tissuelist:TS-0971" ]
+    }
+  },
+  "verbose_text" : "This concern can derive from the level of MedDRA chosen19 but also from the granularity at which the drug is identified, namely if it is stratified by commercial product name.",
+  "reading_complete" : "2020-08-05T21:29:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:28:59Z",
+  "trigger" : "level",
+  "evidence" : [ "level of MedDRA chosen19" ],
+  "pmc_id" : "5765515",
+  "score" : 0
+}

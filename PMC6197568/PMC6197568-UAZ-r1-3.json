@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000233" ]
+    }
+  },
+  "verbose_text" : "Laboratory findings showed a hemoglobin level of (17.6 gr/dL), mild leukocytosis (11400/muL) with a left shift (81%), and a platelets level of (279000/muL).",
+  "reading_complete" : "2020-08-05T21:36:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:29Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "6197568",
+  "score" : 0
+}

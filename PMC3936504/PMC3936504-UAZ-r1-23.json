@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0070469" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Although mitochondria can buffer increased levels of neuronal cytosolic calcium, excessive sequestration of calcium by mitochondria may lead to inhibition of the respiratory chain, uncoupling of oxidative phosphorylation, and permeabilization of the mitochondrial membranes (the \" intrinsic \" apoptosis pathway).",
+  "reading_complete" : "2020-08-05T20:53:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:50:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of neuronal cytosolic calcium" ],
+  "pmc_id" : "3936504",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01110",
+      "entity_text" : "GPCRs",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "GPCRs can also be phosphorylated by kinases that become activated in response to signaling such as cAMP dependent protein kinase and protein kinase C. Phosphorylation carried out by such downstream kinases can influence GPCR-G protein coupling, desensitization, and trafficking.",
+  "reading_complete" : "2020-08-05T20:44:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:41:43Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "GPCRs can also be phosphorylated" ],
+  "pmc_id" : "3521152",
+  "score" : 0
+}

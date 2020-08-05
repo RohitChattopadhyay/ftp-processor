@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5281915",
+      "entity_text" : "CoQ10",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0005773" ]
+    }
+  },
+  "verbose_text" : "Muscle mitochondrial respiratory chain studies and CoQ10 levels were in the normal range.",
+  "reading_complete" : "2020-08-05T20:59:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:57:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "CoQ10 levels" ],
+  "pmc_id" : "3341568",
+  "score" : 0
+}
