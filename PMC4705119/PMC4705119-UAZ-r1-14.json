@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00661",
+      "entity_text" : "matrix",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:51580080",
+      "entity_text" : "tetracycline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Doxycycline is a tetracycline antibiotic that inhibits matrix metalloproteinases (MMPs).",
+  "reading_complete" : "2020-08-05T19:38:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:26:24Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "tetracycline antibiotic that inhibits matrix" ],
+  "pmc_id" : "4705119",
+  "score" : 0
+}

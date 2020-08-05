@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00334",
+      "entity_text" : "PrAO",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6329",
+      "entity_text" : "Methylamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0000136" ]
+    }
+  },
+  "verbose_text" : "Methylamine / PrAO interaction can therefore contribute to adipose tissue enlargement but should be considered as potentially useful for diabetes prevention since it could limit lipotoxicity and facilitate glucose handling, at the expense of favoring healthy fat accumulation.",
+  "reading_complete" : "2020-08-05T19:38:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:29:02Z",
+  "trigger" : "interaction",
+  "evidence" : [ "Methylamine/PrAO interaction" ],
+  "pmc_id" : "6789716",
+  "score" : 0
+}
