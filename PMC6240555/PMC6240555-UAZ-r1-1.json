@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin",
+      "entity_text" : "troponin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Two initial troponin levels were mildly elevated at 0.08 mug/L, but down-trended thereafter to 0.05 mug/L.",
+  "reading_complete" : "2020-08-05T21:02:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:00:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "troponin levels" ],
+  "pmc_id" : "6240555",
+  "score" : 0
+}
