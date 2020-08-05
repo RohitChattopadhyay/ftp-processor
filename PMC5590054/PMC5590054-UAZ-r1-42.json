@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01011",
+      "entity_text" : "alpha1-antichymotrypsin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pubchem:5280961",
+      "entity_text" : "Genistein",
+      "entity_type" : "simple_chemical"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Genistein presumably binds to ER to activate estrogen dependent genes, such as TGF-beta3, monoamine oxidase A (promotes metastasis), and alpha1-antichymotrypsin in vitro [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:55:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:50:05Z",
+  "trigger" : "activate",
+  "evidence" : [ "Genistein presumably binds to ER to activate estrogen-dependent genes, such as TGF-beta3, monoamine oxidase A (promotes metastasis), and alpha1-antichymotrypsin" ],
+  "pmc_id" : "5590054",
+  "score" : 0
+}
