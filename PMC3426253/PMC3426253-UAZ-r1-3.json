@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03218",
+      "entity_text" : "Niemann-Pick C1-like-1 receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:150311",
+      "entity_text" : "ezetimibe",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0494" ],
+      "Cellular_component" : [ "go:GO:0030136" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Ezetimibe, and more importantly its active metabolite ezetimibe glucuronide, binds to the Niemann-Pick C1-like-1 receptor at the jejunal epithelial cell brush border, preventing formation of the clathrin coated vesicles which allow endocytosis of the cholesterol Niemann-Pick C1-like-1 receptor complex.",
+  "reading_complete" : "2020-08-05T22:40:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:34:46Z",
+  "trigger" : "binds",
+  "evidence" : [ "ezetimibe glucuronide, binds to the Niemann-Pick C1-like-1 receptor" ],
+  "pmc_id" : "3426253",
+  "score" : 0
+}
