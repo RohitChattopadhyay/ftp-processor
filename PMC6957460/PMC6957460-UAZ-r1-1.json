@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "Lowest lymphocyte count and highest serum creatinine level within 30-day windows were captured, as were highest organ stage of graft-versus-host disease (GvHD) at time of AdV viremia> = 1000 copies/ml and use of renal replacement (hemodialysis, peritoneal dialysis, ultrafiltration, and continuous venovenous filtration therapy).",
+  "reading_complete" : "2020-08-05T22:28:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:24:49Z",
+  "trigger" : "level",
+  "evidence" : [ "creatinine level" ],
+  "pmc_id" : "6957460",
+  "score" : 0
+}
