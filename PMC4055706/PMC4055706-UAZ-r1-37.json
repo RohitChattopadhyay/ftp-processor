@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01166",
+      "entity_text" : "cargo receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01126",
+      "entity_text" : "GPI-APs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR) Fujita found that the GPI-APs in PGAP1 defective cells did not bind to the cargo receptor for GPI-APs, a p24 complex consisting of p24alpha2, p24beta1, p24gamma2, and p24delta1, which is required for efficient packaging GPI-APs into COPII coated transport vesicles.",
+  "reading_complete" : "2020-08-05T19:28:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:20:36Z",
+  "trigger" : "bind",
+  "evidence" : [ "GPI-APs in PGAP1-defective cells did not bind to the cargo receptor" ],
+  "pmc_id" : "4055706",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37287",
+      "entity_text" : "PIG-A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q3MUY2",
+      "entity_text" : "PIG-Y",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0008" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0585" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR) PIG-Y associated directly with PIG-A, suggesting that PIG-Y may regulate the catalytic action of PIG-A.",
+  "reading_complete" : "2020-08-05T19:28:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:20:36Z",
+  "trigger" : "associated",
+  "evidence" : [ "PIG-Y associated directly with PIG-A" ],
+  "pmc_id" : "4055706",
+  "score" : 0
+}
