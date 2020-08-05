@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00128",
+      "entity_text" : "alpha-amylase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5819",
+      "entity_text" : "T4",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the enzymatic assay, the fractions D3 and T4 significantly inhibit the alpha-amylase reaction with IC50 values of 0.34 and 0.86 mg/mL, respectively.",
+  "reading_complete" : "2020-08-05T21:20:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:15:49Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "T4 significantly inhibit the alpha-amylase" ],
+  "pmc_id" : "7151626",
+  "score" : 0
+}
