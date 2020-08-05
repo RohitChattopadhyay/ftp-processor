@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11717",
+      "entity_text" : "insulin-like growth factor II receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10144",
+      "entity_text" : "Granzyme B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Granzyme B will bind to its cell surface receptor, an insulin like growth factor II receptor, causing endocytosis of the protease.",
+  "reading_complete" : "2020-08-05T20:17:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:15:58Z",
+  "trigger" : "bind",
+  "evidence" : [ "Granzyme B will bind to its cell surface receptor, an insulin-like growth factor II receptor" ],
+  "pmc_id" : "7169302",
+  "score" : 0
+}

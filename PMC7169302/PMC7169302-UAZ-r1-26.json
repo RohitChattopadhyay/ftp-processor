@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Inversely, inhibition of NF-kappaB activation produces an increase in apoptosis, indicating that the balance of cell viability versus cell death is maintained in some degree to NF-kappaB activation.",
+  "reading_complete" : "2020-08-05T20:17:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:15:58Z",
+  "trigger" : "produces",
+  "evidence" : [ "NF-kappaB activation produces an increase in apoptosis" ],
+  "pmc_id" : "7169302",
+  "score" : 0
+}

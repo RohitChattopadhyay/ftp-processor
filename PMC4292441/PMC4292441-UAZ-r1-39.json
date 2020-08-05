@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZM8",
+      "entity_text" : "Ndel1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43034",
+      "entity_text" : "Lis1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005813" ],
+      "Organ" : [ "uberon:UBERON:2001341" ],
+      "CellType" : [ "cl:CL:0002609" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Cdk5 phosphorylates a number of microtubule associated proteins : DCX, Ndel1 (Lis1 binding protein, also called Nudel), FAK, and CRMP2.",
+  "reading_complete" : "2020-08-05T20:24:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:23:25Z",
+  "trigger" : "binding",
+  "evidence" : [ "Ndel1 (Lis1-binding" ],
+  "pmc_id" : "4292441",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The dopamine expression led to gradual acquisition of dopaminergic neuronal characteristics, and then full differentiation into this class of neuron.",
+  "reading_complete" : "2020-08-05T20:06:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:03:22Z",
+  "trigger" : "led",
+  "evidence" : [ "dopamine expression led to gradual acquisition of dopaminergic neuronal characteristics, and then full differentiation" ],
+  "pmc_id" : "6056633",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGFbeta-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0455" ],
+      "Cellular_component" : [ "go:GO:0005921" ],
+      "CellType" : [ "cl:CL:0000091" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Xu et al. XREF_BIBR showed that the expression of Cx43 in HSCs can be modulated by levels of TGFbeta-1 and that the expression of Cx43 interferes directly in the proliferation of these cells.",
+  "reading_complete" : "2020-08-05T20:10:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:09:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of\nTGFbeta-1" ],
+  "pmc_id" : "6912844",
+  "score" : 0
+}

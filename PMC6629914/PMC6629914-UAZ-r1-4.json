@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A0AQW4",
+      "entity_text" : "BRC 2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The risk factors for breast cancer include increasing age, early menarche, late menopause, late age of the mother for the first pregnancy, nulliparity, obesity, long term use of the combined oral contraceptive tablets, the presence of some genetic mutations like BRC1 and BRC 2 mutations which may cause cancer at earlier age [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:15:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:13:09Z",
+  "trigger" : "cause",
+  "evidence" : [ "BRC 2 mutations which may cause cancer at earlier age" ],
+  "pmc_id" : "6629914",
+  "score" : 0
+}

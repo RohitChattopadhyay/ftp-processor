@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser518",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Interestingly, Cdk5 phosphorylates CRMP2 at Ser522 and its phosphorylation is required for further phosphorylation of CRMP2 by GSK3beta at Ser518, Thr514, and Thr509.",
+  "reading_complete" : "2020-08-05T20:24:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:23:25Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates CRMP2 at Ser522 and its phosphorylation is required for further phosphorylation of CRMP2 by GSK3beta at Ser518" ],
+  "pmc_id" : "4292441",
+  "score" : 0
+}

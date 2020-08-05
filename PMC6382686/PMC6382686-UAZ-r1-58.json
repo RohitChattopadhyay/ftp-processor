@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H1Y0",
+      "entity_text" : "Atg5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7227" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "CellType" : [ "cl:CL:0000700" ]
+    }
+  },
+  "verbose_text" : "It reduced the level of the Atg5 autophagy protein by about 30% (p < 0.05) when compared with all strains that were not fed the toxin, while the overexpression of mul1 or park restored the normal level of Atg5 in rotenone fed flies compared to Gal4 and UAS controls (p < 0.01) (XREF_FIG).",
+  "reading_complete" : "2020-08-05T20:30:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:29:43Z",
+  "trigger" : "level",
+  "evidence" : [ "level of the Atg5" ],
+  "pmc_id" : "6382686",
+  "score" : 0
+}

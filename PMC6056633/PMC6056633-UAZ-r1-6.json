@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "Integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Integrin binds to ECM proteins in the process of cell recognition, and transmits force across the cell membrane.",
+  "reading_complete" : "2020-08-05T20:06:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:03:22Z",
+  "trigger" : "binds",
+  "evidence" : [ "Integrin binds to ECM" ],
+  "pmc_id" : "6056633",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q43731",
+      "entity_text" : "p50",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "104 NF-kappaB : NF-kappaB is a transcription factor and an anti-apoptotic gene regulator composed of a p50 / p65 heterodimer.",
+  "reading_complete" : "2020-08-05T20:17:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:15:58Z",
+  "trigger" : "heterodimer",
+  "evidence" : [ "p50/p65 heterodimer" ],
+  "pmc_id" : "7169302",
+  "score" : 0
+}
