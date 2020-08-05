@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "CellLine" : [ "cellosaurus:CVCL_D953" ],
+      "Organ" : [ "uberon:UBERON:0002481" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000062" ]
+    }
+  },
+  "verbose_text" : "MDA is a degradation product of lipid peroxide, which can indicate the amount of oxygen free radicals and the degree of lipid peroxidation by detecting its concentration.",
+  "reading_complete" : "2020-08-05T19:22:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:21:59Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of oxygen" ],
+  "pmc_id" : "6583917",
+  "score" : 0
+}

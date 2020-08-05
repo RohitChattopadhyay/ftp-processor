@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5991",
+      "entity_text" : "estrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "CellType" : [ "cl:CL:0000062" ]
+    }
+  },
+  "verbose_text" : "The level of estrogen in the body of PMOP patients is continuously reduced, and the antioxidant capacity is gradually weakened.",
+  "reading_complete" : "2020-08-05T19:22:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:21:59Z",
+  "trigger" : "level",
+  "evidence" : [ "level of estrogen" ],
+  "pmc_id" : "6583917",
+  "score" : 0
+}

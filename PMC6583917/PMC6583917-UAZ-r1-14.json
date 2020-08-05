@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q98234",
+      "entity_text" : "GSH-Px",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "CellLine" : [ "cellosaurus:CVCL_D953" ],
+      "Organ" : [ "uberon:UBERON:0002481" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000062" ]
+    }
+  },
+  "verbose_text" : "The results of the experiment showed that APS significantly increased the levels of GSH-Px and SOD in the femoral tissue of ovariectomized rats and decreased the level of MDA, indicating that APS can improve the oxidative stress state of bone tissue in postmenopausal osteoporosis rats.",
+  "reading_complete" : "2020-08-05T19:22:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:21:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GSH-Px" ],
+  "pmc_id" : "6583917",
+  "score" : 0
+}
