@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48357",
+      "entity_text" : "dB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0151" ],
+      "Organ" : [ "uberon:UBERON:0002502" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Subjects with a decrease of> = 3 dB in the low-frequency ECoG response after insertion of the CI electrode had a mean hearing loss of 24 dB at 4 weeks after surgery (SD 14 dB, mean presurgical PTA 94 dB HL); subjects with no relevant decrease in the low-frequency ECoG response, a mean hearing loss of 12 dB (SD 9 dB, mean presurgical PTA 92 dB HL).",
+  "reading_complete" : "2020-08-05T20:39:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:38:21Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 24 dB" ],
+  "pmc_id" : "5790789",
+  "score" : 0
+}
