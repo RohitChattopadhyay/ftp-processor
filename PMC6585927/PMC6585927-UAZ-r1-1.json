@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00792",
+      "entity_text" : "IGF-1 and\nits receptor IGF-1R",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Kong et al. XREF_BIBR found that insulin deficiency can upregulate the expressions of IGF-1 and its receptor IGF-1R in the renal mesangial cells and DN rats ' kidneys, thus causing mesangial cell proliferation as well as the increase of serum creatinine and urinary proteins; Singh et al. XREF_BIBR found through proteomics that the overexpression of IGF-1 can activate the Akt / GSK-3beta signal pathway, thus promoting the growth of mesangial cells and protein synthesis in DN.",
+  "reading_complete" : "2020-08-05T19:26:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:24:47Z",
+  "trigger" : "causing",
+  "evidence" : [ "IGF-1 and\nits receptor IGF-1R in the renal mesangial cells and DN rats' kidneys, thus causing\nmesangial cell proliferation" ],
+  "pmc_id" : "6585927",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Laboratory tests run in the emergency department revealed a level of hemoglobin of 7g/dl, platelets 39.000 Migl / mmc, white blood cell 13.99 Migl / mmc (neutrophils 69.9%), PT 1.61, aPTT 3.10, albumin 2.2 g/dl, total bilirubin 9.23 mg/dl, direct bilirubin 7.53 mg/dl, aspartate aminotransferase (AST) 213 IU/l, and alkaline phosphatase 567 IU/l, Creatinine 1.32mg/dl, CRP 5.5 mg/dl.",
+  "reading_complete" : "2020-08-05T19:29:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:26:24Z",
+  "trigger" : "level",
+  "evidence" : [ "level of hemoglobin" ],
+  "pmc_id" : "6669723",
+  "score" : 0
+}
