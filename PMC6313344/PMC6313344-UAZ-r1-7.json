@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00538",
+      "entity_text" : "GC receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16739",
+      "entity_text" : "GCs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:55581" ],
+      "CellType" : [ "cl:CL:0000771" ]
+    }
+  },
+  "verbose_text" : "After entry into the target cells, GCs bind to the GC receptor (GR), which then translocates into the nucleus to directly or indirectly regulate gene transcription.",
+  "reading_complete" : "2020-08-05T20:00:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:55:06Z",
+  "trigger" : "bind",
+  "evidence" : [ "GCs bind to the GC receptor" ],
+  "pmc_id" : "6313344",
+  "score" : 0
+}

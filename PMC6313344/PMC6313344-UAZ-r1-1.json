@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29279",
+      "entity_text" : "CCN2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0138" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:55581" ]
+    }
+  },
+  "verbose_text" : "After tissue repair, CCN2 expression should be turned off immediately in order to avoid continuous tissue remodeling and excessive ECM production leading to fibrosis, a typical outcome of chronic inflammation [XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:00:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:55:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "CCN2 expression" ],
+  "pmc_id" : "6313344",
+  "score" : 0
+}
