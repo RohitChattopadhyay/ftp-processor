@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thus, HD needs huge amounts of water for dialysate production.",
+  "reading_complete" : "2020-08-05T19:56:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:52:56Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of water" ],
+  "pmc_id" : "7060957",
+  "score" : 0
+}
