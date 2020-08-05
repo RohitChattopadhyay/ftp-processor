@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01771",
+      "entity_text" : "p75NTR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O73683",
+      "entity_text" : "Abeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Indeed, there is evidence that soluble and aggregated Abeta bind to p75NTR.",
+  "reading_complete" : "2020-08-05T21:39:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:01Z",
+  "trigger" : "bind",
+  "evidence" : [ "Abeta bind to p75NTR" ],
+  "pmc_id" : "6514132",
+  "score" : 0
+}

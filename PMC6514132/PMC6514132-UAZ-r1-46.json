@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01138",
+      "entity_text" : "NGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Cellular_component" : [ "go:GO:0044297" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "The possibility that treatment efficacy may require higher cortical and hippocampal levels of NGF or NGF-mimics is suggested by deficient trophic responses in cultured BFCNs in which C99 overexpression was used to induce hyperactivation of Rab5 resulting in reduced retrograde NGF transport.",
+  "reading_complete" : "2020-08-05T21:39:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NGF" ],
+  "pmc_id" : "6514132",
+  "score" : 0
+}

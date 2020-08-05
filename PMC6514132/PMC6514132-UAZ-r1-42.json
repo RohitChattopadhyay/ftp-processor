@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "microtubule-associated protein tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0990" ],
+      "Cellular_component" : [ "go:GO:0097418" ],
+      "Organ" : [ "uberon:UBERON:0002743" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Amyloid plaques mark the extracellular accumulation and deposition of Abeta peptides, while aberrantly folded, and abnormally phosphorylated isoforms of the microtubule associated protein tau serve as the principle constituent of NFTs.",
+  "reading_complete" : "2020-08-05T21:39:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:01Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated isoforms of the microtubule-associated protein tau" ],
+  "pmc_id" : "6514132",
+  "score" : 0
+}

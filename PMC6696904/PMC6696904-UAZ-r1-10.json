@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These microglia exhibit pro neurogenic phenotypes with increased expression of IGF-1, which can promote proliferation and differentiation of neural stem cells (NSCs) and contribute to neural repair and survival after ischemic injury.",
+  "reading_complete" : "2020-08-05T21:42:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:40:26Z",
+  "trigger" : "promote",
+  "evidence" : [ "IGF-1, which can promote proliferation" ],
+  "pmc_id" : "6696904",
+  "score" : 0
+}
