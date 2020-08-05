@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006091",
+      "entity_text" : "energy expenditure",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00441",
+      "entity_text" : "SOD1",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 86,
+        "feature_type" : "mutation",
+        "evidence" : "G86R"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A study by Dupuis et al. in SOD1 G86R mice found aberrations of energy metabolism such as reduction of adiposity, increased energy expenditure and lipolysis, and examined the effects of a high fat diet that consisted of regular chow supplemented with 21% (wt/wt) butter fat and 0.15% (wt/wt) cholesterol.",
+  "reading_complete" : "2020-08-05T21:04:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:02:05Z",
+  "trigger" : "increased",
+  "evidence" : [ "SOD1 G86R  mice found aberrations of energy metabolism such as reduction of adiposity, increased energy expenditure" ],
+  "pmc_id" : "5222822",
+  "score" : 0
+}

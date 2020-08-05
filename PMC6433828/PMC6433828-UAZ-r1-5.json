@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UEY8",
+      "entity_text" : "gamma-adducin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0150" ],
+      "Cellular_component" : [ "go:GO:0008021" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "It functions as a regulated secretory pathway sorting receptor for proneuropeptides and proBDNF, mediates anterograde transport of neuropeptide and BDNF vesicles to the plasma membrane via cytoplasmic tail interaction with dynactin / dynein, and localizes synaptic vesicles to the actin rich pre-active zone in hypothalamic neurons through actin binding protein gamma-adducin.",
+  "reading_complete" : "2020-08-05T21:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:13:07Z",
+  "trigger" : "binding",
+  "evidence" : [ "actin binding protein gamma-adducin" ],
+  "pmc_id" : "6433828",
+  "score" : 0
+}

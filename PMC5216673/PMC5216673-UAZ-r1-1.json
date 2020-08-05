@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5958",
+      "entity_text" : "glucose 6-phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32189",
+      "entity_text" : "GK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In this mechanism, glucose is taken up by glucose facilitative carrier type 2 (GLUT2), phosphorylated to glucose 6-phosphate by GK, and then metabolized through glycolysis increasing intracellular ATP/ADP ratio.",
+  "reading_complete" : "2020-08-05T21:29:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:26:20Z",
+  "evidence" : [ "phosphorylated to glucose 6-phosphate by GK" ],
+  "pmc_id" : "5216673",
+  "score" : 0
+}

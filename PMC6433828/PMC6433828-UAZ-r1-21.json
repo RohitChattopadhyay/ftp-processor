@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Organ" : [ "uberon:UBERON:0001885" ]
+    }
+  },
+  "verbose_text" : "Mice bearing this mutation showed neurodegeneration in the hippocampus and prefrontal cortex, deficits in neurogenesis at the dentate gyrus and hyperphosphorylation of tau.",
+  "reading_complete" : "2020-08-05T21:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:13:07Z",
+  "trigger" : "hyperphosphorylation",
+  "evidence" : [ "hyperphosphorylation of tau" ],
+  "pmc_id" : "6433828",
+  "score" : 0
+}

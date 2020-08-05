@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10635",
+      "entity_text" : "CYP2D6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:43815",
+      "entity_text" : "paroxetine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, these 2 patients were intermediate metabolizer for CYP2D6.6 The reduced metabolic activity of CYP2D6 might increase the exposure of metoprolol, and this condition was corroborated by the strong inhibition of CYP2D6 by paroxetine which results in unexpected higher metoprolol plasma concentration.",
+  "reading_complete" : "2020-08-05T20:59:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:58:05Z",
+  "trigger" : "inhibition",
+  "evidence" : [ "inhibition of CYP2D6 by paroxetine" ],
+  "pmc_id" : "6001522",
+  "score" : 0
+}

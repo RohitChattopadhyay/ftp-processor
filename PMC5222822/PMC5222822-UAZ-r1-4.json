@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Similarly in ALS, numerous studies have shown functional and structural abnormalities in mitochondria that give rise to reduced oxidative phosphorylation and subsequent decreased generation of ATP.",
+  "reading_complete" : "2020-08-05T21:04:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:02:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and subsequent decreased generation of ATP" ],
+  "pmc_id" : "5222822",
+  "score" : 0
+}

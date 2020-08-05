@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02085",
+      "entity_text" : "uncoupling protein 2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The mitochondrial production of reactive oxygen species (ROS) leads to increased expression of uncoupling protein 2 (UCP2) in response to increased glucose levels.",
+  "reading_complete" : "2020-08-05T21:29:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:26:20Z",
+  "trigger" : "production",
+  "evidence" : [ "production of reactive oxygen species (ROS) leads to increased expression of uncoupling protein 2" ],
+  "pmc_id" : "5216673",
+  "score" : 0
+}
