@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439260",
+      "entity_text" : "norepinephrine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0001184" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has no effects on lipids or insulin sensitivity, but it can increase plasma norepinephrine levels.",
+  "reading_complete" : "2020-08-05T22:23:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:21:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "norepinephrine levels" ],
+  "pmc_id" : "2899780",
+  "score" : 0
+}

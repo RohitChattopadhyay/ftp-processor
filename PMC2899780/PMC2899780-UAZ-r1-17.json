@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24758425",
+      "entity_text" : "aldosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P01019",
+      "entity_text" : "angiotensin II",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O00400",
+      "entity_text" : "AT 1",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Valsartan is a specific blocker of the binding of angiotensin II to the AT 1 receptor, blocking the vasoconstrictor effect and the adrenal aldosterone secretion induced by this peptide.",
+  "reading_complete" : "2020-08-05T22:23:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:21:30Z",
+  "trigger" : "blocking",
+  "evidence" : [ "angiotensin II to the AT 1  receptor, blocking the vasoconstrictor effect and the adrenal aldosterone" ],
+  "pmc_id" : "2899780",
+  "score" : 0
+}
