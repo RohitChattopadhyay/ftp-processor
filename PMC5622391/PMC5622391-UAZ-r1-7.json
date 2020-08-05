@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:969516",
+      "entity_text" : "curcumin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Quercetin, curcumin and EGCG were able to reduce basal ERK1/2 phosphorylation by 44% to 52% (untreated cells vs. compound treated cells).",
+  "reading_complete" : "2020-08-05T19:09:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:06:12Z",
+  "trigger" : "reduce",
+  "evidence" : [ "curcumin and EGCG were able to reduce basal ERK1/2 phosphorylation" ],
+  "pmc_id" : "5622391",
+  "score" : 0
+}

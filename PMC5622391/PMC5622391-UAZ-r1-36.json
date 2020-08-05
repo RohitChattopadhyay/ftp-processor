@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Activation of ERK1/2 in response to leptin was confirmed by assessing the levels of phosphorylation of ERK1/2.",
+  "reading_complete" : "2020-08-05T19:09:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:06:12Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK1/2" ],
+  "pmc_id" : "5622391",
+  "score" : 0
+}

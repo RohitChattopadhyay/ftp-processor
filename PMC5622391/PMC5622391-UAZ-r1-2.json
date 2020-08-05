@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cell based ELISA revealed that the addition of 200 ng/mL leptin increased ERK1/2 phosphorylation in MCF-7 cells by 60% to 87% at 48 h incubation.",
+  "reading_complete" : "2020-08-05T19:09:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:06:12Z",
+  "trigger" : "increased",
+  "evidence" : [ "leptin increased ERK1/2 phosphorylation" ],
+  "pmc_id" : "5622391",
+  "score" : 0
+}
