@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43220",
+      "entity_text" : "GLP-1 receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:56927919",
+      "entity_text" : "Exenatide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0510" ]
+    }
+  },
+  "verbose_text" : "Exenatide shares approximately 53% homology with the mammalian incretin GLP-1 and binds to and activates GLP-1 receptor cloned from islet cells, gut, hypothalamus, and kidney XREF_BIBR.",
+  "reading_complete" : "2020-08-05T20:22:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:21:38Z",
+  "trigger" : "binds",
+  "evidence" : [ "Exenatide shares\napproximately 53% homology with the mammalian incretin GLP-1 and binds to and\nactivates GLP-1 receptor" ],
+  "pmc_id" : "6585921",
+  "score" : 0
+}
