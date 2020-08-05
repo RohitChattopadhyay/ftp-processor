@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00206",
+      "entity_text" : "TLR4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This, based on the fact that the production of IL-1beta and IL-18 not only requires TLR4 induced gene transcription, but also requires the activation of Caspase-1 by NLRP3 inflammasome, and Caspase-1 cleaves pro-IL-1beta and pro-IL-18 to form the active forms of IL-1beta and IL-18 XREF_BIBR.",
+  "reading_complete" : "2020-08-05T18:31:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:30:29Z",
+  "trigger" : "induced",
+  "evidence" : [ "TLR4-induced gene transcription" ],
+  "pmc_id" : "6917477",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29466",
+      "entity_text" : "caspase-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005576" ],
+      "Organ" : [ "uberon:UBERON:2005000" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "In the present study, BCA significantly reduced the serum production of IL-1beta, IL-18, IL-6 and TNF-alpha, inhibited the expression levels of TLR4, MyD88, NLRP3, ASC, caspase-1 and the phosphorylations of IkB-alpha and NF-kB in MI/R rats.",
+  "reading_complete" : "2020-08-05T18:31:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:30:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TLR4, MyD88, NLRP3,\nASC, caspase-1" ],
+  "pmc_id" : "6917477",
+  "score" : 0
+}

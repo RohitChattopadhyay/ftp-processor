@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:2005000" ]
+    }
+  },
+  "verbose_text" : "BCA could also suppress MI/R induced inflammatory responses by decreasing the serum levels of IL-1beta, IL-18, IL-6 and TNF-alphain MI/R rats.",
+  "reading_complete" : "2020-08-05T18:31:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:30:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-1beta, IL-18, IL-6" ],
+  "pmc_id" : "6917477",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Akt protein is an important node protein in PI3K signaling pathways, which makes the PI3K/AKT/mTOR pathway activation by phosphorylation of Akt, then promoting angiogenesis.",
+  "reading_complete" : "2020-08-05T18:30:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:29:43Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Akt" ],
+  "pmc_id" : "7006371",
+  "score" : 0
+}

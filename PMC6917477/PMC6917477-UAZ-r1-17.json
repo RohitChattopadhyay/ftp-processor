@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14116",
+      "entity_text" : "IL-18",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "extracellular region",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005576",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005576" ],
+      "Organ" : [ "uberon:UBERON:2005000" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "That is, activated Caspase-1 cleaves the precursors of IL-1beta and IL-18 to form active IL-1beta and IL-18, which are released into the extracellular region to recruit inflammatory cells to aggregate and expand the inflammatory response XREF_BIBR.",
+  "reading_complete" : "2020-08-05T18:31:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:30:29Z",
+  "trigger" : "released",
+  "evidence" : [ "IL-18, which are\nreleased into the extracellular region" ],
+  "pmc_id" : "6917477",
+  "score" : 0
+}
