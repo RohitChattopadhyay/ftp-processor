@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10918",
+      "entity_text" : "carnitine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10663",
+      "entity_text" : "malonyl-CoA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The best known mechanism is of metabolic nature in a way that a rise in LCFA levels results in increased levels of malonyl-CoA, which inhibits carnitine palmitoyl transferase-1 (CPT-1) then resulting in the inability of mitochondria to import fatty acid-CoA for oxidation.",
+  "reading_complete" : "2020-08-05T21:29:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:26:20Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "malonyl-CoA, which inhibits carnitine" ],
+  "pmc_id" : "5216673",
+  "score" : 0
+}
