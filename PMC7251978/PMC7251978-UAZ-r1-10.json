@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0730" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000094" ]
+    }
+  },
+  "verbose_text" : "The increase in the MDA levels in tissue is considered a marker of tissue injury and indicates the level of lipid peroxidation in the tissue.",
+  "reading_complete" : "2020-08-05T19:40:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:40:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "MDA levels" ],
+  "pmc_id" : "7251978",
+  "score" : 0
+}

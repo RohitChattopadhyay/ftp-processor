@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07812",
+      "entity_text" : "Bax",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "For instance, Bax protein forms a heterodimer with Bcl2, which activates the apoptotic pathway.",
+  "reading_complete" : "2020-08-05T19:36:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:35:33Z",
+  "trigger" : "forms a heterodimer",
+  "evidence" : [ "Bax protein forms a heterodimer with Bcl2" ],
+  "pmc_id" : "6583933",
+  "score" : 0
+}

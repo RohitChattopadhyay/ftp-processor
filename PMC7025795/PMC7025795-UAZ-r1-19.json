@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "AC group showed significantly increased immunoexpression of NF-kB in rectum, plasma and tissue levels of TNF-alpha, plasma Pentraxin-3 and MDA levels (P < 0.0001) while adenosine reduced these levels (P < 0.05).",
+  "reading_complete" : "2020-08-05T19:39:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:38:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "7025795",
+  "score" : 0
+}

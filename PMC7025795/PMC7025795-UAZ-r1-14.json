@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1180" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "In a study by Kuralay et al. 15, trimetazidine, an antianginal compound, was administered to investigate its cytoprotective features in AA induced colitis in rats, and found that AA administration markedly lowered TNF-alpha levels while trimetazidine treatment elevated these levels significantly.",
+  "reading_complete" : "2020-08-05T19:39:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:38:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "TNF-alpha levels" ],
+  "pmc_id" : "7025795",
+  "score" : 0
+}

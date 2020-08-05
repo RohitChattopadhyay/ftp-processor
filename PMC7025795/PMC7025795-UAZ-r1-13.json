@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0009002" ]
+    }
+  },
+  "verbose_text" : "The products of the sequential dephosphorylation of ATP (i.e. adenosine, inosine, and hypoxanthine) have shown to further modulate cellular function, including providing protection against oxidant induced cellular injury and reducing inflammatory cell infiltration and lipid peroxidation in animal models of colitis XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-05T19:39:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:38:40Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of ATP" ],
+  "pmc_id" : "7025795",
+  "score" : 0
+}

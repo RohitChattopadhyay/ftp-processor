@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75364",
+      "entity_text" : "PTX3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Cellular_component" : [ "go:GO:0005615" ],
+      "Organ" : [ "uberon:UBERON:0000344" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0002563" ]
+    }
+  },
+  "verbose_text" : "The therapeutic effect of adenosine on experimentally induced colitis was reflected in its ability to decrease the AA induced hyperemia and hemorrhage, disruption of intestinal epithelium, infiltration of leukocytes into colon and rectum, AA increased NF-kB immunoexpression, and AA elevated TNF-alpha in both plasma and rectum tissues, MDA and PTX3 levels in plasma.",
+  "reading_complete" : "2020-08-05T19:39:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:38:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "PTX3 levels" ],
+  "pmc_id" : "7025795",
+  "score" : 0
+}

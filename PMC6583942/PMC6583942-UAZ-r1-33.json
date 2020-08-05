@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In the group with AF perfusion, the iNOS values were found to be significantly lower, suggesting that the amount of NO in the medium remained within the normal range, preventing the increase of lipid peroxidation and apoptosis.",
+  "reading_complete" : "2020-08-05T19:37:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:36:37Z",
+  "trigger" : "preventing",
+  "evidence" : [ "NO in the medium remained within the normal range, preventing the increase of lipid peroxidation and apoptosis" ],
+  "pmc_id" : "6583942",
+  "score" : 0
+}
