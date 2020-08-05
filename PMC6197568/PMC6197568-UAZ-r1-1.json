@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:161500",
+      "entity_text" : "air",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0003684" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Plain abdominal radiography was repeated and it showed increased air fluid levels without air in the rectum which is also consistent with small intestinal obstruction (XREF_FIG).",
+  "reading_complete" : "2020-08-05T21:36:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:35:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "air fluid levels" ],
+  "pmc_id" : "6197568",
+  "score" : 0
+}
