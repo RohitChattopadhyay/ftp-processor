@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "Cellular_component" : [ "go:GO:0015629" ]
+    }
+  },
+  "verbose_text" : "When the body is stimulated by other nucleophiles or in an oxidative stress state, Nrf2 is dissociated from Keap1, and after Nrf2 phosphorylation, it is transferred into the nucleus and binds to the antioxidant response element (ARE), which initiates ARE regulated downstream phase II metabolic enzymes and antibiotics.",
+  "reading_complete" : "2020-08-05T19:31:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Nrf2 phosphorylation" ],
+  "pmc_id" : "6746561",
+  "score" : 0
+}

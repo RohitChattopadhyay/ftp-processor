@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-1",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00799",
+      "entity_text" : "IGF-1 receptors",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It binds to specific IGF-1 receptors by autocrine or paracrine, thus promoting the cell proliferation and differentiation, inhibiting the apoptosis, promoting the protein synthesis, etc.; in addition, it has a certain cross-role with insulin receptors XREF_BIBR.",
+  "reading_complete" : "2020-08-05T19:26:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:24:47Z",
+  "trigger" : "promoting",
+  "evidence" : [ "It binds to specific IGF-1 receptors by\nautocrine or paracrine, thus promoting the cell proliferation" ],
+  "pmc_id" : "6585927",
+  "score" : 0
+}

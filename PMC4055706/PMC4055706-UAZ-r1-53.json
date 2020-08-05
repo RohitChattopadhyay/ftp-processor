@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0009058",
+      "entity_text" : "biosynthesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H3S5",
+      "entity_text" : "PIGM",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "XREF_BIBR) Murakami demonstrated that the affected B-lymphoblastoid cells regained normal expression of GPI-APs after a 2-day culture in medium containing sodium butylate that inhibited histone deacetylases and increased acetylation of the PIGM promoter and transcription, which in turn increased PIG-M expression and GPI biosynthesis.",
+  "reading_complete" : "2020-08-05T19:28:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:20:36Z",
+  "trigger" : "increased",
+  "evidence" : [ "PIGM promoter and transcription, which in turn increased PIG-M expression and GPI biosynthesis" ],
+  "pmc_id" : "4055706",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:923",
+      "entity_text" : "sodium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:76720" ]
+    }
+  },
+  "verbose_text" : "Enteral nutrients contain the amounts of sodium (Na) above the estimated requirements (600 mg/d in Japan); however, some patients receiving enteral nutrition suffer from hyponatremia (HN) [serum Na level < 135 mEq/L].",
+  "reading_complete" : "2020-08-05T19:26:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:26:15Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of sodium" ],
+  "pmc_id" : "5675159",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9615" ],
+      "TissueType" : [ "tissuelist:TS-0169" ],
+      "Organ" : [ "uberon:UBERON:0000054" ],
+      "CellType" : [ "cl:CL:0000740" ]
+    }
+  },
+  "verbose_text" : "It is apparent in the scatter plot that there are a significant number of cells expressing lower levels of GFP that fell outside of the capture.",
+  "reading_complete" : "2020-08-05T19:27:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:25:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GFP" ],
+  "pmc_id" : "5131003",
+  "score" : 0
+}
