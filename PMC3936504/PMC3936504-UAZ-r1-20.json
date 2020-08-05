@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:COX",
+      "entity_text" : "cytochrome c oxidase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9940" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0031966" ]
+    }
+  },
+  "verbose_text" : "As the terminal electron acceptor of the mitochondrial electron transport chain, loss of cytochrome c oxidase may be particularly decisive in the uncoupling of oxidative phosphorylation, since it accounts for over 90% of cellular oxygen consumption.",
+  "reading_complete" : "2020-08-05T20:53:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:50:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of cytochrome c oxidase" ],
+  "pmc_id" : "3936504",
+  "score" : 0
+}
