@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01426",
+      "entity_text" : "KLC1/2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33176",
+      "entity_text" : "KIF5B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0654" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000187" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "In these cells microtubules are of mixed polarity, along which the nuclei are translocated by the synergistic actions of dynein and kinesin-1 (the KIF5B and KLC1/2 complex) and their associated nesprins-1/2.",
+  "reading_complete" : "2020-08-05T19:52:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:49:51Z",
+  "trigger" : "complex",
+  "evidence" : [ "KIF5B and KLC1/2 complex" ],
+  "pmc_id" : "6275330",
+  "score" : 0
+}

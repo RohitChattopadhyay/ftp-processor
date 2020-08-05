@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00225",
+      "entity_text" : "kinesin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01413",
+      "entity_text" : "dynein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR) In addition to the LINC complex, interaction between dynein and kinesin with the nuclear envelope is also mediated by the nucleoporin based nuclear pore complex proteins.",
+  "reading_complete" : "2020-08-05T19:52:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:49:51Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between dynein and kinesin" ],
+  "pmc_id" : "6275330",
+  "score" : 0
+}
