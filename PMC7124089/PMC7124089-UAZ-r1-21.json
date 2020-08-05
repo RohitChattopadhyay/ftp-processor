@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Adalimumab has also been demonstrated to attenuate the ischemia-reperfusion mediated lung injury through inhibition of the increase in tissue TNF-alpha levels in rats 32.",
+  "reading_complete" : "2020-08-05T20:23:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:22:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "TNF-alpha levels" ],
+  "pmc_id" : "7124089",
+  "score" : 0
+}

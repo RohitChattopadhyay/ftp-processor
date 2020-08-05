@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8AWI5",
+      "entity_text" : "VAP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01500",
+      "entity_text" : "FFAT motif",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The sequence encoded by exon L is located adjacent to the FFAT motif, which binds to VAP, with the result that the binding affinity of protrudin-L for VAP is greater than that of protrudin-S.",
+  "reading_complete" : "2020-08-05T20:02:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:43Z",
+  "trigger" : "binds",
+  "evidence" : [ "FFAT motif, which binds to VAP" ],
+  "pmc_id" : "6766452",
+  "score" : 0
+}

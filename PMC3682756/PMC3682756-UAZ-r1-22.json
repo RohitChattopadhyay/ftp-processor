@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "ethanol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_M564" ],
+      "Cellular_component" : [ "uniprot:SL-0261" ],
+      "Organ" : [ "uberon:UBERON:0002043" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000850" ]
+    }
+  },
+  "verbose_text" : "The effects of ethanol in wild-type (WT, 75% C57J / BL6 and 25% 129S1/Sv) and congenic TAAR1 knockout (KO) mice were compared in tests of ethanol consumption (2-bottle choice [TBC]), motor impairment (loss of righting reflex [LORR]), locomotor activity and the ethanol clearance (blood ethanol levels [BEL]).",
+  "reading_complete" : "2020-08-05T20:04:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:01:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "ethanol levels" ],
+  "pmc_id" : "3682756",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q70CQ3",
+      "entity_text" : "Usp30",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01316",
+      "entity_text" : "Park",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We suggest that Usp30 activity is suppressed by the increased levels of Park and Mul1, which restore the correct mitophagy.",
+  "reading_complete" : "2020-08-05T20:30:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:29:43Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "Usp30 activity is suppressed by the increased levels of Park" ],
+  "pmc_id" : "6382686",
+  "score" : 0
+}

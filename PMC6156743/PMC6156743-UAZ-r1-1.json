@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Organ" : [ "uberon:UBERON:0006442" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Laboratory work-up revealed a white blood cell count of 13000 with 84% neutrophils, positive C - reactive protein (CRP) value but no other abnormalities in the hepatic enzymes or bilirubin levels.",
+  "reading_complete" : "2020-08-05T20:35:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:33:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "6156743",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:161500",
+      "entity_text" : "air",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0022277" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is of importance not to press deeply with the ultrasound probe as this can shift small amount of free air away from the US field.",
+  "reading_complete" : "2020-08-05T20:05:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:02:39Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of free air" ],
+  "pmc_id" : "4788656",
+  "score" : 0
+}

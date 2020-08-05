@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481005",
+      "entity_text" : "8-oxo-dGTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1092" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR The apparent Km of this enzyme for hydrolysis of 8-oxo-dGTP was 70 times lower than that for the degradation of dGTP, whereas the maximal reaction rates observed with both substrates were similar.",
+  "reading_complete" : "2020-08-05T19:58:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:52:08Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of 8-oxo-dGTP" ],
+  "pmc_id" : "4338819",
+  "score" : 0
+}

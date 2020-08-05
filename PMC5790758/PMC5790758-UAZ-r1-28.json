@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99707",
+      "entity_text" : "ms",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01290",
+      "entity_text" : "Phosphonegative-CAST",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 45,
+        "feature_type" : "mutation",
+        "evidence" : "S45A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Phosphonegative-CAST S45A decreased the paired-EPSP depression (< 200 ms), XREF_BIBR, XREF_BIBR) suggesting that phosphorylated CAST S45 down-regulates SV reloading shortly after an AP, but not over longer (200 ms) time courses.",
+  "reading_complete" : "2020-08-05T19:40:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:53Z",
+  "trigger" : "decreased",
+  "evidence" : [ "Phosphonegative-CAST S45A  decreased the paired-EPSP depression (<200 ms" ],
+  "pmc_id" : "5790758",
+  "score" : 0
+}

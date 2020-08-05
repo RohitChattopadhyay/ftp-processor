@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15075",
+      "entity_text" : "EEA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Three-dimensional structural analysis of the FYVE domains of Vps27p or EEA1 bound to PI (3) P has revealed that the negatively charged 3-phosphate group of PI (3) P interacts tightly with positively charged amino acids in the (R/K) (R/K) HHCR motif of the FYVE domain.",
+  "reading_complete" : "2020-08-05T20:02:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:43Z",
+  "trigger" : "bound",
+  "evidence" : [ "EEA1 bound to PI" ],
+  "pmc_id" : "6766452",
+  "score" : 0
+}

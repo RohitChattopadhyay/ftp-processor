@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01497",
+      "entity_text" : "Rab11-GDP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0786" ],
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "This NGF induced ERK activation results in the phosphorylation of protrudin, which in turn promotes its interaction with the inactive, GDP bound form of Rab11 (Rab11-GDP).",
+  "reading_complete" : "2020-08-05T20:02:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:43Z",
+  "trigger" : "bound",
+  "evidence" : [ "GDP-bound form of Rab11 (Rab11-GDP" ],
+  "pmc_id" : "6766452",
+  "score" : 0
+}

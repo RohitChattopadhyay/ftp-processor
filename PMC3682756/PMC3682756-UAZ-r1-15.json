@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "ethanol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10836",
+      "entity_text" : "methamphetamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Notably, this includes amphetamine like psychostimulants such as methamphetamine, which directly binds to the receptor, as well as ethanol, which may indirectly alter TAAR1 signaling via its ability to affect levels of endogenous TAAR1 agonists (eg, dopamine, but also trace amines).",
+  "reading_complete" : "2020-08-05T20:04:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:01:08Z",
+  "trigger" : "binds",
+  "evidence" : [ "methamphetamine, which directly binds to the receptor, as well as ethanol" ],
+  "pmc_id" : "3682756",
+  "score" : 0
+}

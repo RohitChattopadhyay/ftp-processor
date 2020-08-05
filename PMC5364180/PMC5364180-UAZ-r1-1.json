@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441203",
+      "entity_text" : "cisplatin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "glutathione",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Studies have shown that a low protein diet resulting in a reduced cochlear glutathione level increased cisplatin induced ototoxicity and N-acetylcysteine (NAC), a precursor of glutathione, attenuated hearing loss in a number of animal models.",
+  "reading_complete" : "2020-08-05T20:23:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:21:50Z",
+  "trigger" : "increased",
+  "evidence" : [ "glutathione level increased cisplatin" ],
+  "pmc_id" : "5364180",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51805",
+      "entity_text" : "sex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "MMI has shown increased survival, reduced respiratory infections and improved nutrition and functional status in older people with swallowing dysfunction.7 We found no significant association between mortality and age, sex, mild cognition impairments or multimorbidity.",
+  "reading_complete" : "2020-08-05T20:19:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:18:40Z",
+  "trigger" : "association",
+  "evidence" : [ "association between mortality and age, sex" ],
+  "pmc_id" : "6899490",
+  "score" : 0
+}

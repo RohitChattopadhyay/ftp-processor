@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01254",
+      "entity_text" : "epidermal growth\nfactor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833565",
+      "entity_text" : "heparin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Recent study suggest that mitogen activated protein kinase / extracellular signal regulated kinase 1/2 (MEK/ERK1/2) and PI3K / Akt are both activated by heparin binding epidermal growth factor like growth factor and enhance restitution during intestinal IR XREF_BIBR.",
+  "reading_complete" : "2020-08-05T20:11:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:10:27Z",
+  "trigger" : "binding",
+  "evidence" : [ "heparin-binding epidermal growth\nfactor" ],
+  "pmc_id" : "6585923",
+  "score" : 0
+}

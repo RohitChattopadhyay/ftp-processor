@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0712" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0002606" ]
+    }
+  },
+  "verbose_text" : "Lee et al. have reported that a high level of ROS in human cells affects the activity of eIF2alpha translation factor.",
+  "reading_complete" : "2020-08-05T20:30:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:29:43Z",
+  "trigger" : "level",
+  "evidence" : [ "level of ROS" ],
+  "pmc_id" : "6382686",
+  "score" : 0
+}

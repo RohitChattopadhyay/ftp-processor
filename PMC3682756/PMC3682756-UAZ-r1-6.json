@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q64755",
+      "entity_text" : "CPP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23253564",
+      "entity_text" : "morphine",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "XREF_BIBR Notably though, both genotypes display similar levels of morphine induced CPP.",
+  "reading_complete" : "2020-08-05T20:04:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:01:08Z",
+  "trigger" : "induced",
+  "evidence" : [ "morphine-induced CPP" ],
+  "pmc_id" : "3682756",
+  "score" : 0
+}

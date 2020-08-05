@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C716" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Organ" : [ "uberon:UBERON:3010394" ]
+    }
+  },
+  "verbose_text" : "Postoperative period was uneventful with normal calcium levels (8.6 mg/dl).",
+  "reading_complete" : "2020-08-05T20:02:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "calcium levels" ],
+  "pmc_id" : "7330161",
+  "score" : 0
+}

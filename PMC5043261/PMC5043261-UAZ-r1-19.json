@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0043197" ],
+      "Organ" : [ "uberon:UBERON:0000120" ]
+    }
+  },
+  "verbose_text" : "Castro et al. demonstrated reduced IGF-1 levels in MeCP2 mutant mice, with subsequent daily administration of IGF-1 resulting in an improved lifespan, weight and autonomic parameters in the knockout mice.",
+  "reading_complete" : "2020-08-05T20:01:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "IGF-1 levels" ],
+  "pmc_id" : "5043261",
+  "score" : 0
+}

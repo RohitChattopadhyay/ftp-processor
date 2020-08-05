@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cytochrome c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "2 The third theory describes the Bcl-2 proteins modulating the mitochondrial proteins resulting in the formation of a permeability transition pore and loss of membrane potential, organelle swelling, and loss of cytochrome c from the pore.",
+  "reading_complete" : "2020-08-05T20:17:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:15:58Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of cytochrome c" ],
+  "pmc_id" : "7169302",
+  "score" : 0
+}

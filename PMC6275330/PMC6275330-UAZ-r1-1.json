@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8WXH0",
+      "entity_text" : "nesprin-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UH99",
+      "entity_text" : "SUN2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR) This rearward nuclear migration in the polarizing cells is driven by a retrograde flow of actin that directly associates with the SUN2 / nesprin-2 complex at the nuclear envelope, forming structures called transmembrane actin associated nuclear (TAN) lines).",
+  "reading_complete" : "2020-08-05T19:52:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:49:51Z",
+  "trigger" : "complex",
+  "evidence" : [ "SUN2/nesprin-2 complex" ],
+  "pmc_id" : "6275330",
+  "score" : 0
+}

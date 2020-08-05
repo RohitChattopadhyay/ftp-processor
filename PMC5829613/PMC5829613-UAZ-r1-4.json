@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01514",
+      "entity_text" : "Sm/RNP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11274",
+      "entity_text" : "BCR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0068" ]
+    }
+  },
+  "verbose_text" : "Because CD72 inhibits BCR ligation only when BCR is ligated by Sm/RNP, polyclonal BCR signaling induced by anti-IgM does not appear to be regulated by CD72.",
+  "reading_complete" : "2020-08-05T20:04:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:02:10Z",
+  "trigger" : "ligated",
+  "evidence" : [ "BCR is ligated by Sm/RNP" ],
+  "pmc_id" : "5829613",
+  "score" : 0
+}

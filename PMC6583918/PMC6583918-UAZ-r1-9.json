@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0164" ],
+      "Cellular_component" : [ "go:GO:0070701" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000160" ]
+    }
+  },
+  "verbose_text" : "The reduction of content of both types of mucins is related with increased levels of ROS and with the worst of mucosal inflammation and epithelial damage XREF_BIBR - XREF_BIBR, XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-05T20:20:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:18:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ROS" ],
+  "pmc_id" : "6583918",
+  "score" : 0
+}
