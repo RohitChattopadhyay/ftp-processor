@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02333",
+      "entity_text" : "lysosomal morphology",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Indeed, endolysosomal system has been strongly implicated in the alpha-synuclein, and it has been shown that endogenous expression of mutant LRRK2 in neurons caused the disruption of lysosomal morphology as well as the increase of alpha-synuclein insolubility and release via its kinase activity.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "caused",
+  "evidence" : [ "LRRK2 in neurons caused the disruption of lysosomal morphology" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

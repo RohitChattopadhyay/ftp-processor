@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:764",
+      "entity_text" : "guanine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14966",
+      "entity_text" : "Rab29",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "A more recent study has shown that wild-type Rab29 poorly binds the nucleotide, is inefficiently prenylated, and is not bound to a guanine nucleotide dissociation inhibitor (GDI) in the cytosol.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "bound",
+  "evidence" : [ "Rab29 poorly binds the nucleotide, is inefficiently prenylated, and is not bound to a guanine" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

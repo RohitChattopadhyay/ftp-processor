@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 2019,
+        "feature_type" : "mutation",
+        "evidence" : "G2019S"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000129" ]
+    }
+  },
+  "verbose_text" : "In vitro studies have shown that the overexpression of G2019S LRRK2 in SH-SY5Y cells caused a marked increase in the LC3 positive autophagic vacuoles, and the expression of LRRK2 in HEK293 cells also caused a similar increase in autophagosome formation.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of G2019S LRRK2" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

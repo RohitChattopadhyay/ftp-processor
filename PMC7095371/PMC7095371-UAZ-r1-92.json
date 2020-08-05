@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51149",
+      "entity_text" : "Rab7",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Regarding the endocytosis pathway, XREF_BIBR have shown that the overexpression of pathogenic mutant LRRK2 delays endosomal trafficking of the epidermal growth factor receptor (EGFR) by decreasing Rab7 activity mediated late endosomal budding.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of pathogenic mutant LRRK2 delays endosomal trafficking of the epidermal growth factor receptor (EGFR) by decreasing Rab7" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}

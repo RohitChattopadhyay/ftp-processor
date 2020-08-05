@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52594",
+      "entity_text" : "Rab",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "CellType" : [ "cl:CL:0000451" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It is easy to speculate that the phosphorylation of substrate Rab mediates the endolysosomal membrane trafficking downstream of LRRK2, and it would be feasible to assess the contribution of each Rab GTPase.",
+  "reading_complete" : "2020-08-05T22:03:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:01:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of substrate Rab" ],
+  "pmc_id" : "7095371",
+  "score" : 0
+}
