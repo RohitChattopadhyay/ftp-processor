@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2733526",
+      "entity_text" : "tamoxifen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "estrogen receptor",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Siwutang reversed the anti-proliferative effects of tamoxifen and increased levels of estrogen receptor alpha and N-cadherin.",
+  "reading_complete" : "2020-08-05T22:20:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:15:34Z",
+  "trigger" : "increased",
+  "evidence" : [ "tamoxifen and increased levels of estrogen receptor" ],
+  "pmc_id" : "5425653",
+  "score" : 0
+}

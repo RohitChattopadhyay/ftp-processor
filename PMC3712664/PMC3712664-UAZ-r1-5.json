@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:923",
+      "entity_text" : "sodium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0445" ]
+    }
+  },
+  "verbose_text" : "Attributing mortality risk to a particular level of serum sodium can be challenging and should be considered in the context of the individual patient.",
+  "reading_complete" : "2020-08-05T22:21:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:19:27Z",
+  "trigger" : "level",
+  "evidence" : [ "level of serum sodium" ],
+  "pmc_id" : "3712664",
+  "score" : 0
+}

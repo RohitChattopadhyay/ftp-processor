@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12252",
+      "entity_text" : "side",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477739",
+      "entity_text" : "vasopressin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0794" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Organ" : [ "uberon:UBERON:0001232" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There, binding of vasopressin on the basolateral side of the principal cell activates a G s -coupled protein which, in turn, activates adenylyl cyclase, increasing cyclic adenosine monophosphate concentrations.",
+  "reading_complete" : "2020-08-05T22:21:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:19:27Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of vasopressin on the basolateral side" ],
+  "pmc_id" : "3712664",
+  "score" : 0
+}
