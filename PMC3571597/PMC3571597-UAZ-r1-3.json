@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "The observed difference in the average plasma level of cholesterol had statistical significance between the two groups (P equal to 0.001), but no significant difference was found in other parameters of lipid profile (TG, HDL) as well as MDA.",
+  "reading_complete" : "2020-08-05T22:25:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:24:59Z",
+  "trigger" : "level",
+  "evidence" : [ "level of cholesterol" ],
+  "pmc_id" : "3571597",
+  "score" : 0
+}
