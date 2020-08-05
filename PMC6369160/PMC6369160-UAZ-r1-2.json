@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17735",
+      "entity_text" : "Tat",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that HIV-1 Tat promoted phosphorylation of JNK but had no influence on the total expression of JNK and that it facilitated dephosphorylation of FOXO3 (XREF_FIG).",
+  "reading_complete" : "2020-08-05T22:14:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:12:43Z",
+  "trigger" : "promoted",
+  "evidence" : [ "Tat promoted phosphorylation of JNK" ],
+  "pmc_id" : "6369160",
+  "score" : 0
+}
