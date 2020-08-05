@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01316",
+      "entity_text" : "park",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It has been reported that oxidative stress is associated with behavioral disorders in mice and we demonstrated that the mul1 or park overexpression in neurons can restore the normal level of apoptosis and increase autophagy and endogenous antioxidant enzyme levels.",
+  "reading_complete" : "2020-08-05T20:30:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:29:43Z",
+  "trigger" : "restore",
+  "evidence" : [ "park overexpression in neurons can restore the normal level of apoptosis" ],
+  "pmc_id" : "6382686",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01316",
+      "entity_text" : "park",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of mul1 or park in neurons of flies fed with rotenone, reversed this result and increased climbing by up to 70 and 60% in elav> mul1 and elav> park, respectively, compared with the control strains (elav-Gal4 and UAS-mul1 for elav> mul1 and elav-Gal4 and UAS-park for elav> park) (p < 0.001).",
+  "reading_complete" : "2020-08-05T20:30:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:29:43Z",
+  "trigger" : "reversed",
+  "evidence" : [ "park in neurons of flies fed with rotenone, reversed this result" ],
+  "pmc_id" : "6382686",
+  "score" : 0
+}
