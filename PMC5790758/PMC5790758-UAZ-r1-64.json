@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7020159",
+      "entity_text" : "SV",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01296",
+      "entity_text" : "phosphomimetic-CAST",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 45,
+        "feature_type" : "mutation",
+        "evidence" : "S45D"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, phosphomimetic-CAST S45D expression reduced the peak amplitude and the integral of the EPSP by about half, and reduced SV numbers in the RRP.",
+  "reading_complete" : "2020-08-05T19:40:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:53Z",
+  "trigger" : "reduced",
+  "evidence" : [ "phosphomimetic-CAST S45D  expression reduced the peak amplitude and the integral of the EPSP by about half                   , and reduced SV" ],
+  "pmc_id" : "5790758",
+  "score" : 0
+}

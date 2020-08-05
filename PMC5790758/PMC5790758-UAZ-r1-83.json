@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Myosins are a large family of actin based cytoskeletal motors that use energy derived from ATP hydrolysis to generate movement and force.",
+  "reading_complete" : "2020-08-05T19:40:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:53Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "5790758",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60568",
+      "entity_text" : "IL-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Our patient underwent a bone marrow biopsy in which hemophagocytosis was observed, and the immunologic studies showed decreased NK activity and high levels of the soluble IL-2 receptor (CD25s), thereby meeting 8 of the Histiocyte Society criteria (XREF_TABLE).",
+  "reading_complete" : "2020-08-05T19:41:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:40:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the soluble IL-2" ],
+  "pmc_id" : "7129636",
+  "score" : 0
+}

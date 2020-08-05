@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05739",
+      "entity_text" : "SNARE",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CAMK2_complex",
+      "entity_text" : "CaMKII",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In collaboration with Masamichi Igarashi at Niigata University, Japan, and Yoshimi Takai at Kobe University, Japan, I also showed in 2002 and 2005 that Ca 2+ / ATP dependent CaMKII binding to a SNARE protein, and phosphorylation of a protein that binds to the SNARE complex, upregulate transmitter release efficacy.",
+  "reading_complete" : "2020-08-05T19:40:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:53Z",
+  "trigger" : "binding",
+  "evidence" : [ "CaMKII binding to a SNARE" ],
+  "pmc_id" : "5790758",
+  "score" : 0
+}

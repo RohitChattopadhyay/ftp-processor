@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S45",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15446",
+      "entity_text" : "CAST",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Thus, CAST S45 phosphorylation decreases the RRP size by slowing down SV reloading during and after intense synaptic activity.",
+  "reading_complete" : "2020-08-05T19:40:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:53Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "CAST S45  phosphorylation" ],
+  "pmc_id" : "5790758",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S45",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15446",
+      "entity_text" : "CAST",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Thus, phosphorylation of CAST S45 negatively controls the RRP reloading within 200 ms of an AP firing.",
+  "reading_complete" : "2020-08-05T19:40:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:53Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of CAST S45" ],
+  "pmc_id" : "5790758",
+  "score" : 0
+}

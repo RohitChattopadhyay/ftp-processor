@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15446",
+      "entity_text" : "CAST",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Indeed, CAST overexpression prolonged the EPSP duration and increased the integral by 1.7-fold, because of an increase in the number of SVs in the RRP, XREF_BIBR) whereas the EPSP peak amplitude was unchanged.",
+  "reading_complete" : "2020-08-05T19:40:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:30:53Z",
+  "trigger" : "prolonged",
+  "evidence" : [ "CAST overexpression prolonged the EPSP duration" ],
+  "pmc_id" : "5790758",
+  "score" : 0
+}

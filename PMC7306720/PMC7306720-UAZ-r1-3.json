@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01019",
+      "entity_text" : "angiotensin II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0018229" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR As stated above, COVID-19 infection favors an imbalance in the renin-angiotensin-aldosterone axis which could be related to ACE-2 inhibition by the virus and due to presenting with elevated angiotensin II levels, which favors generation of secondary peptides with vasoconstrictor, proinflammatory, and sodium retaining effects.",
+  "reading_complete" : "2020-08-05T19:37:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:37:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "angiotensin II levels" ],
+  "pmc_id" : "7306720",
+  "score" : 0
+}
