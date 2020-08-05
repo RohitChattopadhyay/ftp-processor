@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75907",
+      "entity_text" : "DGAT1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Similarly, loss of acyl-CoA :d iacylglycerol acyltransferase 1 (DGAT1), one of two DGAT enzymes that catalyze the final acylation step in TAG synthesis, in milk secreting mammary epithelial cells impairs their functional differentiation and CLD accumulation, and inhibits milk secretion in mice.",
+  "reading_complete" : "2020-08-05T21:06:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:05:29Z",
+  "trigger" : "impairs",
+  "evidence" : [ "DGAT1), one of two DGAT enzymes that catalyze the final acylation step in TAG synthesis              , in milk-secreting mammary epithelial cells impairs their functional differentiation" ],
+  "pmc_id" : "7105144",
+  "score" : 0
+}

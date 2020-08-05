@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:C0NF00",
+      "entity_text" : "Mdm12",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF10296",
+      "entity_text" : "Mmm1",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Recently, it was shown that the Mmm1 - Mdm12 complex can mediate phospholipid transfer in vitro and that mutations in MMM1 or MDM12 lead to impaired phospholipid transfer through the ERMES complex in vivo.",
+  "reading_complete" : "2020-08-05T21:09:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:06:55Z",
+  "trigger" : "complex",
+  "evidence" : [ "Mmm1-Mdm12 complex" ],
+  "pmc_id" : "6441334",
+  "score" : 0
+}
