@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16455",
+      "entity_text" : "MGMT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0022" ],
+      "TissueType" : [ "tissuelist:TS-0971" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Even though LA plays an active role in silencing MGMT, U87-MG is typically thought to not have MGMT hypomethylation, so an ROS mediated action is plausible [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T18:43:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:36:03Z",
+  "trigger" : "hypomethylation",
+  "evidence" : [ "MGMT hypomethylation" ],
+  "pmc_id" : "6023526",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin",
+      "entity_text" : "troponin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "No correlation between the QB rate and cardiac troponin levels was observed in previous studies [XREF_BIBR, XREF_BIBR], although one study showed a positive weak correlation [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T18:45:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:41:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "troponin levels" ],
+  "pmc_id" : "4769722",
+  "score" : 0
+}
