@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04406",
+      "entity_text" : "GAPDH",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9720" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0454" ]
+    }
+  },
+  "verbose_text" : "9Calculate gene expression levels using the DeltaDeltaCt method and normalize to the endogenous GAPDH expression.",
+  "reading_complete" : "2020-08-05T18:31:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:22:03Z",
+  "trigger" : "expression",
+  "evidence" : [ "GAPDH expression" ],
+  "pmc_id" : "7162336",
+  "score" : 0
+}
