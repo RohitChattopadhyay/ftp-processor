@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1021" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Notably, group L exhibited a higher amount of collagen than group ML; from this, it is possible to infer that the association between the norbixin based PHB membrane and LED therapy did not produce a quality tendon repair.",
+  "reading_complete" : "2020-08-05T18:36:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:35:53Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of collagen" ],
+  "pmc_id" : "7357841",
+  "score" : 0
+}

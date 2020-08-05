@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Devlin et al. XREF_BIBR studied the effects of caloric restriction on bone tissue and found an unbalanced bone turnover (decreased formation and increased resorption) and lower levels of insulin growth factor and leptin, leading to detrimental changes in both trabecular and cortical microstructure, thus decreasing mechanical strength.",
+  "reading_complete" : "2020-08-05T18:35:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:34:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of insulin" ],
+  "pmc_id" : "6585920",
+  "score" : 0
+}

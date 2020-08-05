@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:COL1",
+      "entity_text" : "type I collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In the ML group, the results showed that in the first two weeks the amount of type I collagen increased and type III decreased, while in the third week there was a decrease in type I collagen and an increase in type III collagen.",
+  "reading_complete" : "2020-08-05T18:36:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:35:53Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of type I collagen" ],
+  "pmc_id" : "7357841",
+  "score" : 0
+}
