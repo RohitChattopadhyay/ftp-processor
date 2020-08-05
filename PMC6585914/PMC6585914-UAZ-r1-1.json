@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1061",
+      "entity_text" : "phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Cellular_component" : [ "uaz:UAZ00435" ]
+    }
+  },
+  "verbose_text" : "This collagenous matrix gains a rigid structure, derived from the betaglycerophosphate added to the culture to provide phosphate which is subsequently hydrolyzed by alkaline phosphatase to proceed to matrix mineralization XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-05T18:50:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:49:56Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "phosphate which is subsequently\nhydrolyzed" ],
+  "pmc_id" : "6585914",
+  "score" : 0
+}

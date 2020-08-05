@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hydrogen peroxide itself elevates the metabolism and facilitates the differentiation of osteoclasts, which produce large numbers of reactive oxygen species that in smaller amounts stimulate cell growth.",
+  "reading_complete" : "2020-08-05T18:50:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:49:56Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "oxygen\nspecies that in smaller amounts stimulate cell growth" ],
+  "pmc_id" : "6585914",
+  "score" : 0
+}
