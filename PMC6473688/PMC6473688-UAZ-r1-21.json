@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The NuRD complex plays a role in maintaining chromatin conformation, which it achieves through the deacetylation of histone proteins [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T18:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:49:03Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "deacetylation of histone" ],
+  "pmc_id" : "6473688",
+  "score" : 0
+}

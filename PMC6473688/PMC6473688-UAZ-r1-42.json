@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08183",
+      "entity_text" : "MDR1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, in a study in acute lymphoblastic leukemia [XREF_BIBR] that looked at the possible effect of resveratrol on the methylation of MDR1 (multidrug resistance gene 1), no evidence of the differential DNA methylation of MDR1 promoter by resveratrol was found.",
+  "reading_complete" : "2020-08-05T18:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:49:03Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of MDR1" ],
+  "pmc_id" : "6473688",
+  "score" : 0
+}

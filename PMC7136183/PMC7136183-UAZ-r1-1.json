@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Diabetes mellitus was defined as fasting blood glucose level> = 7.0 mmol/L or self reported history of diabetes mellitus, taking anti-glycemic agents, or undergoing insulin therapy.",
+  "reading_complete" : "2020-08-05T18:56:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:52:56Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "7136183",
+  "score" : 0
+}

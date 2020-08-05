@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone_H3",
+      "entity_text" : "H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445154",
+      "entity_text" : "resveratrol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As further evidence of the effect of resveratrol on acetylation in breast cancer, in MCF-7 breast cancer cells, resveratrol has been shown to induce H3 acetylation [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T18:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:49:03Z",
+  "trigger" : "induce",
+  "evidence" : [ "resveratrol has been shown to induce H3 acetylation" ],
+  "pmc_id" : "6473688",
+  "score" : 0
+}

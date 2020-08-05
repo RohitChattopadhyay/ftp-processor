@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10275",
+      "entity_text" : "AR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445154",
+      "entity_text" : "resveratrol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In a study that specifically looked at the regulation of AR signaling by resveratrol, it was observed that treatment with 10 muM resveratrol for just 3 h inhibited the acetylation of AR and affected the binding of AR to the enhancer region of prostate specific antigen (PSA) [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T18:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:49:03Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "resveratrol for just 3 h inhibited the acetylation of AR" ],
+  "pmc_id" : "6473688",
+  "score" : 0
+}
