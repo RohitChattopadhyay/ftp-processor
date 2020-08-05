@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003939",
+      "entity_text" : "TGFbeta1",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_M435" ],
+      "Organ" : [ "uberon:UBERON:0001366" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Taken together, between the two PDFs, there are outspoken differences in levels of TGFbeta1, TNFalpha, INFgamma, and MIP-1beta suggesting that macrophages played a crucial role over other cell types in modulating the response of BLS on peritoneal fibrosis and angiogenesis.",
+  "reading_complete" : "2020-08-05T20:46:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:42:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TGFbeta1" ],
+  "pmc_id" : "5986835",
+  "score" : 0
+}
