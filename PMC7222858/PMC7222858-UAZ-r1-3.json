@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02787",
+      "entity_text" : "FcepsilonRI receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00066",
+      "entity_text" : "IgE",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0603" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000097" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The binding of antigen specific IgE to FcepsilonRI receptor on the surface of basophils and mast cells leads to the release of mediators such as histamine, platelet activating factor, cysteinyl leukotrienes, tryptase, and prostaglandins.",
+  "reading_complete" : "2020-08-05T21:44:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:39:43Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of antigen-specific IgE to FcepsilonRI receptor" ],
+  "pmc_id" : "7222858",
+  "score" : 0
+}
