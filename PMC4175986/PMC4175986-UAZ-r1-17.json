@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18146",
+      "entity_text" : "Egr-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10298" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "It is likely that the amount of Egr-1 may determine the destination of protein binding and the differential interaction may decide the fate of regulation.",
+  "reading_complete" : "2020-08-05T21:10:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:06:47Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Egr-1" ],
+  "pmc_id" : "4175986",
+  "score" : 0
+}
