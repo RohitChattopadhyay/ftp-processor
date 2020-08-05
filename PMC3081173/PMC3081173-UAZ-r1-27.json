@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q0ZGT2",
+      "entity_text" : "F-actin-binding protein",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "On the other hand, the intracellular domain of cadherins binds to beta-catenin, which in turn binds to an F-actin-binding protein alpha-catenin.",
+  "reading_complete" : "2020-08-05T18:48:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:45:59Z",
+  "trigger" : "binds",
+  "evidence" : [ "beta-catenin, which in turn binds to an F-actin-binding protein" ],
+  "pmc_id" : "3081173",
+  "score" : 0
+}

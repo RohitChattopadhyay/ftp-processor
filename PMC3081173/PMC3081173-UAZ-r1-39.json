@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12923",
+      "entity_text" : "PTPN13",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BY67",
+      "entity_text" : "Necl-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005576" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Necl-2, which is expressed in normal epithelial cells, interacts in cis with ErbB3 through their extracellular regions, and binds to a tyrosine phosphatase PTPN13 through its intracellular region.",
+  "reading_complete" : "2020-08-05T18:48:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:45:59Z",
+  "trigger" : "binds",
+  "evidence" : [ "Necl-2, which is expressed in normal epithelial cells, interacts in cis with ErbB3 through their extracellular regions, and binds to a tyrosine-phosphatase PTPN13" ],
+  "pmc_id" : "3081173",
+  "score" : 0
+}

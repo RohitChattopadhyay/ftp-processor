@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:20057331",
+      "entity_text" : "GD3",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:20057331",
+      "entity_text" : "GD3",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "O Acetylation of GD3 suppresses this pro apoptotic function of non acetylated GD3 and does not have the deleterious effects of GD3 on mitochondria membranes [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T18:45:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:29:52Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "GD3 suppresses this pro-apoptotic function of non-acetylated GD3" ],
+  "pmc_id" : "7120186",
+  "score" : 0
+}

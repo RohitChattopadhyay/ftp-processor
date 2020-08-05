@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445063",
+      "entity_text" : "sialic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002139" ]
+    }
+  },
+  "verbose_text" : "Whether sialic acid O acetylation has an effect on the binding capacity of Siglec proteins is still not unequivocally resolved.",
+  "reading_complete" : "2020-08-05T18:45:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:29:52Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "sialic acid O-acetylation" ],
+  "pmc_id" : "7120186",
+  "score" : 0
+}

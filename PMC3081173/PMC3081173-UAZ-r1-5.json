@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21860",
+      "entity_text" : "ErbB3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04626",
+      "entity_text" : "ErbB2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In normal epithelial cells, PTPN13 recruited to Necl-2 dephosphorylates the ErbB2 mediated phosphorylation of ErbB3, impairing the activation of Rac and Akt.",
+  "reading_complete" : "2020-08-05T18:48:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:45:59Z",
+  "trigger" : "mediated",
+  "evidence" : [ "ErbB2-mediated phosphorylation of ErbB3" ],
+  "pmc_id" : "3081173",
+  "score" : 0
+}

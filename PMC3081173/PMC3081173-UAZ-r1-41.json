@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NQS3",
+      "entity_text" : "nectin-3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92692",
+      "entity_text" : "nectin-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0003079" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000019" ]
+    }
+  },
+  "verbose_text" : "For instance, heterotypic interactions between nectin-2 and nectin-3 play important roles during spermatogenesis.",
+  "reading_complete" : "2020-08-05T18:48:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:45:59Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between nectin-2 and nectin-3" ],
+  "pmc_id" : "3081173",
+  "score" : 0
+}

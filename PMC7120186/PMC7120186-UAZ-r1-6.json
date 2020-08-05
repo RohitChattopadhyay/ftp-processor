@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "C9",
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01413",
+      "entity_text" : "C4",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Organ" : [ "uberon:UBERON:0014899" ]
+    }
+  },
+  "verbose_text" : "The identification of the disialo ganglioside 9-O-acetyl GD3, considered as an oncofetal marker, has been achieved using a lectin derived from the crab Cancer antennarius that recognizes sialic acids which are O acetylated at both C4 and C9 positions and have been shown to be a biomarker in human melanoma [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T18:45:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:29:52Z",
+  "trigger" : "acetylated",
+  "evidence" : [ "acetylated at both C4 and C9" ],
+  "pmc_id" : "7120186",
+  "score" : 0
+}
