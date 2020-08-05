@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "CLP and CLP+ PBS group had significantly increased levels of TNF-alpha, IL-1beta and IL-6, whereas treatment with rmMFG-E8 inhibited the overproduction of TNF-alpha, IL-1beta and IL-6 (TNF-alpha : 50.81 +/-0.7 vs. 149.4 +/-1.2, p < 0.01; IL-1beta : 150.64 +/-1.3 vs. 845.9 +/-16.89, p < 0.01; and IL-6 : 3505 +/- 29.96 vs. 2570 +/- 69.42, p < 0.01) (XREF_FIG).",
+  "reading_complete" : "2020-08-05T19:50:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:50:03Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "IL-1beta\nand IL-6, whereas treatment with rmMFG-E8 inhibited the overproduction of TNF-alpha,\nIL-1beta and IL-6 (TNF-alpha" ],
+  "pmc_id" : "6585916",
+  "score" : 0
+}

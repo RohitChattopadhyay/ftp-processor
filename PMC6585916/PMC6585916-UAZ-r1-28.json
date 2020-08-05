@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27482",
+      "entity_text" : "CLP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96D42",
+      "entity_text" : "KIM-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The results showed that urinary NGAL and KIM-1 levels were significantly elevated in the CLP and CLP + PBS groups; however, rmMFG-E8 significantly reduced urinary NGAL and KIM-1 levels (XREF_FIG C, D).",
+  "reading_complete" : "2020-08-05T19:50:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:50:03Z",
+  "trigger" : "elevated",
+  "evidence" : [ "KIM-1 levels were significantly\nelevated in the CLP and CLP" ],
+  "pmc_id" : "6585916",
+  "score" : 0
+}
