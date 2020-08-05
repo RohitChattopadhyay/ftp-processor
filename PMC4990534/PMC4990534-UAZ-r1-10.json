@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The dopamine overdose hypothesis explains the paradoxical effects of dopaminergic therapy on cognition in PD patients as owing to the varying endogenous levels of dopamine in the SN innervated DS compared to VTA innervated brain regions.",
+  "reading_complete" : "2020-08-05T19:20:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:17:44Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of dopamine" ],
+  "pmc_id" : "4990534",
+  "score" : 0
+}
