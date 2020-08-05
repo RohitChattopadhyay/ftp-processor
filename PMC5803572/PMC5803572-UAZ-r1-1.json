@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ]
+    }
+  },
+  "verbose_text" : "35 Jones et al. 28 reported that only 1 out of 25 patients with VOD with a serum bilirubin level higher than 15 mg/dL survived.",
+  "reading_complete" : "2020-08-05T21:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:30:43Z",
+  "trigger" : "level",
+  "evidence" : [ "bilirubin level" ],
+  "pmc_id" : "5803572",
+  "score" : 0
+}
