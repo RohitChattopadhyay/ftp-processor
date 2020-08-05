@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "uniprot:SL-0027" ],
+      "Species" : [ "taxonomy:3747" ]
+    }
+  },
+  "verbose_text" : "The mechanism of this antiplatelet activity is still not fully understood, but is correlated with increased intracellular cAMP levels [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-05T21:15:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:08:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "cAMP levels" ],
+  "pmc_id" : "5750604",
+  "score" : 0
+}
