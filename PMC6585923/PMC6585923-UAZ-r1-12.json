@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4943",
+      "entity_text" : "propofol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "p-Akt",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "When animals were given propofol at the onset of reperfusion, the expression of p-Akt was markedly increased in the P group (P < 0.05).",
+  "reading_complete" : "2020-08-05T20:11:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:10:27Z",
+  "trigger" : "increased",
+  "evidence" : [ "propofol at the onset\nof reperfusion, the expression of p-Akt was markedly increased" ],
+  "pmc_id" : "6585923",
+  "score" : 0
+}

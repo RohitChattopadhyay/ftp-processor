@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4943",
+      "entity_text" : "Propofol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Propofol promotes the phosphorylation of PI3K / Akt signaling after II/R injury.",
+  "reading_complete" : "2020-08-05T20:11:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:10:27Z",
+  "trigger" : "promotes",
+  "evidence" : [ "Propofol promotes the phosphorylation of PI3K/Akt" ],
+  "pmc_id" : "6585923",
+  "score" : 0
+}
