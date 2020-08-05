@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16236",
+      "entity_text" : "Nrf2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "However, ATRA is an inhibitor of transcription factor Nrf2 by interfering with recruitment of Nrf2 to the ARE, whereas nuclear levels of Nrf2 are not affected by ATRA 10.",
+  "reading_complete" : "2020-08-05T19:01:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:00:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Nrf2" ],
+  "pmc_id" : "7106780",
+  "score" : 0
+}

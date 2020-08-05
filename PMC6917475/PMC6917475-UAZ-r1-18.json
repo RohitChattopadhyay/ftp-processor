@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "A previous study showed that testis I/R injury could produce large amount of ROS and inflammatory factors and enhance the spermatogenic cells apoptosis, leading to infertility XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-05T19:02:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:02:04Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ROS" ],
+  "pmc_id" : "6917475",
+  "score" : 0
+}
