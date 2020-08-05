@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The LPS / D-GalN group had significantly increased levels of TNF-alpha, IL-1beta, IL-10, and IL-6, whereas Gas6 inhibited the overproduction of these inflammatory cytokines (XREF_FIG, p < 0.01).",
+  "reading_complete" : "2020-08-05T18:27:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:26:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha, IL-1beta, IL-10" ],
+  "pmc_id" : "7158606",
+  "score" : 0
+}

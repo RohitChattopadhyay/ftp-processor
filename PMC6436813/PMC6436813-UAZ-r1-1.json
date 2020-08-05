@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:597",
+      "entity_text" : "cytosine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104748",
+      "entity_text" : "bisulfite",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Before nanopore detection, a uracil is converted from unmethylated cytosine by bisulfite treatment.",
+  "reading_complete" : "2020-08-05T18:25:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:17:59Z",
+  "evidence" : [ "unmethylated cytosine by bisulfite" ],
+  "pmc_id" : "6436813",
+  "score" : 0
+}
