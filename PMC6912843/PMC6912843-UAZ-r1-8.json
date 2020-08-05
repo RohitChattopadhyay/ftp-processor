@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Curiously, infliximab at a dose of 5 mg/kg achieves better histological results and produces higher reduction of the levels of TNF-alpha than at a dose of 10 mg/kg with higher reduction of tissue lipid peroxidation than at a dose of 15 mg/kg XREF_BIBR.",
+  "reading_complete" : "2020-08-05T19:16:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:15:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "6912843",
+  "score" : 0
+}

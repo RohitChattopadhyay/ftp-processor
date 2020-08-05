@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007165",
+      "entity_text" : "signal transduction",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43541",
+      "entity_text" : "Smad6",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Smad6 cannot be phosphorylated by type I receptor and can inhibit the signal transduction XREF_BIBR.",
+  "reading_complete" : "2020-08-05T19:17:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:16:22Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "Smad6 cannot be phosphorylated by type\nI receptor and can inhibit the signal transduction" ],
+  "pmc_id" : "6585911",
+  "score" : 0
+}
