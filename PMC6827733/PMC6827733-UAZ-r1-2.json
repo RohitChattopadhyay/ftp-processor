@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40225",
+      "entity_text" : "mL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "Early in the case, several small blood vessels were transected and cauterized, resulting in minor bleeding with an estimated blood loss of 50 mL.",
+  "reading_complete" : "2020-08-05T18:36:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:36:12Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of 50 mL" ],
+  "pmc_id" : "6827733",
+  "score" : 0
+}
