@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75364",
+      "entity_text" : "PTX3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellType" : [ "cl:CL:0000451" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The amount of PTX3 that responds as an acute phase reactant is proportional to the severity of the damage 18.",
+  "reading_complete" : "2020-08-05T18:57:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:18Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of PTX3" ],
+  "pmc_id" : "7292621",
+  "score" : 0
+}

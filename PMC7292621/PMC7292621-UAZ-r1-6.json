@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "Vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Similarly, vitamin D deficient mice often manifest diarrhea, wasting disease, and subsequent death, while mice having sufficient levels (or more) of Vitamin D may not necessarily develop any Inflammatory Bowel Disease symptoms.",
+  "reading_complete" : "2020-08-05T18:57:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels (or more) of Vitamin D" ],
+  "pmc_id" : "7292621",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Organ" : [ "uberon:UBERON:0000363" ],
+      "CellType" : [ "cl:CL:0000048" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The significantly lower IL-6 levels observed in L-Ala-Gln group at T 30 suggests its protective against brain cell damage induced by cytokines and proinflammatory mediators released in association with microvascular injury.",
+  "reading_complete" : "2020-08-05T18:58:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:57:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-6 levels" ],
+  "pmc_id" : "7373374",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:4000142" ],
+      "CellType" : [ "cl:CL:0000775" ],
+      "Species" : [ "taxonomy:210" ]
+    }
+  },
+  "verbose_text" : "As serum level of CRP is normally less than 1 mg/dl, it can increase up to 35-40 mg/dl in response to infection or inflammation.",
+  "reading_complete" : "2020-08-05T18:55:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:54:31Z",
+  "trigger" : "level",
+  "evidence" : [ "level of CRP" ],
+  "pmc_id" : "6585886",
+  "score" : 0
+}

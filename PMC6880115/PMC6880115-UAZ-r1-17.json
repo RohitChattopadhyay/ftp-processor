@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:171548",
+      "entity_text" : "biotin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22629",
+      "entity_text" : "streptavidin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The assessment was done using standard streptavidin - biotin complex method on automated immunohistochemistry stainer (Dako Autostainer), reagents and buffers were used according to manufacturer guidelines (Dako, Denmark).",
+  "reading_complete" : "2020-08-05T18:59:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:11Z",
+  "trigger" : "complex",
+  "evidence" : [ "streptavidin-biotin complex" ],
+  "pmc_id" : "6880115",
+  "score" : 0
+}
