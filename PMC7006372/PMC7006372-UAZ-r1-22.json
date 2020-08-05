@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00419",
+      "entity_text" : "TrkB receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "BDNF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0772" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "BDNF plays a neurotrophic role by binding to its specific high-affinity TrkB receptor 28.",
+  "reading_complete" : "2020-08-05T18:49:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:48:43Z",
+  "trigger" : "binding",
+  "evidence" : [ "BDNF plays a neurotrophic role by binding to its specific high-affinity TrkB receptor" ],
+  "pmc_id" : "7006372",
+  "score" : 0
+}
