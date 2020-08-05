@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04141",
+      "entity_text" : "CSF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54829",
+      "entity_text" : "step",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, a typical pre-processing step that includes a segmentation of brain parenchyma and CSF would produce a segmentation image with the following labels : Label0 : Skull and outside regions of the input image, Label1 : CSF regions, Label2 : Gray and white matter regions.",
+  "reading_complete" : "2020-08-05T18:56:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:52:26Z",
+  "trigger" : "produce",
+  "evidence" : [ "step that includes a segmentation of brain parenchyma and CSF would produce a segmentation image with the following labels:\nLabel0: Skull and outside regions of the input image,\n\nLabel1: CSF" ],
+  "pmc_id" : "5360759",
+  "score" : 0
+}
