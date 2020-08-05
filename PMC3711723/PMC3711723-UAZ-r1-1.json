@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:161500",
+      "entity_text" : "air",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0001" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If perforation is suspected, patients are usually subjected to abdominal MSCT, especially because ultrasonography is operator dependent, some patients are less cooperative, the exam is diffucult in obese patients and in those with subcutaneous emphysema; otherwise MSCT, expecially after six hours after symptoms begin, is useful to assess gastrointestinal perforation as it allows detection of even small amounts of free air in the abdomen [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T22:29:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:22:48Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of free air" ],
+  "pmc_id" : "3711723",
+  "score" : 0
+}

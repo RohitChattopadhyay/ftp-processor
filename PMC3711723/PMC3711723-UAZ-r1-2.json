@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:161500",
+      "entity_text" : "air",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Organ" : [ "uberon:UBERON:0001443" ]
+    }
+  },
+  "verbose_text" : "Although conventional radiography is a common method for detecting small amount of intraperitoneal free air [XREF_BIBR], imagers may not detect pneumoperitoneum or retroperitoneum in up to 49% of patients [XREF_BIBR]; in addition, many patients with acute abdominal pain cannot stand to have a chest radiograph, so decubitus abdominal x-ray is usually used [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T22:29:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:22:48Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of intraperitoneal free air" ],
+  "pmc_id" : "3711723",
+  "score" : 0
+}
