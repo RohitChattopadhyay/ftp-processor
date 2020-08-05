@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284359",
+      "entity_text" : "CaCl2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This ratio is the minimal amount of CaCl2 to neutralize the citrate and induces the platelet concentrate clotting.",
+  "reading_complete" : "2020-08-05T19:27:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:26:58Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of CaCl2" ],
+  "pmc_id" : "6612763",
+  "score" : 0
+}
