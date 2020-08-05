@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The mTOR signaling pathway is known to regulation of autophagy, and mTOR inhibition results in the autophagy stimulation [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:09:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:06:52Z",
+  "trigger" : "stimulation",
+  "evidence" : [ "mTOR inhibition results in the autophagy stimulation" ],
+  "pmc_id" : "5878207",
+  "score" : 0
+}

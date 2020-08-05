@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAP1LC3",
+      "entity_text" : "LC3",
+      "entity_type" : "family"
+    },
+    "to_location_text" : "membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0016020",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This degradation is mediated by interaction with LC3, which is recruited to the phagophore membrane and remains associated with the completed autophagosome [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:09:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:06:52Z",
+  "trigger" : "recruited",
+  "evidence" : [ "LC3, which is recruited to the phagophore membrane" ],
+  "pmc_id" : "5878207",
+  "score" : 0
+}

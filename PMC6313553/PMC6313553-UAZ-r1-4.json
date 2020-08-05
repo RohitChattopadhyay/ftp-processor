@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:187",
+      "entity_text" : "ACh",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043205" ],
+      "Organ" : [ "uberon:UBERON:0002743" ],
+      "CellType" : [ "cl:CL:0000108" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The treatments of AD have employed acetylcholinesterase inhibitors (tacrine, rivastigmine, galantamine, and donepezil) to overcome the decrease of the ACh levels as a result of the death of cholinergic neurons.",
+  "reading_complete" : "2020-08-05T20:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "ACh levels" ],
+  "pmc_id" : "6313553",
+  "score" : 0
+}

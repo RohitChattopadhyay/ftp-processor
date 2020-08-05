@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:148123",
+      "entity_text" : "docetaxel",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00583",
+      "entity_text" : "LC3-II",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that LC3-II expression decreased when PC3 cells had a treatment of docetaxel with pretreatment of SP600125 (10 muM, 30 min).",
+  "reading_complete" : "2020-08-05T20:09:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:06:52Z",
+  "trigger" : "decreased",
+  "evidence" : [ "LC3-II expression decreased when PC3 cells had a treatment of docetaxel" ],
+  "pmc_id" : "5878207",
+  "score" : 0
+}

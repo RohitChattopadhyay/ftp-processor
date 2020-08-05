@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:969516",
+      "entity_text" : "curcumin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_AV82" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0095" ]
+    }
+  },
+  "verbose_text" : "The pharmacokinetic studies, performed after intravenous (IV) administration of 4 mg/kg dose of curcumin in rats, have indicated that the amount of curcumin available in the brain was significantly higher for curcumin loaded NLCs (AUC 0-t = 505.76 ng/g h) as compared to free curcumin (AUC 0-t = 0.00 ng/g h) and curcumin loaded SLNs (AUC 0-t = 116.31 ng/g h) (P < 0.005) [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:45Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of curcumin" ],
+  "pmc_id" : "6313553",
+  "score" : 0
+}

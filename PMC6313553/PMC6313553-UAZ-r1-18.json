@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:681",
+      "entity_text" : "dopamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0990" ],
+      "Cellular_component" : [ "go:GO:0097413" ],
+      "CellType" : [ "cl:CL:0000700" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Treatments are symptomatic and aim at boosting the depleted levels of dopamine (XREF_TABLE).",
+  "reading_complete" : "2020-08-05T20:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:45Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of dopamine" ],
+  "pmc_id" : "6313553",
+  "score" : 0
+}

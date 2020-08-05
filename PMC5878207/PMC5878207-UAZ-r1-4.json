@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10415",
+      "entity_text" : "Bcl-2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:148123",
+      "entity_text" : "docetaxel",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We put forward question as follows : whether or not docetaxel induced JNK pathway activation mediated Bcl-2 phosphorylation, Bcl-2 dissociation from Beclin1 and then induced autophagy.",
+  "reading_complete" : "2020-08-05T20:09:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:06:52Z",
+  "trigger" : "mediated",
+  "evidence" : [ "docetaxel-induced JNK pathway activation mediated Bcl-2 phosphorylation" ],
+  "pmc_id" : "5878207",
+  "score" : 0
+}
