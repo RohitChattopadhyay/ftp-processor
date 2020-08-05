@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19320",
+      "entity_text" : "VCAM-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "uaz:CVCL_9S75" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Alternatively, HUVECs can be used, as they are known to express high levels of VCAM-1 after TNF-alpha treatment.",
+  "reading_complete" : "2020-08-05T18:46:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:40:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of VCAM-1" ],
+  "pmc_id" : "7154707",
+  "score" : 0
+}
