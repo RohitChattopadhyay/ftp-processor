@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "CG",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0002617" ]
+    }
+  },
+  "verbose_text" : "These include nonmethylated CG rich DNA sequences, which are common in the bacterial genome but not in the genome of vertebrates, where these motifs are usually methylated.",
+  "reading_complete" : "2020-08-05T22:03:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:59:36Z",
+  "trigger" : "nonmethylated",
+  "evidence" : [ "nonmethylated CG" ],
+  "pmc_id" : "4335088",
+  "score" : 0
+}
