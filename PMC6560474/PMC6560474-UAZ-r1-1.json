@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In general patients requiring DCS had higher lactate levels, and were more acidotic, hypotensive, tachycardic, and tachypneic, with a lower BE and lower bicarbonate, than patients not requiring DCS.",
+  "reading_complete" : "2020-08-05T18:57:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "lactate levels" ],
+  "pmc_id" : "6560474",
+  "score" : 0
+}

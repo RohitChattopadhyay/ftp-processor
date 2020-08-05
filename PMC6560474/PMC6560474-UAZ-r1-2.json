@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "pH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04278",
+      "entity_text" : "SBP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A final multiple logistic regression model combining the physiologic parameters, organ injury, and PATI score (XREF_TABLE) revealed a significant association between SBP, pH, PATI score, and liver injury, and the need for DCS.",
+  "reading_complete" : "2020-08-05T18:57:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:58Z",
+  "trigger" : "association",
+  "evidence" : [ "association between SBP, pH" ],
+  "pmc_id" : "6560474",
+  "score" : 0
+}

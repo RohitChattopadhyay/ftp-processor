@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0839" ],
+      "Organ" : [ "uberon:UBERON:0001585" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Use of these markers for volume assessment is based on the concept that the oxygen content of mixed venous blood returning from the body is dependent on the amount of oxygen delivered to tissues on the arterial side (as measured by arterial oxygen content and CO), as expressed in the Fick equation (assuming tissue oxygen consumption remains constant).",
+  "reading_complete" : "2020-08-05T18:56:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:08Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of oxygen" ],
+  "pmc_id" : "7066619",
+  "score" : 0
+}
