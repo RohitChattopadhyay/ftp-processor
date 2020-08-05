@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "As one may expect, we found that decreases in hemoglobin levels correlated significantly with the administration of blood products, yet such trends in hemoglobin are not readily apparent on hospital admission.",
+  "reading_complete" : "2020-08-05T18:41:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:40:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "hemoglobin levels" ],
+  "pmc_id" : "5887580",
+  "score" : 0
+}
