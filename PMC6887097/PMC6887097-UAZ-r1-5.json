@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9986" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0000583" ]
+    }
+  },
+  "verbose_text" : "De Smet et al. XREF_BIBR reported that hypercapnic acidosis significantly reduced the levels of TNF-alpha and IL-6 in the lavage and perfusate from unstimulated and lipopolysaccharide (LPS)-stimulated isolated perfused rat lung, indicating that hypercapnia had a protective effect by modulating inflammatory responses XREF_BIBR.",
+  "reading_complete" : "2020-08-05T18:43:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:42:32Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "6887097",
+  "score" : 0
+}

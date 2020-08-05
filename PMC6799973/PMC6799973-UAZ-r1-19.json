@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000096" ]
+    }
+  },
+  "verbose_text" : "We observed higher TNF-alpha level and MMP-9 mRNA relative expression value in the I/R and sevoflurane groups compared to the values in the sham group, indicating that the effects of sevoflurane on pulmonary injury may be related to the reduction of serum TNF-alpha and down-regulation of MMP-9 mRNA expression.",
+  "reading_complete" : "2020-08-05T18:39:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:39:23Z",
+  "trigger" : "level",
+  "evidence" : [ "TNF-alpha level" ],
+  "pmc_id" : "6799973",
+  "score" : 0
+}

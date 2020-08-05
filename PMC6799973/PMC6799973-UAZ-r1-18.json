@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q38424",
+      "entity_text" : "ALT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0030112" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000096" ]
+    }
+  },
+  "verbose_text" : "Presently, serum AST and ALT levels were higher in the sevoflurane group than in the sham group, but lower than in the I/R group, indicating that sevoflurane preconditioning relieves liver I/R injury.",
+  "reading_complete" : "2020-08-05T18:39:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:39:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "ALT levels" ],
+  "pmc_id" : "6799973",
+  "score" : 0
+}

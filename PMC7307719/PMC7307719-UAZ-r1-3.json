@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Accordingly, plasma lactate level also reflects intestinal damage and protection from IP and damage.",
+  "reading_complete" : "2020-08-05T18:42:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:41:45Z",
+  "trigger" : "level",
+  "evidence" : [ "lactate level" ],
+  "pmc_id" : "7307719",
+  "score" : 0
+}

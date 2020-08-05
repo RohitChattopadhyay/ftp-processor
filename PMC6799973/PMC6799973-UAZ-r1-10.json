@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000096" ]
+    }
+  },
+  "verbose_text" : "Although the mechanism remains unclear, the increase in MMP-9 activity may be related to the high level of TNF-alpha, indicating liver I/R injury and remote lung injury.",
+  "reading_complete" : "2020-08-05T18:39:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:39:23Z",
+  "trigger" : "level",
+  "evidence" : [ "level of TNF-alpha" ],
+  "pmc_id" : "6799973",
+  "score" : 0
+}

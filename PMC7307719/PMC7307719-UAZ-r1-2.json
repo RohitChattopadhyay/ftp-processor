@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05164",
+      "entity_text" : "myeloperoxidase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellLine" : [ "cellosaurus:CVCL_B285" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "23 used somatostatin as a cytoprotective agent in the rats in which they performed IR and stated that the drug reduced leukocyte infiltration and decreased the level of tissue myeloperoxidase in intestinal IR damage in rats given the drug.",
+  "reading_complete" : "2020-08-05T18:42:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:41:45Z",
+  "trigger" : "level",
+  "evidence" : [ "level of tissue myeloperoxidase" ],
+  "pmc_id" : "7307719",
+  "score" : 0
+}
