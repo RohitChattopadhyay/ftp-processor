@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0427" ],
+      "Organ" : [ "uberon:UBERON:0002005" ],
+      "CellType" : [ "cl:CL:0000577" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These cells release moderate levels of serotonin constitutively and large quantities in response to various relevant factors including decreased pH and mechanical pressure.",
+  "reading_complete" : "2020-08-05T18:59:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of serotonin" ],
+  "pmc_id" : "3608917",
+  "score" : 0
+}

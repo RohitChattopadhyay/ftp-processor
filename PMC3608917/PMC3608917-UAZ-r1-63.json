@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00410",
+      "entity_text" : "small GTPase molecules",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1172" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Serotonin in beta-cells has been reported to act intracellularly via a 5HTR independent mechanism, whereby serotonin directly binds to and activates small GTPase molecules to stimulate insulin secretion.",
+  "reading_complete" : "2020-08-05T18:59:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:46Z",
+  "trigger" : "binds",
+  "evidence" : [ "serotonin directly binds to and activates small GTPase molecules" ],
+  "pmc_id" : "3608917",
+  "score" : 0
+}

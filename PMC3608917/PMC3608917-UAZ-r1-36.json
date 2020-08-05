@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Organ" : [ "uberon:UBERON:0002385" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Conversely, peripheral serotonin also produced hyperinsulinemia, an action promoting reduction of glucose levels.",
+  "reading_complete" : "2020-08-05T18:59:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:56:46Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3608917",
+  "score" : 0
+}
