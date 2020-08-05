@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0980" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0000232" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Drowning in fresh water and entering a large amount of pool or river water into the lungs and stomach is much more dangerous than swallowing a lot of sea water.",
+  "reading_complete" : "2020-08-05T21:02:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:02:19Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of pool or river water" ],
+  "pmc_id" : "7036150",
+  "score" : 0
+}
