@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003966",
+      "entity_text" : "thrombin",
+      "entity_type" : "family"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pfam:PF00713",
+      "entity_text" : "Hirudin",
+      "entity_type" : "family"
+    }, {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003966",
+      "entity_text" : "thrombin",
+      "entity_type" : "family"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hirudin is a highly specific and potent inhibitor of thrombin; it can bind to thrombin and thereby inhibit thrombin signaling.",
+  "reading_complete" : "2020-08-05T19:09:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:08:46Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "it can bind to\nthrombin and thereby inhibit thrombin" ],
+  "pmc_id" : "6585924",
+  "score" : 0
+}

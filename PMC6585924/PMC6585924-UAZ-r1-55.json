@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003966",
+      "entity_text" : "thrombin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60674",
+      "entity_text" : "P-JAK2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Taken together, these data suggest that hirudin may suppress the expression of P-JAK2 by suppressing the thrombin signaling.",
+  "reading_complete" : "2020-08-05T19:09:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:08:46Z",
+  "trigger" : "suppressing",
+  "evidence" : [ "P-JAK2 by suppressing the thrombin" ],
+  "pmc_id" : "6585924",
+  "score" : 0
+}

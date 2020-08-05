@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "CellType" : [ "cl:CL:0009004" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "There was a significant decrease in the GSH level (103.5 +/-14.1 ng/mg protein) in the diabetes group (P < 0.01) as compared with the control group.",
+  "reading_complete" : "2020-08-05T19:05:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:04:41Z",
+  "trigger" : "level",
+  "evidence" : [ "GSH level" ],
+  "pmc_id" : "6585913",
+  "score" : 0
+}
