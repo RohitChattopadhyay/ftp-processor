@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2270" ],
+      "TissueType" : [ "tissuelist:TS-0723" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Basal and uncoupled oxygen consumptions were significantly lower in mutant cells, and this was accompanied by lesser cell ATP amount.",
+  "reading_complete" : "2020-08-05T19:48:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:46:47Z",
+  "trigger" : "amount",
+  "evidence" : [ "ATP amount" ],
+  "pmc_id" : "5811516",
+  "score" : 0
+}
