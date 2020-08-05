@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21462",
+      "entity_text" : "FPR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12270",
+      "entity_text" : "TPR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Then, TPR and FPR are calculated as : (10) TPR = TPTP+ FN (11) FPR = FPFP+ TNIn addition due to the inherent noisy and artifact-prone nature of EEG, the sigma index is exploited to further reduce the FPR by filtering alpha intrusions and Electromyography (EMG) interference.",
+  "reading_complete" : "2020-08-05T19:06:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:03:45Z",
+  "trigger" : "reduce",
+  "evidence" : [ "TPR=TPTP+FN(11)FPR=FPFP+TNIn addition due to the inherent noisy and artifact-prone nature of EEG, the sigma index                                              is exploited to further reduce the FPR" ],
+  "pmc_id" : "6882771",
+  "score" : 0
+}
