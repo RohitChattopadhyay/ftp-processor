@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54296",
+      "entity_text" : "M protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000786" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In this system, the clinical stage of disease (stage I, II, or III) is based on four measurements : levels of M protein, number of bone lesions, hemoglobin values, and serum calcium levels.",
+  "reading_complete" : "2020-08-05T22:29:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:25:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of M protein" ],
+  "pmc_id" : "3321668",
+  "score" : 0
+}

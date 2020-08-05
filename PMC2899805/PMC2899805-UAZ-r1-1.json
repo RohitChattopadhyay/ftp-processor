@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13639",
+      "entity_text" : "5-HT 4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0427" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Binding of serotonin to 5-HT 4 receptors stimulates peristalsis, modulates fluid content of the colonic content, and decreases visceral hypersensitivity.",
+  "reading_complete" : "2020-08-05T22:32:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:30:27Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of serotonin to 5-HT 4" ],
+  "pmc_id" : "2899805",
+  "score" : 0
+}
