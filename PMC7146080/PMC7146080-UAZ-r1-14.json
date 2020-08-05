@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01241",
+      "entity_text" : "growth hormone",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-1047" ]
+    }
+  },
+  "verbose_text" : "Given that growth hormone plays a crucial role in growth and development, we suspect that these alterations may be related to the influence of gossypol on the regulation of the somatotropic axis in mice, and the decreased levels of growth hormone.",
+  "reading_complete" : "2020-08-05T19:39:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:37:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of growth hormone" ],
+  "pmc_id" : "7146080",
+  "score" : 0
+}
