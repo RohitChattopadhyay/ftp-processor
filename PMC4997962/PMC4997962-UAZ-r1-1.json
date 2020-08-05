@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FOXO3a",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "FOXO3a activity is negatively regulated by Akt, which phosphorylates FOXO3a at multiple sites, leading to its transport out of \\ nthe nucleus and retention in the cytoplasm [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-05T22:13:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:10:24Z",
+  "evidence" : [ "Akt, which phosphorylates FOXO3a" ],
+  "pmc_id" : "4997962",
+  "score" : 0
+}

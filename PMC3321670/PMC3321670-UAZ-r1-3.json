@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06850",
+      "entity_text" : "corticotropin-releasing hormone",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Systemically active corticosteroids bind to glucocorticoid receptors in the hypothalamus and adrenal pituitary causing a decrease in the amount of corticotropin releasing hormone and adrenocorticotropic hormone leading to decreased cortisol secretion.",
+  "reading_complete" : "2020-08-05T22:13:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:09:43Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of corticotropin-releasing hormone" ],
+  "pmc_id" : "3321670",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FOXO3a",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The expression of FOXO3a was previously demonstrated to inhibit tumor development in xenograft models [XREF_BIBR, XREF_BIBR], and repression of FOXO3a expression enhanced tumor progression and angiogenesis [XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-05T22:13:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:10:24Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "FOXO3a expression enhanced tumor progression and angiogenesis" ],
+  "pmc_id" : "4997962",
+  "score" : 0
+}

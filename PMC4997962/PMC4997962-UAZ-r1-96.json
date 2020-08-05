@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7079450",
+      "entity_text" : "PD",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43524",
+      "entity_text" : "FOXO3a",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our study highlights at least five important points : 1) PD significantly inhibits prostate cancer cell growth; 2) PD induces prostate cancer cell apoptosis; 3) PD obstructs cell cycle progression; 4) PD upregulates FOXO3a expression and downregulates MDM2 expression at the transcriptional level and 5) PD dose-dependently decreases the growth of human prostate cancer xenograft tumors in mice.",
+  "reading_complete" : "2020-08-05T22:13:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:10:24Z",
+  "trigger" : "downregulates",
+  "evidence" : [ "FOXO3a expression and downregulates MDM2 expression at the transcriptional level and 5) PD" ],
+  "pmc_id" : "4997962",
+  "score" : 0
+}
