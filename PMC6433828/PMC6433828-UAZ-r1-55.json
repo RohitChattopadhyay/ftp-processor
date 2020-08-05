@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0231" ],
+      "CellType" : [ "cl:CL:0002609" ]
+    }
+  },
+  "verbose_text" : "Glutamate treatment resulted in a decrease in beta-catenin level and poor cell viability compared to untreated control embryonic rat cortical neurons.",
+  "reading_complete" : "2020-08-05T21:14:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:13:07Z",
+  "trigger" : "level",
+  "evidence" : [ "beta-catenin level" ],
+  "pmc_id" : "6433828",
+  "score" : 0
+}

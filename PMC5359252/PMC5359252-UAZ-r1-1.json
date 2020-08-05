@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8160" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The p values from the Wilcoxon rank sum test (age) and Pearson chi 2 test (sex) were both greater than the alpha level at 0.05.",
+  "reading_complete" : "2020-08-05T21:13:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:10:08Z",
+  "trigger" : "level",
+  "evidence" : [ "alpha level" ],
+  "pmc_id" : "5359252",
+  "score" : 0
+}
