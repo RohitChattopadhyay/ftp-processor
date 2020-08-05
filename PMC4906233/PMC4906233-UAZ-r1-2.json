@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15409",
+      "entity_text" : "FOXP2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13950",
+      "entity_text" : "RUNX2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0720" ],
+      "Organ" : [ "uberon:UBERON:0003129" ]
+    }
+  },
+  "verbose_text" : "A direct interaction between RUNX2 and FOXP2 has been experimentally demonstrated in the context of endochondral ossification, a finding further reinforced by Gascoyne et al., who added FOXP2 to the list of established osteoblast and chondrocyte transcription factors (such as RUNX2).",
+  "reading_complete" : "2020-08-05T19:51:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:49:48Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between RUNX2 and FOXP2" ],
+  "pmc_id" : "4906233",
+  "score" : 0
+}

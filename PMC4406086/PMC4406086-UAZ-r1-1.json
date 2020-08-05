@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15439",
+      "entity_text" : "ABCC4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Organ" : [ "uberon:UBERON:0002387" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "In addition, platelets are known to express the ATP binding cassette transporter 4 (ABCC4) protein and the release of S1P from human platelets can be blocked with the ABCC transporter-inhibitor MK751.",
+  "reading_complete" : "2020-08-05T19:49:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:48:38Z",
+  "trigger" : "binding",
+  "evidence" : [ "ATP-binding cassette transporter 4 (ABCC4" ],
+  "pmc_id" : "4406086",
+  "score" : 0
+}
