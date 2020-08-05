@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "C-Reactive Protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0001535" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "On day 5 of admission, the patient had sudden change in mental status, increased C-Reactive Protein, ferritin and elevated Interleukin-6 levels.",
+  "reading_complete" : "2020-08-05T19:07:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:05:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "C-Reactive Protein, ferritin and elevated Interleukin-6 levels" ],
+  "pmc_id" : "7387273",
+  "score" : 0
+}
