@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Studies show that high doses of SFN enhance global histone acetylation by inhibiting histone deacetylase (HDAC) activity and reducing cell growth in prostate cancer [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:14:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:09:46Z",
+  "trigger" : "reducing",
+  "evidence" : [ "histone acetylation by inhibiting histone deacetylase (HDAC) activity and reducing cell growth" ],
+  "pmc_id" : "6789461",
+  "score" : 0
+}

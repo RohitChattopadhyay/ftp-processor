@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00632",
+      "entity_text" : "MAPK8/JNK-JUN/c-Jun",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PPP2",
+      "entity_text" : "protein phosphatase 2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increased expression of CCL5 involves the phosphorylation of the MAPK8/JNK-JUN/c-Jun signaling pathway, which is initiated by decreased expression of protein phosphatase 2 A (PP2A), while autophagy is suppressed [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:14:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:09:46Z",
+  "trigger" : "initiated",
+  "evidence" : [ "phosphorylation of the MAPK8/JNK-JUN/c-Jun signaling pathway, which is initiated by decreased expression of protein phosphatase 2" ],
+  "pmc_id" : "6789461",
+  "score" : 0
+}
