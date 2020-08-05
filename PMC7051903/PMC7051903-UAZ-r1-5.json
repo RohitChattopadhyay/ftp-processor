@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001816",
+      "entity_text" : "cytokine production",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01824",
+      "entity_text" : "JAK inhibitors",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Due to the key role of JAK-STAT pathways on T cells activation, JAK inhibitors may reduce GVHD by inhibiting donor T-cell expansion and inflammatory cytokine production, regulatory T-cell (Treg) function and viability.",
+  "reading_complete" : "2020-08-05T21:45:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:43:11Z",
+  "trigger" : "reduce",
+  "evidence" : [ "JAK inhibitors may reduce GVHD by inhibiting donor T-cell expansion and inflammatory cytokine production" ],
+  "pmc_id" : "7051903",
+  "score" : 0
+}

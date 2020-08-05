@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01882",
+      "entity_text" : "anti-HLA antibody",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The persisting antibodies not depleted by the platelet transfusion indicate that the conditioning regime as well as rituximab and bortezomib, had only a limited effect on the anti-HLA antibody levels in this protocol.",
+  "reading_complete" : "2020-08-05T21:48:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:46:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "anti-HLA antibody levels" ],
+  "pmc_id" : "6006140",
+  "score" : 0
+}
