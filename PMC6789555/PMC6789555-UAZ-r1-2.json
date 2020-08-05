@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "STAT6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "Organ" : [ "uberon:UBERON:0002067" ],
+      "CellType" : [ "cl:CL:0000101" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There is evidence to suggest that PN is a Th2 cytokine dependent process, as epidermal biopsies of lesional skin in PN patients show higher levels of STAT6 compared to controls [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:28:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:22:37Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of STAT6" ],
+  "pmc_id" : "6789555",
+  "score" : 0
+}

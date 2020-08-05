@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IXH7",
+      "entity_text" : "Th1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Additionally, age related loss of protective Th1 immune cells may hasten the Th2 immune response that is characteristic of this condition [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:28:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:22:37Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of protective Th1" ],
+  "pmc_id" : "6789555",
+  "score" : 0
+}
