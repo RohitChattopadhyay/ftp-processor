@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Due to low postoperative hemoglobin level, iron therapy was commenced more often in the intervention group (OR = 2.97 [95% CI : 1.95; 4.50]) compared to the control group.",
+  "reading_complete" : "2020-08-05T20:51:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:49:16Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "3426900",
+  "score" : 0
+}
