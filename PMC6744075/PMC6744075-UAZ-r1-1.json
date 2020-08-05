@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Seventy-nine percent of patients were tested for alcohol at the time of admission, of which 48% were legally intoxicated with a blood alcohol level> 80 mg/dL blood.",
+  "reading_complete" : "2020-08-05T18:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:19:14Z",
+  "trigger" : "level",
+  "evidence" : [ "alcohol level" ],
+  "pmc_id" : "6744075",
+  "score" : 0
+}

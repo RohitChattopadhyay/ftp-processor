@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5484352",
+      "entity_text" : "AA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P0L9",
+      "entity_text" : "PKDL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:5661" ]
+    }
+  },
+  "verbose_text" : "The haplotype based score test in TRANSMIT showed borderline significance (p = 0.05) for association between PKDL and the over-transmitted haplotype AA across the -1082 A/G and -592 C/A SNPs.",
+  "reading_complete" : "2020-08-05T18:22:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:20:27Z",
+  "trigger" : "association",
+  "evidence" : [ "association between PKDL and the over-transmitted haplotype AA" ],
+  "pmc_id" : "2951725",
+  "score" : 0
+}
