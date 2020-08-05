@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02751",
+      "entity_text" : "fibronectin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0005925" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR illustrated that proteins participating in topographical cues can affect signaling of mechanotransduction events by quantitatively analyzing the alpha5beta1 integrin binding to fibronectin coated nano patterned substrates with nano-scale shapes, both grooves and pillars.",
+  "reading_complete" : "2020-08-05T20:06:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:03:22Z",
+  "trigger" : "binding",
+  "evidence" : [ "integrin binding to fibronectin" ],
+  "pmc_id" : "6056633",
+  "score" : 0
+}
