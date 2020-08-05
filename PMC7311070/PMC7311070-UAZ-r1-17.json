@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser-142",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CAMK2_complex",
+      "entity_text" : "CamKII",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1674" ],
+      "Species" : [ "taxonomy:12305" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of Ser 142 by CamKII inhibits CREB1 transactivation in CV1 mammalian cells by preventing CREB1 dimerization.",
+  "reading_complete" : "2020-08-05T18:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:47:14Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of Ser-142 by\nCamKII" ],
+  "pmc_id" : "7311070",
+  "score" : 0
+}

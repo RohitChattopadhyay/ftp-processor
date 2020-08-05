@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16220",
+      "entity_text" : "CREB1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00272",
+      "entity_text" : "promoter-cAMP response element binding protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:12305" ],
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "Computational prediction of transcription factor binding to the transgene cytomegalovirus (CMV) promoter by the Transcription Element Search System and upstream regulator analysis of the differential transcriptomic data suggested increased in vivo CMV promoter-cAMP response element binding protein (CREB1) interaction in the higher producing cell line.",
+  "reading_complete" : "2020-08-05T18:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:47:14Z",
+  "trigger" : "interaction",
+  "evidence" : [ "promoter-cAMP response element binding protein (CREB1)\ninteraction" ],
+  "pmc_id" : "7311070",
+  "score" : 0
+}

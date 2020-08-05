@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16220",
+      "entity_text" : "CREB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12305" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "A stimulus from the environment causes cAMP to activate a protein kinase that in turn translocates to the nucleus and phosphorylates the CREB1 protein.",
+  "reading_complete" : "2020-08-05T18:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:47:14Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates the CREB1" ],
+  "pmc_id" : "7311070",
+  "score" : 0
+}

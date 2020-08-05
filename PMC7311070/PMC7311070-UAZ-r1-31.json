@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q09472",
+      "entity_text" : "p300",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PKA",
+      "entity_text" : "PKA",
+      "features" : [ {
+        "position" : "Ser-133",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Phosphorylation of Ser 133 by PKA activates CREB1 by increasing its DNA binding activity, promoting the recruitment of the co-activator proteins CBP and p300.",
+  "reading_complete" : "2020-08-05T18:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:47:14Z",
+  "trigger" : "activates",
+  "evidence" : [ "PKA activates\nCREB1 by increasing its DNA binding activity, promoting the recruitment of the\nco-activator proteins CBP and p300" ],
+  "pmc_id" : "7311070",
+  "score" : 0
+}

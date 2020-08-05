@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser-121",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16220",
+      "entity_text" : "CREB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "ATM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Also, in response to genotoxic stress, phosphorylation of Ser 111 of CREB1 by ATM primes phosphorylation of Ser 108, Ser 114, and Ser 117 by CK1 and CK2, ultimately leading to inhibitory phosphorylation of Ser 121 on CREB1 by ATM.",
+  "reading_complete" : "2020-08-05T18:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T18:47:14Z",
+  "evidence" : [ "phosphorylation of Ser-121 on CREB1 by ATM" ],
+  "pmc_id" : "7311070",
+  "score" : 0
+}
