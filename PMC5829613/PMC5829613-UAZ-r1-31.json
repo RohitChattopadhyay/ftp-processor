@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11274",
+      "entity_text" : "BCR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Recognition of antigens by the BCR induces signaling through the BCR, but BCR signaling alone is not sufficient for B cell activation but induces apoptosis.",
+  "reading_complete" : "2020-08-05T20:04:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:02:10Z",
+  "trigger" : "induces",
+  "evidence" : [ "BCR signaling alone is not sufficient for B cell activation but induces apoptosis" ],
+  "pmc_id" : "5829613",
+  "score" : 0
+}
