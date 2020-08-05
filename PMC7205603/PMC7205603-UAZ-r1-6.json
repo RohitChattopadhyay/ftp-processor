@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "As it is known that SARS-CoV-2 infects target cells through ACE2, while there was no ACE2 expression on lymphocytes, it is speculated that lymphocytes were probably destroyed by CS [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T21:53:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:44:24Z",
+  "trigger" : "expression",
+  "evidence" : [ "ACE2 expression" ],
+  "pmc_id" : "7205603",
+  "score" : 0
+}

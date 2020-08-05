@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00210",
+      "entity_text" : "ferritin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3694" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000233" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Taking those concepts, some authors propose the use of glucocorticoid pulses [XREF_BIBR *] if the patients presents high levels of ferritin and/or low molecular weight heparin when there are high levels of D-dimer [XREF_BIBR *].",
+  "reading_complete" : "2020-08-05T21:53:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:44:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ferritin" ],
+  "pmc_id" : "7205603",
+  "score" : 0
+}
