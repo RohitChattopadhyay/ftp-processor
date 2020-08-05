@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10145",
+      "entity_text" : "CXCL8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0763" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:837" ]
+    }
+  },
+  "verbose_text" : "Interestingly, periodontal therapy has been shown to reduce immune cell numbers as well as the levels of CXCL8 in gingival crevicular fluid [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T21:50:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:44:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CXCL8" ],
+  "pmc_id" : "6023475",
+  "score" : 0
+}

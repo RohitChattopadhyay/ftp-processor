@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0001758" ],
+      "Species" : [ "taxonomy:837" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "Since these enzymes can degrade most components of the extracellular matrix, the presence of high levels of MMPs in periodontal sites modulates the destruction of periodontal tissues through degradation of the periodontal ligament, the loss of gingival collagen, and the resorption of alveolar bone [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T21:50:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:44:00Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of gingival collagen" ],
+  "pmc_id" : "6023475",
+  "score" : 0
+}
