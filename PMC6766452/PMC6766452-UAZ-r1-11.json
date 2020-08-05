@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62491",
+      "entity_text" : "Rab11",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In addition, protrudin binds to the GTP bound form of Rab7, in contrast to its binding to the GDP bound form of Rab11.",
+  "reading_complete" : "2020-08-05T20:02:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:43Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding to the GDP-bound form of Rab11" ],
+  "pmc_id" : "6766452",
+  "score" : 0
+}

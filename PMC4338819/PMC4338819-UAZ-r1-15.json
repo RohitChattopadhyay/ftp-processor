@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36639",
+      "entity_text" : "MTH1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0000805" ]
+    }
+  },
+  "verbose_text" : "It should be noted, however, that degrees of increase in spontaneous mutation frequency, due to the loss of MTH1, are considerably lower than the value for the E. coli mutT - mutant, in which the value is 1,000 times over that of wild-type cells.",
+  "reading_complete" : "2020-08-05T19:58:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:52:08Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of MTH1" ],
+  "pmc_id" : "4338819",
+  "score" : 0
+}

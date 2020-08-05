@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BQS8",
+      "entity_text" : "FYCO1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5T4F4",
+      "entity_text" : "Protrudin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y515" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR) Protrudin binds to the heavy chain of KIF5 and transfers it to the late endosomal protein FYCO1, which is a motor adaptor and also binds to the light chain of KIF5.",
+  "reading_complete" : "2020-08-05T20:02:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:00:43Z",
+  "trigger" : "binds",
+  "evidence" : [ "Protrudin binds to the heavy chain of KIF5 and transfers it to the late endosomal protein FYCO1" ],
+  "pmc_id" : "6766452",
+  "score" : 0
+}
