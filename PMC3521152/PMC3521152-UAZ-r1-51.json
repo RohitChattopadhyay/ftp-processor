@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P34981",
+      "entity_text" : "Thyrotropin-releasing hormone receptor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Thyrotropin releasing hormone receptor phosphorylation does not appear to be hierarchical because the rates of phosphorylation are the same for different phosphosites.",
+  "reading_complete" : "2020-08-05T20:44:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:41:43Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Thyrotropin-releasing hormone receptor phosphorylation" ],
+  "pmc_id" : "3521152",
+  "score" : 0
+}

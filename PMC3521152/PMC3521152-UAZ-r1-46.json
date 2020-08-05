@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20396",
+      "entity_text" : "TRH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When cells are incubated with TRH to drive internalization and the hormone is removed, receptors reappear at the plasma membrane with a half-time of 20-30 min based on the amount of radioactive TRH able to bind, the amount of epitope tagged receptor on the membrane determined by FACS or ELISA, or the amount of GFP labeled receptor at the surface.",
+  "reading_complete" : "2020-08-05T20:44:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:41:43Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of radioactive TRH" ],
+  "pmc_id" : "3521152",
+  "score" : 0
+}

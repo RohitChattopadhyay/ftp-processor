@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55011",
+      "entity_text" : "NKCC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In fact, there is evidence that GABA can depolarize immature neurons due to the presence of high levels of the chloride transporter NKCC1 which causes a high internal chloride concentration.",
+  "reading_complete" : "2020-08-05T20:41:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:39:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the chloride transporter NKCC1" ],
+  "pmc_id" : "3627134",
+  "score" : 0
+}
