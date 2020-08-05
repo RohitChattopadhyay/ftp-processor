@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:FSH",
+      "entity_text" : "FSH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Changes in testicular tissue metabolism have been described in rats with PP mesh implantation, such as an increase in testicular nitric oxide in the long term (180 days) without, however, altering LH and FSH levels or inducing apoptosis 24.",
+  "reading_complete" : "2020-08-05T20:07:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:07:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "FSH levels" ],
+  "pmc_id" : "7184941",
+  "score" : 0
+}
