@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0328" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "The main clinical manifestations of ICP include pruritus, jaundice, elevated serum bile acid level and slight elevation of hepatic transaminase XREF_BIBR.",
+  "reading_complete" : "2020-08-05T19:46:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:45:25Z",
+  "trigger" : "level",
+  "evidence" : [ "acid level" ],
+  "pmc_id" : "6583935",
+  "score" : 0
+}

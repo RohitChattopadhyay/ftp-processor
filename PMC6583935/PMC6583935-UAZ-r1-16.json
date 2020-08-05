@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9543762",
+      "entity_text" : "diacylglycerol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477912",
+      "entity_text" : "phosphatidylinositol",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, NPY can promote the hydrolysis of phosphatidylinositol on the cell membrane, producing two diacylglycerol and inositol triphosphate (IP3).",
+  "reading_complete" : "2020-08-05T19:46:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:45:25Z",
+  "trigger" : "producing",
+  "evidence" : [ "phosphatidylinositol on the cell membrane, producing two diacylglycerol" ],
+  "pmc_id" : "6583935",
+  "score" : 0
+}

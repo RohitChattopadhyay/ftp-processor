@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92565",
+      "entity_text" : "GFR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The DCCT / EDIC study showed 28% of microalbuminurics became macroalbuminuric with 15% sustaining a loss of GFR and 4% leading onto ESKD [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T19:38:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:26:24Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of GFR" ],
+  "pmc_id" : "4705119",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46527",
+      "entity_text" : "p27 KIP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "CellLine" : [ "cellosaurus:CVCL_0291" ],
+      "Organ" : [ "uberon:UBERON:0014899" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002327" ]
+    }
+  },
+  "verbose_text" : "Cell cycle arrest (S and G2/M) along with increased levels of transcription factors p21 WAF1 and p27 KIP1 and decreased levels of cell cycle regulatory proteins cyclin A, cyclin B1 and CDC2 was observed with SFN treatment of breast cancer cells MDA-MB-231 at a dose of 30 muM [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T19:51:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:40:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of transcription factors p21 WAF1  and p27 KIP1" ],
+  "pmc_id" : "5456215",
+  "score" : 0
+}

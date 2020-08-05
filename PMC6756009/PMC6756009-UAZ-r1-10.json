@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19838",
+      "entity_text" : "NF-kB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Furthermore, in the study of Shen et al. XREF_BIBR, sIPC attenuated renal IRI through inhibition of NF-kB pathway and upregulation of interleukin-10 (IL-10) expression, indicating an antiinflammatory effect.",
+  "reading_complete" : "2020-08-05T19:43:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:43:14Z",
+  "trigger" : "inhibition",
+  "evidence" : [ "inhibition of NF-kB pathway and upregulation of interleukin-10 (IL-10" ],
+  "pmc_id" : "6756009",
+  "score" : 0
+}

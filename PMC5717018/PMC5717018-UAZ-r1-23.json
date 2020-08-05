@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5754",
+      "entity_text" : "cortisol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0015" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "CellType" : [ "cl:CL:0002309" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Neuroendocrinologic studies have reported three common features in patients with PTSD : (1) decreased plasma cortisol; (2) higher CRH in the cerebrospinal fluid (CSF) and plasma; and (3) increased inhibition of the hypophysis-adrenal system (HAS), which leads to reduced cortisol levels by enhancing negative feedback.",
+  "reading_complete" : "2020-08-05T19:45:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:41:36Z",
+  "trigger" : "levels",
+  "evidence" : [ "cortisol levels" ],
+  "pmc_id" : "5717018",
+  "score" : 0
+}

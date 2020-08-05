@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01178",
+      "entity_text" : "OXT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Organ" : [ "uberon:UBERON:0001880" ],
+      "CellType" : [ "cl:CL:0011003" ]
+    }
+  },
+  "verbose_text" : "Indeed, birth complications due to low OXT levels and stressful-depressive mother care have long been associated with autism.",
+  "reading_complete" : "2020-08-05T19:51:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:49:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "OXT levels" ],
+  "pmc_id" : "4906233",
+  "score" : 0
+}

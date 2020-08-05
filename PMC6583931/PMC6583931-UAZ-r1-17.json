@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19526",
+      "entity_text" : "HSC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000186" ]
+    }
+  },
+  "verbose_text" : "Thus, alpha-SMA is closely related to ECM and can be used to detect the activity level of HSC.",
+  "reading_complete" : "2020-08-05T19:53:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:52:42Z",
+  "trigger" : "level",
+  "evidence" : [ "level of HSC" ],
+  "pmc_id" : "6583931",
+  "score" : 0
+}

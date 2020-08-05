@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:712",
+      "entity_text" : "formaldehyde",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:215",
+      "entity_text" : "aminoacetone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Since the oxidation of its substrates methylamine and aminoacetone produces formaldehyde and methylglyoxal, it has been proposed that sustained inhibition of its activity could limit the levels of these deleterious agents and could reduce the cardiovascular complications of diabetes [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T19:38:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:29:02Z",
+  "trigger" : "produces",
+  "evidence" : [ "aminoacetone produces formaldehyde" ],
+  "pmc_id" : "6789716",
+  "score" : 0
+}
