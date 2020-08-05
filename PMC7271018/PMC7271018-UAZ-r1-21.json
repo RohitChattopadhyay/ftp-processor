@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02768",
+      "entity_text" : "serum albumin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Albumin is a positive marker for malnutrition, but we considered the high levels of serum albumin to be independent in the PPD positive control group.",
+  "reading_complete" : "2020-08-05T20:25:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:23:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of serum albumin" ],
+  "pmc_id" : "7271018",
+  "score" : 0
+}

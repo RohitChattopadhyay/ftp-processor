@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The serum cholesterol levels were uniformly distributed in all groups (p> 0.05, Table XREF_TABLE).",
+  "reading_complete" : "2020-08-05T20:25:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:23:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "7271018",
+  "score" : 0
+}

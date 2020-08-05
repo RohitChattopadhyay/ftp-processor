@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZV9",
+      "entity_text" : "FGF23",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "FGF23 reduces vitamin D synthesis and increases serum PTH [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:27:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:25:17Z",
+  "trigger" : "reduces",
+  "evidence" : [ "FGF23 reduces vitamin D" ],
+  "pmc_id" : "6327006",
+  "score" : 0
+}

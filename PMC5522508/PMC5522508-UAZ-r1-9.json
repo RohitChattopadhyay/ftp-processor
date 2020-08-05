@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:11103" ]
+    }
+  },
+  "verbose_text" : "Insulin sensitivity was quantified using the homeostasis model assessment of insulin resistance (HOMA-IR) equation to measure fasting insulin and glucose levels (HOMA-IR = I x 3 G/22.5), where ' I ' is insulin (IU/mL) and ' G ' is glucose (mmol/L) (IR : HOMA-index> = 2.5muU/mL x mmol/L) [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T20:23:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:20:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "5522508",
+  "score" : 0
+}
