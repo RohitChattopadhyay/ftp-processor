@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48436",
+      "entity_text" : "SOX-9",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0395" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1224" ]
+    }
+  },
+  "verbose_text" : "Studies of the molecular mechanisms of sulforaphane treatment on differentiation in the human chondrosarcoma cell line, HTB-94, demonstrated that SFN induced enhanced expression of type II collagen, SOX-9 and phosphorylation of AKT, suggesting that SFN regulates differentiation of these cells via PI-3K / AKT [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T19:51:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:40:30Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "SOX-9 and phosphorylation" ],
+  "pmc_id" : "5456215",
+  "score" : 0
+}
