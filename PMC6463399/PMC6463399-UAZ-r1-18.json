@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009361",
+      "entity_text" : "invasiveness",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZC3",
+      "entity_text" : "miR-16",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Loss of miR-15 and miR-16, along with the overexpression of miR-21 significantly increased the invasiveness of PCa cells, in addition to elevated likelihood of bone marrow metastasis [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T22:34:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:20:53Z",
+  "trigger" : "increased",
+  "evidence" : [ "miR-16, along with the overexpression of miR-21 significantly increased the invasiveness" ],
+  "pmc_id" : "6463399",
+  "score" : 0
+}

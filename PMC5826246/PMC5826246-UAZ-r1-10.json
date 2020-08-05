@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92583",
+      "entity_text" : "thymus and activation-regulated chemokine",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000771" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Dupilumab has been observed to significantly reduce serum levels of thymus and activation regulated chemokine (TARC or CCL17).",
+  "reading_complete" : "2020-08-05T22:34:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:32:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of thymus and activation-regulated chemokine" ],
+  "pmc_id" : "5826246",
+  "score" : 0
+}

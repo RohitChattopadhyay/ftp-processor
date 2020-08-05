@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03115",
+      "entity_text" : "miR-616",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "22rv1 cells with repressed miR-616 expression had delayed the tumour onset and cancer growth in vivo, suggesting that higher expression of miR-616 promotes castration independent cell growth.",
+  "reading_complete" : "2020-08-05T22:34:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:20:53Z",
+  "trigger" : "promotes",
+  "evidence" : [ "miR-616 promotes castration-independent cell growth" ],
+  "pmc_id" : "6463399",
+  "score" : 0
+}

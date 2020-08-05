@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03156",
+      "entity_text" : "p21 post",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Increased expression of miR-106b by transient transfection with pre-miR-106b resulted in the suppression of cell cycle inhibitor p21 post radiation, causing G2/M arrest.",
+  "reading_complete" : "2020-08-05T22:34:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:20:53Z",
+  "trigger" : "inhibitor",
+  "evidence" : [ "cell cycle inhibitor p21 post" ],
+  "pmc_id" : "6463399",
+  "score" : 0
+}
