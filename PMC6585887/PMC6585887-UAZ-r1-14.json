@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:588",
+      "entity_text" : "creatinine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0114" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "An increase in the serum BUN and creatinine levels is considered as indicators of non renal factors being effective and the presence of extreme damage such as the loss of functional nephrons.",
+  "reading_complete" : "2020-08-05T19:58:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T19:57:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "creatinine levels" ],
+  "pmc_id" : "6585887",
+  "score" : 0
+}
