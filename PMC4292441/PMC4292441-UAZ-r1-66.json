@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16796",
+      "entity_text" : "microtubule-binding",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43602",
+      "entity_text" : "DCX",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cdk5 phosphorylates DCX at Sr297 and enhances its microtubule binding activity.",
+  "reading_complete" : "2020-08-05T20:24:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:23:25Z",
+  "trigger" : "enhances",
+  "evidence" : [ "DCX at Sr297 and enhances its microtubule-binding" ],
+  "pmc_id" : "4292441",
+  "score" : 0
+}

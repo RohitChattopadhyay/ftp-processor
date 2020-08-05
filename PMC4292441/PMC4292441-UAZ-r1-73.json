@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00535",
+      "entity_text" : "Cdk5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0015629" ]
+    }
+  },
+  "verbose_text" : "CRMP2 binds to the tubulin heterodimer and their binding is regulated by Cdk5 / Gsk3beta phosphorylation.",
+  "reading_complete" : "2020-08-05T20:24:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:23:25Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Cdk5/Gsk3beta phosphorylation" ],
+  "pmc_id" : "4292441",
+  "score" : 0
+}

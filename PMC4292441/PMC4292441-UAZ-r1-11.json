@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser62",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SCG10 is a tubulin interacting protein, which is phosphorylated by JNK SCG10 at Ser62 and Ser73.",
+  "reading_complete" : "2020-08-05T20:24:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:23:25Z",
+  "evidence" : [ "tubulin interacting protein, which is phosphorylated by JNK SCG10 at Ser62" ],
+  "pmc_id" : "4292441",
+  "score" : 0
+}
