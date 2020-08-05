@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Pre-diabetes precedes the development of T2D and is linked to relative insulin deficiency and tissue insulin resistance, which cause abnormal blood glucose levels [XREF_BIBR].",
+  "reading_complete" : "2020-08-05T22:16:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:09:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "7235750",
+  "score" : 0
+}
