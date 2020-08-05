@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62701",
+      "entity_text" : "scar",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0828" ],
+      "Organ" : [ "uberon:UBERON:0010211" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Fibrous tissue showed mild hyperplasia and a small amount of scar formation.",
+  "reading_complete" : "2020-08-05T20:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:37:44Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of scar" ],
+  "pmc_id" : "6957543",
+  "score" : 0
+}

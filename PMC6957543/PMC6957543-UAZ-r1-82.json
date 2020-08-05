@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00779",
+      "entity_text" : "TGF-beta1 environment",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "CellType" : [ "cl:CL:0002231" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We speculate whether prostate epithelial cells down-regulates its own TGF-beta1 expression by up-regulation of CKIP-1, resulting in a low level of TGF-beta1 environment around fibroblasts, which inhibits fibroblasts TGF-beta1 expression.",
+  "reading_complete" : "2020-08-05T20:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:37:44Z",
+  "trigger" : "level",
+  "evidence" : [ "level of TGF-beta1 environment" ],
+  "pmc_id" : "6957543",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta 1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellLine" : [ "cellosaurus:CVCL_3285" ],
+      "Organ" : [ "uberon:UBERON:0001335" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002231" ]
+    }
+  },
+  "verbose_text" : "The prostate epithelial cells might reduce expression level of TGF-beta 1 by raising CKIP-1 expression and inhibit expression of TGF-beta 1 in peripheral fibroblasts at remodeling stage to reduce the excessive proliferation of fibrous cells and the excessive scar formation.",
+  "reading_complete" : "2020-08-05T20:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:37:44Z",
+  "trigger" : "level",
+  "evidence" : [ "level of TGF-beta 1" ],
+  "pmc_id" : "6957543",
+  "score" : 0
+}

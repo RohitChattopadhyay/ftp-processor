@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01137",
+      "entity_text" : "TGF-beta1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q53GL0",
+      "entity_text" : "CKIP-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This suggested that prostate epithelial cells may up-regulation the CKIP-1 expression to reduce TGF-beta1 secretion.",
+  "reading_complete" : "2020-08-05T20:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:37:44Z",
+  "trigger" : "reduce",
+  "evidence" : [ "CKIP-1 expression to reduce TGF-beta1" ],
+  "pmc_id" : "6957543",
+  "score" : 0
+}

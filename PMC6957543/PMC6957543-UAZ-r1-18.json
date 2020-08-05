@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HCE7",
+      "entity_text" : "Smurf1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0001335" ],
+      "CellType" : [ "cl:CL:0002231" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Smads protein is an important downstream regulatory protein in TGF-beta1 signaling [XREF_BIBR] and Smad ubiquitination regulatory factor 1 (Smurf1) is the first cytokines to be found to degrade Smads.",
+  "reading_complete" : "2020-08-05T20:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T20:37:44Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination regulatory factor 1 (Smurf1" ],
+  "pmc_id" : "6957543",
+  "score" : 0
+}
