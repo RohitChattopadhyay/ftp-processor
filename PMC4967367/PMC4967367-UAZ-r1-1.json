@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5533",
+      "entity_text" : "trazodone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Tramadol : Tramadol is a mu-opioid receptor agonist, a metabolite of antidepressant trazodone that inhibits the reuptake of serotonin and norepinephrine.",
+  "reading_complete" : "2020-08-05T22:39:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:38:07Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "trazodone that inhibits the reuptake of serotonin" ],
+  "pmc_id" : "4967367",
+  "score" : 0
+}
