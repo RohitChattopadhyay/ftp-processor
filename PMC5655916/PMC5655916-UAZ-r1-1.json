@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20936",
+      "entity_text" : "gap",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We allowed the gap by a half duration of the previous prescription between the end date of the prescription and the start date of the following one.",
+  "reading_complete" : "2020-08-05T21:53:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:52:56Z",
+  "trigger" : "allowed",
+  "evidence" : [ "allowed the gap by a half duration" ],
+  "pmc_id" : "5655916",
+  "score" : 0
+}

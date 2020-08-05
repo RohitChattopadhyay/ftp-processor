@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF09409",
+      "entity_text" : "PUB",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00990",
+      "entity_text" : "COX-2 inhibitors",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Selective COX-2 inhibitors with PPIs and selective COX-2 inhibitors alone decreased the relative risk of PUB by 16% (adjusted OR 0.84, 95% CI : 0.62-1.13) and by 15% (adjusted OR 0.85, 95% CI : 0.67-1.06), respectively, compared with conventional NSAIDs.",
+  "reading_complete" : "2020-08-05T21:53:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T21:52:56Z",
+  "trigger" : "decreased",
+  "evidence" : [ "COX-2 inhibitors alone decreased the relative risk of PUB" ],
+  "pmc_id" : "5655916",
+  "score" : 0
+}
