@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0001" ],
+      "Organ" : [ "uberon:UBERON:0002103" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Hematological analysis confirmed no anemia and the lactate dehydrogenase level was normal and the C-reactive protein was markedly elevated at 190 mg/L.",
+  "reading_complete" : "2020-08-05T22:02:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-05T22:02:15Z",
+  "trigger" : "level",
+  "evidence" : [ "lactate dehydrogenase level" ],
+  "pmc_id" : "4967362",
+  "score" : 0
+}
