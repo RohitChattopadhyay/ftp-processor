@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29965",
+      "entity_text" : "CD40L",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "CellLine" : [ "cellosaurus:CVCL_0095" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Compared with adult spleen, where CD40 and CD40L are expressed at very high levels, the levels of Cd40 mRNA and Cd40l mRNA were 8.8-fold and 950-fold lower, respectively, in the SCG at P5.",
+  "reading_complete" : "2020-08-08T11:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:09Z",
+  "trigger" : "expressed",
+  "evidence" : [ "CD40L are expressed" ],
+  "pmc_id" : "4407286",
+  "score" : 0
+}

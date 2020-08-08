@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06488",
+      "entity_text" : "Rsc2",
+      "features" : [ {
+        "to_base" : "H",
+        "site" : 458,
+        "feature_type" : "mutation",
+        "evidence" : "H458P"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M033" ],
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005618" ]
+    }
+  },
+  "verbose_text" : "We detected a very low level of Rsc2 H458P mutant protein compared with the WT control, suggesting that this mutation severely impairs protein stability.",
+  "reading_complete" : "2020-08-08T11:37:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:35:44Z",
+  "trigger" : "level",
+  "evidence" : [ "level of Rsc2" ],
+  "pmc_id" : "3988838",
+  "score" : 0
+}
