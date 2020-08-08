@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9ULH1",
+      "entity_text" : "ASAP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96B97",
+      "entity_text" : "CIN85",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "SH3 domains" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M383" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The SH3 domains of CIN85 can also bind the PxxxPR motifs of ASAP1 / AMAP1, Hip1R, SHIP1, and SH3KBP1 binding protein 1 (SHKBP1) XREF_BIBR, XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-08T12:20:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:18:10Z",
+  "trigger" : "bind",
+  "evidence" : [ "SH3 domains of CIN85 can also bind the PxxxPR motifs of ASAP1" ],
+  "pmc_id" : "3805583",
+  "score" : 0
+}

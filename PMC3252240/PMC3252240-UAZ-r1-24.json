@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0363" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Application of a non lethal dose of tunicamycin to JEG-3 cells results in rapid phosphorylation of eIF2alpha, and a slower increase in the chaperone proteins.",
+  "reading_complete" : "2020-08-08T12:18:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:16:11Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of eIF2alpha" ],
+  "pmc_id" : "3252240",
+  "score" : 0
+}
