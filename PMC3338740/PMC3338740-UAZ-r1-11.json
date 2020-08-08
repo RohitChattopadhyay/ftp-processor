@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75907",
+      "entity_text" : "DGAT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0210" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The high levels of DGAT1 transcripts at the orange / red stage (XREF_FIG) is in agreement with the high number of reads obtained for this gene by 454 sequencing (XREF_TABLE).",
+  "reading_complete" : "2020-08-08T11:37:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:35:10Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of DGAT1" ],
+  "pmc_id" : "3338740",
+  "score" : 0
+}
