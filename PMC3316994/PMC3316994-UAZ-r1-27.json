@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "BST-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "tetherin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "Cellular_component" : [ "go:GO:0019012" ],
+      "Organ" : [ "uberon:UBERON:0002617" ]
+    }
+  },
+  "verbose_text" : "Nevertheless, these observations suggested that dimerization of tetherin / BST-2 is important but not essential for its antiviral activity.",
+  "reading_complete" : "2020-08-08T10:39:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:38:39Z",
+  "trigger" : "dimerization",
+  "evidence" : [ "dimerization of tetherin/BST-2" ],
+  "pmc_id" : "3316994",
+  "score" : 0
+}

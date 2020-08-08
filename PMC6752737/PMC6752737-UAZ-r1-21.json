@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04210",
+      "entity_text" : "CstF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05156",
+      "entity_text" : "CFI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "K562" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0004" ],
+      "TissueType" : [ "tissuelist:TS-0581" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To determine if this profile of CELF2 binding might overlap with CFI and CstF, we compared our CELF2 CLIP data with CLIP-seq data on the CFI and CstF complexes in the K562 lymphoblast cell line (www.encodeproject.org).",
+  "reading_complete" : "2020-08-08T10:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:39:45Z",
+  "trigger" : "complexes",
+  "evidence" : [ "CFI and CstF complexes in the K562" ],
+  "pmc_id" : "6752737",
+  "score" : 0
+}

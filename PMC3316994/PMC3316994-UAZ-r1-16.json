@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "BST-2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0002617" ]
+    }
+  },
+  "verbose_text" : "The N linked glycosylation of tetherin / BST-2 is dispensable for the antiviral activity, while both N-terminal transmembrane domain and C-terminal GPI anchor are required for the activity.",
+  "reading_complete" : "2020-08-08T10:39:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:38:39Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation of tetherin/BST-2" ],
+  "pmc_id" : "3316994",
+  "score" : 0
+}
