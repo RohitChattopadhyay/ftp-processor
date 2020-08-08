@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "Ser 473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07397",
+      "entity_text" : "VPS34-IN1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The finding that VPS34-IN1 does not inhibit the localization of the PtdIns (3,4,5) P 3 / PtdIns (3,4) P 2 binding GFP-PH Akt1 to the plasma membrane or inhibit Akt phosphorylation at Thr 308 or Ser 473 establishes that VPS34-IN1 is not suppressing the activity of class I PI3Ks in vivo, consistent with the in vitro lipid kinase profiling data.",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "VPS34-IN1 does not inhibit the localization of the PtdIns(3,4,5)P 3 /PtdIns(3,4)P 2  binding GFP-PH Akt1  to the plasma membrane or inhibit Akt phosphorylation at Thr 308  or Ser 473" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}

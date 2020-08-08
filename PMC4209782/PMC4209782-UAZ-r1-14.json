@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96BR1",
+      "entity_text" : "SGK3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07421",
+      "entity_text" : "PDK1 inhibitor",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As expected, treatment of cells with a selective PDK1 inhibitor (GSK2334470) [XREF_BIBR] suppressed SGK3 activity, as well as T-loop and hydrophobic motif phosphorylation, to near basal levels, similar to those observed following mutation of the PX domain (XREF_FIG).",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "PDK1 inhibitor (GSK2334470) [ XREF_BIBR ] suppressed SGK3 activity, as well as T-loop and hydrophobic motif phosphorylation" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}
