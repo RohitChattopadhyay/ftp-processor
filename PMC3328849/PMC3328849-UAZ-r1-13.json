@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "KS lesions almost universally exhibit phosphorylated Akt, which activates mTOR kinase and phosphorylated S6, which is a biomarker for mTOR kinase activity.",
+  "reading_complete" : "2020-08-08T13:34:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:31:58Z",
+  "trigger" : "activates",
+  "evidence" : [ "Akt, which activates mTOR" ],
+  "pmc_id" : "3328849",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445643",
+      "entity_text" : "FK506",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5284616",
+      "entity_text" : "Rapamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "Rapamycin binds to FK506 binding protein 12 (FKB12).",
+  "reading_complete" : "2020-08-08T13:34:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:31:58Z",
+  "trigger" : "binds",
+  "evidence" : [ "Rapamycin binds to FK506" ],
+  "pmc_id" : "3328849",
+  "score" : 0
+}

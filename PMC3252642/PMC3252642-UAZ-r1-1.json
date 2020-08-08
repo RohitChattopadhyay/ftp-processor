@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:297",
+      "entity_text" : "methane",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0600" ],
+      "Organ" : [ "uberon:UBERON:0004529" ]
+    }
+  },
+  "verbose_text" : "Serpentinization is highly exothermic and can release large quantities of hydrogen gas (H 2) and variable amounts of methane and low-molecular weight organic compounds.",
+  "reading_complete" : "2020-08-08T13:31:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:27:38Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of methane" ],
+  "pmc_id" : "3252642",
+  "score" : 0
+}
