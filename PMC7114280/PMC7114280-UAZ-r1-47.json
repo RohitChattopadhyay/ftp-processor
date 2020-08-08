@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8170" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "CellType" : [ "cl:CL:0000746" ]
+    }
+  },
+  "verbose_text" : "18 Treatment with saturated hydrogen significantly reduced the activation of p65 signal protein, which is consistent with the findings of a prior report where treatment with H 2 S reduced the expression levels of TNF-alpha, IL-6, IL-10, and monocyte chemoattractant protein-1, as well as the protein levels of p50, p65, and p-p65 in the kidney of rats with chronic renal failure via NF-kappaB signaling.",
+  "reading_complete" : "2020-08-08T10:45:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:42:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "7114280",
+  "score" : 0
+}
