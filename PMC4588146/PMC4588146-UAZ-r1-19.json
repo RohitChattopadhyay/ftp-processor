@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12772",
+      "entity_text" : "SREBP2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As discussed briefly above, low intracellular cholesterol levels trigger SREBP2 activation and subsequent regulation of cholesterol synthesis, uptake, and efflux to restore homeostasis (XREF_FIG b) [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:43:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:34:21Z",
+  "trigger" : "trigger",
+  "evidence" : [ "cholesterol levels trigger SREBP2" ],
+  "pmc_id" : "4588146",
+  "score" : 0
+}

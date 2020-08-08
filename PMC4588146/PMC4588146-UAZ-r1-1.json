@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "ribosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6022",
+      "entity_text" : "ADP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06461",
+      "entity_text" : "LXR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "LXR activation in vitro decreases the expression of miR-26 [XREF_BIBR], reversing miR-26-mediated suppression of ABCA1 and ADP ribosylation factor like 7 (ARL7), the transporter that carries cholesterol to the membrane to facilitate association with ABCA1 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:43:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:34:21Z",
+  "trigger" : "decreases",
+  "evidence" : [ "LXR activation in vitro decreases the expression of miR-26 [ XREF_BIBR ], reversing miR-26-mediated suppression of ABCA1 and ADP-ribosylation" ],
+  "pmc_id" : "4588146",
+  "score" : 0
+}

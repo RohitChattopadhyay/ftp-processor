@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06467",
+      "entity_text" : "miR-33a",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, increased bile acid production in vivo triggered SREBP2 and miR-33a expression to promote cholesterol synthesis and reduce CYP7A1, respectively [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:43:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:34:21Z",
+  "trigger" : "promote",
+  "evidence" : [ "miR-33a expression to promote cholesterol" ],
+  "pmc_id" : "4588146",
+  "score" : 0
+}
