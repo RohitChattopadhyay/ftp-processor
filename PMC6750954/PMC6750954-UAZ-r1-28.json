@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "As with alpha-syn, rescue of TDP-43 toxicity was not due to altered expression levels, as TDP-43 and Hsp104 levels were roughly equal across strains (XREF_FIG and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T15:49:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "Hsp104 levels" ],
+  "pmc_id" : "6750954",
+  "score" : 0
+}

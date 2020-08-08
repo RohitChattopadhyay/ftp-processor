@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13148",
+      "entity_text" : "TDP-43",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "features" : [ {
+        "to_base" : "R",
+        "site" : 419,
+        "feature_type" : "mutation",
+        "evidence" : "R419V"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Neither Hsp104 R419V nor Hsp104 R433E rescued TDP-43, FUS, or alpha-syn toxicity.",
+  "reading_complete" : "2020-08-08T15:49:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:59Z",
+  "trigger" : "rescued",
+  "evidence" : [ "Hsp104 R419V  nor Hsp104 R433E  rescued TDP-43" ],
+  "pmc_id" : "6750954",
+  "score" : 0
+}

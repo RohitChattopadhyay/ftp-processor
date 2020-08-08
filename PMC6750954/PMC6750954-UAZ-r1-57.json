@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "features" : [ {
+        "to_base" : "I",
+        "site" : 187,
+        "feature_type" : "mutation",
+        "evidence" : "I187F"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Upon overexpression of Hsp104 I187F and Hsp104 E360K, more than 70% of cells displayed alpha-syn solely localized to the plasma membrane, compared with ~ 30% of cells expressing Hsp104 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T15:49:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:59Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of Hsp104" ],
+  "pmc_id" : "6750954",
+  "score" : 0
+}

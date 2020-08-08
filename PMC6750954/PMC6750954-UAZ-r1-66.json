@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13148",
+      "entity_text" : "TDP-43",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "features" : [ {
+        "to_base" : "N",
+        "site" : 566,
+        "feature_type" : "mutation",
+        "evidence" : "N566I"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, Hsp104 N566I rescued FUS and TDP-43 toxicity without drastically affecting their aggregation.",
+  "reading_complete" : "2020-08-08T15:49:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:59Z",
+  "trigger" : "rescued",
+  "evidence" : [ "Hsp104 N566I  rescued FUS and TDP-43" ],
+  "pmc_id" : "6750954",
+  "score" : 0
+}

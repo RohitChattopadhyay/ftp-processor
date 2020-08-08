@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35637",
+      "entity_text" : "FUS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "features" : [ {
+        "to_base" : "I",
+        "site" : 187,
+        "feature_type" : "mutation",
+        "evidence" : "I187F"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Nonetheless, Hsp104 I187F, Hsp104 I230N, Hsp104 Q347L, and Hsp104 E360K antagonize FUS aggregation and toxicity.",
+  "reading_complete" : "2020-08-08T15:49:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:59Z",
+  "trigger" : "antagonize",
+  "evidence" : [ "Hsp104 I187F , Hsp104 I230N , Hsp104 Q347L , and Hsp104 E360K  antagonize FUS" ],
+  "pmc_id" : "6750954",
+  "score" : 0
+}

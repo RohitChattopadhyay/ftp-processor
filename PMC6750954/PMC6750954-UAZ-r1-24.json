@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01708",
+      "entity_text" : "alpha-syn",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "features" : [ {
+        "to_base" : "E",
+        "site" : 360,
+        "feature_type" : "mutation",
+        "evidence" : "E360K"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, Hsp104 I187F and Hsp104 E360K very strongly suppressed alpha-syn toxicity, rescuing at a similar level as Hsp104 A503V (XREF_FIG and XREF_SUPPLEMENTARY), a potentiated variant bearing a mutation in MD helix L3.",
+  "reading_complete" : "2020-08-08T15:49:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:59Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "Hsp104 E360K  very strongly suppressed alpha-syn" ],
+  "pmc_id" : "6750954",
+  "score" : 0
+}

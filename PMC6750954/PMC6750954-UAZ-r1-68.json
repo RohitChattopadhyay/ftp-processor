@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0051179",
+      "entity_text" : "localization",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ14065",
+      "entity_text" : "NBD1 variants Hsp104",
+      "features" : [ {
+        "to_base" : "I",
+        "site" : 187,
+        "feature_type" : "mutation",
+        "evidence" : "I187F"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The NBD1 variants Hsp104 I187F, Hsp104 I230N, Hsp104 Q347L, and Hsp104 E360K reduced cytoplasmic TDP-43 foci and increased nuclear localization (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T15:49:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:59Z",
+  "trigger" : "increased",
+  "evidence" : [ "NBD1 variants Hsp104 I187F , Hsp104 I230N , Hsp104 Q347L , and Hsp104 E360K  reduced cytoplasmic TDP-43 foci and increased nuclear localization" ],
+  "pmc_id" : "6750954",
+  "score" : 0
+}
