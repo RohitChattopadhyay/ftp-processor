@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05923",
+      "entity_text" : "DUSP2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14526",
+      "entity_text" : "HIC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000902" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "HIC1 directly bound and positively regulated the expression of several important Treg cell associated genes, including DUSP2, DUSP5, TIGIT, and CTLA4.",
+  "reading_complete" : "2020-08-08T15:26:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:23:32Z",
+  "trigger" : "bound",
+  "evidence" : [ "HIC1 directly bound and positively regulated the expression of several important Treg cell-associated genes, including DUSP2" ],
+  "pmc_id" : "5842026",
+  "score" : 0
+}

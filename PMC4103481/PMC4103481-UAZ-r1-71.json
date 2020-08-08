@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "MiR-9 expression was detected first using TSA-Cy3 method (Perkin Elmer) while acetylated tubulin expression was detected using anti-mouse Alexa 568 secondary antibody (1:500, Roche).",
+  "reading_complete" : "2020-08-08T15:23:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:21:20Z",
+  "trigger" : "expression",
+  "evidence" : [ "tubulin expression" ],
+  "pmc_id" : "4103481",
+  "score" : 0
+}

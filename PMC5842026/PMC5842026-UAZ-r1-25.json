@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00788",
+      "entity_text" : "RA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0002509" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000902" ]
+    }
+  },
+  "verbose_text" : "The CNS1 region also harbors RA response element, suggesting that RA signaling may potentiate efficient Treg generation in the periphery, especially in the intestine, in which stromal cells and CD103 + dendritic cells (DCs) within mesenteric lymph node (mLN) and intestine express high levels of RA synthesizing the enzyme retinaldehyde dehydrogenase (RALDH2).",
+  "reading_complete" : "2020-08-08T15:26:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:23:32Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of RA" ],
+  "pmc_id" : "5842026",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammatory response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14526",
+      "entity_text" : "HIC1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Thus, in line with these findings, our results suggest that increased HIC1 expression in iTreg cells may limit the Th1/2 inflammatory response by keeping CIITA expression low.",
+  "reading_complete" : "2020-08-08T15:26:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:23:32Z",
+  "trigger" : "limit",
+  "evidence" : [ "HIC1 expression in iTreg cells may limit the Th1/2 inflammatory response" ],
+  "pmc_id" : "5842026",
+  "score" : 0
+}
