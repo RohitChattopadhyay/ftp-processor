@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07666",
+      "entity_text" : "Sam68",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "This model is supported by our transection experiments, which show that removing the soma abolishes proximal mGluR-LTD in KO mice because of the loss of both Sam68 dependent and Sam68 independent mechanisms but not in WT mice because of redundancy from Sam68.",
+  "reading_complete" : "2020-08-08T15:17:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:04Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of both Sam68" ],
+  "pmc_id" : "6871770",
+  "score" : 0
+}

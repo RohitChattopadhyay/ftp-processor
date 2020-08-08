@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:446200",
+      "entity_text" : "poly(U)",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07666",
+      "entity_text" : "Sam68",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "A systematic evolution of ligands by exponential enrichment experiment found that Sam68 preferentially binds to UAAA and poly (U) sequences.",
+  "reading_complete" : "2020-08-08T15:17:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:04Z",
+  "trigger" : "binds",
+  "evidence" : [ "Sam68 preferentially binds to UAAA and poly(U)" ],
+  "pmc_id" : "6871770",
+  "score" : 0
+}

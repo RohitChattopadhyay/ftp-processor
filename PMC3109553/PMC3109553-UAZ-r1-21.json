@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6326969",
+      "entity_text" : "phosphonate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75928",
+      "entity_text" : "DIP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The fact that DIP repressed the level of phnD transcripts likely differs from what has been observed for the N fixing cyanobacterium Trichodesmium IMS101, as DIP addition did not inhibit phosphonate utilization in culture.",
+  "reading_complete" : "2020-08-08T15:16:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:15:40Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "DIP addition did not inhibit phosphonate" ],
+  "pmc_id" : "3109553",
+  "score" : 0
+}

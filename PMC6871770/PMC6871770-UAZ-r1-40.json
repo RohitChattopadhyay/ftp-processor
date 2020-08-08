@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07666",
+      "entity_text" : "Sam68",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:1990635" ]
+    }
+  },
+  "verbose_text" : "These effects were not observed for CaMKIIalpha mRNA, and FUNCAT experiments show that the loss of Sam68 does not globally affect translation, suggesting specific activity.",
+  "reading_complete" : "2020-08-08T15:17:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:04Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Sam68" ],
+  "pmc_id" : "6871770",
+  "score" : 0
+}

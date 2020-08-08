@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ13120",
+      "entity_text" : "core genes",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In addition, the expression of core genes from these two enriched hallmark gene sets was gradually downregulated during AM maturation (XREF_FIG B), suggesting postnatal adaptation of AMs to oxygen.",
+  "reading_complete" : "2020-08-08T15:13:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:11:11Z",
+  "trigger" : "downregulated",
+  "evidence" : [ "core genes from these two enriched hallmark gene sets was gradually downregulated during AM maturation ( XREF_FIG B), suggesting postnatal adaptation of AMs to oxygen" ],
+  "pmc_id" : "6113928",
+  "score" : 0
+}

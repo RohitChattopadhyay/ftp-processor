@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07666",
+      "entity_text" : "Sam68",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "Western blots of microdissected hippocampal tissue confirmed that previously validated shRNA shS68 reduced Sam68 protein levels (XREF_FIG), and RNA immunoprecipitation (IP) confirmed that Sam68 associates with Arc mRNA but not with non cargo CaMKIIalpha or MAP2 mRNAs (XREF_FIG).",
+  "reading_complete" : "2020-08-08T15:17:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "Sam68 protein levels" ],
+  "pmc_id" : "6871770",
+  "score" : 0
+}
