@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser133",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:CREB",
+      "entity_text" : "CREB",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "PGC1alpha was markedly induced, concurrent with an increase in CREB phosphorylation at Ser133 and a decrease in AMPK phosphorylation at Thr172 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T19:13:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:12:30Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "CREB phosphorylation at Ser133" ],
+  "pmc_id" : "5926788",
+  "score" : 0
+}

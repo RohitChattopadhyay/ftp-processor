@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because cell size and GFP expression levels differ greatly between NBs and GMCs / neurons, we FACS sorted for cell size using forward scattering and for fluorescence intensity.",
+  "reading_complete" : "2020-08-08T19:12:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:10:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "GFP expression levels" ],
+  "pmc_id" : "3828055",
+  "score" : 0
+}

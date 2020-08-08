@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0043696",
+      "entity_text" : "dedifferentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9LMX7",
+      "entity_text" : "Klu",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Continued expression of Klu leads to dedifferentiation of INPs into an NB like fate and the formation of a brain tumor.",
+  "reading_complete" : "2020-08-08T19:12:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:10:27Z",
+  "trigger" : "leads",
+  "evidence" : [ "Klu leads to dedifferentiation" ],
+  "pmc_id" : "3828055",
+  "score" : 0
+}

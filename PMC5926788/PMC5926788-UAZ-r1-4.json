@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBK2",
+      "entity_text" : "PGC1alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Blocking mitochondrial biogenesis using mdivi1 or by silencing PGC1alpha abrogates differentiation; conversely, overexpression of PGC1alpha elicits differentiation.",
+  "reading_complete" : "2020-08-08T19:13:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:12:30Z",
+  "trigger" : "elicits",
+  "evidence" : [ "PGC1alpha elicits differentiation" ],
+  "pmc_id" : "5926788",
+  "score" : 0
+}
