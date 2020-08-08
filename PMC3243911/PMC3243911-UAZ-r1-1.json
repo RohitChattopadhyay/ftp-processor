@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27392",
+      "entity_text" : "proteins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00559",
+      "entity_text" : "Vif",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1061" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "Vif binds the A3 proteins and serves as a substrate receptor to recruit the Cul5 based E3 ubiquitin (Ub) ligase complex, which facilitates the polyubiquitination and subsequent proteasome mediated degradation.",
+  "reading_complete" : "2020-08-08T17:46:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:45:01Z",
+  "trigger" : "binds",
+  "evidence" : [ "Vif binds the A3 proteins" ],
+  "pmc_id" : "3243911",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1130",
+      "entity_text" : "thiamine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1639" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "Metabolic clues for intracellular and in vivo replication are the degradation of phosphorylated glucose via the PPP, the utilization of C 3 -bodies as alternative carbon- and energy source, pyruvate as a sink for central metabolism including downstream reactions such as pyruvate decarboxylation, biosynthesis of BCAAs, the availability of thiamine, and the acquisition of host cell derived nitrogen sources including ethanolamine.",
+  "reading_complete" : "2020-08-08T17:45:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:42:21Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated glucose via the PPP, the utilization of C 3 -bodies as alternative carbon- and energy source, pyruvate as a sink for central metabolism including downstream reactions such as pyruvate decarboxylation, biosynthesis of BCAAs, the availability of thiamine" ],
+  "pmc_id" : "3271275",
+  "score" : 0
+}

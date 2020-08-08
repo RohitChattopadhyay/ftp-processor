@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01151",
+      "entity_text" : "Elo",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ17025",
+      "entity_text" : "SLQ motif",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1061" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "The C-terminal half of Vif contains three conserved motifs : (1) the HCCH domain, which chelates zinc mediates the interaction with Cul5; (2) the SLQ motif, which binds elongin C (Elo C); and (3) the PPLP motif, which is important for Vif dimerization and recruitment of A3G, albeit by an unknown mechanism.",
+  "reading_complete" : "2020-08-08T17:46:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:45:01Z",
+  "trigger" : "binds",
+  "evidence" : [ "SLQ motif, which binds elongin C (Elo" ],
+  "pmc_id" : "3243911",
+  "score" : 0
+}

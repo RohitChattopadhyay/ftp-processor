@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD2_3",
+      "entity_text" : "SMAD2/3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0002321" ],
+      "Species" : [ "taxonomy:4081" ]
+    }
+  },
+  "verbose_text" : "Because SMAD2/3 phosphorylation is dynamically regulated and thus might be lost during the hours-long process of tissue digestion and cell sorting, the analysis was performed on freshly sorted cells, as well as sorted cells treated with TGF-beta for 1 hr.",
+  "reading_complete" : "2020-08-08T17:46:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:44:04Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "SMAD2/3 phosphorylation" ],
+  "pmc_id" : "5067280",
+  "score" : 0
+}

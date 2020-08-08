@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10596",
+      "entity_text" : "LADC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11362",
+      "entity_text" : "FGFR1",
+      "features" : [ {
+        "to_base" : "K",
+        "site" : 656,
+        "feature_type" : "mutation",
+        "evidence" : "K656E"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "FGFR1 K656E Expression Promotes Early Transformation of CC10 POS and SPC POS Cells in LADC and Not SCLC.",
+  "reading_complete" : "2020-08-08T17:44:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:41:09Z",
+  "trigger" : "Promotes",
+  "evidence" : [ "FGFR1 K656E  Expression Promotes Early Transformation of CC10 POS  and SPC POS  Cells in LADC" ],
+  "pmc_id" : "7090386",
+  "score" : 0
+}

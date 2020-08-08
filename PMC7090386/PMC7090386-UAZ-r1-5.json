@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:FGFR",
+      "entity_text" : "FGFR",
+      "features" : [ {
+        "to_base" : "K",
+        "site" : 656,
+        "feature_type" : "mutation",
+        "evidence" : "K656E"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of FGFR K656E Promotes Low-Grade NE Lesions.",
+  "reading_complete" : "2020-08-08T17:44:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:41:09Z",
+  "trigger" : "Promotes",
+  "evidence" : [ "FGFR  K656E  Promotes Low-Grade NE" ],
+  "pmc_id" : "7090386",
+  "score" : 0
+}

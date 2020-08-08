@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01116",
+      "entity_text" : "KRAS",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "We have previously observed that forced expression of mutant KRAS is poorly tolerated by SCLC cells, resulting in loss of NE marker profile and acquisition of NSCLC phenotype.",
+  "reading_complete" : "2020-08-08T17:44:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:41:09Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of mutant KRAS" ],
+  "pmc_id" : "7090386",
+  "score" : 0
+}

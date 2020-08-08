@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11362",
+      "entity_text" : "FGFR1",
+      "features" : [ {
+        "to_base" : "K",
+        "site" : 656,
+        "feature_type" : "mutation",
+        "evidence" : "K656E"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000034" ]
+    }
+  },
+  "verbose_text" : "The observation that these peripheral lesions gradually lose FGFR1 K656E expression suggests that FGFR1 plays a role during initiation of these tumors, but subsequently, its expression is poorly tolerated.",
+  "reading_complete" : "2020-08-08T17:44:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:41:09Z",
+  "trigger" : "expression",
+  "evidence" : [ "FGFR1 K656E  expression" ],
+  "pmc_id" : "7090386",
+  "score" : 0
+}

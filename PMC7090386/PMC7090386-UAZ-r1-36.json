@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11362",
+      "entity_text" : "FGFR1",
+      "features" : [ {
+        "to_base" : "K",
+        "site" : 656,
+        "feature_type" : "mutation",
+        "evidence" : "K656E"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12305" ],
+      "Organ" : [ "uberon:UBERON:0001707" ]
+    }
+  },
+  "verbose_text" : "Apparently, CGRP POS cells do not tolerate continuous FGFR1 K656E expression, this in contrast to LADC induced by SPC, CC10, and K14-Cre viruses.",
+  "reading_complete" : "2020-08-08T17:44:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:41:09Z",
+  "trigger" : "expression",
+  "evidence" : [ "FGFR1 K656E  expression" ],
+  "pmc_id" : "7090386",
+  "score" : 0
+}
