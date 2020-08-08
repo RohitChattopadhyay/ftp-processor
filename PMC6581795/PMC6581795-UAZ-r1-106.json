@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60934",
+      "entity_text" : "MRN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14676",
+      "entity_text" : "MDC1",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Also during DSB repair, CK2 has been shown to constitutively phosphorylate MDC1 promoting the recruitment of the MRN (MRE11-RAD50-NBS1) complex to the sites of damage through its interaction with NBS1.",
+  "reading_complete" : "2020-08-08T17:05:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:01:43Z",
+  "trigger" : "promoting",
+  "evidence" : [ "MDC1 promoting the recruitment of the MRN" ],
+  "pmc_id" : "6581795",
+  "score" : 0
+}

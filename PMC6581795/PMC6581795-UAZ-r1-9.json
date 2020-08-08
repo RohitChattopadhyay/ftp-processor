@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BXW9",
+      "entity_text" : "FANCD2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CK2",
+      "entity_text" : "CK2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Because CK2 phosphorylation of FANCD2 regulates the DNA binding and subsequent activation of the FANCD2 / FANCI complex, it is reasonable to speculate that lack of phosphorylation on the 882-898 cluster of FANCD2 could lead to an exacerbated, uncontrolled response of the complex.",
+  "reading_complete" : "2020-08-08T17:05:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:01:43Z",
+  "evidence" : [ "CK2 phosphorylation of FANCD2" ],
+  "pmc_id" : "6581795",
+  "score" : 0
+}

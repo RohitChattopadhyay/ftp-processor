@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00463",
+      "entity_text" : "ICL",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ATR phosphorylates several components of the core complex, such as FANCA, leading to promotion of FANCD2 monoubiquitination and ICL repair.",
+  "reading_complete" : "2020-08-08T17:05:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:01:43Z",
+  "trigger" : "monoubiquitination",
+  "evidence" : [ "monoubiquitination and ICL" ],
+  "pmc_id" : "6581795",
+  "score" : 0
+}
