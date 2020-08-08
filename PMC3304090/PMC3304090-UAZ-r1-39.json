@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95786",
+      "entity_text" : "RIG-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10298" ],
+      "Cellular_component" : [ "uniprot:SL-0263" ]
+    }
+  },
+  "verbose_text" : "On these lines it was also observed that KSHV ORF64 inhibits the tripartite motif protein 25 (TRIM25) mediated ubiquitination of RIG-1, a critical step essential for the initiation of the type I IFN signaling cascade.",
+  "reading_complete" : "2020-08-08T17:31:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:27:15Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of RIG-1" ],
+  "pmc_id" : "3304090",
+  "score" : 0
+}

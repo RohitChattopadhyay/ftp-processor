@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42191",
+      "entity_text" : "pRSK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0019012" ],
+      "Species" : [ "taxonomy:39059" ]
+    }
+  },
+  "verbose_text" : "These complexes help to stabilize the otherwise transient interactions between active phosphorylated pERK and pRSK, also protecting them against cellular phosphatases.",
+  "reading_complete" : "2020-08-08T17:31:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:27:15Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated pERK and pRSK" ],
+  "pmc_id" : "3304090",
+  "score" : 0
+}

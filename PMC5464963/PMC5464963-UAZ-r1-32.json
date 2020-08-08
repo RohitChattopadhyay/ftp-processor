@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P37023",
+      "entity_text" : "ALK1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "ENG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0004452" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Also considering that ENG and ALK1 are physically spaced from each other by the finger / knuckle region of the ligand (XREF_FIG A), this agrees with SPR binding studies suggesting that ENG and ALK1 bind independently and non cooperatively to BMP9.",
+  "reading_complete" : "2020-08-08T17:32:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:28:11Z",
+  "trigger" : "bind",
+  "evidence" : [ "ENG and ALK1 bind" ],
+  "pmc_id" : "5464963",
+  "score" : 0
+}

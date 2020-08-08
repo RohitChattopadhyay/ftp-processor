@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UER7",
+      "entity_text" : "Daxx",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16596",
+      "entity_text" : "BNRF1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:39059" ]
+    }
+  },
+  "verbose_text" : "BNRF1 specifically binds with Daxx, abrogating the association of ATRX (a Daxx interacting partner) with Daxx, preventing the localization of this complex to the PML-NBs.",
+  "reading_complete" : "2020-08-08T17:31:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:27:15Z",
+  "trigger" : "binds",
+  "evidence" : [ "BNRF1 specifically binds with Daxx" ],
+  "pmc_id" : "3304090",
+  "score" : 0
+}

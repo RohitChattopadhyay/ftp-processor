@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05175",
+      "entity_text" : "MTs",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Species" : [ "taxonomy:39059" ]
+    }
+  },
+  "verbose_text" : "In fact, KSHV cellular entry has been shown to induce Rho GTPases leading to acetylation of MTs, promoting MT reorganization and transportation of incoming viral particles to the nucleus.",
+  "reading_complete" : "2020-08-08T17:31:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:27:15Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of MTs" ],
+  "pmc_id" : "3304090",
+  "score" : 0
+}

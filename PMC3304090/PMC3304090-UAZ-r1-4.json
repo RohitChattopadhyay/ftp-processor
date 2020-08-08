@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:RSK",
+      "entity_text" : "RSK",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q37874",
+      "entity_text" : "ORF45",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0019012" ],
+      "Species" : [ "taxonomy:39059" ]
+    }
+  },
+  "verbose_text" : "A more recent study demonstrated that the binding of ORF45 to RSK also augments the association of ERK to RSK, resulting in the generation of high-molecular weight complexes constituted by ORF45, RSK, and ERK.",
+  "reading_complete" : "2020-08-08T17:31:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:27:15Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of ORF45 to RSK" ],
+  "pmc_id" : "3304090",
+  "score" : 0
+}
