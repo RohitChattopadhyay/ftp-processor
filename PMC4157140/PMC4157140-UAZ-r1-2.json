@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04452",
+      "entity_text" : "recombinant transcripts",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The extremely low levels of recombinant APOPT1-HA obtained in cells grown in standard conditions, despite high levels of recombinant transcripts detected by quantitative PCR, suggest active degradation of the protein precursor, possibly via the proteasomal system.",
+  "reading_complete" : "2020-08-08T14:40:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:38:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of recombinant transcripts" ],
+  "pmc_id" : "4157140",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04432",
+      "entity_text" : "F 1 F 0 -ATP synthase (complex V",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "DeltaPsi is eventually utilized by the F 1 F 0 -ATP synthase (complex V) to produce ATP, the universal energy currency of the cell.",
+  "reading_complete" : "2020-08-08T14:40:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:38:41Z",
+  "trigger" : "produce",
+  "evidence" : [ "F 1 F 0 -ATP synthase (complex V) to produce ATP" ],
+  "pmc_id" : "4157140",
+  "score" : 0
+}
