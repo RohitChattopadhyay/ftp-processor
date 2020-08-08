@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41217",
+      "entity_text" : "CD200",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "CD200 shedding was enhanced by PMA stimulation, and the loss of cell surface CD200 could be monitored as a reduction in CD200 cell surface expression by flow cytometry, in parallel with an increase in the detection of sCD200 in the supernatant.",
+  "reading_complete" : "2020-08-08T16:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:45Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of cell surface CD200" ],
+  "pmc_id" : "4844103",
+  "score" : 0
+}
