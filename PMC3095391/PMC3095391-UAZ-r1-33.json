@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "tetherin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16453",
+      "entity_text" : "TMD mutants",
+      "features" : [ {
+        "to_base" : "I",
+        "site" : 19,
+        "feature_type" : "mutation",
+        "evidence" : "I19D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, some TMD mutants (V9D and I19D) did not decrease tetherin from cell surface.",
+  "reading_complete" : "2020-08-08T17:20:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:19:30Z",
+  "trigger" : "decrease",
+  "evidence" : [ "TMD mutants (V9D and I19D) did not decrease tetherin" ],
+  "pmc_id" : "3095391",
+  "score" : 0
+}

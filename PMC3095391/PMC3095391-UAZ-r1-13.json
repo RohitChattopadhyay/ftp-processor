@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "26S",
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01730",
+      "entity_text" : "CD4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Subsequently, CD4 is ubiquitinated and degraded by 26S proteasomes.",
+  "reading_complete" : "2020-08-08T17:20:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:19:30Z",
+  "trigger" : "ubiquitinated",
+  "evidence" : [ "CD4 is ubiquitinated and degraded by 26S" ],
+  "pmc_id" : "3095391",
+  "score" : 0
+}

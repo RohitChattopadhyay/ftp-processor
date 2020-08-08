@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0000910",
+      "entity_text" : "cytokinesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:637511",
+      "entity_text" : "Cinnamaldehyde",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Cinnamaldehyde was suggested to inhibit cytokinesis as a mode of action on B. cereus because cells could not separate although septa were present after division.",
+  "reading_complete" : "2020-08-08T17:24:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:20:35Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "Cinnamaldehyde was suggested to inhibit cytokinesis" ],
+  "pmc_id" : "3265747",
+  "score" : 0
+}

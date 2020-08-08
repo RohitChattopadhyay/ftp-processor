@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "tetherin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12815",
+      "entity_text" : "CTD",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In our experiments, while CTD mutants reduce cell surface tetherin similarly well with WT Vpu, they did not enhance virion production efficiently.",
+  "reading_complete" : "2020-08-08T17:20:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:19:30Z",
+  "trigger" : "reduce",
+  "evidence" : [ "CTD mutants reduce cell surface tetherin" ],
+  "pmc_id" : "3095391",
+  "score" : 0
+}

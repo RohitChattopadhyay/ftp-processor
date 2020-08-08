@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00558",
+      "entity_text" : "Vpu",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1906" ],
+      "Species" : [ "taxonomy:11676" ],
+      "Cellular_component" : [ "go:GO:0019012" ]
+    }
+  },
+  "verbose_text" : "Vpu expression level in HEp2 cells was different among proviral clones in this particular experiment, but virion level was not correlated to the amount of Vpu.",
+  "reading_complete" : "2020-08-08T17:20:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:19:30Z",
+  "trigger" : "level",
+  "evidence" : [ "Vpu expression level" ],
+  "pmc_id" : "3095391",
+  "score" : 0
+}
