@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:HSPA",
+      "entity_text" : "Hsp70",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10809",
+      "entity_text" : "Hsp60",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005618" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Temperature increases interactions between Hsp60 and Hsp70 in the cell wall.",
+  "reading_complete" : "2020-08-08T17:51:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:49:12Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between Hsp60 and Hsp70" ],
+  "pmc_id" : "3220077",
+  "score" : 0
+}

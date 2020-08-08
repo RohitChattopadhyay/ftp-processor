@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92574",
+      "entity_text" : "Tsc1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0845" ],
+      "Organ" : [ "uberon:UBERON:2000092" ],
+      "CellType" : [ "cl:CL:0000121" ]
+    }
+  },
+  "verbose_text" : "Anti-Calbindin staining was performed to identify Purkinje cells while PhosphoS6 staining was performed as a marker for mTOR signaling (increased with loss of Tsc1; reduced with rapamycin administration).",
+  "reading_complete" : "2020-08-08T17:50:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:47:36Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Tsc1" ],
+  "pmc_id" : "6226056",
+  "score" : 0
+}

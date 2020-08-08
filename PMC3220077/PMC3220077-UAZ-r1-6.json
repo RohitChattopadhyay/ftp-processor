@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "uniprot:SL-0206" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The protective response mediated by these mAbs was associated with enhanced levels of IL-4, IL-6, and IFN-gamma in the lungs of infected mice.",
+  "reading_complete" : "2020-08-08T17:51:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:49:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-4, IL-6" ],
+  "pmc_id" : "3220077",
+  "score" : 0
+}

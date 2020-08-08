@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CY06",
+      "entity_text" : "alpha-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005618" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "Species" : [ "taxonomy:4932" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "In an in vivo model, loss of alpha-1,3-glucan resulted in a substantial reduction in lung colonization, suggesting that alpha-1,3-glucan might be a virulence determinant designed specifically for survival and replication in murine respiratory infection models.",
+  "reading_complete" : "2020-08-08T17:51:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:49:12Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of alpha-1" ],
+  "pmc_id" : "3220077",
+  "score" : 0
+}
