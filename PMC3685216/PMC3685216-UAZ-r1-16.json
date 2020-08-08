@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60343",
+      "entity_text" : "AS160",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "These studies suggest that AS160 is involved in retaining GLUT4 within the cytosol, whereas AS160 phosphorylation and its binding to 14-3-3 is required for insulin to stimulate GLUT4 translocation on to the cell surface.",
+  "reading_complete" : "2020-08-08T18:25:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:21:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "AS160 phosphorylation" ],
+  "pmc_id" : "3685216",
+  "score" : 0
+}

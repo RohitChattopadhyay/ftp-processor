@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05175",
+      "entity_text" : "MTS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:40469134",
+      "entity_text" : "doxorubicin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The CI 50 value was defined as the concentration of compound 160a or doxorubicin that produced a 50% reduction in the MTS signal compared with the vehicle control.",
+  "reading_complete" : "2020-08-08T18:08:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:01:01Z",
+  "trigger" : "produced",
+  "evidence" : [ "doxorubicin that produced a 50% reduction in the MTS" ],
+  "pmc_id" : "6955663",
+  "score" : 0
+}

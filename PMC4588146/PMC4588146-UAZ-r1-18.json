@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06458",
+      "entity_text" : "miR-33-5p",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06465",
+      "entity_text" : "Statins",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Statins are known to increase SREBP2 and miR-33-5p expression [XREF_BIBR], therefore, individuals taking statins will likely have consistently low levels of miR-33-5p target genes, including those involved in bile acid export, which may lead to increased hepatic cholesterol accumulation, a known side effect of statins.",
+  "reading_complete" : "2020-08-08T18:43:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:34:21Z",
+  "trigger" : "increase",
+  "evidence" : [ "Statins are known to increase SREBP2 and miR-33-5p" ],
+  "pmc_id" : "4588146",
+  "score" : 0
+}

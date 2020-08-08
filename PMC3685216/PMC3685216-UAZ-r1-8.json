@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Organ" : [ "uberon:UBERON:0001386" ]
+    }
+  },
+  "verbose_text" : "Despite having lower blood glucose levels under both fasted and random fed conditions, the AS160-knockout mice exhibited insulin resistance in both muscle and liver in a euglycaemic clamp study.",
+  "reading_complete" : "2020-08-08T18:25:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:21:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "3685216",
+  "score" : 0
+}

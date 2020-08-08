@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12682",
+      "entity_text" : "flavodoxin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02931",
+      "entity_text" : "CoA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005739" ]
+    }
+  },
+  "verbose_text" : "In Klebsiella pneumoniae, CoA binding to flavodoxin NifF was found to halt the N 2 fixation by blocking electron transfer from pyruvate-flavodoxin oxidoreductase NifJ to nitrogenase NifH [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:21:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:14:31Z",
+  "trigger" : "binding",
+  "evidence" : [ "CoA binding to flavodoxin" ],
+  "pmc_id" : "5989533",
+  "score" : 0
+}

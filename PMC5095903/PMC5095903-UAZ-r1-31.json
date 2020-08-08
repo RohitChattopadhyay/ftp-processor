@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92551",
+      "entity_text" : "IP6K1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:44689" ]
+    }
+  },
+  "verbose_text" : "The loss of IP6K1 leads to reduced interaction of IC with p150 Glued and decreased dynein recruitment to cellular membranes.",
+  "reading_complete" : "2020-08-08T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:35Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of IP6K1" ],
+  "pmc_id" : "5095903",
+  "score" : 0
+}

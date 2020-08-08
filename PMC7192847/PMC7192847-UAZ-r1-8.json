@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBK2",
+      "entity_text" : "PGC-1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "mRNA expression levels of PGC-1alpha, a major regulator of mitochondrial biogenesis, were significantly decreased in the prelimbic (t (6) = 2.563, P = 0.043), but not infralimbic (t (6) = 1.254, P = 0.257), mPFC of SIRT1 Emx1-KO mice.",
+  "reading_complete" : "2020-08-08T18:29:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:25:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PGC-1alpha" ],
+  "pmc_id" : "7192847",
+  "score" : 0
+}

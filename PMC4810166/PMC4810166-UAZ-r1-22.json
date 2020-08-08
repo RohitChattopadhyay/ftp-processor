@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000763" ]
+    }
+  },
+  "verbose_text" : "However, data are rudimentary and even contradictory : in GH treated growth deficient children altered metabolic parameters including TNF-alpha levels are reported e.g., [XREF_BIBR], and modulation of cytokines by GH at high doses is suggested to be involved in adverse consequences in critically ill patients, such as septic shock and uncontrolled infections [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:17:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:08:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "TNF-alpha levels" ],
+  "pmc_id" : "4810166",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6329",
+      "entity_text" : "methyl group",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "One major form of epigenetic modification is DNA methylation that involves the enzymatic addition of a methyl group to the carbon-five position on cytosine residues.",
+  "reading_complete" : "2020-08-08T18:48:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:45:33Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation that involves the enzymatic addition of a methyl group" ],
+  "pmc_id" : "5378805",
+  "score" : 0
+}

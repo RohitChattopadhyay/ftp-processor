@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14672",
+      "entity_text" : "GLUT4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, overexpression of GLUT4 in muscle and fat causes increased hepatic insulin actions in the fasted transgenic mice [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:25:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:21:07Z",
+  "trigger" : "increased",
+  "evidence" : [ "GLUT4 in muscle and fat causes increased hepatic insulin" ],
+  "pmc_id" : "3685216",
+  "score" : 0
+}

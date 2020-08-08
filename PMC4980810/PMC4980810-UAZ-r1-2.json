@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Tyr 223",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95433",
+      "entity_text" : "Aha1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06187",
+      "entity_text" : "c-Abl kinase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The phosphorylation of human Aha1 at Tyr 223 by c-Abl kinase has been reported [XREF_BIBR] and appears to promote its interaction with Hsp90.",
+  "reading_complete" : "2020-08-08T18:09:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:56:35Z",
+  "evidence" : [ "phosphorylation of human Aha1 at Tyr 223  by c-Abl kinase" ],
+  "pmc_id" : "4980810",
+  "score" : 0
+}
