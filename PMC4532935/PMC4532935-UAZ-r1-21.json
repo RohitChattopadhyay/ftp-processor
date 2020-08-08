@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18827",
+      "entity_text" : "SDC-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Active disease risk was found to be 71.5 times higher in patients with SDC-1 level> = 52.5 ng/mL compared to patients below this value (OR = 71.5, 95% CI : 11.9-428.2).",
+  "reading_complete" : "2020-08-08T11:38:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:36:32Z",
+  "trigger" : "level",
+  "evidence" : [ "SDC-1 level" ],
+  "pmc_id" : "4532935",
+  "score" : 0
+}
