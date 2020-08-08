@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29481",
+      "entity_text" : "TCPC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01445",
+      "entity_text" : "SH",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Similarly, SH 1000hPa associated positively to TCPC (r S = 0.167) without statistics significance.",
+  "reading_complete" : "2020-08-08T10:59:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:57:30Z",
+  "trigger" : "associated",
+  "evidence" : [ "SH 1000hPa  associated positively to TCPC" ],
+  "pmc_id" : "7236730",
+  "score" : 0
+}
