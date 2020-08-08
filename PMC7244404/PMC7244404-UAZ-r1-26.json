@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1219" ],
+      "Organ" : [ "uberon:UBERON:0001885" ],
+      "CellType" : [ "cl:CL:0000120" ]
+    }
+  },
+  "verbose_text" : "Thus, chronic fluoxetine treatment likely causes accumulation of nuclear DARPP-32 having phospho-Thr34 / dephospho-Ser97, which in turn inhibits nuclear protein phosphatase 1, resulting in an increase of phosphorylation of histone H3 and transcriptional activation.",
+  "reading_complete" : "2020-08-08T13:55:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of histone H3" ],
+  "pmc_id" : "7244404",
+  "score" : 0
+}

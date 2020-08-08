@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "ERK2",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42261",
+      "entity_text" : "GluA1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001885" ],
+      "CellType" : [ "cl:CL:0000120" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The effects of SKF81297 on the phosphorylation of AMPA receptor GluA1 subunit at Ser845 and ERK2 [XREF_BIBR], downstream targets of PKA signaling, were also enhanced by chronic fluoxetine treatment.",
+  "reading_complete" : "2020-08-08T13:55:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AMPA receptor GluA1 subunit at Ser845 and ERK2" ],
+  "pmc_id" : "7244404",
+  "score" : 0
+}
