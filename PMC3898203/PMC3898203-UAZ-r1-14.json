@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07581",
+      "entity_text" : "lane 2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5G36" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "When analysing the products resulting from the in vitro synthesis of the shortest OPG-TASK-1 fragment, the 85-residue-long E60 truncation, we noted an additional EndoH sensitive product migrating even more slowly than the doubly N glycosylated species (XREF_FIG B, lane 2, filled diamonds).",
+  "reading_complete" : "2020-08-08T20:26:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:15:10Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated species ( XREF_FIG B, lane 2" ],
+  "pmc_id" : "3898203",
+  "score" : 0
+}

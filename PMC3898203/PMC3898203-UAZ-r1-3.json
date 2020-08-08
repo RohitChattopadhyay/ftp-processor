@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12252",
+      "entity_text" : "side",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5G36" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "In the case of the shortest TASK-1 chain analysed, we can even detect some polypeptides that are N glycosylated on each side of TM1, suggesting that a fraction of these molecules can reorient TM1 even after the modification of a flanking region.",
+  "reading_complete" : "2020-08-08T20:26:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:15:10Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated on each side" ],
+  "pmc_id" : "3898203",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14649",
+      "entity_text" : "TASK-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5G36" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Quantification showed that this triply glycosylated form of TASK-1 represented ~ 15 +/-1% of the total N glycosylated products obtained.",
+  "reading_complete" : "2020-08-08T20:26:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:15:10Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated form of TASK-1" ],
+  "pmc_id" : "3898203",
+  "score" : 0
+}

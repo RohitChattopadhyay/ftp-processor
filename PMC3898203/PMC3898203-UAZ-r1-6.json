@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07572",
+      "entity_text" : "TASK-1 chains",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5G36" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Interestingly, a proportion of nascent TASK-1 chains were N glycosylated, suggesting that, for these integration intermediates, Asn 53 has access to the ER lumen (XREF_FIG A, lanes 3 and 4, compare 1g with 0g products).",
+  "reading_complete" : "2020-08-08T20:26:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:15:10Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "TASK-1 chains were N-glycosylated" ],
+  "pmc_id" : "3898203",
+  "score" : 0
+}
