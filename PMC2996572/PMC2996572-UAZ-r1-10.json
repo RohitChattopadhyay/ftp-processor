@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0455" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Moderate elevation was observed in the serum total bilirubin level, although this was also not dose dependent and could have resulted from a higher destruction of the RBCs.",
+  "reading_complete" : "2020-08-08T11:33:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:23Z",
+  "trigger" : "level",
+  "evidence" : [ "bilirubin level" ],
+  "pmc_id" : "2996572",
+  "score" : 0
+}
