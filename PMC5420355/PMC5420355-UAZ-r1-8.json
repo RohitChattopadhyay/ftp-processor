@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03838",
+      "entity_text" : "OGID",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10412",
+      "entity_text" : "HIST1H1E",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We present here data showing that certain HIST1H1E mutations cause OGID.",
+  "reading_complete" : "2020-08-08T14:00:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:57:54Z",
+  "trigger" : "cause",
+  "evidence" : [ "HIST1H1E mutations cause OGID" ],
+  "pmc_id" : "5420355",
+  "score" : 0
+}

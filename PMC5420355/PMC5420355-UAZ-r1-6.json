@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P2X3",
+      "entity_text" : "impact",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "TissueType" : [ "tissuelist:TS-1249" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Protein modeling suggests that the somatic mutations primarily impact DNA binding, whereas the mutations in OGID are more likely to impact histone binding.",
+  "reading_complete" : "2020-08-08T14:00:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:57:54Z",
+  "trigger" : "binding",
+  "evidence" : [ "impact histone binding" ],
+  "pmc_id" : "5420355",
+  "score" : 0
+}
