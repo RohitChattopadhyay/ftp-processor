@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99816",
+      "entity_text" : "TSG101",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2489" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005768" ]
+    }
+  },
+  "verbose_text" : "HFFF2 cell lysates extracted from iC and iRAS cells showed no differences at the endogenous levels of TSG101 or ALIX during senescence, while a clear increase in CD63 and other markers of senescence (p16 INK4A and p21 CIP) were detected (XREF_FIG A and 4B).",
+  "reading_complete" : "2020-08-08T10:40:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:36:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TSG101" ],
+  "pmc_id" : "6613042",
+  "score" : 0
+}

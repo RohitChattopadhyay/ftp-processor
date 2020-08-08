@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0002609" ]
+    }
+  },
+  "verbose_text" : "Pre-incubation with the polyclonal (anti-tau pAb) tau antibody reduced the amount of monomeric tau that entered neurons, as assessed by the number of monomeric tau-pHrodo-containing vesicles (XREF_FIG B; XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:43:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:40:57Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of monomeric tau" ],
+  "pmc_id" : "5896171",
+  "score" : 0
+}
