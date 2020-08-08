@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19838",
+      "entity_text" : "NFkB1",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cytoplasm",
+    "from_location_text" : "nucleus",
+    "hypothesis_information" : true,
+    "from_location_id" : "go:GO:0005634",
+    "to_location_id" : "go:GO:0005737",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Immunofluorescent analysis also showed that ectopic expression of YAP1 or YAP S127A resulted in translocation of IRF3 and NFkB1 from nucleus to cytoplasm in hCerECs, suggesting the transcriptional activity of IRF3 and NFkB1 was inhibited in YAP- and YAP S127A -overexpressed cells.",
+  "reading_complete" : "2020-08-08T08:14:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:10:45Z",
+  "trigger" : "translocation",
+  "evidence" : [ "translocation of IRF3 and NFkB1 from nucleus to cytoplasm" ],
+  "pmc_id" : "6812687",
+  "score" : 0
+}
