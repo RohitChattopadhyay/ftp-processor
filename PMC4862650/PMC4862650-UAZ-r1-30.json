@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eiF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0291" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Jurkat cells treated with ActD +/- alphaFas were harvested hourly over 4 hr and analyzed for housekeeping gene mRNA stability by qRT-PCR, cleavage of PARP-1 and eiF4G by immunoblot, phosphorylation of eiF2alpha by immunoblot, caspase activation by a luminescent assay, annexin V binding, and DNA fragmentation (XREF_FIG).",
+  "reading_complete" : "2020-08-08T08:06:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:04:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of eiF2alpha" ],
+  "pmc_id" : "4862650",
+  "score" : 0
+}

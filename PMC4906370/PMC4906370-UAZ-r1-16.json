@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00101",
+      "entity_text" : "E8.5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00121",
+      "entity_text" : "Runx1b",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Given that higher expression of Runx1 in ETV2 : : GFP + FLK1 + CD41 - cells correlated with higher hemogenic potential at E7.5 when compared to the E8.5 stage, we hypothesized that the expression of Runx1b might potentially restore the ability of E8.5 endothelial progenitor cells to produce hematopoietic cells.",
+  "reading_complete" : "2020-08-08T07:57:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:55:12Z",
+  "trigger" : "restore",
+  "evidence" : [ "Runx1b might potentially restore the ability of E8.5" ],
+  "pmc_id" : "4906370",
+  "score" : 0
+}

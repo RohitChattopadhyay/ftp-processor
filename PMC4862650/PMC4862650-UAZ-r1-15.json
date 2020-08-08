@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08842",
+      "entity_text" : "STS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IYB7",
+      "entity_text" : "DIS3L2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conversely, DIS3L2 overexpression in HeLa significantly increased annexin V staining in response to STS, TRAIL, and tunicamycin (XREF_FIG).",
+  "reading_complete" : "2020-08-08T08:06:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:04:54Z",
+  "trigger" : "increased",
+  "evidence" : [ "DIS3L2 overexpression in HeLa significantly increased annexin V staining in response to STS" ],
+  "pmc_id" : "4862650",
+  "score" : 0
+}

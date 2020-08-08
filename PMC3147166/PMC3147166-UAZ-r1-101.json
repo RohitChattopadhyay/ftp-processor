@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54296",
+      "entity_text" : "M protein",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "The authors went on to provide evidence that M protein is monoubiquitinated on four separate residues, including a lysine within a putative bipartite nuclear localization signal, and that this same lysine is likely to be ubiquitinated in order for M protein to be exported from the nucleus.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "ubiquitinated",
+  "evidence" : [ "ubiquitinated in order for M protein" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

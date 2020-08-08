@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00206",
+      "entity_text" : "haemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "CellType" : [ "cl:CL:0000232" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Following statistical analysis we found no significant correlations between the presence / absence of enteropathy and anaemia markers (haemoglobin level, mean corpuscular volume, haematocrit, erythrocyte count, serum iron, and binding capacity of transferrin) and FOBT positivity.",
+  "reading_complete" : "2020-08-08T07:59:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:22Z",
+  "trigger" : "level",
+  "evidence" : [ "haemoglobin level" ],
+  "pmc_id" : "3870618",
+  "score" : 0
+}

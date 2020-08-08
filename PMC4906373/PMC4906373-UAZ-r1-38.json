@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43583",
+      "entity_text" : "Denr",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0004006" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In mice, Denr and Mcts1 are detected throughout mouse brain development through to young adulthood (postnatal day 30 [P30]), with Denr protein levels increasing with brain age, whereas a peak in Mcts1 protein levels was observed at P10 (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T08:04:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:01:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "Denr protein levels" ],
+  "pmc_id" : "4906373",
+  "score" : 0
+}

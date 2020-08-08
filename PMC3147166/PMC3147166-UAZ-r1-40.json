@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine residues",
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02959",
+      "entity_text" : "Tax",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "Cellular_component" : [ "uniprot:SL-0198" ]
+    }
+  },
+  "verbose_text" : "Ubiquitination of Tax C-terminal lysine residues is necessary for its role in binding and relocalizing IkappaB kinase (IKK) from the cytoplasm to perinuclear regions, which in turn modulates NF-kappaB activation.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "Ubiquitination",
+  "evidence" : [ "Ubiquitination of Tax C-terminal lysine residues" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

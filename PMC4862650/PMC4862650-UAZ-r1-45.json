@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04637",
+      "entity_text" : "eIF4G",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "New protein synthesis is blocked, ostensibly through translation initiation factor alterations that include eIF4G cleavage and eIF2alpha phosphorylation.",
+  "reading_complete" : "2020-08-08T08:06:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:04:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "eIF4G cleavage and eIF2alpha phosphorylation" ],
+  "pmc_id" : "4862650",
+  "score" : 0
+}

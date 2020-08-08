@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07890",
+      "entity_text" : "SOS2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17252",
+      "entity_text" : "PKCalpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "Already within 15 min after monocytic ingestion of wild-type F. novicida, recruitment of PKCalpha and PKCbetaI to the SOS2 / GrB2 complex occurs, leading to activation of Ras.",
+  "reading_complete" : "2020-08-08T07:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:43:56Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of PKCalpha and PKCbetaI to the SOS2" ],
+  "pmc_id" : "3109350",
+  "score" : 0
+}

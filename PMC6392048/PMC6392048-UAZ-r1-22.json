@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NG31",
+      "entity_text" : "KNL1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uaz:UA-ORG-623" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "As opposed to neural progenitors, mutant fibroblasts and neural crest cells, derived from the same parental stem cell lines, did not present a reduction of KNL1 levels, cell growth, or genomic integrity.",
+  "reading_complete" : "2020-08-08T08:05:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:02:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "KNL1 levels" ],
+  "pmc_id" : "6392048",
+  "score" : 0
+}

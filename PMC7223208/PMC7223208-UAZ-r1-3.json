@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0176" ],
+      "Organ" : [ "uberon:UBERON:0001443" ]
+    }
+  },
+  "verbose_text" : "The left ventricular ejection fraction, left ventricular end-diastolic diameter, N-terminal pro B type natriuretic peptide levels, and low-density lipoprotein cholesterol levels were monitored for 8 months.",
+  "reading_complete" : "2020-08-08T08:16:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:15:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "7223208",
+  "score" : 0
+}

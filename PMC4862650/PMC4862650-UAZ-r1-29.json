@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04637",
+      "entity_text" : "eIF4G",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0070062" ]
+    }
+  },
+  "verbose_text" : "However, eiF4G cleavage is dispensable for translation arrest, and eIF2alpha phosphorylation and eIF4G cleavage occur after translation is inhibited.",
+  "reading_complete" : "2020-08-08T08:06:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:04:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and eIF4G" ],
+  "pmc_id" : "4862650",
+  "score" : 0
+}

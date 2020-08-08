@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine residues",
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02959",
+      "entity_text" : "Tax",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10359" ],
+      "Cellular_component" : [ "uniprot:SL-0198" ]
+    }
+  },
+  "verbose_text" : "The sumoylation of Tax on overlapping lysine residues mediates both the development of Tax nuclear bodies (NB) and complete NF-kappaB activation.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "sumoylation",
+  "evidence" : [ "sumoylation of Tax on overlapping lysine residues" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

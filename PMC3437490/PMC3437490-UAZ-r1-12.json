@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00219",
+      "entity_text" : "PfRab5B",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00227",
+      "entity_text" : "PfCK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:5811" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "Under the conditions used, the shared sequence identity between the three PfRab5 isoforms did not prevent specific binding of PfCK1 to PfRab5B, or PfPKA-C to PfRab5A.",
+  "reading_complete" : "2020-08-08T07:53:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:42Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of PfCK1 to PfRab5B" ],
+  "pmc_id" : "3437490",
+  "score" : 0
+}

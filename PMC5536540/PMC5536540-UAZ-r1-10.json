@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08571",
+      "entity_text" : "CD14",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_F568" ],
+      "TissueType" : [ "tissuelist:TS-0996" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For each analysis, 10 4 events were gated on CD14 expression and a light-scatter gate, designed to either include only viable cells (surface markers determination) or exclude cellular debris (determination of intracellular cytokine production).",
+  "reading_complete" : "2020-08-08T08:13:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:11:59Z",
+  "trigger" : "expression",
+  "evidence" : [ "CD14 expression" ],
+  "pmc_id" : "5536540",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0665" ],
+      "Cellular_component" : [ "go:GO:0043657" ]
+    }
+  },
+  "verbose_text" : "These ATPases have been shown to have significant sequence orthology to the beta subunit of the F 0 F 1 ATPase, and to hydrolyze ATP.",
+  "reading_complete" : "2020-08-08T07:57:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:55:58Z",
+  "trigger" : "hydrolyze",
+  "evidence" : [ "hydrolyze ATP" ],
+  "pmc_id" : "3109343",
+  "score" : 0
+}

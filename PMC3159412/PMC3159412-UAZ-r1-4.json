@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00794",
+      "entity_text" : "c-di-GMP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B8NVB7",
+      "entity_text" : "PelD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:2336" ]
+    }
+  },
+  "verbose_text" : "PelD binds c-di-GMP and point mutants that abrogate this binding prevent polymer formation.",
+  "reading_complete" : "2020-08-08T07:53:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:50:08Z",
+  "trigger" : "binds",
+  "evidence" : [ "PelD binds c-di-GMP" ],
+  "pmc_id" : "3159412",
+  "score" : 0
+}

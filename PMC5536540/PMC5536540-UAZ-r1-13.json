@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42081",
+      "entity_text" : "CD86",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There was a significant negative correlation between DAS and ILT4 levels (r = -0.699; P = 0.11; XREF_FIG), and a significant positive correlation between DAS and CD86 levels (r = 0.626, P = 0.03; XREF_FIG).",
+  "reading_complete" : "2020-08-08T08:13:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:11:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "CD86 levels" ],
+  "pmc_id" : "5536540",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "IFN",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00471",
+      "entity_text" : "IFNs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Normally, the secreted IFNs bind to IFN receptors on adjacent cells, resulting in the activation of the JAK-STAT pathway in these cells (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T08:14:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:10:45Z",
+  "trigger" : "bind",
+  "evidence" : [ "IFNs bind to IFN" ],
+  "pmc_id" : "6812687",
+  "score" : 0
+}

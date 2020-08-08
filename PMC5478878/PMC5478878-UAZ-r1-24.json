@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06400",
+      "entity_text" : "pRb",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9771" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The interaction between H1 histone and pRb occurs on chromatin and augments the binding of pRb to E2F target gene promoters.",
+  "reading_complete" : "2020-08-08T08:02:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:58:02Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between H1 histone and pRb" ],
+  "pmc_id" : "5478878",
+  "score" : 0
+}

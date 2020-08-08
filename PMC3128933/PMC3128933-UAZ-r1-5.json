@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13938",
+      "entity_text" : "CAPs",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1001",
+      "entity_text" : "PEA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "With respect to CAPs, loss of PEA from lipid A would enhance ionic interaction of positively charged groups in CAPs with phosphates at the 1 and 4 ' positions of lipid A that become available, resulting in enhanced susceptibility of gonococci to CAPs.",
+  "reading_complete" : "2020-08-08T07:50:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:48:50Z",
+  "trigger" : "enhance",
+  "evidence" : [ "PEA from lipid A would enhance ionic interaction of positively charged groups in CAPs" ],
+  "pmc_id" : "3128933",
+  "score" : 0
+}

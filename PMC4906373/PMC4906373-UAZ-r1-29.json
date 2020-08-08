@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43583",
+      "entity_text" : "DENR",
+      "features" : [ {
+        "to_base" : "C",
+        "site" : 37,
+        "feature_type" : "mutation",
+        "evidence" : "C37Y"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "We first characterized both FLAG tagged DENR C37Y and DENR P121L protein expression in E14.5-born CP neurons within the E17.5 cortex by electroporation and observed that their cellular localization is similar to FLAG-DENR (WT; XREF_SUPPLEMENTARY E).",
+  "reading_complete" : "2020-08-08T08:04:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:01:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "DENR C37Y and DENR P121L protein expression" ],
+  "pmc_id" : "4906373",
+  "score" : 0
+}

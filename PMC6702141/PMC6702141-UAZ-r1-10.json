@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q1MSJ5",
+      "entity_text" : "CSPP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60308",
+      "entity_text" : "CEP104",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellLine" : [ "cellosaurus:CVCL_4388" ],
+      "Cellular_component" : [ "go:GO:0005930" ],
+      "Organ" : [ "uberon:UBERON:0001785" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "However, CEP104 is not required for the ciliary recruitment of CSPP1, indicating that an intra-ciliary CEP104 - CSPP1 complex controls axoneme length and Hedgehog signaling competence.",
+  "reading_complete" : "2020-08-08T08:10:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:05:44Z",
+  "trigger" : "complex",
+  "evidence" : [ "CEP104-CSPP1 complex" ],
+  "pmc_id" : "6702141",
+  "score" : 0
+}

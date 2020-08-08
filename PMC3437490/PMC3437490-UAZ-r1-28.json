@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00250",
+      "entity_text" : "PfRab7+",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00263",
+      "entity_text" : "PfPKA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:5833" ],
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Cellular_component" : [ "go:GO:0031982" ]
+    }
+  },
+  "verbose_text" : "These physical interactions suggest a mechanism of recruitment of PfCK1 to PfRab5B+ compartments and PfPKA to PfRab5A+ and PfRab7+ vesicles.",
+  "reading_complete" : "2020-08-08T07:53:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:42Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of PfCK1 to PfRab5B+ compartments and PfPKA to PfRab5A+ and PfRab7+" ],
+  "pmc_id" : "3437490",
+  "score" : 0
+}

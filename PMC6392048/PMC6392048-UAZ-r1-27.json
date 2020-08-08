@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NG31",
+      "entity_text" : "KNL1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These data suggest that global reduction in KNL1 expression, independent of the mutated protein sequence, is sufficient to cause premature differentiation and reduced size.",
+  "reading_complete" : "2020-08-08T08:05:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:02:58Z",
+  "trigger" : "cause",
+  "evidence" : [ "KNL1 expression, independent of the mutated protein sequence, is sufficient to cause premature differentiation" ],
+  "pmc_id" : "6392048",
+  "score" : 0
+}

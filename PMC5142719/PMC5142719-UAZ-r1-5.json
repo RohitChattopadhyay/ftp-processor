@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "urea",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E012" ],
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Organ" : [ "uberon:UBERON:0000174" ],
+      "Species" : [ "taxonomy:9913" ]
+    }
+  },
+  "verbose_text" : "Emissions of N 2 O can occur from nitrification of the ammonium (NH 4 +) formed from the hydrolysis of urea in the urine, and/or from denitrification of the nitrite (NO 2 -) and nitrate (NO 3 -) resulting from nitrification of the ammonium; the dominant process will depend on the environmental conditions.",
+  "reading_complete" : "2020-08-08T08:16:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:13:28Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of urea" ],
+  "pmc_id" : "5142719",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04206",
+      "entity_text" : "RelA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0019015" ]
+    }
+  },
+  "verbose_text" : "Recent evidence suggests that ORF73 's abilities to both assemble with an ElonginC/Cul5/suppressor of cytokine signaling (SOCS) - like complex and effect the ubiquitination and degradation of RelA / NF-kappaB may be responsible for maintaining viral infection.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination and degradation of RelA" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

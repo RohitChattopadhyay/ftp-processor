@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:161500",
+      "entity_text" : "air",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00161",
+      "entity_text" : "WRF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "HAWQS-SWAT WRF : for this simulation, climate inputs (daily precipitation, maximum and minimum air temperature) were replaced with WRF produced daily precipitation, maximum and minimum air temperature, and solar radiation; the rest of the inputs remain the same as the above simulation (HAWQS-SWAT).",
+  "reading_complete" : "2020-08-08T07:48:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:46:05Z",
+  "trigger" : "produced",
+  "evidence" : [ "WRF-produced daily precipitation, maximum and minimum air" ],
+  "pmc_id" : "6638569",
+  "score" : 0
+}

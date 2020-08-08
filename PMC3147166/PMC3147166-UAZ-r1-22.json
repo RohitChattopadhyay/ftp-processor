@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15966",
+      "entity_text" : "F-box",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BRG2",
+      "entity_text" : "NSP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition to its ability to degrade IRF3 (see above), the rotavirus NSP1 protein also mediates the ubiquitination and degradation of the cellular E3 Ub ligase F-box protein beta-transducin repeating containing protein (betaTrCP), which regulates NF-kappaB activation via the degradation of the NF-kappaB inhibitor IkappaB.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "mediates",
+  "evidence" : [ "NSP1 protein also mediates the ubiquitination and degradation of the cellular E3 Ub ligase F-box" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}
