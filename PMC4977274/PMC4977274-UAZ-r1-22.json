@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11166",
+      "entity_text" : "Glut1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To confirm that increased Glut1 expression was mediating increased glucose uptake, we pulsed virus specific T cells with the fluorescent glucose analog 2-NBDG at the end of culture.",
+  "reading_complete" : "2020-08-08T12:14:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:13:01Z",
+  "trigger" : "mediating",
+  "evidence" : [ "Glut1 expression was mediating increased glucose" ],
+  "pmc_id" : "4977274",
+  "score" : 0
+}
