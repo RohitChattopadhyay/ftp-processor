@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "The inhibitory effect of Vpu is dominant over the stimulatory effect of Nef (XREF_FIG), and vpu defective HIV-1 constructs induce substantially higher levels of NF-kappaB activity (XREF_FIG) as well as IFNbeta and ISG expression (XREF_FIG) in infected T cells than the corresponding wild-type viruses.",
+  "reading_complete" : "2020-08-08T19:37:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:35:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NF-kappaB" ],
+  "pmc_id" : "4682570",
+  "score" : 0
+}

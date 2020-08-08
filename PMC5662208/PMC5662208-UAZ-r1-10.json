@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ19174",
+      "entity_text" : "RAG2-S365",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "ATM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Here, we provide strong evidence to support a model, in which ATM mediated phosphorylation of RAG2-S365 occurs downstream of the initial V (D) J recombination event to restrain RAG activity and specifically prevent the introduction of further breaks on other alleles and loci until repair of the first cleavage event has occurred.",
+  "reading_complete" : "2020-08-08T19:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:28Z",
+  "trigger" : "mediated",
+  "evidence" : [ "ATM-mediated phosphorylation of RAG2-S365" ],
+  "pmc_id" : "5662208",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006281",
+      "entity_text" : "DNA repair",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55895",
+      "entity_text" : "RAG2",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 365,
+        "feature_type" : "mutation",
+        "evidence" : "S365A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Together, these experiments reveal that, in contrast to ATM deficiency or an absence of the C terminus of RAG2 (coreRAG2 1-383, RAG2-352, or RAG2-FS361), mutant RAG2 S365A deregulates cleavage independent of a defect in DNA repair.",
+  "reading_complete" : "2020-08-08T19:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:28Z",
+  "trigger" : "deregulates",
+  "evidence" : [ "RAG2-S365A deregulates cleavage independent of a defect in DNA repair" ],
+  "pmc_id" : "5662208",
+  "score" : 0
+}

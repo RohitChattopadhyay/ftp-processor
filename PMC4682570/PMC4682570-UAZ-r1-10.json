@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00558",
+      "entity_text" : "Vpu",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ19129",
+      "entity_text" : "DSGxxS beta-TrCP interaction motif",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Most importantly, mutations in the two-serine phosphorylation sites in the DSGxxS beta-TrCP interaction motif did not reduce the ability of HIV-1 (NL4-3, CH106) and SIVcpz (EK505) Vpu proteins to suppress IFNbeta promoter activity.",
+  "reading_complete" : "2020-08-08T19:37:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:35:27Z",
+  "trigger" : "reduce",
+  "evidence" : [ "DSGxxS beta-TrCP interaction motif did not reduce the ability of HIV-1 (NL4-3, CH106) and SIVcpz (EK505) Vpu" ],
+  "pmc_id" : "4682570",
+  "score" : 0
+}

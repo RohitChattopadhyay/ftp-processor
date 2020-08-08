@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00558",
+      "entity_text" : "Vpu",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28020",
+      "entity_text" : "CKII",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since p65 and Vpu are both phosphorylated by CKII, we also examined whether phosphorylation of p65 at Ser529, a known target of CKII, is inhibited by Vpu, but we found that this was not the case (XREF_FIG and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:37:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:35:27Z",
+  "evidence" : [ "Vpu are both phosphorylated by CKII" ],
+  "pmc_id" : "4682570",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10555",
+      "entity_text" : "Igk",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55895",
+      "entity_text" : "RAG2",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 365,
+        "feature_type" : "mutation",
+        "evidence" : "S365D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As initial controls, we verified that the S365D and S365E mutants of RAG2 were able to carry out mono-allelic cleavage of Igk under normal conditions and did not induce significant bi-allelic cleavage of Igk or cleavage of Igl on their own (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:28Z",
+  "trigger" : "induce",
+  "evidence" : [ "RAG2 were able to carry out mono-allelic cleavage of Igk under normal conditions and did not induce significant bi-allelic cleavage of Igk" ],
+  "pmc_id" : "5662208",
+  "score" : 0
+}

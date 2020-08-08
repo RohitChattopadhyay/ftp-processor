@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02339",
+      "entity_text" : "H3K4me3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q40704",
+      "entity_text" : "RAG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although RAG is found throughout euchromatic regions of the nucleus (XREF_FIG) and is bound genome wide to H3K4me3 enriched sites, we know that RAG cleavage is inherently inefficient because breaks are detected on target loci in approximately 20% or less of cells.",
+  "reading_complete" : "2020-08-08T19:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:28Z",
+  "trigger" : "bound",
+  "evidence" : [ "RAG is found throughout euchromatic regions of the nucleus ( XREF_FIG ) and is bound genome wide to H3K4me3" ],
+  "pmc_id" : "5662208",
+  "score" : 0
+}

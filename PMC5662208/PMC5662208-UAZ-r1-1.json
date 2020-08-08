@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S365",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55895",
+      "entity_text" : "RAG2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "ATM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Finally, to demonstrate that ATM can phosphorylate the S365 site on RAG2, we used peptides that encompass either the wild-type S365 amino acid or its mutant S365A.",
+  "reading_complete" : "2020-08-08T19:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:28Z",
+  "evidence" : [ "ATM can phosphorylate the S365 site on RAG2" ],
+  "pmc_id" : "5662208",
+  "score" : 0
+}

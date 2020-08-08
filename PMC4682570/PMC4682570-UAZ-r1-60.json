@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellLine" : [ "cellosaurus:CVCL_1714" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "This cell line, named SupD1, was infected with VSV-G pseudotyped HIV-1 M molecular clones as well as vpu defective mutants thereof, and the levels of NF-kappaB- dependent luciferase activity were measured at different times posttransduction.",
+  "reading_complete" : "2020-08-08T19:37:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:35:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NF-kappaB- dependent luciferase" ],
+  "pmc_id" : "4682570",
+  "score" : 0
+}

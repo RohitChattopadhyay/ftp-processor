@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residues",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00558",
+      "entity_text" : "Vpu",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CK2",
+      "entity_text" : "casein kinase II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This effect was proposed to be dependent on a DSGxxS motif in Vpu that is phosphorylated at the serine residues by casein kinase II (CKII) and interacts with beta-TrCP to recruit the E3 ubiquitinligase SCF (Skp1, Cullin, F-box) complex.",
+  "reading_complete" : "2020-08-08T19:37:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:35:27Z",
+  "evidence" : [ "Vpu that is phosphorylated at the serine residues by casein kinase II" ],
+  "pmc_id" : "4682570",
+  "score" : 0
+}

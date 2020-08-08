@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S365",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55895",
+      "entity_text" : "RAG2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "They conclude that this kinase can phosphorylate RAG2 at the conserved S365 residue in vitro, which in malignant glioblastoma cells may downregulate RAG recombinase activity on an artificial recombination substrate.",
+  "reading_complete" : "2020-08-08T19:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:28Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate RAG2 at the conserved S365" ],
+  "pmc_id" : "5662208",
+  "score" : 0
+}

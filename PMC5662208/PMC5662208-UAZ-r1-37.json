@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55895",
+      "entity_text" : "RAG2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As seen in XREF_SUPPLEMENTARY, levels of these two mutant RAG2 proteins were similar to wild-type RAG2.",
+  "reading_complete" : "2020-08-08T19:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of these two mutant RAG2" ],
+  "pmc_id" : "5662208",
+  "score" : 0
+}
