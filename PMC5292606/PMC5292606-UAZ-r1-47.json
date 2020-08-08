@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24316",
+      "entity_text" : "cGMP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Oral treatment with plecanatide (2.5 mg/kg) completely restored the DSS mediated reduction in cGMP levels.",
+  "reading_complete" : "2020-08-08T17:10:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:05:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "cGMP levels" ],
+  "pmc_id" : "5292606",
+  "score" : 0
+}

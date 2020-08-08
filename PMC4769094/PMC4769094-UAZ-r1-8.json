@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006412",
+      "entity_text" : "translation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HB40",
+      "entity_text" : "RISC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Depending on the level of sequence complementarity between miRNA and target mRNA, RISC either cleaves the target mRNA (if complementarity is high) or suppresses translation and mainly promotes more rapid mRNA degradation (if complementarity is lower) the latter being predominant in animals XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-08T17:12:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:09:00Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "RISC either cleaves the target mRNA (if complementarity is high) or suppresses translation" ],
+  "pmc_id" : "4769094",
+  "score" : 0
+}

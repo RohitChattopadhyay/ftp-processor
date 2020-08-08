@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0125" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Exposure of CGNs to GDF15 markedly induced the phosphorylation of ERK (extracellular-signal-regulated kinase), Akt and mTOR (mammalian target of rapamycin), but the GDF15 induced I K densities and increased expression of Kv2.1 were attenuated only by Akt and mTOR, and not ERK, inhibitors.",
+  "reading_complete" : "2020-08-08T17:08:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:58:28Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK (extracellular-signal-regulated kinase), Akt and mTOR" ],
+  "pmc_id" : "4000135",
+  "score" : 0
+}

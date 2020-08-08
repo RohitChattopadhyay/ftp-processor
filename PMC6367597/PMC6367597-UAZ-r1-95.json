@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75094",
+      "entity_text" : "Slit3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002573" ]
+    }
+  },
+  "verbose_text" : "In contrast, macrophages in the distal nerve stump do not express high levels of Slit3 (XREF_FIG J), indicating that macrophages in the nerve bridge may have a different phenotype from those in the distal nerve stump.",
+  "reading_complete" : "2020-08-08T17:18:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:14Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Slit3" ],
+  "pmc_id" : "6367597",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A6TNI2",
+      "entity_text" : "Cp1-EGFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "We quantified Cp1-EGFP fluorescence levels in ddaC neurons by normalizing EGFP intensity to internal UAS-mCD8 : : RFP fluorescence driven by ppk-Gal4, which remained relatively constant throughout (XREF_FIG; data not shown).",
+  "reading_complete" : "2020-08-08T17:11:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:10:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "Cp1-EGFP fluorescence levels" ],
+  "pmc_id" : "4237277",
+  "score" : 0
+}
