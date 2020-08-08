@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR002908",
+      "entity_text" : "frataxin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BV68",
+      "entity_text" : "RNF126",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These data indicate that when all components of the ubiquitination cascade are present, the E3 ligase RNF126 is sufficient to promote frataxin ubiquitination in vitro and does not require additional cofactors (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T16:20:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:16:04Z",
+  "trigger" : "promote",
+  "evidence" : [ "RNF126 is sufficient to promote frataxin ubiquitination" ],
+  "pmc_id" : "5329121",
+  "score" : 0
+}

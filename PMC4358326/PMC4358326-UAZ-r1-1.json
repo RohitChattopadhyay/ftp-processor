@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57678",
+      "entity_text" : "p97",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The ATPase complex p97 / VCP perhaps serves as an alternative cap that directly binds the 20S core particle as well.",
+  "reading_complete" : "2020-08-08T16:16:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:11:22Z",
+  "trigger" : "complex",
+  "evidence" : [ "complex p97/VCP" ],
+  "pmc_id" : "4358326",
+  "score" : 0
+}
