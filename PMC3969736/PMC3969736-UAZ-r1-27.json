@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13191",
+      "entity_text" : "Cbl-b",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000899" ]
+    }
+  },
+  "verbose_text" : "However, our in vitro studies suggest that loss of Cbl-b does not affect Th17 cell differentiation, which contradicts a recent report in which IL-17 production, but not IL-17 intracellular staining, was used as a readout for Th17 cells.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Cbl-b" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

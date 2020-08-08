@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23458",
+      "entity_text" : "JAK-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although JAK-1 and JAK-3 phosphorylation was comparable between WT and Cblb -/- CD4 + T cells, IL-4-induced Stat6 phosphorylation at Y641 was much stronger in Cblb -/- CD4 + T cells than in WT CD4 + T cells (XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "JAK-1 and JAK-3 phosphorylation" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

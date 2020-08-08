@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "Stat6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These data suggest that Stat6 phosphorylation at Y641 may be required for Stat6 ubiquitination and degradation.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "Stat6 ubiquitination" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

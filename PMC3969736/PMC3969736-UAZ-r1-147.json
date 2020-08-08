@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Y641",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "Stat6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found that Stat6 Y641 phosphorylation was induced in both WT and Cblb -/- T cells during Th2 cell differentiation, and that the loss of Cbl-b led to a greater increase of Stat6 Y641 phosphorylation at all time points (XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Stat6 Y641 phosphorylation" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "Stat6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Stat6 Y641 phosphorylation and ubiquitination both occurred at 1 min of ligation through CD3 / CD28 and IL-4, but Stat6 phosphorylation peaked at 5-15 min and then declined (XREF_SUPPLEMENTARY, top).",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Stat6 phosphorylation" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

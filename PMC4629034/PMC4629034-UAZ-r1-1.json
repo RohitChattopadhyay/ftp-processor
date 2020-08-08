@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "A34",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43246",
+      "entity_text" : "MSH2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16422",
+      "entity_text" : "EPCAM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "No methylation for the MMR genes was found in these tumors, with the exception of the case with EPCAM gene mutation (A34), which was methylated in the MSH2 gene.",
+  "reading_complete" : "2020-08-08T12:30:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:25:32Z",
+  "evidence" : [ "EPCAM gene mutation (A34), which was methylated in the MSH2" ],
+  "pmc_id" : "4629034",
+  "score" : 0
+}
