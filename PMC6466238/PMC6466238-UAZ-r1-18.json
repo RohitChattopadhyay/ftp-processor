@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Like observations made by Nguyen et al., SAMs contained significant amounts of intracellular NE, but lacked the requisite enzymes for NE synthesis, as previously reported for macrophages [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:57:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:40:43Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of intracellular NE" ],
+  "pmc_id" : "6466238",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03052",
+      "entity_text" : "adrenergic receptors",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Macrophages along with other immune cells express adrenergic receptors that bind NE [XREF_BIBR], and have been shown to produce neurotrophic factors such as NGF [XREF_BIBR] and brain derived neurotrophic factor (BDNF) [XREF_BIBR] in human peripheral blood and the human brain [XREF_BIBR], suggesting another possible mechanism in regulation of axonal plasticity may exist in adipose tissue, whereby immune cells are synaptically wired and release neurotrophic factor to nearby nerves.",
+  "reading_complete" : "2020-08-08T12:57:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:40:43Z",
+  "trigger" : "bind",
+  "evidence" : [ "adrenergic receptors that bind NE" ],
+  "pmc_id" : "6466238",
+  "score" : 0
+}
