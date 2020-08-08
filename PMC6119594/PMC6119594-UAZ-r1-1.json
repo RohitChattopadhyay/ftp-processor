@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02415",
+      "entity_text" : "ankyrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94856",
+      "entity_text" : "neurofascin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "1D cross correlation between the two color channels showed a negative value at zero shift and a maximum at one-half of the 180 nm periodicity (XREF_FIG), suggesting an alternating pattern along the 1D periodic cytoskeleton, similar to the case of neurofascin and actin at the AIS and consistent with the notion that L1CAM and neurofascin share consensus ankyrin binding domains.",
+  "reading_complete" : "2020-08-08T11:05:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:02:31Z",
+  "trigger" : "binding",
+  "evidence" : [ "neurofascin share consensus ankyrin-binding" ],
+  "pmc_id" : "6119594",
+  "score" : 0
+}
