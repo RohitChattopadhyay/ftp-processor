@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0231" ],
+      "Organ" : [ "uberon:UBERON:0003053" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Chromatin is a highly dynamic structure that can be modified by a number of mechanisms, including DNA methylation, histone post-translational modifications, and ATP dependent remodeling of chromatin.",
+  "reading_complete" : "2020-08-08T07:55:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:55Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation, histone" ],
+  "pmc_id" : "5149529",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92769",
+      "entity_text" : "HDAC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "HDAC2 co-immunoprecipitated with all NuRD subunits; however, it should be noted that loss of HDAC2 is not expected to resemble the defects observed in cortices lacking CHD3, CHD4, or CHD5.",
+  "reading_complete" : "2020-08-08T07:55:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:55Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of HDAC2" ],
+  "pmc_id" : "5149529",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q58HK4",
+      "entity_text" : "Qa2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1043" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0002015" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Consistent with this, Rag2pGFP - cells in the thymus of both WT Rag2pGFP and Rag2pGFPxCcr7 -/- mice had levels of Qa2 comparable to that in peripheral Tregs (XREF_FIG F) and expressed CCR6 (data not shown), a phenotype of thymus recirculating cells (XREF_FIG).",
+  "reading_complete" : "2020-08-08T07:58:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Qa2" ],
+  "pmc_id" : "4751304",
+  "score" : 0
+}

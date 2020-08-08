@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9C0K0",
+      "entity_text" : "Ctip2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00028",
+      "entity_text" : "NuRD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0681" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In lymphocytes, NuRD interacts with the transcription factor Ikaros, which mediates NuRD recruitment to genes necessary for lymphoid differentiation, and in neuroblastoma cell lines, NuRD complexes associate with Ctip2.",
+  "reading_complete" : "2020-08-08T07:55:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:55Z",
+  "trigger" : "associate",
+  "evidence" : [ "NuRD complexes associate with Ctip2" ],
+  "pmc_id" : "5149529",
+  "score" : 0
+}

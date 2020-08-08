@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The latter mechanism uses energy released by hydrolysis of ATP to induce nucleosome sliding, facilitating the recruitment of transcriptional complexes that activate or inhibit gene expression.",
+  "reading_complete" : "2020-08-08T07:55:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:55Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of ATP" ],
+  "pmc_id" : "5149529",
+  "score" : 0
+}

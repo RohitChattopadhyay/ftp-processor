@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12873",
+      "entity_text" : "CHD3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00258",
+      "entity_text" : "CHD5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellType" : [ "cl:CL:0000047" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "CHD5 and CHD3 binding was tested on the promoters of doublecortin (Dcx) and apolipoprotein E receptor 2 (ApoER2), two genes that regulate neural radial migration and cortical lamination.",
+  "reading_complete" : "2020-08-08T07:55:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:55Z",
+  "trigger" : "binding",
+  "evidence" : [ "CHD5 and CHD3 binding" ],
+  "pmc_id" : "5149529",
+  "score" : 0
+}
