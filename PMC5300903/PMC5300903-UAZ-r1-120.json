@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P68036",
+      "entity_text" : "UBE2L3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Furthermore, no loss of UBE2L3 was observed in unprimed macrophages treated with nigericin or ATP that do not undergo caspase-1 activation (XREF_SUPPLEMENTARY B).",
+  "reading_complete" : "2020-08-08T09:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:54:00Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of UBE2L3" ],
+  "pmc_id" : "5300903",
+  "score" : 0
+}

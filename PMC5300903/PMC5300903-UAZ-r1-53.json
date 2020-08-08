@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5756",
+      "entity_text" : "E3",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We speculate that a caspase-1-dependent process may induce local unfolding of UBE2L3 and/or ubiquitylation of an E3 ligase partner that may trigger ubiquitin independent proteasomal loss of UBE2L3.",
+  "reading_complete" : "2020-08-08T09:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:54:00Z",
+  "trigger" : "ubiquitylation",
+  "evidence" : [ "ubiquitylation of an E3" ],
+  "pmc_id" : "5300903",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92734",
+      "entity_text" : "TFG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Cellular_component" : [ "go:GO:0031012" ]
+    }
+  },
+  "verbose_text" : "This reinforces the fact that while loss of TFG results in a defect in both tER organization and collagen secretion, this is not necessarily a causative relationship.",
+  "reading_complete" : "2020-08-08T09:54:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:51:51Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of TFG" ],
+  "pmc_id" : "4885023",
+  "score" : 0
+}

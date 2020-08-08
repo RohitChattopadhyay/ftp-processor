@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "pro-IL-1beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6D69" ],
+      "Cellular_component" : [ "uniprot:SL-0023" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Previous reports showed that pro-IL-1beta can be ubiquitylated and turned over by proteasomes or disposed by autophagosomes.",
+  "reading_complete" : "2020-08-08T09:56:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:54:00Z",
+  "trigger" : "ubiquitylated",
+  "evidence" : [ "pro-IL-1beta can be ubiquitylated" ],
+  "pmc_id" : "5300903",
+  "score" : 0
+}
