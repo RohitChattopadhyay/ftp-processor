@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06373",
+      "entity_text" : "mean complement gene",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "CellType" : [ "cl:CL:0009004" ]
+    }
+  },
+  "verbose_text" : "Based on mean complement gene expression, we categorized positive expression for a gene within a cell type only if either> = 5% of cells or at least 50 cells within that class had nonzero expression for that gene.",
+  "reading_complete" : "2020-08-08T11:49:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:47:06Z",
+  "trigger" : "expression",
+  "evidence" : [ "mean complement gene expression" ],
+  "pmc_id" : "6911814",
+  "score" : 0
+}
