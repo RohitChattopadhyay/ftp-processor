@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10981",
+      "entity_text" : "SE",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60885",
+      "entity_text" : "BRD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These data suggest that BRD4 may specifically bind and regulate SE associated genes, which are key stem cell identity genes.",
+  "reading_complete" : "2020-08-08T09:43:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:40:30Z",
+  "trigger" : "bind",
+  "evidence" : [ "BRD4 may specifically bind and regulate SE" ],
+  "pmc_id" : "4317728",
+  "score" : 0
+}

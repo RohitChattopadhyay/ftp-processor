@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60885",
+      "entity_text" : "BRD4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P50750",
+      "entity_text" : "CDK9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0547" ],
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Our study reveals that the P-TEFb subunit, CDK9, binds SEs and promoters of stem cell genes together with BRD4 and is displaced following BET inhibition.",
+  "reading_complete" : "2020-08-08T09:43:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:40:30Z",
+  "trigger" : "binds",
+  "evidence" : [ "CDK9, binds SEs and promoters of stem cell genes together with BRD4" ],
+  "pmc_id" : "4317728",
+  "score" : 0
+}

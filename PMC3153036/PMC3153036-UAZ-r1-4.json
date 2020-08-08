@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7020346",
+      "entity_text" : "GGI",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:485" ]
+    }
+  },
+  "verbose_text" : "The loss of the GGI from cells in the population indicates that the GGI cannot replicate on its own, or if it can, it does so poorly.",
+  "reading_complete" : "2020-08-08T09:43:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:41:31Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the GGI" ],
+  "pmc_id" : "3153036",
+  "score" : 0
+}

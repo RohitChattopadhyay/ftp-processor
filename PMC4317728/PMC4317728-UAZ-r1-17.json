@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q93074",
+      "entity_text" : "MED12",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95243",
+      "entity_text" : "MED1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Notably, the binding of MED1 and MED12 at SEs, but not at promoters, was significantly reduced by BRD4 inhibition (XREF_FIG), suggesting that BRD4 may act as a docking site for the Mediator complex at SEs of stem cell genes, thus regulating their expression.",
+  "reading_complete" : "2020-08-08T09:43:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:40:30Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of MED1 and MED12" ],
+  "pmc_id" : "4317728",
+  "score" : 0
+}

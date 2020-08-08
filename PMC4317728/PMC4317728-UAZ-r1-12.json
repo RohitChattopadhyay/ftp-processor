@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P50750",
+      "entity_text" : "CDK9",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60885",
+      "entity_text" : "BRD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Collectively, our findings support a specific regulation of transcriptional elongation of stem cell genes that relies on BRD4 dependent binding of Mediator and CDK9 to SEs to sustain ESC identity.",
+  "reading_complete" : "2020-08-08T09:43:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:40:30Z",
+  "trigger" : "binding",
+  "evidence" : [ "BRD4-dependent binding of Mediator and CDK9" ],
+  "pmc_id" : "4317728",
+  "score" : 0
+}
