@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "4E-BP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Cellular_component" : [ "go:GO:0005765" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We confirmed the activation of mTORC1 signaling by assessing the increased phosphorylation of S6K and 4E-BP1 (XREF_FIG and XREF_FIG) as well as by mTORC localization at the lysosomal membrane (XREF_SUPPLEMENTARY and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T09:59:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:44Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of S6K and 4E-BP1" ],
+  "pmc_id" : "6716532",
+  "score" : 0
+}

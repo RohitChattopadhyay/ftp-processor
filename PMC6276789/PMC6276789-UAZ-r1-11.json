@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12252",
+      "entity_text" : "side",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02749",
+      "entity_text" : "R26-LSL-Pik3ca",
+      "features" : [ {
+        "to_base" : "H",
+        "site" : 1047,
+        "feature_type" : "mutation",
+        "evidence" : "H1047R"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Unsupervised clustering highlighted four features of Cdh1 loxP / loxP; R26-LSL-Pik3ca H1047R tumors (blue blocks on the right-hand side of XREF_SUPPLEMENTARY, expanded in XREF_SUPPLEMENTARY; see also XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T09:56:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:53:41Z",
+  "trigger" : "blocks",
+  "evidence" : [ "R26-LSL-Pik3ca H1047R  tumors (blue blocks on the right-hand side" ],
+  "pmc_id" : "6276789",
+  "score" : 0
+}

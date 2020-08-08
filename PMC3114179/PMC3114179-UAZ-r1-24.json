@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19421",
+      "entity_text" : "HtpB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "An early response of L. pneumophila strain 2064 to the presence of host cells involves de novo synthesis of increasing amounts of HtpB.",
+  "reading_complete" : "2020-08-08T09:56:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:52:46Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of HtpB" ],
+  "pmc_id" : "3114179",
+  "score" : 0
+}

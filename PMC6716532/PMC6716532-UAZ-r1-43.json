@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01116",
+      "entity_text" : "Kras",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 12,
+        "feature_type" : "mutation",
+        "evidence" : "G12D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49247",
+      "entity_text" : "RPIA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "RPIA inhibition has been shown to limit the growth of Kras G12D cell lines and xenografted tumors.",
+  "reading_complete" : "2020-08-08T09:59:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:44Z",
+  "trigger" : "limit",
+  "evidence" : [ "RPIA inhibition has been shown to limit the growth of Kras" ],
+  "pmc_id" : "6716532",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49815",
+      "entity_text" : "TSC2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "cyclin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Finally, it is possible that the effect of p16 knockdown is through cyclin D1/CDK4, which has previously been shown to phosphorylate TSC2, thereby activating mTORC1 signaling.",
+  "reading_complete" : "2020-08-08T09:59:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:44Z",
+  "evidence" : [ "cyclin D1/CDK4, which has previously been shown to phosphorylate TSC2" ],
+  "pmc_id" : "6716532",
+  "score" : 0
+}

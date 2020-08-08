@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6UEH5",
+      "entity_text" : "NorB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "NorB then reduces NO to nitrous oxide, which is not generally considered to be toxic.",
+  "reading_complete" : "2020-08-08T09:58:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:30Z",
+  "trigger" : "reduces",
+  "evidence" : [ "NorB then reduces NO" ],
+  "pmc_id" : "3153042",
+  "score" : 0
+}

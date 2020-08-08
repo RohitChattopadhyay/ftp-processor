@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96518",
+      "entity_text" : "p16",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1227" ],
+      "Organ" : [ "uberon:UBERON:0005569" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Here, we show that the loss of p16 increases nucleotide synthesis through a mechanism mediated by mTORC1.",
+  "reading_complete" : "2020-08-08T09:59:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of p16" ],
+  "pmc_id" : "6716532",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96518",
+      "entity_text" : "p16",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0271" ],
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Cellular_component" : [ "go:GO:0005765" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Previous studies demonstrated that mTORC1 increases nucleotide synthesis, suggesting that this may be the mechanism by which the loss of p16 increases nucleotides.",
+  "reading_complete" : "2020-08-08T09:59:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of p16" ],
+  "pmc_id" : "6716532",
+  "score" : 0
+}
