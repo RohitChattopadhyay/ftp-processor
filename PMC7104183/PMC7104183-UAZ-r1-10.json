@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61073",
+      "entity_text" : "CXCR4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51681",
+      "entity_text" : "CCR5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "go:GO:0031975" ],
+      "Organ" : [ "uberon:UBERON:0002488" ]
+    }
+  },
+  "verbose_text" : "Perhaps the closest scenario to MERS-4-mediated inhibition is found in antibodies targeting the V3 region of the HIV-1 envelope where binding may capture or induce conformational changes that block the subsequent interaction between the V3 region and the co-receptor CCR5 or CXCR4.",
+  "reading_complete" : "2020-08-08T14:50:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:48:00Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between the V3 region and the co-receptor CCR5 or CXCR4" ],
+  "pmc_id" : "7104183",
+  "score" : 0
+}
