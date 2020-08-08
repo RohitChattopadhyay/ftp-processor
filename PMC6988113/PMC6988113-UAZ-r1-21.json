@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12830",
+      "entity_text" : "E-cadherin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38570",
+      "entity_text" : "integrin-alphaE",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These liver-resident CD8 + T cells are distinguished by expression of the tissue-retention marker CD69 (a sphingosine 1-phosophate receptor-1 antagonist), with or without CD103 (integrin-alphaE, which in combination with integrin-beta7 can bind to E-cadherin on endothelial cells and hepatocytes).",
+  "reading_complete" : "2020-08-08T12:07:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:01:16Z",
+  "trigger" : "bind",
+  "evidence" : [ "integrin-alphaE, which in combination with integrin-beta7 can bind to E-cadherin" ],
+  "pmc_id" : "6988113",
+  "score" : 0
+}
