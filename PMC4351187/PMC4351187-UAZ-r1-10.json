@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60477",
+      "entity_text" : "DBC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Immunoprecipitation assay showed that DBC1 still interacted with mutant p53 (XREF_FIG), and mutant p53 levels were also decreased with loss of DBC1 (XREF_FIG) and MDM2 protein levels were comparable to those in cell lines with WT p53 (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T17:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:59Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of DBC1" ],
+  "pmc_id" : "4351187",
+  "score" : 0
+}

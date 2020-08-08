@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96EB6",
+      "entity_text" : "SIRT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "If DBC1 regulates p53 level through SIRT1, we would expect that inhibiting SIRT1 would rescue p53 loss in Dbc1 -/- cells.",
+  "reading_complete" : "2020-08-08T17:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:59Z",
+  "trigger" : "rescue",
+  "evidence" : [ "SIRT1 would rescue p53" ],
+  "pmc_id" : "4351187",
+  "score" : 0
+}

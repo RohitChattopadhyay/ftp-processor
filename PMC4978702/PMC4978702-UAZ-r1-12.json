@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00225",
+      "entity_text" : "kinesin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19338",
+      "entity_text" : "nucleolin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These data indicate that importin beta1 mRNA is transported by a nucleolin - kinesin complex in 3T3 cells and that importin beta1 protein is transported by dynein, similar to the findings in neurons.",
+  "reading_complete" : "2020-08-08T17:15:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:07Z",
+  "trigger" : "complex",
+  "evidence" : [ "nucleolin-kinesin complex" ],
+  "pmc_id" : "4978702",
+  "score" : 0
+}

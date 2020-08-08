@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60477",
+      "entity_text" : "DBC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0978" ]
+    }
+  },
+  "verbose_text" : "DBC1 binds to the N-terminus and DNA binding domain of p53, competing with MDM2 and stabilizing p53.",
+  "reading_complete" : "2020-08-08T17:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:59Z",
+  "trigger" : "binds",
+  "evidence" : [ "DBC1 binds to the N-terminus and DNA binding domain of p53, competing with MDM2" ],
+  "pmc_id" : "4351187",
+  "score" : 0
+}

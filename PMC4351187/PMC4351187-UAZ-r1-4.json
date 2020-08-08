@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60477",
+      "entity_text" : "DBC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To test whether the interaction between DBC1 and p53 is direct or not, we purified p53 and DBC1 protein and performed an in vitro binding assay.",
+  "reading_complete" : "2020-08-08T17:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:59Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between DBC1 and p53" ],
+  "pmc_id" : "4351187",
+  "score" : 0
+}

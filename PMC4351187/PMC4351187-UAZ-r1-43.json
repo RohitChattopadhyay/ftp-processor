@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The posttranslational modification of p53, such as phosphorylation, acetylation, methylation and deubiquination, affects the interaction between p53 and MDM2, and thus regulates p53 protein stability.",
+  "reading_complete" : "2020-08-08T17:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:59Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between p53 and MDM2" ],
+  "pmc_id" : "4351187",
+  "score" : 0
+}
