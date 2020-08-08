@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49682",
+      "entity_text" : "CXCR3",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "CellType" : [ "cl:CL:0000813" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Gates were set based on the expression of PD-1, CXCR5, and CXCR3 in CD4 + CD45RA + naive enriched T cells (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T15:57:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:49:49Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of PD-1, CXCR5, and CXCR3" ],
+  "pmc_id" : "7029615",
+  "score" : 0
+}

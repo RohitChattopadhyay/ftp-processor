@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7408258",
+      "entity_text" : "PS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Cellular_component" : [ "go:GO:0042603" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The human pathogenic fungus C. neoformans has a large polysaccharide (PS) capsule that enlarges during infection and releases copious amounts of PS (exo-PS) into cultures and infected tissues.",
+  "reading_complete" : "2020-08-08T15:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:54:49Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of PS" ],
+  "pmc_id" : "3189542",
+  "score" : 0
+}

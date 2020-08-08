@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because PD-1 is often expressed by exhausted peripheral T cells and in Th17 CD4 + cells, we did not include this marker to gate on cNon-Tfh cells from blood to ensure that we were examining the entire non Tfh memory population.",
+  "reading_complete" : "2020-08-08T15:57:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:49:49Z",
+  "trigger" : "expressed",
+  "evidence" : [ "PD-1 is often expressed" ],
+  "pmc_id" : "7029615",
+  "score" : 0
+}

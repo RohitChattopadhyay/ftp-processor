@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:45933887",
+      "entity_text" : "glucosamine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Cellular_component" : [ "go:GO:0042603" ]
+    }
+  },
+  "verbose_text" : "The capsule of C. neoformans is composed of beta-1,4-linked N-acetylglucosamine (GlcNAc), and deacetylated glucosamine units play key roles as capsule constituents.",
+  "reading_complete" : "2020-08-08T15:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:54:49Z",
+  "trigger" : "deacetylated",
+  "evidence" : [ "deacetylated glucosamine" ],
+  "pmc_id" : "3189542",
+  "score" : 0
+}

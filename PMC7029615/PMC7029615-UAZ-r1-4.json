@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Some memory CD4 + T cells in secondary lymphoid organs express intermediate levels of these markers, but Tfh cells within the GC (Tfh GC cells) express high levels of CXCR5 and PD-1; hence, a CXCR5 hi PD-1 hi phenotype is commonly used to distinguish Tfh GC cells.",
+  "reading_complete" : "2020-08-08T15:57:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:49:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CXCR5 and PD-1" ],
+  "pmc_id" : "7029615",
+  "score" : 0
+}
