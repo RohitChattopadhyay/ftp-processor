@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Based on these data, we obtained the following parameter set : For XREF_FIG E the BUBR1 PP2A mutant was implemented by assuming that BUBR1 phosphorylation and PP2A binding are quasi-instantaneous and irreversible (setting kpBUBR1 = kpBUBR1 (free) = kbPP2A = 10.000 and kdpBUBR1 = kdPP2A = 0).",
+  "reading_complete" : "2020-08-08T10:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and PP2A" ],
+  "pmc_id" : "6715587",
+  "score" : 0
+}

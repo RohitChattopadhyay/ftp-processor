@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60566",
+      "entity_text" : "BUBR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96PN6",
+      "entity_text" : "SAC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "2E" ],
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0012245" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Although we had already observed that PP1 can silence the SAC when bound to BUBR1 (XREF_FIG D and 2E), this effect might be direct or indirect because PP1 could simply dephosphorylate the SILK / RVSF motifs to recruit an additional PP1 molecule to KNL1.",
+  "reading_complete" : "2020-08-08T10:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:05Z",
+  "trigger" : "bound",
+  "evidence" : [ "SAC when bound to BUBR1 ( XREF_FIG D and 2E" ],
+  "pmc_id" : "6715587",
+  "score" : 0
+}
