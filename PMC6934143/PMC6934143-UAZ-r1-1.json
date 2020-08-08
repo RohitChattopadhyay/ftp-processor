@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13400",
+      "entity_text" : "TAD",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Under genotoxic stress, p53 becomes phosphorylated at multiple sites in TAD (XREF_FIG), which reduces binding affinity to MDM2 and enhanced binding affinity to CBP, thus stabilizing and activating p53 XREF_BIBR - XREF_BIBR.",
+  "reading_complete" : "2020-08-08T11:10:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:08:54Z",
+  "evidence" : [ "p53 becomes phosphorylated at multiple sites in TAD" ],
+  "pmc_id" : "6934143",
+  "score" : 0
+}
