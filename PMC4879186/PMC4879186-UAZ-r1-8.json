@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62158",
+      "entity_text" : "calmodulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "47 The two other regions included : SNPs in phosphodiesterase 1C, calmodulin dependent 70 kDa (PDE1C), a calmodulin dependent PDE that is stimulated by a calcium - calmodulin complex; 48 and a single SNP in Fucosyltransferase 8 (alpha (1,6) fucosyltransferase (FUT8), which catalyses the transfer of fucose from GDP-fucose to N linked type complex glycopeptides.",
+  "reading_complete" : "2020-08-08T12:43:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:41:30Z",
+  "trigger" : "complex",
+  "evidence" : [ "calcium-calmodulin complex" ],
+  "pmc_id" : "4879186",
+  "score" : 0
+}
