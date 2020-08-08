@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51689",
+      "entity_text" : "ASD",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16674",
+      "entity_text" : "MIA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Within the ASD neuropathological and molecular heterogeneous landscape, MIA disrupts fetal development by involving transcriptional programs that are abnormal in adult ASD brain tissue and genes with high-confidence ASD mutations or their downstream targets [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:11:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:58:16Z",
+  "trigger" : "disrupts",
+  "evidence" : [ "MIA disrupts fetal development by involving transcriptional programs that are abnormal in adult ASD brain tissue and genes with high-confidence ASD" ],
+  "pmc_id" : "6309606",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04523",
+      "entity_text" : "HDACs",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:176",
+      "entity_text" : "acetate",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ethanol metabolism increases acetate levels and ethanol directly inhibits HDACs.",
+  "reading_complete" : "2020-08-08T17:15:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:11:01Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "acetate levels and ethanol directly inhibits HDACs" ],
+  "pmc_id" : "6325721",
+  "score" : 0
+}
