@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75525",
+      "entity_text" : "SLM2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0380" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0001885" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000598" ]
+    }
+  },
+  "verbose_text" : "Here, we find that the previously known splicing targets of SLM2 have reciprocal splicing patterns between CA1-CA3 and the dentate gyrus according to SLM2 expression levels.",
+  "reading_complete" : "2020-08-08T13:10:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:08:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "SLM2 expression levels" ],
+  "pmc_id" : "5199341",
+  "score" : 0
+}

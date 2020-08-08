@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16665",
+      "entity_text" : "HIF1alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6Z9",
+      "entity_text" : "PHD3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5407" ],
+      "Species" : [ "taxonomy:3704" ]
+    }
+  },
+  "verbose_text" : "In agreement with the mathematical model, increasing amounts of cellular PHD3 co-immunoprecipitated and bound increasing amounts of HIF1alpha, which was at a constant concentration in the cells (XREF_FIG E).",
+  "reading_complete" : "2020-08-08T13:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:05:50Z",
+  "trigger" : "bound",
+  "evidence" : [ "PHD3 co-immunoprecipitated and bound increasing amounts of HIF1alpha" ],
+  "pmc_id" : "4805855",
+  "score" : 0
+}

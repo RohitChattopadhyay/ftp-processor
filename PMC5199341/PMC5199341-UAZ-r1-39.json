@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05139",
+      "entity_text" : "Neurexin proteins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05104",
+      "entity_text" : "scaffolding trans-membrane protein kinase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0060077" ],
+      "CellType" : [ "cl:CL:0000598" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We also detected altered splicing from the CASK gene, which encodes an important scaffolding trans-membrane protein kinase that interacts with and phosphorylates Neurexin proteins.",
+  "reading_complete" : "2020-08-08T13:10:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:08:17Z",
+  "trigger" : "interacts",
+  "evidence" : [ "scaffolding trans-membrane protein kinase that interacts with and phosphorylates Neurexin proteins" ],
+  "pmc_id" : "5199341",
+  "score" : 0
+}
