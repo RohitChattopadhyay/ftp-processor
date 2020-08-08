@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01584",
+      "entity_text" : "GWAS trait",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because these associations can be driven by two highly correlated but different causal variants for the GWAS trait and DNA methylation, the second stage of the SMR approach repeats the analysis with alternative SNPs associated with DNA methylation as the instrument and performs a HEIDI (heterogeneity in dependent instruments) test for heterogeneity in the resulting association statistics.",
+  "reading_complete" : "2020-08-08T11:54:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:52:05Z",
+  "trigger" : "methylation",
+  "evidence" : [ "GWAS trait and DNA methylation" ],
+  "pmc_id" : "5473725",
+  "score" : 0
+}
