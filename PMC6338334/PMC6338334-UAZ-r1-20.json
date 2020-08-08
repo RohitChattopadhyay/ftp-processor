@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00514",
+      "entity_text" : "Arm",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1698" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Tg treatment resulted in the loss of E-Cad and Arm from the cell surface; instead, these proteins colocalized with the ER marker Calnexin99A (Cnx99A) (XREF_FIG), suggesting that they are trapped at the ER membrane.",
+  "reading_complete" : "2020-08-08T18:08:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:46Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of E-Cad and Arm" ],
+  "pmc_id" : "6338334",
+  "score" : 0
+}

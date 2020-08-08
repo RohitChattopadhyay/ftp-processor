@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13473",
+      "entity_text" : "LAMP-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "CellLine" : [ "cellosaurus:CVCL_0238" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:485" ]
+    }
+  },
+  "verbose_text" : "However, gonococcal IgA protease either directly or indirectly, respectively, decreases LAMP-1 and LAMP-2 levels in A431 cells.",
+  "reading_complete" : "2020-08-08T18:09:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "LAMP-2 levels" ],
+  "pmc_id" : "3129011",
+  "score" : 0
+}

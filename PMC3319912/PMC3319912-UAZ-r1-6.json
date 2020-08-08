@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:961",
+      "entity_text" : "hydroxyl",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D906" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The lowered efficacy of eugenol appears to be linked to the methylation of its hydroxyl group.",
+  "reading_complete" : "2020-08-08T18:10:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:41Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation of its hydroxyl" ],
+  "pmc_id" : "3319912",
+  "score" : 0
+}

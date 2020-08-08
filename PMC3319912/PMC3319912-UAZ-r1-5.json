@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2157",
+      "entity_text" : "amiodarone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Loss of function mutations in PMA1 (plasma membrane H + -ATPase) and deletion of the TOK1 (outward-rectifier potassium channel of the plasma membrane) gene reduced the initial hyperpolarization and also protected against amiodarone mediated cell death.",
+  "reading_complete" : "2020-08-08T18:10:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:41Z",
+  "trigger" : "mediated",
+  "evidence" : [ "amiodarone mediated cell death" ],
+  "pmc_id" : "3319912",
+  "score" : 0
+}

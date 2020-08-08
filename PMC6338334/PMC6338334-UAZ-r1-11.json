@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00514",
+      "entity_text" : "Arm",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1698" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Moreover, the Arm that accumulated in SERCA clones was not phosphorylated, unlike the Arm present in clones lacking the ubiquitin ligase subunit Cullin1, suggesting that the loss of SERCA blocks Arm degradation by preventing its phosphorylation by the destruction complex (XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:08:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:46Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Arm that accumulated in SERCA clones was not phosphorylated" ],
+  "pmc_id" : "6338334",
+  "score" : 0
+}

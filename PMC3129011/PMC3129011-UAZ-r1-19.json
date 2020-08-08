@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13449",
+      "entity_text" : "LAMP",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0732" ],
+      "CellLine" : [ "cellosaurus:CVCL_0238" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:485" ]
+    }
+  },
+  "verbose_text" : "Whether these conflicting data can be attributed to specific differences in LAMP expressed by each cell type, to the experimental protocols used, or to additional differences specific to each cell type or to gonococcal strains used, is currently unclear.",
+  "reading_complete" : "2020-08-08T18:09:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:41Z",
+  "trigger" : "expressed",
+  "evidence" : [ "LAMP expressed" ],
+  "pmc_id" : "3129011",
+  "score" : 0
+}

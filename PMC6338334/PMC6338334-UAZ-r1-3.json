@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q91653",
+      "entity_text" : "E-Cad",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The extracellular domain of E-Cad binds Ca 2+ ions at the junctions between cadherin domains, giving it a rigid structure.",
+  "reading_complete" : "2020-08-08T18:08:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:46Z",
+  "trigger" : "binds",
+  "evidence" : [ "E-Cad binds Ca" ],
+  "pmc_id" : "6338334",
+  "score" : 0
+}

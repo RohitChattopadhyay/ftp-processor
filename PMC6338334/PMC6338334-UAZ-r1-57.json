@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In the absence of Wnt, cytoplasmic beta-catenin is phosphorylated within a destruction complex, leading to its ubiquitination and degradation.",
+  "reading_complete" : "2020-08-08T18:08:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:46Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "beta-catenin is phosphorylated" ],
+  "pmc_id" : "6338334",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SERCA",
+      "entity_text" : "SERCA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Afurther reduction in ER Ca 2+ produced by disrupting SOCE prevents Notch and Hippo signaling, probably through effects on the trafficking of Notch and the large protocadherin Fat, but only complete loss of SERCA induces apoptosis.",
+  "reading_complete" : "2020-08-08T18:08:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:46Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of SERCA" ],
+  "pmc_id" : "6338334",
+  "score" : 0
+}

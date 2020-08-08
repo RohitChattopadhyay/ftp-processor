@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08253",
+      "entity_text" : "pex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ17714",
+      "entity_text" : "gonococcus-CR3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0043657" ]
+    }
+  },
+  "verbose_text" : "In contrast, the gonococcus-CR3 interaction on pex cells triggers ruffling.",
+  "reading_complete" : "2020-08-08T18:09:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:41Z",
+  "trigger" : "interaction",
+  "evidence" : [ "gonococcus-CR3 interaction on pex" ],
+  "pmc_id" : "3129011",
+  "score" : 0
+}
