@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13400",
+      "entity_text" : "TAD",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "Based on previous studies in the SMNDelta7 mouse model of SMA, we have proposed a model in which selective degeneration of vulnerable SMA motor neurons requires the convergence of p53 stabilization with one or more additional events, which include post-translational modifications of p53 such as phosphorylation of its N-terminal TAD that specifically direct the p53 response toward degeneration (XREF_FIG).",
+  "reading_complete" : "2020-08-08T15:21:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:17:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of its N-terminal TAD" ],
+  "pmc_id" : "6956708",
+  "score" : 0
+}

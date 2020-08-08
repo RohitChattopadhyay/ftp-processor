@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Importantly, our results indicate that Stasimon dysfunction induced by SMN deficiency triggers a p38 MAPK dependent signaling cascade that drives p53 phosphorylation and motor neuron death in SMA mice.",
+  "reading_complete" : "2020-08-08T15:21:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:17:42Z",
+  "trigger" : "drives",
+  "evidence" : [ "p38 MAPK-dependent signaling cascade that drives p53 phosphorylation" ],
+  "pmc_id" : "6956708",
+  "score" : 0
+}

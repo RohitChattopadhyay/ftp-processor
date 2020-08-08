@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ13251",
+      "entity_text" : "Stasimon",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These results show that Stasimon deficiency does not induce stabilization and nuclear accumulation of p53 in mammalian cells; however, loss of Stasimon is sufficient to induce N-terminal phosphorylation of p53 when converging with pre-existing mechanisms of p53 upregulation, mechanistically paralleling the paradigm driving degeneration of motor neurons in the SMA mouse model.",
+  "reading_complete" : "2020-08-08T15:21:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:17:42Z",
+  "trigger" : "induce",
+  "evidence" : [ "Stasimon is sufficient to induce N-terminal phosphorylation of p53" ],
+  "pmc_id" : "6956708",
+  "score" : 0
+}

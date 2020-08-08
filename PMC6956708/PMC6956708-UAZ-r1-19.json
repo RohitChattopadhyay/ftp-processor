@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although our data do not distinguish whether p38 MAPK phosphorylates p53 directly or through downstream kinases in SMA motor neurons, Stasimon dysfunction and p38 MAPK activation likely trigger some of these additional p53 modifications required for neurodegeneration, but the lack of specific reagents prevents further analysis at this time.",
+  "reading_complete" : "2020-08-08T15:21:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:17:42Z",
+  "evidence" : [ "p38 MAPK phosphorylates p53" ],
+  "pmc_id" : "6956708",
+  "score" : 0
+}

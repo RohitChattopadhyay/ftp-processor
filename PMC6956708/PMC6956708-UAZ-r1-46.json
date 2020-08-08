@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "SMN deficiency induces the activation of several kinases that have been implicated in the degeneration of SMA motor neurons and are known to phosphorylate p53, including the stress activated protein kinases JNK and p38 MAPK.",
+  "reading_complete" : "2020-08-08T15:21:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:17:42Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate p53" ],
+  "pmc_id" : "6956708",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "threonine 180",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "Furthermore, Stasimon deficiency stimulated p38 MAPK activation in NIH 3T3 cells, as indicated by increased levels and nuclear accumulation of p38 MAPK phosphorylated at threonine 180 and tyrosine 182 (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T15:21:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:17:42Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "p38 MAPK phosphorylated at threonine 180" ],
+  "pmc_id" : "6956708",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "We found that AAV9-STAS significantly reduced the percentage of vulnerable L5 MMC motor neurons expressing phosphorylated p53 S18 (p-p53 S18) in SMA (XREF_FIG and XREF_FIG), consistent with Stasimon overexpression preventing SMA motor neuron death through modulation of p53 phosphorylation.",
+  "reading_complete" : "2020-08-08T15:21:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:17:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p53 phosphorylation" ],
+  "pmc_id" : "6956708",
+  "score" : 0
+}
