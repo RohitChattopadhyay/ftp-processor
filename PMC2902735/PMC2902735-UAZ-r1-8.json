@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Species" : [ "taxonomy:9925" ]
+    }
+  },
+  "verbose_text" : "Increased levels of 1,5-anhydrosorbitol may indicate improved glycemic control although glucose levels did not differ in this study (hLZ / control Median Ratio, 1.061, P = 0.348).",
+  "reading_complete" : "2020-08-08T13:27:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:26:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "2902735",
+  "score" : 0
+}
