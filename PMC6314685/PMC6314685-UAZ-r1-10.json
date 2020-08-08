@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q2M3R5",
+      "entity_text" : "POST",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23963",
+      "entity_text" : "TI",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0002488" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As in the bacterial TI - POST complex, tRNAs occupy chimeric ap/P and pe/E hybrid positions, defined by signature interactions of the tRNA anticodon-stem loops.",
+  "reading_complete" : "2020-08-08T18:01:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:56:52Z",
+  "trigger" : "complex",
+  "evidence" : [ "TI-POST complex" ],
+  "pmc_id" : "6314685",
+  "score" : 0
+}
