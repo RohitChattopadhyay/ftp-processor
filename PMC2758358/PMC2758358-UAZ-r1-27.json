@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17664",
+      "entity_text" : "Nef",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4097" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "CellType" : [ "cl:CL:0000371" ]
+    }
+  },
+  "verbose_text" : "Experiments in which synthesis has been performed in the presence of the N glycosylation inhibitor tunicamycin proved that indeed Nef is glycosylated when inserted into the ER, but also showed that the inhibitor does not improve Nef stability in the secretory pathway.",
+  "reading_complete" : "2020-08-08T13:16:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:14:59Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "Nef is glycosylated" ],
+  "pmc_id" : "2758358",
+  "score" : 0
+}

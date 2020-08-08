@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35228",
+      "entity_text" : "iNOS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "Immunohistochemical studies of breast carcinomas show that nuclear EGFR positively correlates with iNOS and survival analysis demonstrates that high levels of iNOS are a prognostic indicator of poor survival.",
+  "reading_complete" : "2020-08-08T13:14:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:14:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of iNOS" ],
+  "pmc_id" : "1829418",
+  "score" : 0
+}
