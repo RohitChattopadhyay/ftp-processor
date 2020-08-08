@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11167",
+      "entity_text" : "MIC",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ12898",
+      "entity_text" : "chromosomal bla klu  genes",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It is well known that chromosomal bla klu genes are weakly expressed in their original context and require the presence of a strong promoter upstream to increase the MIC values and consequently be considered as phenotypically resistant.",
+  "reading_complete" : "2020-08-08T15:08:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:05:18Z",
+  "trigger" : "increase",
+  "evidence" : [ "chromosomal bla klu  genes are weakly expressed in their original context and require the presence of a strong promoter upstream to increase the MIC" ],
+  "pmc_id" : "3316993",
+  "score" : 0
+}

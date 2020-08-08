@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ13037",
+      "entity_text" : "MSL complex binding sites",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31371",
+      "entity_text" : "GAF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0209" ],
+      "Cellular_component" : [ "go:GO:0000805" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Therefore, even though GAF is not stably bound at most MSL complex binding sites, it contributes to MSL complex recruitment.",
+  "reading_complete" : "2020-08-08T15:11:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:29Z",
+  "trigger" : "bound",
+  "evidence" : [ "GAF is not stably bound at most MSL complex binding sites" ],
+  "pmc_id" : "6402580",
+  "score" : 0
+}

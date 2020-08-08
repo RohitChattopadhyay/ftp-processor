@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ13029",
+      "entity_text" : "MSL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31371",
+      "entity_text" : "GAF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0209" ],
+      "Cellular_component" : [ "go:GO:0000805" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Therefore, CLAMP and MSL complex occupancy overlap more frequently than GAF and MSL complex occupancy.",
+  "reading_complete" : "2020-08-08T15:11:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:29Z",
+  "trigger" : "complex",
+  "evidence" : [ "GAF and MSL complex" ],
+  "pmc_id" : "6402580",
+  "score" : 0
+}

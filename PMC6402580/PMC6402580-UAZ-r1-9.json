@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UI32",
+      "entity_text" : "GA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF17122",
+      "entity_text" : "zinc-finger",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000805" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "The chromatin linked adaptor for MSL proteins (CLAMP) zinc-finger protein targets MSL to the X chromosome but also binds to GA rich sequence elements throughout the genome.",
+  "reading_complete" : "2020-08-08T15:11:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:29Z",
+  "trigger" : "binds",
+  "evidence" : [ "zinc-finger protein targets MSL to the X chromosome but also binds to GA" ],
+  "pmc_id" : "6402580",
+  "score" : 0
+}

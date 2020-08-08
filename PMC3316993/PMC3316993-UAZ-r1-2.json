@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6536864",
+      "entity_text" : "ceftazidime",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:573" ]
+    }
+  },
+  "verbose_text" : "The first CTX-Ms identified were able to confer cefotaxime resistance although their capacities to efficiently hydrolyze ceftazidime was very low or null, but nowadays more than 60% of CTX-M variants are able to confer cefotaxime and ceftazidime-resistance simultaneously.",
+  "reading_complete" : "2020-08-08T15:08:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:05:18Z",
+  "trigger" : "hydrolyze",
+  "evidence" : [ "hydrolyze ceftazidime" ],
+  "pmc_id" : "3316993",
+  "score" : 0
+}

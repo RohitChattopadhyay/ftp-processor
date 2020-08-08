@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ13029",
+      "entity_text" : "MSL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF14769",
+      "entity_text" : "CLAMP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Cellular_component" : [ "go:GO:0000805" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Consistent with polytene staining, we found that CLAMP and MSL complex occupancy on the X chromosome overlaps at 21% of CLAMP peaks (218 shared peaks), which is 4 times greater than the 5% of GAF peaks that are co-occupied by MSL complex (54 shared peaks).",
+  "reading_complete" : "2020-08-08T15:11:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:29Z",
+  "trigger" : "complex",
+  "evidence" : [ "CLAMP and MSL complex" ],
+  "pmc_id" : "6402580",
+  "score" : 0
+}
