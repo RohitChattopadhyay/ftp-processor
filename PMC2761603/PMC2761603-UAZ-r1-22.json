@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75751",
+      "entity_text" : "EMT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15672",
+      "entity_text" : "Twist",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To determine whether Twist expression was able to promote EMT, we made stable transfection of MLE-15 cells using Twist cDNA and examined expression of mesenchymal and epithelial cell markers.",
+  "reading_complete" : "2020-08-08T15:27:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:25:19Z",
+  "trigger" : "promote",
+  "evidence" : [ "Twist expression was able to promote EMT" ],
+  "pmc_id" : "2761603",
+  "score" : 0
+}
