@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IVS2",
+      "entity_text" : "mt",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellLine" : [ "cellosaurus:CVCL_2H39" ],
+      "Cellular_component" : [ "go:GO:0070469" ],
+      "Organ" : [ "uberon:UBERON:0019284" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, these data fit well with reports of mutations in other proteins involved with RNA processing, given that mutations in ELAC2 XREF_BIBR and HSD17B10 XREF_BIBR have both been shown to lead to an accumulation of mt-RNA precursors without effects on the levels of mature mt mRNA and mt-tRNAs.",
+  "reading_complete" : "2020-08-08T12:33:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:31:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of mature mt" ],
+  "pmc_id" : "4863561",
+  "score" : 0
+}
