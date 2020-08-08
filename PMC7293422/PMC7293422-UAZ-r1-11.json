@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In one of the outside-in signaling mechanisms of integrins, focal adhesion kinase (FAK) is phosphorylated and activated to recruit additional kinases and induce complex signaling cascade to regulate cell survival, proliferation, and migration.",
+  "reading_complete" : "2020-08-08T20:18:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:15:57Z",
+  "trigger" : "induce",
+  "evidence" : [ "FAK) is phosphorylated and activated to recruit additional kinases and induce complex signaling cascade to regulate cell survival, proliferation" ],
+  "pmc_id" : "7293422",
+  "score" : 0
+}
