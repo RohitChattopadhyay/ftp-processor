@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Upon LPS stimulation, lower levels of TNF-alpha were detected in the A20 overexpression cell lines (P < 0.05).",
+  "reading_complete" : "2020-08-08T18:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:13:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TNF-alpha" ],
+  "pmc_id" : "5095573",
+  "score" : 0
+}
