@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02751",
+      "entity_text" : "fibronectin",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "CellType" : [ "cl:CL:0002138" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This is likely due to the expression of other fibronectin binding molecules on LECs, such as beta1 integrins.",
+  "reading_complete" : "2020-08-08T14:52:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:50:09Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of other fibronectin" ],
+  "pmc_id" : "6315107",
+  "score" : 0
+}
