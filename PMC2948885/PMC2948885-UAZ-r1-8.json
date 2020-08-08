@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01812",
+      "entity_text" : "c-Jun",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As mentioned above, c-Jun N-terminal phosphorylation is not required for regeneration after PH [XREF_BIBR], suggesting that increased JNK activity after PH has other significant roles rather than its ability to phosphorylate c-Jun N-terminal.",
+  "reading_complete" : "2020-08-08T10:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "c-Jun N-terminal phosphorylation" ],
+  "pmc_id" : "2948885",
+  "score" : 0
+}

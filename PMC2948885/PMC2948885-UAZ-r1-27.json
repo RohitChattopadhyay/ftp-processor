@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43593",
+      "entity_text" : "hr",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although expression of TNF-alpha and IL-6 is upregulated 1 hr after PH, activation of transcription factor NF-kappaB and AP-1 and expression of immediate-early genes, including c-jun, c-fos, and c-myc, are upregulated within 30 min after PH [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T10:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:42Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "TNF-alpha and IL-6 is upregulated 1 hr" ],
+  "pmc_id" : "2948885",
+  "score" : 0
+}
