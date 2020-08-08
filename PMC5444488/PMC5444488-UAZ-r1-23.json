@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The first uORF has no particular effect until eIF2alpha is phosphorylated.",
+  "reading_complete" : "2020-08-08T15:19:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:34Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "eIF2alpha is phosphorylated" ],
+  "pmc_id" : "5444488",
+  "score" : 0
+}

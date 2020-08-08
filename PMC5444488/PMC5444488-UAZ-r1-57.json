@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04993",
+      "entity_text" : "miR-23",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01106",
+      "entity_text" : "myc",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In this case, myc overexpression represses miR-23, which normally binds to the 5 '-UTR of the glutaminase mRNA leading to its degradation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:19:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:34Z",
+  "trigger" : "represses",
+  "evidence" : [ "myc overexpression represses miR-23" ],
+  "pmc_id" : "5444488",
+  "score" : 0
+}

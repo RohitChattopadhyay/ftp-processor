@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It appears that plasma amino acid concentrations can briefly increase through intake, but that fasting does not lead to decreases in plasma amino acid levels with the exception of alanine, which is used for gluconeogenesis [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:19:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "acid levels" ],
+  "pmc_id" : "5444488",
+  "score" : 0
+}
