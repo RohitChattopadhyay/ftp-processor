@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12884",
+      "entity_text" : "FAP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR026818",
+      "entity_text" : "adenomatous polyposis coli (APC)",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "FAP is caused by a germline mutation of the adenomatous polyposis coli (APC) gene [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:34:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:32:27Z",
+  "trigger" : "caused",
+  "evidence" : [ "FAP is caused by a germline mutation of the adenomatous polyposis coli (APC)" ],
+  "pmc_id" : "3586510",
+  "score" : 0
+}
