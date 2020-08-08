@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16531",
+      "entity_text" : "damage-specific DNA-binding protein 1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q64902",
+      "entity_text" : "HBx",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10407" ],
+      "TissueType" : [ "tissuelist:TS-0455" ]
+    }
+  },
+  "verbose_text" : "While a role for ubiquitin was not initially appreciated, it was found that HBx binds to damage specific DNA binding protein 1, and that numerous HBx phenotypes depend upon this interaction.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "binds",
+  "evidence" : [ "HBx binds to damage-specific DNA-binding protein 1" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

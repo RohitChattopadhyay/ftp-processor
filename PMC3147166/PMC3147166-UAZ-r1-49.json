@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9DD33",
+      "entity_text" : "LMP2A",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Species" : [ "taxonomy:39059" ],
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "They discovered that LMP2A is ubiquitinated and degraded in a c-Cbl-dependent manner and that the Syk kinase is also degraded by c-Cbl in the presence of LMP2A.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "ubiquitinated",
+  "evidence" : [ "LMP2A is ubiquitinated" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

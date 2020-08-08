@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Clathrin",
+      "entity_text" : "clathrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6I3",
+      "entity_text" : "Epsin 1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A more direct role for the UPS in influenza virus entry was shown when either depletion of Epsin 1 or expression of a non ubiquitinable Epsin 1 mutant blocked clathrin mediated viral transport.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "blocked",
+  "evidence" : [ "Epsin 1 mutant blocked clathrin" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

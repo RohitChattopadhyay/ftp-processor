@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52630",
+      "entity_text" : "STAT2",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, among the rubulavirus genus, the human parainfluenza type 2 (HPIV2) V protein directs the ubiquitination and degradation of STAT2, while the PIV5 V protein induces the degradation of STAT1.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "induces",
+  "evidence" : [ "STAT2                               , while the PIV5 V protein induces the degradation of STAT1" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

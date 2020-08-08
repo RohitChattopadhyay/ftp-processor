@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "Tetherin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Organ" : [ "uberon:UBERON:0011944" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "Later we showed that K5 induces ubiquitination of Tetherin 's cytosolic lysines, which leads to both its lysosomal degradation and the enhancement of KSHV egress.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of Tetherin" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

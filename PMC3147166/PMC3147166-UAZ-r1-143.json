@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y4K3",
+      "entity_text" : "TRAF6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11103" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "This activity is mediated by the viral P protein, which has been shown to transcriptionally upregulate the cellular DUB A20, thus leading to the inhibition of NF-kappaB-dependent IFN induction via the deubiquitination of TRAF6.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "deubiquitination",
+  "evidence" : [ "deubiquitination of TRAF6" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

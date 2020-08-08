@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13309",
+      "entity_text" : "Skp2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "E2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "It has recently been shown that HPV E2 binds to Skp2, an F-box protein that serves as a specificity determinant for the SCF complex.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "binds",
+  "evidence" : [ "E2 binds to Skp2" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}

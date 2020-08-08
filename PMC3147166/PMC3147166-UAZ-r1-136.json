@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14653",
+      "entity_text" : "IRF3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:11676" ],
+      "TissueType" : [ "tissuelist:TS-0826" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "However, while ectopically expressed Vpr and Vif were shown to induce IRF3 ubiquitination and degradation in transfected 293T cells, IRF3 degradation was still observed in T-cells infected with an HIV-1 vpr / vif double mutant.",
+  "reading_complete" : "2020-08-08T08:02:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:57:06Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "IRF3 ubiquitination" ],
+  "pmc_id" : "3147166",
+  "score" : 0
+}
