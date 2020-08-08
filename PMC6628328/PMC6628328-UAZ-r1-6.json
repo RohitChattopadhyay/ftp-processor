@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As outlined by the mitochondrial free radial theory of aging, higher levels of ROS lead to hydroxylation and damage of cellular peptides and lipids [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:07:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:50:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ROS" ],
+  "pmc_id" : "6628328",
+  "score" : 0
+}

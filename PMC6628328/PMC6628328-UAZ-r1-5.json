@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1092" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Elevations in urine 3-methylglutaconic acid and abnormally low cholesterol levels are less common but still present in a significant percentage of patients (XREF_TABLE) [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:07:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:50:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "6628328",
+  "score" : 0
+}
