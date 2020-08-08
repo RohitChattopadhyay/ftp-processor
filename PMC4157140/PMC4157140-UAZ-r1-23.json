@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellType" : [ "cl:CL:0000056" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "No shRNA-3 myoblasts remained after puromycin selection; surprisingly, however, the cells transduced with shRNA-2 that did survive failed to show reduction in COX activity or in the amount of the holocomplex, and ROS levels were not modified in shRNA fibroblasts compared to controls, either before (48 hr) or during (96 hr) the decline of cell growth.",
+  "reading_complete" : "2020-08-08T14:40:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:38:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "ROS levels" ],
+  "pmc_id" : "4157140",
+  "score" : 0
+}

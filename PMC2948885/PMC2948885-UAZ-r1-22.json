@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01812",
+      "entity_text" : "c-Jun",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Inhibition of JNK activity in the liver using a small molecule JNK inhibitor (SP600125) resulted in reduced c-Jun phosphorylation and AP-1 DNA binding activity.",
+  "reading_complete" : "2020-08-08T10:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "c-Jun phosphorylation" ],
+  "pmc_id" : "2948885",
+  "score" : 0
+}

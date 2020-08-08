@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08706",
+      "entity_text" : "isomerase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13216",
+      "entity_text" : "CsA",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P62937",
+      "entity_text" : "CypA",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The binding of CsA to CypA inhibits this isomerase activity.",
+  "reading_complete" : "2020-08-08T12:56:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:55:40Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "CsA to CypA inhibits this isomerase" ],
+  "pmc_id" : "3366772",
+  "score" : 0
+}

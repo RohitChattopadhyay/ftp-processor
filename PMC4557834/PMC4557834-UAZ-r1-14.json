@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:176",
+      "entity_text" : "acetate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0636" ],
+      "Organ" : [ "uberon:UBERON:0004786" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The metabolite content in the first 3 days of life is characterized by high AAs and AA catabolites and low acetate levels, while at days 15 and 30 the levels are reversed, suggesting an inverse relationship between protein/AA and acetogenic metabolism (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:26:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:17:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "acetate levels" ],
+  "pmc_id" : "4557834",
+  "score" : 0
+}

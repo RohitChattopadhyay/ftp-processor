@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Ultimately, these could lead to opening of the mitochondrial membrane transition pore, with subsequent loss of mitochondrial function and generation of ROS.",
+  "reading_complete" : "2020-08-08T12:18:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:16:11Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of mitochondrial function and generation of ROS" ],
+  "pmc_id" : "3252240",
+  "score" : 0
+}

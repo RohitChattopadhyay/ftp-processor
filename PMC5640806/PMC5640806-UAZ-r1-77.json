@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03924",
+      "entity_text" : "AMPA receptors",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00595",
+      "entity_text" : "PDZ",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We have previously shown that the PDZ containing scaffold protein GRIP1 binds to ephrinB2 and AMPA receptors at postsynaptic sites.",
+  "reading_complete" : "2020-08-08T11:01:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "PDZ-containing scaffold protein GRIP1 binds to ephrinB2 and AMPA receptors" ],
+  "pmc_id" : "5640806",
+  "score" : 0
+}

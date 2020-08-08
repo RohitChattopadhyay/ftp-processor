@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07018",
+      "entity_text" : "gammaH2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E801" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0001637" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Nuclei of cells lining the bone trabeculae and in the proliferation and/or hypertrophic regions stained positive for histone H2AX phosphorylation, gammaH2AX (XREF_FIG B), a marker of DNA damage, consistent with nuclear PAR being synthesized as part of the DDR.",
+  "reading_complete" : "2020-08-08T14:50:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:42:49Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation, gammaH2AX" ],
+  "pmc_id" : "6581741",
+  "score" : 0
+}

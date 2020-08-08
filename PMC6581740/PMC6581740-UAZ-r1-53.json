@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60568",
+      "entity_text" : "IL-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0065" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Because clones of the Jurkat T cell line often showed variation in the levels of IL-2 they produced in response to TCR + CD28 stimulation, we systematically analyzed for each condition up to ten independent clones.",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-2" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

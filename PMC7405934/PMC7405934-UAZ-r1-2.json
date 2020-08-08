@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:17755052",
+      "entity_text" : "GDC-0941",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As compared to vehicle (DMSO) control, the combinatorial treatment with Lapatinib and GDC-0941 significantly inhibited phosphorylations of ERBB2 and AKT (XREF_SUPPLEMENTARY) and lung tumor growth and progression, as demonstrated by the significant decrease in the weight ratio of whole lung to whole body, the number of mice with surface tumors, the average number of surface tumors, and the size (diameter) of maximal surface tumors (XREF_FIG - XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:18Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "GDC-0941 significantly inhibited phosphorylations of ERBB2 and AKT" ],
+  "pmc_id" : "7405934",
+  "score" : 0
+}

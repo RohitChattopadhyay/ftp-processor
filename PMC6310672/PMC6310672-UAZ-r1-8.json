@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "serotonin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:446013",
+      "entity_text" : "FDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since the introduction of tricyclic antidepressants in the 1950s, virtually all FDA approved antidepressants inhibit the metabolization of serotonin, norepinephrine, or both.",
+  "reading_complete" : "2020-08-08T12:33:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:24:22Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "FDA-approved antidepressants inhibit the metabolization of serotonin" ],
+  "pmc_id" : "6310672",
+  "score" : 0
+}

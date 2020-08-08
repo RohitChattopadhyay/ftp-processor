@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Fasting blood glucose involves evaluation of the state of glucose that remains stable in the body after a temporary increase in exogenously injected glucose is resolved, whereas HbA1c reflects the mean blood glucose level not just at the time of sampling but immediately before the test because it increases with the concentration and time of glucose in contact with hemoglobin.",
+  "reading_complete" : "2020-08-08T15:50:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:48:24Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6754912",
+  "score" : 0
+}

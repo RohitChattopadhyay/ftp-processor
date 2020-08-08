@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02741",
+      "entity_text" : "CRP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000081" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "CRP levels> 8 mg/L were considered as positive and measured by the Nephelometer (Olympus AU5421 automatic biochemistry analyzer, Olympus, Tokyo, Japan).",
+  "reading_complete" : "2020-08-08T10:46:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:46:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "CRP\nlevels" ],
+  "pmc_id" : "6166349",
+  "score" : 0
+}

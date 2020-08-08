@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03083",
+      "entity_text" : "NDUFAF8",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5TEU4",
+      "entity_text" : "NDUFAF5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Immunoblotting with an antibody raised against NDUFAF5 (Abcam ab192235) confirmed a loss of NDUFAF5 in subject 1 's primary cell line (S1p) and the subject line transduced with the empty vector (-AF8), a result consistent with previous investigations XREF_BIBR and supporting the likelihood of an association between NDUFAF5 and NDUFAF8 in mammalian cells.",
+  "reading_complete" : "2020-08-08T12:59:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:56:15Z",
+  "trigger" : "association",
+  "evidence" : [ "association between NDUFAF5 and NDUFAF8" ],
+  "pmc_id" : "7042492",
+  "score" : 0
+}

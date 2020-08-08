@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000255" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "ER protein folding and modification are highly sensitive to disturbances of ER homeostasis, including altered glycosylation, oxidative stress, energy deprivation, ER Ca 2+ depletion, increased mRNA translation, altered metabolic status, and inflammatory stimuli.",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation, oxidative stress, energy deprivation, ER" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

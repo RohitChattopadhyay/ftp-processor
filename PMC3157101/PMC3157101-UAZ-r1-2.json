@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01582",
+      "entity_text" : "Tir",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07591",
+      "entity_text" : "intimin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0540" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "While the intimin - Tir complex is crucial for attachment and the characteristic development of actin rich processes on host cells, neither intimin nor Tir seemed to be required for leaf adherence.",
+  "reading_complete" : "2020-08-08T10:35:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:45Z",
+  "trigger" : "complex",
+  "evidence" : [ "intimin-Tir complex" ],
+  "pmc_id" : "3157101",
+  "score" : 0
+}

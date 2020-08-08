@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D004249",
+      "entity_text" : "DNA damage",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Importantly, we also find that, in the context of oncogene induced RS, where increased E2F activity is thought to cause RS, E2F transcription is required to limit DNA damage levels (XREF_FIG F).",
+  "reading_complete" : "2020-08-08T16:00:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:58:25Z",
+  "trigger" : "limit",
+  "evidence" : [ "transcription is required to limit DNA damage" ],
+  "pmc_id" : "4893157",
+  "score" : 0
+}

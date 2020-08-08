@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02195",
+      "entity_text" : "KNL1 SLiM",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Indeed, inhibiting BUBR1 :P P2A-B56 interaction is known to enhance Aurora B mediated phosphorylation of the KNL1 SLiM to prevent PP1 binding.",
+  "reading_complete" : "2020-08-08T10:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the KNL1 SLiM" ],
+  "pmc_id" : "6715587",
+  "score" : 0
+}

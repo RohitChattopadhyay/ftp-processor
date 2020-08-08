@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05184",
+      "entity_text" : "IFN receptors",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Canonical signaling through both the type I and type III IFN receptors leads to the activation of JAK1 and TYK2, the phosphorylation of STAT1 and STAT2, and their binding to IRF9 to form interferon stimulated gene factor 3 (ISGF3).",
+  "reading_complete" : "2020-08-08T11:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:16:57Z",
+  "trigger" : "leads to",
+  "evidence" : [ "IFN receptors leads to the activation of JAK1 and TYK2, the phosphorylation of STAT1" ],
+  "pmc_id" : "6317368",
+  "score" : 0
+}

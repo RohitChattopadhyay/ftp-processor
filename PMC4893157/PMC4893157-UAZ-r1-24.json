@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7021454",
+      "entity_text" : "RS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75461",
+      "entity_text" : "E2F6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As seen when inhibiting transcription or translation, preventing E2F transcription by E2F6 overexpression during RS results in a lower abundance of key checkpoint effector proteins in both HEK293 TRex E2F6 and RPE1 TetON E2F6 cells (XREF_FIG D-2F).",
+  "reading_complete" : "2020-08-08T16:00:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:58:25Z",
+  "trigger" : "preventing",
+  "evidence" : [ "preventing E2F transcription by E2F6 overexpression during RS" ],
+  "pmc_id" : "4893157",
+  "score" : 0
+}

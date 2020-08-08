@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23975",
+      "entity_text" : "Net1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "APC",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "By the time cells enter mitosis, PP2A Cdc55 modulates cell-cycle progression by counteracting phosphorylation of the APC as well as of the Cdc14 inhibitor Net1.",
+  "reading_complete" : "2020-08-08T13:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:30:04Z",
+  "trigger" : "modulates",
+  "evidence" : [ "modulates cell-cycle progression by counteracting phosphorylation of the APC as well as of the Cdc14 inhibitor Net1" ],
+  "pmc_id" : "6857435",
+  "score" : 0
+}

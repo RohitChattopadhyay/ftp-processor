@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr34",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UD71",
+      "entity_text" : "DARPP-32",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001885" ],
+      "CellType" : [ "cl:CL:0000120" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The induction of D1 receptors is likely initiated through 5-HT neurotransmission via 5-HT4 receptors in granule cells [XREF_BIBR], and potentiated through D1 receptor signaling presumably via the phosphorylation of PKA substrates including phosphorylation of DARPP-32 at Thr34.",
+  "reading_complete" : "2020-08-08T13:55:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of DARPP-32 at Thr34" ],
+  "pmc_id" : "7244404",
+  "score" : 0
+}

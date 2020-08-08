@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03405",
+      "entity_text" : "uPAR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00749",
+      "entity_text" : "u-PA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000091" ]
+    }
+  },
+  "verbose_text" : "On the other hand, quick upregulation of urokinase-type plasminogen activator (u-PA) and uPA receptor (uPAR) is induced in response to PH [XREF_BIBR], implying significant roles in the interaction between u-PA and uPAR in the priming phase of liver regeneration.",
+  "reading_complete" : "2020-08-08T10:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:42Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between u-PA and uPAR" ],
+  "pmc_id" : "2948885",
+  "score" : 0
+}

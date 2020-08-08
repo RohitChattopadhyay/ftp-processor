@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14222",
+      "entity_text" : "PRF1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Cytolitic activity score was calculated as the geometric mean of the GZMA and PRF1 expression levels from RNA gene expression data.",
+  "reading_complete" : "2020-08-08T13:50:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:42:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "PRF1 expression levels" ],
+  "pmc_id" : "6546974",
+  "score" : 0
+}

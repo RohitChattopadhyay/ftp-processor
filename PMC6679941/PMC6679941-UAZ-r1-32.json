@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0044085",
+      "entity_text" : "biogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07584",
+      "entity_text" : "PCG-1alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Of note, recent research showed that reprogramming metabolism by enforcing PCG-1alpha expression, which promotes mitochondria biogenesis, or inhibition of glycolysis in CD8 + T cells inhibits tumor growth, indicating that mitochondrial respiration promotes the anti-tumor activity of CD8 + T cells.",
+  "reading_complete" : "2020-08-08T12:31:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:27:58Z",
+  "trigger" : "promotes",
+  "evidence" : [ "PCG-1alpha expression, which promotes mitochondria biogenesis" ],
+  "pmc_id" : "6679941",
+  "score" : 0
+}

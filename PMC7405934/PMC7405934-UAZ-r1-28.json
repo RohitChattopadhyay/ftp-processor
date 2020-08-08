@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0574" ]
+    }
+  },
+  "verbose_text" : "As expected, phosphorylation of AKT (p-AKT) was increased in Pten d/d mice.",
+  "reading_complete" : "2020-08-08T10:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:18Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AKT" ],
+  "pmc_id" : "7405934",
+  "score" : 0
+}

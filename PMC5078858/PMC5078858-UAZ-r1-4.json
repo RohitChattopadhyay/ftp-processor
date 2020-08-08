@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1149" ],
+      "Cellular_component" : [ "go:GO:0005912" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "There were no consistent changes in levels of prominent iron related transcripts in these cases, with levels of most iron related transcripts appearing unaltered, including ferritin and ceruloplasmin transcripts, although transcripts for the ferroxidase hephaestin were identified as being downregulated in tissue from one NBIA patient but not the other.",
+  "reading_complete" : "2020-08-08T11:57:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:55:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of prominent iron" ],
+  "pmc_id" : "5078858",
+  "score" : 0
+}

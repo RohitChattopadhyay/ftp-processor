@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01138",
+      "entity_text" : "NGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0808" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "For example, whereas a low level of NGF in certain tissues may be sufficient to support the required number of innervating neurons, this may be inadequate to promote enough axon growth and branching for optimal sympathetic function.",
+  "reading_complete" : "2020-08-08T11:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:09Z",
+  "trigger" : "level",
+  "evidence" : [ "level of NGF" ],
+  "pmc_id" : "4407286",
+  "score" : 0
+}

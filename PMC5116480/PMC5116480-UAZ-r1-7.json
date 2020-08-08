@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15051",
+      "entity_text" : "PIQ",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7009610",
+      "entity_text" : "MD",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0002316" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The region of interest analysis revealed that, within this area, VIQ significantly and negatively correlated with MD (XREF_FIG; TFCE value = 357.31, TFCE corrected P-value = 0.002, cluster size = 1475 voxels) (for consideration of the statistical validity of this region of interest analysis and the demonstration that the associations between MD and VIQ as well as PIQ in this area are formed by the associations between MD and common components of VIQ and PIQ, see XREF_SUPPLEMENTARY and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T13:49:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:47:06Z",
+  "trigger" : "associations",
+  "evidence" : [ "associations between MD and VIQ as well as PIQ" ],
+  "pmc_id" : "5116480",
+  "score" : 0
+}

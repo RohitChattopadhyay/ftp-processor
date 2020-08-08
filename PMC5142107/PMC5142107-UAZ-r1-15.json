@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20742",
+      "entity_text" : "PZP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0014899" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002363" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR A high amount of PZP is present in the serum during pregnancy.",
+  "reading_complete" : "2020-08-08T10:33:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:31:30Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of PZP" ],
+  "pmc_id" : "5142107",
+  "score" : 0
+}

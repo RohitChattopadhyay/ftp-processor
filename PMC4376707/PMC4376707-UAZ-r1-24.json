@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:101179",
+      "entity_text" : "Hg",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00376",
+      "entity_text" : "MerR",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In presence of inducing concentrations of Hg 2+, MerR activates transcription of the functional genes in mer operon, thereby activating merA converting Hg 2+ to Hg 0, which in turn helps the bacteria to grow efficiently in high concentrations of mercury [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:26:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:22:23Z",
+  "trigger" : "activating",
+  "evidence" : [ "MerR activates transcription of the functional genes in mer operon, thereby activating merA converting Hg" ],
+  "pmc_id" : "4376707",
+  "score" : 0
+}

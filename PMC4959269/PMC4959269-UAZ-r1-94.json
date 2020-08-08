@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17676",
+      "entity_text" : "C/EBPbeta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49715",
+      "entity_text" : "C/EBPalpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Of note, there is likely no direct positive feedback between C/EBPalpha and C/EBPbeta because chromatin immunoprecipitation data sets showed no evidence of C/EBPalpha or C/EBPbeta binding to each other 's promoters.",
+  "reading_complete" : "2020-08-08T11:25:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:22:59Z",
+  "trigger" : "binding",
+  "evidence" : [ "C/EBPalpha or C/EBPbeta binding" ],
+  "pmc_id" : "4959269",
+  "score" : 0
+}

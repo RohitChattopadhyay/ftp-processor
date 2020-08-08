@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01574",
+      "entity_text" : "IFN-beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15455",
+      "entity_text" : "TLR3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This result is in agreement with a previous report, which showed that stimulation of TLR3 overexpressing fugu cells with poly (I : C) upregulated IFN-beta expression XREF_BIBR.",
+  "reading_complete" : "2020-08-08T15:17:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:18Z",
+  "trigger" : "upregulated",
+  "evidence" : [ "TLR3-overexpressing fugu cells with poly(I:C) upregulated IFN-beta" ],
+  "pmc_id" : "4231074",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95502",
+      "entity_text" : "NPTXR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "KLHL2 is an actin binding protein and has also been reported to be part of a complex that ubiquitinates NPTXR, the neuronal pentraxin receptor, 61 among other targets.",
+  "reading_complete" : "2020-08-08T14:18:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:15:29Z",
+  "trigger" : "ubiquitinates",
+  "evidence" : [ "ubiquitinates NPTXR" ],
+  "pmc_id" : "4879189",
+  "score" : 0
+}

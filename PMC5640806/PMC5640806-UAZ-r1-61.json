@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser-9",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52799",
+      "entity_text" : "ephrinB2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "CellLine" : [ "cellosaurus:CVCL_4461" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In other words, the stabilization of AMPA receptors at the membrane by ephrinB2 requires the phosphorylation of ephrinB2 at the residue Ser 9.",
+  "reading_complete" : "2020-08-08T11:01:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:11Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ephrinB2 at the residue Ser-9" ],
+  "pmc_id" : "5640806",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H0F6",
+      "entity_text" : "Sharpin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Deficiency of HOIL-1 or Sharpin inhibits phosphorylation and degradation of the NF-kappaB sequestration protein IkappaBalpha, leading to impaired activation of NF-kappaB.",
+  "reading_complete" : "2020-08-08T12:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:59:36Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "Sharpin inhibits phosphorylation and degradation of the NF-kappaB" ],
+  "pmc_id" : "4320258",
+  "score" : 0
+}

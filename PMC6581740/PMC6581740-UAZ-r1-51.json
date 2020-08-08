@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07423",
+      "entity_text" : "Strep-Tactin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:171548",
+      "entity_text" : "D-biotin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Proteins were eluted from the Strep-Tactin Sepharose beads with 2.5 mM D-biotin, a competitive ligand that binds to Strep-Tactin with a higher affinity than the OST sequence.",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "binds",
+  "evidence" : [ "D-biotin, a competitive ligand that binds to Strep-Tactin" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

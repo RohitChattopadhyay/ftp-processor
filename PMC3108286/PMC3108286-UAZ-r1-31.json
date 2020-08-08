@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:91972194",
+      "entity_text" : "lipid A-core",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15085",
+      "entity_text" : "CPA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0C23" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The last two genes, wzm and wzt (pa5451 and pa5450), encode proteins for an ABC transport system that transfers the UndPP linked CPA polymer precursor across the IM to the periplasmic surface where CPA is ligated to lipid A-core to complete its synthesis.",
+  "reading_complete" : "2020-08-08T12:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:21:31Z",
+  "trigger" : "ligated",
+  "evidence" : [ "CPA is ligated to lipid A-core" ],
+  "pmc_id" : "3108286",
+  "score" : 0
+}

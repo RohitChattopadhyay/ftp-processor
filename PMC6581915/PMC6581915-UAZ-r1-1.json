@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01112",
+      "entity_text" : "HRAS",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 12,
+        "feature_type" : "mutation",
+        "evidence" : "G12V"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "CellType" : [ "cl:CL:0000646" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "All three models make use of the gal4-UAS system, and two are 4-hydroxytamoxifen (4OHT) inducible for temporal control of mosaic HRAS G12V -GFP expression.",
+  "reading_complete" : "2020-08-08T15:38:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:36:46Z",
+  "trigger" : "expression",
+  "evidence" : [ "HRAS G12V -GFP expression" ],
+  "pmc_id" : "6581915",
+  "score" : 0
+}

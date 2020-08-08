@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "VEGFR-2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In vitro assays on cell lines evidenced that aflibercept blocks even VEGFR-2 mediated phosphorylation resulting in inhibition of endothelial cells proliferation necessary for new blood vessels formation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:39:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:34:09Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "VEGFR-2 mediated phosphorylation" ],
+  "pmc_id" : "4130202",
+  "score" : 0
+}

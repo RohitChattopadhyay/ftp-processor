@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:25113109",
+      "entity_text" : "KO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "CellLine" : [ "cellosaurus:CVCL_J350" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "We asked whether increasing intracellular calcium levels by activating C4 da neurons would further enhance the membrane loss of CDC50 KO + TMEM16F OE neurons.",
+  "reading_complete" : "2020-08-08T11:16:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:14:28Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CDC50 KO" ],
+  "pmc_id" : "6174084",
+  "score" : 0
+}

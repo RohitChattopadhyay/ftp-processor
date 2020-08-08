@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y2S2",
+      "entity_text" : "CRY",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Degradation of PER and CRY proteins is one of the factors determining circadian periodicity, and it is of note that phosphorylation of CRY by the energy sensor AMPK (AMP activated protein kinase) [XREF_BIBR] reduces its stability, thus creating a means by which nutrient availability can influence the clock.",
+  "reading_complete" : "2020-08-08T15:00:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:51:50Z",
+  "evidence" : [ "phosphorylation of CRY by the energy sensor AMPK" ],
+  "pmc_id" : "6956161",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P24781",
+      "entity_text" : "Xbra",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03836",
+      "entity_text" : "Xbra3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Interestingly, the loss of Xbra / Xbra3 caused a significant reduction of DNA occupancy of VegT at some sites, suggesting that some VegT binding is Xbra / Xbra3 dependent.",
+  "reading_complete" : "2020-08-08T12:08:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:07:01Z",
+  "trigger" : "caused",
+  "evidence" : [ "Xbra3 caused a significant reduction of DNA occupancy of VegT at some sites, suggesting that some VegT binding is Xbra" ],
+  "pmc_id" : "3791401",
+  "score" : 0
+}

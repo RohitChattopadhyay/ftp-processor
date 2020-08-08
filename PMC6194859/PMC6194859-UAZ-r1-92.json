@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:211207",
+      "entity_text" : "phosphoramidate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Purified PhoB protein (~ 35 muM) was phosphorylated with 50 mM phosphoramidate for at least 1.5 h and different concentrations of PhoBP were subsequently incubated with approximately 0.1 mM fluorescent DNA for 30 min in the presence of 15 muM non fluorescent competitor dsDNA oligos.",
+  "reading_complete" : "2020-08-08T12:41:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:37:07Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated with 50 mM phosphoramidate" ],
+  "pmc_id" : "6194859",
+  "score" : 0
+}

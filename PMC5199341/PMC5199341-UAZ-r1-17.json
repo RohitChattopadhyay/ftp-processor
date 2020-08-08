@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "end",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75525",
+      "entity_text" : "SLM2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To test whether selection of human SLM2 mRNA alternative 3 ' end 2 could be induced by increased SLM2 protein expression, we engineered a stable human HEK293 cell line that expresses a human SLM2-FLAG fusion protein in response to tetracycline addition.",
+  "reading_complete" : "2020-08-08T13:10:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:08:17Z",
+  "trigger" : "induced",
+  "evidence" : [ "end 2 could be induced by increased SLM2" ],
+  "pmc_id" : "5199341",
+  "score" : 0
+}

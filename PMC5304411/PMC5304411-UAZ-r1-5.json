@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01814",
+      "entity_text" : "PMCA2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Higher PMCA2 expression in medial neurons would increase calcium clearance, causing EPSCs with chronically depressed amplitudes, which are sensitive to recent history but poorly timed.",
+  "reading_complete" : "2020-08-08T12:50:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:47:53Z",
+  "trigger" : "increase",
+  "evidence" : [ "PMCA2 expression in medial neurons would increase calcium" ],
+  "pmc_id" : "5304411",
+  "score" : 0
+}

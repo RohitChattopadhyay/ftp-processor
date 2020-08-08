@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13866",
+      "entity_text" : "SLC5A1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Examination of the RNA-seq data for potential glucose sensing machinery (XREF_FIG J) revealed that hGLU-Venus L-cells exhibited high and selective expression of the K ATP channel subunits KCNJ11 / ABCC8 and glucokinase (GCK), as well as high levels of SLC5A1 (encoding SGLT1).",
+  "reading_complete" : "2020-08-08T11:45:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:42:02Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of SLC5A1" ],
+  "pmc_id" : "7342002",
+  "score" : 0
+}

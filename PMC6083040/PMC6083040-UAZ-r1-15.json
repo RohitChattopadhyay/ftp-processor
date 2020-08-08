@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0002608" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Contrary to a previous report by XREF_BIBR, we found that acetylated tubulin levels are also reduced in hippocampal neurons after depletion of HAUS6.",
+  "reading_complete" : "2020-08-08T12:38:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:37:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "tubulin levels" ],
+  "pmc_id" : "6083040",
+  "score" : 0
+}

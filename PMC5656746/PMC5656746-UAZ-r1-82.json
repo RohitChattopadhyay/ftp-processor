@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6PJF5",
+      "entity_text" : "iRhom2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To investigate whether 14-3-3 protein recruitment to phosphorylated iRhom2 affected TACE maturation (which requires its progression into the trans-Golgi apparatus) or iRhom2 trafficking itself, we began by examining the ability of iRhom2 phosphorylation mutants to promote TACE trafficking to the trans-Golgi apparatus, where the prodomain of TACE is normally cleaved off by furin.",
+  "reading_complete" : "2020-08-08T11:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:15Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated iRhom2" ],
+  "pmc_id" : "5656746",
+  "score" : 0
+}

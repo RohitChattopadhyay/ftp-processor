@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81172",
+      "entity_text" : "Hepcidin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hepcidin levels increase in response to iron loading, reducing intestinal iron absorption and inhibiting iron release from stores [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T10:28:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:26:27Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "Hepcidin levels increase in response to iron loading, reducing intestinal iron absorption and inhibiting iron" ],
+  "pmc_id" : "3603588",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17948",
+      "entity_text" : "VEGFR-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49763",
+      "entity_text" : "PlGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0580" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In fact, PlGF binding to VEGFR-1 modulates recruitment of bone marrow derived macrophages to the tumor site, where they release proangiogenic factors [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:39:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:34:09Z",
+  "trigger" : "binding",
+  "evidence" : [ "PlGF binding to VEGFR-1" ],
+  "pmc_id" : "4130202",
+  "score" : 0
+}

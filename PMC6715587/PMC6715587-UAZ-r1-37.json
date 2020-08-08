@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14777",
+      "entity_text" : "NDC80",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0012245" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Interestingly, we observed that these defects are associated with enhanced phosphorylation of the NDC80 tail region (XREF_FIG B and XREF_SUPPLEMENTARY A), a key Aurora B substrate that must be dephosphorylated to stabilize kinetochore-microtubule attachments.",
+  "reading_complete" : "2020-08-08T10:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:05Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the NDC80" ],
+  "pmc_id" : "6715587",
+  "score" : 0
+}

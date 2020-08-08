@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01860",
+      "entity_text" : "Pou5f1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000805" ],
+      "Organ" : [ "uberon:UBERON:0004341" ],
+      "CellType" : [ "cl:CL:0000223" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Consistent with this, we found (XREF_FIG C) that X chromosome reactivation is positively correlated with Pou5f1 expression levels at E3.5 (Spearman correlation = 0.45), albeit, the result is not significant after correcting for multiple testing (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:36:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "Pou5f1 expression levels" ],
+  "pmc_id" : "5554778",
+  "score" : 0
+}

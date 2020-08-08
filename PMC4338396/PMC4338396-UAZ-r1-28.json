@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04697",
+      "entity_text" : "TNFalpha receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75460",
+      "entity_text" : "IRE1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000151" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The kinase domain of IRE1alpha binds with TNFalpha receptor associated factor 2 (TRAF2) in the cytoplasm.",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "binds",
+  "evidence" : [ "IRE1alpha binds with TNFalpha receptor" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

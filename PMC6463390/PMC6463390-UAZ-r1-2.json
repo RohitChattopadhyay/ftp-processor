@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00421",
+      "entity_text" : "PSII",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01437",
+      "entity_text" : "PSI",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:381124" ],
+      "Cellular_component" : [ "go:GO:0009507" ]
+    }
+  },
+  "verbose_text" : "Consistent with the divergent localization of PSI and PSII complexes between MCs and BSCs, the components regulating linear electron transfer (NPQ, ST) and mediating CEF (NDH) are enriched in MCs and BSCs, respectively [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:32:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:19:10Z",
+  "trigger" : "complexes",
+  "evidence" : [ "PSI and PSII complexes" ],
+  "pmc_id" : "6463390",
+  "score" : 0
+}

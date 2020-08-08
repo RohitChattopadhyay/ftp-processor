@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5358",
+      "entity_text" : "sumatriptan",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The 5-HT 1 receptor agonist sumatriptan (300 nM) decreased GABA B IPSCs (71.42% +/- 4.50% of control, n = 8) and largely occluded the inhibition produced by cocaine (cocaine alone = 67.53% +/- 3.01% of control, n = 19; sumatriptan + cocaine = 91.51% +/- 3.52% of control, n = 8; p < 0.001, one-way ANOVA, Bonferroni post hoc analysis; XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:46:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:43:12Z",
+  "trigger" : "decreased",
+  "evidence" : [ "sumatriptan (300 nM) decreased GABA" ],
+  "pmc_id" : "4857883",
+  "score" : 0
+}

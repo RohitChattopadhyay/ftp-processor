@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0042641" ],
+      "Organ" : [ "uberon:UBERON:0002358" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Creatine phosphate sodium, used for the synthesis of adenosine triphosphate (ATP), can reserve energy for cardiac muscles, skeletal muscles and the brain; and the hydrolysis of ATP provides energy for actomyosin contraction.",
+  "reading_complete" : "2020-08-08T10:21:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:43Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of ATP" ],
+  "pmc_id" : "5972262",
+  "score" : 0
+}

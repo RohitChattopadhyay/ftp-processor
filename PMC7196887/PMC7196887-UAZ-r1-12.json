@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06111",
+      "entity_text" : "Bub1 kinetochore",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06106",
+      "entity_text" : "Venus-Mad2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As expected, nocodazole treatment (unattached kinetochores) led to an increase in Venus-Mad2 and Bub1 kinetochore binding on most kinetochores, while after taxol treatment, the average levels of these proteins were similar (XREF_FIG A, 5B, and XREF_SUPPLEMENTARY A).",
+  "reading_complete" : "2020-08-08T13:59:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:55:08Z",
+  "trigger" : "binding",
+  "evidence" : [ "Venus-Mad2 and Bub1 kinetochore binding" ],
+  "pmc_id" : "7196887",
+  "score" : 0
+}

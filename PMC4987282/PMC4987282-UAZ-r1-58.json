@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "Erk1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Analysis of Stat3 and Erk1/2 phosphorylation indicates that Erk5 does not directly modulate LIF or Fgf signaling (XREF_FIG G).",
+  "reading_complete" : "2020-08-08T13:05:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:03:08Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Erk1/2 phosphorylation" ],
+  "pmc_id" : "4987282",
+  "score" : 0
+}

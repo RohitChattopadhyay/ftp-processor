@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62993",
+      "entity_text" : "GRB2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Whereas the binding of SHP-2 and GRB2 to PD-1 peaked at 2 min of T-APC contact (XREF_FIG F), a sizable number of the low-stoichiometry interactors recruited by PD-1 (including SHP-1) showed increased binding 5 min after T-APC contact (for details see XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of SHP-2 and GRB2 to PD-1" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

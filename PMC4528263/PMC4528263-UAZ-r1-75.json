@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13201",
+      "entity_text" : "ECM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0457" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "CellType" : [ "cl:CL:0000423" ]
+    }
+  },
+  "verbose_text" : "Instead, NRP1 mediated CDC42 activation was induced by stimulation with ECM, and loss of this pathway caused defective vessel sprouting and branching similar to loss of the ECM induced, NRP1 dependent activation of ABL kinases.",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the ECM" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

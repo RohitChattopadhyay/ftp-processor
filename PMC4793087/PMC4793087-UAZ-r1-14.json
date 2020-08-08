@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02351",
+      "entity_text" : "eco1 mutants",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q29RF7",
+      "entity_text" : "Pds5",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "S. cerevisiae Pds5 mutations that suppress the lethality of eco1 mutants and are therefore defective in releasing activity cluster in two domains : the first cluster is found in and around the conserved APDAP loop (116-120 LtPds5 numbering), as well as the nearby and conserved glutamate E181 (Lt : E210).",
+  "reading_complete" : "2020-08-08T10:59:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:46Z",
+  "trigger" : "suppress",
+  "evidence" : [ "Pds5 mutations that suppress the lethality of eco1 mutants" ],
+  "pmc_id" : "4793087",
+  "score" : 0
+}

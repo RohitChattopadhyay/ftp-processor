@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Proteasome",
+      "entity_text" : "proteasome",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:358" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "IpaH9.8, a Shigella flexneri effector, is a NEL-type E3 ubiquitin ligase that promotes polyubiquitination and the subsequent proteasome dependent degradation of the NFkappaB essential modifier (NEMO), which influences NFkappaB activation.",
+  "reading_complete" : "2020-08-08T11:40:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:39:02Z",
+  "trigger" : "polyubiquitination",
+  "evidence" : [ "polyubiquitination and the subsequent proteasome" ],
+  "pmc_id" : "3131150",
+  "score" : 0
+}

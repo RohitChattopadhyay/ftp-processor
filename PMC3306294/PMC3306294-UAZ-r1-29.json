@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02614",
+      "entity_text" : "N-myristoylated proteins",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "membrane",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0016020",
+    "context" : {
+      "Species" : [ "taxonomy:4097" ],
+      "TissueType" : [ "tissuelist:TS-0540" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "Because N myristoylated proteins are often translocated to the membrane XREF_BIBR, we expected the GsAPK protein to be localized to the membrane.",
+  "reading_complete" : "2020-08-08T12:41:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:40:38Z",
+  "trigger" : "translocated",
+  "evidence" : [ "N-myristoylated proteins are often translocated to the membrane" ],
+  "pmc_id" : "3306294",
+  "score" : 0
+}

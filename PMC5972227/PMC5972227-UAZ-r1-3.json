@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser2",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O28484",
+      "entity_text" : "Pol II",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Such a process could involve the inhibition of productive Pol II elongation, for example by preventing P-TEFb-dependent phosphorylation of Ser2 of the Pol II CTD, leading to more promoter proximal pausing.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Ser2 of the Pol II" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

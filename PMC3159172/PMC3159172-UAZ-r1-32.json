@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01574",
+      "entity_text" : "IFN-beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The secretion of IFN-beta by macrophages is up-regulated in response to LPS and also infection with Gram negative, but not Gram positive, bacteria, suggesting that LPS is critical for production of IFN-beta.",
+  "reading_complete" : "2020-08-08T11:06:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:02:07Z",
+  "trigger" : "is critical for production",
+  "evidence" : [ "LPS is critical for production of IFN-beta" ],
+  "pmc_id" : "3159172",
+  "score" : 0
+}

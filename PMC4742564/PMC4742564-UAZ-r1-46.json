@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14151",
+      "entity_text" : "L-selectin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "First, the enrichment of LDeltaP T cells expressing increased levels of L-selectin and the reduction in T cells deficient in L-selectin support the hypothesis that L-selectin regulates the recruitment of virus specific T cells into infected organs.",
+  "reading_complete" : "2020-08-08T13:03:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:59:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of L-selectin" ],
+  "pmc_id" : "4742564",
+  "score" : 0
+}

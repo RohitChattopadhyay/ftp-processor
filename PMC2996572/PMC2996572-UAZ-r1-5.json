@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75949",
+      "entity_text" : "TED",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1043" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The test drug administration did not affect the liver weight to a significant level at dose levels of TED x 5 and TED x 10.",
+  "reading_complete" : "2020-08-08T11:33:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TED" ],
+  "pmc_id" : "2996572",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96B97",
+      "entity_text" : "CIN85",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02127",
+      "entity_text" : "LOX-PP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0332" ],
+      "Species" : [ "taxonomy:9986" ],
+      "TissueType" : [ "tissuelist:TS-0591" ]
+    }
+  },
+  "verbose_text" : "Taken together, these studies indicate that LOX-PP can directly associate with CIN85 in breast cancer cells.",
+  "reading_complete" : "2020-08-08T12:20:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:18:10Z",
+  "trigger" : "associate",
+  "evidence" : [ "LOX-PP can directly associate with CIN85" ],
+  "pmc_id" : "3805583",
+  "score" : 0
+}

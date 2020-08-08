@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR007122",
+      "entity_text" : "gel",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0427" ],
+      "Cellular_component" : [ "go:GO:0005794" ],
+      "Organ" : [ "uberon:UBERON:0018543" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000510" ]
+    }
+  },
+  "verbose_text" : "Unlike Paneth cells, goblet cells produce large amounts of gel forming and cell-surface mucins in both the small and large intestines under normal physiological conditions.",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of gel" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

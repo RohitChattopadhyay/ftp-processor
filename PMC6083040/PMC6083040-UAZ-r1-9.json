@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IVS2",
+      "entity_text" : "MT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08123",
+      "entity_text" : "GFP-HAUS2 clusters",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "These data suggest that GFP-HAUS2 clusters may associate both with the MT and the actin cytoskeleton.",
+  "reading_complete" : "2020-08-08T12:38:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:37:23Z",
+  "trigger" : "associate",
+  "evidence" : [ "GFP-HAUS2 clusters may associate both with the MT" ],
+  "pmc_id" : "6083040",
+  "score" : 0
+}

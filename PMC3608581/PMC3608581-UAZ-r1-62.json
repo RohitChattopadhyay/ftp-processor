@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00206",
+      "entity_text" : "TLR4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0002334" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although TSA treatment increased the mRNA levels of TLR4 in embryonic stem cells and intestinal epithelial cells XREF_BIBR, XREF_BIBR, it did not do so in OP9 preadipocytes (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:14:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TLR4" ],
+  "pmc_id" : "3608581",
+  "score" : 0
+}

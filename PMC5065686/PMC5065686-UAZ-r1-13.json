@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "Plasma lactate levels ranged from 3 to 15 mmol/L (normal range, 0.7-2.1 mmol/L), and her CSF lactate was also elevated.",
+  "reading_complete" : "2020-08-08T12:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "lactate levels" ],
+  "pmc_id" : "5065686",
+  "score" : 0
+}

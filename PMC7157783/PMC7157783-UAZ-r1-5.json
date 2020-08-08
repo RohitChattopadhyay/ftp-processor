@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32238",
+      "entity_text" : "CCK1R",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "CCK1R expression in the digestive tract plays a role in mediating gallbladder contraction, pyloric sphincter relaxation, pancreatic growth, and pancreatic enzyme secretion and inhibits gastric emptying and gastric acid secretion [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T10:54:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:24Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "CCK1R expression in the digestive tract plays a role in mediating gallbladder contraction, pyloric sphincter relaxation, pancreatic growth, and pancreatic enzyme secretion and inhibits gastric emptying and gastric acid" ],
+  "pmc_id" : "7157783",
+  "score" : 0
+}

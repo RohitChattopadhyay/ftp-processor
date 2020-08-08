@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:GSK3",
+      "entity_text" : "Gsk3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC1",
+      "entity_text" : "mTORC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This Gsk3 phosphorylation can be attenuated by mTORC1 downregulation.",
+  "reading_complete" : "2020-08-08T14:02:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:59:32Z",
+  "trigger" : "attenuated",
+  "evidence" : [ "Gsk3 phosphorylation can be attenuated by mTORC1" ],
+  "pmc_id" : "6057492",
+  "score" : 0
+}

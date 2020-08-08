@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62158",
+      "entity_text" : "CaM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Cellular_component" : [ "go:GO:0031090" ]
+    }
+  },
+  "verbose_text" : "Binding of calcium to CaM triggers a major conformational change and helical rearrangement, enabling it to bind to specific proteins for a specific response.",
+  "reading_complete" : "2020-08-08T10:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:50:34Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of calcium to CaM" ],
+  "pmc_id" : "3281212",
+  "score" : 0
+}

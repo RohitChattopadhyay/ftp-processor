@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60953",
+      "entity_text" : "CDC42",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14786",
+      "entity_text" : "NRP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "CellType" : [ "cl:CL:0000763" ]
+    }
+  },
+  "verbose_text" : "As ABL1 forms a complex with NRP1, and NRP1 forms a complex with CDC42 (XREF_FIG G), it is likely that the NRP1 / ABL1 complex has a direct role in CDC42 activation, perhaps by localizing CDC42 to sites of actin remodeling.",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "forms a complex",
+  "evidence" : [ "NRP1 forms a complex with CDC42" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

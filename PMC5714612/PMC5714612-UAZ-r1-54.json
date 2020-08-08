@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S135",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "Although most motor proteins bind their cargo via adaptor proteins, it is possible that Syt4 and Kif1A bind directly to transport DCVs and that phosphorylation of S135 of Syt4 destabilizes this interaction.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of S135 of Syt4" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

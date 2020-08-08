@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NTJ3",
+      "entity_text" : "SMC4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95347",
+      "entity_text" : "SMC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0710" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000365" ]
+    }
+  },
+  "verbose_text" : "The present study shows that the SMC2 - SMC4 complex plays an essential role during schizogony, because we, and those who performed previous genome-wide functional screens, were unable to disrupt the genes.",
+  "reading_complete" : "2020-08-08T14:06:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:02:02Z",
+  "trigger" : "complex",
+  "evidence" : [ "SMC2-SMC4 complex" ],
+  "pmc_id" : "7016506",
+  "score" : 0
+}

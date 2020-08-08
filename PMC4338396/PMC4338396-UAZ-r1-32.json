@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12933",
+      "entity_text" : "TRAF2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Phosphorylation of TRAF2 leads to subsequent activation of the NF-kappaB and c-Jun N-terminal kinase (JNK) pathways, which then contribute to inflammatory and proapoptotic signaling in the cell [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "leads to",
+  "evidence" : [ "TRAF2 leads to subsequent activation of the NF-kappaB" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

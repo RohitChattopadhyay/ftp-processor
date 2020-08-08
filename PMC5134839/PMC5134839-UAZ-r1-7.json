@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UN37",
+      "entity_text" : "Vps4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005657" ],
+      "Species" : [ "taxonomy:2287" ]
+    }
+  },
+  "verbose_text" : "In addition to the reduction in levels of the subset of \" early \" replication factors, we observe reduced levels of the cell division protein CdvA and almost complete loss of the ATPase Vps4.",
+  "reading_complete" : "2020-08-08T12:35:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:32:34Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the ATPase Vps4" ],
+  "pmc_id" : "5134839",
+  "score" : 0
+}

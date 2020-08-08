@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92796",
+      "entity_text" : "SAP102",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13224",
+      "entity_text" : "GluN2B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Because GluN2B preferentially interacts with the extrasynaptically enriched SAP102 scaffolding protein, it is likely that a GluN2B - SAP102 complex mediates signaling at extrasynaptic sites.",
+  "reading_complete" : "2020-08-08T13:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:12:56Z",
+  "trigger" : "complex",
+  "evidence" : [ "GluN2B-SAP102 complex" ],
+  "pmc_id" : "6295522",
+  "score" : 0
+}

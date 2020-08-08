@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006412",
+      "entity_text" : "translation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF11987",
+      "entity_text" : "translation initiation factor 2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activated PERK suppresses global protein synthesis and alleviates the ER protein folding load by phosphorylating Ser51 on the alpha subunit of eukaryotic translation initiation factor 2 (eIF2alpha), which impedes translation initiation.",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "impedes",
+  "evidence" : [ "translation initiation factor 2 (eIF2alpha), which impedes translation" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08775",
+      "entity_text" : "ParB",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UK39",
+      "entity_text" : "Noc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "The NBS site differs from the parS site by only 2 bases (positions 1 and 6; XREF_FIG A), but Noc and ParB recognize and bind them with exquisite specificity.",
+  "reading_complete" : "2020-08-08T13:22:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:14:07Z",
+  "trigger" : "bind",
+  "evidence" : [ "Noc and ParB recognize and bind" ],
+  "pmc_id" : "7383237",
+  "score" : 0
+}

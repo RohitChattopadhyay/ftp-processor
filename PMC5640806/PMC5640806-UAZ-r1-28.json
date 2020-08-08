@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75553",
+      "entity_text" : "Dab1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0002608" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Membrane depolarization with KCl as well as induction of chemical LTP by tetraethylammonium chloride (TEA-Cl) application resulted in increased Dab1 phosphorylation in hippocampal neurons as assessed by immunofluorescence with an anti-P-Dab1 (XREF_FIG A-2D) and by western blot analysis (XREF_FIG E and 2F).",
+  "reading_complete" : "2020-08-08T11:01:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:11Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Dab1 phosphorylation" ],
+  "pmc_id" : "5640806",
+  "score" : 0
+}

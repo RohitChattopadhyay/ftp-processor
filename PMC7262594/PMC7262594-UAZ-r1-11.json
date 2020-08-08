@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62701",
+      "entity_text" : "scar",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E584" ],
+      "Cellular_component" : [ "go:GO:0001891" ],
+      "CellType" : [ "cl:CL:0000234" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "We can skew macrophages toward filopodial phagocytosis cell autonomously (through the loss of scar or arp3) or non cell autonomously (within a slit mutant background).",
+  "reading_complete" : "2020-08-08T16:30:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:29:08Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of scar" ],
+  "pmc_id" : "7262594",
+  "score" : 0
+}

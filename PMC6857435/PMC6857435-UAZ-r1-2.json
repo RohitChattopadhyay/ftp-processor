@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:106",
+      "entity_text" : "phosphoserine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08045",
+      "entity_text" : "Cdc14",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cdc14 recognizes a PxL docking sequence and prefers to dephosphorylate phosphoserine within a pSPxK/R motif.",
+  "reading_complete" : "2020-08-08T13:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:30:04Z",
+  "evidence" : [ "Cdc14 recognizes a PxL docking sequence and prefers to dephosphorylate phosphoserine" ],
+  "pmc_id" : "6857435",
+  "score" : 0
+}

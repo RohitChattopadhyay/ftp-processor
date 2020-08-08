@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0363" ],
+      "TissueType" : [ "tissuelist:TS-0142" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of eIF2alpha is seen at the lowest doses, followed by upregulation of the chaperone proteins GRP78 and 94, and splicing of Xbp1 mRNA as the concentration rises.",
+  "reading_complete" : "2020-08-08T12:18:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:16:11Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of eIF2alpha" ],
+  "pmc_id" : "3252240",
+  "score" : 0
+}

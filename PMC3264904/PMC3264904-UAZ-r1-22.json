@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05548",
+      "entity_text" : "TRIMCyp",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05619",
+      "entity_text" : "R-to-H",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It is reasonable to assume that the R-to-H mutation at the 372nd position (R69H) together with the D-to-N mutation at the 369th position (D66N), which enhanced antiviral activity of TRIMCyp against HIV-2 but diminished anti-HIV-1 activity, arose early in a macaque common ancestor.",
+  "reading_complete" : "2020-08-08T11:30:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:39Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "R-to-H mutation at the 372nd position (R69H) together with the D-to-N mutation at the 369th position (D66N), which enhanced antiviral activity of TRIMCyp" ],
+  "pmc_id" : "3264904",
+  "score" : 0
+}

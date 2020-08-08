@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04176",
+      "entity_text" : "hpr1Delta sen1-3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60930",
+      "entity_text" : "RNH1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Given that phenotypic suppression by RNase H overexpression is accepted as a marker for R-loops, these results suggest that the suppression of hpr1Delta sen1-3 by overexpression of RNH1 might occur by removing short or labile DNA : RNA hybrids, not readily detectable by the S9.6 antibody used in our analysis.",
+  "reading_complete" : "2020-08-08T12:30:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:27:37Z",
+  "trigger" : "suppression",
+  "evidence" : [ "suppression of hpr1Delta sen1-3 by overexpression of RNH1" ],
+  "pmc_id" : "7034062",
+  "score" : 0
+}

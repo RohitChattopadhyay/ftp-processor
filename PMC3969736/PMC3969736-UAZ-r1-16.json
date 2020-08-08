@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "293T",
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "Stat6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05112",
+      "entity_text" : "IL-4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Only mutations at K108 and K398 significantly diminished Stat6 ubiquitination in 293T cells induced by IL-4 stimulation (XREF_FIG and XREF_SUPPLEMENTARY), indicating that K108 and K398 are the ubiquitination sites.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "induced",
+  "evidence" : [ "Stat6 ubiquitination in 293T cells induced by IL-4" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

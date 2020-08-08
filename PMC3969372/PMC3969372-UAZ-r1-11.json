@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:47289",
+      "entity_text" : "NNK",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01061",
+      "entity_text" : "phospho-IkappaB",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The results showed that sham and OVX mice exposed to NNK+ TCDD, the expression of phospho-IkappaB, nuclear p65, nuclear p50, and IkappaB degradation were all significantly increased compared to sham NNK group (XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:09:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:08:04Z",
+  "trigger" : "increased",
+  "evidence" : [ "phospho-IkappaB, nuclear p65, nuclear p50, and IkappaB degradation were all significantly increased compared to sham NNK" ],
+  "pmc_id" : "3969372",
+  "score" : 0
+}

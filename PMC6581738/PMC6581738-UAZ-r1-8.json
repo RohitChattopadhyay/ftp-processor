@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "This is the only equation that was varied here, by simply reducing the levels of VEGF (to model vegf inhibition) and Vsink (to model flt1 loss) respectively.",
+  "reading_complete" : "2020-08-08T11:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:37:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of VEGF" ],
+  "pmc_id" : "6581738",
+  "score" : 0
+}

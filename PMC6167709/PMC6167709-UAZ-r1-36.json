@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21912",
+      "entity_text" : "IP",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03428",
+      "entity_text" : "ConSOSL.UFO.750",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ConSOSL.UFO.750 was derived through the incorporation of the HR1 linker, eliminating the IP mutation and generating a gp41 HR1 that is 13 amino acids shorter than wild-type.",
+  "reading_complete" : "2020-08-08T11:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:52:37Z",
+  "trigger" : "eliminating",
+  "evidence" : [ "ConSOSL.UFO.750 was derived through the incorporation of the HR1 linker, eliminating the IP" ],
+  "pmc_id" : "6167709",
+  "score" : 0
+}

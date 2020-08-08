@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32797",
+      "entity_text" : "Cdc13",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H668",
+      "entity_text" : "STN1",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86WV5",
+      "entity_text" : "TEN1",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We show that STN1 and TEN1 binding to telomeric DNA increases more than Cdc13 in nmd2Delta strains, which suggests that Stn1 and Ten1 can bind telomeric DNA without Cdc13.",
+  "reading_complete" : "2020-08-08T10:30:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:28:50Z",
+  "trigger" : "increases",
+  "evidence" : [ "STN1 and TEN1 binding to telomeric DNA increases more than Cdc13" ],
+  "pmc_id" : "4518466",
+  "score" : 0
+}

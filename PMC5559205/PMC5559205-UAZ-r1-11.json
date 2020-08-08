@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "myosin light chain",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "First, activated myosin II, indicated by phosphorylation of myosin light chain 2 on the ROCK dependent site serine 19 (P-MLC S19), was localized at the cortex of the internalizing cells, as reported (XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:59:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:58:36Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of myosin light chain 2 on the ROCK-dependent site serine" ],
+  "pmc_id" : "5559205",
+  "score" : 0
+}

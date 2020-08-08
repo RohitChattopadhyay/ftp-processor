@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "desumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01105",
+      "entity_text" : "set",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Thus, although the original western blotting experiments suggested an overall increase in SUMOylation upon infection, it is clear that IAV induced SUMOylation of substantial numbers of substrates occurs concomitantly with the deSUMOylation of a different set of proteins.",
+  "reading_complete" : "2020-08-08T11:48:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:09Z",
+  "trigger" : "deSUMOylation",
+  "evidence" : [ "deSUMOylation of a different set" ],
+  "pmc_id" : "4660286",
+  "score" : 0
+}

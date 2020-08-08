@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0427" ],
+      "Cellular_component" : [ "go:GO:0005794" ],
+      "Organ" : [ "uberon:UBERON:0018543" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000510" ]
+    }
+  },
+  "verbose_text" : "The major component of the mucus layer of the gut is MUC2 mucin, which, prior to secretion into the intestinal lumen, is intracellularly processed via N glycosylation in the ER and O glycosylation in the Golgi apparatus [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "ER and O-glycosylation" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

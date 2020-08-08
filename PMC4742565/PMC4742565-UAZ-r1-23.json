@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "We used the fluorescence levels of GFP to flip the orientation of the latent factors so that a higher factor value always corresponded to a higher GFP value.",
+  "reading_complete" : "2020-08-08T10:45:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:43:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GFP" ],
+  "pmc_id" : "4742565",
+  "score" : 0
+}

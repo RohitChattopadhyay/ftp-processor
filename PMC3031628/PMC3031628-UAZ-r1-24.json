@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04798",
+      "entity_text" : "CYP1A1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07869",
+      "entity_text" : "PPARalpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We therefore suppose that the absence of PPARalpha binding on the CYP1A1 promoter after mutation can induce a conformational change of the promoter structure leading to a decrease of the activity of AhR on XRE sequences.",
+  "reading_complete" : "2020-08-08T13:46:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:29Z",
+  "trigger" : "binding",
+  "evidence" : [ "PPARalpha binding on the CYP1A1" ],
+  "pmc_id" : "3031628",
+  "score" : 0
+}

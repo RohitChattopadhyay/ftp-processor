@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14786",
+      "entity_text" : "NRP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF-A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0713" ],
+      "Organ" : [ "uberon:UBERON:2000106" ]
+    }
+  },
+  "verbose_text" : "In agreement, abolishing VEGF-A binding to NRP1 in Nrp1 Y297A / Y297A mice recapitulated the vascular extension defect caused by endothelial NRP1 loss in the P6 retina (XREF_FIG E, red arrow).",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "binding",
+  "evidence" : [ "VEGF-A binding to NRP1" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

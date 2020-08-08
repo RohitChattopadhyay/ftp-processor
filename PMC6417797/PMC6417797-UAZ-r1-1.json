@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "PrediXcan associated total bilirubin levels with UGT1A1 20 (skin, q-value = 7.1e-07) and MROH2A 20 (adipose, q-value = 0.005), and LDL and cholesterol to CELSR2 XREF_BIBR, XREF_BIBR, XREF_BIBR (most significant with LDL in brain, q-value = 6.7e-06).",
+  "reading_complete" : "2020-08-08T10:54:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:53:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "6417797",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40692",
+      "entity_text" : "MLH1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Regarding BRAF gene, a recent study suggests that BRAF mutations occur in 10-20% of sporadic colorectal cancer and are closely associated with the MLH1 methylation.",
+  "reading_complete" : "2020-08-08T12:30:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:25:32Z",
+  "trigger" : "methylation",
+  "evidence" : [ "MLH1 methylation" ],
+  "pmc_id" : "4629034",
+  "score" : 0
+}

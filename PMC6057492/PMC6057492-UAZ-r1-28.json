@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:GSK3",
+      "entity_text" : "Gsk3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "S6K is activated in both Tsc2 and Nprl2 KO mESCs through mTORC1 upregulation, yet only in Tsc2 KO cells does S6K phosphorylate Gsk3.",
+  "reading_complete" : "2020-08-08T14:02:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:59:32Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate Gsk3" ],
+  "pmc_id" : "6057492",
+  "score" : 0
+}

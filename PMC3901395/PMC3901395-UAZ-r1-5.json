@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04831",
+      "entity_text" : "RNF4-SIM2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Consistent with the steady-state data, the turnover kinetics of the reporter protein are significantly lower when the mutant RNF4 SIM2 is coexpressed instead of its wt counterpart.",
+  "reading_complete" : "2020-08-08T15:02:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:58:21Z",
+  "trigger" : "coexpressed",
+  "evidence" : [ "RNF4-SIM2 is coexpressed" ],
+  "pmc_id" : "3901395",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16769",
+      "entity_text" : "EC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In particular, VEGF mediated positive feedback was sufficient to transform normally protracted LI into a quick switch like process and could decrease the level of VEGF required to induce EC identity decisions, as, in the absence of positive feedback, ECs failed to pattern at VEGF levels modeled (XREF_FIG D and 1E).",
+  "reading_complete" : "2020-08-08T11:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:37:00Z",
+  "trigger" : "induce",
+  "evidence" : [ "VEGF required to induce EC" ],
+  "pmc_id" : "6581738",
+  "score" : 0
+}

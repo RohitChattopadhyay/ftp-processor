@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10602",
+      "entity_text" : "RNAP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00619",
+      "entity_text" : "CarD",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0971" ],
+      "Organ" : [ "uberon:UBERON:0001130" ],
+      "Species" : [ "taxonomy:1773" ]
+    }
+  },
+  "verbose_text" : "Mutations disrupting CarD interactions with RNAP and its consequences in vivo.",
+  "reading_complete" : "2020-08-08T12:38:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:14Z",
+  "trigger" : "interactions",
+  "evidence" : [ "CarD interactions with RNAP" ],
+  "pmc_id" : "4374960",
+  "score" : 0
+}

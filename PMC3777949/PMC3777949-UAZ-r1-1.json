@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "G5",
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:86583399",
+      "entity_text" : "acarbose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04018",
+      "entity_text" : "Gt-MamyT",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, Gt-MamyT hydrolyzes G4, G5 to G2 and G1, and acarbose to G1 and PTS, but fails to transglycosylate its hydrolytic products to the acceptor molecules (XREF_FIG, lanes 9-11).",
+  "reading_complete" : "2020-08-08T15:04:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:01:53Z",
+  "evidence" : [ "Gt-MamyT hydrolyzes G4, G5 to G2 and G1, and acarbose" ],
+  "pmc_id" : "3777949",
+  "score" : 0
+}

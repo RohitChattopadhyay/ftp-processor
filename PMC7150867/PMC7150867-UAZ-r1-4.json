@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09382",
+      "entity_text" : "gal-1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1045" ],
+      "CellLine" : [ "cellosaurus:CVCL_6298" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, the inhibition of gal-1 expression is not systematically stable over time, as observed by some authors [XREF_BIBR], while tumor growth and angiogenesis are halted [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T14:17:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:06:09Z",
+  "trigger" : "expression",
+  "evidence" : [ "gal-1 expression" ],
+  "pmc_id" : "7150867",
+  "score" : 0
+}

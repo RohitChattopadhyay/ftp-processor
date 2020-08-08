@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:264",
+      "entity_text" : "butyrate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0636" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Metabolic profiles reveals higher protein metabolism, with high levels of free AAs and BCFAs and low levels of acetate and butyrate associated with high levels of some Proteobacteria families and low levels of Bifidobacteria and Clostridiaceae.",
+  "reading_complete" : "2020-08-08T10:26:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:17:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of acetate and butyrate" ],
+  "pmc_id" : "4557834",
+  "score" : 0
+}

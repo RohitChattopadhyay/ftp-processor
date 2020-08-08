@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08600",
+      "entity_text" : "CG13743",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9W4S7",
+      "entity_text" : "dMyc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "histidine" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M605" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found, however, that dMyc bound histidine transporter genes, CG13743 and CG30394, but only the expression of CG30394 behaved as expected for a dMyc target.",
+  "reading_complete" : "2020-08-08T12:54:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:49:56Z",
+  "trigger" : "bound",
+  "evidence" : [ "dMyc bound histidine transporter genes, CG13743" ],
+  "pmc_id" : "6910219",
+  "score" : 0
+}

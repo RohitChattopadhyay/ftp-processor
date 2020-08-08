@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01116",
+      "entity_text" : "KRAS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We hypothesize that through an optimized MEKi dosing schedule, we can maximize the suppression of KRAS induced proliferation and survival of cancer cells while minimizing the detrimental effects on immune cells.",
+  "reading_complete" : "2020-08-08T10:51:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:49:20Z",
+  "trigger" : "induced",
+  "evidence" : [ "KRAS-induced proliferation" ],
+  "pmc_id" : "6719696",
+  "score" : 0
+}

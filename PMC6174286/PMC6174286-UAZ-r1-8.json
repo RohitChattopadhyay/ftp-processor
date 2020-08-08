@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10713",
+      "entity_text" : "INPP5E",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005930" ],
+      "Organ" : [ "uberon:UBERON:0010168" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ARL3-mutant cilia demonstrated a significant loss of both INPP5E and NPHP3 content (XREF_FIG and XREF_SUPPLEMENTARY), indicating that WT ARL3 is required for normal release of these cargos into the ciliary axoneme.",
+  "reading_complete" : "2020-08-08T14:27:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:25:01Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of both INPP5E" ],
+  "pmc_id" : "6174286",
+  "score" : 0
+}

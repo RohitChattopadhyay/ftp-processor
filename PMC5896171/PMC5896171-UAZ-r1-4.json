@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The amount of monomeric tau entering neurons, as measured by total fluorescent intensity of intracellular monomeric tau-pHrodo vesicles, was significantly reduced by dynamin inhibition, as shown at 1 and 3 hr after the addition of extracellular tau (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T10:43:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:40:57Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of monomeric tau" ],
+  "pmc_id" : "5896171",
+  "score" : 0
+}

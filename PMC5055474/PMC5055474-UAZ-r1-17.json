@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7KUD5",
+      "entity_text" : "DILP5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000784" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "MND knockdown in IPCs abolished leucine dependent changes, including loss of DILP2 and DILP5 in IPC bodies, consistent with the idea that MND is necessary for leucine dependent DILP release.",
+  "reading_complete" : "2020-08-08T11:52:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:50:39Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of DILP2 and DILP5" ],
+  "pmc_id" : "5055474",
+  "score" : 0
+}

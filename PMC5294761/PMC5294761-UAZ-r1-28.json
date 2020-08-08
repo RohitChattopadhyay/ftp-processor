@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SLC2A",
+      "entity_text" : "glucose transporters",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0030141" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Stimulation of insulin secretion by glucose involves the uptake and metabolism of the sugar via glucose transporters (Glut2 and/or Glut1), XREF_BIBR phosphorylation by glucokinase, XREF_BIBR and enhanced mitochondrial ATP synthesis.",
+  "reading_complete" : "2020-08-08T12:56:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:52:37Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "glucose transporters (Glut2 and/or Glut1), XREF_BIBR  phosphorylation" ],
+  "pmc_id" : "5294761",
+  "score" : 0
+}

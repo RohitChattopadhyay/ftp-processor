@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q3B820",
+      "entity_text" : "FAM161A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TC44",
+      "entity_text" : "POC1B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_4388" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The unrelated p63 did not coprecipitate with either POC1B or FAM161A, which confirmed specificity of the interaction between POC1B and FAM161A in the coimmunoprecipitation assay.",
+  "reading_complete" : "2020-08-08T11:42:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:40:43Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between POC1B and FAM161A" ],
+  "pmc_id" : "4129401",
+  "score" : 0
+}

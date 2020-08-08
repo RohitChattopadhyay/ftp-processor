@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06863",
+      "entity_text" : "NMDA receptor",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The effects on excitatory synapse formation could be rescued by early (but not late) expression of a mutant NMDA receptor that lacks the normal voltage dependent channel block, supporting the idea that the combination of depolarizing GABA and NMDA receptor activation is critical for excitatory synapse formation.",
+  "reading_complete" : "2020-08-08T14:33:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:32:19Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of a mutant NMDA receptor" ],
+  "pmc_id" : "4542315",
+  "score" : 0
+}

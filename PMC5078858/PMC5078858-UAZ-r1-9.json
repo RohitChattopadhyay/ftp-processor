@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02792",
+      "entity_text" : "Ftl",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D980" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The array did not include effective probes for ferritin light polypeptide (Ftl), another NBIA linked gene, but no significant difference in Ftl transcript levels was observed by real-time reverse transcription-PCR, providing evidence that the increased levels in ferritin protein noted above reflect post-transcriptional regulation, as typically occurs in many iron loading scenarios.",
+  "reading_complete" : "2020-08-08T11:57:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:55:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "Ftl transcript levels" ],
+  "pmc_id" : "5078858",
+  "score" : 0
+}

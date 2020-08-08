@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8N960",
+      "entity_text" : "CEP120",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E718" ],
+      "Cellular_component" : [ "go:GO:0005813" ],
+      "Organ" : [ "uberon:UBERON:0010168" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If CEP120 reduction were the sole cause of the ciliation phenotype, then this would suggest that ciliogenesis requires higher CEP120 levels than centriole biogenesis.",
+  "reading_complete" : "2020-08-08T16:41:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:39:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "CEP120 levels" ],
+  "pmc_id" : "5990496",
+  "score" : 0
+}

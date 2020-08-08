@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5870",
+      "entity_text" : "E1",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000312" ],
+      "Species" : [ "taxonomy:10566" ]
+    }
+  },
+  "verbose_text" : "As mentioned, the expression levels of E1 and E2 increase in association with the differentiation of the epithelial cells, which could be responsible for the vegetative genome amplification.",
+  "reading_complete" : "2020-08-08T10:20:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:19:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of E1" ],
+  "pmc_id" : "3334820",
+  "score" : 0
+}

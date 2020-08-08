@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HAH7",
+      "entity_text" : "FBS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellLine" : [ "cellosaurus:CVCL_C716" ],
+      "Organ" : [ "uberon:UBERON:0003422" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000499" ]
+    }
+  },
+  "verbose_text" : "For the B16-F0, the culture medium was composed of RPMI 1640 (ThermoFischer), with a similar amount of FBS and antibiotics.",
+  "reading_complete" : "2020-08-08T10:46:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:43:32Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of FBS" ],
+  "pmc_id" : "7262598",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03083",
+      "entity_text" : "NDUFAF8",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5TEU4",
+      "entity_text" : "NDUFAF5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Based upon TRIAP1, another member of the Cx9C family, the Phe55 residue is predicted to be critical for protein protein interaction XREF_BIBR (XREF_SUPPLEMENTARY B), and it could represent a key residue for the interaction between NDUFAF5 and NDUFAF8.",
+  "reading_complete" : "2020-08-08T12:59:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:56:15Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between NDUFAF5 and NDUFAF8" ],
+  "pmc_id" : "7042492",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S135",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "GPS 3.0 software was used as a tool to predict kinases capable of phosphorylating Syt4 at S135 and c-Jun (as a control) at S63.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "phosphorylating",
+  "evidence" : [ "phosphorylating Syt4 at S135" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

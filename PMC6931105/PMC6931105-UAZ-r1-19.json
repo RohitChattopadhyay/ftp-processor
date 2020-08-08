@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16630",
+      "entity_text" : "CPSF6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y5L0",
+      "entity_text" : "TNPO3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:12721" ],
+      "Organ" : [ "uberon:UBERON:0008915" ]
+    }
+  },
+  "verbose_text" : "Nup358 binds directly to the capsid via interaction with the CypA binding loop, while TNPO3 binds indirectly via cargo protein CPSF6 that binds between two monomers of the mature hexamer.",
+  "reading_complete" : "2020-08-08T10:08:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:05:17Z",
+  "trigger" : "binds",
+  "evidence" : [ "TNPO3 binds indirectly via cargo protein CPSF6" ],
+  "pmc_id" : "6931105",
+  "score" : 0
+}

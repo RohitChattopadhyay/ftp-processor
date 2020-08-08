@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04756",
+      "entity_text" : "REV-ERBalpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477764",
+      "entity_text" : "haem",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When haem binds to REV-ERBalpha, it induces the recruitment of the repressive NCoR / HDAC3 (nuclear co-repressor / histone deacetylase 3) complex, which represses PGC-1alpha, thus allowing haem to regulate its own production and prevent haem toxicity [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:00:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:51:50Z",
+  "trigger" : "binds",
+  "evidence" : [ "haem binds to REV-ERBalpha" ],
+  "pmc_id" : "6956161",
+  "score" : 0
+}

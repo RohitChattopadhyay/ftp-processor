@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TD46",
+      "entity_text" : "CD200R1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Regardless of the mechanism (s) of CD200 shedding, a functional significance for sCD200 was demonstrated by the ability of sCD200 to bind and phosphorylate CD200R1, the major receptor responsible for mediating the downstream immunoregulatory functions of CD200 [XREF_BIBR], using an anti-phosphotyrosine antibody specific for the active tyrosine residue in the CD200R1 tail [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:45Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate CD200R1" ],
+  "pmc_id" : "4844103",
+  "score" : 0
+}

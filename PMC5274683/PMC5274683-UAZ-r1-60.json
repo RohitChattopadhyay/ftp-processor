@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0090303",
+      "entity_text" : "injury",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The injury caused by alcohol is typically exerted by inducing epithelial cell damage and apoptosis.",
+  "reading_complete" : "2020-08-08T15:19:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:16:50Z",
+  "trigger" : "caused",
+  "evidence" : [ "injury caused by alcohol" ],
+  "pmc_id" : "5274683",
+  "score" : 0
+}

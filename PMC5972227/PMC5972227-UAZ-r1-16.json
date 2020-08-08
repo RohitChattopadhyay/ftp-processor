@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12815",
+      "entity_text" : "CTD",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09175",
+      "entity_text" : "FluPol",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Although we know that FluPol binds the Pol II CTD, how FluPol, in the context of vRNPs, associates with the host transcription complex at the start of genes and accommodates the capping enzyme has yet to be structurally characterized.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "binds",
+  "evidence" : [ "FluPol binds the Pol II CTD" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

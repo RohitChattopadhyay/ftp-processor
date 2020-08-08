@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07424",
+      "entity_text" : "PD-1-SHP-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07455",
+      "entity_text" : "PD-1-SHP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "By separately analyzing the PD-1-SHP-1 and PD-1-SHP-2 complexes, we show that both dampen the TCR and CD28 signaling pathways equally.",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "complexes",
+  "evidence" : [ "PD-1-SHP-1 and PD-1-SHP-2 complexes" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

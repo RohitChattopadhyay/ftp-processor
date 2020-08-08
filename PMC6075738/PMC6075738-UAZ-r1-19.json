@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16870",
+      "entity_text" : "CpH",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_T012" ],
+      "TissueType" : [ "tissuelist:TS-1186" ],
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Likely starting from an unmethylated precursor (PGC / GCNIS), NGSCTs re-establish methylation patterns corresponding to their cellular phenotypes : the epigenetic profile of EC resembles that of ESC, with extensive non canonical CpH methylation, while non EC NSGSTs adopt DNA methylation patterns resembling soma and extraembryonal lineages.",
+  "reading_complete" : "2020-08-08T15:31:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:29:07Z",
+  "trigger" : "methylation",
+  "evidence" : [ "CpH methylation" ],
+  "pmc_id" : "6075738",
+  "score" : 0
+}

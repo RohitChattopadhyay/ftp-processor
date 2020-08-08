@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D042822",
+      "entity_text" : "genome instability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12050",
+      "entity_text" : "Elg1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Loss of yeast Elg1 causes genome instability including gross chromosomal rearrangements, increased spontaneous sister chromatid recombination, defective sister chromatid cohesion, and derailed telomere length maintenance.",
+  "reading_complete" : "2020-08-08T12:27:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:03Z",
+  "trigger" : "causes",
+  "evidence" : [ "Elg1 causes genome instability" ],
+  "pmc_id" : "4534484",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17239",
+      "entity_text" : "serotonin receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It was found that the decrease in cholesterol levels reduced serotonin receptor sensitivity by altering the fluidity of neuron membranes.",
+  "reading_complete" : "2020-08-08T15:16:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:14:40Z",
+  "trigger" : "reduced",
+  "evidence" : [ "cholesterol levels reduced serotonin receptor" ],
+  "pmc_id" : "6138163",
+  "score" : 0
+}

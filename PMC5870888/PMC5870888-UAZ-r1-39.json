@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05219",
+      "entity_text" : "SIMH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ER-stress-associated SIMH is regulated by the PERK arm of the UPR and activated by eIF2alpha phosphorylation dependent translation attenuation.",
+  "reading_complete" : "2020-08-08T11:21:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:19:54Z",
+  "trigger" : "activated",
+  "evidence" : [ "SIMH is regulated by the PERK arm of the UPR and activated by eIF2alpha" ],
+  "pmc_id" : "5870888",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006457",
+      "entity_text" : "protein folding",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These findings suggest that eIF2alpha phosphorylation dependent UPR signaling promotes ER protein translocation, protein folding in the ER, and autophagy and, as a result, controls Paneth cell function [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "promotes",
+  "evidence" : [ "eIF2alpha phosphorylation-dependent UPR signaling promotes ER protein translocation, protein folding" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

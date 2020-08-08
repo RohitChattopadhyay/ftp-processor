@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02225",
+      "entity_text" : "KNL1-RVSF",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60566",
+      "entity_text" : "BUBR1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This is not a specific effect of PP2A-B56 per se because removal of PP2A-B56 from BUBR1 enhances KNL1-RVSF phosphorylation, and this can be rescued by recruiting PP1 to BUBR1 instead (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T10:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:05Z",
+  "trigger" : "enhances",
+  "evidence" : [ "BUBR1 enhances KNL1-RVSF phosphorylation" ],
+  "pmc_id" : "6715587",
+  "score" : 0
+}

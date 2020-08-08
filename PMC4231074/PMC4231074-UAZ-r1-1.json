@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15455",
+      "entity_text" : "TLR3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, the TLR4 adaptor molecule Mal is able to limit TLR3 mediated JNK phosphorylation and TLR3 dependent IFN-beta production XREF_BIBR, XREF_BIBR; Myd88, which is the common downstream adaptor recruited by all TLRs except TLR3 XREF_BIBR, negatively regulates TLR3 induced corneal inflammation XREF_BIBR.",
+  "reading_complete" : "2020-08-08T15:17:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:18Z",
+  "trigger" : "mediated",
+  "evidence" : [ "TLR3-mediated JNK phosphorylation" ],
+  "pmc_id" : "4231074",
+  "score" : 0
+}

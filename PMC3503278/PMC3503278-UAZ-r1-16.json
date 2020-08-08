@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0740" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Under normal conditions, p53 protein levels in the cell nucleus are not detectable by standard protein immunohistochemistry, but in cells with mutated p53, the accumulation of p53 protein is easily detectable.",
+  "reading_complete" : "2020-08-08T14:41:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:37:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "p53 protein levels" ],
+  "pmc_id" : "3503278",
+  "score" : 0
+}

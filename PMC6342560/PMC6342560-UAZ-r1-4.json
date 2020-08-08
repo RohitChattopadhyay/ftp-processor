@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92754",
+      "entity_text" : "TFAP2C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:2000033" ]
+    }
+  },
+  "verbose_text" : "There is no TFAP2C bound NE enhancer in rodents, and the genomic sequence in this region is less conserved.",
+  "reading_complete" : "2020-08-08T11:44:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:41:42Z",
+  "trigger" : "bound",
+  "evidence" : [ "TFAP2C-bound NE" ],
+  "pmc_id" : "6342560",
+  "score" : 0
+}

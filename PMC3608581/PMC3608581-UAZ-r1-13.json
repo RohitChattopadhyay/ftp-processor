@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "LPS induced the phosphorylation of ERK1/2 and p38 MAPK within 5 minutes and this lasted at least 30 minutes (XREF_FIG), whereas TSA affected the LPS induced phosphorylation of neither ERK1/2 (XREF_FIG) nor p38 MAPK (XREF_FIG) at 15 minutes.",
+  "reading_complete" : "2020-08-08T13:14:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:12Z",
+  "trigger" : "induced",
+  "evidence" : [ "LPS induced the phosphorylation of ERK1/2" ],
+  "pmc_id" : "3608581",
+  "score" : 0
+}

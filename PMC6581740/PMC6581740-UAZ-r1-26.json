@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29381",
+      "entity_text" : "SHP-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "They also failed to determine whether SHP-1 and SHP-2, which are structurally related and coexpressed in T cells, act in a redundant manner to mediate PD-1 coinhibition under physiological conditions, a key issue in view of a recent study suggesting that SHP-2 is dispensable for PD-1 coinhibition in vivo.",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "mediate",
+  "evidence" : [ "SHP-1 and SHP-2, which are structurally related and coexpressed in T cells, act in a redundant manner to mediate PD-1" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

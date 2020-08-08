@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "synapses",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0045202",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000498" ]
+    }
+  },
+  "verbose_text" : "Most studies on spinal inhibition focus on postsynaptic inhibition, involving the release of GABA and/or glycine at axodendritic and/or axosomatic synapses, but GABA release at axoaxonic synapses is also known to mediate presynaptic inhibition of primary afferent central terminals.",
+  "reading_complete" : "2020-08-08T12:49:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:44:30Z",
+  "trigger" : "release",
+  "evidence" : [ "GABA release at axoaxonic synapses" ],
+  "pmc_id" : "6635381",
+  "score" : 0
+}

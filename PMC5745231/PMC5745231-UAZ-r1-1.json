@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04206",
+      "entity_text" : "RelA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AP1",
+      "entity_text" : "AP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "In the case of macrophages, GR binding is strongly associated with binding sites for the macrophage lineage TF PU.1, and further binding sites become available upon inflammatory activation, associated with AP1 and RelA binding.",
+  "reading_complete" : "2020-08-08T16:29:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:27:34Z",
+  "trigger" : "binding",
+  "evidence" : [ "AP1 and RelA binding" ],
+  "pmc_id" : "5745231",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8U671",
+      "entity_text" : "DHA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0309" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:12143" ]
+    }
+  },
+  "verbose_text" : "Interestingly, patients who maintained a consistently high EPA / DHA levels in the RBCM, and thus therapy compliance, had a reduced risk of developing late AMD in the fellow-eye (HR 0.32).",
+  "reading_complete" : "2020-08-08T11:51:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "DHA levels" ],
+  "pmc_id" : "7155063",
+  "score" : 0
+}

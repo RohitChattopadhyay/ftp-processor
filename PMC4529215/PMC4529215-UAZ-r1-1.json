@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "Gsk3beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This interaction is through the PDZ domain, which is crucial for canonical Wnt-Gsk3beta signalling [XREF_BIBR - XREF_BIBR], Interestingly, Eps8 has been shown to activate Akt, a kinase that phosphorylates and inactivates Gsk3beta [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:38:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:34:33Z",
+  "evidence" : [ "Akt, a kinase that phosphorylates and inactivates Gsk3beta" ],
+  "pmc_id" : "4529215",
+  "score" : 0
+}

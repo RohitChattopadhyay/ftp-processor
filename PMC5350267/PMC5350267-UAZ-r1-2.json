@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF07897",
+      "entity_text" : "EAR",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF10523",
+      "entity_text" : "BEN",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The repeated-measures ANOVA applied to N1m source strengths identified the significant main effect of BEN [F (1,6) = 7.67; P = 0.032], as well as a significant interaction between BEN and EAR [F (1,6) = 16.61; P = 0.007].",
+  "reading_complete" : "2020-08-08T12:47:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:46:51Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between BEN and EAR" ],
+  "pmc_id" : "5350267",
+  "score" : 0
+}

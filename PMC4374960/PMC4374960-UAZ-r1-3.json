@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P885",
+      "entity_text" : "CarG",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00619",
+      "entity_text" : "CarD",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:1773" ]
+    }
+  },
+  "verbose_text" : "We have not been able to detect direct CarG physical interactions with any of the core RNAP subunits nor with CarQ in two-hybrid analysis [XREF_BIBR], but the likelihood that these occur once the CarD / CarG complex and RNAP have assembled at the target promoters cannot be discarded.",
+  "reading_complete" : "2020-08-08T12:38:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:14Z",
+  "trigger" : "complex",
+  "evidence" : [ "CarD/CarG complex" ],
+  "pmc_id" : "4374960",
+  "score" : 0
+}

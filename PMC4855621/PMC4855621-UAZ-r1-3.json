@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:305",
+      "entity_text" : "choline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Choline (Cho) represents the total amount of cytosolic choline and is considered a metabolic marker of membrane density and integrity.",
+  "reading_complete" : "2020-08-08T11:22:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:17:40Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of cytosolic choline" ],
+  "pmc_id" : "4855621",
+  "score" : 0
+}

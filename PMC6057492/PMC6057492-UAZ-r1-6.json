@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49815",
+      "entity_text" : "Tsc2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although Rictor sKO and Tsc2 / Rictor dKO mESCs both showed minimal Akt activity, both Gsk3 and PRAS40 remained highly phosphorylated in Tsc2 / Rictor dKO mESCs as in Tsc2 sKO mESCs, but not in Rictor sKO mESCs (XREF_FIG F), suggesting that Gsk3 is not under the control of Akt in a Tsc2 deficient background.",
+  "reading_complete" : "2020-08-08T14:02:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:59:32Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated in Tsc2" ],
+  "pmc_id" : "6057492",
+  "score" : 0
+}

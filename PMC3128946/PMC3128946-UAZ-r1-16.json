@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0002250",
+      "entity_text" : "adaptive immunity",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9858135",
+      "entity_text" : "LVS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "At day 7, the bacterial levels of both LVS and DeltacapBCA were reduced bacterial burdens, likely due to the onset of the adaptive immunity.",
+  "reading_complete" : "2020-08-08T10:50:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:48:53Z",
+  "trigger" : "reduced",
+  "evidence" : [ "LVS and DeltacapBCA were reduced bacterial burdens, likely due to the onset of the adaptive immunity" ],
+  "pmc_id" : "3128946",
+  "score" : 0
+}

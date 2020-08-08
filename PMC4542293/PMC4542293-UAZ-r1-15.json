@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445063",
+      "entity_text" : "sialic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P84849",
+      "entity_text" : "lectin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0578" ],
+      "Species" : [ "taxonomy:4565" ],
+      "TissueType" : [ "tissuelist:TS-0410" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "In addition to blotting for various membrane proteins in crude lysates, immobilized wheat germ agglutinin (WGA), a lectin that binds to galactose and sialic acid moieties, was used to enrich for Golgi and post-Golgi localized glycosylated membrane proteins from lysates of control or KD cells where the retromer components VPS26 or SNX1, or SFT2D2, ZDHHC5, or GRINA, were silenced (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T14:22:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:20:23Z",
+  "trigger" : "binds",
+  "evidence" : [ "lectin that binds to galactose and sialic acid" ],
+  "pmc_id" : "4542293",
+  "score" : 0
+}

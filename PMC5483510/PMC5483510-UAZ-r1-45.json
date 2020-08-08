@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60568",
+      "entity_text" : "IL-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35610",
+      "entity_text" : "Stat",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conform reduced presence of the IL-2Ralpha on the cell surface upon T cell activation, the IL-2 response mediated by phosphorylation of signal transducer and activator of transcription (Stat) 5 was 2DG dose-dependently reduced in Th17 cells (XREF_SUPPLEMENTARY C).",
+  "reading_complete" : "2020-08-08T11:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:44:44Z",
+  "trigger" : "mediated",
+  "evidence" : [ "IL-2 response mediated by phosphorylation of signal transducer and activator of transcription (Stat" ],
+  "pmc_id" : "5483510",
+  "score" : 0
+}

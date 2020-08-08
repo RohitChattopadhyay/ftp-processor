@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7408258",
+      "entity_text" : "PS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96D42",
+      "entity_text" : "TIM1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0647" ],
+      "Cellular_component" : [ "go:GO:0033644" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:12637" ],
+      "CellType" : [ "cl:CL:0000763" ]
+    }
+  },
+  "verbose_text" : "Another putative mechanism by which alphaviruses interact with host cell membranes is through the viral lipid bilayer, which can bind with TIM1 membrane protein that binds PS lipid.",
+  "reading_complete" : "2020-08-08T12:37:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:35:02Z",
+  "trigger" : "binds",
+  "evidence" : [ "TIM1 membrane protein that binds PS" ],
+  "pmc_id" : "6302666",
+  "score" : 0
+}

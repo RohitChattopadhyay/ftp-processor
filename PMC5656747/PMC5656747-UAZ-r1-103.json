@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser45",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04264",
+      "entity_text" : "CK1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Interestingly, the first peptide region (aas 28-53) covers the GSK3 (Ser33, Ser37, and Thr41) and CK1 (Ser45) phosphorylation sites, while the second region (aas 70-97) covers another reported modification site, Tyr86.",
+  "reading_complete" : "2020-08-08T15:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:47:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "CK1 (Ser45) phosphorylation" ],
+  "pmc_id" : "5656747",
+  "score" : 0
+}

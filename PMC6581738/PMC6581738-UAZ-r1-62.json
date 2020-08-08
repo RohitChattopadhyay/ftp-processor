@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16769",
+      "entity_text" : "EC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CE8",
+      "entity_text" : "tm4sf18",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although HU/Ap treatment did not disrupt EC motile selection, unlike loss of tm4sf18 (XREF_FIG A versus XREF_SUPPLEMENTARY G), and mutation of tm4sf18 did not disrupt EC proliferation, unlike HU/Ap (XREF_FIG B versus S3H), both tm4sf18 mutation and HU/Ap treatment generated very similar and prolonged reductions in ISV cellularity (XREF_FIG D and XREF_SUPPLEMENTARY I).",
+  "reading_complete" : "2020-08-08T11:40:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:37:00Z",
+  "trigger" : "disrupt",
+  "evidence" : [ "tm4sf18 did not disrupt EC" ],
+  "pmc_id" : "6581738",
+  "score" : 0
+}

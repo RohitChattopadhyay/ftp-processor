@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92878",
+      "entity_text" : "Rad50",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O60934",
+      "entity_text" : "Nbs1",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49959",
+      "entity_text" : "Mre11",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0566" ],
+      "Species" : [ "taxonomy:302767" ]
+    }
+  },
+  "verbose_text" : "U266 cells were treated with mirin, an inhibitor of the Mre11 - Rad50 - Nbs1 complex required for DNA resection and involved in both HR and Alt-NHEJ [XREF_BIBR, XREF_BIBR], and with NU1025, an inhibitor of PARP-1, a protein that has also been involved in the Alt-NHEJ pathway [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T13:45:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:39:25Z",
+  "trigger" : "complex",
+  "evidence" : [ "Mre11-Rad50-Nbs1 complex" ],
+  "pmc_id" : "4366222",
+  "score" : 0
+}

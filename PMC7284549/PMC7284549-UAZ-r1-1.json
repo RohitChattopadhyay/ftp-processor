@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52575",
+      "entity_text" : "IFR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF07983",
+      "entity_text" : "x8",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The actual number of infected cases in France is probably higher than the observations : we find here a factor x8 (95%-CI : 5-12) which leads to an IFR in France of 0.5% (95%-CI : 0.3-0.8) based on hospital death counting data.",
+  "reading_complete" : "2020-08-08T12:13:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:06:10Z",
+  "trigger" : "leads",
+  "evidence" : [ "x8 (95%-CI: 5-12) which leads to an IFR" ],
+  "pmc_id" : "7284549",
+  "score" : 0
+}

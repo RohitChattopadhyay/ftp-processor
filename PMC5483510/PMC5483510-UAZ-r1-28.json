@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We observed that T cells polarized in the presence of TGF-beta, namely Th17 and Treg cells, show a sustained high intracellular calcium level compared with Th1 cells after 20 hr of activation (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T11:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:44:44Z",
+  "trigger" : "level",
+  "evidence" : [ "calcium level" ],
+  "pmc_id" : "5483510",
+  "score" : 0
+}

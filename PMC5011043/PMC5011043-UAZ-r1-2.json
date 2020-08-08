@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:644102",
+      "entity_text" : "PPi",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR The hydrolysis of PPi and quantification of orthophosphate (Pi) formed was determined according to previously published methods XREF_BIBR, XREF_BIBR with minor modifications.",
+  "reading_complete" : "2020-08-08T10:10:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:22Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of PPi" ],
+  "pmc_id" : "5011043",
+  "score" : 0
+}

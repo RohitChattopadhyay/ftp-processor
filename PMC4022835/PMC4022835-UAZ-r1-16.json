@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92934",
+      "entity_text" : "Bad",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005741" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, PUMA is transcriptionally upregulated by p53, whereas Bad is phosphorylated via growth factor signaling.",
+  "reading_complete" : "2020-08-08T12:04:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:03:00Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Bad is phosphorylated" ],
+  "pmc_id" : "4022835",
+  "score" : 0
+}

@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444539",
+      "entity_text" : "trans-cinnamic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04505",
+      "entity_text" : "cinnamate-4-hydroxylase",
+      "features" : [ {
+        "to_base" : "C",
+        "site" : 4,
+        "feature_type" : "mutation",
+        "evidence" : "C4H"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Next, the hydroxylation of trans-cinnamic acid into p-coumaric acid is catalyzed by cinnamate-4-hydroxylase (C4H) [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T14:41:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:33:47Z",
+  "trigger" : "catalyzed",
+  "evidence" : [ "hydroxylation of trans-cinnamic acid into p-coumaric acid is catalyzed by cinnamate-4-hydroxylase" ],
+  "pmc_id" : "6784096",
+  "score" : 0
+}

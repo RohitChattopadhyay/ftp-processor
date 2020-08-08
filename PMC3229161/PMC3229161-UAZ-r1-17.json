@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104755",
+      "entity_text" : "Ag",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Since the liver micro-environment is rich in TGF-beta which is required to convert naive CD4 + T cells into iTreg, it is likely the low level of Ag presentation by APC combined with the presence of TGF-beta provided by the hepatocytes that evokes iTreg generation.",
+  "reading_complete" : "2020-08-08T12:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:47:43Z",
+  "trigger" : "level",
+  "evidence" : [ "level of Ag" ],
+  "pmc_id" : "3229161",
+  "score" : 0
+}

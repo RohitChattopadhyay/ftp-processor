@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000698",
+      "entity_text" : "arrestin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Subsequent analysis of PTH1R PD1, PD2 and PD3 revealed that PD1 mutant interaction with arrestin was reduced by 42.1 +/- 10.7% in comparison with the WT receptor (XREF_FIG), indicating that phosphorylation within cluster 1 did make a contribution to arrestin recruitment.",
+  "reading_complete" : "2020-08-08T16:27:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:18:36Z",
+  "trigger" : "interaction",
+  "evidence" : [ "PD1 mutant interaction with arrestin" ],
+  "pmc_id" : "5103873",
+  "score" : 0
+}

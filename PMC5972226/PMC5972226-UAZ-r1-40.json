@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92574",
+      "entity_text" : "TSC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:2000042" ]
+    }
+  },
+  "verbose_text" : "Activation of mTOR by loss of the inhibitory TSC1 / TSC2 function resulted in decreased NF-kappaB activity in mouse embryonic fibroblasts.",
+  "reading_complete" : "2020-08-08T12:57:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:54:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the inhibitory TSC1" ],
+  "pmc_id" : "5972226",
+  "score" : 0
+}

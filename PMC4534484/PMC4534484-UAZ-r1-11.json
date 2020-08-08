@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04135",
+      "entity_text" : "ChVLig",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As in XREF_FIG G, overexpression of ChVLig in cdc9-degron cells in the presence of Elg1 reduced PCNA accumulation on chromatin (XREF_FIG A, third and fourth lanes).",
+  "reading_complete" : "2020-08-08T12:27:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:03Z",
+  "trigger" : "reduced",
+  "evidence" : [ "ChVLig in cdc9-degron cells in the presence of Elg1 reduced PCNA" ],
+  "pmc_id" : "4534484",
+  "score" : 0
+}

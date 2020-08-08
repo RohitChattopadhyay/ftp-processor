@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8N7H5",
+      "entity_text" : "PD2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Interestingly, mutation of phosphorylation sites in the mutant PD2 had a greater impact on arrestin interaction, decreasing the recruitment of arrestin by up to 60% despite having only a relatively small impact on receptor phosphorylation compared with PD1.",
+  "reading_complete" : "2020-08-08T16:27:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:18:36Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation sites in the mutant PD2" ],
+  "pmc_id" : "5103873",
+  "score" : 0
+}

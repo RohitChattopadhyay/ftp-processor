@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8262" ],
+      "Species" : [ "taxonomy:302767" ]
+    }
+  },
+  "verbose_text" : "This result indicated that the prolonged H2AX phosphorylation observed after irradiation depended on the presence of unrepaired DNA damage that signaled through the checkpoint kinases to H2AX, and not to defects in the dephosphorylation of the histone variant.",
+  "reading_complete" : "2020-08-08T13:45:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:39:25Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of the histone" ],
+  "pmc_id" : "4366222",
+  "score" : 0
+}

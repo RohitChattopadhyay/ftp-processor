@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "Stat6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13191",
+      "entity_text" : "Cbl-b",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "TKB domain" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "CellType" : [ "cl:CL:0000546" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It is possible that Cbl-b interacts with Stat6 via two mechanisms : (1) Cbl-b may bind to Stat6 through its TKB domain with phosphotyrosine (s) of Stat6 upon IL-4 stimulation; and (2) phosphotyrosine residues of Cbl-b may bind to the SH2 domain of Stat6 upon TCR / CD28 stimulation.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "bind",
+  "evidence" : [ "Cbl-b may bind to Stat6 through its TKB domain" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

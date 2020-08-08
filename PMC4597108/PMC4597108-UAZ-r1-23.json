@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00302",
+      "entity_text" : "luciferase reporter",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52952",
+      "entity_text" : "NKX2-5",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, co-transfection with increasing amounts of an NKX2-5 expression plasmid progressively repressed luciferase reporter activity, but had no effect after mutation of the selex site (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T15:58:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:10Z",
+  "trigger" : "repressed",
+  "evidence" : [ "NKX2-5 expression plasmid progressively repressed luciferase reporter" ],
+  "pmc_id" : "4597108",
+  "score" : 0
+}

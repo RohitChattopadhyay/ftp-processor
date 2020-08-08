@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "IFN",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6Y0",
+      "entity_text" : "NS1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This suggests that during low-dose infection, NS1 is able to limit IFN to levels that readily trigger reporter expression in hematopoietic cells but are not sufficient for detection in epithelial cells.",
+  "reading_complete" : "2020-08-08T11:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:16:57Z",
+  "trigger" : "limit",
+  "evidence" : [ "NS1 is able to limit IFN" ],
+  "pmc_id" : "6317368",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23666112",
+      "entity_text" : "letter",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02510",
+      "entity_text" : "Span",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As shown in Figure XREF_FIG, there was no significant association between performance on either test and with : (1) Digit Span general cognition; (2) logMar letter acuity; or Pelli-Robson contrast sensitivity - although there was a trend towards an association between acuity and performance on the Search task (p = 0.056; r = 0.27).",
+  "reading_complete" : "2020-08-08T12:04:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:03:04Z",
+  "trigger" : "association",
+  "evidence" : [ "association between performance on either test and with: (1) Digit Span general cognition; (2) logMar letter" ],
+  "pmc_id" : "7028122",
+  "score" : 0
+}

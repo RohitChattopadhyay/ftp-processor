@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95639",
+      "entity_text" : "CPSF30",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6Y0",
+      "entity_text" : "NS1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Despite the considerable attention given to the canonical interaction between influenza virus NS1 and host CPSF30, the NS1 proteins of many influenza strains have mutations that prevent their binding to CPSF30.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between influenza virus NS1 and host CPSF30" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

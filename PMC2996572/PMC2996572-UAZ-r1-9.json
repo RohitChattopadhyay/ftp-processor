@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "urea",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The test drug administration did not affect serum triglyceride and blood urea levels to a significant extent as compared with the control group.",
+  "reading_complete" : "2020-08-08T11:33:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "urea levels" ],
+  "pmc_id" : "2996572",
+  "score" : 0
+}

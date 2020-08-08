@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:264",
+      "entity_text" : "butyrate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0636" ],
+      "Organ" : [ "uberon:UBERON:0004786" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The level of butyrate was lower at day 1 than at day 3 (XREF_FIG, Panel B), remained steady until day 7, and then declined by half between days 15 to 30, following the concentration of milk carbohydrates (XREF_SUPPLEMENTARY) [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T10:26:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:17:12Z",
+  "trigger" : "level",
+  "evidence" : [ "level of butyrate" ],
+  "pmc_id" : "4557834",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-MYC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:O95163",
+      "entity_text" : "p150",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00148",
+      "entity_text" : "c-MYC promoter",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To investigate whether binding of p150 to the c-MYC promoter results in activation or repression of c-MYC, levels of SALL2 expression were manipulated in HOSE cells and in RMUGS, an ovarian carcinoma derived cell line lacking expression of p150 XREF_BIBR.",
+  "reading_complete" : "2020-08-08T10:13:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:13:00Z",
+  "trigger" : "results in activation",
+  "evidence" : [ "p150 to the c-MYC promoter results in activation or repression of c-MYC" ],
+  "pmc_id" : "3460914",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "CellType" : [ "cl:CL:0000860" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "CD11c hi MHCII hi CD11b + DCs also expressed high levels of GFP; however, these cells are thought to migrate to the draining lymph node following infection, and inflammatory monocytes express both CD11c and MHCII following infection, making it difficult to differentiate these subsets.",
+  "reading_complete" : "2020-08-08T11:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:16:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GFP" ],
+  "pmc_id" : "6317368",
+  "score" : 0
+}

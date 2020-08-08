@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "CellType" : [ "cl:CL:2000042" ]
+    }
+  },
+  "verbose_text" : "Our data indicate that mitochondria dynamically supply ATP for glucose phosphorylation in a variety of cancer cell types.",
+  "reading_complete" : "2020-08-08T10:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "glucose phosphorylation" ],
+  "pmc_id" : "6456002",
+  "score" : 0
+}

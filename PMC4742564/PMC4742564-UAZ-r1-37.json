@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13477",
+      "entity_text" : "MAdCAM-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Naive, L-selectin-deficient CD8 + T cells migrated from the bloodstream into mediastinal LN as efficiently as L-selectin-sufficient CD8 + T cells, a mechanism thought to be dependent upon alpha4beta7 integrin binding to MAdCAM-1 on high endothelial venules (HEV), as reported in other mucosal-tissue-associated LNs.",
+  "reading_complete" : "2020-08-08T13:03:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:59:57Z",
+  "trigger" : "binding",
+  "evidence" : [ "integrin binding to MAdCAM-1" ],
+  "pmc_id" : "4742564",
+  "score" : 0
+}

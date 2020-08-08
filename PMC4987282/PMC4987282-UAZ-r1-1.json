@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13164",
+      "entity_text" : "Erk5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Sox1 is significantly increased in Erk5 -/- EBs (XREF_FIG C), suggesting that Erk5 suppresses ESC differentiation to neuroectoderm.",
+  "reading_complete" : "2020-08-08T13:05:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:03:08Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "Erk5 suppresses ESC differentiation" ],
+  "pmc_id" : "4987282",
+  "score" : 0
+}

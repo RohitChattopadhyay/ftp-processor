@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08375",
+      "entity_text" : "dCas9-KRAB",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "After pooling, expression of dCas9-KRAB was induced in the pooled culture with 500 ng/mL doxycycline for 48 hours before starting the differentiation.",
+  "reading_complete" : "2020-08-08T12:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:46:01Z",
+  "trigger" : "induced",
+  "evidence" : [ "dCas9-KRAB was induced in the pooled culture\nwith 500 ng/mL doxycycline for 48 hours before starting the differentiation" ],
+  "pmc_id" : "6525305",
+  "score" : 0
+}

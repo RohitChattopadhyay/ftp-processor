@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63165",
+      "entity_text" : "SUMO1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0574" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Consistent with the results of others, western blot analysis of total human lung epithelial cell (A549) lysates revealed that IAV infection triggers an increase in the abundance of proteins modified by both SUMO1 and SUMO2/3, whereas the amounts of free, unconjugated SUMO1 and SUMO2/3 are depleted (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T11:48:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:09Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of free, unconjugated SUMO1" ],
+  "pmc_id" : "4660286",
+  "score" : 0
+}

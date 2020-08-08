@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "HSP90",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5288382",
+      "entity_text" : "geldanamycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The benzoquinone ansamycin antibiotic geldanamycin (GA), or its derivates, binds to HSP90 by interaction with its ATP binding pocket with much higher affinity than ATP itself [XREF_BIBR], altering the function or folding of proteins that bind to HSP90 (named client proteins), a process that leads unbound proteins to the degradation pathway [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:33:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "geldanamycin (GA), or its derivates, binds to HSP90" ],
+  "pmc_id" : "3706948",
+  "score" : 0
+}

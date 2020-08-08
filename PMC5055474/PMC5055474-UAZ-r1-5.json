@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03378",
+      "entity_text" : "MND",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0315" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "CellType" : [ "cl:CL:0000784" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "We cannot exclude that low amounts of MND could go to the plasma membrane in IPCs, since in other tissues (e.g., the fat body) such localization is possible.",
+  "reading_complete" : "2020-08-08T11:52:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:50:39Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of MND" ],
+  "pmc_id" : "5055474",
+  "score" : 0
+}

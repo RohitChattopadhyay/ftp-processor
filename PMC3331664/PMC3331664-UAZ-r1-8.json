@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Adenosine, which is mainly derived from the ectonucleotidase mediated hydrolysis of extracellular ATP, also acts as a signaling molecule via its binding to P1 receptors, of which there are four subtypes : A 1, A 2A, A 2B, and A 3.",
+  "reading_complete" : "2020-08-08T10:42:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:40:28Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of extracellular ATP" ],
+  "pmc_id" : "3331664",
+  "score" : 0
+}

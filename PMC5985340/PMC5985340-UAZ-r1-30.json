@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03022",
+      "entity_text" : "H3K4me3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0172" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Further analysis of c.20 +544 G> T in ENCODE data (Ensembl) identified this precise base location in intron 1 as a bivalent histone modification site, with histone H3 lysine 4 trimethylation (H3K4me3) and histone H3 lysine 27 trimethylation (H3K27me3) modifications in different cell types, which are associated with gene activation and repression, respectively XREF_BIBR, XREF_BIBR (XREF_TABLE and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T13:01:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:59:12Z",
+  "trigger" : "trimethylation",
+  "evidence" : [ "trimethylation (H3K4me3) and histone H3 lysine" ],
+  "pmc_id" : "5985340",
+  "score" : 0
+}

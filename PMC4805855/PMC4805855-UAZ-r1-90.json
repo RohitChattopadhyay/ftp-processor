@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "N80",
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H765",
+      "entity_text" : "ASB8",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3704" ]
+    }
+  },
+  "verbose_text" : "We were able to confirm that ASB8 was hydroxylated on N80 (XREF_SUPPLEMENTARY D), whereas we were not able to detect any hydroxylated asparagine residue in TCEB1 or TCEB2, despite expressing FIH and identifying unmodified counterpart peptide.",
+  "reading_complete" : "2020-08-08T13:08:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:05:50Z",
+  "trigger" : "hydroxylated",
+  "evidence" : [ "ASB8 was hydroxylated on N80" ],
+  "pmc_id" : "4805855",
+  "score" : 0
+}

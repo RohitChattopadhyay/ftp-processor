@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23994",
+      "entity_text" : "Zn",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00592",
+      "entity_text" : "PC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_X128" ],
+      "Species" : [ "taxonomy:3055" ]
+    }
+  },
+  "verbose_text" : "The appearance of the [Zn-PC 2] + peak in the presence of Zn is indicative of complex formation between PC and Zn, which was confirmed by the isotopic pattern for Zn clearly visible in the zoom spectrum.",
+  "reading_complete" : "2020-08-08T11:39:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:33:10Z",
+  "trigger" : "complex formation",
+  "evidence" : [ "complex formation between PC and Zn" ],
+  "pmc_id" : "3277950",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2U2",
+      "entity_text" : "PPA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Western blotting showed normal amounts of PPA2 protein in fibroblast mitochondria from individuals P5, P6, and P7 but decreased amount in P9 (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:10:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:22Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of PPA2" ],
+  "pmc_id" : "5011043",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To bring this into context with our present work, neurons in the AD brain are often invested with NFT consisting of aggregated hyperphosphorylated tau protein that might be expected to induce ER stress.",
+  "reading_complete" : "2020-08-08T12:03:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:57:23Z",
+  "trigger" : "induce",
+  "evidence" : [ "tau protein that might be expected to induce ER" ],
+  "pmc_id" : "6514885",
+  "score" : 0
+}

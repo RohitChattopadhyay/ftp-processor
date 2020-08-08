@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01823",
+      "entity_text" : "RT-qPCR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "RT-qPCR expression levels were normalized to the geometric mean of beta-actin, B2M, GAPDH, and TBP expression levels and scaled relative to mock transfected levels.",
+  "reading_complete" : "2020-08-08T12:03:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:57:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "RT-qPCR expression levels" ],
+  "pmc_id" : "6514885",
+  "score" : 0
+}

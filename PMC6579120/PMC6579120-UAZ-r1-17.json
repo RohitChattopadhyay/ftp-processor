@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NTG7",
+      "entity_text" : "SIRT3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0062" ],
+      "Organ" : [ "uberon:UBERON:0003481" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Western blotting of these cells confirmed near complete loss of SIRT3 in shSIRT3-345 and shSIRT3-752 compared to shScrambled and ubiquitous GFP expression in all three lines (XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:30:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:11Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of SIRT3" ],
+  "pmc_id" : "6579120",
+  "score" : 0
+}

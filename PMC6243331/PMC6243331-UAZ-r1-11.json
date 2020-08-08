@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Its K m for glucose substrate is close to the fasting blood glucose level and this is unchanged by insulin action [XREF_BIBR], which instead leads to an increase in glucose transport by increasing GLUT4 translocation to the cell surface of target cells [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:50:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:39:51Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "6243331",
+  "score" : 0
+}

@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BT40",
+      "entity_text" : "INPP5K",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "XREF_BIBR INPP5K overexpression has been reported to attenuate Akt phosphorylation in response to IGF-II and insulin stimulation.",
+  "reading_complete" : "2020-08-08T13:06:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:01:34Z",
+  "trigger" : "attenuate",
+  "evidence" : [ "INPP5K overexpression has been reported to attenuate Akt phosphorylation" ],
+  "pmc_id" : "5339217",
+  "score" : 0
+}

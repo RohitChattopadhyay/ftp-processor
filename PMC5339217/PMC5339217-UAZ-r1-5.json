@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "CellType" : [ "cl:CL:0002620" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "Although we did not find differential regulation of Akt phosphorylation in IGF-II-stimulated cells from individuals with INPP5K mutations, INPP5K appears to be involved in PtdIns (3,4,5) P 3 -dependent regulation of insulin signaling and glucose homeostasis in skeletal muscle.",
+  "reading_complete" : "2020-08-08T13:06:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:01:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt phosphorylation" ],
+  "pmc_id" : "5339217",
+  "score" : 0
+}

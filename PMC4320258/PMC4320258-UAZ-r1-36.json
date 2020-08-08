@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02476",
+      "entity_text" : "LUBAC",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although it is well documented that overproduction of LUBAC increases basal NF-kappaB activation, no studies have demonstrated that increased levels of LUBAC augment NF-kappaB activity after TNF stimulation.",
+  "reading_complete" : "2020-08-08T12:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:59:36Z",
+  "trigger" : "augment",
+  "evidence" : [ "LUBAC augment NF-kappaB" ],
+  "pmc_id" : "4320258",
+  "score" : 0
+}

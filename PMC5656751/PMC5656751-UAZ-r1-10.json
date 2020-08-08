@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14734",
+      "entity_text" : "FKH",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "FKH can interact physically with both AKT and TOR and can be phosphorylated by them, and it could thus integrate signals from these two kinases.",
+  "reading_complete" : "2020-08-08T15:36:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:34:21Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "FKH can interact physically with both AKT and TOR and can be phosphorylated" ],
+  "pmc_id" : "5656751",
+  "score" : 0
+}

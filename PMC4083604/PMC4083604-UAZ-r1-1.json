@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:171548",
+      "entity_text" : "biotin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01382",
+      "entity_text" : "avidin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0214" ],
+      "Species" : [ "taxonomy:210" ]
+    }
+  },
+  "verbose_text" : "Sections from these biopsy samples were immunostained for CgA using the avidin - biotin complex (ABC) method.",
+  "reading_complete" : "2020-08-08T11:14:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:13:14Z",
+  "trigger" : "complex",
+  "evidence" : [ "avidin-biotin complex" ],
+  "pmc_id" : "4083604",
+  "score" : 0
+}

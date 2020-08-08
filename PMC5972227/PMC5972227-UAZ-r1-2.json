@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O28484",
+      "entity_text" : "Pol II",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6Y0",
+      "entity_text" : "NS1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that the expression of wild-type NS1 (but not that of a CPSF30 binding mutant) induced a similar Pol II termination defect as influenza virus infection, consistent with our results above.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "induced",
+  "evidence" : [ "NS1 (but not that of a CPSF30-binding mutant) induced a similar Pol II" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

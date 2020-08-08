@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00511",
+      "entity_text" : "EGFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0638" ],
+      "Organ" : [ "uaz:UA-ORG-92" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "One plausible explanation is that these outlier cells represent macrophages that have engulfed or are attached to thrombocytes and hence retained a high level of EGFP fluorescence.",
+  "reading_complete" : "2020-08-08T10:45:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:43:11Z",
+  "trigger" : "level",
+  "evidence" : [ "level of EGFP" ],
+  "pmc_id" : "4742565",
+  "score" : 0
+}

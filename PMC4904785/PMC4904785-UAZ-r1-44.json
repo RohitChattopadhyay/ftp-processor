@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Increased PKR activity inhibits translation by blocking the initiation of protein synthesis through the phosphorylation of eIF2alpha.",
+  "reading_complete" : "2020-08-08T14:35:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:33:56Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of eIF2alpha" ],
+  "pmc_id" : "4904785",
+  "score" : 0
+}

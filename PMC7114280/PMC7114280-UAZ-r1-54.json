@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellLine" : [ "cellosaurus:CVCL_8170" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "A previous experiment in rats showed that disordered reactive oxygen species reactions occurred in kidneys, and that phospholipid hydroperoxide and MDA levels were elevated in serum and kidney tissue, following induction of CCl 4 -induced AKI.",
+  "reading_complete" : "2020-08-08T10:45:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:42:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "MDA levels" ],
+  "pmc_id" : "7114280",
+  "score" : 0
+}

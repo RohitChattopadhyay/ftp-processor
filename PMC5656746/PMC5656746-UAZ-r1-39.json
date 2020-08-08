@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6PJF5",
+      "entity_text" : "iRhom2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Organ" : [ "uberon:UBERON:2005088" ]
+    }
+  },
+  "verbose_text" : "To obtain deeper insights into the specific residues within the iRhom2 cytoplasmic tail that were phosphorylated in response to PMA in our model, we performed mass spectrometry on immunoprecipitates from HEK293ET cells expressing HA tagged WT mouse iRhom2 versus the iRhom2 Dead mutant.",
+  "reading_complete" : "2020-08-08T11:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:15Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "iRhom2 cytoplasmic tail that were phosphorylated" ],
+  "pmc_id" : "5656746",
+  "score" : 0
+}

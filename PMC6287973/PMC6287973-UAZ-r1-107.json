@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser 136",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q53ET0",
+      "entity_text" : "CRTC2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0002334" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The results from this study indicate that mTORC1 suppresses COX-2 through phosphorylation of CRTC2 at Ser 136 and subsequent inhibition of CREB binding to the cox-2 promoter in adipocytes.",
+  "reading_complete" : "2020-08-08T12:07:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:04:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of CRTC2 at Ser 136" ],
+  "pmc_id" : "6287973",
+  "score" : 0
+}

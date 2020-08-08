@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16333",
+      "entity_text" : "NCK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Mechanistically, caspase-4 activation requires the detection of LPS and EPEC induced actin polymerization, either via Tir tyrosine phosphorylation and the phosphotyrosine binding adaptor NCK or Tir and the NCK mimicking effector TccP.",
+  "reading_complete" : "2020-08-08T14:12:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:10:24Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation and the phosphotyrosine-binding adaptor NCK or Tir and the NCK" ],
+  "pmc_id" : "6486487",
+  "score" : 0
+}

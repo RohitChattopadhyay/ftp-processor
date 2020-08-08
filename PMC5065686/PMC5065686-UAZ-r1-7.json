@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18440",
+      "entity_text" : "AAC1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0014899" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR At present it is not possible to study the relative expression of wild-type and mutant AAC1 at the protein level nor are we able to distinguish between each AAC isoform since the proteins are so similar (> 88% identity between AAC1, AAC2, and AAC3) that the available antibodies recognize all isoforms.",
+  "reading_complete" : "2020-08-08T12:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:11Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of wild-type and mutant AAC1" ],
+  "pmc_id" : "5065686",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439357",
+      "entity_text" : "galactose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We tested this hypothesis by culturing the cells in galactose, which impairs glycolysis, to probe the capacity of cells to use the alternative pathway of generating energy via mitochondrial OXPHOS.",
+  "reading_complete" : "2020-08-08T12:14:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:13:01Z",
+  "trigger" : "impairs",
+  "evidence" : [ "galactose, which impairs glycolysis" ],
+  "pmc_id" : "4977274",
+  "score" : 0
+}

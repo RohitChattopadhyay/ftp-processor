@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031965" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We find this also occurs in iPSC derived FTD-MAPT neurons, where we detected increased tau phosphorylation at serine 202/threonine 205 (the AT8 epitope) and also at serine 404.",
+  "reading_complete" : "2020-08-08T14:37:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:08Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tau phosphorylation at serine" ],
+  "pmc_id" : "6335264",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The effects of gastrointestinal motility may be different in each subgroup of prokinetics, and this result may be related to glucose levels, but it was difficult to compare this directly in this meta-analysis.",
+  "reading_complete" : "2020-08-08T15:50:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:48:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "6754912",
+  "score" : 0
+}

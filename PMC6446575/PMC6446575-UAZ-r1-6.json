@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "A1" ],
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Alternatively, it has been reported that LXR SUMOylation and NCoR may be dispensable for gene repression by LXR, and certain anti-inflammatory activities of LXR may reflect the metabolic functions of LXR targets, including the cholesterol efflux transporter ATP binding cassette transporter A1 (ABCA1).",
+  "reading_complete" : "2020-08-08T10:18:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:16:35Z",
+  "trigger" : "binding",
+  "evidence" : [ "cholesterol efflux transporter ATP-binding cassette transporter A1" ],
+  "pmc_id" : "6446575",
+  "score" : 0
+}

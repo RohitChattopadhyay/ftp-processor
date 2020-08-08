@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31645",
+      "entity_text" : "HTT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75925",
+      "entity_text" : "PIAS1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "PIAS1 binds both transfected HTT (586 aa) and full-length endogenous HTT based on PIAS1 detection even in the absence of exogenous HTT 586 overexpression (XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:32Z",
+  "trigger" : "binds",
+  "evidence" : [ "PIAS1 binds both transfected HTT (586 aa) and full-length endogenous HTT" ],
+  "pmc_id" : "3931302",
+  "score" : 0
+}

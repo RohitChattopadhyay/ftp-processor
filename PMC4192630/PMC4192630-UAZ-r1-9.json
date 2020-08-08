@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0002316" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As in ME/CFS, lower levels of ATP, decreased phosphocreatine synthesis and impaired oxidative phosphorylation are linked to mitochondrial dysfunction [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T14:06:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:56:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ATP" ],
+  "pmc_id" : "4192630",
+  "score" : 0
+}

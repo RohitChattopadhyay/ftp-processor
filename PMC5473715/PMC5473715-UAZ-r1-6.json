@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9C056",
+      "entity_text" : "NKX6-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0680" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000128" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Importantly, loss of NKX6-2 was found to result in significant motor and behavioral deficits.",
+  "reading_complete" : "2020-08-08T13:25:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:23:33Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of NKX6-2" ],
+  "pmc_id" : "5473715",
+  "score" : 0
+}

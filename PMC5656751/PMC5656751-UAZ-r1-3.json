@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14734",
+      "entity_text" : "FKH",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6XE38",
+      "entity_text" : "IIS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "IIS activity leads to FKH phosphorylation, potentially contributing to a decrease in nuclear FKH.",
+  "reading_complete" : "2020-08-08T15:36:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:34:21Z",
+  "trigger" : "leads",
+  "evidence" : [ "IIS activity leads to FKH phosphorylation" ],
+  "pmc_id" : "5656751",
+  "score" : 0
+}

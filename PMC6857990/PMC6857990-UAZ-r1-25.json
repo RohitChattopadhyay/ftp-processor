@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D002470",
+      "entity_text" : "cell viability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11021",
+      "entity_text" : "BiP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Annexin V staining showed that BiP treatment did not reduce cell viability, and indeed, cells cultured with BiP were less prone to apoptosis than control cells.",
+  "reading_complete" : "2020-08-08T11:03:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:00:05Z",
+  "trigger" : "reduce",
+  "evidence" : [ "BiP treatment did not reduce cell viability" ],
+  "pmc_id" : "6857990",
+  "score" : 0
+}

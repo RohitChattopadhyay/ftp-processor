@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01270",
+      "entity_text" : "parathyroid hormone",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0002718" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Despite reducing parathyroid hormone (PTH) levels, cinacalcet did not reduce mortality.",
+  "reading_complete" : "2020-08-08T15:34:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:31:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "parathyroid hormone (PTH) levels" ],
+  "pmc_id" : "6203318",
+  "score" : 0
+}

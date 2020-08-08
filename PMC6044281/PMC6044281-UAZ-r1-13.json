@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:IKK_complex",
+      "entity_text" : "IKK complex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00713",
+      "entity_text" : "nuclear factor kappaB",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "LUBAC catalyzed linear ubiquitination of the nuclear factor kappaB (NF-kappaB) essential modulator (NEMO), a key regulator of the IkappaB kinase (IKK) complex, induces oligomerization of the IKK complex via recognition of linear chains by the UBAN domain of another NEMO molecule, leading to activation of IKK by trans-autophosphorylation.",
+  "reading_complete" : "2020-08-08T11:50:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:48:10Z",
+  "trigger" : "induces",
+  "evidence" : [ "nuclear factor kappaB (NF-kappaB) essential modulator (NEMO), a key regulator of the IkappaB kinase (IKK) complex, induces oligomerization of the IKK complex" ],
+  "pmc_id" : "6044281",
+  "score" : 0
+}

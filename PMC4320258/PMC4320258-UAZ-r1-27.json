@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "A20",
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NQC7",
+      "entity_text" : "CYLD",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There are no known regulators of UBE2L3, but three deubiquitinating enzymes (DUBs) have been implicated in regulating linear ubiquitination, namely OTULIN, XREF_BIBR CYLD, XREF_BIBR and A20.",
+  "reading_complete" : "2020-08-08T12:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:59:36Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination, namely OTULIN, XREF_BIBR  CYLD, XREF_BIBR  and A20" ],
+  "pmc_id" : "4320258",
+  "score" : 0
+}

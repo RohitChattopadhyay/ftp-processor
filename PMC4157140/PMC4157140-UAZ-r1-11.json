@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0097189" ],
+      "Organ" : [ "uberon:UBERON:0003544" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, in S2 fibroblasts transduced with APOPT1-HA-expressing lentiviral vector, the amount of ROS was decreased with either treatment, being comparable to that found in control cells treated with the higher H 2 O 2 concentration, suggesting a role for APOPT1 in mitochondrial response to ROS (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T14:40:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:38:41Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ROS" ],
+  "pmc_id" : "4157140",
+  "score" : 0
+}

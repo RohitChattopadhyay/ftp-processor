@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "Cellular_component" : [ "go:GO:0044297" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000100" ]
+    }
+  },
+  "verbose_text" : "Alternatively, in parallel with findings in the hippocampus, where basal levels of NO provided by the vasculature are known to be required for LTP, it is possible that the endogenous NO that modulates locomotor related output arises from the microvasculature of the spinal cord.",
+  "reading_complete" : "2020-08-08T12:27:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:18:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NO" ],
+  "pmc_id" : "3921400",
+  "score" : 0
+}

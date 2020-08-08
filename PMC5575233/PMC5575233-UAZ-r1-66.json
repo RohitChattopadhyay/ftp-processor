@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:G_s",
+      "entity_text" : "GS protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "M0 macrophages (which weakly express GS) significantly increase GS protein levels following starvation, and this event is sufficient to skew cells toward an M2 like phenotype without any further cytokine treatment, in line with the role of nutrient deprivation in modifying the phenotype of macrophages, as described previously.",
+  "reading_complete" : "2020-08-08T12:41:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:38:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "GS protein levels" ],
+  "pmc_id" : "5575233",
+  "score" : 0
+}

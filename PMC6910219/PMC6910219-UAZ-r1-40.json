@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15516",
+      "entity_text" : "clock",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9W4S7",
+      "entity_text" : "dMyc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M605" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To evaluate whether dMyc directly binds clock genes, we analyzed dMyc chromatin immunoprecipitation sequencing (ChIP-seq) data from Drosophila melanogaster Kc cells and found endogenous dMyc binding at the promoters of cyc, cwo, pdp, and vri, but not of per and tim (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T12:54:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:49:56Z",
+  "trigger" : "binds",
+  "evidence" : [ "dMyc directly binds clock" ],
+  "pmc_id" : "6910219",
+  "score" : 0
+}

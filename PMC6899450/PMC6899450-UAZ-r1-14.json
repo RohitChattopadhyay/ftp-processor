@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02095",
+      "entity_text" : "Miltenyi",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02103",
+      "entity_text" : "anti-CD3/28 antibodies",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For non specific TCR triggering, PBMCs, enriched CD8 T cells, sorted cells or colonic lymphocytes were stimulated with plate bound anti-CD3/28 antibodies (Miltenyi), or anti-CD3/28 beads (Miltenyi) at 1:1 ratio.",
+  "reading_complete" : "2020-08-08T10:51:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:47:21Z",
+  "trigger" : "bound",
+  "evidence" : [ "bound anti-CD3/28 antibodies (Miltenyi" ],
+  "pmc_id" : "6899450",
+  "score" : 0
+}

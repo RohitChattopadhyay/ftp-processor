@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7408258",
+      "entity_text" : "PS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "CellLine" : [ "cellosaurus:CVCL_J350" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:2001840" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Although PS exposure is associated with cell-autonomous membrane vesicle shedding in apoptosis, necroptosis, tumor cell microvesicle formation, and cell membrane repair, in the context of da neurons, PS-exposure by itself does not cause vesicle shedding, because membrane loss of PS exposing dendrites is completely blocked in the drpr mutant background.",
+  "reading_complete" : "2020-08-08T11:16:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:14:28Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PS" ],
+  "pmc_id" : "6174084",
+  "score" : 0
+}

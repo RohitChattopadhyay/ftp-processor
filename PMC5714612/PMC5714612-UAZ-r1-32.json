@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 135,
+        "feature_type" : "mutation",
+        "evidence" : "S135E"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:64279" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "mCherry tagged WT, S135A, and S135E Syt4 were overexpressed at similar levels; 2.5 +/- 0.3-, 2.4 +/- 0.1-, and 2.3 +/- 0.2-fold, respectively, as assessed by comparison of anti-Syt4 fluorescence intensity in cell bodies.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "overexpressed",
+  "evidence" : [ "Syt4 were overexpressed" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

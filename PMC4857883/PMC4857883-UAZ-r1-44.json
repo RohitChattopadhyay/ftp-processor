@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-SC-00350",
+      "entity_text" : "DAG",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "DAG is then hydrolyzed by diacylglycerol lipase-alpha (DGLalpha) to form 2-AG.",
+  "reading_complete" : "2020-08-08T12:46:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:43:12Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "DAG is then hydrolyzed" ],
+  "pmc_id" : "4857883",
+  "score" : 0
+}

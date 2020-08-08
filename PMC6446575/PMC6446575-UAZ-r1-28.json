@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01282",
+      "entity_text" : "H3K27",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In untreated or TLR4 stimulated macrophages, the ATAC signal correlates strongly with H3K27 acetylation signal measured in published primary macrophage ChIP-seq data (r = 0.8 for each condition; XREF_SUPPLEMENTARY) and captures 80% of H3K27ac+ peaks, consistent with prior evidence that chromatin accessibility changes are linked to histone modification changes involved in transcriptional regulation.",
+  "reading_complete" : "2020-08-08T10:18:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:16:35Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "H3K27 acetylation" ],
+  "pmc_id" : "6446575",
+  "score" : 0
+}

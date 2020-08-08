@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43593",
+      "entity_text" : "hr",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaBalpha",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Immunoblotting analysis of NF-kappaB activation showed that IkappaBalpha degradation and p65 phosphorylation were evidently induced between 1 and 12 hr after 30-min MCAO and returned close to a baseline level after 48 and 72 hr in C57BL/6J (wild-type [WT]) mice (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:54:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:55Z",
+  "trigger" : "induced",
+  "evidence" : [ "IkappaBalpha degradation and p65 phosphorylation were evidently induced between 1 and 12 hr" ],
+  "pmc_id" : "6485958",
+  "score" : 0
+}

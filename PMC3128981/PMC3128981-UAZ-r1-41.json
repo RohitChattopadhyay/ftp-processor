@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HC29",
+      "entity_text" : "Nod2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y239",
+      "entity_text" : "Nod1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "CellType" : [ "cl:CL:0002563" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Binding between Nod1 and Nod2 and their specific PAMPs is followed by association with the adaptor protein Rip2, which initiates production of NF-kB-dependent pro inflammatory cytokines.",
+  "reading_complete" : "2020-08-08T11:24:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:23:22Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding between Nod1 and Nod2" ],
+  "pmc_id" : "3128981",
+  "score" : 0
+}
