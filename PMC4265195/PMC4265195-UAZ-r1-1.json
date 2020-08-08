@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "Da",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ]
+    }
+  },
+  "verbose_text" : "A retrospective examination of the NA sequence revealed that the assigned N-terminal residue (Cys281) is preceded by a serine residue (Ser280), allowing for the inclusion of Ser280 (+87.0320 Da) together with a change of the Cys281 modification from a double BPL attachment (+144.0423 Da) to carbamidomethylation (+57.0215 Da) results in a mass shift of 0.0112 Da, which reduces mass error from 7 to 1 ppm.",
+  "reading_complete" : "2020-08-08T14:58:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:55:34Z",
+  "trigger" : "carbamidomethylation",
+  "evidence" : [ "carbamidomethylation (+57.0215 Da" ],
+  "pmc_id" : "4265195",
+  "score" : 0
+}
