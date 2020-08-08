@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00656",
+      "entity_text" : "AChR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00644",
+      "entity_text" : "c.1171delG",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The c.1171delG mutation caused the number of AChR clusters longer than 3 mum in differentiated myotubes to be approximately 50% lower than that in mock transfected (wild-type) or non transfected C2C12 myotubes (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T09:48:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:45:51Z",
+  "trigger" : "caused",
+  "evidence" : [ "c.1171delG mutation caused the number of AChR" ],
+  "pmc_id" : "4678414",
+  "score" : 0
+}
