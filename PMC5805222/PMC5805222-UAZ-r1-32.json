@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000545" ]
+    }
+  },
+  "verbose_text" : "In this study, the IL-4 level noticeably increased in the model group, the IFN-gamma level remained essentially constant and the IL-4 / IFN-gamma ratio notably increased compared with the control group.",
+  "reading_complete" : "2020-08-08T09:43:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:42:23Z",
+  "trigger" : "level",
+  "evidence" : [ "IFN-gamma level" ],
+  "pmc_id" : "5805222",
+  "score" : 0
+}
