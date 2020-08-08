@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P43694",
+      "entity_text" : "GATA4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y261",
+      "entity_text" : "FOXA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "By performing chromatin immunoprecipitation sequencing (ChIP-seq) analyses, we found that the binding of FOXA2, GATA6, GATA4, and HNF1B corresponded well with stage specific ATAC-seq signals and motif association (XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:06:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:03:12Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of FOXA2, GATA6, GATA4" ],
+  "pmc_id" : "6636862",
+  "score" : 0
+}
