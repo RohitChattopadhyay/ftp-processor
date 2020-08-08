@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35228",
+      "entity_text" : "iNOS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that the expression of COX-2, iNOS, MMP-9, and PCNA were increased in groups treated with NNK combined with TCDD, E2, or both, in which E2 had strong effects on promoting NNK induced inflammation and proliferation in the long-term exposure experiment (XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:09:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:08:04Z",
+  "trigger" : "induced",
+  "evidence" : [ "iNOS, MMP-9, and PCNA were increased in groups treated with NNK combined with TCDD, E2, or both, in which E2 had strong effects on promoting NNK-induced inflammation and proliferation" ],
+  "pmc_id" : "3969372",
+  "score" : 0
+}

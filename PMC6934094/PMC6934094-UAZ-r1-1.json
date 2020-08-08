@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "urea",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "From the prediction window of each instance, we extract and process features used in the calculation of the SAPS-II score, including serum urea nitrogen level, white blood cells count, serum bicarbonate level, sodium level, potassium level, urine output, pao2 / fio2 ratio, body temperature, heart rate, systolic blood pressure, Glasgow coma scale, indicators of chronic diseases and admission type.",
+  "reading_complete" : "2020-08-08T11:11:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:08:11Z",
+  "trigger" : "level",
+  "evidence" : [ "urea nitrogen level" ],
+  "pmc_id" : "6934094",
+  "score" : 0
+}

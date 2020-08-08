@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001265",
+      "entity_text" : "formin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NQW6",
+      "entity_text" : "ANLN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "ANLN binding to formin Diaph3 stabilizes its conformation crucial for cell division [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T11:13:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:51Z",
+  "trigger" : "binding",
+  "evidence" : [ "ANLN binding to formin" ],
+  "pmc_id" : "6203358",
+  "score" : 0
+}
