@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01275",
+      "entity_text" : "GLP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "We hypothesized that elevated plasma GLP-1 levels triggered by glucose ingestion were responsible for the high insulin secretion rates and subsequent hypoglycemia observed in our lean human cohort after gastrectomy, as reported previously in bariatric patients.",
+  "reading_complete" : "2020-08-08T14:27:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:25:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "GLP-1 levels" ],
+  "pmc_id" : "6367566",
+  "score" : 0
+}

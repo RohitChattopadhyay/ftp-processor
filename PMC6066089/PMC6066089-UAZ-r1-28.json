@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06693",
+      "entity_text" : "ALK+ ALCL tumors and 1,291 hypomethylated CpG sites",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1324" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To identify enrichment of TF binding sites in the vicinity of CpG sites that are hypomethylated in ALK+ and ALK- ALCL tumors, we searched for common DNA sequence motifs in windows of 100 bp surrounding significant MVPs (28,255 hypomethylated CpG sites in ALK+ ALCL tumors and 1,291 hypomethylated CpG sites in ALK- ALCL tumors) using the MEME-ChIP tool and related applications within the Multiple EM for Motif Elicitation (MEME) web based suite.",
+  "reading_complete" : "2020-08-08T14:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:22:15Z",
+  "trigger" : "hypomethylated",
+  "evidence" : [ "hypomethylated CpG sites in ALK+ ALCL tumors and 1,291 hypomethylated CpG sites" ],
+  "pmc_id" : "6066089",
+  "score" : 0
+}

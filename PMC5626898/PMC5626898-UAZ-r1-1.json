@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02746",
+      "entity_text" : "HCN channels",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Given the heavy coexpression of HCN channels with other subthreshold voltage gated ion channels in the CA1 neurons and their spatiotemporal interactions therein, local or global plasticity in one or more of these ion channels could alter the STA, bringing about a transition in the operating mode of the neuron in terms of the class of excitability to which they belong, with important consequences for the function of the neuron in a network.",
+  "reading_complete" : "2020-08-08T14:36:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:34:14Z",
+  "trigger" : "coexpression",
+  "evidence" : [ "coexpression of HCN channels" ],
+  "pmc_id" : "5626898",
+  "score" : 0
+}

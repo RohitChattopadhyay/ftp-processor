@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01160",
+      "entity_text" : "PND",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "There was no statistically significant association between age and PND (p = 0.750).",
+  "reading_complete" : "2020-08-08T14:34:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:33:38Z",
+  "trigger" : "association",
+  "evidence" : [ "association between age and PND" ],
+  "pmc_id" : "6244063",
+  "score" : 0
+}

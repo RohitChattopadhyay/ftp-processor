@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13224",
+      "entity_text" : "GluN2B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_M383" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "We further found that the expression level of the N-methyl-d-aspartate receptor subunit GluN2B was decreased in CASK-KD neurons and that overexpressing GluN2B rescued the disrupted E/I balance in CASK-KD neurons.",
+  "reading_complete" : "2020-08-08T14:49:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:46:22Z",
+  "trigger" : "level",
+  "evidence" : [ "level of the N-methyl-d-aspartate receptor subunit GluN2B" ],
+  "pmc_id" : "6756202",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14936",
+      "entity_text" : "CASK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1158" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0008930" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "The CASK mRNA level in the KD neurons was decreased to 13.5% of that found in control virus infected neurons.",
+  "reading_complete" : "2020-08-08T14:49:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:46:22Z",
+  "trigger" : "level",
+  "evidence" : [ "CASK mRNA level" ],
+  "pmc_id" : "6756202",
+  "score" : 0
+}
