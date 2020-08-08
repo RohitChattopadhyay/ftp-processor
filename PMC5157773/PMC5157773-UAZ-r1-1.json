@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99707",
+      "entity_text" : "MS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Using MS precursor abundance levels across runs, PCA in Progenesis QIP determines the principle axes of abundance variation, and transforms and plots the abundance data in the principle component space, separating the samples according to abundance variation.",
+  "reading_complete" : "2020-08-08T15:30:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:27:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "MS precursor abundance levels" ],
+  "pmc_id" : "5157773",
+  "score" : 0
+}
