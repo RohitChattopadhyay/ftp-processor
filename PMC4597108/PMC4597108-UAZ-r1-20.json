@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HBU9",
+      "entity_text" : "Popdc2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52952",
+      "entity_text" : "NKX2-5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "NKX2-5 binding on the Popdc2 enhancer was found to be much stronger in chromatin extracted from the embryonic heart compared to the adjacent AHF (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T15:58:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:10Z",
+  "trigger" : "binding",
+  "evidence" : [ "NKX2-5 binding on the Popdc2" ],
+  "pmc_id" : "4597108",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23979",
+      "entity_text" : "CM",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43707",
+      "entity_text" : "ACTN4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We identified an ACTN4 isoform that is significantly elevated in day 14 CM (log FC, 0.50; adj.P, 4.6e-4), that differs from the canonical isoform in residues 780 to 801, and is not documented on SwissProt.",
+  "reading_complete" : "2020-08-08T16:03:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:00:17Z",
+  "trigger" : "elevated",
+  "evidence" : [ "ACTN4 isoform that is significantly elevated in day 14 CM" ],
+  "pmc_id" : "6961840",
+  "score" : 0
+}

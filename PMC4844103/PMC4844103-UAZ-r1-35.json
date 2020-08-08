@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TD46",
+      "entity_text" : "CD200R1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To determine whether sCD200 released from CLL and Hek-hCD200 cells was capable of binding and phosphorylating CD200R1 on Hek293-CD200R cells, we probed for the presence of CD200R1 in protein immunoprecipitated with an anti-phospho-tyrosine antibody specific for the phosphorylated tyrosine in the CD200R1 tail (see Materials and Methods) following incubation of the cells with sCD200 containing supernatants.",
+  "reading_complete" : "2020-08-08T16:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:45Z",
+  "trigger" : "phosphorylating",
+  "evidence" : [ "phosphorylating CD200R1" ],
+  "pmc_id" : "4844103",
+  "score" : 0
+}

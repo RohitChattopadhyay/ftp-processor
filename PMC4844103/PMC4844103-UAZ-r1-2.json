@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41217",
+      "entity_text" : "CD200",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Given that tissue CD200 expression is relatively ubiquitous, and its overexpression has been reported on a number of solid tumors [XREF_BIBR, XREF_BIBR], we next investigated whether CD200 shedding occurred in cells of epithelial origin using a Hek293 cell line stably transfected with full-length human CD200 (Hek-hCD200) [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:45Z",
+  "trigger" : "expression",
+  "evidence" : [ "CD200 expression" ],
+  "pmc_id" : "4844103",
+  "score" : 0
+}

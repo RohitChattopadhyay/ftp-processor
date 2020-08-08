@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7021454",
+      "entity_text" : "RS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75461",
+      "entity_text" : "E2F6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In accordance with this, overexpression of E2F6 decreases the survival of cells following c-Myc induction, indicating that E2F transcription is required for cell survival following oncogene induced RS.",
+  "reading_complete" : "2020-08-08T16:00:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:58:25Z",
+  "trigger" : "induced",
+  "evidence" : [ "E2F6 decreases the survival of cells following c-Myc induction, indicating that E2F transcription is required for cell survival following oncogene-induced RS" ],
+  "pmc_id" : "4893157",
+  "score" : 0
+}

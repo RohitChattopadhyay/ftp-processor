@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27695",
+      "entity_text" : "apex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08316",
+      "entity_text" : "CDRH3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1905" ],
+      "Organ" : [ "uberon:UBERON:0003062" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "The early precursors of PCT64, therefore, likely utilize a loosely ordered, negatively charged CDRH3 to bind the positively charged Env apex.",
+  "reading_complete" : "2020-08-08T15:56:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:53:12Z",
+  "trigger" : "bind",
+  "evidence" : [ "CDRH3 to bind the positively charged Env apex" ],
+  "pmc_id" : "6019700",
+  "score" : 0
+}

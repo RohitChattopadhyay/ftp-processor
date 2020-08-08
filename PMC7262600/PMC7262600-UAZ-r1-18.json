@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6I2",
+      "entity_text" : "SOX17",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Abnormal progenitors either lacked RUNX1C (GFP) expression, failed to downregulate SOX17 (CHERRY+), or co-expressed SOX17 and RUNX1C (CHERRY+ and GFP+).",
+  "reading_complete" : "2020-08-08T16:09:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:05:34Z",
+  "trigger" : "downregulate",
+  "evidence" : [ "GFP) expression, failed to downregulate SOX17" ],
+  "pmc_id" : "7262600",
+  "score" : 0
+}

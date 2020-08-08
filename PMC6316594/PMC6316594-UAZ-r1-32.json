@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "Vitamin D",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Organ" : [ "uberon:UBERON:0004134" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Initially Vitamin D is hydroxylated in the liver to produce 25-hydroxyvitamin D and subsequently hydroxylation of 25-hydroxyvitamin D occurs, predominantly in the proximal tubule of the nephron in the kidney, to form 1,25-dihydroxyvitamin D. Given that there is a decline in renal function in aging, it would be expected that supplementation of vitamin D would be beneficial.",
+  "reading_complete" : "2020-08-08T16:08:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:39Z",
+  "trigger" : "hydroxylated",
+  "evidence" : [ "Vitamin D is hydroxylated" ],
+  "pmc_id" : "6316594",
+  "score" : 0
+}

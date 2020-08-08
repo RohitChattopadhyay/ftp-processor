@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52952",
+      "entity_text" : "NKX2-5",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00451",
+      "entity_text" : "AHF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "All showed a pattern of enrichment for MEIS binding in the AHF and NKX2-5 binding in the heart, suggesting that this behavior is likely to be shared by many of the genomic regions harboring the de novo site identified by our ChIP-seq study.",
+  "reading_complete" : "2020-08-08T15:58:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:10Z",
+  "trigger" : "binding",
+  "evidence" : [ "AHF and NKX2-5 binding" ],
+  "pmc_id" : "4597108",
+  "score" : 0
+}
