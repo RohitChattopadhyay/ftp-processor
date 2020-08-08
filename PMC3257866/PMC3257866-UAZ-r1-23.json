@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "cathepsin G",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02131",
+      "entity_text" : "Rv3364c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0007" ],
+      "Species" : [ "taxonomy:1773" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0043657" ]
+    }
+  },
+  "verbose_text" : "M. tuberculosis Rv3364c interaction with cathepsin G protein.",
+  "reading_complete" : "2020-08-08T09:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:33:53Z",
+  "trigger" : "interaction",
+  "evidence" : [ "Rv3364c interaction with cathepsin G" ],
+  "pmc_id" : "3257866",
+  "score" : 0
+}

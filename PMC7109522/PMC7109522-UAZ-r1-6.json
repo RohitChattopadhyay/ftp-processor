@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02608",
+      "entity_text" : "BMP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W752" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000570" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "We have previously shown in a context of scaling and homogeneous growth that a power-law relationship for C0 with tissue size implies that the proliferation rate gcell of each cell in the tissue is proportional to the normalized time derivative (C cell / Ccell) of the cellular level of BMP signaling, according to the equation gcell = ~ ((1+ epsilon)/q) (C cell / Ccell) (see XREF_SUPPLEMENTARY for Theoretical Framework).",
+  "reading_complete" : "2020-08-08T09:34:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:29:37Z",
+  "trigger" : "level",
+  "evidence" : [ "level of BMP" ],
+  "pmc_id" : "7109522",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "cathepsin G",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_0007" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:1773" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "While the cathepsin G protein was presented at a high level in 20A11 infected cells, M. tuberculosis H37Rv infection significantly reduced the levels of cathepsin G protein at the 4-h time point.",
+  "reading_complete" : "2020-08-08T09:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:33:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cathepsin G" ],
+  "pmc_id" : "3257866",
+  "score" : 0
+}

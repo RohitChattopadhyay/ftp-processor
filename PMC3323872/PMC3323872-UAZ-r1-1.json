@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "urea",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "end",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ammonia is the common end product of both nitrate / nitrite reduction and the hydrolysis of urea, and it is the substrate for glutamine formation by glutamine synthetase, which catalyzes the major step in ammonia assimilation by cells.",
+  "reading_complete" : "2020-08-08T09:33:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:30:49Z",
+  "trigger" : "product",
+  "evidence" : [ "end product of both nitrate/nitrite reduction and the hydrolysis of urea" ],
+  "pmc_id" : "3323872",
+  "score" : 0
+}

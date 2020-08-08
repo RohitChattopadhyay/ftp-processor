@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q94CI7",
+      "entity_text" : "Sfp1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC1",
+      "entity_text" : "TORC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "TORC1 also directly phosphorylates the transcriptional activator Sfp1 to facilitate its binding to RP gene promoters and subsequent expression.",
+  "reading_complete" : "2020-08-08T09:36:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:34:11Z",
+  "evidence" : [ "TORC1 also directly phosphorylates the transcriptional activator Sfp1" ],
+  "pmc_id" : "5949282",
+  "score" : 0
+}

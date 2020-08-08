@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "cathepsin G",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cathepsin G inhibition assay was conducted in macrophages infected with 20A11 mutant to identify the relationship between cathepsin G expression and caspase-1 activation, which consequently led to the host cell apoptosis during 20A11 mutant infection.",
+  "reading_complete" : "2020-08-08T09:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:33:53Z",
+  "trigger" : "led",
+  "evidence" : [ "cathepsin G expression and caspase-1 activation, which consequently led to the host cell apoptosis" ],
+  "pmc_id" : "3257866",
+  "score" : 0
+}

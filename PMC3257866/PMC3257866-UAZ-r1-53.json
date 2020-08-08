@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00144",
+      "entity_text" : "beta-lactamase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0007" ],
+      "Species" : [ "taxonomy:1773" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Upon endogenous beta-lactamase hydrolysis, CCF2-AM substrate is rapidly converted to a product that lacks the FRET and fluoresces blue.",
+  "reading_complete" : "2020-08-08T09:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:33:53Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "beta-lactamase hydrolysis" ],
+  "pmc_id" : "3257866",
+  "score" : 0
+}

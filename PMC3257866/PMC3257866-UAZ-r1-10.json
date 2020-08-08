@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02132",
+      "entity_text" : "protease cathepsin G",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02128",
+      "entity_text" : "Rv3364c protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "serine" ],
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The Rv3364c protein binds to the serine protease cathepsin G on the membrane, inhibiting its enzymatic activity and the downstream activation of caspase-1-dependent apoptosis.",
+  "reading_complete" : "2020-08-08T09:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:33:53Z",
+  "trigger" : "binds",
+  "evidence" : [ "Rv3364c protein binds to the serine protease cathepsin G" ],
+  "pmc_id" : "3257866",
+  "score" : 0
+}

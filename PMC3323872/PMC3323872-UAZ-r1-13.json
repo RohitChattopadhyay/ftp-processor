@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1176",
+      "entity_text" : "Urea",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3702" ]
+    }
+  },
+  "verbose_text" : "Urea is hydrolyzed by the nickel containing enzyme, urease, yielding ammonia and CO 2.",
+  "reading_complete" : "2020-08-08T09:33:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:30:49Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "Urea is hydrolyzed" ],
+  "pmc_id" : "3323872",
+  "score" : 0
+}

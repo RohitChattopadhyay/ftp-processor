@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "cathepsin G",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_E801" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Species" : [ "taxonomy:1773" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Differential expression of cathepsin G changed the expression level of protease activated receptor-4 (PAR4) during M. tuberculosis infection.",
+  "reading_complete" : "2020-08-08T09:35:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:33:53Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of cathepsin G" ],
+  "pmc_id" : "3257866",
+  "score" : 0
+}
