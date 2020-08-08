@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10141" ],
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Organ" : [ "uberon:UBERON:0035878" ]
+    }
+  },
+  "verbose_text" : "High Ca :P ratios could be indicative of the presence of amorphous, calcium rich deposits XREF_BIBR, and matrix vesicles associated with cartilage mineralisation accumulating large amounts of calcium XREF_BIBR.",
+  "reading_complete" : "2020-08-08T17:58:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:55:21Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of calcium" ],
+  "pmc_id" : "3176911",
+  "score" : 0
+}
