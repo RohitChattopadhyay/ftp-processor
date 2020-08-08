@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15746",
+      "entity_text" : "MLCK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0042641" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "In response to KCl, colocalization of MLCK activation and RLC phosphorylation was not uniform.",
+  "reading_complete" : "2020-08-08T19:51:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:49:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "MLCK activation and RLC phosphorylation" ],
+  "pmc_id" : "6117825",
+  "score" : 0
+}

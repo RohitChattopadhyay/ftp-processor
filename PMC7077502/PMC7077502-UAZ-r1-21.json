@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9260",
+      "entity_text" : "pyrimidine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60842",
+      "entity_text" : "eIF4A1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "These results suggest that an additional co-factor present in translation lysates is likely required to stimulate eIF4A1 binding to pyrimidine sequences in the presence of silvestrol.",
+  "reading_complete" : "2020-08-08T19:56:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:51:41Z",
+  "trigger" : "binding",
+  "evidence" : [ "eIF4A1 binding to pyrimidine" ],
+  "pmc_id" : "7077502",
+  "score" : 0
+}

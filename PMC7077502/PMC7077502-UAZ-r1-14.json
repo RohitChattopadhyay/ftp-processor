@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04637",
+      "entity_text" : "eIF4G",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60842",
+      "entity_text" : "eIF4A1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "IP experiments using an anti-FLAG antibody demonstrated that the tagged eIF4A1 molecule associates with eIF4E and eIF4G (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:56:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:51:41Z",
+  "trigger" : "associates",
+  "evidence" : [ "eIF4A1 molecule associates with eIF4E and eIF4G" ],
+  "pmc_id" : "7077502",
+  "score" : 0
+}
