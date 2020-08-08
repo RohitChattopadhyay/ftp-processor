@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:91666324",
+      "entity_text" : "alginate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0020039" ],
+      "Species" : [ "taxonomy:2336" ]
+    }
+  },
+  "verbose_text" : "For example, a mutant strain that is impaired in the O acetylation of alginate was unable to form biofilms, the predominant phenotype exhibited by strains isolated from chronic disease in the CF lung.",
+  "reading_complete" : "2020-08-08T07:53:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:50:08Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of alginate" ],
+  "pmc_id" : "3159412",
+  "score" : 0
+}

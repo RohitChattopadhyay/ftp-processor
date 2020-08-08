@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6037",
+      "entity_text" : "PGA",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0200" ],
+      "Species" : [ "taxonomy:2336" ]
+    }
+  },
+  "verbose_text" : "Deacetylation of exopolysaccharides is not unprecedented as it is well established that N deacetylation of the PGA polymer is required for biofilm formation in both Gram negative and Gram positive bacteria.",
+  "reading_complete" : "2020-08-08T07:53:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:50:08Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "deacetylation of the PGA" ],
+  "pmc_id" : "3159412",
+  "score" : 0
+}
