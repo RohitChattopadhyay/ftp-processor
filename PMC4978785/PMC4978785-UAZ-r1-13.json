@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "BDNF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Organ" : [ "uberon:UBERON:0002191" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "However, physiological conditions that result in the global elevation of BDNF in the adult hippocampus have been shown to facilitate spatial memory, suggesting that an elevation of the constitutive level of BDNF may enhance hippocampal processing and/or relay of spatial information.",
+  "reading_complete" : "2020-08-08T13:12:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:11:05Z",
+  "trigger" : "level",
+  "evidence" : [ "level of BDNF" ],
+  "pmc_id" : "4978785",
+  "score" : 0
+}
