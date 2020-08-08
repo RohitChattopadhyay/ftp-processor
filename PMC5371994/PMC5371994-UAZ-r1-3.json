@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone_H3",
+      "entity_text" : "H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4896" ],
+      "Cellular_component" : [ "go:GO:0005694" ]
+    }
+  },
+  "verbose_text" : "In human cells, either mutation of Survivin or inhibition of the Haspin kinase, which is responsible for the H3 phosphorylation mark, prevents normal centromere localization of Aurora B, and leads to defects in the correction of attachment errors [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T11:46:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:38:30Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "H3 phosphorylation" ],
+  "pmc_id" : "5371994",
+  "score" : 0
+}

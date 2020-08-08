@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15698",
+      "entity_text" : "phosphatase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Kinetochore",
+      "entity_text" : "kinetochore",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Aurora B activity reduces kinetochore recruitment of protein phosphatase 1 (PP1) [XREF_BIBR, XREF_BIBR], but there is no evidence that phosphatase activity is directly regulated by tension.",
+  "reading_complete" : "2020-08-08T11:46:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:38:30Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "kinetochore recruitment of protein phosphatase" ],
+  "pmc_id" : "5371994",
+  "score" : 0
+}

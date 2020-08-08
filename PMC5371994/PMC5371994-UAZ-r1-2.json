@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IVS2",
+      "entity_text" : "MT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Kinetochore",
+      "entity_text" : "kinetochore",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4896" ],
+      "Cellular_component" : [ "uniprot:SL-0047" ]
+    }
+  },
+  "verbose_text" : "For example, budding yeast is unusual in that each kinetochore binds only a single MT, and therefore there is no need to correct merotelic attachment errors, which may reduce the burden on Aurora B in destabilizing such attachments.",
+  "reading_complete" : "2020-08-08T11:46:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:38:30Z",
+  "trigger" : "binds",
+  "evidence" : [ "kinetochore binds only a single MT" ],
+  "pmc_id" : "5371994",
+  "score" : 0
+}

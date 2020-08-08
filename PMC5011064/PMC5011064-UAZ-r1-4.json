@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSE2",
+      "entity_text" : "cis",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2500" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR To calculate the mediation score, the following four models and equations were implemented :(Model 5) y ~ beta1A+ beta2A2+ beta3P+ beta4G+ beta5PxG+ epsilon, (Model 6) y ~ beta1E+ beta2A+ beta3A2+ beta4P+ beta5G+ beta6PxG+ epsilon, (Equation 2) Mediation_score = betaM5_5-betaM6_6betaM5_5, and (Equation 3) Z = betaM5_5xbetaM6_6betaM6_62xSM5_52+ betaM5_52xSM6_62, where y = trans gene expression, A = age, A 2 = age squared, E = cis gene expression, P = BMI, and G = cis genotype.",
+  "reading_complete" : "2020-08-08T11:48:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:42:22Z",
+  "trigger" : "expression",
+  "evidence" : [ "cis gene expression" ],
+  "pmc_id" : "5011064",
+  "score" : 0
+}

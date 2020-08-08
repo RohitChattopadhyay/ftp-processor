@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96BD8",
+      "entity_text" : "Ska1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75934",
+      "entity_text" : "Dam1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000922" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Perturbing other Aurora B substrates, such as the MT binding Dam1 and Ska1 complexes, also destabilizes kinetochore-MT attachments [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T11:46:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:38:30Z",
+  "trigger" : "complexes",
+  "evidence" : [ "Dam1 and Ska1 complexes" ],
+  "pmc_id" : "5371994",
+  "score" : 0
+}
