@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The neuroinhibitory effect of sMHCI could be blocked by lowering cAMP levels, suggesting that the neuronal MHCI receptor 's signaling mechanism involves a cyclic nucleotide dependent pathway.",
+  "reading_complete" : "2020-08-08T10:13:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:11:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "cAMP levels" ],
+  "pmc_id" : "3069096",
+  "score" : 0
+}

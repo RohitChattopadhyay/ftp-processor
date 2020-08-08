@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Troponin",
+      "entity_text" : "troponin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0C23" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "We evaluated the severity of ACS according to the ejection fraction, Killip class, number of diseased vessels, number of stents implanted and plasma peak troponin level.",
+  "reading_complete" : "2020-08-08T10:11:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:09:46Z",
+  "trigger" : "level",
+  "evidence" : [ "troponin level" ],
+  "pmc_id" : "4944942",
+  "score" : 0
+}
