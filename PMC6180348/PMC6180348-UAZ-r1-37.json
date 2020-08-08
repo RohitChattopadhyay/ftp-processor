@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14796",
+      "entity_text" : "eat-2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96F86",
+      "entity_text" : "edc-3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, knockdown of edc-3 further increased the lifespan of dietary restricted eat-2 mutants (XREF_FIG E).",
+  "reading_complete" : "2020-08-08T16:30:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:25:56Z",
+  "trigger" : "increased",
+  "evidence" : [ "edc-3 further increased the lifespan of dietary-restricted eat-2" ],
+  "pmc_id" : "6180348",
+  "score" : 0
+}

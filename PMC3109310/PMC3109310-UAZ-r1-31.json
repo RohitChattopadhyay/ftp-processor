@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAP1LC3",
+      "entity_text" : "LC3",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ11993",
+      "entity_text" : "Atg5-Atg12",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Species" : [ "taxonomy:1773" ]
+    }
+  },
+  "verbose_text" : "Autophagosome formation requires two Atg5 dependent conjugation systems that generate Atg5-Atg12, which complexes with Atg16 on the isolation membrane and ligates LC3 (also known as Atg8) to phosphatidylethanolamine (PE) thereby localizing LC3 to the nascent autophagosome.",
+  "reading_complete" : "2020-08-08T16:29:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:27:56Z",
+  "trigger" : "ligates",
+  "evidence" : [ "Atg5-Atg12, which complexes with Atg16 on the isolation membrane and ligates LC3" ],
+  "pmc_id" : "3109310",
+  "score" : 0
+}

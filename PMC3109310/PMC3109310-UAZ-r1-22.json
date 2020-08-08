@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAP1LC3",
+      "entity_text" : "LC3",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IZQ1",
+      "entity_text" : "Alfy",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:1773" ],
+      "Cellular_component" : [ "go:GO:0005773" ]
+    }
+  },
+  "verbose_text" : "Further analysis indicates that Alfy directly interacts with Atg5 via a WD40 domain and forms a complex with LC3, p62, and NBR1.",
+  "reading_complete" : "2020-08-08T16:29:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:27:56Z",
+  "trigger" : "forms a complex",
+  "evidence" : [ "Alfy directly interacts with Atg5 via a WD40 domain and forms a complex with LC3" ],
+  "pmc_id" : "3109310",
+  "score" : 0
+}

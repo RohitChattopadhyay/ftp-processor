@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04233",
+      "entity_text" : "II",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Cellular_component" : [ "go:GO:0005771" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Ubiquitylated proteins destined for the MVB are recognized by Hrs and STAM (ESCRT 0), which subsequently recruit the ESCRT I, ESCRT II, and ESCRT III complexes.",
+  "reading_complete" : "2020-08-08T16:29:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:27:56Z",
+  "trigger" : "Ubiquitylated",
+  "evidence" : [ "Ubiquitylated proteins destined for the MVB are recognized by Hrs and STAM (ESCRT 0), which subsequently recruit the ESCRT I, ESCRT II" ],
+  "pmc_id" : "3109310",
+  "score" : 0
+}

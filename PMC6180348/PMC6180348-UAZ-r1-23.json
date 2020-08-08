@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B0YJ81",
+      "entity_text" : "cap",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06730",
+      "entity_text" : "eIF4E",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Accumulating evidence suggests that the Dcp1/Dcp2/Edc3 protein complex competes with the cap binding protein eIF4E, which is the only translation initiation factor accumulating in PBs both in mammalian cells and Drosophila neurons.",
+  "reading_complete" : "2020-08-08T16:30:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:25:56Z",
+  "trigger" : "binding",
+  "evidence" : [ "cap-binding protein eIF4E" ],
+  "pmc_id" : "6180348",
+  "score" : 0
+}

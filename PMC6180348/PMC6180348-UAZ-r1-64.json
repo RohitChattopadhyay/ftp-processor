@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NRA8",
+      "entity_text" : "eIF4E transporter",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06730",
+      "entity_text" : "eIF4E",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Moreover, the interaction between eIF4E and the eIF4E transporter (eIF4E-T), also found in PBs, inhibits translation by blocking eIF4G recruitment.",
+  "reading_complete" : "2020-08-08T16:30:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:25:56Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between eIF4E and the eIF4E transporter" ],
+  "pmc_id" : "6180348",
+  "score" : 0
+}

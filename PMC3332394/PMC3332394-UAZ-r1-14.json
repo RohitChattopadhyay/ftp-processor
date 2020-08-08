@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005615" ],
+      "Organ" : [ "uberon:UBERON:0006909" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The substrate molecules bind to transmembrane domains and then are exported to extracellular space, driven by the energy of ATP hydrolysis.",
+  "reading_complete" : "2020-08-08T16:27:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:26:14Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "3332394",
+  "score" : 0
+}

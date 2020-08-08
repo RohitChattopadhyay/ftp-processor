@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12821",
+      "entity_text" : "Dcp1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96F86",
+      "entity_text" : "Edc3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "The N-terminal LSm domain mediates binding to Dcp1, localization of Edc3 to PBs, and its interaction with Dcp2.",
+  "reading_complete" : "2020-08-08T16:30:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:25:56Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding to Dcp1, localization of Edc3" ],
+  "pmc_id" : "6180348",
+  "score" : 0
+}

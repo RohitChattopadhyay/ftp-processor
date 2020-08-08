@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q21693",
+      "entity_text" : "IFE-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96F86",
+      "entity_text" : "EDC-3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_K240" ],
+      "Organ" : [ "uberon:UBERON:0000069" ],
+      "CellType" : [ "cl:CL:0002371" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "Our findings suggest a functional interaction between EDC-3 and IFE-2.",
+  "reading_complete" : "2020-08-08T16:30:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:25:56Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between EDC-3 and IFE-2" ],
+  "pmc_id" : "6180348",
+  "score" : 0
+}

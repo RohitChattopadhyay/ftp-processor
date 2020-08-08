@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0CG47",
+      "entity_text" : "ubiquitin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1773" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Lysates from autophagic and activated macrophages have increased levels of ubiquitin relative to lysates from resting macrophages, and this correlates with increased bactericidal activity of these lysosomal lysates when tested in vitro.",
+  "reading_complete" : "2020-08-08T16:29:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:27:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ubiquitin" ],
+  "pmc_id" : "3109310",
+  "score" : 0
+}
