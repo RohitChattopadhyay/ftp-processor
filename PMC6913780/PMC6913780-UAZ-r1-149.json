@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6N7",
+      "entity_text" : "Robo1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "Organ" : [ "uberon:UBERON:2000092" ]
+    }
+  },
+  "verbose_text" : "The ability of Ndfip proteins to regulate Robo1 depends on HECT E3 ligases, because point mutations that disrupt the interaction of Ndfip proteins with E3 ligases or pharmacological inhibition of HECT E3 ligase activity result in the failure to reduce surface Robo1 levels.",
+  "reading_complete" : "2020-08-08T09:53:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:49:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "Robo1 levels" ],
+  "pmc_id" : "6913780",
+  "score" : 0
+}

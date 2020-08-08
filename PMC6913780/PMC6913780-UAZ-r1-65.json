@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96MS0",
+      "entity_text" : "Robo3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:2000092" ],
+      "CellType" : [ "cl:CL:0000678" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In contrast, Ndfip proteins are sufficient to decrease levels of Robo3 in vitro (XREF_SUPPLEMENTARY); however, unlike Robo1, we do not observe any increase in Robo3 expression in Ndfip mutants in any of the tissues or developmental stages we have examined, suggesting that the regulation of Robo3 by Ndfip proteins may be context specific.",
+  "reading_complete" : "2020-08-08T09:53:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:49:08Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Robo3" ],
+  "pmc_id" : "6913780",
+  "score" : 0
+}

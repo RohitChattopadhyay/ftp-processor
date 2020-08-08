@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15957",
+      "entity_text" : "Comm",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030426" ],
+      "Organ" : [ "uberon:UBERON:2000092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, the observation that a mutant version of Comm that cannot be ubiquitylated can restore Comm 's activity and that Nedd4 zygotic null mutants have no commissural guidance defects in vivo argues against the requirement for Nedd4 and Comm ubiquitylation in midline crossing.",
+  "reading_complete" : "2020-08-08T09:53:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:49:08Z",
+  "trigger" : "ubiquitylation",
+  "evidence" : [ "Comm ubiquitylation" ],
+  "pmc_id" : "6913780",
+  "score" : 0
+}

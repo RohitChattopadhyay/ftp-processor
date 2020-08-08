@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NV92",
+      "entity_text" : "Ndfip2",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0953" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000678" ]
+    }
+  },
+  "verbose_text" : "Because we are detecting Ndfip2 expression with the GFP reporter, it is unclear whether, like Ndfip1, Ndfip2 protein is also enriched in pre-crossing commissural axons : we can only conclude that Ndfip2 is indeed expressed in commissural neurons at these stages.",
+  "reading_complete" : "2020-08-08T09:53:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:49:08Z",
+  "trigger" : "expressed",
+  "evidence" : [ "Ndfip2 is indeed expressed" ],
+  "pmc_id" : "6913780",
+  "score" : 0
+}
