@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pubchem:12895043",
+      "entity_text" : "vitamin D",
+      "entity_type" : "simple_chemical"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P11473",
+      "entity_text" : "VDR",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR VDR contributes to the prevention of BC, and the vitamin D / VDR complex induces apoptosis, reduces angiogenesis, proliferation, and invasion and increases cell differentiation.",
+  "reading_complete" : "2020-08-08T10:01:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:00:26Z",
+  "trigger" : "induces",
+  "evidence" : [ "vitamin D/VDR complex induces apoptosis" ],
+  "pmc_id" : "5991241",
+  "score" : 0
+}
