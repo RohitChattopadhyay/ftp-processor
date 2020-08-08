@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13569",
+      "entity_text" : "CFTR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6076",
+      "entity_text" : "cyclic AMP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Both cholera and rotavirus inhibit NHE3, by causing the GPCR to remain in an active state, leading to an increase in intracellular cyclic AMP which continually activates the CFTR [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:14:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:06:03Z",
+  "trigger" : "activates",
+  "evidence" : [ "cyclic AMP which continually activates the CFTR" ],
+  "pmc_id" : "6463389",
+  "score" : 0
+}
