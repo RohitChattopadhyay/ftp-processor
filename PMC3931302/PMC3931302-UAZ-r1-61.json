@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006950",
+      "entity_text" : "stress response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31645",
+      "entity_text" : "HTT",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In summary, the work presented here supports a general mechanism in HD whereby the chronic expression of expanded repeat HTT promotes general protein misfolding and initiation of stress response pathways that promote SUMO-2 modification of HTT, progressively resulting in accumulation of insoluble and HMW species that may be a reflection of ongoing pathogenesis.",
+  "reading_complete" : "2020-08-08T11:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:32Z",
+  "trigger" : "promotes",
+  "evidence" : [ "HTT promotes general protein misfolding and initiation of stress response" ],
+  "pmc_id" : "3931302",
+  "score" : 0
+}
