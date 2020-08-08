@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05251",
+      "entity_text" : "RE1 sites",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13127",
+      "entity_text" : "REST",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0627" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "Organ" : [ "uberon:UBERON:0001885" ]
+    }
+  },
+  "verbose_text" : "REST can also repress expression by binding to RE1 sites, which can be found on the regulatory elements of the corticotropin releasing hormone gene, CRH [XREF_BIBR] and brain derived neurotrophic factor (BDNF) [XREF_BIBR] genes, among others; both genes are important in stress and depression [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:57:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:48:44Z",
+  "trigger" : "binding",
+  "evidence" : [ "REST can also repress expression by binding to RE1 sites" ],
+  "pmc_id" : "6974433",
+  "score" : 0
+}
