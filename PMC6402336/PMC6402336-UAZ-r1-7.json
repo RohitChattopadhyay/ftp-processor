@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49366",
+      "entity_text" : "DS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Degeneration of thalamostriatal projections is reported in Parkinson 's disease, which suggests that loss of rILN --> DS mediated DA signaling may contribute to disease symptomology.",
+  "reading_complete" : "2020-08-08T12:03:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:59:50Z",
+  "trigger" : "mediated",
+  "evidence" : [ "DS-mediated DA" ],
+  "pmc_id" : "6402336",
+  "score" : 0
+}

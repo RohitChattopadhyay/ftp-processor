@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04211",
+      "entity_text" : "MtrC",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06902",
+      "entity_text" : "MtrAB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0924" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:70863" ]
+    }
+  },
+  "verbose_text" : "Measurement by sedimentation equilibrium indicates a high binding affinity (K d < 0.1 muM) between MtrAB and MtrC.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "affinity",
+  "evidence" : [ "affinity (K d  < 0.1 muM) between MtrAB and MtrC" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:29936",
+      "entity_text" : "Fe(III)",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9PJU9",
+      "entity_text" : "OmcA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:70863" ]
+    }
+  },
+  "verbose_text" : "Functioning as terminal reductases, MtrC and OmcA can bind the surface of Fe (III) oxides and transfer electrons directly to these minerals via their solvent exposed hemes.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "bind",
+  "evidence" : [ "OmcA can bind the surface of Fe(III)" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

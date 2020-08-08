@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04208",
+      "entity_text" : "MtrA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9S1E6",
+      "entity_text" : "NrfH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:70863" ],
+      "Cellular_component" : [ "uniprot:SL-0200" ]
+    }
+  },
+  "verbose_text" : "Given that NrfH of D. vulgaris (i.e., a CymA homolog) and NrfB of E. coli (i.e., an MtrA homolog) all physically interact with NrfA, and that heterologously expressed MtrA of S. oneidensis MR-1 exchanges electrons with the NrfA in E. coli, it seems possible that NrfA may conduct the electrons between CymA and MtrA during Fe (III) oxide reduction.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "interact",
+  "evidence" : [ "NrfH of D. vulgaris (i.e., a CymA homolog) and NrfB of E. coli (i.e., an MtrA homolog) all physically interact with NrfA, and that heterologously expressed MtrA" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

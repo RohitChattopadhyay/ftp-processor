@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR006361",
+      "entity_text" : "heme",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13127",
+      "entity_text" : "rest",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:70863" ],
+      "Cellular_component" : [ "uniprot:SL-0200" ]
+    }
+  },
+  "verbose_text" : "The N-terminal region of CymA polypeptide contains a single trans-membrane domain that anchors CymA to the inner-membrane, and the rest of the CymA polypeptide covalently binds four heme groups and protrudes into the periplasm.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "binds",
+  "evidence" : [ "rest of the CymA polypeptide covalently binds four heme" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

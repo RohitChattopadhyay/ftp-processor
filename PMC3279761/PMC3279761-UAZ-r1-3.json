@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05440",
+      "entity_text" : "MtrB",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04208",
+      "entity_text" : "MtrA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:70863" ],
+      "TissueType" : [ "tissuelist:TS-0924" ],
+      "Cellular_component" : [ "uniprot:SL-0200" ]
+    }
+  },
+  "verbose_text" : "When MtrB is present, MtrA only associates with the bacterial membrane, presumably with MtrB that spans the outer-membrane.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "associates",
+  "evidence" : [ "MtrA only associates with the bacterial membrane, presumably with MtrB" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

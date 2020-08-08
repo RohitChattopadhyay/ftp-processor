@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:27284",
+      "entity_text" : "hematite",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04211",
+      "entity_text" : "MtrC",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C716" ],
+      "Species" : [ "taxonomy:70863" ]
+    }
+  },
+  "verbose_text" : "Atomic force microscopy measurements reveal that MtrC and OmcA bind hematite with distinct force characteristics.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "bind",
+  "evidence" : [ "MtrC and OmcA bind hematite" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

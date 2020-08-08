@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55957",
+      "entity_text" : "Bid",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0504" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Loss of endogenous Bid did not completely desensitize RKO cells to apoptosis during mitotic arrest (XREF_FIG B and XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:04:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:03:00Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of endogenous Bid" ],
+  "pmc_id" : "4022835",
+  "score" : 0
+}
