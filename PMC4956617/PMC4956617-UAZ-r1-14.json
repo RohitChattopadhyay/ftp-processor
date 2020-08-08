@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016477",
+      "entity_text" : "cell motility",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00712",
+      "entity_text" : "NFIB",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The cell motility category showed the highest activation Z score of 3.83, strongly indicating that genes upregulated following NFIB overexpression increased cell motility (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T12:18:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:16:18Z",
+  "trigger" : "increased",
+  "evidence" : [ "NFIB overexpression increased cell motility" ],
+  "pmc_id" : "4956617",
+  "score" : 0
+}

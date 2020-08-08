@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0002038" ]
+    }
+  },
+  "verbose_text" : "GF P2rx7 -/- mice at 10 weeks showed analogous body and WAT weights to WT littermates and indistinguishable glucose serum levels as well as tolerance to glucose bolus.",
+  "reading_complete" : "2020-08-08T12:19:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:18:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose serum levels" ],
+  "pmc_id" : "5368345",
+  "score" : 0
+}
