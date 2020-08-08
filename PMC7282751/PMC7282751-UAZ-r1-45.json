@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0005654" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These studies raise the possibility that Ser 784 phosphorylation, in response to DNA damage, may alter the local interaction of VCP with certain C-terminally associated proteins and, in turn, cause long-range a conformational change to weaken the binding of NPL4 / UFD1 at the N terminus.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation, in response to DNA damage, may alter the local interaction of VCP" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

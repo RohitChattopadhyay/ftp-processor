@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20848",
+      "entity_text" : "ATR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Residing in a pSQ motif, it is believed to be directly phosphorylated by the PIKK family members ATM, ATR, or DNA-PKcs, known as master DDR regulators.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated by the PIKK family members ATM, ATR" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

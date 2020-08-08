@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser 784",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of VCP at Ser 784 has been reported to occur in response to different genotoxic treatments, but the functional significance remains completely unknown.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of VCP at Ser 784" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

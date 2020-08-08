@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser 784",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005654" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thus, Ser 784 phosphorylation of VCP appears to differentially affect PIKK signaling within DNA-damage sites on chromatin versus in the soluble nucleoplasm.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Ser 784  phosphorylation of VCP" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

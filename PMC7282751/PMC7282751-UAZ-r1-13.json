@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78325",
+      "entity_text" : "MS2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1655" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Search parameters were 25 ppm mass tolerance (MS1), 0.1 dalton (MS2), 2 missed cleavages and trypsin/P protease specificity, fixed carbamidomethylation (Cys) and variable methionine oxidation and protein N-terminal acetylation.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "carbamidomethylation",
+  "evidence" : [ "MS2), 2 missed cleavages and trypsin/P protease specificity, fixed carbamidomethylation" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

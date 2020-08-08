@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser 784",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0042" ],
+      "Species" : [ "taxonomy:302767" ],
+      "TissueType" : [ "tissuelist:TS-0591" ]
+    }
+  },
+  "verbose_text" : "Collectively, these results demonstrate the functional importance of VCP phosphorylation at Ser 784 for DNA-damage repair, global PIKK dependent DDR signaling, and cell survival, further supporting the idea that pSer 784 -VCP may be used to predict the outcome of chemotherapy treated patients with breast cancer.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "VCP phosphorylation at Ser 784" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

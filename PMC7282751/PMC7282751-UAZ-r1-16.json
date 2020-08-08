@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0030" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To better separate pSer 784 -VCP from unphosphorylated VCP, we next performed sequential pull-downs from etoposide treated HeLa cell lysates to first deplete pSer 784 -VCP using 3E4 and subsequently capture the remaining unphosphorylated VCP by the pan-antibody.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "unphosphorylated",
+  "evidence" : [ "unphosphorylated VCP" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

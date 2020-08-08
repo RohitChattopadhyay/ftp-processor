@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12888",
+      "entity_text" : "53BP1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10564",
+      "entity_text" : "DSB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0042" ],
+      "TissueType" : [ "tissuelist:TS-0723" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We detected co-localization of pSer 784 -VCP with nearly all the 53BP1 positive DNA-damage foci, consistent with the fact that DSB recruitment of 53BP1 requires VCP (XREF_FIG G).",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "DSB recruitment of 53BP1" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

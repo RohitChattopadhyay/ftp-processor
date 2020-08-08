@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08841",
+      "entity_text" : "DDR",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although these known DDR phosphorylation events occur quickly before (pThr 68 -Chk2 and pSer 1981 -ATM) or around 5 min (gammaH2AX) of treatment and reach maximal intensities around 30 min, pSer 784 -VCP is detectable after 20 min and gradually intensifies beyond 120 min.",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "DDR phosphorylation" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

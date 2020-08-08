@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0030" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Based on the levels of VCP in the input and supernatants after each pull-down, it is evident that Ser 784 is phosphorylated at high stoichiometry in response to DNA damage (> 50% of total VCP after overnight etoposide treatment) (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of VCP" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}

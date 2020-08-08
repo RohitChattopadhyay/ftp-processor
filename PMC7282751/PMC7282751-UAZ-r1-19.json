@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4594",
+      "entity_text" : "result",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55072",
+      "entity_text" : "VCP",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "In contrast, the increase in endoplasmic reticulum stress, indicated by Bip1 and CHOP induction, as a result of VCP knockdown can be fully rescued by both wild-type and mutant VCP (XREF_FIG A), consistent with their similar abilities to clear cytosolic polyubiquitinated proteins (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T15:30:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:26:21Z",
+  "trigger" : "rescued",
+  "evidence" : [ "result of VCP knockdown can be fully rescued by both wild-type and mutant VCP" ],
+  "pmc_id" : "7282751",
+  "score" : 0
+}
