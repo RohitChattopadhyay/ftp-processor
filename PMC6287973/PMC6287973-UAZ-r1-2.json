@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q53ET0",
+      "entity_text" : "CREB-regulated transcription coactivator 2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35354",
+      "entity_text" : "cox-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mechanistically, mTORC1 suppressed COX-2 by phosphorylation of CREB regulated transcription coactivator 2 (CRTC2) and subsequent dissociation of CREB to cox-2 promoter in adipocytes.",
+  "reading_complete" : "2020-08-08T12:07:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:04:46Z",
+  "trigger" : "promoter",
+  "evidence" : [ "phosphorylation of CREB-regulated transcription coactivator 2 (CRTC2) and subsequent dissociation of CREB to cox-2 promoter" ],
+  "pmc_id" : "6287973",
+  "score" : 0
+}

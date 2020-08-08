@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35354",
+      "entity_text" : "cox-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A1CIL1",
+      "entity_text" : "CREB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0002334" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Moreover, overexpression of CRTC2 increased the association between CRTC2 and CREB as well as CREB binding to the cox-2 promoter, luciferase activity of the cox-2 promoter, and COX-2 expression, and diminished the inducing effect of rapamycin in preadipocytes (XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:07:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:04:46Z",
+  "trigger" : "binding",
+  "evidence" : [ "CREB binding to the cox-2" ],
+  "pmc_id" : "6287973",
+  "score" : 0
+}

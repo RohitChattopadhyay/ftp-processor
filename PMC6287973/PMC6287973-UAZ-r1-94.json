@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q53ET0",
+      "entity_text" : "CRTC2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0001070" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In addition, we propose that mTORC1 signaling is a key regulator of the COX-2/PG pathway through phosphorylation of CRTC2 in adipocytes and mediates obesity induced suppression of COX-2 and beige adipogenesis in WAT.",
+  "reading_complete" : "2020-08-08T12:07:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:04:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of CRTC2" ],
+  "pmc_id" : "6287973",
+  "score" : 0
+}

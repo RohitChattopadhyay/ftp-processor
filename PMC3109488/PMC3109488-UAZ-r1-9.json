@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR001844",
+      "entity_text" : "GroEL",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CCT_complex",
+      "entity_text" : "chaperonin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:197" ]
+    }
+  },
+  "verbose_text" : "GroES is another chaperonin that binds to GroEL to suppress the ATPase activity of GroEL, while GroEL promotes refolding of misfolded proteins.",
+  "reading_complete" : "2020-08-08T12:09:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:07:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "chaperonin that binds to GroEL" ],
+  "pmc_id" : "3109488",
+  "score" : 0
+}
