@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, an important point to note is that the study did not exclude patients with elevated markers of hepatocellular injury thus making the true relationship between isolated elevated bilirubin levels and CAD difficult to interpret.",
+  "reading_complete" : "2020-08-08T19:20:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:15:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "5095566",
+  "score" : 0
+}
