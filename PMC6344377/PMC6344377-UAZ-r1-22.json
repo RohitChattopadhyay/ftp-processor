@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3076" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Our RPPA data showed a reduction in expression of mTOR protein and also mTOR phosphorylated Serine 2448, in case 3 consistent with an interplay between AKT, TSC2 and the mTOR complex [XREF_BIBR] and suggests the involvement of additional pathways in this case.",
+  "reading_complete" : "2020-08-08T16:08:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:59:09Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "mTOR phosphorylated" ],
+  "pmc_id" : "6344377",
+  "score" : 0
+}
