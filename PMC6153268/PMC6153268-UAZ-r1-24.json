@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13822",
+      "entity_text" : "ATX",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Indeed, we detected a significant increase in ATX levels in the supernatant of cultured astrocytes upon glutamate stimulation.",
+  "reading_complete" : "2020-08-08T17:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:50:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATX levels" ],
+  "pmc_id" : "6153268",
+  "score" : 0
+}
