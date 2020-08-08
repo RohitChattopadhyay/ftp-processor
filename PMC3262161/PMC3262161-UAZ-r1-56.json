@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ]
+    }
+  },
+  "verbose_text" : "KSHV infection induced a strong phosphorylation of Src within minutes of infection, and the phosphorylated Src colocalized with FAK.",
+  "reading_complete" : "2020-08-08T13:46:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:50Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Src" ],
+  "pmc_id" : "3262161",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Clathrin",
+      "entity_text" : "clathrin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:31192",
+      "entity_text" : "LR",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0005770" ],
+      "Species" : [ "taxonomy:39059" ]
+    }
+  },
+  "verbose_text" : "Recent studies have confirmed the role of LRs in aiding the macropinocytosis of KSHV bound receptors in endothelial cells, whereas non LR bound receptors were targeted toward a clathrin mediated non infectious lysosomal pathways.",
+  "reading_complete" : "2020-08-08T13:46:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:50Z",
+  "trigger" : "bound",
+  "evidence" : [ "LR bound receptors were targeted toward a clathrin" ],
+  "pmc_id" : "3262161",
+  "score" : 0
+}

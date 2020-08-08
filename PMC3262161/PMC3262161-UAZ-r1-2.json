@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10434",
+      "entity_text" : "p85-PI3-K",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10401",
+      "entity_text" : "KSHV-gB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "LY294002 and wortmannin did not affect KSHV-gB induced Src phosphorylation whereas the Src kinase inhibitor SU6656 completely blocked KSHV-gB induced p85-PI3-K phosphorylation suggesting that PI3-K is downstream of Src.",
+  "reading_complete" : "2020-08-08T13:46:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:50Z",
+  "trigger" : "induced",
+  "evidence" : [ "KSHV-gB induced Src phosphorylation whereas the Src kinase inhibitor SU6656 completely blocked KSHV-gB induced p85-PI3-K phosphorylation" ],
+  "pmc_id" : "3262161",
+  "score" : 0
+}

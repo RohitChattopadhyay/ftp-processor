@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992830",
+      "entity_text" : "HS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellLine" : [ "cellosaurus:CVCL_5711" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "Species" : [ "taxonomy:39059" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "These studies suggest that KSHV infection of BJAB cells depends on the level of expression of HS; BJAB cells expressing HS were readily infected while cells lacking HS were not infected.",
+  "reading_complete" : "2020-08-08T13:46:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:50Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of HS" ],
+  "pmc_id" : "3262161",
+  "score" : 0
+}

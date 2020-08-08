@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833565",
+      "entity_text" : "heparin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10481",
+      "entity_text" : "KSHV-gpK8.1A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10469" ],
+      "TissueType" : [ "tissuelist:TS-0194" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0005350" ]
+    }
+  },
+  "verbose_text" : "KSHV-gpK8.1A binds to heparin with an affinity comparable to that of glycoproteins B and C of herpes simplex virus and gpK8.1A binds more strongly than gB.",
+  "reading_complete" : "2020-08-08T13:46:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:50Z",
+  "trigger" : "binds",
+  "evidence" : [ "KSHV-gpK8.1A binds to heparin" ],
+  "pmc_id" : "3262161",
+  "score" : 0
+}

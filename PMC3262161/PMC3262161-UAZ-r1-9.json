@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K_p85",
+      "entity_text" : "p85",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10401",
+      "entity_text" : "KSHV-gB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In FAK positive Du17 cells, KSHV-gB induced PI3-K p85 phosphorylation whereas in FAK-null Du3 cells there was no significant induction of PI3-K p85 phosphorylation.",
+  "reading_complete" : "2020-08-08T13:46:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:50Z",
+  "trigger" : "induced",
+  "evidence" : [ "KSHV-gB induced PI3-K p85 phosphorylation" ],
+  "pmc_id" : "3262161",
+  "score" : 0
+}

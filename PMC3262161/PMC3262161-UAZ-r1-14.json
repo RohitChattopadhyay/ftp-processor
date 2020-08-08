@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:MEK",
+      "entity_text" : "MEK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Soluble KSHV gpK8.1A, but not gB, induced MEK mediated ERK1/2 phosphorylation as early as 5 min p.i., and ERK1/2 phosphorylation facilitated the establishment of KSHV infection in HFF and HMVEC-d cells.",
+  "reading_complete" : "2020-08-08T13:46:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:50Z",
+  "trigger" : "mediated",
+  "evidence" : [ "MEK-mediated ERK1/2 phosphorylation" ],
+  "pmc_id" : "3262161",
+  "score" : 0
+}
