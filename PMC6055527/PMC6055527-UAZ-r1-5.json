@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05661",
+      "entity_text" : "MHC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00585",
+      "entity_text" : "major histocompatibility complex",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "NetMHC4 and NetMHCpan-3.0 were used to predict the binding affinity between epitopes and the major histocompatibility complex (MHC) and showed a high concordance in total predicted neoantigens (Pearson = 0.94; XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T08:18:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:17:08Z",
+  "trigger" : "affinity",
+  "evidence" : [ "affinity between epitopes and the major histocompatibility complex (MHC" ],
+  "pmc_id" : "6055527",
+  "score" : 0
+}
