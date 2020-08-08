@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53477912",
+      "entity_text" : "phosphatidylinositol",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "PLCbeta hydrolyzes phosphatidylinositol 4,5-bisphosphate to form 1,2-dacylglycerol (DAG) and inositol triphosphate.",
+  "reading_complete" : "2020-08-08T12:46:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:43:12Z",
+  "trigger" : "hydrolyzes",
+  "evidence" : [ "hydrolyzes phosphatidylinositol" ],
+  "pmc_id" : "4857883",
+  "score" : 0
+}

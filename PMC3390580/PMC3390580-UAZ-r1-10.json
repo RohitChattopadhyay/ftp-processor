@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q1QXE1",
+      "entity_text" : "beta-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NL89",
+      "entity_text" : "beta-1,3-glucan binding protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0450" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In oysters, the known PRPs / PRRs include peptidoglycan recognition proteins (PGRPs), which recognize specifically peptidoglycans (PG) from bacteria, carbohydrate binding proteins such as the beta-1,3-glucan binding protein (betaGBP), which binds to beta-1,3-glucans from fungi cell walls and lectins (gigalins, C-type lectins, ficolins, and galectins).",
+  "reading_complete" : "2020-08-08T12:47:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:43:25Z",
+  "trigger" : "binds",
+  "evidence" : [ "beta-1,3-glucan binding protein (betaGBP), which binds to beta-1" ],
+  "pmc_id" : "3390580",
+  "score" : 0
+}
