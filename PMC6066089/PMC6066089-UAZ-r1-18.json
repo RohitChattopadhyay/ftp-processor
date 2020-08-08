@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UJU2",
+      "entity_text" : "LEF1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1000" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "LEF1 and TCF7 promoters were significantly hypermethylated in ALCL tumors compared to AITLs and to normal T cells, but no significant differences in DNA methylation levels were observed between ALCL and PTCL-NOS samples, most likely due to heterogeneity in the PTCL-NOS DNA methylation levels that is reflective of the diversity of this \" wastebasket \" disease category.",
+  "reading_complete" : "2020-08-08T14:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:22:15Z",
+  "trigger" : "hypermethylated",
+  "evidence" : [ "LEF1 and TCF7 promoters were significantly hypermethylated" ],
+  "pmc_id" : "6066089",
+  "score" : 0
+}

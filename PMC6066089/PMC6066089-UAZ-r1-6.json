@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06695",
+      "entity_text" : "ALK- ALCL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In ALK+ ALCL, only a few aberrantly methylated genes, including components of the T cell receptor (TCR) pathway and genes important for cell proliferation and survival, such as p16 INK4A, TNF-alpha, NFATC1, IL-2R, and BIM, have been identified; even less is known about specific methylation changes in ALK- ALCL.",
+  "reading_complete" : "2020-08-08T14:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:22:15Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation changes in ALK- ALCL" ],
+  "pmc_id" : "6066089",
+  "score" : 0
+}
