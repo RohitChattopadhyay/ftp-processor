@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BPX6",
+      "entity_text" : "MICU1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q86XE3",
+      "entity_text" : "MICU3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This result is consistent with a report showing that MICU3 binds to MICU1 but apparently enhances mitochondrial Ca 2+ uptake.",
+  "reading_complete" : "2020-08-08T10:27:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:25:09Z",
+  "trigger" : "binds",
+  "evidence" : [ "MICU3 binds to MICU1" ],
+  "pmc_id" : "6506686",
+  "score" : 0
+}

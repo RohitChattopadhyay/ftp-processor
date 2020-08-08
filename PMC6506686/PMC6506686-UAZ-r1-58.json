@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BPX6",
+      "entity_text" : "MICU1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "MICU1 has been shown to provide a gatekeeper function for the uniporter channel, with loss of MICU1 causing unregulated mitochondrial Ca 2+ uptake.",
+  "reading_complete" : "2020-08-08T10:27:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:25:09Z",
+  "trigger" : "causing",
+  "evidence" : [ "MICU1 causing unregulated mitochondrial Ca" ],
+  "pmc_id" : "6506686",
+  "score" : 0
+}

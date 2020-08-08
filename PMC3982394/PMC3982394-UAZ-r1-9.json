@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR010240",
+      "entity_text" : "ISCs",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P99999",
+      "entity_text" : "cyc",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The accumulation of mitotic cyc 0 ISCs (XREF_FIG) suggests that loss of cyc throughout the animal causes ISCs to overproliferate or stalls these cells in mitosis.",
+  "reading_complete" : "2020-08-08T10:52:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:51:05Z",
+  "trigger" : "causes",
+  "evidence" : [ "cyc throughout the animal causes ISCs" ],
+  "pmc_id" : "3982394",
+  "score" : 0
+}

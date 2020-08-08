@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22265",
+      "entity_text" : "TSH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1047" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A strong positive correlation was found between the NLR and PLR (r = 0.682, p < 0.001), a weak positive correlation was found between the NLR and the white blood cell count (r = 0.285, p = 0.025), and no correlation was found between the NLR and the nodule diameter, age, or TSH level.",
+  "reading_complete" : "2020-08-08T10:18:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:12Z",
+  "trigger" : "level",
+  "evidence" : [ "TSH level" ],
+  "pmc_id" : "6567789",
+  "score" : 0
+}

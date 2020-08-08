@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00511",
+      "entity_text" : "EGFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "Each EGFP + cell was collected in a single well of a 96-well plate, and for each cell, its size (FSC), granularity (SSC), and EGFP fluorescence level were recorded.",
+  "reading_complete" : "2020-08-08T10:45:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:43:11Z",
+  "trigger" : "level",
+  "evidence" : [ "EGFP fluorescence level" ],
+  "pmc_id" : "4742565",
+  "score" : 0
+}

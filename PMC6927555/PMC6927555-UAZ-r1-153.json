@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Y951",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "VEGFR2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005768" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Thus, we determined whether S1PR1 regulated VEGFR2 cell surface expression by modifying VEGFR2 phosphorylation at Y1175 or Y951.",
+  "reading_complete" : "2020-08-08T10:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:36:57Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "VEGFR2 phosphorylation at Y1175 or Y951" ],
+  "pmc_id" : "6927555",
+  "score" : 0
+}

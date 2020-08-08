@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "pH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:29936",
+      "entity_text" : "ferric iron",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, hydrolysis of ferric iron causes the pH of the oxidized groundwater to fall to 3.0, which results in a considerable proportion of the ferric iron being retained in solution.",
+  "reading_complete" : "2020-08-08T10:33:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:27:54Z",
+  "trigger" : "causes",
+  "evidence" : [ "ferric iron causes the pH" ],
+  "pmc_id" : "3305923",
+  "score" : 0
+}

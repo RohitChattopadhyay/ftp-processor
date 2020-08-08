@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000990" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "CDC 's National Diabetes Prevention Program (https://www.cdc.gov/diabetes/prevention) supports the nationwide implementation of evidence based, structured lifestyle programs to prevent or delay the onset of type 2 diabetes among persons with prediabetes (persons who have blood glucose levels that are elevated, but not high enough to be diagnosed as diabetes).",
+  "reading_complete" : "2020-08-08T10:10:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "5689212",
+  "score" : 0
+}

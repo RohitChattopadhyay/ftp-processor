@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H4I9",
+      "entity_text" : "EMRE",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01505",
+      "entity_text" : "MICU1-B",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Co-expression of either MICU1-A or MICU1-B with MCU and EMRE prevented the MCU : EMRE phenotype (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T10:27:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:25:09Z",
+  "trigger" : "prevented",
+  "evidence" : [ "MICU1-B with MCU and EMRE prevented the MCU:EMRE" ],
+  "pmc_id" : "6506686",
+  "score" : 0
+}

@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01407",
+      "entity_text" : "hHsp90alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01390",
+      "entity_text" : "hAha1",
+      "features" : [ {
+        "to_base" : "Y",
+        "site" : 223,
+        "feature_type" : "mutation",
+        "evidence" : "Y223E"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The phosphomimetic hAha1 Y223E mutant bound stronger to hHsp90alpha than the wild-type hAha1 and stimulated the hHsp90alpha ATPase activity by almost 8.5-fold relative to wild-type hAha1.",
+  "reading_complete" : "2020-08-08T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:23:17Z",
+  "trigger" : "bound",
+  "evidence" : [ "hAha1-Y223E mutant bound stronger to hHsp90alpha" ],
+  "pmc_id" : "4778718",
+  "score" : 0
+}

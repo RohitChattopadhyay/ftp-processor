@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "MLC",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "CellLine" : [ "cellosaurus:CVCL_0035" ],
+      "Cellular_component" : [ "go:GO:0001725" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "In agreement with our findings, a previous report has shown that cell migration was reduced and MLC phosphorylation increased in macrophages isolated from Myo9b knockout mice.",
+  "reading_complete" : "2020-08-08T10:10:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:20Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "MLC phosphorylation" ],
+  "pmc_id" : "4688110",
+  "score" : 0
+}

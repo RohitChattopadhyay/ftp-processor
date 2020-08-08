@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03089",
+      "entity_text" : "hemozoin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "CellType" : [ "cl:CL:0000234" ]
+    }
+  },
+  "verbose_text" : "ECM-susceptible mice infected with PbA exhibit significantly increased levels of hemozoin in the brain, in contrast to mice infected with the non-ECM-inducing P. berghei strain NK65.",
+  "reading_complete" : "2020-08-08T10:05:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:02:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of hemozoin" ],
+  "pmc_id" : "6616648",
+  "score" : 0
+}

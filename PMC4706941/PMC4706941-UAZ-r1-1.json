@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:11103" ]
+    }
+  },
+  "verbose_text" : "11 C-ACE PET/CT imaging can reflect tumor metabolism and is not affected by glucose phosphorylation, so it can be used for the negative 18 F-FDG imaging of high differentiation, low grade malignant tumor imaging, making up for the inadequacy of 18 F-FDG imaging as well as greatly improving the clinical diagnostic accuracy of HCC.",
+  "reading_complete" : "2020-08-08T10:05:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:03:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "glucose phosphorylation" ],
+  "pmc_id" : "4706941",
+  "score" : 0
+}

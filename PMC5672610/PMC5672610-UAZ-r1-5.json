@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Liebregts et al. showed a significant association between elevated TNF and IL6 in the blood and the severity of both gastrointestinal symptoms and anxiety [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T10:19:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:17:07Z",
+  "trigger" : "association",
+  "evidence" : [ "association between elevated TNF and IL6" ],
+  "pmc_id" : "5672610",
+  "score" : 0
+}

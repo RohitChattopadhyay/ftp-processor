@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF06745",
+      "entity_text" : "ATPase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01390",
+      "entity_text" : "hAha1",
+      "features" : [ {
+        "to_base" : "Y",
+        "site" : 223,
+        "feature_type" : "mutation",
+        "evidence" : "Y223E"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "While it cannot be formally excluded that enhanced interaction of phospho-hAha1 and Hsp90 may be facilitated by c-Abl kinase itself, we consider this very unlikely in view of the fact that phosphomimetic hAha1 Y223E mutant stimulated hHsp90alpha ATPase in vitro by 8.5-fold.",
+  "reading_complete" : "2020-08-08T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:23:17Z",
+  "trigger" : "stimulated",
+  "evidence" : [ "hAha1-Y223E mutant stimulated hHsp90alpha ATPase" ],
+  "pmc_id" : "4778718",
+  "score" : 0
+}

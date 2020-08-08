@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04121",
+      "entity_text" : "c-Abl1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Interestingly, the phosphorylation-incompetent VEGFR2 mutant (Y951F-VEGFR2 cDNA) also markedly decreased c-Abl1 phosphorylation in response to VEGF (XREF_SUPPLEMENTARY and XREF_SUPPLEMENTARY), indicating a positive feedback loop between c-Abl and VEGFR2 upon VEGF binding with VEGFR2.",
+  "reading_complete" : "2020-08-08T10:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:36:57Z",
+  "trigger" : "in response to",
+  "evidence" : [ "c-Abl1 phosphorylation in response to VEGF" ],
+  "pmc_id" : "6927555",
+  "score" : 0
+}

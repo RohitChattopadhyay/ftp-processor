@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q08481",
+      "entity_text" : "Pecam",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000423" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Correlating with decreased Nrp1 levels and the NRP1 dose dependent delay in brain vascularization (see above), Pecam levels were significantly decreased in both types of mutants, with a milder defect in heterozygotes (XREF_FIG B; mean fold change relative to control +/- SD, n> = 3 : Nrp1 +/+ 1 +/- 0.05, Nrp1 +/- 0.84 +/- 0.07, Nrp1 -/- 0.68 +/- 0.05; p < 0.01 for Nrp1 +/- and Nrp1 -/- relative to Nrp1 +/+).",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "Pecam levels" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

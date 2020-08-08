@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01442",
+      "entity_text" : "Y-245",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "We found that 5 muM GNF-5 is sufficient to inhibit c-Abl activity (assessed by level of Y-245 phosphorylation), (data not shown).",
+  "reading_complete" : "2020-08-08T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:23:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Y-245 phosphorylation" ],
+  "pmc_id" : "4778718",
+  "score" : 0
+}

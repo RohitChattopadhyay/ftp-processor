@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "Y951",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "VEGFR2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5329098",
+      "entity_text" : "SU5416",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, pretreatment of control HPAECs with the SU5416 also blocked VEGFR2 phosphorylation at the Y951 residue (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:36:57Z",
+  "trigger" : "blocked",
+  "evidence" : [ "SU5416 also blocked VEGFR2 phosphorylation at the Y951" ],
+  "pmc_id" : "6927555",
+  "score" : 0
+}

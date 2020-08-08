@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00519",
+      "entity_text" : "ABL1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-0961" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "CellType" : [ "cl:CL:0000423" ]
+    }
+  },
+  "verbose_text" : "ABL1 knockdown was confirmed by reduced CRKL phosphorylation (pCRKL; XREF_FIG N), a known ABL1 kinase target.",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation (pCRKL;  XREF_FIG N), a known ABL1" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

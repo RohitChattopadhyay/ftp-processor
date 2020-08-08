@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0001525",
+      "entity_text" : "angiogenesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14786",
+      "entity_text" : "NRP1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The similar angiogenesis defects caused by loss of NRP1 in genetically targeted mice and MO treated fish, together with the similarity to defects induced by pharmacological CDC42 inhibition in both species and also in human endothelial cells, argue that the mechanism of NRP1 mediated CDC42 regulation is conserved across species.",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "caused",
+  "evidence" : [ "angiogenesis defects caused by loss of NRP1" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

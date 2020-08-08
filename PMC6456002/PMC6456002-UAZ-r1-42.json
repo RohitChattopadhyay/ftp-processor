@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:2000042" ]
+    }
+  },
+  "verbose_text" : "In contrast, mitochondrial ATP levels in aged (high passages; i.e., old) MEFs (o-MEFs) were less affected by glucose removal but clearly reduced by cell treatment with oligomycin, indicating enhanced oxidative phosphorylation in senescent MEFs (XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "6456002",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In HepG2 cells, insulin treatment also led to increased phosphorylation of IRS-1 (Tyr612), Akt (Ser473) and mTOR (Ser2448).",
+  "reading_complete" : "2020-08-08T10:26:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:24:07Z",
+  "trigger" : "led",
+  "evidence" : [ "insulin treatment also led to increased phosphorylation\nof IRS-1 (Tyr612), Akt (Ser473) and mTOR" ],
+  "pmc_id" : "6421396",
+  "score" : 0
+}

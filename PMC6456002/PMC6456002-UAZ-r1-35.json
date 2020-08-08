@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although the phosphorylation of glucose to glucose 6-phosphate is generally considered to be irreversible under physiological conditions, the association of hexokinases with mitochondria and the coupling with the mitochondrial ATP pool may allow the reversal of the reaction, if intracellular glucose levels are strongly reduced, in particular if one considers that the enzymatic activity was measured in vitro with purified enzymes.",
+  "reading_complete" : "2020-08-08T10:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of glucose" ],
+  "pmc_id" : "6456002",
+  "score" : 0
+}

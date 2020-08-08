@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43795",
+      "entity_text" : "Myo1b",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0035" ],
+      "TissueType" : [ "tissuelist:TS-1224" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "High endogenous levels of Myo1b in more highly metastatic cells might therefore increase cortical tension, allowing cells to move through stiff extracellular matrices in vivo, perhaps explaining why knockdown of Myo1b only affects migration in 3D but not 2D.",
+  "reading_complete" : "2020-08-08T10:10:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Myo1b" ],
+  "pmc_id" : "4688110",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:93460",
+      "entity_text" : "voltage",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P19438",
+      "entity_text" : "TNFR1",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Binding of TNF-alpha to TNFR1 may increase axonal excitability, sufficient to cause ongoing activity, by activating the voltage gated sodium channel Na v 1.8 or inhibiting potassium channels.",
+  "reading_complete" : "2020-08-08T10:46:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:44:39Z",
+  "trigger" : "increase",
+  "evidence" : [ "TNF-alpha to TNFR1 may increase axonal excitability, sufficient to cause ongoing activity, by activating the voltage" ],
+  "pmc_id" : "3234089",
+  "score" : 0
+}

@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P00519",
+      "entity_text" : "Abl",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01439",
+      "entity_text" : "Hsp90alpha",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01415",
+      "entity_text" : "hAha1-c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Addition of calf-intestinal alkaline phosphatase (CIAP) caused dephosphorylation of hAha1 and de-stabilized the hAha1-c - Abl - Hsp90alpha complex (XREF_FIG, last lane).",
+  "reading_complete" : "2020-08-08T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:23:17Z",
+  "trigger" : "complex",
+  "evidence" : [ "hAha1-c-Abl-Hsp90alpha complex" ],
+  "pmc_id" : "4778718",
+  "score" : 0
+}

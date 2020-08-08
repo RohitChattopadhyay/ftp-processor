@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24823",
+      "entity_text" : "ozone",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Ozone concentration increases have been associated with the decrease of NO, which may cause a decrease in ozone consumption, thus leading to a higher ozone concentration.",
+  "reading_complete" : "2020-08-08T10:04:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:03:25Z",
+  "trigger" : "cause",
+  "evidence" : [ "NO, which may cause a decrease in ozone" ],
+  "pmc_id" : "7189200",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000125" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Such effects include increasing extracellular potassium levels, effecting calcium chelation, and causing glycogen deposition in cranial motoneurons.",
+  "reading_complete" : "2020-08-08T10:42:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:40:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "potassium levels" ],
+  "pmc_id" : "3331664",
+  "score" : 0
+}

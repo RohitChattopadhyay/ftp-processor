@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:111938" ],
+      "TissueType" : [ "tissuelist:TS-0309" ],
+      "Cellular_component" : [ "go:GO:0005759" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "In contrast to MCU and EMRE mutants, loss of MICU1 results in larval lethality, which is associated with alterations in mitochondrial distribution and motility, and a reduced level of total ATP.",
+  "reading_complete" : "2020-08-08T10:27:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:25:09Z",
+  "trigger" : "level",
+  "evidence" : [ "level of total ATP" ],
+  "pmc_id" : "6506686",
+  "score" : 0
+}

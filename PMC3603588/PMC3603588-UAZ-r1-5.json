@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81172",
+      "entity_text" : "hepcidin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000162" ]
+    }
+  },
+  "verbose_text" : "These findings suggest that the decrease of gastric hepcidin expression due to the loss of hepcidin producing parietal cells may function as an iron regulator.",
+  "reading_complete" : "2020-08-08T10:28:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:26:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of hepcidin" ],
+  "pmc_id" : "3603588",
+  "score" : 0
+}

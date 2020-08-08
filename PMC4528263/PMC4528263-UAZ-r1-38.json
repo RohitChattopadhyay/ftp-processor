@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0015629" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000423" ]
+    }
+  },
+  "verbose_text" : "To measure levels of GTP bound (i.e., activated) CDC42, we used a pull-down assay with the p21 binding domain of the p21 activated protein kinase PAK1.",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GTP" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

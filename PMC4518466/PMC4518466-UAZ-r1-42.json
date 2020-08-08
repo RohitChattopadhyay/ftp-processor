@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32797",
+      "entity_text" : "Cdc13",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H668",
+      "entity_text" : "Stn1-Myc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0276" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "We found that Stn1-Myc was indeed bound to telomeric DNA in a Cdc13 independent manner in an nmd2Delta exo1Delta rad24Delta cdc13Delta strain (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T10:30:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:28:50Z",
+  "trigger" : "bound",
+  "evidence" : [ "Stn1-Myc was indeed bound to telomeric DNA in a Cdc13" ],
+  "pmc_id" : "4518466",
+  "score" : 0
+}

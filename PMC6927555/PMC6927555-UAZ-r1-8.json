@@ -1,0 +1,42 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04121",
+      "entity_text" : "c-Abl1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35968",
+      "entity_text" : "VEGFR2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      }, {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We also showed that expression of the Y951-phosphodefective VEGFR2 mutant reduced c-Abl1 phosphorylation in response to VEGF, suggesting an amplification mechanism to increase c-Abl1 activation.",
+  "reading_complete" : "2020-08-08T10:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:36:57Z",
+  "trigger" : "reduced",
+  "evidence" : [ "VEGFR2 mutant reduced c-Abl1 phosphorylation" ],
+  "pmc_id" : "6927555",
+  "score" : 0
+}

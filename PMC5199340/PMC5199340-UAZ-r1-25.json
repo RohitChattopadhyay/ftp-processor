@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07949",
+      "entity_text" : "RET",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1158" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "An equally plausible explanation is that multi-site phosphorylation of the RET activation segment could play a role in releasing phospho-Y905 or even phospho-S909 acting as a docking or adaptor site required for downstream signaling (see Discussion).",
+  "reading_complete" : "2020-08-08T10:16:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:13:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the RET" ],
+  "pmc_id" : "5199340",
+  "score" : 0
+}

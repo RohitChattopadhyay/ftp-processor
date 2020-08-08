@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07204",
+      "entity_text" : "thrombomodulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR003966",
+      "entity_text" : "thrombin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0803" ],
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thrombin can activate protein C, which can not only degrade clotting factor V and VIII, but also promote fibrinolysis and anticoagulation by the endothelial cell protein C receptor through the thrombin - thrombomodulin complex.",
+  "reading_complete" : "2020-08-08T10:06:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:05:02Z",
+  "trigger" : "complex",
+  "evidence" : [ "thrombin-thrombomodulin complex" ],
+  "pmc_id" : "5536593",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Collagen hydrolysates, even when tested at a high concentration of 10 mg/ml or in the presence of IL-1beta, did not induce any elevated loss of collagen or proteoglycans from explants into nutrient media (data not shown).",
+  "reading_complete" : "2020-08-08T10:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:31Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of collagen" ],
+  "pmc_id" : "3546930",
+  "score" : 0
+}

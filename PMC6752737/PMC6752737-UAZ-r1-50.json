@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06028",
+      "entity_text" : "PAS3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95319",
+      "entity_text" : "CELF2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E458" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This model is further consistent with the lack of CELF2 binding downstream of PAS3 and the fact that in the absence of CELF2 protein, PAS2 is used constitutively.",
+  "reading_complete" : "2020-08-08T10:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:39:45Z",
+  "trigger" : "binding",
+  "evidence" : [ "CELF2 binding downstream of PAS3" ],
+  "pmc_id" : "6752737",
+  "score" : 0
+}

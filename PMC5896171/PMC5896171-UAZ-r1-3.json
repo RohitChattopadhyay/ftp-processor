@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellLine" : [ "cellosaurus:CVCL_M639" ],
+      "Organ" : [ "uberon:UBERON:0000204" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Cytotoxicity / cytolysis were assessed by analyzing the level of lactate dehydrogenase (LDH) activity (Roche) in conditioned media samples following treatments.",
+  "reading_complete" : "2020-08-08T10:43:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:40:57Z",
+  "trigger" : "level",
+  "evidence" : [ "level of lactate" ],
+  "pmc_id" : "5896171",
+  "score" : 0
+}

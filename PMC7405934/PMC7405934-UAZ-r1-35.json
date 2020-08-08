@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04626",
+      "entity_text" : "ERBB2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0168" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0574" ],
+      "CellType" : [ "cl:CL:0000082" ]
+    }
+  },
+  "verbose_text" : "Upregulation of ErbB2 / Akt signaling remained in the lung tumors of Pten d/d Smad4 d/d mice at 12 months of age, as demonstrated by the increase of ERBB2 expression and ERBB2 and Akt phosphorylations (XREF_FIG and XREF_FIG), suggesting a continuous activation of the ErbB2 / Akt pathway in the process of Pten d/d Smad4 d/d mouse tumor development.",
+  "reading_complete" : "2020-08-08T10:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:18Z",
+  "trigger" : "phosphorylations",
+  "evidence" : [ "ERBB2 expression and ERBB2 and Akt phosphorylations" ],
+  "pmc_id" : "7405934",
+  "score" : 0
+}
