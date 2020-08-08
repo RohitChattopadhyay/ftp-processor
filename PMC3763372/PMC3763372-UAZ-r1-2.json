@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99323",
+      "entity_text" : "myosin II",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4216",
+      "entity_text" : "ML-7",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, bath applied ML-7, which reduced MLC phosphorylation, and hence myosin II activation, mimicked the effect of GlyR blockade on migration.",
+  "reading_complete" : "2020-08-08T18:42:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:40:46Z",
+  "trigger" : "reduced",
+  "evidence" : [ "ML-7, which reduced MLC phosphorylation, and hence myosin II" ],
+  "pmc_id" : "3763372",
+  "score" : 0
+}

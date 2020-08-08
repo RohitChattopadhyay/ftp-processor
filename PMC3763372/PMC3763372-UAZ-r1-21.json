@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser-19",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "myosin light chain",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000099" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The non-muscle-type II myosin complex is primarily regulated by phosphorylation at Ser 19 and Thr 18 of its myosin light chain (MLC).",
+  "reading_complete" : "2020-08-08T18:42:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:40:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation at Ser-19 and Thr-18 of its myosin light chain" ],
+  "pmc_id" : "3763372",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "MLC",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Cellular_component" : [ "go:GO:0030426" ],
+      "CellType" : [ "cl:CL:0000099" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "While GlyR alpha2 subunits were detected in both the soma and growth cone of cortical interneurons (XREF_FIG E), our data suggest that regulation of actomyosin contractility is dependent on GlyR activation at the rear of the nucleus rather than the growth cone (XREF_FIG D), where other mechanisms may promote the phosphorylation of MLC.",
+  "reading_complete" : "2020-08-08T18:42:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:40:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of MLC" ],
+  "pmc_id" : "3763372",
+  "score" : 0
+}
