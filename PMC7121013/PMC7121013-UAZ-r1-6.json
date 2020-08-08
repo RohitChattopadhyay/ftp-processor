@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00558",
+      "entity_text" : "IFNs",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This recognition leads to the activation of the IFN-regulatory transcription factors and NF-kB, which in turn results in the expression of the IFNs that subsequently activate the transcription of hundreds of IFN stimulated genes (ISGs) through the JAK-STAT pathway.",
+  "reading_complete" : "2020-08-08T08:11:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:08:02Z",
+  "trigger" : "activate",
+  "evidence" : [ "IFNs               that subsequently activate the transcription" ],
+  "pmc_id" : "7121013",
+  "score" : 0
+}

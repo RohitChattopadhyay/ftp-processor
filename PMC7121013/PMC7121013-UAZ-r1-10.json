@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10266",
+      "entity_text" : "integrase",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "The viral DNA forms a pre - integration complex along with the viral integrase, which is then transported to the nucleus where the DNA is integrated into the host genome as a provirus.",
+  "reading_complete" : "2020-08-08T08:11:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:08:02Z",
+  "trigger" : "transported",
+  "evidence" : [ "integrase, which is then transported to the nucleus" ],
+  "pmc_id" : "7121013",
+  "score" : 0
+}

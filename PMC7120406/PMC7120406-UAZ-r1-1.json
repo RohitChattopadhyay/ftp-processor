@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03262",
+      "entity_text" : "PRM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00468",
+      "entity_text" : "MASP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The CCP2 and SP domains are connected through a linker peptide (also termed the activation peptide), where an Arg Ile bond is cleaved through autolysis when MASP / PRM complexes bind to pathogens, linking the A- and B-chain connected via a disulfide bond [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T08:08:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:54:04Z",
+  "trigger" : "complexes",
+  "evidence" : [ "MASP/PRM complexes" ],
+  "pmc_id" : "7120406",
+  "score" : 0
+}

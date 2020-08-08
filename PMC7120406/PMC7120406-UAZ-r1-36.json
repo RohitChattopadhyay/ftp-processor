@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P98064",
+      "entity_text" : "MASP-3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21127",
+      "entity_text" : "CL-K1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0088" ]
+    }
+  },
+  "verbose_text" : "According to Venkatraman et al., this disorder is probably a result of structural defects caused by disruption of Ca (2+) binding during biosynthesis of CL-K1, causing structural changes in the protein and in the consequent CL-K1 / MASP-3 complexes [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T08:08:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:54:04Z",
+  "trigger" : "complexes",
+  "evidence" : [ "CL-K1/MASP-3 complexes" ],
+  "pmc_id" : "7120406",
+  "score" : 0
+}
