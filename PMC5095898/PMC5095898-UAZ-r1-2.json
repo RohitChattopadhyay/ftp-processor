@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61026",
+      "entity_text" : "Rab10",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5S007",
+      "entity_text" : "LRRK2",
+      "features" : [ {
+        "to_base" : "R",
+        "site" : 1441,
+        "feature_type" : "mutation",
+        "evidence" : "R1441G"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Further work exploiting the Phos-tag system demonstrated that HA tagged Rab10 phosphorylated by overexpressed R1441G LRRK2 also led to significant retardation of Rab10 in cells.",
+  "reading_complete" : "2020-08-08T19:47:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:41:42Z",
+  "evidence" : [ "Rab10 phosphorylated by overexpressed R1441G LRRK2" ],
+  "pmc_id" : "5095898",
+  "score" : 0
+}
