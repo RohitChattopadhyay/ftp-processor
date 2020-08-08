@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15379",
+      "entity_text" : "HDAC3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The same investigators also report that liver HDAC3 depletion appears to reduce hepatic glucose output and suggest that metabolic intermediates are shunted towards lipid production, rather than glucose production, with the loss of HDAC3 (and by extrapolation, of REV-ERBalpha action).",
+  "reading_complete" : "2020-08-08T15:00:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:51:50Z",
+  "trigger" : "reduce",
+  "evidence" : [ "HDAC3 depletion appears to reduce hepatic glucose" ],
+  "pmc_id" : "6956161",
+  "score" : 0
+}
