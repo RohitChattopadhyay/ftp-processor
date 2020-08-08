@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q3B820",
+      "entity_text" : "FAM161A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TC44",
+      "entity_text" : "POC1B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "Cellular_component" : [ "go:GO:0036064" ]
+    }
+  },
+  "verbose_text" : "Although species specific differences might contribute to the observed phenotypic heterogeneity, on the basis of the type and combinations of mutations identified and the reduced, but not absent, interaction between the altered POC1B and the retina specific FAM161A, it is plausible to conclude that individuals with COD have residual POC1B activity.",
+  "reading_complete" : "2020-08-08T11:42:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:40:43Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between the altered POC1B and the retina-specific FAM161A" ],
+  "pmc_id" : "4129401",
+  "score" : 0
+}

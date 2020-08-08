@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14980",
+      "entity_text" : "NuMA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81274",
+      "entity_text" : "LGN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:8355" ]
+    }
+  },
+  "verbose_text" : "Indeed, recent work in MDCK cells has shown that on mitotic entry, when NuMA is released from the nucleus, it competes LGN away from E-cadherin at the cortex to locally form the LGN / NuMA complex; it will be important to determine if this is happening specifically at TCJs.",
+  "reading_complete" : "2020-08-08T11:07:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:05:28Z",
+  "trigger" : "complex",
+  "evidence" : [ "LGN/NuMA complex" ],
+  "pmc_id" : "6381790",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P33240",
+      "entity_text" : "CstF64",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43809",
+      "entity_text" : "CFIm25",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E458" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Specifically we engineered mutations that disrupt binding of CFIm25, CstF64, and CELF2 around PAS2 and tested the impact of these mutations on use of PAS2 and PAS3 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:39:45Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of CFIm25, CstF64" ],
+  "pmc_id" : "6752737",
+  "score" : 0
+}

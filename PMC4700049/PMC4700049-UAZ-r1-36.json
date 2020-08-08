@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0360" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We found a subtle decrease in non fasting glucose levels at the end of gestation that was pregnancy specific, as we found non pregnant delta D910A to have slightly elevated glucose levels (XREF_FIG I).",
+  "reading_complete" : "2020-08-08T10:53:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:51:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "glucose levels" ],
+  "pmc_id" : "4700049",
+  "score" : 0
+}

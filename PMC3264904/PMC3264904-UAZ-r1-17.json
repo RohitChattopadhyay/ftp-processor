@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5D7I6",
+      "entity_text" : "TRIM5alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "CA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "Organ" : [ "uberon:UBERON:0011944" ]
+    }
+  },
+  "verbose_text" : "To determine further details regarding the interaction between CA and TRIM5alpha, biochemical and structural analyses of the PRYSPRY domain, especially the V1 loop bound with CA, are required.",
+  "reading_complete" : "2020-08-08T11:30:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:39Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between CA and TRIM5alpha" ],
+  "pmc_id" : "3264904",
+  "score" : 0
+}

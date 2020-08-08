@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00938",
+      "entity_text" : "lipoprotein",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78509",
+      "entity_text" : "Reelin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "Cellular_component" : [ "go:GO:0045211" ],
+      "Organ" : [ "uberon:UBERON:0001950" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Upon Reelin binding to the receptors, ApoER2 and very-low-density lipoprotein receptor (VLDLR), Src family kinases (SFKs) become activated and phosphorylate the intracellular adaptor protein Dab1, thereby initiating a complex signaling cascade leading to correct neuronal positioning during the development of the neocortex, hippocampus, and cerebellum.",
+  "reading_complete" : "2020-08-08T11:01:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:11Z",
+  "trigger" : "binding",
+  "evidence" : [ "Reelin binding to the receptors, ApoER2 and very-low-density lipoprotein" ],
+  "pmc_id" : "5640806",
+  "score" : 0
+}

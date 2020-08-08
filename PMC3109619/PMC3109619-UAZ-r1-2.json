@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "At least 275 effectors have been identified, that target multiple and overlapping host cell functions including host cell GTPase activity, phosphoinositide metabolism, protein secretion, apoptosis, eukaryotic protein translation, ubiquitination, NF-kappaB activation and mitochondrial function, reviewed in.",
+  "reading_complete" : "2020-08-08T11:28:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:27:14Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination, NF-kappaB" ],
+  "pmc_id" : "3109619",
+  "score" : 0
+}

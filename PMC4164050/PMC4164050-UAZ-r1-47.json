@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P56470",
+      "entity_text" : "GAL4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P04818",
+      "entity_text" : "ts",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P56470",
+      "entity_text" : "GAL4",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "At the nonpermissive temperature (17degreesC), Gal80 ts binds GAL4 to inhibit GAL4 mediated transcriptional activation, whereas at the permissive temperature (29degreesC), it dissociates from GAL4 to permit GAL4 mediated gene expression.",
+  "reading_complete" : "2020-08-08T11:42:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:40:50Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "ts  binds GAL4 to inhibit GAL4" ],
+  "pmc_id" : "4164050",
+  "score" : 0
+}

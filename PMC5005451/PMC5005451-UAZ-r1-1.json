@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ETC_complex_III",
+      "entity_text" : "complex III",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2270" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As visualized in a heatmap (XREF_FIG), profiles of protein abundance confirmed a severe complex I assembly defect in fibroblasts from subjects 2 and 3 and a concomitant increase in the amount of free complex III.",
+  "reading_complete" : "2020-08-08T11:18:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:15:11Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of free complex III" ],
+  "pmc_id" : "5005451",
+  "score" : 0
+}

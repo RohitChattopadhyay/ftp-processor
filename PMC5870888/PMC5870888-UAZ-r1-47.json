@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05230",
+      "entity_text" : "e.g., ISRIB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "While this mild eIF2alpha phosphorylation complicates the use of pharmacologic agents to block PERK signaling (e.g., ISRIB), we were able to monitor how ER stress influenced mitochondrial respiration in Slp2 -/- MEFs, where PERK regulated SIMH is selectively inhibited.",
+  "reading_complete" : "2020-08-08T11:21:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:19:54Z",
+  "trigger" : "block",
+  "evidence" : [ "eIF2alpha phosphorylation complicates the use of pharmacologic agents to block PERK signaling (e.g., ISRIB" ],
+  "pmc_id" : "5870888",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We have found that throughout the entire inflammatory process, levels of the TNF-alpha are high with an active stimulation response, p < 0.05, whereas during a long lasting process (more than 6 months) there is no stimulated anti-inflammatory response, p = 0.033 (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:12:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the TNF-alpha" ],
+  "pmc_id" : "7168305",
+  "score" : 0
+}

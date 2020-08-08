@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the neuritis model, it is known that the inflammation is sufficient to cause transcription changes in the DRG.",
+  "reading_complete" : "2020-08-08T10:46:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:44:39Z",
+  "trigger" : "cause",
+  "evidence" : [ "inflammation is sufficient to cause transcription" ],
+  "pmc_id" : "3234089",
+  "score" : 0
+}

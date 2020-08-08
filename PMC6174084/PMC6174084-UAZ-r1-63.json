@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7408258",
+      "entity_text" : "PS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05128",
+      "entity_text" : "LactC1C2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0451" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "LactC1C2 specifically binds to PS but lacks the integrin interacting motif of the full-length protein.",
+  "reading_complete" : "2020-08-08T11:16:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:14:28Z",
+  "trigger" : "binds",
+  "evidence" : [ "LactC1C2 specifically binds to PS" ],
+  "pmc_id" : "6174084",
+  "score" : 0
+}

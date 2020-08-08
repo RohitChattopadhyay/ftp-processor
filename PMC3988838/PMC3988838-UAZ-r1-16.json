@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8N3U4",
+      "entity_text" : "SA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0042" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005694" ]
+    }
+  },
+  "verbose_text" : "We found that the shift in distribution of distances between centromeres was slightly greater than that of BAF180, suggesting that loss of BAF180 may not be as deleterious as loss of SA2.",
+  "reading_complete" : "2020-08-08T11:37:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:35:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of SA2" ],
+  "pmc_id" : "3988838",
+  "score" : 0
+}

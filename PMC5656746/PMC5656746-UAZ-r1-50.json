@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6PJF5",
+      "entity_text" : "iRhom2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14672",
+      "entity_text" : "ADAM10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "By contrast, an ADAM10 chimera containing the TACE cytoplasmic tail could not bind to iRhom2, implying, albeit indirectly, that the iRhom2 tail does not play a major role in binding to the TACE tail (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T11:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:15Z",
+  "trigger" : "bind",
+  "evidence" : [ "ADAM10 chimera containing the TACE cytoplasmic tail could not bind to iRhom2" ],
+  "pmc_id" : "5656746",
+  "score" : 0
+}

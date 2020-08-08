@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17735",
+      "entity_text" : "Tat",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60563",
+      "entity_text" : "CycT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000104" ]
+    }
+  },
+  "verbose_text" : "Human but not mouse CycT1 binds to Tat and activates transcription from HIV-1 LTR.",
+  "reading_complete" : "2020-08-08T11:30:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:39Z",
+  "trigger" : "binds",
+  "evidence" : [ "CycT1 binds to Tat" ],
+  "pmc_id" : "3264904",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00596",
+      "entity_text" : "c-Jun",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "Treatment of hippocampal neurons with the JNK activator anisomycin increased phosphorylation of c-Jun, a substrate of JNK, whereas addition of SP600125 decreased anisomycin induced JNK activation back to control levels, showing that SP600125 inhibits JNK activity (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of c-Jun" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

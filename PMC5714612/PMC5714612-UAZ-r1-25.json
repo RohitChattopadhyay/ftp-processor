@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "In HEK293 cells co-transfected with FLAG-MKK7-JNK1 and GFP-Syt, we were able to co-immunoprecipitate GFP-Syt4 with a FLAG antibody (XREF_FIG A) and FLAG-MKK7-JNK1 with a GFP antibody in a reverse approach (XREF_FIG B), confirming an interaction between Syt4 and JNK.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between Syt4 and JNK" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

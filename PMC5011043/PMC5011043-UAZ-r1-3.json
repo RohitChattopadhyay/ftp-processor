@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0001443" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Individual P3 died suddenly at 20 years of age after ingestion of a small amount of alcohol (approx.",
+  "reading_complete" : "2020-08-08T10:10:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:22Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of alcohol" ],
+  "pmc_id" : "5011043",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GTPase activating protein (GAPs) inhibit Rho-GTPases by activating GTP hydrolysis, thereby inducing the inactive, GDP bound state.",
+  "reading_complete" : "2020-08-08T11:24:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:23:22Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "inhibit Rho-GTPases by activating GTP hydrolysis, thereby inducing the inactive, GDP" ],
+  "pmc_id" : "3128981",
+  "score" : 0
+}

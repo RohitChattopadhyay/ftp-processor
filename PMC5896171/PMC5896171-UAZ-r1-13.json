@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These independent assays confirmed the same differential effects of the two inhibitors observed by live imaging of pHrodo-tau : at the 3-hr assay point, dynamin inhibition had no effect on the number of monomeric tau-Dylight-positive punctae within neurons, whereas inhibition of actin polymerization reduced the amount of intracellular tau by over half (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:43:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:40:57Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of intracellular tau" ],
+  "pmc_id" : "5896171",
+  "score" : 0
+}

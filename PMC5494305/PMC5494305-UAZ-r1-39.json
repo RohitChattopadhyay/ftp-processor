@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02831",
+      "entity_text" : "Sox32",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-0623" ],
+      "Organ" : [ "uberon:UBERON:0000307" ]
+    }
+  },
+  "verbose_text" : "In zebrafish, mesendoderm formation requires Nodal signaling, whereas FGF is required for correct mesoderm formation, in part via activation of ta and tbx16, and by antagonizing endoderm formation through phosphorylation and inactivation of Sox32.",
+  "reading_complete" : "2020-08-08T11:28:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:26:48Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and inactivation of Sox32" ],
+  "pmc_id" : "5494305",
+  "score" : 0
+}

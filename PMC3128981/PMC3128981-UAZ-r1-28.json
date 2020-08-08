@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of beta-catenin promotes its ubiquitination and subsequent degradation.",
+  "reading_complete" : "2020-08-08T11:24:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:23:22Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of beta-catenin" ],
+  "pmc_id" : "3128981",
+  "score" : 0
+}

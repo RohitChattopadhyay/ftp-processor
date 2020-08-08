@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25942",
+      "entity_text" : "CD40",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29965",
+      "entity_text" : "CD40L",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0011103" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To test this possibility and to ascertain how autocrine signaling might influence SCG neuron development, we studied the effects of blocking the interaction of CD40L and CD40 using function blocking antibodies and quantified neuronal survival and neurite growth.",
+  "reading_complete" : "2020-08-08T11:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:09Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of CD40L and CD40" ],
+  "pmc_id" : "4407286",
+  "score" : 0
+}

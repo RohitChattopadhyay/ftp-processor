@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95832",
+      "entity_text" : "Claudin-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0283" ],
+      "Cellular_component" : [ "go:GO:0030054" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As well as altering cadherin presence at cell junctions, we observed that ephrin-B1/B2 KD also halted the loss of Claudin-1 from junctions between cells of in vitro wounds (XREF_SUPPLEMENTARY G).",
+  "reading_complete" : "2020-08-08T11:21:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:18:26Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Claudin-1" ],
+  "pmc_id" : "4660216",
+  "score" : 0
+}

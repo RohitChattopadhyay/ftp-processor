@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00989",
+      "entity_text" : "PAS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05156",
+      "entity_text" : "CFI",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E458" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "At a transcriptome-wide level, this competition may be most generally with CFI bound to UGUA sites upstream of the PAS sequence, given the marked peak of CELF2 binding ~ 100 nt before the PAS exactly overlapping the peak of CFI binding (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:42:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:39:45Z",
+  "trigger" : "bound",
+  "evidence" : [ "CFI bound to UGUA sites upstream of the PAS" ],
+  "pmc_id" : "6752737",
+  "score" : 0
+}

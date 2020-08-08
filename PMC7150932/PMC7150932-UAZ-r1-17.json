@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "pH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:187",
+      "entity_text" : "Ach",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the presence of BChE, the hydrolysis of Ach and production of acetic acid decreases the pH of the reaction mixture.",
+  "reading_complete" : "2020-08-08T11:09:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:03:17Z",
+  "trigger" : "decreases",
+  "evidence" : [ "Ach and production of acetic acid decreases the pH" ],
+  "pmc_id" : "7150932",
+  "score" : 0
+}

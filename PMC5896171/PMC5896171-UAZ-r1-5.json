@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "However, a notable amount of tau enters neurons complexed with antibodies, even in the presence of a 10-fold molar excess of antibodies.",
+  "reading_complete" : "2020-08-08T10:43:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:40:57Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of tau" ],
+  "pmc_id" : "5896171",
+  "score" : 0
+}

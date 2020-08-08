@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01138",
+      "entity_text" : "NGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0991" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "uaz:UAZ02945" ]
+    }
+  },
+  "verbose_text" : "We demonstrate that CD40 autocrine signaling enhances NGF promoted axonal growth and branching, is regulated by the level of NGF in targets, and exerts regional effects on innervation density in vivo.",
+  "reading_complete" : "2020-08-08T11:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:09Z",
+  "trigger" : "level",
+  "evidence" : [ "level of NGF" ],
+  "pmc_id" : "4407286",
+  "score" : 0
+}

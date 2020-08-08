@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0005746" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The serum-free conditions required for this experiment induce a mild increase in eIF2alpha phosphorylation (XREF_SUPPLEMENTARY), which is consistent with previous results showing that reduced serum promotes eIF2alpha phosphorylation through a mechanism involving the alternative eIF2alpha kinase GCN2.",
+  "reading_complete" : "2020-08-08T11:21:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:19:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "eIF2alpha phosphorylation" ],
+  "pmc_id" : "5870888",
+  "score" : 0
+}

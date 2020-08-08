@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99323",
+      "entity_text" : "myosin II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:8355" ]
+    }
+  },
+  "verbose_text" : "Contrary to findings in other systems, a global loss of myosin II does not alter division orientation relative to cell shape.",
+  "reading_complete" : "2020-08-08T11:07:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:05:28Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of myosin II" ],
+  "pmc_id" : "6381790",
+  "score" : 0
+}

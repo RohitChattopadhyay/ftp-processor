@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UQE7",
+      "entity_text" : "Smc3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1683" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The structures will provide the basis for determining which parts of Pds5 promote Smc acetylation, prevent Smc3 deacetylation, and help to maintain long-term cohesion.",
+  "reading_complete" : "2020-08-08T10:59:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:46Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "Smc3 deacetylation" ],
+  "pmc_id" : "4793087",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00511",
+      "entity_text" : "EGFP",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0501" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "Without any information about the EGFP expression, the BayesianGPLVM recovers our original ordering, up to orientation (Spearman correlation 0.97; XREF_FIG B) (Notebook 7 in XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:45:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:43:11Z",
+  "trigger" : "expression",
+  "evidence" : [ "EGFP expression" ],
+  "pmc_id" : "4742565",
+  "score" : 0
+}

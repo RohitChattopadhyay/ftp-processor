@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6PJF5",
+      "entity_text" : "iRhom2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p14_3_3",
+      "entity_text" : "14-3-3 proteins",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The binding of 14-3-3 proteins to iRhom2 appeared plausible because 14-3-3 recruitment motifs are found at phosphoserines S60, S83, and S359 within the iRhom2 cytoplasmic tail (XREF_SUPPLEMENTARY A).",
+  "reading_complete" : "2020-08-08T11:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:15Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of 14-3-3 proteins to iRhom2" ],
+  "pmc_id" : "5656746",
+  "score" : 0
+}

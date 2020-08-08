@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00141",
+      "entity_text" : "peroxidase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22629",
+      "entity_text" : "streptavidin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9986" ],
+      "TissueType" : [ "tissuelist:TS-0288" ],
+      "Cellular_component" : [ "go:GO:0005903" ],
+      "Organ" : [ "uberon:UBERON:0000958" ]
+    }
+  },
+  "verbose_text" : "The slides were washed three times and incubated with streptavidin - peroxidase complex (Boster Biological) at room temperature for 30 minutes, then rinsed twice with phosphate buffered saline.",
+  "reading_complete" : "2020-08-08T10:45:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:42:56Z",
+  "trigger" : "complex",
+  "evidence" : [ "streptavidin-peroxidase complex" ],
+  "pmc_id" : "7114280",
+  "score" : 0
+}

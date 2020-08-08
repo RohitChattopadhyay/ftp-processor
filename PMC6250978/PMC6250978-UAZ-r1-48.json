@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05408",
+      "entity_text" : "VACV proteins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01413",
+      "entity_text" : "C4",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To examine if C4 binds Ku during infection and to test if C4 binds VACV proteins, HEK293T cells were infected with a VACV expressing TAP tagged C4 (vC4-TAP) at the endogenous level, and C4-TAP was purified as before.",
+  "reading_complete" : "2020-08-08T11:28:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:24:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "C4 binds VACV proteins" ],
+  "pmc_id" : "6250978",
+  "score" : 0
+}

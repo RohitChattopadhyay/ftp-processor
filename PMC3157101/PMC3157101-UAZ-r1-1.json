@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01582",
+      "entity_text" : "Tir",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07591",
+      "entity_text" : "intimin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "It is well established that the interaction of STEC with human epithelial cells is multi-factorial as it involves the participation of the intimin - Tir complex, secreted proteins, and flagella.",
+  "reading_complete" : "2020-08-08T10:35:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:45Z",
+  "trigger" : "complex",
+  "evidence" : [ "intimin-Tir complex" ],
+  "pmc_id" : "3157101",
+  "score" : 0
+}

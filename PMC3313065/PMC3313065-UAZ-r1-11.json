@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14242",
+      "entity_text" : "PSGL-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3486" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These results suggest that CVA2 and CVA7 may infect to L-PSGL-1.1 cells in an alternative pathway via PSGL-1 or glycosylated PSGL-1, without the interaction between EV71-PB and the N-terminal region of PSGL-1 recognized by KPL1.",
+  "reading_complete" : "2020-08-08T10:34:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:33:55Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated PSGL-1" ],
+  "pmc_id" : "3313065",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "TF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0004880" ],
+      "CellType" : [ "cl:CL:0000968" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "As judged by gene set enrichment analysis (GSEA), Ta/Tbx16 occupancy is not highly correlated with changes in target gene expression upon loss of either TF alone (XREF_FIG E and 2F).",
+  "reading_complete" : "2020-08-08T11:28:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:26:48Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of either TF" ],
+  "pmc_id" : "5494305",
+  "score" : 0
+}

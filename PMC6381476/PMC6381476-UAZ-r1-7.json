@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:76720" ],
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "For descriptive statistics such as age, testis size, FSH levels, and testosterone levels, the independent-sample t test was used to compare the two groups.",
+  "reading_complete" : "2020-08-08T10:58:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:57:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "6381476",
+  "score" : 0
+}

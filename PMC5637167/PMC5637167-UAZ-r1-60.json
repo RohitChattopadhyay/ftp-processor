@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Together, these data suggest that glucose is unable to inhibit K ATP channels in stage III Fh1 deficient beta cells, because ATP generation is reduced.",
+  "reading_complete" : "2020-08-08T11:35:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:32:19Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "glucose is unable to inhibit K ATP" ],
+  "pmc_id" : "5637167",
+  "score" : 0
+}
