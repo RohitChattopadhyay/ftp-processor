@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "hydrogen peroxide",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0810" ],
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "Catalase efficiently hydrolyzes hydrogen peroxide to oxygen and water due to its high turnover numbers.",
+  "reading_complete" : "2020-08-08T08:04:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:03:20Z",
+  "trigger" : "hydrolyzes",
+  "evidence" : [ "hydrolyzes hydrogen peroxide" ],
+  "pmc_id" : "3201021",
+  "score" : 0
+}

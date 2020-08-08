@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NG31",
+      "entity_text" : "KNL1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "We found that neural progenitors bearing a patient mutation showed reduced KNL1 levels, aneuploidy, and an abrogated spindle assembly checkpoint.",
+  "reading_complete" : "2020-08-08T08:05:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:02:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "KNL1 levels" ],
+  "pmc_id" : "6392048",
+  "score" : 0
+}
