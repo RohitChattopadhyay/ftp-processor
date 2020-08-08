@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07575",
+      "entity_text" : "H3K27ac",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0638" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Among the genes listed in the ClinVar database, various genes (e.g., MCP-1) display increased H3K27ac levels and enhanced expression upon Mtb exposure in beta-glucan-trained cells compared to the control (XREF_FIG G and H).",
+  "reading_complete" : "2020-08-08T16:48:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:44:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "H3K27ac levels" ],
+  "pmc_id" : "7242907",
+  "score" : 0
+}
