@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14757",
+      "entity_text" : "CHEK1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000050" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "ATRA does not directly affect cyclin expression but increases CHEK1 expression, which decreases the cell cycle via phosphorylation of CDC25A.",
+  "reading_complete" : "2020-08-08T19:21:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:17:09Z",
+  "trigger" : "expression",
+  "evidence" : [ "CHEK1 expression" ],
+  "pmc_id" : "6336197",
+  "score" : 0
+}

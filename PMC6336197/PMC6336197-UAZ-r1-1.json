@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30304",
+      "entity_text" : "CDC25A",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:44795",
+      "entity_text" : "ATRA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ATRA does not directly affect cyclin expression but increases CHEK1 expression, which decreases the cell cycle via phosphorylation of CDC25A.",
+  "reading_complete" : "2020-08-08T19:21:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:17:09Z",
+  "trigger" : "decreases",
+  "evidence" : [ "ATRA does not directly affect cyclin expression but increases CHEK1 expression, which decreases the cell cycle via phosphorylation of CDC25A" ],
+  "pmc_id" : "6336197",
+  "score" : 0
+}

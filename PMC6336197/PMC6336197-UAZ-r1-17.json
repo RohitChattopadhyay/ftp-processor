@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25791",
+      "entity_text" : "LMO2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "TP53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000553" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This correlation analysis also reveals potential gene networks and pathways such as GATA1, TFDP1, and MCM5 cooperation with the chromatin modifier CHAF1B and a tight interaction between TP53, KLF1, and LMO2 in the regulation of key E genes.",
+  "reading_complete" : "2020-08-08T19:21:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:17:09Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between TP53, KLF1, and LMO2" ],
+  "pmc_id" : "6336197",
+  "score" : 0
+}
