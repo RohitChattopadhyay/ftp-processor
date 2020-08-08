@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06019",
+      "entity_text" : "muR protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0004529" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000611" ]
+    }
+  },
+  "verbose_text" : "Although the total amount of muR protein remained unchanged, the level of cell-surface muRs was significantly reduced 50 min but not 25 min after EP stress, suggesting that endocytosis of membrane muRs occurred following phosphorylation.",
+  "reading_complete" : "2020-08-08T15:18:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:10:46Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of muR protein" ],
+  "pmc_id" : "7192851",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00932",
+      "entity_text" : "LTD",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Facilitation of LTD suggests that activation of muR GABA lowers the threshold of LTD induction (depolarization of pyramidal neurons removes shunting and hyperpolarizing effects on NMDAR activation) [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:18:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:10:46Z",
+  "trigger" : "lowers",
+  "evidence" : [ "GABA  lowers the threshold of LTD" ],
+  "pmc_id" : "7192851",
+  "score" : 0
+}
