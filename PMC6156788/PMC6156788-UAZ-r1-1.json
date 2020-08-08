@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00315",
+      "entity_text" : "SHM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O42690",
+      "entity_text" : "CDR3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To reduce VDJ misassignment due to PCR error or SHM, we grouped sequence clusters within a CDR3 distance threshold, ignoring VH or JH, into superclusters ranked by read count, and downstream analyses were performed using the top ranked VH cluster.",
+  "reading_complete" : "2020-08-08T10:30:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:27:33Z",
+  "trigger" : "reduce",
+  "evidence" : [ "reduce VDJ misassignment due to PCR error or SHM, we grouped sequence clusters within a CDR3" ],
+  "pmc_id" : "6156788",
+  "score" : 0
+}
