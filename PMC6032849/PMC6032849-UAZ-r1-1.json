@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43557",
+      "entity_text" : "light",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "CellType" : [ "cl:CL:0009004" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "First, the amount of light from any given retinal depth Z received by the detector is a constant proportion of the total amount of light scattered at that point.",
+  "reading_complete" : "2020-08-08T11:31:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:55Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of light" ],
+  "pmc_id" : "6032849",
+  "score" : 0
+}
