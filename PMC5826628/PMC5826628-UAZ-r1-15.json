@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00785",
+      "entity_text" : "IgM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0002" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Human IgM bound to LPS purified from S. Paratyphi A O4 but not to LPS purified from S. Paratyphi A (ATCC9150), suggesting that the O2 antigen was responsible for poor binding of human natural antibodies to LPS (XREF_FIG).",
+  "reading_complete" : "2020-08-08T14:26:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:23:49Z",
+  "trigger" : "bound",
+  "evidence" : [ "IgM bound to LPS purified from S. Paratyphi A O4  but not to LPS" ],
+  "pmc_id" : "5826628",
+  "score" : 0
+}

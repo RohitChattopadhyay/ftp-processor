@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:222",
+      "entity_text" : "ammonia",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04788",
+      "entity_text" : "AOB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "As AOB have a lower affinity for ammonia, the low availability of ammonia under acidic conditions is believed to be the main reason for decreasing of ammonia oxidation by AOB in acidic soils.",
+  "reading_complete" : "2020-08-08T14:26:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:24:58Z",
+  "trigger" : "decreasing",
+  "evidence" : [ "decreasing of ammonia oxidation by AOB" ],
+  "pmc_id" : "3375578",
+  "score" : 0
+}

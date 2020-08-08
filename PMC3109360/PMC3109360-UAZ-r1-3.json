@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "farnesylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441371",
+      "entity_text" : "Pels",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Therefore, we cannot determine whether the Pels are geranylgeranylated or farnesylated.",
+  "reading_complete" : "2020-08-08T14:24:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:23:33Z",
+  "trigger" : "farnesylated",
+  "evidence" : [ "Pels are geranylgeranylated or farnesylated" ],
+  "pmc_id" : "3109360",
+  "score" : 0
+}

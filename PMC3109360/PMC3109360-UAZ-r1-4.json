@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "farnesylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01116",
+      "entity_text" : "K-Ras",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Interestingly, mammalian K-Ras and N-Ras are preferentially farnesylated, however when PFTase is inhibited, these two proteins can still be geranylgeranylated by PGGT and be functional.",
+  "reading_complete" : "2020-08-08T14:24:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:23:33Z",
+  "trigger" : "farnesylated",
+  "evidence" : [ "K-Ras and N-Ras are preferentially farnesylated" ],
+  "pmc_id" : "3109360",
+  "score" : 0
+}

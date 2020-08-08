@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ11771",
+      "entity_text" : "ECL1-3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6353" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The 5-HT 2 Rs are Galpha q/11 -coupled receptors and are composed of seven transmembrane domains, a glycosylated extracellular N-terminal domain, three extracellular loops (ECL1-3), three intracellular loops (ICL1-3), and one intracellular C-terminal tail.",
+  "reading_complete" : "2020-08-08T14:28:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:26:09Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated extracellular N-terminal domain, three extracellular loops (ECL1-3" ],
+  "pmc_id" : "6544161",
+  "score" : 0
+}

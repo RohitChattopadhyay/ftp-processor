@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00785",
+      "entity_text" : "IgM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000234" ]
+    }
+  },
+  "verbose_text" : "Because human IgM bound to purified S. Typhi LPS (XREF_FIG), we investigated whether restoring the expression of very long O antigen chains in S. Typhi would result in IgM binding to the bacterial surface.",
+  "reading_complete" : "2020-08-08T14:26:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:23:49Z",
+  "trigger" : "bound",
+  "evidence" : [ "IgM bound to purified S. Typhi LPS" ],
+  "pmc_id" : "5826628",
+  "score" : 0
+}

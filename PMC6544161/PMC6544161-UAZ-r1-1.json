@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28223",
+      "entity_text" : "5-HT 2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04174",
+      "entity_text" : "beta-arrestin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "CellLine" : [ "cellosaurus:CVCL_6910" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000125" ]
+    }
+  },
+  "verbose_text" : "beta-arrestin binding to the 5-HT 2 Rs is crucial to initiate internalization because it acts as a scaffold for AP2 and clathrin.",
+  "reading_complete" : "2020-08-08T14:28:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:26:09Z",
+  "trigger" : "binding",
+  "evidence" : [ "beta-arrestin binding to the 5-HT 2" ],
+  "pmc_id" : "6544161",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00785",
+      "entity_text" : "IgM",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "Furthermore, short and long O antigen chains produced by an S. Paratyphi A fepE mutant did not bind IgM, but this was not sufficient for preventing ROS production, presumably because very long O antigen chains are the only surface structures long enough to cover up other IgM binding sites (XREF_FIG).",
+  "reading_complete" : "2020-08-08T14:26:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:23:49Z",
+  "trigger" : "bind",
+  "evidence" : [ "antigen chains produced by an S. Paratyphi A fepE mutant did not bind IgM" ],
+  "pmc_id" : "5826628",
+  "score" : 0
+}
