@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16797",
+      "entity_text" : "RDE-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "miRNAs are not generally methylated in C. elegans, but given our data suggesting that primary siRNAs, which bind RDE-1, are methylated, we tested whether a subset of miRNAs, particularly those bound by RDE-1, might also be methylated.",
+  "reading_complete" : "2020-08-08T17:39:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:35:26Z",
+  "trigger" : "methylated",
+  "evidence" : [ "RDE-1, might also be methylated" ],
+  "pmc_id" : "6922003",
+  "score" : 0
+}

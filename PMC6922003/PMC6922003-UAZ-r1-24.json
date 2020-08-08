@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16862",
+      "entity_text" : "mut-16 mutants",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16828",
+      "entity_text" : "F43E2.6 siRNAs",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Furthermore, the levels of F43E2.6 siRNAs were elevated in mut-16 mutants, indicating that they are not produced through the Mutator pathway, unlike WAGO-class 22G-RNAs (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T17:39:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:35:26Z",
+  "trigger" : "elevated",
+  "evidence" : [ "F43E2.6 siRNAs were elevated in mut-16 mutants" ],
+  "pmc_id" : "6922003",
+  "score" : 0
+}
