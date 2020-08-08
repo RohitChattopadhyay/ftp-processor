@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12956",
+      "entity_text" : "Ku70",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:781" ],
+      "Cellular_component" : [ "go:GO:0043657" ]
+    }
+  },
+  "verbose_text" : "The recruitment of c-Cbl, a ubiquitin ligase, to the entry site is also required for the ubiquitination of Ku70.",
+  "reading_complete" : "2020-08-08T13:22:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:21:07Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of Ku70" ],
+  "pmc_id" : "3382384",
+  "score" : 0
+}

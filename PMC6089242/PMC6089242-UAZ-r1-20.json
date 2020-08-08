@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P91685",
+      "entity_text" : "mGluR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92574",
+      "entity_text" : "Tsc1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, in the hippocampus, loss of Tsc1 impairs mGluR dependent long-term depression and inhibitory synapse function, leading to network hyperactivity.",
+  "reading_complete" : "2020-08-08T13:24:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:23:08Z",
+  "trigger" : "impairs",
+  "evidence" : [ "Tsc1 impairs mGluR" ],
+  "pmc_id" : "6089242",
+  "score" : 0
+}

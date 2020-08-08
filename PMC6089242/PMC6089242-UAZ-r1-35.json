@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92574",
+      "entity_text" : "Tsc1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0060077" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Loss of Tsc1 in the hypothalamus causes intrinsic hypoexcitability of Pomc- but not Agrp expressing neurons.",
+  "reading_complete" : "2020-08-08T13:24:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:23:08Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of Tsc1" ],
+  "pmc_id" : "6089242",
+  "score" : 0
+}

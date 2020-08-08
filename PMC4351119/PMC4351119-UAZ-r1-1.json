@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15061",
+      "entity_text" : "Syn-GFP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Cellular_component" : [ "go:GO:0097413" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Quantification of Syn-GFP levels within inclusions versus neighboring Syn-GFP-positive neurons without inclusions demonstrated a significant, large increase in Syn-GFP protein within mature Lewy inclusions (17 +/-11 fold increase, N = 25 cell pairs/3 animals; p < 0.0001, paired t-test; XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:23:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:22:00Z",
+  "trigger" : "levels",
+  "evidence" : [ "Syn-GFP levels" ],
+  "pmc_id" : "4351119",
+  "score" : 0
+}
