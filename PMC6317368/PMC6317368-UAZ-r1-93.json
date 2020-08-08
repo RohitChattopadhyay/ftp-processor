@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "interferon",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04192",
+      "entity_text" : "ISGF3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Binding of ISGF3 to interferon stimulated response elements (ISREs) leads to the activation of hundreds of IFN stimulated genes (ISGs), which act through diverse mechanisms to limit viral replication and create an antiviral state.",
+  "reading_complete" : "2020-08-08T11:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:16:57Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of ISGF3 to interferon" ],
+  "pmc_id" : "6317368",
+  "score" : 0
+}

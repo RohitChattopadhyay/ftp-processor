@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "PIC, we observed high levels of GFP in the spleen at day 1 post-exposure, which gradually fell back to baseline by day 5 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:16:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GFP" ],
+  "pmc_id" : "6317368",
+  "score" : 0
+}
