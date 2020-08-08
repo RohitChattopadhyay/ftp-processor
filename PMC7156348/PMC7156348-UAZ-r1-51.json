@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0060" ],
+      "CellLine" : [ "cellosaurus:CVCL_BT01" ],
+      "Cellular_component" : [ "go:GO:0043197" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000598" ]
+    }
+  },
+  "verbose_text" : "Indeed, DA homeostasis in the PFC shows particular features as this brain region contains drastically less high-affinity dopamine transporter (DAT) than the ST [XREF_BIBR], and several studies have shown that DA uptake through DAT plays a marginal role in clearing extracellular levels of DA in the PFC [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T20:02:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:49:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of DA" ],
+  "pmc_id" : "7156348",
+  "score" : 0
+}
