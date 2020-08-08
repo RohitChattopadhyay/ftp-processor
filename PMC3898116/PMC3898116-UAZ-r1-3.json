@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:124036" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "These proteins transport glucose at levels that are comparable with GLUT1 expressed in the same system and at rates that are approximately 200 times that of R09B5.11, the most comparable homologue amongst the other transporters examined, and the water-injection control.",
+  "reading_complete" : "2020-08-08T15:39:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:32:59Z",
+  "trigger" : "expressed",
+  "evidence" : [ "glucose at levels that are comparable with GLUT1 expressed" ],
+  "pmc_id" : "3898116",
+  "score" : 0
+}
