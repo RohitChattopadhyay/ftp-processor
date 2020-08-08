@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:247304",
+      "entity_text" : "ECs",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04128",
+      "entity_text" : "extracellular signal regulated kinase1/2",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In this regard, activation of the small GTPase Rac1 induces EC migration downstream of VEGFR2 signaling, while phosphorylation of extracellular signal regulated kinase1/2 (ERK1/2) mediates proliferation and survival of ECs, respectively.",
+  "reading_complete" : "2020-08-08T10:39:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:36:57Z",
+  "trigger" : "mediates",
+  "evidence" : [ "extracellular signal regulated kinase1/2 (ERK1/2) mediates proliferation and survival of ECs" ],
+  "pmc_id" : "6927555",
+  "score" : 0
+}

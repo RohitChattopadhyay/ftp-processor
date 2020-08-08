@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25800",
+      "entity_text" : "TTG1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D943" ],
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "The loss of TTG1 caused the GL3-YFP protein to be distributed abnormally in the nucleus resulting in ' speckles ' [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:33:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:24:29Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of TTG1" ],
+  "pmc_id" : "4036305",
+  "score" : 0
+}

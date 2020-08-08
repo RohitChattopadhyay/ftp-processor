@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR005001",
+      "entity_text" : "hfq",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A1CIK0",
+      "entity_text" : "acrB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "DeltaacrBDeltahfq double mutant was more sensitive to acriflavine (fourfold) than DeltaacrB mutant, indicating that the deletion of acrB did not impair the effect of hfq deletion on Salmonella susceptibility.",
+  "reading_complete" : "2020-08-08T11:27:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:26:39Z",
+  "trigger" : "impair",
+  "evidence" : [ "acrB did not impair the effect of hfq" ],
+  "pmc_id" : "3366549",
+  "score" : 0
+}

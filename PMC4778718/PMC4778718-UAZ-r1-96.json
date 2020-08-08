@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00613",
+      "entity_text" : "Hsf1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "entity_type" : "family"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01390",
+      "entity_text" : "hAha1",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Previous work showed that Hsf1 is an Hsp90 client, and their interaction suppresses Hsf1 activity.",
+  "reading_complete" : "2020-08-08T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:23:17Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "their interaction suppresses Hsf1" ],
+  "pmc_id" : "4778718",
+  "score" : 0
+}

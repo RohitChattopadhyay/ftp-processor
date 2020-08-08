@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S135",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:JNK",
+      "entity_text" : "JNK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To test whether JNK phosphorylation of the S135 site of Syt4 immobilizes vesicles, we first tried manipulating JNK pharmacologically with anisomycin (a JNK activator) and SP600125 (a JNK inhibitor) and examined mCherry-Syt4 trafficking.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "evidence" : [ "JNK phosphorylation of the S135 site of Syt4" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

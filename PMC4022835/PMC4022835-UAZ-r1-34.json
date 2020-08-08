@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S66",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55957",
+      "entity_text" : "Bid",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0504" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Our data presented here indicate that Bid S66 phosphorylation sensitizes cells to apoptosis, making them dependent upon antiapoptotic Bcl-2 proteins as they enter mitosis.",
+  "reading_complete" : "2020-08-08T12:04:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:03:00Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Bid S66 phosphorylation" ],
+  "pmc_id" : "4022835",
+  "score" : 0
+}

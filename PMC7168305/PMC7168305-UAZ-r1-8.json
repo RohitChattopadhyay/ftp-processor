@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01776",
+      "entity_text" : "HbA1c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In patients with long-term T2DM without DFS, the mean level of HbA1c was 9.0 +/- 1.5% and in patients with DFS it was 8.8 +/- 1.8%.",
+  "reading_complete" : "2020-08-08T11:12:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:12Z",
+  "trigger" : "level",
+  "evidence" : [ "level of HbA1c" ],
+  "pmc_id" : "7168305",
+  "score" : 0
+}

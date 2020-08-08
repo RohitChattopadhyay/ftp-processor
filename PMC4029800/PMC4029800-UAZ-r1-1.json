@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15516",
+      "entity_text" : "clock",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This inference derives from the fact that, because temporal bisection requires the comparison of two tones, alterations in clock speed would cause the relative perceptions of the duration of the two comparison tones to be rescaled according to each individual 's internal clock.",
+  "reading_complete" : "2020-08-08T10:47:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:46:31Z",
+  "trigger" : "cause",
+  "evidence" : [ "clock speed would cause the relative perceptions of the duration" ],
+  "pmc_id" : "4029800",
+  "score" : 0
+}

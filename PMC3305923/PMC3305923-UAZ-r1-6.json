@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:29936",
+      "entity_text" : "ferric iron",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0016566" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Since the oxidation of ferrous to (soluble) ferric iron is a proton consuming reaction, while the reverse reaction (as well as ferric iron hydrolysis) generates protons, the net effect of ongoing oxido-reduction of iron is to maintain the extremely low pH of the Tinto river throughout its length.",
+  "reading_complete" : "2020-08-08T10:33:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:27:54Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ferric iron hydrolysis" ],
+  "pmc_id" : "3305923",
+  "score" : 0
+}

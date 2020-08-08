@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TC44",
+      "entity_text" : "POC1B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_4388" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To validate the loss of interaction between FAM161A and variant POC1B in mammalian cells, we cotransfected hTERT-RPE1 cells with constructs encoding wild-type and variant mRFP-POC1B together with PalmMyr-CFP-FAM161A (XREF_FIG B-5D; Figures S7A-S7C).",
+  "reading_complete" : "2020-08-08T11:42:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:40:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of interaction between FAM161A and variant POC1B" ],
+  "pmc_id" : "4129401",
+  "score" : 0
+}

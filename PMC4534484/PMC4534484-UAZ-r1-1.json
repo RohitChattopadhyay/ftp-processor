@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04127",
+      "entity_text" : "Elg1-RLC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This difference could potentially reflect differential ability of modified PCNA to be unloaded by Elg1-RLC--for example, unloading of di- or poly-SUMOylated PCNA by Elg1-RLC might occur even without preceding Okazaki fragment ligation, if for example Elg1-RLC binds di- or poly-SUMOylated PCNA more strongly than do other PCNA interactors.",
+  "reading_complete" : "2020-08-08T12:27:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:03Z",
+  "evidence" : [ "poly-SUMOylated PCNA by Elg1-RLC" ],
+  "pmc_id" : "4534484",
+  "score" : 0
+}

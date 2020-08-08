@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:103820" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Lipid rafts are typically liquid ordered membrane structures that contain elevated levels of cholesterol and sphingolipids with saturated fatty acids.",
+  "reading_complete" : "2020-08-08T10:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:50:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cholesterol" ],
+  "pmc_id" : "3281212",
+  "score" : 0
+}

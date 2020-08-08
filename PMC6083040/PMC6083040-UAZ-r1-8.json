@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "More specifically, tyrosinated tubulin (a marker of newly assembled MTs) and acetylated tubulin (a marker of stable MTs) levels showed reductions of ~ 13% and 23%, respectively, in HAUS6 depleted neurons (XREF_FIG F-3H).",
+  "reading_complete" : "2020-08-08T12:38:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:37:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "tubulin (a marker of stable MTs) levels" ],
+  "pmc_id" : "6083040",
+  "score" : 0
+}

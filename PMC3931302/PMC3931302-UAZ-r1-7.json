@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31645",
+      "entity_text" : "HTT",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "The finding that the stress responsive SUMO-2 is likely most relevant to HD pathogenesis over basal SUMO-1 modification by regulating the accumulation of HMW and likely poly-SUMOylated protein is consistent with the prevailing literature that chronic expression of mutant HTT causes cellular stress, including oxidative stress.",
+  "reading_complete" : "2020-08-08T11:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:32Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of mutant HTT" ],
+  "pmc_id" : "3931302",
+  "score" : 0
+}

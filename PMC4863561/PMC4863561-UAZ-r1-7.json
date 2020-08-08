@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15091",
+      "entity_text" : "MRPP3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7L0Y3",
+      "entity_text" : "MRPP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2H39" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Organ" : [ "uberon:UBERON:0019284" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The m 1 R9 methyltransferase activity is carried out by a stable protein complex of MRPP1 and MRPP2, XREF_BIBR whereas the RNA processing requires MRPP3, XREF_BIBR which contains the active site of the nuclease activity of RNase P. XREF_BIBR, XREF_BIBR Therefore, one attractive hypothesis is to suggest that the p.Arg181Leu and p.Thr272Ala TRM10C variants disrupt the interaction between MRPP1 and MRPP3 without affecting the complex with MRPP2, although this requires future investigation.",
+  "reading_complete" : "2020-08-08T12:33:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:31:48Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between MRPP1 and MRPP3" ],
+  "pmc_id" : "4863561",
+  "score" : 0
+}

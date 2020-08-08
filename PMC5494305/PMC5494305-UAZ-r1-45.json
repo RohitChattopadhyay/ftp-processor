@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15796",
+      "entity_text" : "Smad2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2W2",
+      "entity_text" : "Mixl1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-0273" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "Comparison of our ChIP-seq data with microarray data on overexpression of the Nodal ligand ndr1 in zebrafish blastulae revealed highly significant association between upregulated genes and binding of Mixl1 with Smad2 and/or Eomesa (XREF_FIG F).",
+  "reading_complete" : "2020-08-08T11:28:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:26:48Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Mixl1 with Smad2" ],
+  "pmc_id" : "5494305",
+  "score" : 0
+}

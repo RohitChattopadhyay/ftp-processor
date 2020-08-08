@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:446925",
+      "entity_text" : "lycopene",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0169" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0000054" ],
+      "Species" : [ "taxonomy:3649" ],
+      "CellType" : [ "cl:CL:0011107" ]
+    }
+  },
+  "verbose_text" : "While some case-control studies show lycopene levels are lower in patients with AMD compared to controls,183 longitudinal studies have not yet confirmed the protective effect of both systemic or dietary lycopene intake for the development and progression of AMD.192, 194, 195, 201 Lutein and zeaxanthin are two carotenoids that are found in the macular pigment located in the ganglion cells, cone axons and Muller cells of the macula.",
+  "reading_complete" : "2020-08-08T11:51:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:29Z",
+  "trigger" : "levels",
+  "evidence" : [ "lycopene levels" ],
+  "pmc_id" : "7155063",
+  "score" : 0
+}

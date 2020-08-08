@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42771",
+      "entity_text" : "p16 INK4A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellLine" : [ "cellosaurus:CVCL_0347" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As per our previous data, treatment with GW4869 and SpE prevented paracrine senescence, which was observed by an increase in cells incorporating BrdU in the LC and expressing lower levels of p16 INK4A (XREF_FIG E and 3F).",
+  "reading_complete" : "2020-08-08T10:40:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:36:31Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of p16 INK4A" ],
+  "pmc_id" : "6613042",
+  "score" : 0
+}

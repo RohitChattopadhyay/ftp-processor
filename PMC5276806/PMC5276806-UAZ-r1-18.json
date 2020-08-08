@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Cellular_component" : [ "go:GO:0005739" ]
+    }
+  },
+  "verbose_text" : "We find that the primary function of nuclear ACSS2 is to retain endogenous acetate released by deacetylases to maintain histone acetylation and propose that this is especially relevant in hypoxic and nutrient limited areas of the tumor.",
+  "reading_complete" : "2020-08-08T12:26:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:23:01Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "histone acetylation" ],
+  "pmc_id" : "5276806",
+  "score" : 0
+}

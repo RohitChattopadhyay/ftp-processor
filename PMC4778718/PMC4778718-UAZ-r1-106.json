@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P00519",
+      "entity_text" : "Abl",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01407",
+      "entity_text" : "hHsp90alpha",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01415",
+      "entity_text" : "hAha1-c",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "This promoted a hAha1-c - Abl - hHsp90alpha complex formation, but did not increase the tyrosine phosphorylation of hAha1 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:23:17Z",
+  "trigger" : "complex",
+  "evidence" : [ "hAha1-c-Abl-hHsp90alpha complex" ],
+  "pmc_id" : "4778718",
+  "score" : 0
+}

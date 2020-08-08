@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "Stat1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13191",
+      "entity_text" : "Cbl-b",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "We found that Cbl-b did not bind to Stat1 upon IFN-gamma stimulation, to Stat4 upon IL-12 stimulation, or to Stat3 upon IL-6 stimulation (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "bind",
+  "evidence" : [ "Cbl-b did not bind to Stat1" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "97Q",
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02902",
+      "entity_text" : "mHTTex1p",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000307",
+      "entity_text" : "S16",
+      "features" : [ {
+        "position" : "S13",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We previously reported that mimicking phosphorylation of S13 and S16 reduces monoSUMOylation and increases polySUMOylation of mHTTex1p with a highly expanded 97Q repeat.",
+  "reading_complete" : "2020-08-08T11:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:32Z",
+  "trigger" : "increases",
+  "evidence" : [ "S16 reduces monoSUMOylation and increases polySUMOylation of mHTTex1p with a highly expanded 97Q" ],
+  "pmc_id" : "3931302",
+  "score" : 0
+}

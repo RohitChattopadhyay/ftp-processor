@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95409",
+      "entity_text" : "ZIC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "ZIC2 was previously shown to act in concert with the Mbd3 / NuRD complex in ESCs to cause transcriptional repression and loss of ZIC2 affected subsequent ESC differentiation.",
+  "reading_complete" : "2020-08-08T12:01:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:58:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ZIC2" ],
+  "pmc_id" : "6581693",
+  "score" : 0
+}

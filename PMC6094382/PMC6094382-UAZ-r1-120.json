@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00327",
+      "entity_text" : "Bmal1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0190" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The loss of Bmal1 increased LPS- or HMGB1 induced Pd-l1 mRNA (XREF_FIG) and protein (XREF_FIG) expression in BMDMs.",
+  "reading_complete" : "2020-08-08T12:27:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:24:34Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Bmal1" ],
+  "pmc_id" : "6094382",
+  "score" : 0
+}

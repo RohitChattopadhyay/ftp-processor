@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00302",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0772" ],
+      "Cellular_component" : [ "go:GO:0043209" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "Species" : [ "taxonomy:10376" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "In this study, we found that IgG levels were significantly higher in the peripheral blood of patients with GBS than in that of the control group, whereas levels of IgA and IgM were not elevated.",
+  "reading_complete" : "2020-08-08T10:33:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:33:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "IgG levels" ],
+  "pmc_id" : "7133091",
+  "score" : 0
+}

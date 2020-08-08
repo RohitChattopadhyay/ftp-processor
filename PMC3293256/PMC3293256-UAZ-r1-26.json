@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01574",
+      "entity_text" : "IFN-beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92793",
+      "entity_text" : "CREB-binding protein",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The LANA protein, expressed during viral latency, competes with IRF3 for binding to the IFN-beta promoter, thus preventing the expression of the CREB binding protein as well as inhibiting IFN-beta transcription.",
+  "reading_complete" : "2020-08-08T11:52:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:14Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "CREB-binding protein as well as inhibiting IFN-beta" ],
+  "pmc_id" : "3293256",
+  "score" : 0
+}

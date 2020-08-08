@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:171548",
+      "entity_text" : "biotin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01382",
+      "entity_text" : "avidin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:210" ],
+      "TissueType" : [ "tissuelist:TS-0214" ],
+      "Organ" : [ "uberon:UBERON:2001995" ]
+    }
+  },
+  "verbose_text" : "The sections were stained with hematoxylin-eosin and immunostained using the avidin - biotin complex (ABC) with the VECTASTAIN ABC kit (Vector Laboratories, Burlingame, CA, USA).",
+  "reading_complete" : "2020-08-08T11:14:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:13:14Z",
+  "trigger" : "complex",
+  "evidence" : [ "avidin-biotin complex" ],
+  "pmc_id" : "4083604",
+  "score" : 0
+}

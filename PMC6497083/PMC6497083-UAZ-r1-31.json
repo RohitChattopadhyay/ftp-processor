@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:2794",
+      "entity_text" : "clofazimine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Temozolomide alone (50 muM) did not increase ROS compared to DMSO vehicle treatment, but a combination of temozolomide with clofazimine increased ROS above the level observed for clofazimine alone (XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:22:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:35Z",
+  "trigger" : "increased",
+  "evidence" : [ "clofazimine increased ROS" ],
+  "pmc_id" : "6497083",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46937",
+      "entity_text" : "YAP1",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 127,
+        "feature_type" : "mutation",
+        "evidence" : "S127A"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "TissueType" : [ "tissuelist:TS-0642" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In the study by Watt et al. [XREF_BIBR], the overexpression of YAP1 S127A mutant was achieved via its exogenous introduction, while in our experimental set-up only endogenous transient phosphorylated vs unphosphorylated YAP changes were evaluated.",
+  "reading_complete" : "2020-08-08T11:13:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:51Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of YAP1" ],
+  "pmc_id" : "6203358",
+  "score" : 0
+}

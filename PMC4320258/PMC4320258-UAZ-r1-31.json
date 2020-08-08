@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6K9",
+      "entity_text" : "NEMO",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has been suggested that LUBAC is directly involved in activation of the IKK complex through linear ubiquitination of NEMO, leading to downregulation of IkappaBalpha and release of NF-kappaB during the initial activation phase of the NF-kappaB response.",
+  "reading_complete" : "2020-08-08T12:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:59:36Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination of NEMO" ],
+  "pmc_id" : "4320258",
+  "score" : 0
+}

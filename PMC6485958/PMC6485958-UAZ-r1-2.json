@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residues",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaBalpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:IKK_family",
+      "entity_text" : "IKK",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Upon stimulation, the IkappaB kinase (IKK) complex phosphorylates the amino-terminal serine residues (S32 and S36) of IkappaBalpha, triggering its ubiquitination and degradation by the Skp-Cullin-F-box (SCF) Ub ligase complex and the 26S-proteasome pathway, respectively.",
+  "reading_complete" : "2020-08-08T11:54:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:55Z",
+  "evidence" : [ "IKK) complex phosphorylates the amino-terminal serine residues (S32 and S36) of IkappaBalpha" ],
+  "pmc_id" : "6485958",
+  "score" : 0
+}

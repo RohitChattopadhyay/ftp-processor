@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "This is further supported by the fact that comparable amounts of IFN-gamma were detected in the BAL fluid of OVA / alum immunized WT and Cblb -/- mice or BALB/c nude mice that received naive CD4 + T cells from WT and Cblb -/- mice (XREF_FIG), because the lower threshold should also lead to enhanced IFN-gamma in the BAL fluid.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of IFN-gamma" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:785",
+      "entity_text" : "quinol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16941",
+      "entity_text" : "CymA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0200" ],
+      "Species" : [ "taxonomy:70863" ]
+    }
+  },
+  "verbose_text" : "Another major knowledge gap is that the molecular details regarding how CymA interacts with and oxidizes the quinol in the inner-membrane are currently unclear.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "interacts",
+  "evidence" : [ "CymA interacts with and oxidizes the quinol" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

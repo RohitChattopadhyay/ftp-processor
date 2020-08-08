@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P81172",
+      "entity_text" : "hepcidin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Chronic blood loss from tumor mass is the important reason for cancer related anemia, because cancer patients with anemia always show significantly higher ferritin and hepcidin levels than general peoples, which suggests iron deficiency in these patients [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T11:29:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:27:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "hepcidin levels" ],
+  "pmc_id" : "5964567",
+  "score" : 0
+}

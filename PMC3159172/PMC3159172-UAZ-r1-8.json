@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007155",
+      "entity_text" : "adhesion",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04907",
+      "entity_text" : "Recombinant BoaA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Recombinant BoaA expressed in E. coli enhanced the adhesion of E. coli to A549 and Hep2 cells, while inactivation of the boaA gene reduced, but did not abolish, adhesion of B. pseudomallei to both cell lines.",
+  "reading_complete" : "2020-08-08T11:06:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:02:07Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "Recombinant BoaA expressed in E. coli enhanced the adhesion of E. coli to A549 and Hep2 cells, while inactivation of the boaA gene reduced, but did not abolish, adhesion" ],
+  "pmc_id" : "3159172",
+  "score" : 0
+}

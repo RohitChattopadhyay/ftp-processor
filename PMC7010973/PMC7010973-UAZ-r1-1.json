@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NVI7",
+      "entity_text" : "ATAD3A",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "mitochondrial membrane",
+    "hypothesis_information" : true,
+    "to_location_id" : "go:GO:0031966",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_F729" ],
+      "Cellular_component" : [ "go:GO:0031966" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The tool was able to correctly predict that ATAD3A is transported into the mitochondrial membrane.",
+  "reading_complete" : "2020-08-08T12:19:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:17:54Z",
+  "trigger" : "transported",
+  "evidence" : [ "ATAD3A is transported into the mitochondrial membrane" ],
+  "pmc_id" : "7010973",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:STAT5",
+      "entity_text" : "Stat5",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Stat5 phosphorylation was not increased in Cblb -/- CD4 + T cells in response to IL-2 (XREF_SUPPLEMENTARY), suggesting that Cbl-b regulates Th2 and Th9 cell responses independently of Stat5.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Stat5 phosphorylation" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

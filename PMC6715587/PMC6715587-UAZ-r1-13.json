@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43683",
+      "entity_text" : "BUB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06493",
+      "entity_text" : "CDK1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In fact, both are also recruited to the KMN network in a phosphorylation dependent manner : Cyclin B/CDK1 interacts with Mad1, a phospho dependent interactor of BUB1, and CDK1 can phosphorylate BUB1 to recruit PLK1.",
+  "reading_complete" : "2020-08-08T10:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:05Z",
+  "evidence" : [ "CDK1 can phosphorylate BUB1" ],
+  "pmc_id" : "6715587",
+  "score" : 0
+}

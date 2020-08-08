@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03428",
+      "entity_text" : "ConSOSL.UFO.750",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03426",
+      "entity_text" : "PGT151",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "CellType" : [ "cl:CL:0000187" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "The observed reduction in binding of PGT151 to ConSOSL.UFO.750 relative to ConSOSLIP.750 indicates that the gp41 (GS) 4 linker interferes with the PGT151 epitope, likely modifying the contact region reached by the HCDR3 and formed between the HR1 regions of two gp41 protomers and the fusion peptide.",
+  "reading_complete" : "2020-08-08T11:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:52:37Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of PGT151 to ConSOSL.UFO.750" ],
+  "pmc_id" : "6167709",
+  "score" : 0
+}

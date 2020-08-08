@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The lowest p-value by integrative tissue based analysis was for MROH2A-total bilirubin levels 20 (UTMOST, q-value = 6.0e-27), which had a moderate p-value from single tissue based analysis (q-value = 0.005).",
+  "reading_complete" : "2020-08-08T10:54:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:53:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "6417797",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "Stat6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10747",
+      "entity_text" : "CD28",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although it is unknown why TCR / CD28 stimulation does not induce Stat6 ubiquitination but induces a strong interaction between Cbl-b and Stat6, it is possible that the orientation of this interaction is unable to promote the transfer of ubiquitin, whereas the binding of the Cbl-b TKB domain to phosphotyrosine residues of Stat6 upon IL-4 stimulation provides a correctly aligned interaction that can allow Stat6 ubiquitination.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "induce",
+  "evidence" : [ "CD28 stimulation does not induce Stat6 ubiquitination" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

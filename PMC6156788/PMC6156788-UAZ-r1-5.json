@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:152307",
+      "entity_text" : "PV",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75888",
+      "entity_text" : "APRIL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Given our data showing that anti-DSG IgA B cells either develop independently of or switch directly from anti-DSG IgG B cells, and literature showing that TGF-beta, BAFF, and APRIL are not elevated in PV, anti-DSG IgA1 and IgA2 are likely an epiphenomenon in PV, formed in mucosal lymphoid tissues or epithelia by IgA class-switch mediators.",
+  "reading_complete" : "2020-08-08T10:30:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:27:33Z",
+  "trigger" : "elevated",
+  "evidence" : [ "APRIL are not elevated in PV" ],
+  "pmc_id" : "6156788",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60709",
+      "entity_text" : "beta-actin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR Interestingly, in contrast to the cytoplasmic fraction, the nuclear protein fraction showed a reduced amount of beta-actin in cells derived from affected individuals (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T11:52:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:50:30Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of beta-actin" ],
+  "pmc_id" : "5812896",
+  "score" : 0
+}

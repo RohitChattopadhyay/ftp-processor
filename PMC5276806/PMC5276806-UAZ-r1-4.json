@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:176",
+      "entity_text" : "acetate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We did this by hydrolyzing acetate from purified histones rather than measuring individual acetylated peptides (Experimental Procedures).",
+  "reading_complete" : "2020-08-08T12:26:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:23:01Z",
+  "trigger" : "hydrolyzing",
+  "evidence" : [ "hydrolyzing acetate" ],
+  "pmc_id" : "5276806",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "These mice are characterized by a low-grade inflammatory tone with higher plasma LPS levels and significantly higher plasma levels of IL-1beta, IL-6, TNF-alpha, and INF-gamma.",
+  "reading_complete" : "2020-08-08T10:27:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:25:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-1beta" ],
+  "pmc_id" : "3139240",
+  "score" : 0
+}

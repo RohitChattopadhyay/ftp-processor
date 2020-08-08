@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0027" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0800" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG, in HFD treated rats, arnebin-1 treatment increased IRS-1 phosphorylation at Tyr608, Akt phosphorylation at Ser473 and mTOR phosphorylation at Ser2448 and inhibited IRS-1 phosphorylation at Ser307 in the presence of an insulin injection.",
+  "reading_complete" : "2020-08-08T10:26:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:24:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Akt phosphorylation at Ser473" ],
+  "pmc_id" : "6421396",
+  "score" : 0
+}

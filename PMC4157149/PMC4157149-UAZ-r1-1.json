@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "estradiol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, a variant at the CYP3A locus might directly affect levels of the hormone estradiol, which influences age at menarche, which then directly affects breast cancer risk (XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:27:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:26:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of the hormone estradiol" ],
+  "pmc_id" : "4157149",
+  "score" : 0
+}

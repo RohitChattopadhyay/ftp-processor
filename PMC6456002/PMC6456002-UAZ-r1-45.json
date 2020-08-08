@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "CellType" : [ "cl:CL:0000169" ]
+    }
+  },
+  "verbose_text" : "Other than in HeLa cells (XREF_FIG), glucose removal from INS-1 (XREF_FIG) or MIN-6 cells (XREF_FIG) had minimal effects on mitochondrial ATP levels.",
+  "reading_complete" : "2020-08-08T10:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:42Z",
+  "trigger" : "levels",
+  "evidence" : [ "ATP levels" ],
+  "pmc_id" : "6456002",
+  "score" : 0
+}

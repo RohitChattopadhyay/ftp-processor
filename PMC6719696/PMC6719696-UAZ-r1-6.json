@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16410",
+      "entity_text" : "CTLA-4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10127622",
+      "entity_text" : "selumetinib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, continuous selumetinib treatment reduced CTLA-4, but not PD-1, levels on Tregs (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:51:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:49:20Z",
+  "trigger" : "reduced",
+  "evidence" : [ "selumetinib treatment reduced CTLA-4" ],
+  "pmc_id" : "6719696",
+  "score" : 0
+}

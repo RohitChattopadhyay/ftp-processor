@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02127",
+      "entity_text" : "LOX-PP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96B97",
+      "entity_text" : "CIN85",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This led us to hypothesize that the interaction of CIN85 and LOX-PP could be mediated via the same SH3 domain (s) as with c-Cbl, in which case LOX-PP might be more effectively binding and therefore competing for CIN85 binding.",
+  "reading_complete" : "2020-08-08T12:20:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:18:10Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of CIN85 and LOX-PP" ],
+  "pmc_id" : "3805583",
+  "score" : 0
+}

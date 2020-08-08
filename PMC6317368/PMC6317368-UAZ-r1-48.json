@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6Y0",
+      "entity_text" : "NS1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:11309" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "We saw high levels of NS1 in MEFs but only low levels in macrophages (XREF_FIG), which may suggest that NS1 expression effectively limits IFN induction in virus infected MEFs, but expression is not sufficient in macrophages to limit IFN production.",
+  "reading_complete" : "2020-08-08T11:19:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:16:57Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NS1" ],
+  "pmc_id" : "6317368",
+  "score" : 0
+}

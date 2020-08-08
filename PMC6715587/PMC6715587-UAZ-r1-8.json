@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NG31",
+      "entity_text" : "KNL1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Negative feedback occurs at multiple levels because PP2A dephosphorylates both BUBR1 and KNL1 to effectively remove and inhibit its own recruiting SLiM (this occurs directly and indirectly via PP1; XREF_FIG D).",
+  "reading_complete" : "2020-08-08T10:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:52:05Z",
+  "evidence" : [ "PP2A dephosphorylates both BUBR1 and KNL1" ],
+  "pmc_id" : "6715587",
+  "score" : 0
+}

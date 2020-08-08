@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9T041",
+      "entity_text" : "TOR1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12809",
+      "entity_text" : "ERG1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:5476" ]
+    }
+  },
+  "verbose_text" : "For example, terbinafine and rapamycin exhibit drug synergy due to a synergistic genetic interaction between their target genes, ERG1 and TOR1 respectively.",
+  "reading_complete" : "2020-08-08T12:17:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:16:08Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between their target genes, ERG1 and TOR1" ],
+  "pmc_id" : "3313066",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Alternatively, ischaemia will reduce intracellular levels of ATP, compromising the functioning of the GRP chaperone proteins, and possibly also the Ca 2+ -ATPase ionic pumps within the ER membrane.",
+  "reading_complete" : "2020-08-08T12:18:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:16:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ATP" ],
+  "pmc_id" : "3252240",
+  "score" : 0
+}

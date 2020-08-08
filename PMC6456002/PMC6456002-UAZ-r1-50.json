@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "All cancer cells had similar basal cytosolic glucose levels, which immediately decreased after glucose removal, pointing to high cellular glucose uptake and consumption (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:42Z",
+  "trigger" : "decreased",
+  "evidence" : [ "glucose levels, which immediately decreased after glucose removal, pointing to high cellular glucose" ],
+  "pmc_id" : "6456002",
+  "score" : 0
+}

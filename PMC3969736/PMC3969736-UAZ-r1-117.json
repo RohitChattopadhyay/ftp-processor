@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42226",
+      "entity_text" : "Stat6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13191",
+      "entity_text" : "Cbl-b",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:111938" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0002061" ]
+    }
+  },
+  "verbose_text" : "Mechanistically, Cbl-b selectively associates with Stat6 upon IL-4 ligation and targets Stat6 for ubiquitination and degradation.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "associates",
+  "evidence" : [ "Cbl-b selectively associates with Stat6" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

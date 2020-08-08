@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P13232",
+      "entity_text" : "IL-7",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The liver can produce IL-7 in response to TLR signaling, thereby enhancing T cell survival and function; it is plausible that this could be partially mediated by the capacity of IL-7 to drive glycolysis through the induction of Glut1.",
+  "reading_complete" : "2020-08-08T12:14:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:13:01Z",
+  "trigger" : "drive",
+  "evidence" : [ "IL-7 to drive glycolysis" ],
+  "pmc_id" : "4977274",
+  "score" : 0
+}

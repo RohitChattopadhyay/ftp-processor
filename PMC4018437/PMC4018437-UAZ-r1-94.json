@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P80188",
+      "entity_text" : "Lcn2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Therefore, it is reasonable to speculate that insulin and glucose induce Lcn2 expression through promoting glucose catabolism (oxidation) and ROS production thereby NFkappaB activation.",
+  "reading_complete" : "2020-08-08T11:48:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:47:34Z",
+  "trigger" : "promoting",
+  "evidence" : [ "Lcn2 expression through promoting glucose catabolism (oxidation) and ROS" ],
+  "pmc_id" : "4018437",
+  "score" : 0
+}

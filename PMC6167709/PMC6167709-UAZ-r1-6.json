@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35338",
+      "entity_text" : "PG9",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03432",
+      "entity_text" : "PGT145",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000187" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Binding of PGT145 and PG9 proved to be higher in muscle cell CE for ConSLIP and ConSLwIP, but lower for ConSL compared to FC (XREF_FIG B and XREF_FIG G).",
+  "reading_complete" : "2020-08-08T11:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:52:37Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of PGT145 and PG9" ],
+  "pmc_id" : "6167709",
+  "score" : 0
+}

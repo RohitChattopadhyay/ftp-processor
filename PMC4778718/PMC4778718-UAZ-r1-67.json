@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23624255",
+      "entity_text" : "ganetespib",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Expression of the non phospho Y223F mutant did not impact the Hsp90 binding to ganetespib, however, expression of hAha1-Y223E markedly reduced the Hsp90 affinity to ganetespib in c-Abl-/- MEF cells (XREF_FIG).",
+  "reading_complete" : "2020-08-08T10:25:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:23:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "Hsp90 binding to ganetespib" ],
+  "pmc_id" : "4778718",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:64279" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Syt4 is upregulated by neuronal activity, but JNK dependent capture of WT Syt4 vesicles occurs within minutes of increased activity, before Syt4 protein levels begin to increase.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "levels",
+  "evidence" : [ "Syt4 protein levels" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

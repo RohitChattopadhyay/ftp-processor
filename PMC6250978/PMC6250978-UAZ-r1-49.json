@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:985",
+      "entity_text" : "C16",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01413",
+      "entity_text" : "C4",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Immunoblotting for C16 showed that C16 did not associate with C4 (XREF_FIG D), indicating that C4 and C16 do not interact and that a Ku heterodimer does not bind C4 and C16 simultaneously to form a C4 : Ku : C16 complex.",
+  "reading_complete" : "2020-08-08T11:28:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:24:11Z",
+  "trigger" : "interact",
+  "evidence" : [ "C4 and C16 do not interact and that a Ku heterodimer does not bind C4 and C16" ],
+  "pmc_id" : "6250978",
+  "score" : 0
+}

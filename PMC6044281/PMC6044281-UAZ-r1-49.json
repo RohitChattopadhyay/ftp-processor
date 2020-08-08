@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03289",
+      "entity_text" : "mHOIP fragment",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03340",
+      "entity_text" : "mSHARPIN fragment containing UBL",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "UBA domains" ],
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The mSHARPIN fragment containing UBL (aa 163-301; mSHARPIN 163-301) bound a mHOIP fragment containing the UBA domains (aa 466-630; mHOIP 466-630) with a calculated dissociation constant (K D) of 16.0 +/- 2.3 muMu (XREF_SUPPLEMENTARY; XREF_SUPPLEMENTARY), a ~ 10-fold weaker affinity than the interaction between mHOIP 466-630, and mHOIL-1L containing UBL (aa 1-140; mHOIL-1L 1-140) (K D = 1.34 +/- 0.87 muMu) (XREF_SUPPLEMENTARY; XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T11:50:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:48:10Z",
+  "trigger" : "bound",
+  "evidence" : [ "mSHARPIN fragment containing UBL (aa 163-301; mSHARPIN 163-301 ) bound a mHOIP fragment containing the UBA domains" ],
+  "pmc_id" : "6044281",
+  "score" : 0
+}

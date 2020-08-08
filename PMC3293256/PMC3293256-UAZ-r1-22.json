@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92985",
+      "entity_text" : "IRF7",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14653",
+      "entity_text" : "IRF3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0585" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Viral IRF3 interaction with cellular IRF7 suppresses IRF7 DNA binding activity and, therefore, inhibits IFN mediated immunity through the inhibition of IFN-alpha production.",
+  "reading_complete" : "2020-08-08T11:52:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:14Z",
+  "trigger" : "interaction",
+  "evidence" : [ "IRF3 interaction with cellular IRF7" ],
+  "pmc_id" : "3293256",
+  "score" : 0
+}

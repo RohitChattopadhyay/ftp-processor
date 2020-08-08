@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04819",
+      "entity_text" : "Cdc9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "We considered other possible explanations : (1) that Cdc9 bound PCNA is the target for unloading, or (2) that Cdc9 protein itself stimulates PCNA unloading, but not via its ligase activity.",
+  "reading_complete" : "2020-08-08T12:27:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:03Z",
+  "trigger" : "bound",
+  "evidence" : [ "Cdc9-bound PCNA" ],
+  "pmc_id" : "4534484",
+  "score" : 0
+}

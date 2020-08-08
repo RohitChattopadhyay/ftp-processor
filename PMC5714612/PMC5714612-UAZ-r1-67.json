@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12756",
+      "entity_text" : "Kif1A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0012506" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "We first examined an interaction between Syt4 and Kif1A in co-immunoprecipitation (coIP) experiments in HEK293 cells co-transfected with Kif1A-GFP and mCherry tagged WT, S135A, or S135E Syt4.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between Syt4 and Kif1A" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

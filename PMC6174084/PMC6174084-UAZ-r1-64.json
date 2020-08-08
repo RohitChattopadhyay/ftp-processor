@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05140",
+      "entity_text" : "flippases",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0315" ],
+      "Cellular_component" : [ "go:GO:0044297" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "The GFP-Lact labeling was weak and smooth on dendrites without obvious sign of degeneration (XREF_FIG, inset 1), whereas laser injured dendrites of the same neurons exhibited much stronger GFP-Lact labeling (XREF_FIG, inset 2), suggesting that loss of flippases causes low PS exposure preferentially at the distal dendritic arbor, and mechanisms other than P4-ATPase inactivation must exist to boost PS exposure AI.",
+  "reading_complete" : "2020-08-08T11:16:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:14:28Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of flippases" ],
+  "pmc_id" : "6174084",
+  "score" : 0
+}

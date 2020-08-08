@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:176",
+      "entity_text" : "acetate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Just like hexokinase phosphorylates glucose to effectively trap it inside the cell to commit it to downstream metabolism, acetate is captured by ACSS2 and \" primed \" for metabolic use.",
+  "reading_complete" : "2020-08-08T12:26:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:23:01Z",
+  "evidence" : [ "phosphorylates glucose to effectively trap it inside the cell to commit it to downstream metabolism, acetate" ],
+  "pmc_id" : "5276806",
+  "score" : 0
+}

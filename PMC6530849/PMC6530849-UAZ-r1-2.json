@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55036",
+      "entity_text" : "AF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, only the interaction between skin AF and age attained significance (p = 0.04).",
+  "reading_complete" : "2020-08-08T11:25:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:22:23Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between skin AF and age" ],
+  "pmc_id" : "6530849",
+  "score" : 0
+}

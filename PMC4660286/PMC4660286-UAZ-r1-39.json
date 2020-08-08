@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55853",
+      "entity_text" : "SUMO",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005730" ]
+    }
+  },
+  "verbose_text" : "Triple SILAC maps (tsMAPs) of the putative host SUMO substrates illustrated that, surprisingly, the bulk of substrates exhibited reduced SUMO modification (357 for SUMO1 and 245 for SUMO2) or unchanged SUMOylation following IAV infection (XREF_FIG B; XREF_SUPPLEMENTARY and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T11:48:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:09Z",
+  "trigger" : "SUMOylation",
+  "evidence" : [ "SUMO modification (357 for SUMO1 and 245 for SUMO2) or unchanged SUMOylation" ],
+  "pmc_id" : "4660286",
+  "score" : 0
+}

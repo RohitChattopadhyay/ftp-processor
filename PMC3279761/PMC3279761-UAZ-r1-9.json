@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:27284",
+      "entity_text" : "hematite",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9PJU9",
+      "entity_text" : "OmcA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C716" ],
+      "Species" : [ "taxonomy:70863" ]
+    }
+  },
+  "verbose_text" : "Analyses with co-sedimentation and fluorescence correlation spectroscopy show that OmcA binds hematite (alpha-Fe 2 O 3) directly with a partition coefficient of ~ 2 x 10 5 (Delta G 0 ' = -28; kJ/mol), which corresponds to 10 14 OmcA molecules per cm 2 of hematite.",
+  "reading_complete" : "2020-08-08T12:04:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:00:44Z",
+  "trigger" : "binds",
+  "evidence" : [ "OmcA binds hematite" ],
+  "pmc_id" : "3279761",
+  "score" : 0
+}

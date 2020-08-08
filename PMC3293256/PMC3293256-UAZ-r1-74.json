@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Second, a conformational change activates p53 as a transcriptional regulator in these cells, stimulating the phosphorylation and acetylation of p53 to increase the levels of activated p53.",
+  "reading_complete" : "2020-08-08T11:52:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:14Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of p53" ],
+  "pmc_id" : "3293256",
+  "score" : 0
+}

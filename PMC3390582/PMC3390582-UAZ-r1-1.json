@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "Cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5234",
+      "entity_text" : "NaCl",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cell growth is suppressed by elevated concentrations of NaCl, and the degree of salt resistance depends on ion content of the medium.",
+  "reading_complete" : "2020-08-08T12:07:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:04:38Z",
+  "trigger" : "suppressed",
+  "evidence" : [ "Cell growth is suppressed by elevated concentrations of NaCl" ],
+  "pmc_id" : "3390582",
+  "score" : 0
+}

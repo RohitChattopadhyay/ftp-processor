@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q91854",
+      "entity_text" : "beta-TrCP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9C026",
+      "entity_text" : "TRIM9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "These results indicate that TRIM9 's interaction with beta-TrCP is critical for fine tuning NF-kappaB signaling and inflamma-tory responses in neurons.",
+  "reading_complete" : "2020-08-08T11:54:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:55Z",
+  "trigger" : "interaction",
+  "evidence" : [ "TRIM9's interaction with beta-TrCP" ],
+  "pmc_id" : "6485958",
+  "score" : 0
+}

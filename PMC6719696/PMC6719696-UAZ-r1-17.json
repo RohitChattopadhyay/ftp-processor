@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The expression levels of both PD-1 and CTLA-4 are high in Treg cells.",
+  "reading_complete" : "2020-08-08T10:51:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:49:20Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of both\nPD-1" ],
+  "pmc_id" : "6719696",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S135",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_S979" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "In addition, using an in silico approach (with c-Jun, a known substrate of JNK1, as a positive control), we found that JNK1 is predicted to phosphorylate Syt4 at S135 (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate Syt4 at S135" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

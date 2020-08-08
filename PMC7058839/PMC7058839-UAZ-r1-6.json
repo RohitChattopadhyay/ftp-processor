@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01127",
+      "entity_text" : "PDGF-B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0002049" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR A study on mice carrying hypomorphic Pdgfb alleles interestingly showed that the calcifications depend on the loss of endothelial PDGF-B and correlate with the degree of pericyte and BBB deficiency.",
+  "reading_complete" : "2020-08-08T11:59:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:57:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of endothelial PDGF-B" ],
+  "pmc_id" : "7058839",
+  "score" : 0
+}

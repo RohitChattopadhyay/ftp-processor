@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63244",
+      "entity_text" : "RACK1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Our results showed that the downregulation of RACK1 expression inhibited the proliferation, migration, and invasion of HCT116 cells, further confirming that RACK1 may act as a tumor promoter in CRC.",
+  "reading_complete" : "2020-08-08T11:04:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:02:37Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "RACK1 expression inhibited the proliferation" ],
+  "pmc_id" : "6431438",
+  "score" : 0
+}

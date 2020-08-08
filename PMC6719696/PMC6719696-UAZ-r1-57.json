@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030154",
+      "entity_text" : "differentiation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04496",
+      "entity_text" : "MEKi",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that MEKi treatment reduced differentiation of Pmel-1 CD8+ T cells by decreasing T-bet expression in a dose dependent manner (XREF_SUPPLEMENTARY), as was previously reported.",
+  "reading_complete" : "2020-08-08T10:51:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:49:20Z",
+  "trigger" : "reduced",
+  "evidence" : [ "MEKi\ntreatment reduced differentiation" ],
+  "pmc_id" : "6719696",
+  "score" : 0
+}

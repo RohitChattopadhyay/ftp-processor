@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78536",
+      "entity_text" : "TACE",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The cytoplasmic tail of TACE is phosphorylated in response to shedding stimulants, but there is no consensus concerning the impact of these phosphorylation events.",
+  "reading_complete" : "2020-08-08T11:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:15Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "TACE is phosphorylated" ],
+  "pmc_id" : "5656746",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:68247",
+      "entity_text" : "cyanidin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9FE46",
+      "entity_text" : "TT19",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0905" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Species" : [ "taxonomy:381124" ]
+    }
+  },
+  "verbose_text" : "A recent study demonstrated that TT19 can bind to not only cyanidin but also to cyanidin 3-O-glucoside, although the affinity to the latter is lower than to the former [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:33:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:24:29Z",
+  "trigger" : "bind",
+  "evidence" : [ "TT19 can bind to not only cyanidin" ],
+  "pmc_id" : "4036305",
+  "score" : 0
+}

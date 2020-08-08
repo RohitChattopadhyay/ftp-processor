@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006099",
+      "entity_text" : "Krebs cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75369",
+      "entity_text" : "Fh1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As mitochondrial metabolism plays a key role in GSIS and Fh1 deletion disrupts the Krebs cycle, we analyzed glucose utilization (3 H 2 O production, reflecting combined flux through the glycolytic and pentose phosphate pathways) and oxidation (CO 2 production, reflecting mitochondrial metabolism).",
+  "reading_complete" : "2020-08-08T11:35:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:32:19Z",
+  "trigger" : "disrupts",
+  "evidence" : [ "Fh1 deletion disrupts the Krebs cycle" ],
+  "pmc_id" : "5637167",
+  "score" : 0
+}

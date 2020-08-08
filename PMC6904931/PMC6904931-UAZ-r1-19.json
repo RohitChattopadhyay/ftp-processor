@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000465",
+      "entity_text" : "RAD14",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q759B6",
+      "entity_text" : "Prp45",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "This suggests that the inefficient recruitment of Prp45 to HPC2 and RAD14 in set2Delta is due to loss of Eaf3 binding to chromatin.",
+  "reading_complete" : "2020-08-08T10:23:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:21:12Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of Prp45 to HPC2 and RAD14" ],
+  "pmc_id" : "6904931",
+  "score" : 0
+}

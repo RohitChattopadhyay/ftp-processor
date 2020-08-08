@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03655",
+      "entity_text" : "anti-CD44 antibodies",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24759",
+      "entity_text" : "hyaluronan",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0043205" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In vitro, macrophage binding of the CD44 ligand hyaluronan or treatment of the cells with anti-CD44 antibodies increases CR3 activation and enhances phagocytosis of complement opsonized RBCs.",
+  "reading_complete" : "2020-08-08T11:58:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:56:50Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of the CD44 ligand hyaluronan or treatment of the cells with anti-CD44 antibodies" ],
+  "pmc_id" : "4675895",
+  "score" : 0
+}

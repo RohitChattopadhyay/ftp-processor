@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60484",
+      "entity_text" : "PTEN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, while knockdown of PTEN alone increased cell proliferation, migration, and invasion, knockdown of SMAD4 alone did not significantly alter any of these cellular activities (XREF_SUPPLEMENTARY and XREF_SUPPLEMENTARY), Together, these findings demonstrate a prominent role for SMAD4 that prevents lung cancer development when the expression of Pten is altered in the airway epithelium.",
+  "reading_complete" : "2020-08-08T10:36:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:18Z",
+  "trigger" : "increased",
+  "evidence" : [ "PTEN alone increased cell proliferation" ],
+  "pmc_id" : "7405934",
+  "score" : 0
+}

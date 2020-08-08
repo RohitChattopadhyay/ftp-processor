@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As a synthetic component of ATP, creatine phosphate sodium can increase the level of ATP in vivo, and thereby promote the metabolism of these drugs in the liver.",
+  "reading_complete" : "2020-08-08T10:21:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:43Z",
+  "trigger" : "promote",
+  "evidence" : [ "ATP in vivo, and thereby promote the metabolism" ],
+  "pmc_id" : "5972262",
+  "score" : 0
+}

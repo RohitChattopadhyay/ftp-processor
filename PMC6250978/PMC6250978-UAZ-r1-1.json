@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZT9",
+      "entity_text" : "PHD2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:985",
+      "entity_text" : "C16",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "C16 also induces a hypoxic response by binding to PHD2 via its N-terminal domain and, in doing so, reprograms cellular energy metabolism.",
+  "reading_complete" : "2020-08-08T11:28:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:24:11Z",
+  "trigger" : "binding",
+  "evidence" : [ "C16 also induces a hypoxic response by binding to PHD2" ],
+  "pmc_id" : "6250978",
+  "score" : 0
+}

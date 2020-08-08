@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52799",
+      "entity_text" : "ephrinB2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "CellLine" : [ "cellosaurus:CVCL_4461" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "To analyze whether serine phosphorylation of ephrinB2 regulates the co-operative functions of ephrinB2 and ApoER2, we generated a knockin mouse mutant where the Ser 9 of ephrinB2 was replaced by alanine in order to prevent phosphorylation at that residue (efnB2 S-9> A mouse).",
+  "reading_complete" : "2020-08-08T11:01:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:11Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "serine phosphorylation of ephrinB2" ],
+  "pmc_id" : "5640806",
+  "score" : 0
+}

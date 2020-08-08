@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92754",
+      "entity_text" : "TFAP2C",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9951" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002248" ]
+    }
+  },
+  "verbose_text" : "Given that the NE is bound by TFAP2C in ground-state naive pluripotent stem cells, whereas the DE is not (XREF_FIG), we next confirmed that the OCT4 NE is also a target of TFAP2C during hPGCLC differentiation.",
+  "reading_complete" : "2020-08-08T11:44:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:41:42Z",
+  "trigger" : "bound",
+  "evidence" : [ "NE is bound by TFAP2C" ],
+  "pmc_id" : "6342560",
+  "score" : 0
+}

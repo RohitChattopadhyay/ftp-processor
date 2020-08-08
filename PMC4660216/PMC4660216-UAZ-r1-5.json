@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P98172",
+      "entity_text" : "ephrin-B1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0430" ],
+      "CellLine" : [ "cellosaurus:CVCL_D969" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000312" ]
+    }
+  },
+  "verbose_text" : "At 7 days, when the wound had fully re-epithelialized but prior to full re-stratification, ephrin-B1 levels and localization reverted to background, unwounded levels (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T11:21:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:18:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "ephrin-B1 levels" ],
+  "pmc_id" : "4660216",
+  "score" : 0
+}

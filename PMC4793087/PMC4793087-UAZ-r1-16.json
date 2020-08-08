@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UQE7",
+      "entity_text" : "Smc3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7707" ],
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005694" ]
+    }
+  },
+  "verbose_text" : "Lastly, at least in yeast, Pds5 has a role in maintaining sister chromatid cohesion during G2/M by a mechanism that does not involve Smc3 acetylation.",
+  "reading_complete" : "2020-08-08T10:59:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:46Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "Smc3 acetylation" ],
+  "pmc_id" : "4793087",
+  "score" : 0
+}

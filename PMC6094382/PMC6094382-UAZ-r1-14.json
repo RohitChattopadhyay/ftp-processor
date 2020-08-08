@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00327",
+      "entity_text" : "BMAL1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15516",
+      "entity_text" : "CLOCK",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "PER / CRY protein complexes reside in the cytoplasm throughout the day and later relocate into the nucleus, where they inhibit the activity of the CLOCK - BMAL1 complex.",
+  "reading_complete" : "2020-08-08T12:27:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:24:34Z",
+  "trigger" : "complex",
+  "evidence" : [ "CLOCK-BMAL1 complex" ],
+  "pmc_id" : "6094382",
+  "score" : 0
+}

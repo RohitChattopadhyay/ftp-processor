@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01138",
+      "entity_text" : "NGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1043" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0001736" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Our findings therefore suggest that CD40 signaling selectively modulates NGF dependent innervation in vivo and reveal a fundamentally novel mechanism for adjusting the innervation density of specific tissues based on the differential regulation of an autocrine signaling loop in the innervating population of neurons in accordance with the level of NGF in the tissue they innervate.",
+  "reading_complete" : "2020-08-08T11:32:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:31:09Z",
+  "trigger" : "level",
+  "evidence" : [ "level of NGF" ],
+  "pmc_id" : "4407286",
+  "score" : 0
+}

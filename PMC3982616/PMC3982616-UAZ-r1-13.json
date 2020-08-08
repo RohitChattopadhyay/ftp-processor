@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75508",
+      "entity_text" : "claudin-11",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0709" ],
+      "Cellular_component" : [ "go:GO:0005768" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Because claudin-11-KO alone is insufficient for myelin decompaction, our data support a role for the combined loss of claudin-11 and Cx32 in myelin decompaction.",
+  "reading_complete" : "2020-08-08T11:22:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:21:00Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of claudin-11" ],
+  "pmc_id" : "3982616",
+  "score" : 0
+}

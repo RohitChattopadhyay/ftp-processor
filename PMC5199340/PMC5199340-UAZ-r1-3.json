@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "threonine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00847",
+      "entity_text" : "AP2",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07949",
+      "entity_text" : "RET",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This is consistent with a recent study reporting that RET can phosphorylate AP2 in trans on threonine.",
+  "reading_complete" : "2020-08-08T10:16:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:13:19Z",
+  "evidence" : [ "RET can phosphorylate AP2 in trans on threonine" ],
+  "pmc_id" : "5199340",
+  "score" : 0
+}

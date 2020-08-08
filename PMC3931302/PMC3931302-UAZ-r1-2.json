@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S16",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31645",
+      "entity_text" : "HTT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000307",
+      "entity_text" : "S16",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Based on our previous data that the stress inducible kinase IKK can activate phosphorylation of HTT S13 and S16 and increase polySUMOylation of 97QP HTTex1p, and given that oxidative stress and other cellular stressors are implicated in HD, we investigated whether SUMO-2 can modify HTT.",
+  "reading_complete" : "2020-08-08T11:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:32Z",
+  "evidence" : [ "phosphorylation of HTT S13 and S16" ],
+  "pmc_id" : "3931302",
+  "score" : 0
+}

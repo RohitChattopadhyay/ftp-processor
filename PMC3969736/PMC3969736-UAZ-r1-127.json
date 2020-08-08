@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13191",
+      "entity_text" : "Cbl-b",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13400",
+      "entity_text" : "TAD",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As shown in XREF_FIG, GST-Stat6 (aa 1-680) and GST-Stat6 SH2, but not GST-Stat6 TAD, bound to Cbl-b in CD4 + T cells stimulated with TCR / CD28, supporting the notion that the Stat6 SH2 domain interacts with tyrosine residues of Cbl-b.",
+  "reading_complete" : "2020-08-08T12:32:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:30:03Z",
+  "trigger" : "bound",
+  "evidence" : [ "TAD, bound to Cbl-b" ],
+  "pmc_id" : "3969736",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6H8",
+      "entity_text" : "Cx46",
+      "features" : [ {
+        "to_base" : "L",
+        "site" : 11,
+        "feature_type" : "mutation",
+        "evidence" : "L11S"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "CellType" : [ "cl:CL:0000501" ]
+    }
+  },
+  "verbose_text" : "Expression of Cx46 T19M or overexpression of wild-type Cx46 in the presence of endogenous Cx46 had little effect on CSC proliferation (XREF_FIG; XREF_SUPPLEMENTARY), apoptosis (XREF_FIG and XREF_FIG), or self-renewal (XREF_FIG and XREF_FIG), a hallmark of the CSC state, which was assessed by limiting dilution sphere formation analysis, while we observed small but signifi-cant decreases in proliferation and self-renewal with expression of Cx46 L11S.",
+  "reading_complete" : "2020-08-08T12:22:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:35Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Cx46" ],
+  "pmc_id" : "6497083",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0025" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "CellType" : [ "cl:CL:0002563" ]
+    }
+  },
+  "verbose_text" : "Consistent with our work, a prior in vitro study using the human HepG2 hepatocyte line demonstrated that Abeta 1-40 treatment is sufficient to attenuate steady state levels of intracellular cholesterol, cholesterol esters, phospholipids, and triacylglycerol [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:30:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of intracellular cholesterol, cholesterol" ],
+  "pmc_id" : "4351204",
+  "score" : 0
+}

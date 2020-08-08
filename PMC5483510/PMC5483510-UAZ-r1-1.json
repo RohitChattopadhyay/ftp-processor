@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000899" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This revealed the need for SERCA inhibition, resulting in increased levels of cytoplasmic calcium and cell stress, over at least a 48 hr period to enhance Th17 cell polarization (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T11:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:44:44Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of cytoplasmic calcium" ],
+  "pmc_id" : "5483510",
+  "score" : 0
+}

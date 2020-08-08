@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02007",
+      "entity_text" : "RNA-seq",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The Cancer Genome Atlas (TCGA) dataset was interrogated using GlioVis (http://gliovis.bioinfo.cnio.es) for microarray (Agilent-4502A) and RNA-seq levels of all available connexin genes.",
+  "reading_complete" : "2020-08-08T12:22:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "RNA-seq levels" ],
+  "pmc_id" : "6497083",
+  "score" : 0
+}

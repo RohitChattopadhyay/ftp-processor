@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02719",
+      "entity_text" : "Oxa1p",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "go:GO:0031966" ]
+    }
+  },
+  "verbose_text" : "A previous study modeling human mutation associated adPEO in yeast suggested that the mutated Aac2 misfolds to place torsional stress on the mitochondrial inner membrane, leading to dysregulation of inner membrane proteins including loss of Oxa1p, a protein proposed to chaperone the insertion of proteins into the inner mitochondrial membrane, and of Tim22, which is involved in mitochondrial protein import.",
+  "reading_complete" : "2020-08-08T12:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:11Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Oxa1p" ],
+  "pmc_id" : "5065686",
+  "score" : 0
+}

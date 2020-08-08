@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "gfp",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q53H76",
+      "entity_text" : "NMD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistent with the idea that oma-1 (R 106 stop) : : gfp is downregulated by NMD, we found that its mRNA expression was increased in NMD defective smg-5 mutant animals (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:18:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:16:55Z",
+  "trigger" : "downregulated",
+  "evidence" : [ "gfp is downregulated by NMD" ],
+  "pmc_id" : "5918280",
+  "score" : 0
+}

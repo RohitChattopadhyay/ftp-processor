@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residue",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55957",
+      "entity_text" : "Bid",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0504" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "These results demonstrate that Bid is phosphorylated on a unique serine residue specifically in mitosis.",
+  "reading_complete" : "2020-08-08T12:04:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:03:00Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Bid is phosphorylated on a unique serine residue" ],
+  "pmc_id" : "4022835",
+  "score" : 0
+}

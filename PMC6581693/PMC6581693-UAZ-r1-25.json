@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03052",
+      "entity_text" : "POU3F1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6ISB3",
+      "entity_text" : "GRHL2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As an alternative approach, we used BaGFoot on all of the open regions that are associated with the genes showing enhanced expression in the transition from d1EpiLCs to d2EpiLCs and found that GRHL2 and POU3F1 binding motifs were among the motifs showing strong evidence for increased footprint depth and localized chromatin opening in EpiLCs (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T12:01:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:58:27Z",
+  "trigger" : "binding",
+  "evidence" : [ "GRHL2 and POU3F1 binding" ],
+  "pmc_id" : "6581693",
+  "score" : 0
+}

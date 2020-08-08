@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT-3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000091" ]
+    }
+  },
+  "verbose_text" : "Production of IL-6 and TNF-alpha and phosphorylation of STAT-3 were completely suppressed in MyD88 deficient mice after PH [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T10:39:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:34:42Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of STAT-3" ],
+  "pmc_id" : "2948885",
+  "score" : 0
+}

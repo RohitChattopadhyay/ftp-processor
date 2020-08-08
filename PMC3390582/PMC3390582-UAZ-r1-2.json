@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00421",
+      "entity_text" : "PSII",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25464",
+      "entity_text" : "pcbAB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0040" ],
+      "Species" : [ "taxonomy:7757" ]
+    }
+  },
+  "verbose_text" : "The antenna proteins pcbAB selectively associate with PSII, while the antenna protein PcbC is attached to PSI.",
+  "reading_complete" : "2020-08-08T12:07:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:04:38Z",
+  "trigger" : "associate",
+  "evidence" : [ "pcbAB selectively associate with PSII" ],
+  "pmc_id" : "3390582",
+  "score" : 0
+}

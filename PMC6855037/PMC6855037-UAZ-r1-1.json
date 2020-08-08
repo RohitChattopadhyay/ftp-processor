@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q40704",
+      "entity_text" : "RAG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1R14" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0034946" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The estimated blood loss of RAG in FH was similar to that of LAG (87.5 +/- 51.8 vs. 87.0 +/- 22.7, p = 0.784), while it was significantly lesser than that of LAG in SH (54.4 +/- 34.7 vs. 75.0 +/- 34.3, p = 0.003).",
+  "reading_complete" : "2020-08-08T10:34:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:31:59Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of RAG" ],
+  "pmc_id" : "6855037",
+  "score" : 0
+}

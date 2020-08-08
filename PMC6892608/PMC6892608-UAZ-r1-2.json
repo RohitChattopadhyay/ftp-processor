@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11006",
+      "entity_text" : "CNS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0427" ]
+    }
+  },
+  "verbose_text" : "Brain organoids frequently also contained some amount of non CNS differentiated tissues, which could conceivably complicate interpretation (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T11:56:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:55:09Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of non-CNS" ],
+  "pmc_id" : "6892608",
+  "score" : 0
+}

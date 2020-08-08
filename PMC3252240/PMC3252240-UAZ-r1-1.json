@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "p-eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75807",
+      "entity_text" : "GADD34",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GADD34 provides a negative feedback on protein synthesis inhibition by dephosphorylating p-eIF2alpha, allowing translation to resume if ER homeostasis has been restored.",
+  "reading_complete" : "2020-08-08T12:18:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:16:11Z",
+  "evidence" : [ "GADD34 provides a negative feedback on protein synthesis inhibition by dephosphorylating p-eIF2alpha" ],
+  "pmc_id" : "3252240",
+  "score" : 0
+}

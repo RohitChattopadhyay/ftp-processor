@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6PJF5",
+      "entity_text" : "iRhom2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Organ" : [ "uberon:UBERON:2005088" ]
+    }
+  },
+  "verbose_text" : "This revealed that iRhom2 was phosphorylated at multiple serines upon PMA stimulation (XREF_FIG D), including two residues, S60 (XREF_FIG E) and S83 (XREF_FIG F), that mapped within the 1-130 mutant cluster that significantly impaired PMA induced shedding (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T11:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:15Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "iRhom2 was phosphorylated" ],
+  "pmc_id" : "5656746",
+  "score" : 0
+}

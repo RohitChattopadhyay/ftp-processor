@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006810",
+      "entity_text" : "transport",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q94986",
+      "entity_text" : "Rab3",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, binding of Kif1A to GTP bound Rab3 on vesicles via DENN / MADD and to the adaptor protein liprin-alpha is necessary for synaptic vesicle transport.",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "necessary",
+  "evidence" : [ "GTP-bound Rab3 on vesicles via DENN/MADD               and to the adaptor protein liprin-alpha               is necessary for synaptic vesicle transport" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

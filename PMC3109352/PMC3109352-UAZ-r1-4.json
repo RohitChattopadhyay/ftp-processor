@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "CellType" : [ "cl:CL:0000451" ]
+    }
+  },
+  "verbose_text" : "Recent work by Huang and colleagues demonstrated that LVS lacking a gene previously identified to be required for intracellular proliferation (RipA) provoked secretion of greater quantities of IL-1beta and TNF-alpha in mouse macrophages and the human monocytic cell line, THP-1 cells.",
+  "reading_complete" : "2020-08-08T12:21:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:39Z",
+  "trigger" : "quantities",
+  "evidence" : [ "quantities of IL-1beta and TNF-alpha" ],
+  "pmc_id" : "3109352",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28328",
+      "entity_text" : "PAF1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03271",
+      "entity_text" : "SMC5/6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Depletion screening identified ten virus induced SUMO targets as potential antiviral factors, including C18orf25 and the SMC5/6 and PAF1 complexes.",
+  "reading_complete" : "2020-08-08T11:48:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:09Z",
+  "trigger" : "complexes",
+  "evidence" : [ "SMC5/6 and PAF1 complexes" ],
+  "pmc_id" : "4660286",
+  "score" : 0
+}

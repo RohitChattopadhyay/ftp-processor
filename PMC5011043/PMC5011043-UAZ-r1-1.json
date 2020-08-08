@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:644102",
+      "entity_text" : "PPi",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "CellLine" : [ "cellosaurus:CVCL_7025" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR Resulting acetic acid has to be activated to acetyl-coenzyme A, which is accompanied by the formation of equimolar amounts of PPi (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T10:10:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:22Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of PPi" ],
+  "pmc_id" : "5011043",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6H8",
+      "entity_text" : "Cx46",
+      "features" : [ {
+        "to_base" : "T",
+        "site" : 19,
+        "feature_type" : "mutation",
+        "evidence" : "T19M"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "In contrast, while expression of Cx46 T19M alone was not sufficient for GJIC, co-expression of the Cx46 T19M mutant with wild-type Cx46 increased hemi-channel activity but did not affect GJIC.",
+  "reading_complete" : "2020-08-08T12:22:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:35Z",
+  "trigger" : "co-expression",
+  "evidence" : [ "co-expression of the Cx46" ],
+  "pmc_id" : "6497083",
+  "score" : 0
+}

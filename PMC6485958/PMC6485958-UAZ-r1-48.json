@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "NF-kappaB activation in neurons occurs soon after brain ischemia as evidenced by IkappaBalpha degradation and p65 phosphorylation, which drives the neuronal expression of inflammatory mediators such as inter-leukin 6 (IL-6) and chemokine C-C motif ligand 2 (CCL2).",
+  "reading_complete" : "2020-08-08T11:54:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:55Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p65 phosphorylation" ],
+  "pmc_id" : "6485958",
+  "score" : 0
+}

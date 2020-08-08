@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S67",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55957",
+      "entity_text" : "Bid",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0504" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To ask if phosphorylation of human Bid on S67 had the same role, we generated RKO cells where endogenous hBid was knocked down and hBidYFP-WT or hBidYFP-S67A expressed (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T12:04:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:03:00Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of human Bid on S67" ],
+  "pmc_id" : "4022835",
+  "score" : 0
+}

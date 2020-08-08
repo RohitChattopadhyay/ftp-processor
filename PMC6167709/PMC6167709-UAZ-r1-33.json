@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35338",
+      "entity_text" : "PG9",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03438",
+      "entity_text" : "PG16",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0933" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "SOSIP stabilization of JR-FL gp160, when used in conjunction with an optimized cleavage strategy, increased both PG16 and PG9 binding and MPER exposure.",
+  "reading_complete" : "2020-08-08T11:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:52:37Z",
+  "trigger" : "binding",
+  "evidence" : [ "PG16 and PG9 binding" ],
+  "pmc_id" : "6167709",
+  "score" : 0
+}
