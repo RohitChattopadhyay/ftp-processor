@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23925",
+      "entity_text" : "iron",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Cellular_component" : [ "go:GO:0030313" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000010" ]
+    }
+  },
+  "verbose_text" : "In fact, upregulation of bfrA, a gene associated with high levels of iron availability, occurred within this model.",
+  "reading_complete" : "2020-08-08T16:11:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:10:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of iron" ],
+  "pmc_id" : "3125582",
+  "score" : 0
+}

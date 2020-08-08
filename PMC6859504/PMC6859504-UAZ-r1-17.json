@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13400",
+      "entity_text" : "TAD",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "TissueType" : [ "tissuelist:TS-0514" ],
+      "Cellular_component" : [ "go:GO:0005652" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For simplicity, we disregard this in our model, as we are interested in global chromatin organization at the Mb level and above, whereas SMC / cohesin mediated loops have a typical size of ~ 100 kb and are thought to be important for organization at the sub-TAD and TAD level.",
+  "reading_complete" : "2020-08-08T16:12:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:06:11Z",
+  "trigger" : "level",
+  "evidence" : [ "TAD level" ],
+  "pmc_id" : "6859504",
+  "score" : 0
+}

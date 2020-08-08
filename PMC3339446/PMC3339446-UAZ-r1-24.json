@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0000030" ],
+      "CellType" : [ "cl:CL:2000074" ]
+    }
+  },
+  "verbose_text" : "Splenocytes stimulated with ganciclovir treated cells produced high levels of IFN-gamma (474 pg/ml) at 20 h after stimulation compared to the production by cycloheximide treated cells (82 pg/ml), indicating the requirement for protein synthesis.",
+  "reading_complete" : "2020-08-08T16:13:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IFN-gamma" ],
+  "pmc_id" : "3339446",
+  "score" : 0
+}
