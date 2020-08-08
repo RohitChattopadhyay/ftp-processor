@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07817",
+      "entity_text" : "Bcl-xL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF15285",
+      "entity_text" : "BH3",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Conformations of one apo-form and one Bad BH3 peptide bound Bcl-xL structure obtained from simulations using (a) pure water conventional MD, (b) cosolvent MD (with an isopropanol probe), (c) accelerated MD, (d) and cosolvent aMD were compared to the crystal structure conformations through principal component analysis (PCA).",
+  "reading_complete" : "2020-08-08T19:00:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:53:19Z",
+  "trigger" : "bound",
+  "evidence" : [ "BH3 peptide-bound Bcl-xL" ],
+  "pmc_id" : "4498304",
+  "score" : 0
+}
