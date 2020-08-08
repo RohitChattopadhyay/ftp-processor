@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0883" ],
+      "Species" : [ "taxonomy:5664" ]
+    }
+  },
+  "verbose_text" : "Cells were classified as RANKL positive if TNF-alpha and IL-2 were not expressed and classified as RANKL negative if one of them was expressed.",
+  "reading_complete" : "2020-08-08T13:37:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:35:48Z",
+  "trigger" : "expressed",
+  "evidence" : [ "TNF-alpha and IL-2 were not expressed" ],
+  "pmc_id" : "3316995",
+  "score" : 0
+}

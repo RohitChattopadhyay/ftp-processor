@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11473",
+      "entity_text" : "VDR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "VDR levels vary as immune cells mature, with monocytes / macrophages showing downregulation and T cells upregulation, respectively.",
+  "reading_complete" : "2020-08-08T13:41:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:38:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "VDR levels" ],
+  "pmc_id" : "5338633",
+  "score" : 0
+}
