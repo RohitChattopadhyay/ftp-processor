@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78317",
+      "entity_text" : "RNF4",
+      "features" : [ {
+        "to_base" : "C",
+        "site" : 159,
+        "feature_type" : "mutation",
+        "evidence" : "C159A"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Co-expression of RNF4, but not the mutant RNF4 C159A which lacks ubiquitylation activity, alleviated this repression and enhanced transcriptional activation (XREF_FIG).",
+  "reading_complete" : "2020-08-08T17:28:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:23Z",
+  "trigger" : "Co-expression",
+  "evidence" : [ "Co-expression of RNF4, but not the mutant RNF4" ],
+  "pmc_id" : "5125238",
+  "score" : 0
+}

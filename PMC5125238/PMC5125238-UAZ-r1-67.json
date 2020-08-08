@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser45",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Similar to the case of Ser62-c-Myc, phosphorylation of Ser45 within beta-catenin enhances its activity, but also primes beta-catenin for GSK dependent phosphorylation and degradation.",
+  "reading_complete" : "2020-08-08T17:28:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:23Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Ser45 within beta-catenin" ],
+  "pmc_id" : "5125238",
+  "score" : 0
+}

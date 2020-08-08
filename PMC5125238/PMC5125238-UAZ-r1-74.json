@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 33,
+        "feature_type" : "mutation",
+        "evidence" : "S33A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78317",
+      "entity_text" : "RNF4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "However, RNF4 enhanced beta-catenin S33A activity, indicating that EDD and RNF4 target different pools of beta-catenin modified by distinct mechanisms.",
+  "reading_complete" : "2020-08-08T17:28:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:23Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "RNF4 enhanced beta-catenin" ],
+  "pmc_id" : "5125238",
+  "score" : 0
+}

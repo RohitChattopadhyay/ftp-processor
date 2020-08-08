@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_V312" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Remarkably, using ubiquitin mutants that each contain only a single Lys residue (K *), we found that only co-expression of K11 * and K33 * was sufficient for stabilization and ubiquitylation of both c-Myc (XREF_FIG and XREF_FIG), and beta-catenin (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T17:28:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:23Z",
+  "trigger" : "ubiquitylation",
+  "evidence" : [ "ubiquitylation of both c-Myc" ],
+  "pmc_id" : "5125238",
+  "score" : 0
+}

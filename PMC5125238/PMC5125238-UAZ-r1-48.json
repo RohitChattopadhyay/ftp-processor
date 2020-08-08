@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006508",
+      "entity_text" : "protein degradation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78317",
+      "entity_text" : "RNF4",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We suggest that the internal linkage of the ubiquitin chain may well determine whether RNF4 dependent ubiquitylation promotes protein degradation or stabilization.",
+  "reading_complete" : "2020-08-08T17:28:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:23Z",
+  "trigger" : "promotes",
+  "evidence" : [ "RNF4-dependent ubiquitylation promotes protein degradation" ],
+  "pmc_id" : "5125238",
+  "score" : 0
+}

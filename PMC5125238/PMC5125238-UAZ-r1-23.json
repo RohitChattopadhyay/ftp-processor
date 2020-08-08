@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21583",
+      "entity_text" : "SCF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16547",
+      "entity_text" : "SCF Fbw7",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_V312" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The stabilizing effect of RNF4 may also be a result of compromising the machineries involved in the physiological degradation of c-Myc and beta-catenin, which are targeted for proteasomal degradation by the SCF-ubiquitin ligase complexes SCF Fbw7 and SCF betaTRCP, respectively.",
+  "reading_complete" : "2020-08-08T17:28:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:23Z",
+  "trigger" : "complexes",
+  "evidence" : [ "complexes SCF Fbw7  and SCF" ],
+  "pmc_id" : "5125238",
+  "score" : 0
+}
