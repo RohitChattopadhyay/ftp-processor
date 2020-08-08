@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0980" ],
+      "Organ" : [ "uberon:UBERON:0001759" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Since plasma leptin was only examined on day 10 after surgery, we can only suggest that increased ghrelin levels were inversely correlated with plasma leptin levels.",
+  "reading_complete" : "2020-08-08T11:13:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:10:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "leptin levels" ],
+  "pmc_id" : "3638645",
+  "score" : 0
+}

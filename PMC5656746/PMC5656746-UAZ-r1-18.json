@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6PJF5",
+      "entity_text" : "iRhom2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:p14_3_3",
+      "entity_text" : "14-3-3 proteins",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Our interpretation is that recruitment of 14-3-3 proteins to the iRhom2 tail triggers a cue that is transduced through iRhom2, to weaken transmembrane interactions between TACE and iRhom2, releasing TACE from the complex, facilitating its access to substrates.",
+  "reading_complete" : "2020-08-08T11:11:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:09:15Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of 14-3-3 proteins to the iRhom2" ],
+  "pmc_id" : "5656746",
+  "score" : 0
+}
