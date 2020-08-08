@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29353",
+      "entity_text" : "Shc",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The effect appeared to be rather specific for this signaling pathway, as the kinetics of phosphorylation of ERK1/2 and Shc were altered to a much lesser extent in the same cells (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T10:02:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:59:26Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ERK1/2 and Shc" ],
+  "pmc_id" : "6581797",
+  "score" : 0
+}
