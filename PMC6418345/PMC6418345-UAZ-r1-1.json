@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41159",
+      "entity_text" : "leptin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Leptin receptor is expressed in the PBN of mice and rats and phosphorylation of STAT3 can be induced in the lPBN by peripheral leptin administration.",
+  "reading_complete" : "2020-08-08T16:02:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:57:17Z",
+  "trigger" : "induced",
+  "evidence" : [ "phosphorylation of STAT3 can be induced in the lPBN by peripheral leptin" ],
+  "pmc_id" : "6418345",
+  "score" : 0
+}
