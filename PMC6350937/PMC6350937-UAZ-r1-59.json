@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006412",
+      "entity_text" : "translation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q22888",
+      "entity_text" : "eIF4E4",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Cells expressing eIF4E4-7E had a significantly higher level of incorporated AHA than the control cells (XREF_FIG), suggesting that constitutive phosphorylation of eIF4E4 further promotes protein translation.",
+  "reading_complete" : "2020-08-08T17:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:55:40Z",
+  "trigger" : "promotes",
+  "evidence" : [ "eIF4E4 further promotes protein translation" ],
+  "pmc_id" : "6350937",
+  "score" : 0
+}

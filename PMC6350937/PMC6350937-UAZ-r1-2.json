@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q04656",
+      "entity_text" : "MnK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The activation of cap dependent translation in G1 phase through mTOR mediated phosphorylation of eIF4E-BP and MnK mediated phosphorylation of eIF4E has been well characterized in mammals, but the mechanism for TOR mediated translation initiation and G1/S cell-cycle progression in yeast remains poorly understood.",
+  "reading_complete" : "2020-08-08T17:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:55:40Z",
+  "trigger" : "mediated",
+  "evidence" : [ "mTOR-mediated phosphorylation of eIF4E-BP and MnK" ],
+  "pmc_id" : "6350937",
+  "score" : 0
+}

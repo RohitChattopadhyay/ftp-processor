@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05761",
+      "entity_text" : "EdU",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ15765",
+      "entity_text" : "eIF4E4-7A",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Overexpression of eIF4E4-7A also decreased EdU incorporation (XREF_FIG).",
+  "reading_complete" : "2020-08-08T17:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:55:40Z",
+  "trigger" : "decreased",
+  "evidence" : [ "eIF4E4-7A also decreased EdU" ],
+  "pmc_id" : "6350937",
+  "score" : 0
+}

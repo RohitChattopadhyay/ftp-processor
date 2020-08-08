@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16816",
+      "entity_text" : "DotD",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ10602",
+      "entity_text" : "DotC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0019867" ],
+      "Species" : [ "taxonomy:358" ]
+    }
+  },
+  "verbose_text" : "The defects due to these mutations are additive, which suggest a genetic interaction between DotC and DotD.",
+  "reading_complete" : "2020-08-08T17:01:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:59:19Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between DotC and DotD" ],
+  "pmc_id" : "3127085",
+  "score" : 0
+}

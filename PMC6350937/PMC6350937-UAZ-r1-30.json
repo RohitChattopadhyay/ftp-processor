@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P11940",
+      "entity_text" : "PABP1",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O43432",
+      "entity_text" : "eIF4G3",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q22888",
+      "entity_text" : "eIF4E4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "binding_site" : [ "7 G" ],
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In addition, phospho-PABP1 (p-PABP1) and eIF4G3, which were co-precipitated with phospho-eIF4E4, were also significantly decreased in CRK1 RNAi cells (XREF_FIG), suggesting that CRK1 depletion disrupted the association of the eIF4E4 - PABP1 - eIF4G3 complex with the m 7 G cap.",
+  "reading_complete" : "2020-08-08T17:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:55:40Z",
+  "trigger" : "complex",
+  "evidence" : [ "eIF4E4-PABP1-eIF4G3 complex with the m 7 G" ],
+  "pmc_id" : "6350937",
+  "score" : 0
+}

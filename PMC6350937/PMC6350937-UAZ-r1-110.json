@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06730",
+      "entity_text" : "eIF4F",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NEJ9",
+      "entity_text" : "eIF4E-binding protein",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Suppression of cap dependent translation in mitosis coincides with eIF4E dephosphorylation and is attributed to the increased level of hypophosphorylated eIF4E binding protein (BP), which competes with eIF4G for the common binding site on eIF4E and thus blocks the eIF4F complex assembly.",
+  "reading_complete" : "2020-08-08T17:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:55:40Z",
+  "trigger" : "blocks",
+  "evidence" : [ "eIF4E-binding protein (BP)              , which competes with eIF4G for the common binding site on eIF4E                            and thus blocks the eIF4F" ],
+  "pmc_id" : "6350937",
+  "score" : 0
+}

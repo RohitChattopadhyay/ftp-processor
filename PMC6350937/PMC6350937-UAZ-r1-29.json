@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q22888",
+      "entity_text" : "eIF4E4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B0YJ81",
+      "entity_text" : "cap",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Western blotting was carried out with anti-eIF4E4 polyclonal antibody to detect cap bound eIF4E4 and with anti-HA antibody to detect 3HA tagged PABP1 that was co-precipitated with eIF4E4.",
+  "reading_complete" : "2020-08-08T17:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:55:40Z",
+  "trigger" : "bound",
+  "evidence" : [ "cap-bound eIF4E4" ],
+  "pmc_id" : "6350937",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06730",
+      "entity_text" : "eIF4F",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06730",
+      "entity_text" : "eIF4E",
+      "features" : [ {
+        "position" : "Ser209",
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activation of cap dependent protein translation requires phosphorylation of eIF4E at Ser209 by the mitogen activated protein kinase (MAPK)-interacting kinase MnK, which enhances the binding affinity of eIF4E to the cap structure and promotes assembly of a stable eIF4F complex.",
+  "reading_complete" : "2020-08-08T17:01:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:55:40Z",
+  "trigger" : "promotes",
+  "evidence" : [ "eIF4E at Ser209 by the mitogen-activated protein kinase (MAPK)-interacting kinase MnK                           , which enhances the binding affinity of eIF4E to the cap structure               and promotes assembly of a stable eIF4F" ],
+  "pmc_id" : "6350937",
+  "score" : 0
+}
