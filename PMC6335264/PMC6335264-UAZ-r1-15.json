@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0044297" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "This finding suggests that either the presence of a pool of P301L tau, or a shift in the 3R/4R tau ratio, alter a common pathway that regulates tau distribution within neurons, tau phosphorylation, or both.",
+  "reading_complete" : "2020-08-08T14:37:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:08Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tau phosphorylation" ],
+  "pmc_id" : "6335264",
+  "score" : 0
+}

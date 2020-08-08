@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "MAPT",
+      "features" : [ {
+        "to_base" : "P",
+        "site" : 301,
+        "feature_type" : "mutation",
+        "evidence" : "P301L"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The MAPT P301L missense mutation, like many missense mutations in the microtubule binding region domain of MAPT, increases the tendency of tau to aggregate in cell-free assays and in transgenic mouse models.",
+  "reading_complete" : "2020-08-08T14:37:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:08Z",
+  "trigger" : "increases",
+  "evidence" : [ "MAPT P301L missense mutation, like many missense mutations in the microtubule-binding region domain of MAPT, increases the tendency of tau" ],
+  "pmc_id" : "6335264",
+  "score" : 0
+}
