@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Together, the data argue that following the loss of DA, disinhibition of the STN leads to increased activation of STN NMDARs, which increases ROS triggered K ATP channel opening, resulting in the downregulation of autonomous firing.",
+  "reading_complete" : "2020-08-08T14:06:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:00:18Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of DA" ],
+  "pmc_id" : "6699776",
+  "score" : 0
+}

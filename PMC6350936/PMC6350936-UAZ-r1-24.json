@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "BDNF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "features" : [ {
+        "modification_type" : "methylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, increased histone methylation repressed growth factor BDNF (brain derived neurotrophic factor) gene expression in chronic defeat stressed mouse hippocampus, while increased 5-methylcytosine (5mC) in the glucocorticoid receptor gene promoter resulted in early life stress in a rat model.",
+  "reading_complete" : "2020-08-08T14:08:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:06:03Z",
+  "trigger" : "repressed",
+  "evidence" : [ "histone methylation repressed growth factor BDNF" ],
+  "pmc_id" : "6350936",
+  "score" : 0
+}

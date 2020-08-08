@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0002476" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In toxin models of PD, abnormal STN activity takes days to weeks to manifest, suggesting that plasticity triggered by loss of DA contributes to its emergence.",
+  "reading_complete" : "2020-08-08T14:06:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:00:18Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of DA" ],
+  "pmc_id" : "6699776",
+  "score" : 0
+}

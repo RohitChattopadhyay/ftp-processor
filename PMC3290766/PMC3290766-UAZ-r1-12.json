@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96NY8",
+      "entity_text" : "nectin-4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ11020",
+      "entity_text" : "MeV-H",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "uniprot:SL-0265" ],
+      "Organ" : [ "uberon:UBERON:0000065" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Further studies are necessary to clarify the implications of the interaction of MeV-H and nectin-4 in MeV pathogenicity.",
+  "reading_complete" : "2020-08-08T14:04:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:03:10Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of MeV-H and nectin-4" ],
+  "pmc_id" : "3290766",
+  "score" : 0
+}

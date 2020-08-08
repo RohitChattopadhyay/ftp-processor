@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P2X3",
+      "entity_text" : "impact",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NFU7",
+      "entity_text" : "Tet1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, loss of Tet1 causes a reduction in the self-renewal capability of adult neuronal stem cells, with limited impact on the differentiation potential.",
+  "reading_complete" : "2020-08-08T14:08:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:06:03Z",
+  "trigger" : "causes",
+  "evidence" : [ "Tet1 causes a reduction in the self-renewal capability of adult neuronal stem cells, with limited impact" ],
+  "pmc_id" : "6350936",
+  "score" : 0
+}

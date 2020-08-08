@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01730",
+      "entity_text" : "CD4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14624",
+      "entity_text" : "gp120",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ]
+    }
+  },
+  "verbose_text" : "It is known that CypA incorporated into HIV-1 particles translocates to the surfaces of virions, and that the interaction between CypA and CD147 enables HIV-1 to infect target cells via CD147, independently of the binding of gp120 and CD4.",
+  "reading_complete" : "2020-08-08T14:04:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:03:10Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of gp120 and CD4" ],
+  "pmc_id" : "3290766",
+  "score" : 0
+}

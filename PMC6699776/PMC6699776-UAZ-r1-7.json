@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7079450",
+      "entity_text" : "PD",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06875",
+      "entity_text" : "D2 receptor",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In PD models, loss of inhibitory D2 receptor dependent neuromodulation leads to an increase in the frequency and synchronization of D2-SPN output.",
+  "reading_complete" : "2020-08-08T14:06:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:00:18Z",
+  "trigger" : "leads to",
+  "evidence" : [ "PD models, loss of inhibitory D2 receptor-dependent neuromodulation leads to" ],
+  "pmc_id" : "6699776",
+  "score" : 0
+}
