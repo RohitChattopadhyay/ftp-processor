@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P82535",
+      "entity_text" : "NPC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61970",
+      "entity_text" : "NTF2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:8355" ],
+      "TissueType" : [ "tissuelist:TS-0221" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "The NTF2 mutant with reduced affinity for the NPC was also defective in limiting nuclear growth, suggesting that binding of NTF2 to the NPC also contributes to nuclear size regulation.",
+  "reading_complete" : "2020-08-08T18:33:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:32:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of NTF2 to the NPC" ],
+  "pmc_id" : "6242335",
+  "score" : 0
+}
