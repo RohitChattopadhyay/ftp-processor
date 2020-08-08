@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41214",
+      "entity_text" : "ligatin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "We found that knockdown of Denr and Mcts1, or both, in the neural cell line Neuro2a did not significantly alter steady-state levels of ligatin (data not shown).",
+  "reading_complete" : "2020-08-08T08:04:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:01:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ligatin" ],
+  "pmc_id" : "4906373",
+  "score" : 0
+}
