@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR002070",
+      "entity_text" : "Brachyury",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0623" ],
+      "Organ" : [ "uberon:UBERON:0005439" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "This might explain why embryos could not fully compensate for gene misregulation caused by the loss of Brachyury (XREF_FIG A, 2B, and XREF_FIG F), and it suggests that there may be only limited overlap of T-box protein expression in single cells or poor accessibility for other T-box TFs at Xbra / Xbra3 depleted sites.",
+  "reading_complete" : "2020-08-08T12:08:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:07:01Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Brachyury" ],
+  "pmc_id" : "3791401",
+  "score" : 0
+}

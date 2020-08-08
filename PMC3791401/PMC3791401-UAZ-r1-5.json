@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "TF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00907",
+      "entity_text" : "T-box",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0623" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000034" ],
+      "Species" : [ "taxonomy:8364" ]
+    }
+  },
+  "verbose_text" : "Interestingly, these neural markers show as much high-density T-box TF binding as some activated target genes mentioned above.",
+  "reading_complete" : "2020-08-08T12:08:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:07:01Z",
+  "trigger" : "binding",
+  "evidence" : [ "T-box TF binding" ],
+  "pmc_id" : "3791401",
+  "score" : 0
+}
