@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B0YJ81",
+      "entity_text" : "cap",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We derived gene sets highly specific to immune cell tissue types (XREF_SUPPLEMENTARY; XREF_SUPPLEMENTARY), based on cap analysis gene expression (CAGE) sequencing data from the FANTOM5 project, which correlates well with tissue derived RNA-seq.",
+  "reading_complete" : "2020-08-08T17:10:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:05:17Z",
+  "trigger" : "expression",
+  "evidence" : [ "cap analysis gene expression" ],
+  "pmc_id" : "6718830",
+  "score" : 0
+}
