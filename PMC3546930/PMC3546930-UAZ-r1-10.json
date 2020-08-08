@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03956",
+      "entity_text" : "MMP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "Cellular_component" : [ "go:GO:0031012" ]
+    }
+  },
+  "verbose_text" : "RDH-N was less active, in that a significantly increased amount of MMP-1 (6-fold) was found only at a high concentration of 10 mg/ml.",
+  "reading_complete" : "2020-08-08T10:09:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:31Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of MMP-1" ],
+  "pmc_id" : "3546930",
+  "score" : 0
+}
