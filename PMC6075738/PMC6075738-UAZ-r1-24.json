@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10721",
+      "entity_text" : "KIT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1186" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "Globally demethylated genomes of KIT mutated seminoma cells could provoke a similar immune response.",
+  "reading_complete" : "2020-08-08T15:31:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:29:07Z",
+  "trigger" : "demethylated",
+  "evidence" : [ "demethylated genomes of KIT" ],
+  "pmc_id" : "6075738",
+  "score" : 0
+}

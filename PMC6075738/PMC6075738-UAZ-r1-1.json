@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16769",
+      "entity_text" : "EC",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9771" ],
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Non EC NSGCTs tended to be methylated at the paternal differentially methylated region (DMR), while EC had intermediate to high methylation at the maternal DMR (XREF_FIG).",
+  "reading_complete" : "2020-08-08T15:31:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:29:07Z",
+  "trigger" : "methylated",
+  "evidence" : [ "EC NSGCTs tended to be methylated" ],
+  "pmc_id" : "6075738",
+  "score" : 0
+}
