@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0746" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "During routine follow-up, the patient 's serum calcium level declined to 8.6 mg/dL and her previous symptoms of dizziness and memory impairment resolved.",
+  "reading_complete" : "2020-08-08T09:46:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:46:43Z",
+  "trigger" : "level",
+  "evidence" : [ "calcium level" ],
+  "pmc_id" : "6567743",
+  "score" : 0
+}

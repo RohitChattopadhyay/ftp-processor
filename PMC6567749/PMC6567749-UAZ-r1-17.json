@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NOS",
+      "entity_text" : "NOS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "26 Levosimendan is modulated by the activation of extracellular signal regulated kinase, Akt (a serine/threonine specific protein kinase, also known as protein kinase B), and p38 mitogen activated protein kinase and is increased by epithelial NOS expression to increase NO synthesis.",
+  "reading_complete" : "2020-08-08T09:50:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:49:02Z",
+  "trigger" : "increase",
+  "evidence" : [ "NOS expression to increase NO" ],
+  "pmc_id" : "6567749",
+  "score" : 0
+}

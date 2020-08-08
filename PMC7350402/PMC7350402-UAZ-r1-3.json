@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_E012" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "IH is often accompanied by systemic complications, such as fever, tetany, an increase in leukocytes and neutrophils, a decrease in serum calcium levels, and hypoproteinemia.",
+  "reading_complete" : "2020-08-08T09:46:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:46:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "calcium levels" ],
+  "pmc_id" : "7350402",
+  "score" : 0
+}

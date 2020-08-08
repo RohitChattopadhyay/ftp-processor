@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:107689",
+      "entity_text" : "lactic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "Despite the compensated increase in heart rate, the stroke volume is typically insufficient to maintain adequate cardiac output as demonstrated with clinical indexes such as a high lactic acid level and decreased central vein blood saturation.",
+  "reading_complete" : "2020-08-08T09:50:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:49:02Z",
+  "trigger" : "level",
+  "evidence" : [ "lactic acid level" ],
+  "pmc_id" : "6567749",
+  "score" : 0
+}
