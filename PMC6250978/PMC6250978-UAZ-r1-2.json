@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02735",
+      "entity_text" : "Ku",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:985",
+      "entity_text" : "C16",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:2005012" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The C16 AAA mutant did not bind Ku, whereas AFA did.",
+  "reading_complete" : "2020-08-08T11:28:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:24:11Z",
+  "trigger" : "bind",
+  "evidence" : [ "C16 AAA mutant did not bind Ku" ],
+  "pmc_id" : "6250978",
+  "score" : 0
+}
