@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "[XREF_BIBR] Treatment with ' Diashis ' or ' Glibenclamide ' resulted in a significant (P < 0.001) recovery in the activities of the said enzymes which may be due to the recovery in plasma insulin levels.",
+  "reading_complete" : "2020-08-08T11:22:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:20:05Z",
+  "trigger" : "levels",
+  "evidence" : [ "insulin levels" ],
+  "pmc_id" : "2876923",
+  "score" : 0
+}
