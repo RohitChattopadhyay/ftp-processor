@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00771",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000242" ]
+    }
+  },
+  "verbose_text" : "In case of significant differences in serostatus or IgG levels between healthy control individuals and individuals affected by neuropsychiatric disease (XREF_SUPPLEMENTARY), psychiatric diagnosis was included as an additional binary covariate.",
+  "reading_complete" : "2020-08-08T09:56:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:55:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "IgG levels" ],
+  "pmc_id" : "4667104",
+  "score" : 0
+}

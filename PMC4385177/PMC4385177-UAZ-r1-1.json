@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13202",
+      "entity_text" : "EF-hand",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0183" ],
+      "Cellular_component" : [ "uniprot:SL-0452" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In wild-type NCS proteins, binding of Ca 2+ to their functional EF-hand domains operates a myristoyl switch mechanism--most extensively studied in the related neural protein recoverin--that controls the protein 's ability to translocate to target membranes and/or interact with downstream effectors.",
+  "reading_complete" : "2020-08-08T09:59:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:57:22Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Ca 2+  to their functional EF-hand" ],
+  "pmc_id" : "4385177",
+  "score" : 0
+}
