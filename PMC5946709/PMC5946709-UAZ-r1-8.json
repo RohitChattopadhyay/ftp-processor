@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02238",
+      "entity_text" : "N 2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3847" ],
+      "TissueType" : [ "tissuelist:TS-0809" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Shoot N 2 -fixed (kg ha -1) was calculated as :(3) Shoot N 2 -fixed (kg ha -1) =% Ndfa x whole shoot N The amount of N 2 -fixed in the whole plant as reported in this paper was calculated assuming that 30% of N 2 fixed was present in the roots :(4) Total N 2 -fixed (kg ha -1) = shoot N 2 -fixed/(0.70) Eq.",
+  "reading_complete" : "2020-08-08T08:21:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:16:25Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of N 2" ],
+  "pmc_id" : "5946709",
+  "score" : 0
+}
