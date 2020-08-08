@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42261",
+      "entity_text" : "GluA1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0125" ],
+      "Cellular_component" : [ "go:GO:0097060" ]
+    }
+  },
+  "verbose_text" : "The relative intensity of AMPAR subunits revealed a significant downregulation of both synaptic GluA3 (Gria3) (p < 0.001) and GluA2 (Gria2) (p < 0.001), whereas GluA1 (Gria1) levels did not change significantly (q = 0.196; cut-off false discovery rate [FDR] value of 0.05).",
+  "reading_complete" : "2020-08-08T20:24:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:18:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "GluA1 (Gria1) levels" ],
+  "pmc_id" : "7175376",
+  "score" : 0
+}
