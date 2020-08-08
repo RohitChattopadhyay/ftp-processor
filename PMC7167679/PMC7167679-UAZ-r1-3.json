@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Cellular_component" : [ "go:GO:0005794" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Six hours post-transfection, intracellular luciferase levels as well as the amount of luciferase secreted into the culture media were measured using the Renilla luciferase assay kit (Promega).",
+  "reading_complete" : "2020-08-08T15:48:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:24Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of luciferase" ],
+  "pmc_id" : "7167679",
+  "score" : 0
+}

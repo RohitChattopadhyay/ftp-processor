@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08659",
+      "entity_text" : "luciferase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In agreement with the results shown in Fig. XREF_FIG, expression of C11orf59-GFP resulted in lower luciferase levels when compared to mock- and GFP transfected cells.",
+  "reading_complete" : "2020-08-08T15:48:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:46:24Z",
+  "trigger" : "levels",
+  "evidence" : [ "luciferase levels" ],
+  "pmc_id" : "7167679",
+  "score" : 0
+}
