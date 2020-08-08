@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0002608" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Similarly, we detected no change in the level of phosphorylation of Akt at serine residue 473 (pAkt S473), a site previously reported to undergo phosphorylation by PKCepsilon, in PKCepsilon-knockout neonate brain tissue.",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Akt at serine residue 473" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

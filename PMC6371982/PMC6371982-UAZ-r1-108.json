@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residues 107",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94989",
+      "entity_text" : "Ephexin5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "Using the p107/109 antibody, we observed that the phosphorylation of Ephexin5 at serine residues 107 and 109 tracks with the upward shift in Ephexin5 mobility during brain development (XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Ephexin5 at serine residues 107" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

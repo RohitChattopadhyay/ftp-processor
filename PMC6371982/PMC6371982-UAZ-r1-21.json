@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residues 107",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94989",
+      "entity_text" : "Ephexin5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043197" ],
+      "CellType" : [ "cl:CL:0002608" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Cell lysates from these samples showed specific p107/109 antibody signal that increased following bryostatin I treatment, consistent with the acute activation of endogenous PKCepsilon promoting the phosphorylation of Ephexin5 at serine residues 107 and 109 in neurons.",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Ephexin5 at serine residues 107" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

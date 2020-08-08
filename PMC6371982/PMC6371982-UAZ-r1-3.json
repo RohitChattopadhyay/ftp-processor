@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine 295",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78352",
+      "entity_text" : "PSD95",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00124",
+      "entity_text" : "PKCepsilon",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In mature neurons, PKCepsilon was shown to promote excitatory synapse formation and potentiate synaptic activity by phosphorylating PSD95 at serine 295 in post-synaptic neurons.",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "potentiate",
+  "evidence" : [ "PKCepsilon was shown to promote excitatory synapse formation and potentiate synaptic activity by phosphorylating PSD95 at serine 295" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

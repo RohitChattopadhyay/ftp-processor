@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08100",
+      "entity_text" : "Rho",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "GST-RBD exclusively interacts with activated, GTP bound Rho GTPases, serving as a tool to capture all activated Rho GTPases accumulated from the moment of Ephexin5 variant overexpression until cell lysis.",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "bound",
+  "evidence" : [ "GTP-bound Rho" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

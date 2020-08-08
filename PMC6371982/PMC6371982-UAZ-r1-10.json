@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "109",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94989",
+      "entity_text" : "Ephexin5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043197" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "On the basis of these data we predict that the phosphorylation of Ephexin5 at N-terminal serine residues 107 and 109 is likely not to relieve autoinhibition by the N terminus of Ephexin5 but rather may activate Ephexin5 through another mechanism.",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Ephexin5 at N-terminal serine residues 107 and 109" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

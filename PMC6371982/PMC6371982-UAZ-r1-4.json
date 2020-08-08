@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94989",
+      "entity_text" : "Ephexin5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ18249",
+      "entity_text" : "bryostatin I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To determine whether bryostatin I can stimulate the phosphorylation of Ephexin5 at serines 107/109, we infected cultured hippocampal neurons with lentivirus to overexpress Ephexin5-myc or Ephexin5 A/A-myc and treated these cells with DMSO or 1 nM bryostatin I for 1 hr.",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "stimulate",
+  "evidence" : [ "bryostatin I can stimulate the phosphorylation of Ephexin5" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

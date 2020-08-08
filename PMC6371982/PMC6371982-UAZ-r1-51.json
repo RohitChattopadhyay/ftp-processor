@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "109",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O94989",
+      "entity_text" : "Ephexin5",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "Last, to test whether Ephexin5 could be phosphorylated at serine residues 107 and 109 in neurons, we transfected dissociated hippocampal neurons at DIV10 with GFP and Ephexin5-myc or Ephexin5 A/A-myc.",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Ephexin5 could be phosphorylated at serine residues 107 and 109" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}

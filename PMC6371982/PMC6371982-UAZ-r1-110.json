@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residues 107",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ18276",
+      "entity_text" : "RhoA GEF",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although previous reports indicate a pro synaptogenic function for PKCepsilon in older neurons, we unexpectedly discovered that endogenous PKCepsilon activation in immature neurons restricts dendritic spine number in a temporally regulated manner, in part through the dual phosphorylation of its substrate, the RhoA GEF Ephexin5, at serine residues 107 and 109 (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T18:47:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:42:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of its substrate, the RhoA GEF Ephexin5, at serine residues 107" ],
+  "pmc_id" : "6371982",
+  "score" : 0
+}
