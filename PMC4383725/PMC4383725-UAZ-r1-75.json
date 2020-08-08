@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ17871",
+      "entity_text" : "PI4P",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ17876",
+      "entity_text" : "viral RNA-dependent RNA-polymerase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1886" ],
+      "Species" : [ "taxonomy:11103" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "The viral RNA dependent RNA-polymerase, 3D pol, binds PI4P in vitro, but it is unknown whether this is important for its recruitment and/or activation in infected cells.",
+  "reading_complete" : "2020-08-08T18:19:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:16:49Z",
+  "trigger" : "binds",
+  "evidence" : [ "viral RNA-dependent RNA-polymerase, 3D pol , binds PI4P" ],
+  "pmc_id" : "4383725",
+  "score" : 0
+}

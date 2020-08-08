@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ14105",
+      "entity_text" : "ATPgammaS",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Because the structure of an ATPgammaS bound but casein - free complex was not reported and because Hsp104 slowly hydrolyzes ATPgammaS, it remains unclear whether the observed Hsp104 : casein structures are the result of casein binding or may represent structures induced by mixtures of ATPgammaS and other nucleotide species.",
+  "reading_complete" : "2020-08-08T18:22:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:20:54Z",
+  "evidence" : [ "Hsp104 slowly hydrolyzes ATPgammaS" ],
+  "pmc_id" : "6347426",
+  "score" : 0
+}

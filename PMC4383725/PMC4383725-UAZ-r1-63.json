@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08684",
+      "entity_text" : "CYP3A4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:47576",
+      "entity_text" : "ketoconazole",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition to ITZ, other azole family antifungal drugs, including posaconazole, ketoconazole, fluconazole, and voriconazole, also inhibit hCYP51 and CYP3A4 with slightly lower or similar potency as ITZ.",
+  "reading_complete" : "2020-08-08T18:19:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:16:49Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "ketoconazole, fluconazole, and voriconazole            , also inhibit hCYP51 and CYP3A4" ],
+  "pmc_id" : "4383725",
+  "score" : 0
+}

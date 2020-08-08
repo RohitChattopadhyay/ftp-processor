@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31539",
+      "entity_text" : "Hsp104",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Examining the structure of Hsp104 poses considerable challenges because Hsp104 readily hydrolyzes ATP, whereas ATP analogs can be slowly turned over and are often contaminated with other nucleotide species.",
+  "reading_complete" : "2020-08-08T18:22:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:20:54Z",
+  "evidence" : [ "Hsp104 readily hydrolyzes ATP" ],
+  "pmc_id" : "6347426",
+  "score" : 0
+}

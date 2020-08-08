@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09485",
+      "entity_text" : "ITZ",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:P22059",
+      "entity_text" : "OSBP",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ITZ binds OSBP and inhibits its function, i.e., shuttling of cholesterol and phosphatidylinositol-4-phosphate between membranes, thereby likely perturbing the virus induced membrane alterations essential for viral replication organelle formation.",
+  "reading_complete" : "2020-08-08T18:19:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:16:49Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "ITZ binds OSBP and inhibits its function, i.e., shuttling of cholesterol" ],
+  "pmc_id" : "4383725",
+  "score" : 0
+}

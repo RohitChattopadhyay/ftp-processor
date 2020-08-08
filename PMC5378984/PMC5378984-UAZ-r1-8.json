@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ17974",
+      "entity_text" : "B55alpha knockdown",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Under these conditions, PHD2 silencing rescues B55alpha degradation, overcoming apoptosis, whereas in SKBR3 breast cancer cells showing resistance to glucose starvation, B55alpha knockdown restores cell death and prevents neoplastic growth in vitro.",
+  "reading_complete" : "2020-08-08T18:20:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:19:40Z",
+  "trigger" : "restores",
+  "evidence" : [ "B55alpha knockdown restores cell death" ],
+  "pmc_id" : "5378984",
+  "score" : 0
+}

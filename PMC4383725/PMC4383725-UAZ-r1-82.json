@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ17871",
+      "entity_text" : "PI4P",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Likewise, in infected cells, ITZ increased PI4P levels on ROs, again leading to an enhanced recruitment of OSBP, and inhibited the accumulation of cholesterol on ROs.",
+  "reading_complete" : "2020-08-08T18:19:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:16:49Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "PI4P levels on ROs, again leading to an enhanced recruitment of OSBP, and inhibited the accumulation of cholesterol" ],
+  "pmc_id" : "4383725",
+  "score" : 0
+}
