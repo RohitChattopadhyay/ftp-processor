@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01106",
+      "entity_text" : "MYC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0614" ],
+      "Organ" : [ "uberon:UBERON:0001068" ],
+      "CellType" : [ "cl:CL:0000148" ]
+    }
+  },
+  "verbose_text" : "Of note is the small amount of MYC expression detected by RT-PCR in whole back skin samples from mice with the TRE-MYC transgene alone, suggesting that this TRE-MYC transgene is partially ' leaky ' in the skin.",
+  "reading_complete" : "2020-08-08T13:44:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:43:32Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of MYC" ],
+  "pmc_id" : "3051065",
+  "score" : 0
+}

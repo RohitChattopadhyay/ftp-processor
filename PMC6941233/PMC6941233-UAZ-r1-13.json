@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35637",
+      "entity_text" : "FUS",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "Mutant"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0185" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Mutant FUS Expressing Cells Are Hypersensitive to dsRNA Toxicity.",
+  "reading_complete" : "2020-08-08T16:52:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:49:35Z",
+  "trigger" : "Expressing",
+  "evidence" : [ "FUS-Expressing" ],
+  "pmc_id" : "6941233",
+  "score" : 0
+}

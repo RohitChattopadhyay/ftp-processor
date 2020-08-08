@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7409",
+      "entity_text" : "alpha",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:381124" ]
+    }
+  },
+  "verbose_text" : "Since the null hypothesis, in this case, is that the experimental result is greater than this threshold (assuming control mortality criteria are met), rejection of the null hypothesis at a given alpha level, typically 0.05, provides 95% power in the conclusion that a result is less than the threshold.",
+  "reading_complete" : "2020-08-08T14:28:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:24:42Z",
+  "trigger" : "level",
+  "evidence" : [ "alpha level" ],
+  "pmc_id" : "3018611",
+  "score" : 0
+}

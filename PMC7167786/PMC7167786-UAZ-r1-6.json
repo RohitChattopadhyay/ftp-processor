@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12404",
+      "entity_text" : "peptidase",
+      "features" : [ {
+        "to_base" : "C",
+        "site" : 5,
+        "feature_type" : "mutation",
+        "evidence" : "C5a"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:632" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Cellular_component" : [ "go:GO:0005618" ],
+      "Organ" : [ "uberon:UBERON:0000170" ]
+    }
+  },
+  "verbose_text" : "Group B streptococcus C5a peptidase has a high affinity for fibronectin, an interaction shown to be biologically significant as evidenced by streptococcal strains defective in the expression of C5a peptidase having 50% less fibronectin binding capacity than wild type strain 50.",
+  "reading_complete" : "2020-08-08T15:16:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:51Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of C5a peptidase" ],
+  "pmc_id" : "7167786",
+  "score" : 0
+}

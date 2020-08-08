@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser5",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12815",
+      "entity_text" : "CTD",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of the Ser5 CTD residue (Ser5P) is a key marker for initiating Pol II and is specifically bound by the capping enzyme, making the specificity of FluPol for the Ser5P form an efficient mechanism to target the pool of Pol II molecules associated with nascent, capped RNA substrates.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of the Ser5 CTD" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

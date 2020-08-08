@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01382",
+      "entity_text" : "avidin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:171548",
+      "entity_text" : "biotin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3167" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Sinensky and Belcher 74 tested the interaction between biotin and avidin and demonstrated the correlation between measured surface potential and isoelectric point of the biomolecules.",
+  "reading_complete" : "2020-08-08T15:06:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:04:16Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between biotin and avidin" ],
+  "pmc_id" : "7167936",
+  "score" : 0
+}

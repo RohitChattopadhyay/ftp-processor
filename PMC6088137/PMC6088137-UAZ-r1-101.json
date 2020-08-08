@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008283",
+      "entity_text" : "cell proliferation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6Z9",
+      "entity_text" : "PHD3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, re-expression of PHD3 impeded U87 cell proliferation, which was again partially rescued by knocking-down p53 (XREF_FIG H).",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "impeded",
+  "evidence" : [ "PHD3 impeded U87 cell proliferation" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

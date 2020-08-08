@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0636" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9925" ]
+    }
+  },
+  "verbose_text" : "Feeding hLZ containing milk to pigs did not increase the level of TNF-alpha production, showing that consumption of the milk did not induce an inflammatory response.",
+  "reading_complete" : "2020-08-08T13:29:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:28:41Z",
+  "trigger" : "level",
+  "evidence" : [ "level of TNF-alpha" ],
+  "pmc_id" : "3210943",
+  "score" : 0
+}

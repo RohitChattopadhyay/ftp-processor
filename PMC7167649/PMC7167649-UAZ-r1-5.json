@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04083",
+      "entity_text" : "ANXA1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:59837" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Among these identified proteins, some were identified from two or more separated spots, indicating that they may be differently modified (e.g., phosphorylation of ANXA1 and HSPB1) in the process of host response to IBV, NDV, and AIV H9 infections.",
+  "reading_complete" : "2020-08-08T14:55:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:52:41Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of ANXA1" ],
+  "pmc_id" : "7167649",
+  "score" : 0
+}

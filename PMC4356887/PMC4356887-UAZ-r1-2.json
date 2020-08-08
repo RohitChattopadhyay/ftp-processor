@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08100",
+      "entity_text" : "rhodopsin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "CellLine" : [ "cellosaurus:CVCL_1198" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000210" ]
+    }
+  },
+  "verbose_text" : "qRT-PCR showed that rhodopsin mRNA levels were reduced by more than 94% in all the photoreceptor cells differentiated from the transgenic ES cell lines after doxycycline treatment.",
+  "reading_complete" : "2020-08-08T14:24:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:23:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "rhodopsin mRNA levels" ],
+  "pmc_id" : "4356887",
+  "score" : 0
+}

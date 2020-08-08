@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04796",
+      "entity_text" : "mAb",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0595" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "The antigen binding activity of mAb was demonstrated in the specific ELISA, which represented a nearly 40-fold increase in the antibody affinity.",
+  "reading_complete" : "2020-08-08T14:21:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:20:44Z",
+  "trigger" : "binding activity",
+  "evidence" : [ "antigen-binding activity of mAb" ],
+  "pmc_id" : "7089081",
+  "score" : 0
+}

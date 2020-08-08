@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "As outlined in Tintle et al. [XREF_BIBR], it is biologically reasonable to consider one 's fatty acid levels as coming from a mixture of Gaussian distributions, with each of the two or three mean fatty acid levels determined by genetics, and variation around the mean level determined by other factors (e.g., diet; lifestyle).",
+  "reading_complete" : "2020-08-08T11:03:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:59:59Z",
+  "trigger" : "levels",
+  "evidence" : [ "acid levels" ],
+  "pmc_id" : "5757879",
+  "score" : 0
+}

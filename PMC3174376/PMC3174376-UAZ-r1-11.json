@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10991489",
+      "entity_text" : "maltose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04566",
+      "entity_text" : "MBP10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Although the binding of MBP10 to the maltose binding protein is not dependent on dimerisation of the antibody, it was of interest to determine whether dimer formation showed preferences for homodimer (fully glycosylated or fully unglycosylated) or heterodimer (one glycosylated and one not glycosylated) formation.",
+  "reading_complete" : "2020-08-08T14:06:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:05:44Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of MBP10 to the maltose" ],
+  "pmc_id" : "3174376",
+  "score" : 0
+}

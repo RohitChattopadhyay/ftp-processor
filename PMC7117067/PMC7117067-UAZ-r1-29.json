@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "CellType" : [ "cl:CL:0002248" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "[70] Using 8000 publicly available microarray datasets from multiple tissues from various age groups, a DNA methylation based estimator of chronological age (now known as the Horvath clock) has been put forth, [71] this clock identified 193 CpG that were positively correlated, and 160 that were negatively correlated with age.",
+  "reading_complete" : "2020-08-08T16:03:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:55:53Z",
+  "trigger" : "methylation",
+  "evidence" : [ "age groups, a DNA methylation" ],
+  "pmc_id" : "7117067",
+  "score" : 0
+}

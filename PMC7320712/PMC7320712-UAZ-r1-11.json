@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In early five months of 2020, American Association of Poison Control Center reported 9504 alcoholic hand sanitizer exposure cases in children under the age of 12 years (XREF_TABLE) and recognized that even a small amount of alcohol can cause alcohol poisoning in children that is responsible for confusion, vomiting and drowsiness, and in severe cases, respiratory arrest and death.",
+  "reading_complete" : "2020-08-08T14:32:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:31:42Z",
+  "trigger" : "cause",
+  "evidence" : [ "alcohol can cause alcohol" ],
+  "pmc_id" : "7320712",
+  "score" : 0
+}

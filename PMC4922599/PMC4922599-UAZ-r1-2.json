@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0514" ],
+      "Cellular_component" : [ "go:GO:0044303" ],
+      "Organ" : [ "uberon:UBERON:0006967" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In addition to tracing studies demonstrating a direct connection from the LPB to the CeC and the lateral part of the CeA (CeL), evidence indicates the following : 1) that 78% of CeC neurons are excited by noxious stimulation in anesthetized rats; 2) that phosphorylated ERK is increased in CeC neurons in response to formalin induced inflammatory pain; and 3) that CeC neurons show robust synaptic potentiation in various pain models.",
+  "reading_complete" : "2020-08-08T16:44:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:38:02Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated ERK" ],
+  "pmc_id" : "4922599",
+  "score" : 0
+}

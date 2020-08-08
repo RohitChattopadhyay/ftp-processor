@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:RAR",
+      "entity_text" : "retinoic acid receptors",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:44795",
+      "entity_text" : "atRA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0457" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "atRA acts by binding to nuclear retinoic acid receptors (RAR).",
+  "reading_complete" : "2020-08-08T14:03:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:57:32Z",
+  "trigger" : "binding",
+  "evidence" : [ "atRA acts by binding to nuclear retinoic acid receptors" ],
+  "pmc_id" : "4274375",
+  "score" : 0
+}

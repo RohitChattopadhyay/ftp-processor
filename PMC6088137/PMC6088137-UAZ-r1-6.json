@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "proline 359",
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6Z9",
+      "entity_text" : "PHD3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Here, we show that PHD3 hydroxylates p53 at proline 359, a residue that is in the p53-DUB binding domain.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "evidence" : [ "PHD3 hydroxylates p53 at proline 359" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

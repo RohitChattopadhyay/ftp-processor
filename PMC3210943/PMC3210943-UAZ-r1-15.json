@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10145",
+      "entity_text" : "IL-8",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Pigs fed pasteurized hLZ milk did not have elevated levels of TNF-alpha or IL-8, supporting our conclusion that hLZ milk does not cause inflammation.",
+  "reading_complete" : "2020-08-08T13:29:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:28:41Z",
+  "trigger" : "supporting",
+  "evidence" : [ "IL-8, supporting our conclusion that hLZ milk does not cause inflammation" ],
+  "pmc_id" : "3210943",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61244",
+      "entity_text" : "max",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01763",
+      "entity_text" : "ICPC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The association between ICPC and monthly average T max was positive.",
+  "reading_complete" : "2020-08-08T10:59:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:57:30Z",
+  "trigger" : "association",
+  "evidence" : [ "association between ICPC and monthly average T max" ],
+  "pmc_id" : "7236730",
+  "score" : 0
+}

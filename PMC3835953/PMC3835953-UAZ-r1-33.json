@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0445" ],
+      "Cellular_component" : [ "uniprot:SL-0452" ],
+      "Organ" : [ "uberon:UBERON:0002062" ]
+    }
+  },
+  "verbose_text" : "Unphosphorylated beta-catenin accumulates and associates with nuclear transcription factors, leading to the eventual transcription and expression of target genes such as c-myc.",
+  "reading_complete" : "2020-08-08T13:52:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:50:47Z",
+  "trigger" : "Unphosphorylated",
+  "evidence" : [ "Unphosphorylated beta-catenin" ],
+  "pmc_id" : "3835953",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06886",
+      "entity_text" : "similar gene",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1280" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Given similar gene expression, it was reasoned that due to their anchoring in the bacterial membrane, the lipoproteins would be released by S. aureus in lower amounts than proteins with a secretion signal or signal peptide such as IsdB and Plc.",
+  "reading_complete" : "2020-08-08T16:19:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:17:44Z",
+  "trigger" : "expression",
+  "evidence" : [ "similar gene expression" ],
+  "pmc_id" : "5096053",
+  "score" : 0
+}

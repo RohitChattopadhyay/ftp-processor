@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H5J4",
+      "entity_text" : "face",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04036",
+      "entity_text" : "Sin3B-Myt1 complexes",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005730" ],
+      "CellType" : [ "cl:CL:0000128" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "But in the face of sufficient amounts of Sin3B short forms, the Sin3B-Myt1 complexes bound to target genes may preclude HDAC binding, leading to a state of transcriptional activation.",
+  "reading_complete" : "2020-08-08T13:38:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:37:49Z",
+  "trigger" : "bound",
+  "evidence" : [ "face of sufficient amounts of Sin3B short forms, the Sin3B-Myt1 complexes bound" ],
+  "pmc_id" : "3139087",
+  "score" : 0
+}

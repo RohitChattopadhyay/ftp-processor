@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99707",
+      "entity_text" : "MS",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The yeast protein Bdf1 has two bromodomains, and Bryson et al. used the second of these bromodomains to capture acetylated peptides for MS analysis.",
+  "reading_complete" : "2020-08-08T15:42:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:42:24Z",
+  "trigger" : "acetylated",
+  "evidence" : [ "acetylated peptides for MS" ],
+  "pmc_id" : "4440388",
+  "score" : 0
+}
