@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15796",
+      "entity_text" : "SMAD2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Organ" : [ "uberon:UBERON:0008200" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "We hypothesized that Epiblastin A and TR might act by inhibiting the phosphorylation of both BCATENIN and SMAD2; therefore, we simulated this action by using CH together with SB431542 (SB), an inhibitor of TGFbeta/SMAD2/3 signaling.",
+  "reading_complete" : "2020-08-08T14:41:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:38:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of both BCATENIN and SMAD2" ],
+  "pmc_id" : "4850425",
+  "score" : 0
+}

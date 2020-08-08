@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15796",
+      "entity_text" : "SMAD2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As TR did not inhibit GSK3beta and ALK, these findings suggest that Epiblastin A and TR act on BCATENIN and SMAD2 phosphorylation via CK1alpha and CK1epsilon.",
+  "reading_complete" : "2020-08-08T14:41:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:38:46Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "SMAD2 phosphorylation" ],
+  "pmc_id" : "4850425",
+  "score" : 0
+}

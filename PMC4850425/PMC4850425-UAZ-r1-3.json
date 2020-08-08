@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PI3K",
+      "entity_text" : "PI3K",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "However, Epiblastin A and TR were also found to inhibit PI3K mediated STAT3 phosphorylation, indicating a redundancy of this pathway during the conversion process (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T14:41:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:38:46Z",
+  "trigger" : "mediated",
+  "evidence" : [ "PI3K-mediated STAT3 phosphorylation" ],
+  "pmc_id" : "4850425",
+  "score" : 0
+}

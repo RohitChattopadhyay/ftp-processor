@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1099",
+      "entity_text" : "sulfite",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ12281",
+      "entity_text" : "DSR system",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although GSB cannot grow on sulfite, the DSR system presumably produces sulfite, which must be oxidized.",
+  "reading_complete" : "2020-08-08T14:45:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:43:01Z",
+  "trigger" : "produces",
+  "evidence" : [ "DSR system presumably produces sulfite" ],
+  "pmc_id" : "3153061",
+  "score" : 0
+}

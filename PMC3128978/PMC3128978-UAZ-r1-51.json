@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Our initial studies indicated that inhibition of iNOS with l-NMMA enhanced the survival of intracellular Mtb in RAVD-THPs although, curiously, we did not find elevated levels of NO in the medium.",
+  "reading_complete" : "2020-08-08T14:43:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:41:30Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NO" ],
+  "pmc_id" : "3128978",
+  "score" : 0
+}
