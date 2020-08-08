@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P94854",
+      "entity_text" : "CR3 protein",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Despite the strict dependence of the enhanced capacity on CR3 for complement mediated phagocytosis in MGCs, CR3 protein levels were not increased in MGCs (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T11:58:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:56:50Z",
+  "trigger" : "levels",
+  "evidence" : [ "CR3 protein levels" ],
+  "pmc_id" : "4675895",
+  "score" : 0
+}
