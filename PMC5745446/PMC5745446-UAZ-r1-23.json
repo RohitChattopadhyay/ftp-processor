@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35869",
+      "entity_text" : "AhR",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Suppression of AhR expression strongly reduced apoptosis induced by Y134, indicating the requirement of AhR for Y134 induced apoptosis.",
+  "reading_complete" : "2020-08-08T19:19:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:15:39Z",
+  "trigger" : "reduced",
+  "evidence" : [ "AhR expression strongly reduced apoptosis induced by Y134, indicating the requirement of AhR for Y134-induced apoptosis" ],
+  "pmc_id" : "5745446",
+  "score" : 0
+}

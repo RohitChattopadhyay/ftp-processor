@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00151",
+      "entity_text" : "lipase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The occurrence of pancreatic injury, defined as increasing in amylase and lipase levels, has been described in 17% of 52 patients admitted for COVID-19 pneumonia [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:35:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:34:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "lipase levels" ],
+  "pmc_id" : "7254005",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00531",
+      "entity_text" : "death",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4946",
+      "entity_text" : "propranolol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Addition of propranolol to EVL did not reduce the risk of first variceal bleed (7% vs 11%, P = 0.72) or death (8% vs 15%, P = 0.37).",
+  "reading_complete" : "2020-08-08T19:46:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:38:12Z",
+  "trigger" : "reduce",
+  "evidence" : [ "propranolol to EVL did not reduce the risk of first variceal bleed (7% vs 11%, P = 0.72) or death" ],
+  "pmc_id" : "6347650",
+  "score" : 0
+}

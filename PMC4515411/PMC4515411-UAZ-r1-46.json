@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser51",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00034",
+      "entity_text" : "factor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1241" ],
+      "CellType" : [ "cl:CL:0000622" ]
+    }
+  },
+  "verbose_text" : "19 Activated PERK becomes autophosphorylated at Thr 980 and rapidly phosphorylates the eukaryotic translation initiation factor, eIF2alpha at Ser51.",
+  "reading_complete" : "2020-08-08T19:29:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:27:52Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates the eukaryotic translation initiation factor, eIF2alpha at Ser51" ],
+  "pmc_id" : "4515411",
+  "score" : 0
+}

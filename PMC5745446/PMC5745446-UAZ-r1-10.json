@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35869",
+      "entity_text" : "AhR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Specifically, the AhR inhibits cell cycle progression in some cell types by inducing cell cycle inhibitor and tumor suppressor proteins such as p27 Kip1 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:19:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:15:39Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "AhR inhibits cell cycle" ],
+  "pmc_id" : "5745446",
+  "score" : 0
+}

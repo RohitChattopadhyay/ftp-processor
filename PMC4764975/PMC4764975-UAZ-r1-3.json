@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr 174",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96RR4",
+      "entity_text" : "CaMKKbeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activation of the AMPK complexes was achieved by treating with an upstream kinase, CaMKKbeta, which phosphorylates AMPK specifically at alpha-Thr 172/174 (Thr 172 in alpha1 and Thr 174 in alpha2).",
+  "reading_complete" : "2020-08-08T19:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:27:43Z",
+  "evidence" : [ "CaMKKbeta, which phosphorylates AMPK specifically at alpha-Thr 172/174  (Thr 172  in alpha1 and Thr 174" ],
+  "pmc_id" : "4764975",
+  "score" : 0
+}

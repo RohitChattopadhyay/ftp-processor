@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:439195",
+      "entity_text" : "arabinose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P76106",
+      "entity_text" : "hicA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The induction of hicA expression increased the frequency of bacteria surviving ciprofloxacin exposure, in an arabinose concentration dependent manner, from approximately 10 -5 (under hicA repressed conditions) to 10 -3 (0.1%) of the bacterial population at the highest arabinose concentration (XREF_FIG b).",
+  "reading_complete" : "2020-08-08T19:21:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:14:01Z",
+  "trigger" : "increased",
+  "evidence" : [ "hicA expression increased the frequency of bacteria surviving ciprofloxacin exposure, in an arabinose" ],
+  "pmc_id" : "3969222",
+  "score" : 0
+}
