@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96CJ1",
+      "entity_text" : "traits",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01346",
+      "entity_text" : "GWAS curator-assigned Experimental Factor Ontology (EFO) 27",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The GWAS curator assigned Experimental Factor Ontology (EFO) 27 was used to filter out non disease phenotypes (e.g., pharmacogenomics responses, etc.) by retaining those under the branch EFO0000408 : disease, reducing the 2,373 GWAS traits to 533 diseases.",
+  "reading_complete" : "2020-08-08T10:26:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:22:54Z",
+  "trigger" : "reducing",
+  "evidence" : [ "GWAS curator-assigned Experimental Factor Ontology (EFO) 27  was used to filter out non-disease phenotypes (e.g., pharmacogenomics responses, etc.) by retaining those under the branch EFO0000408: disease, reducing the 2,373 GWAS traits" ],
+  "pmc_id" : "6425966",
+  "score" : 0
+}
