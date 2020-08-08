@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04925",
+      "entity_text" : "Siglec-G",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25063",
+      "entity_text" : "CD24",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000451" ]
+    }
+  },
+  "verbose_text" : "Presumably, the sterile inflammation induced by OxLDL also does not disrupt the interaction of CD24 and Siglec-G, suggesting that Siglec-G deficiency protects via other mechanisms than CD24.",
+  "reading_complete" : "2020-08-08T12:59:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:57:50Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of CD24 and Siglec-G" ],
+  "pmc_id" : "4802221",
+  "score" : 0
+}

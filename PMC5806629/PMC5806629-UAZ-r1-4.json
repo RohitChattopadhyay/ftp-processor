@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95861",
+      "entity_text" : "PIP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Pictilisib also resulted in loss of PIP 3 staining, as assessed by microscopy (XREF_SUPPLEMENTARY) and flow cytometry (XREF_SUPPLEMENTARY), which, along with the dissimilar pattern of PIP 2 staining (XREF_SUPPLEMENTARY), underscores the specificity of the observed polarity in class I PI3K activity.",
+  "reading_complete" : "2020-08-08T12:56:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:54:56Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PIP" ],
+  "pmc_id" : "5806629",
+  "score" : 0
+}

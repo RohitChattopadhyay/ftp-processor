@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006119",
+      "entity_text" : "oxidative phosphorylation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9W4S7",
+      "entity_text" : "dMyc",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "dMyc overexpression in Drosophila S2 cells stimulates glycolysis and suppresses oxidative phosphorylation.",
+  "reading_complete" : "2020-08-08T12:54:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:49:56Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "dMyc overexpression in Drosophila S2 cells stimulates glycolysis and suppresses oxidative phosphorylation" ],
+  "pmc_id" : "6910219",
+  "score" : 0
+}

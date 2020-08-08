@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "P65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, well-known readouts for canonical NF-kappaB signaling, such as the phosphorylation of IKKalpha / beta (XREF_FIG A), P65 or P105 (XREF_SUPPLEMENTARY A) were not impaired by Torin-1.",
+  "reading_complete" : "2020-08-08T12:57:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:54:43Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IKKalpha/beta ( XREF_FIG A), P65" ],
+  "pmc_id" : "5972226",
+  "score" : 0
+}

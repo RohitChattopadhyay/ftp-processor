@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21397",
+      "entity_text" : "MAOA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These macrophages were of the Cx3cr1 + lineage and exhibited a pro inflammatory state more similar to classically activated than M2-type macrophages; however, their most distinguishing feature was the expression of solute carrier family 6 member 2 (Slc6a2; a known NE transporter), as well as monoamine oxidase A (MAOA), an enzyme that degrades NE.",
+  "reading_complete" : "2020-08-08T12:57:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:40:43Z",
+  "trigger" : "degrades",
+  "evidence" : [ "MAOA), an enzyme that degrades NE" ],
+  "pmc_id" : "6466238",
+  "score" : 0
+}

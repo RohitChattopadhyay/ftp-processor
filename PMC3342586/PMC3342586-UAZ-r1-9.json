@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57301",
+      "entity_text" : "aceE",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0070469" ],
+      "Organ" : [ "uberon:UBERON:2002175" ],
+      "Species" : [ "taxonomy:28901" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The loss of aceE may also have influence on the expression of virulence genes important for the defense against ROI.",
+  "reading_complete" : "2020-08-08T12:59:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:57:51Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of aceE" ],
+  "pmc_id" : "3342586",
+  "score" : 0
+}

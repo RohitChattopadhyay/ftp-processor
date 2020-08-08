@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:mTORC2",
+      "entity_text" : "mTORC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Rapamycin, which is selective for mTORC1, specifically prevented the phosphorylation of the mTORC1 substrate S6K1, while the mTORC2 dependent phosphorylation of AKT on S473 was not affected (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T12:57:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:54:43Z",
+  "evidence" : [ "mTORC2-dependent phosphorylation of AKT on S473" ],
+  "pmc_id" : "5972226",
+  "score" : 0
+}

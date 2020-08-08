@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08697",
+      "entity_text" : "Apo3G",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00559",
+      "entity_text" : "Vif",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ]
+    }
+  },
+  "verbose_text" : "During the production of progeny virions, Vif binds to Apo3G and induces Apo3G 's proteasomal degradation, resulting in the decreased steady-state levels of human Apo3G.",
+  "reading_complete" : "2020-08-08T12:56:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:55:40Z",
+  "trigger" : "binds",
+  "evidence" : [ "Vif binds to Apo3G" ],
+  "pmc_id" : "3366772",
+  "score" : 0
+}
