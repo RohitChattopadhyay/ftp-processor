@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "alcohol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0739" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although alcohol abuse is associated with a spectrum of pancreatic diseases from acute self limiting episodes of pancreatitis to recurrent acute pancreatitis, chronic pancreatitis and pancreatic cancer, the majority of those who drink excessive amounts of alcohol do not develop pancreatic disease.",
+  "reading_complete" : "2020-08-08T19:29:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:27:52Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of alcohol" ],
+  "pmc_id" : "4515411",
+  "score" : 0
+}

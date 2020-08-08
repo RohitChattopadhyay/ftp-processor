@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14780",
+      "entity_text" : "MMP-9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1107" ],
+      "Organ" : [ "uberon:UBERON:2005013" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "A possible explanation for this discrepancy is that the amlodipine study used ELISA to measure MMP-9 level, whereas the more recent lercanidipine study used gel zymography XREF_BIBR.",
+  "reading_complete" : "2020-08-08T14:17:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:16:04Z",
+  "trigger" : "level",
+  "evidence" : [ "MMP-9 level" ],
+  "pmc_id" : "3160956",
+  "score" : 0
+}

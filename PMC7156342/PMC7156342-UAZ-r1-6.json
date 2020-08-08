@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "glutathione",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1117" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Organ" : [ "uberon:UBERON:0002022" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "Since animal studies have demonstrated a close link between glutathione and glutamate uptake into both microglia and astrocytes, and NMDA receptor function, we also predicted that glutathione and glutamate levels in the brain would be correlated across all subjects.",
+  "reading_complete" : "2020-08-08T14:22:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:18:06Z",
+  "trigger" : "levels",
+  "evidence" : [ "glutathione and glutamate levels" ],
+  "pmc_id" : "7156342",
+  "score" : 0
+}

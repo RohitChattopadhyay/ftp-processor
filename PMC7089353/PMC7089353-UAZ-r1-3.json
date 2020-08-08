@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P56817",
+      "entity_text" : "BACE",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4097" ],
+      "Cellular_component" : [ "go:GO:0009507" ]
+    }
+  },
+  "verbose_text" : "The amount of BACE protein produced in each plant line was calculated as the percent of BACE protein detected in triplicate ELISA compared to the TSP.",
+  "reading_complete" : "2020-08-08T13:56:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:55:40Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of BACE" ],
+  "pmc_id" : "7089353",
+  "score" : 0
+}

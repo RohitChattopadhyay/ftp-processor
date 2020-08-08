@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04792",
+      "entity_text" : "HSPB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10535" ],
+      "TissueType" : [ "tissuelist:TS-1061" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0002328" ]
+    }
+  },
+  "verbose_text" : "It was reported that RSV induced phosphorylation of HSPB1 in human bronchial epithelial cells ultimately results in epithelial membrane permeability 63.",
+  "reading_complete" : "2020-08-08T14:55:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:52:41Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of HSPB1" ],
+  "pmc_id" : "7167649",
+  "score" : 0
+}

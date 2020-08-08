@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5870",
+      "entity_text" : "E1",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "NBP subdomain" ],
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the second step, oligo-Ub, bound to the RNF52 domain, recruits ATP along with E1- or the ATP binding E1 via the NBP subdomain, where E1 activates oligo-Ub on the RNF52 domain using ATP; hence, the C-terminal glycine (G) of oligo-Ub is adenylated.",
+  "reading_complete" : "2020-08-08T17:56:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:47:31Z",
+  "trigger" : "binding",
+  "evidence" : [ "ATP-binding E1 via the NBP subdomain" ],
+  "pmc_id" : "5628404",
+  "score" : 0
+}

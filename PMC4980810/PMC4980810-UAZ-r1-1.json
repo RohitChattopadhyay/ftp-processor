@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This loop possesses a conserved arginine residue (Arg 380 in yeast), which interacts with the gamma-phosphate of ATP, and thus promotes ATP hydrolysis by Hsp90.",
+  "reading_complete" : "2020-08-08T18:09:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:56:35Z",
+  "trigger" : "promotes",
+  "evidence" : [ "promotes ATP hydrolysis by Hsp90" ],
+  "pmc_id" : "4980810",
+  "score" : 0
+}

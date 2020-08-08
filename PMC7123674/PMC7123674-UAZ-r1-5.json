@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05452",
+      "entity_text" : "Tn",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0031" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "They synthesized self adjuvanting vaccine candidates containing Tn glycosylated full-length MUC1 VNTR (variable number of tandem repeats) domains conjugated to a self assembled peptide sequence (Q11 domain, Fig. XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:38:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:35:32Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "Tn-glycosylated" ],
+  "pmc_id" : "7123674",
+  "score" : 0
+}

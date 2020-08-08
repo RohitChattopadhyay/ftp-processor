@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Therefore, we focused on LPS induced phosphorylation of ERK1/2, downstream of MAPK kinase, and p38 MAPK.",
+  "reading_complete" : "2020-08-08T13:14:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:12Z",
+  "trigger" : "induced",
+  "evidence" : [ "LPS-induced phosphorylation of ERK1/2" ],
+  "pmc_id" : "3608581",
+  "score" : 0
+}

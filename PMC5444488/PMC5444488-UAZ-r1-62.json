@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "When eIF2alpha.GTP.Met-tRNA i Met availability is reduced due to eIF2alpha phosphorylation, translation of the ATF4 mRNA increases ~ 10-fold.",
+  "reading_complete" : "2020-08-08T15:19:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "eIF2alpha phosphorylation" ],
+  "pmc_id" : "5444488",
+  "score" : 0
+}

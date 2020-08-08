@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05663",
+      "entity_text" : "TKL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4097" ],
+      "TissueType" : [ "tissuelist:TS-0392" ],
+      "Cellular_component" : [ "go:GO:0009509" ]
+    }
+  },
+  "verbose_text" : "This hypothesis is also supported by a recent phosphoproteomic study from orange chromoplasts which showed that the same conserved serine of TKL is phosphorylated at later stages of fruit ripening [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "serine of TKL is phosphorylated" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}

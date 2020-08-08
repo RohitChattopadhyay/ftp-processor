@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96B36",
+      "entity_text" : "PRAS40",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Consistent with VPS34-IN1 not supressing class I PI3Ks, we observed that the inhibitor had no effect on Akt phosphorylation at Ser 473 and Thr 308 or phosphorylation of the Akt substrate PRAS40 (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the Akt substrate PRAS40" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}

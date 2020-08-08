@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57678",
+      "entity_text" : "p97",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6022",
+      "entity_text" : "ADP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Structural data on p97 have shown the N-domains to be co-planar with the D1 domain in ADP bound p97, but in an ' up ' position in the ATP bound form [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "bound",
+  "evidence" : [ "ADP-bound p97" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MYL",
+      "entity_text" : "myosin light chains",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "E6 expressing cells showed increased cell motility and high level of phosphorylated myosin light chains while interacting with TIP-1 and could be inhibited through the silencing of expression of the TIP-1 protein [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:49:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:44:39Z",
+  "trigger" : "level",
+  "evidence" : [ "level of phosphorylated myosin light chains" ],
+  "pmc_id" : "4381219",
+  "score" : 0
+}

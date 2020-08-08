@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "CellType" : [ "cl:CL:0001054" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Elevated levels of IL-6, a potent inducer of acute phase responses, are characteristic of GCA.",
+  "reading_complete" : "2020-08-08T11:55:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:48:15Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-6" ],
+  "pmc_id" : "7193731",
+  "score" : 0
+}

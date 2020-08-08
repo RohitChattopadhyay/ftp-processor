@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Tyr701",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05161",
+      "entity_text" : "ISG15",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "IFN stimulated gene 15 (ISG15) overexpression in TE671 cells caused phosphorylation of IRF-3 (Ser396), JAK2 (Tyr1007/1008), and STAT1 (Tyr701 and Ser727), along with activation of STAT1 dependent genes, such as IRF-3, IFN-beta, IL-8, PKR and OAS, correlating with inhibited JEV replication 20.",
+  "reading_complete" : "2020-08-08T14:52:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:48:29Z",
+  "trigger" : "caused",
+  "evidence" : [ "ISG15) overexpression in TE671 cells caused phosphorylation of IRF-3 (Ser396), JAK2 (Tyr1007/1008), and STAT1 (Tyr701" ],
+  "pmc_id" : "7167617",
+  "score" : 0
+}

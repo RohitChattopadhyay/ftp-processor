@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38 MAPK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01574",
+      "entity_text" : "IFNbeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Western blot indicated JEV NS5 protein suppressing phosphorylated levels of ERK1/2, not p38 MAPK, in response to IFNbeta (Supporting Information Fig. XREF_FIG); JEV NS5 protein affects transcriptional activation of calreticulin promoter by reducing ERK1/2 phosphorylation.",
+  "reading_complete" : "2020-08-08T14:52:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:48:29Z",
+  "trigger" : "in response to",
+  "evidence" : [ "phosphorylated levels of ERK1/2, not p38 MAPK, in response to IFNbeta" ],
+  "pmc_id" : "7167617",
+  "score" : 0
+}

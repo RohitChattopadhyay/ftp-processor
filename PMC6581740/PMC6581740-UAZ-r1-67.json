@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07108",
+      "entity_text" : "CD69",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0065" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "IL-2 production was measured by ELISA (R & D Systems), whereas CD69 induction and ERK1/2 phosphorylation were measured by flow cytometry.",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "CD69 induction and ERK1/2 phosphorylation" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

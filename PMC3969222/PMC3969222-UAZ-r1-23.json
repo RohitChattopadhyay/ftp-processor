@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10695961",
+      "entity_text" : "cefotaxime",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF06296",
+      "entity_text" : "RelE",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For instance, expression of RelE in E. coli increased the number of persisters to cefotaxime, ofloxacin or tobramycin by 10-10000-fold [XREF_BIBR], whereas overexpression of HipA increased persisters by 10000-fold [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:21:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:14:01Z",
+  "trigger" : "increased",
+  "evidence" : [ "RelE in E. coli increased the number of persisters to cefotaxime" ],
+  "pmc_id" : "3969222",
+  "score" : 0
+}

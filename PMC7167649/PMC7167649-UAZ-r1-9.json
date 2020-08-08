@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04792",
+      "entity_text" : "HSPB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1061" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:10535" ],
+      "CellType" : [ "cl:CL:0002328" ]
+    }
+  },
+  "verbose_text" : "Phosphorylated HSPB1 has been shown to participate in the replication of adenovirus 60, HCV 61, and herpes simplex virus type 1 62.",
+  "reading_complete" : "2020-08-08T14:55:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:52:41Z",
+  "trigger" : "Phosphorylated",
+  "evidence" : [ "Phosphorylated HSPB1" ],
+  "pmc_id" : "7167649",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:93460",
+      "entity_text" : "voltage",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0397" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The amount of voltage drop due to this electrode fluid heating was evaluated by inserting the electrode into a physiologically unresponsive ganglion (i.e., not exhibiting any neuronal activity).",
+  "reading_complete" : "2020-08-08T13:33:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:32:44Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of voltage" ],
+  "pmc_id" : "4233276",
+  "score" : 0
+}

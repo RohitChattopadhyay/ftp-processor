@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03431",
+      "entity_text" : "pThr",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As expected, the kinase domains (alpha1-KD and alpha2-KD) were the most sensitive to phosphatase treatment suggesting that pThr 172/174 can readily be dephosphorylated in the absence of beta- and gamma-subunits (XREF_TABLE).",
+  "reading_complete" : "2020-08-08T19:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:27:43Z",
+  "trigger" : "dephosphorylated",
+  "evidence" : [ "pThr 172/174  can readily be dephosphorylated" ],
+  "pmc_id" : "4764975",
+  "score" : 0
+}

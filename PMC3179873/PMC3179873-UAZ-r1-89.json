@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15399",
+      "entity_text" : "TLR1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Cellular_component" : [ "go:GO:0005618" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000134" ]
+    }
+  },
+  "verbose_text" : "Given the fact that leptin plays a regulatory role in the immune system [XREF_BIBR], recent study demonstrated the expression and responsiveness of TLR1 to -9 in murine preadipocytes as well as adipocytes, both of which are strongly regulated by leptin [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:54:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:15Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression and responsiveness of TLR1" ],
+  "pmc_id" : "3179873",
+  "score" : 0
+}

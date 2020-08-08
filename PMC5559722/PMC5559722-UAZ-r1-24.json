@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P08567",
+      "entity_text" : "p47",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96JH7",
+      "entity_text" : "VCIP135",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57678",
+      "entity_text" : "p97",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, it has also been shown that ATP is required for the p97 - p47 - VCIP135 complex to dissociate from Syn5 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "complex",
+  "evidence" : [ "p97-p47-VCIP135 complex" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

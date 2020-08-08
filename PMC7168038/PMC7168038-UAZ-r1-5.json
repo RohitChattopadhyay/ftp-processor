@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "position" : "Ser727",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49591",
+      "entity_text" : "SARS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although SARS PLpro enhanced ERK1 degradation via activation of ubiquitin-proteasomal system and inhibited phosphorylation of STAT1 Ser727 in type I IFN signaling pathway, PLpro did not affect amount and activation of ERK2 in human promonocyte cells 16.",
+  "reading_complete" : "2020-08-08T15:34:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:32:17Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "SARS PLpro-enhanced ERK1 degradation via activation of ubiquitin-proteasomal system and inhibited phosphorylation of STAT1 Ser727" ],
+  "pmc_id" : "7168038",
+  "score" : 0
+}

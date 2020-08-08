@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16410",
+      "entity_text" : "CTLA-4",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Besides the TCR, we find the T-cell-specific receptor CTLA-4 to be hypermethylated and repressed in ALCL.",
+  "reading_complete" : "2020-08-08T14:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:22:15Z",
+  "trigger" : "hypermethylated",
+  "evidence" : [ "CTLA-4 to be hypermethylated" ],
+  "pmc_id" : "6066089",
+  "score" : 0
+}

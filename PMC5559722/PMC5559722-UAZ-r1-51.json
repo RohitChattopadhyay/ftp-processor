@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54252",
+      "entity_text" : "Ataxin-3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6D69" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Ubiquitination of Ataxin-3 itself activates the enzyme, as does binding to p97 [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "Ubiquitination",
+  "evidence" : [ "Ubiquitination of Ataxin-3" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

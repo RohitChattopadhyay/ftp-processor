@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "IFN",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In human neuroblastoma cells, NS5 expression would suppress IFNbeta induced responses, for example, expression of IFN stimulated genes PKR and OAS as well as STAT1 nuclear translocation and phosphorylation.",
+  "reading_complete" : "2020-08-08T14:52:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:48:29Z",
+  "trigger" : "stimulated",
+  "evidence" : [ "IFN-stimulated genes PKR and OAS as well as STAT1 nuclear translocation and phosphorylation" ],
+  "pmc_id" : "7167617",
+  "score" : 0
+}

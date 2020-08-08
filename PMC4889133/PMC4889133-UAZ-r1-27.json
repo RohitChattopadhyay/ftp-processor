@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03956",
+      "entity_text" : "hCAS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C795" ],
+      "Species" : [ "taxonomy:9940" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The percentage inhibition of LPS binding to hCAS was calculated as follows : [(OD control -OD test / OD control)] x 100, where OD test is the average OD 492 of the wells containing LPS and the inhibitor, and OD control is the average value for LPS alone.",
+  "reading_complete" : "2020-08-08T14:59:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:51:15Z",
+  "trigger" : "binding",
+  "evidence" : [ "LPS binding to hCAS" ],
+  "pmc_id" : "4889133",
+  "score" : 0
+}

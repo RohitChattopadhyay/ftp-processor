@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "APC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005912" ]
+    }
+  },
+  "verbose_text" : "In addition, when Wnt ligands are present, binding of beta-catenin to APC is inhibited and beta-catenin levels are increased in the cytoplasm and nucleus.",
+  "reading_complete" : "2020-08-08T16:34:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:32:27Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of beta-catenin to APC" ],
+  "pmc_id" : "3586510",
+  "score" : 0
+}

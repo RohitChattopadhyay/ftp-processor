@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15379",
+      "entity_text" : "HDAC3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0672" ],
+      "Cellular_component" : [ "go:GO:0030424" ]
+    }
+  },
+  "verbose_text" : "First, we find that loss of HDAC3 does not result in premature myelination but rather normal myelination followed by an \" overshoot \" with a failure to enter the homeostatic state.",
+  "reading_complete" : "2020-08-08T16:57:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:54:45Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of HDAC3" ],
+  "pmc_id" : "6293966",
+  "score" : 0
+}

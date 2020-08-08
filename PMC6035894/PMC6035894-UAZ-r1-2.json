@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BWK5",
+      "entity_text" : "MRI",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0001894" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Whereas the longitudinal methylation and MRI findings were null, the cis and trans expression methylation associations warrant confirmation in an independent sample.",
+  "reading_complete" : "2020-08-08T18:02:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:58:53Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation and MRI" ],
+  "pmc_id" : "6035894",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09020",
+      "entity_text" : "catenin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00028",
+      "entity_text" : "cadherin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0114" ],
+      "Cellular_component" : [ "go:GO:0005912" ]
+    }
+  },
+  "verbose_text" : "It forms a complex with E-cadherin as well as other catenins at the cell membrane forming adherens junctions and mediates the interaction between the cadherin - catenin complex and the actin cytoskeleton.",
+  "reading_complete" : "2020-08-08T16:34:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:32:27Z",
+  "trigger" : "complex",
+  "evidence" : [ "cadherin-catenin complex" ],
+  "pmc_id" : "3586510",
+  "score" : 0
+}

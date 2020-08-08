@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000698",
+      "entity_text" : "arrestin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0088" ]
+    }
+  },
+  "verbose_text" : "For many GPCRs, activation leads to rapid receptor phosphorylation, which in turn promotes the recruitment of arrestin leading to receptor internalization and the initiation of G-protein-independent signaling pathways [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:27:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:18:36Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation, which in turn promotes the recruitment of arrestin" ],
+  "pmc_id" : "5103873",
+  "score" : 0
+}

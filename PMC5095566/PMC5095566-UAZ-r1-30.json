@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y548" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Low bilirubin levels (< 0.32 mg/dL) were observed to be an independent risk factor associated with an increased risk of CAD development (n = 80, 0.9% of total subjects) with adjusted hazard ratio (HR) of 1.890 (95% CI : 1.088-3.284, P = 0.024).",
+  "reading_complete" : "2020-08-08T19:20:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:15:49Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "5095566",
+  "score" : 0
+}

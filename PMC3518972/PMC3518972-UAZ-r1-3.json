@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Hemoglobin",
+      "entity_text" : "hemoglobin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:210" ],
+      "TissueType" : [ "tissuelist:TS-0079" ]
+    }
+  },
+  "verbose_text" : "When hemodynamic instability (systolic blood pressure <90 mmHg or heart rate> 120 beats / minute) had developed or an abrupt drop of more than 2 g/dL of hemoglobin level occurred, these were also defined as a recurrence of bleeding.",
+  "reading_complete" : "2020-08-08T15:09:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:15Z",
+  "trigger" : "level",
+  "evidence" : [ "hemoglobin level" ],
+  "pmc_id" : "3518972",
+  "score" : 0
+}

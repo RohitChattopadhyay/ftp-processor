@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15927",
+      "entity_text" : "RPA2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75461",
+      "entity_text" : "E2F6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, the co-depletion of E2F6 and ATR reduces the extent of RPA2 phosphorylation, another marker of ATM activity (XREF_SUPPLEMENTARY E).",
+  "reading_complete" : "2020-08-08T16:00:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:58:25Z",
+  "trigger" : "reduces",
+  "evidence" : [ "E2F6 and ATR reduces the extent of RPA2 phosphorylation" ],
+  "pmc_id" : "4893157",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13255",
+      "entity_text" : "mGluR1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "CellLine" : [ "cellosaurus:CVCL_6911" ],
+      "Cellular_component" : [ "go:GO:0060076" ],
+      "Organ" : [ "uberon:UBERON:0001092" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The presence of protein levels for all three variants was confirmed following transient overexpression in HEK293FT cells (XREF_FIG A and 2C), although further confirmation of p.Gly1056Argfs * 49 mGluR1 levels in primary cells would be necessary to conclusively rule out the possibility of NMD.",
+  "reading_complete" : "2020-08-08T14:42:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:40:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "mGluR1 levels" ],
+  "pmc_id" : "5591020",
+  "score" : 0
+}

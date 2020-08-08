@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05639",
+      "entity_text" : "STN",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1017",
+      "entity_text" : "M2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0091" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "However, although there is a large peak in the high-beta / low-gamma-band NPD for the M2 --> STN interaction (XREF_FIG), if we examine the same connection but conditioned on LFPs recorded at either STR (XREF_FIG) or GPe (XREF_FIG), we see that the conditioning significantly reduces NPD in the control animals (M2 --> STN conditioned on STR and M2 --> STN conditioned on GPe), suggesting any directed coherence between M2 and STN in these animals is routed via striatal-pallidal connections.",
+  "reading_complete" : "2020-08-08T16:24:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:13:42Z",
+  "trigger" : "interaction",
+  "evidence" : [ "M2 --> STN interaction" ],
+  "pmc_id" : "6008089",
+  "score" : 0
+}

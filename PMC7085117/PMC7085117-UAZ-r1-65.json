@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51530",
+      "entity_text" : "DNA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000504" ]
+    }
+  },
+  "verbose_text" : "Relative levels of DNA2 mRNA were determined using the cycle threshold (Ct) value for DNA2 for individual PCR reactions subtracted by Ct value for the ACTIN control (DeltaCt value), which was then subtracted from the corresponding DeltaCt from siCTRL treated cells (DeltaDeltaCt), which was used to calculate 2 DeltaDeltaCt for the fold-change.",
+  "reading_complete" : "2020-08-08T16:27:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:24:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of DNA2" ],
+  "pmc_id" : "7085117",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:86583399",
+      "entity_text" : "acarbose",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Fourthly, they can hydrolyze acarbose, a potent inhibitor of alpha-amylases, to produce glucose and acarviosine-glucose [pseudotrisacc-haride].",
+  "reading_complete" : "2020-08-08T15:04:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:01:53Z",
+  "trigger" : "produce",
+  "evidence" : [ "acarbose, a potent inhibitor of alpha-amylases, to produce glucose" ],
+  "pmc_id" : "3777949",
+  "score" : 0
+}

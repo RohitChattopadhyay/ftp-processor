@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "synapse",
+    "from_location_text" : "cell body",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0044297",
+    "to_location_id" : "go:GO:0045202",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1117" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "However, when GABA is released from the cell body into the synapse, it becomes bound to GABA receptors, which broadens its resonance and makes it less detectable with MRS.",
+  "reading_complete" : "2020-08-08T14:54:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:53:26Z",
+  "trigger" : "released",
+  "evidence" : [ "GABA is released from the cell body into the synapse" ],
+  "pmc_id" : "6734395",
+  "score" : 0
+}

@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "APC",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Together, our data suggest that the CID-loss APC mutation promotes beta-catenin deubiquitination by (1) reduced binding of the E3 ligase beta-TrCP from the destruction complex and (2) exposing beta-catenin to the DUB enzyme USP7.",
+  "reading_complete" : "2020-08-08T15:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:47:34Z",
+  "trigger" : "promotes",
+  "evidence" : [ "APC mutation promotes beta-catenin deubiquitination" ],
+  "pmc_id" : "5656747",
+  "score" : 0
+}

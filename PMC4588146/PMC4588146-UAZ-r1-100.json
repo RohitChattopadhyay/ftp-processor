@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12772",
+      "entity_text" : "SREBP2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06454",
+      "entity_text" : "miR-185",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Indeed, miR-185 decreased SREBP2 mRNA and protein expression in vitro, leading to a downstream decrease in SREBP2 responsive genes, including LDL receptor (LDLR) [XREF_BIBR], resulting in a subsequent decrease in cellular LDL uptake.",
+  "reading_complete" : "2020-08-08T18:43:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:34:21Z",
+  "trigger" : "decreased",
+  "evidence" : [ "miR-185 decreased SREBP2" ],
+  "pmc_id" : "4588146",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB02168",
+      "entity_text" : "superoxide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:76720" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Fluorescence intensity, which positively correlates with the amount of superoxide generation, was determined in the liver and lung tissues using software (Image J, v1.60, National Institutes of Health, Bethesda, MD).",
+  "reading_complete" : "2020-08-08T19:35:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:31:37Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of superoxide" ],
+  "pmc_id" : "7236599",
+  "score" : 0
+}

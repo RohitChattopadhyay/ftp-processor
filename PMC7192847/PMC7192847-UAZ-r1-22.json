@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histones",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It functions to deacetylate histones and affect gene expression epigenetically [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:29:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:25:19Z",
+  "trigger" : "deacetylate",
+  "evidence" : [ "deacetylate histones" ],
+  "pmc_id" : "7192847",
+  "score" : 0
+}

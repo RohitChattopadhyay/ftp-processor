@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TD46",
+      "entity_text" : "CD200R",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Western blot analyses and functional studies using CD200R1 expressing Hek293 cells showed that the shed CD200 detected in CLL and Hek293-hCD200 supernatants lacked the cytoplasmic domain of CD200 but retained the functional extracellular domain required for binding to, and phosphorylation of, CD200R.",
+  "reading_complete" : "2020-08-08T16:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:45Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of, CD200R" ],
+  "pmc_id" : "4844103",
+  "score" : 0
+}

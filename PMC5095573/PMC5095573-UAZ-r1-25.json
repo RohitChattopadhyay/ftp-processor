@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The expression of TNF-alpha was different at different time points after 8 h of LPS stimulation (F = 31.33, DF = 5, P < 0.001), and the expression of TNF-alpha increased as the LPS stimulation time increased.",
+  "reading_complete" : "2020-08-08T18:16:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:13:49Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of TNF-alpha" ],
+  "pmc_id" : "5095573",
+  "score" : 0
+}

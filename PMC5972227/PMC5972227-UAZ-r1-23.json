@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B0YJ81",
+      "entity_text" : "cap",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:RNApo_II",
+      "entity_text" : "RNA polymerase II",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "For transcription, the virus is dependent on the host RNA polymerase II (Pol II) to supply 5 ' capped transcripts, which are bound and cleaved by the cap binding and endonuclease domains of FluPol.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "bound",
+  "evidence" : [ "RNA polymerase II (Pol II) to supply 5' capped transcripts, which are bound and cleaved by the cap" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

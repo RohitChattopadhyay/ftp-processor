@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3034819",
+      "entity_text" : "methyl",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1E31" ],
+      "TissueType" : [ "tissuelist:TS-1109" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In MS 2, the subsequent losses of two methyl radicals (CH 3 *) confirmed the dimethyl substituted quaternary ammonium character of this compound (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:15:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:09:38Z",
+  "trigger" : "losses",
+  "evidence" : [ "losses of two methyl" ],
+  "pmc_id" : "4009767",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5283563",
+      "entity_text" : "ceramide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Because ceramide in the inner leaflet of the lysosomal membrane promotes an inward budding, this process might be inhibited by an increased intralysosomal concentration of ceramide that would finally reduce and inhibit autophagy, because newly formed autophagosomes do not find enough lysosomes with which they can fuse.",
+  "reading_complete" : "2020-08-08T16:24:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:14:10Z",
+  "trigger" : "reduce",
+  "evidence" : [ "ceramide that would finally reduce and inhibit autophagy" ],
+  "pmc_id" : "6294742",
+  "score" : 0
+}

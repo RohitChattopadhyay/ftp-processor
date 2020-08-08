@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000922" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "While this property might appear to violate the second law of thermodynamics, no such problem is encountered, because the system is driven by hydrolysis of the GTP bound to tubulin during its polymerization.",
+  "reading_complete" : "2020-08-08T13:56:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:32:24Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of the GTP" ],
+  "pmc_id" : "5192435",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05055",
+      "entity_text" : "hydroxylase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To determine whether hydroxylase inhibition increased p53 ubiquitination, we precipitated ubiquitinated proteins by tandem ubiquitin binding entities (TUBEs) pull-downs in HepG2 cells incubated with or without DMOG and MG132.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "increased",
+  "evidence" : [ "hydroxylase inhibition increased p53 ubiquitination" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

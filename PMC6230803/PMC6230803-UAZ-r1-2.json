@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12270",
+      "entity_text" : "TPR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02991",
+      "entity_text" : "N_inc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "With the former Wave_clus implementation (dashed line), increasing N_inc led to an increase of the TPR, with a reduction of the FPR, until N_inc = 25; then the TPR stabilized at 75-80%.",
+  "reading_complete" : "2020-08-08T13:51:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:57Z",
+  "trigger" : "led to",
+  "evidence" : [ "N_inc led to an increase of the TPR" ],
+  "pmc_id" : "6230803",
+  "score" : 0
+}

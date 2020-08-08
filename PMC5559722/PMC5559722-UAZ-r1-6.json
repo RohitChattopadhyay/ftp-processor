@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IYU2",
+      "entity_text" : "HACE1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000139" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "During early mitosis HACE1 ubiquitinates Syn5, which prevents the interaction of Syn5 with its corresponding v-SNARE Bet1 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "ubiquitinates",
+  "evidence" : [ "HACE1 ubiquitinates" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

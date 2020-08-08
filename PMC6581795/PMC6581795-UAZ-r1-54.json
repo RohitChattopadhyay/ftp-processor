@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07018",
+      "entity_text" : "gammaH2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:157914" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of HP1beta on T53 by CK2 led to its release from H3K9me, which in turn promotes chromatin relaxation and downstream events such as gammaH2AX phosphorylation.",
+  "reading_complete" : "2020-08-08T17:05:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:01:43Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "gammaH2AX phosphorylation" ],
+  "pmc_id" : "6581795",
+  "score" : 0
+}

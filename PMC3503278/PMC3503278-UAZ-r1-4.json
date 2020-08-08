@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15941",
+      "entity_text" : "MUC1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0739" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:4000142" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000160" ]
+    }
+  },
+  "verbose_text" : "They observed the expression of MUC1 and -6 but not that of MUC2 or -5 AC in nonneoplastic pancreatic samples.",
+  "reading_complete" : "2020-08-08T14:41:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:37:55Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of MUC1" ],
+  "pmc_id" : "3503278",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05054",
+      "entity_text" : "DMOG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We detected that DMOG increased p53 ubiquitination compared to the untreated sample (XREF_FIG F).",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "increased",
+  "evidence" : [ "DMOG increased p53 ubiquitination" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

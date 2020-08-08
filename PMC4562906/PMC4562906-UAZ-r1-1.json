@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MEK",
+      "entity_text" : "MEK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07820",
+      "entity_text" : "Mcl1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Elevated Mcl1 required continuous H-RasV12 signaling, since tamoxifen withdrawal from induced ERRAS cells reduced Mcl1 protein level, concomitant with the decline in MEK1/2 phosphorylation (XREF_SUPPLEMENTARY E).",
+  "reading_complete" : "2020-08-08T14:29:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:27:56Z",
+  "trigger" : "reduced",
+  "evidence" : [ "Mcl1 required continuous H-RasV12 signaling, since tamoxifen withdrawal from induced ERRAS cells reduced Mcl1 protein level, concomitant with the decline in MEK1/2 phosphorylation" ],
+  "pmc_id" : "4562906",
+  "score" : 0
+}

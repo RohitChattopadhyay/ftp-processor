@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3704" ]
+    }
+  },
+  "verbose_text" : "As mentioned previously, PHDs regulate upstream effectors of the p53 signaling network, which manifests in the modification of p53 phosphorylation on serine 15.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p53 phosphorylation on serine" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:99278",
+      "entity_text" : "GE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0210" ],
+      "Organ" : [ "uberon:UBERON:2000228" ]
+    }
+  },
+  "verbose_text" : "Further, small amounts of unauthorized GE events may occur in shipments of grain for use in food or feed (including import and processing).",
+  "reading_complete" : "2020-08-08T13:32:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:30:13Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of unauthorized GE" ],
+  "pmc_id" : "4204000",
+  "score" : 0
+}

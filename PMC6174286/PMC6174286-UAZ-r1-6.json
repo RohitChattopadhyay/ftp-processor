@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36405",
+      "entity_text" : "ARL3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Cellular_component" : [ "go:GO:0005930" ],
+      "Organ" : [ "uberon:UBERON:0010168" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To confirm these phenotypes as specific to the loss of ARL3 function, we sought to determine the ciliary content of GLI3 in WT and ARL3-mutant cilia.",
+  "reading_complete" : "2020-08-08T14:27:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:25:01Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ARL3" ],
+  "pmc_id" : "6174286",
+  "score" : 0
+}

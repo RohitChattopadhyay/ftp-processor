@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09382",
+      "entity_text" : "gal-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000871" ]
+    }
+  },
+  "verbose_text" : "In experimental stress conditions, the serum level of gal-1 and its expression in the spleen and thymus were increased.",
+  "reading_complete" : "2020-08-08T14:17:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:06:09Z",
+  "trigger" : "level",
+  "evidence" : [ "level of gal-1" ],
+  "pmc_id" : "7150867",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "27",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "H3K27ac (acetylation of lysine 27 on histone H3) is associated with active enhancer elements; H3K27me3 (trimethylation of lysine 27 on histone H3) is associated with the formation of heterochromatin and gene inactivation.",
+  "reading_complete" : "2020-08-08T15:00:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:51:50Z",
+  "trigger" : "trimethylation",
+  "evidence" : [ "trimethylation of lysine 27 on histone H3" ],
+  "pmc_id" : "6956161",
+  "score" : 0
+}

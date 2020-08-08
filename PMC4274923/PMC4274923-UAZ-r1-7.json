@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Although the proportion of calcium coming through L-type channels is lower with spiking from -70 mV, it might be expected that identical amounts of L-type-mediated calcium entry would occur with spiking from both membrane potentials, but that the proportion is changed due to a greater amount of calcium entering through T-type channels with spiking from -70 mV.",
+  "reading_complete" : "2020-08-08T13:34:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:33:47Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of calcium" ],
+  "pmc_id" : "4274923",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5202",
+      "entity_text" : "5-HT",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0380" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As both mechanisms tightly control the active 5-HT fraction, their downregulation by C-SERT-siRNA dramatically increased the extracellular 5-HT levels in the forebrain in a faster way than that produced by the pharmacological SERT blockade with FLX.",
+  "reading_complete" : "2020-08-08T13:15:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:11:25Z",
+  "trigger" : "levels",
+  "evidence" : [ "5-HT levels" ],
+  "pmc_id" : "4759205",
+  "score" : 0
+}

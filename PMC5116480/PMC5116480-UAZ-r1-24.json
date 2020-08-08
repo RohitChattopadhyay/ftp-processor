@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08736",
+      "entity_text" : "FA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0180" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The associations between a greater amount of VGP and lower FA as well as lower PIQ were observed only in cross-sectional analyses.",
+  "reading_complete" : "2020-08-08T13:49:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:47:06Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of VGP and lower FA" ],
+  "pmc_id" : "5116480",
+  "score" : 0
+}

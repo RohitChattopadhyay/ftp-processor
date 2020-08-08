@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine residue",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05670",
+      "entity_text" : "AtTKL1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0009507" ],
+      "CellType" : [ "cl:CL:0002045" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "AtTKL1 is phosphorylated at a conserved serine residue.",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "AtTKL1 is phosphorylated at a conserved serine residue" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}

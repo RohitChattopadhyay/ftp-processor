@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5865",
+      "entity_text" : "prednisone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "PAN cases associated with hepatitis B are treated with a short course of prednisone (1 mg/kg/day) to suppress the inflammation.",
+  "reading_complete" : "2020-08-08T11:55:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:48:15Z",
+  "trigger" : "suppress",
+  "evidence" : [ "prednisone (1 mg/kg/day) to suppress the inflammation" ],
+  "pmc_id" : "7193731",
+  "score" : 0
+}

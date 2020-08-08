@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:969516",
+      "entity_text" : "curcumin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "Organ" : [ "uberon:UBERON:0000062" ]
+    }
+  },
+  "verbose_text" : "In vivo organ bio-distribution study showed a negligible amount of curcumin in the stomach and small intestine and there was a significant reduction in extent and severity of colonic damage with these microspheres [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:32:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:29:59Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of curcumin" ],
+  "pmc_id" : "5421114",
+  "score" : 0
+}

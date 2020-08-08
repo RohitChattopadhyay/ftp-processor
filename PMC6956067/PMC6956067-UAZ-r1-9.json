@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:5833" ],
+      "TissueType" : [ "tissuelist:TS-0688" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000096" ]
+    }
+  },
+  "verbose_text" : "Specifically regarding B. besnoiti triggered NET formation the process is correlated with a simultaneous increase in autophagy, a process that involves AMPK phosphorylation indicating some insights about the controlling mechanisms in B. besnoiti triggered NETs formation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:31:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:24:04Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "AMPK phosphorylation" ],
+  "pmc_id" : "6956067",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07222",
+      "entity_text" : "Hippo pathway tumor\nsuppressor gene",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_N717" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "We also note that the NF2 splice site mutation in sample AA0S experienced loss of heterozygosity, suggesting bi-allelic loss of this Hippo pathway tumor suppressor gene.",
+  "reading_complete" : "2020-08-08T14:56:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:55:17Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of this Hippo pathway tumor\nsuppressor gene" ],
+  "pmc_id" : "5493145",
+  "score" : 0
+}

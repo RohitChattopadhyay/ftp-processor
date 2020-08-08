@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Low levels of ROS and RNS have a physiological effect on cellular functions including neuronal plasticity [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:22:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:14:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of ROS" ],
+  "pmc_id" : "3135156",
+  "score" : 0
+}

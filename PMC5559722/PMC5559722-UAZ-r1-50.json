@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03152",
+      "entity_text" : "UFD1",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6D69" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The ubiquitin binding cofactors UFD1 / NPL4, FAF1, SAKS1, UBXD7 and UBXD8 are all capable of binding K48 polyubiquitin.",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding cofactors UFD1" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

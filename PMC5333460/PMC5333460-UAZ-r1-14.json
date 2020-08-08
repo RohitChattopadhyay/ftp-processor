@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92793",
+      "entity_text" : "CBP",
+      "features" : [ {
+        "modification_type" : "sumoylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Those included the transcriptional co-activators P300 and CBP, SUMOylation of which had been previously reported to suppress transcription.",
+  "reading_complete" : "2020-08-08T15:32:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:30:05Z",
+  "trigger" : "suppress",
+  "evidence" : [ "CBP, SUMOylation of which had been previously reported to suppress transcription" ],
+  "pmc_id" : "5333460",
+  "score" : 0
+}

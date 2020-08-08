@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10747",
+      "entity_text" : "CD28",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0511" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Comparison of Jurkat-PD-1 OST cells stimulated with Raji or Raji-PD-L1 cells + SEE for 5 min showed that PD-1 engagement resulted in reduced levels of tyrosine phosphorylation of CD28 and of the LAT and SLP76 adaptors, whereas no change was detected for ZAP-70 (XREF_FIG A-7D).",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of CD28" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

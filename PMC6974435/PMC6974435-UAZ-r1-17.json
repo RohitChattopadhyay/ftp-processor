@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01196",
+      "entity_text" : "Runx1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0627" ]
+    }
+  },
+  "verbose_text" : "For example, at postnatal (P) day 10, transformation from amoeboid to ramified microglia was accompanied by the loss of transcription factor Runx1 [XREF_BIBR]; at P28, microglia are fully ramified with concomitant decrease in microglial density and transcriptomic maturation that retains into adulthood in mice [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:38:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:22Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of transcription factor Runx1" ],
+  "pmc_id" : "6974435",
+  "score" : 0
+}

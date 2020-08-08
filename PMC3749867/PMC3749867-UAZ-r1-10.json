@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06738",
+      "entity_text" : "1x10 3  PtdIns5P molecules",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0895" ]
+    }
+  },
+  "verbose_text" : "Assuming an average DT40 cell size of 10 mum diameter, this number can be converted into a V max of approximately 1x10 3 PtdIns5P molecules phosphorylated per s per cell, although this could be higher depending on the PtdIns5P concentration local to the enzyme.",
+  "reading_complete" : "2020-08-08T19:06:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:57:05Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "1x10 3  PtdIns5P molecules phosphorylated" ],
+  "pmc_id" : "3749867",
+  "score" : 0
+}

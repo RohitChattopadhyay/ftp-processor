@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05198",
+      "entity_text" : "eIF2alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of GDP-eIF2alpha at position serine 51 by protein kinases, such as GCN2 and PERK, inhibits the exchange from GDP bound eIF2alpha to GTP bound eIF2alpha by interfering with its interaction with the guanine nucleotide exchange protein eIF2B [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:19:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:34Z",
+  "trigger" : "bound",
+  "evidence" : [ "GDP-bound eIF2alpha" ],
+  "pmc_id" : "5444488",
+  "score" : 0
+}

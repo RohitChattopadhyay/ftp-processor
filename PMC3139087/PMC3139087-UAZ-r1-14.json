@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01538",
+      "entity_text" : "Myt1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0709" ],
+      "Cellular_component" : [ "go:GO:0005730" ],
+      "CellType" : [ "cl:CL:0000128" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Mature oligodendrocytes do not express appreciable amounts of Myt1 and the subcellular distribution of Myt1 shifts shortly before cells stop expressing Myt1; consequently the Myt1 protein in mature oligodendrocytes is transiently detected in the cytoplasmic compartment.",
+  "reading_complete" : "2020-08-08T13:38:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:37:49Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of Myt1" ],
+  "pmc_id" : "3139087",
+  "score" : 0
+}

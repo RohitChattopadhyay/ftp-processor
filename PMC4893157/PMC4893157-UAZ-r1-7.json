@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75461",
+      "entity_text" : "E2F6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Strikingly, protective factors such as Rad51, FANCD2, PCNA, and Cdc7, which become bound to chromatin upon 7 hr HU treatment, show defective recruitment to chromatin when transcription is blocked by E2F6 overexpression (XREF_FIG E).",
+  "reading_complete" : "2020-08-08T16:00:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:58:25Z",
+  "trigger" : "blocked",
+  "evidence" : [ "transcription is blocked by E2F6" ],
+  "pmc_id" : "4893157",
+  "score" : 0
+}

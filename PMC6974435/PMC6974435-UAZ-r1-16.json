@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Interferon",
+      "entity_text" : "interferon",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0627" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000234" ]
+    }
+  },
+  "verbose_text" : "One recent scRNAseq human study found higher levels of type-I interferon genes in the GM but higher levels of NF-kappaB pathway genes in the WM; transcriptional changes in microglia isolated from multiple sclerosis patients also differed between the GM and WM [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:38:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:22Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of type-I interferon" ],
+  "pmc_id" : "6974435",
+  "score" : 0
+}

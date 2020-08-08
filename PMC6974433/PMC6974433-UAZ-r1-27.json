@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05261",
+      "entity_text" : "miRNA promoter",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Since miRNAs themselves can be regulated through epigenetic modifications, two studies have explored methylation patterns on miRNA promoter regions in relation to ELS.",
+  "reading_complete" : "2020-08-08T18:57:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:48:44Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation patterns on miRNA promoter" ],
+  "pmc_id" : "6974433",
+  "score" : 0
+}

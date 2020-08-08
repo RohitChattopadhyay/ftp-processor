@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q695T7",
+      "entity_text" : "B0AT1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BYF1",
+      "entity_text" : "ACE2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "go:GO:0043657" ]
+    }
+  },
+  "verbose_text" : "Structural analyses on ACE2 reveal that CoV-2 binds to its typical ligand (amino acid transporter i.e. B0AT1) to form ACE2 - B0AT1 complex.",
+  "reading_complete" : "2020-08-08T11:15:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:11:13Z",
+  "trigger" : "complex",
+  "evidence" : [ "ACE2-B0AT1 complex" ],
+  "pmc_id" : "7179495",
+  "score" : 0
+}

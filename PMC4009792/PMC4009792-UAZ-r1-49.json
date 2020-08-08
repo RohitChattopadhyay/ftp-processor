@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4156",
+      "entity_text" : "methyl methanesulfonate",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "atm",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The atm mutant is sensitive to DSB inducing agents (e.g., IR and methyl methanesulfonate) [XREF_BIBR], and the atr mutant is sensitive to replication stress inducing agents (e.g., aphidicolin or HU) [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:50:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:42:42Z",
+  "trigger" : "inducing",
+  "evidence" : [ "atm mutant is sensitive to DSB-inducing agents (e.g., IR and methyl methanesulfonate" ],
+  "pmc_id" : "4009792",
+  "score" : 0
+}

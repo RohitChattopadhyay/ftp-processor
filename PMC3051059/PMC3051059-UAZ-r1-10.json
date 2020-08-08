@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15397",
+      "entity_text" : "PUFA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:9913" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "Oocytes and sperm contain high levels of PUFA, and the PUFA composition of cell membranes is critical during fertilization.",
+  "reading_complete" : "2020-08-08T14:17:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:16:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PUFA" ],
+  "pmc_id" : "3051059",
+  "score" : 0
+}

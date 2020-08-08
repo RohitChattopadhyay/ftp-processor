@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08045",
+      "entity_text" : "Cdc14",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005730" ]
+    }
+  },
+  "verbose_text" : "Additional late mitotic kinases probably sustain Net1 phosphorylation and thus Cdc14 activity through mitotic exit.",
+  "reading_complete" : "2020-08-08T13:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:30:04Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and thus Cdc14" ],
+  "pmc_id" : "6857435",
+  "score" : 0
+}

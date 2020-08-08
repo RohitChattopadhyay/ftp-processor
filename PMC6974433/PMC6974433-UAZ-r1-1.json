@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05244",
+      "entity_text" : "miR-124",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00803",
+      "entity_text" : "3a",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In cortisol treated rats, the Dwivedi group [XREF_BIBR] found decreased methylation in the promoter region of miR-124 on chromosome 3 as well as decreased expression of DNA methyltransferase 3a concurrent with increased miR-124 expression levels and decreased target gene expression.",
+  "reading_complete" : "2020-08-08T18:57:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:48:44Z",
+  "trigger" : "decreased",
+  "evidence" : [ "methylation in the promoter region of miR-124 on chromosome 3 as well as decreased expression of DNA methyltransferase 3a" ],
+  "pmc_id" : "6974433",
+  "score" : 0
+}

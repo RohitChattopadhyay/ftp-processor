@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05283",
+      "entity_text" : "miR-203",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "After confirmation using methylated DNA immunoprecipitation, they found that miR-514, let-7d, miR-520c, miR-215, miR-519a, and miR-519e were hypermethylated, whereas miR-203 was hypomethylated.",
+  "reading_complete" : "2020-08-08T18:57:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:48:44Z",
+  "trigger" : "hypomethylated",
+  "evidence" : [ "miR-203 was hypomethylated" ],
+  "pmc_id" : "6974433",
+  "score" : 0
+}

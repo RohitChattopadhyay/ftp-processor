@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07405",
+      "entity_text" : "PtdIns",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NEB9",
+      "entity_text" : "Vps34",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Our data suggest that SGK3 activity is partially controlled by a pool of PtdIns (3) P, produced via phosphorylation of PtdIns by Vps34 and another pool of PtdIns (3) P that could be derived from dephosphorylation of PtdIns (3,4,5) P 3 to PtdIns (3) P through the sequential actions of SHIP1/2 and INPP4B PtdIns phosphatases.",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "produced",
+  "evidence" : [ "produced via phosphorylation of PtdIns by Vps34" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}

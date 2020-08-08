@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15421",
+      "entity_text" : "GPe",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05639",
+      "entity_text" : "STN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "When testing for significant attenuation of NPD following conditioning, we found that only control recordings were significantly attenuated (4 of 6 connections; XREF_FIG, red bars), with high-beta / gamma peaks most clearly lost in the STR--> STN and STN --> GPe interactions.",
+  "reading_complete" : "2020-08-08T16:24:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:13:42Z",
+  "trigger" : "interactions",
+  "evidence" : [ "STN --> GPe interactions" ],
+  "pmc_id" : "6008089",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10141" ],
+      "TissueType" : [ "tissuelist:TS-0118" ],
+      "Organ" : [ "uberon:UBERON:0035878" ]
+    }
+  },
+  "verbose_text" : "Cartilage collagen of the DH animals was found to have a reduced lysyl hydroxylation compared with control BS2s, which was reflected in higher levels of the less hydroxylated mature collagen cross-link, L-Pyr.",
+  "reading_complete" : "2020-08-08T17:58:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:55:21Z",
+  "trigger" : "hydroxylated",
+  "evidence" : [ "hydroxylated mature collagen" ],
+  "pmc_id" : "3176911",
+  "score" : 0
+}

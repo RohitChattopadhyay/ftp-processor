@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04614",
+      "entity_text" : "CD62L",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8262" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000542" ]
+    }
+  },
+  "verbose_text" : "In lymphocytes, ectodomain shedding of CD62L by ADAM proteases, which is induced upon PMA stimulation, is reflected also in a loss of CD62L from the cell surface by FACS [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:45Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CD62L" ],
+  "pmc_id" : "4844103",
+  "score" : 0
+}

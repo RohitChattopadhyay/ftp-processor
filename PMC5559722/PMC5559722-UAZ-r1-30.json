@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "pfam:PF03152",
+      "entity_text" : "UFD1",
+      "entity_type" : "family"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8TAT6",
+      "entity_text" : "NPL4",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR005938",
+      "entity_text" : "Cdc48",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005741" ]
+    }
+  },
+  "verbose_text" : "Analogous to ERAD, the Cdc48 - UFD1 - NPL4 complex plays a role in mitochondrial degradation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "complex",
+  "evidence" : [ "Cdc48-UFD1-NPL4 complex" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

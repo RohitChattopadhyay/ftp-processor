@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBU3",
+      "entity_text" : "ghrelin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01241",
+      "entity_text" : "GH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0158" ],
+      "Organ" : [ "uberon:UBERON:4000142" ],
+      "CellType" : [ "cl:CL:0002563" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Another proposed pathogenic mechanism could be related to hormonal imbalance which can be influenced by the complex interaction between GH and ghrelin, as shown by Arosio et al [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T20:09:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:07:09Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between GH and ghrelin" ],
+  "pmc_id" : "7288728",
+  "score" : 0
+}

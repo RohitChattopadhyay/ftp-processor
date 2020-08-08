@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1018",
+      "entity_text" : "Pla",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:632" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0005618" ]
+    }
+  },
+  "verbose_text" : "Pla also binds the GAG heparan sulphate, and collagen 44, though the latter has been contested 45.",
+  "reading_complete" : "2020-08-08T15:16:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:13:51Z",
+  "trigger" : "binds",
+  "evidence" : [ "Pla also binds the GAG heparan sulphate, and collagen" ],
+  "pmc_id" : "7167786",
+  "score" : 0
+}

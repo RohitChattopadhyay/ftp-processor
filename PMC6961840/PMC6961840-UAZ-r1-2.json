@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S284",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14896",
+      "entity_text" : "MYBPC3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:76720" ],
+      "TissueType" : [ "tissuelist:TS-0895" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The phosphorylation of S275, S284, and S304 in MYBPC3 by PKA and other kinases causes the MYBPC3 N-terminal domain to dissociate from myosin heavy chain and, hence, increase cardiac crossbridge formation.",
+  "reading_complete" : "2020-08-08T16:03:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:00:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of S275, S284, and S304 in MYBPC3" ],
+  "pmc_id" : "6961840",
+  "score" : 0
+}

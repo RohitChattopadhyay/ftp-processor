@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "Tau",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00499",
+      "entity_text" : "Bin1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, lower Bin1 levels promote propagation of Tau pathology by decreasing aggregate endocytosis and lysosomal degradation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:49:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:31:38Z",
+  "trigger" : "promote",
+  "evidence" : [ "Bin1 levels promote propagation of Tau" ],
+  "pmc_id" : "7319585",
+  "score" : 0
+}

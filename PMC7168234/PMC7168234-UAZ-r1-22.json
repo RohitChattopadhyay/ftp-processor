@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40763",
+      "entity_text" : "STAT3",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Phosphorylated STAT3 (pSTAT3) proteins dimerize and translocate to the nucleus, where they transcribe the expression of various genes involved in cell cycle progression, proliferation, migration, invasion, and survival [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T14:26:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:23:16Z",
+  "trigger" : "translocate",
+  "evidence" : [ "STAT3 (pSTAT3) proteins dimerize and translocate to the nucleus" ],
+  "pmc_id" : "7168234",
+  "score" : 0
+}

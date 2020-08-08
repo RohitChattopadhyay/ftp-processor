@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:888",
+      "entity_text" : "magnesium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "CellType" : [ "cl:CL:0000092" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The mechanism of PPI induced hypomagnesaemia is unknown, however, monitoring of serum magnesium levels has been recommended for susceptible patients, including patients using diuretics concurrently [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:51:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:44:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "magnesium levels" ],
+  "pmc_id" : "5095572",
+  "score" : 0
+}

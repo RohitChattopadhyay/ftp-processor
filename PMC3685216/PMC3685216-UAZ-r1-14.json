@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14672",
+      "entity_text" : "GLUT4",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This tissue dependent effect on GLUT4 levels in adipose tissue and skeletal muscle correlates with the changes in insulin stimulated glucose uptake in primary adipocytes and various types of skeletal muscle (XREF_FIG E- XREF_FIG F and XREF_FIG A- XREF_FIG C), suggesting that the decreased glucose uptake in response to insulin in primary adipocytes, and soleus and vastus muscle from the AS160-knockout mouse is most probably caused by the lower levels of GLUT4 in these cells and tissues.",
+  "reading_complete" : "2020-08-08T18:25:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:21:07Z",
+  "trigger" : "caused",
+  "evidence" : [ "glucose uptake in response to insulin in primary adipocytes, and soleus and vastus muscle from the AS160-knockout mouse is most probably caused by the lower levels of GLUT4" ],
+  "pmc_id" : "3685216",
+  "score" : 0
+}

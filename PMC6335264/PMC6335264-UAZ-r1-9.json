@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0036477" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In contrast, the IVS10 +16 mutation is not a coding mutation but rather is an intronic single base change that favors the inclusion of exon 10 in the MAPT mRNA, increasing the amount of tau containing four microtubule binding repeats (4R), relative to the three-repeat (3R) form.",
+  "reading_complete" : "2020-08-08T14:37:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:08Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of tau" ],
+  "pmc_id" : "6335264",
+  "score" : 0
+}

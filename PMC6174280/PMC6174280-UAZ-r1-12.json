@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04141",
+      "entity_text" : "CSF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0002707" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Blood pH levels ranged from 7.308 to 7.076, blood gas lactate ranged from 16.9 to 18.5 mmol/L (normal = 0.6-1.4 mmol/L), and the CSF lactate level was recorded at 10.9 mmol/L (normal = 1.1-2.2 mmol/L).",
+  "reading_complete" : "2020-08-08T13:57:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:54:00Z",
+  "trigger" : "level",
+  "evidence" : [ "CSF lactate level" ],
+  "pmc_id" : "6174280",
+  "score" : 0
+}

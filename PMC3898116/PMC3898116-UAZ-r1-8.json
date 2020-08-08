@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0711" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000023" ]
+    }
+  },
+  "verbose_text" : "The level of HA tagged transporters present at the cell surface was then calculated from the rate of fluorescence generated per oocyte.",
+  "reading_complete" : "2020-08-08T15:39:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:32:59Z",
+  "trigger" : "level",
+  "evidence" : [ "level of HA" ],
+  "pmc_id" : "3898116",
+  "score" : 0
+}

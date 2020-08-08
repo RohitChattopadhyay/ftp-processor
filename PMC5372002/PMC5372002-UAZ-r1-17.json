@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01033",
+      "entity_text" : "EPA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000062" ]
+    }
+  },
+  "verbose_text" : "Not only are the pro inflammatory AA derived prostaglandins, leukotrienes, thromboxanes and hydroxyeicosatetraenoic acids (HETE) partially replaced by their less potent n-3 counterparts [XREF_BIBR]; moreover hydroxylation of EPA and DHA can lead to hydroxyeicosapentaenoic acids (HEPE) and hydroxydocosahexaenoic acids (HDHA) respectively, of which a few, namely 18-HEPE, 17-HDHA and 14-HDHA, are precursors of highly anti-inflammatory and pro resolving resolvins, protectins and maresins [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:42:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:45Z",
+  "trigger" : "hydroxylation",
+  "evidence" : [ "hydroxylation of EPA" ],
+  "pmc_id" : "5372002",
+  "score" : 0
+}

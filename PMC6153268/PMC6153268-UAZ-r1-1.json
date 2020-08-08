@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16549",
+      "entity_text" : "LPC",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04760",
+      "entity_text" : "lysoPLD ATX",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "LPA is synthesized in the extracellular space by the lysoPLD ATX, which hydrolyzes LPC to LPA [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:50:00Z",
+  "evidence" : [ "lysoPLD ATX, which hydrolyzes LPC" ],
+  "pmc_id" : "6153268",
+  "score" : 0
+}

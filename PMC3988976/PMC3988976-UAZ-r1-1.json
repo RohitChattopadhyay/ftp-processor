@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UBN7",
+      "entity_text" : "HDAC6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "If the absence of hedgehog pathway activation at this strain magnitude is due to HDAC6 dependent axoneme destabilisation and cilia disassembly then inhibiting tubulin deacetylation would be expected to rescue mechanosensitive hedgehog signalling.",
+  "reading_complete" : "2020-08-08T18:12:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:36Z",
+  "trigger" : "inhibiting",
+  "evidence" : [ "HDAC6-dependent axoneme destabilisation and cilia disassembly then inhibiting tubulin deacetylation" ],
+  "pmc_id" : "3988976",
+  "score" : 0
+}

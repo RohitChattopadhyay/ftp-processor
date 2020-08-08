@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01112",
+      "entity_text" : "HRAS",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 12,
+        "feature_type" : "mutation",
+        "evidence" : "G12V"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7955" ],
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "CellType" : [ "cl:CL:0000148" ]
+    }
+  },
+  "verbose_text" : "To induce mosaic HRAS G12V expression in the collagen lines, Tg (krt19 : col1alpha2-GFP; mpeg : mCherry) fish were crossed with Tg (6xUAS : mCherry-HRAS G12V) fish to make the final Tg (krt19 : col1alpha2-GFP; mpeg : mCherry; UAS : mCherry-HRAS G12V) transgenic line.",
+  "reading_complete" : "2020-08-08T15:38:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:36:46Z",
+  "trigger" : "expression",
+  "evidence" : [ "HRAS G12V  expression" ],
+  "pmc_id" : "6581915",
+  "score" : 0
+}

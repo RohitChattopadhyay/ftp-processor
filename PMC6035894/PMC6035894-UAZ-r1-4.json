@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14642",
+      "entity_text" : "INPP5A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "There was no evidence of a cis effect of the CpG on the INPP5A expression levels.",
+  "reading_complete" : "2020-08-08T18:02:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:58:53Z",
+  "trigger" : "levels",
+  "evidence" : [ "INPP5A expression levels" ],
+  "pmc_id" : "6035894",
+  "score" : 0
+}

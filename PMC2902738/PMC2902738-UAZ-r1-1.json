@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:381124" ],
+      "TissueType" : [ "tissuelist:TS-1306" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0001988" ]
+    }
+  },
+  "verbose_text" : "These processes include fermentation of dietary components by microbes during incubation in the reticulo-rumen, acid hydrolysis and degradation by enzymes of the host animal in the abomasum and small intestine, and secondary fermentation in the cecum and large intestine.",
+  "reading_complete" : "2020-08-08T13:01:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:00:53Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "acid hydrolysis" ],
+  "pmc_id" : "2902738",
+  "score" : 0
+}

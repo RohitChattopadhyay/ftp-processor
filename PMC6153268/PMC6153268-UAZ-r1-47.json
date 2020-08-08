@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:305",
+      "entity_text" : "choline",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000120" ]
+    }
+  },
+  "verbose_text" : "Extracellular LPA is synthesized by autotaxin (ATX), a lyso phospholipase D (PLD) able to hydrolyze lysophosphatidyl choline (LPC) to LPA.",
+  "reading_complete" : "2020-08-08T17:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:50:00Z",
+  "trigger" : "hydrolyze",
+  "evidence" : [ "hydrolyze lysophosphatidyl choline" ],
+  "pmc_id" : "6153268",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05785",
+      "entity_text" : "TCRs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0583" ],
+      "Cellular_component" : [ "go:GO:0019015" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Seminoma samples had both higher levels of TCRs and higher diversity of BCRs and TCRs.",
+  "reading_complete" : "2020-08-08T15:31:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:29:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of TCRs" ],
+  "pmc_id" : "6075738",
+  "score" : 0
+}

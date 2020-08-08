@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92597",
+      "entity_text" : "NDRG1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "In U2OS cells, as observed in some other cell types [XREF_BIBR], it seems that phosphorylation of NDRG1 is mediated mainly through Akt as its phosphorylation is significantly suppressed by GDC-0941, but only affected moderately by VPS34-IN1 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of NDRG1" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}

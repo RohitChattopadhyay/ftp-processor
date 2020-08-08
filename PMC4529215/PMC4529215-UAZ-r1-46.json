@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "APC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This pathway directly signals to the cytoskeleton by inducing loss of APC from the MT plus-ends, resulting in defects in the directionality of MT growth [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:38:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:34:33Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of APC" ],
+  "pmc_id" : "4529215",
+  "score" : 0
+}

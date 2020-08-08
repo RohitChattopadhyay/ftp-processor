@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6Z9",
+      "entity_text" : "PHD3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "PHD3 expression is frequently attenuated in high-grade gliomas, and we hypothesized that re-expression of the active PHD3 may stabilize p53 and impede cell proliferation and apoptosis in cell lines where PHD3 is silenced.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "impede",
+  "evidence" : [ "PHD3 may stabilize p53 and impede cell proliferation and apoptosis" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

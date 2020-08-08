@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07475",
+      "entity_text" : "BTLA-OST molecules",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "BTLA-OST molecules purified from BTLA-1 OST samples were tyrosine phosphorylated upon pervanadate treatment (XREF_FIG C), and AP-MS confirmed that tyrosine 274 of the BTLA ITIM was phosphorylated upon pervanadate treatment (XREF_FIG D and 2E; XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T15:08:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:10Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "BTLA-OST molecules purified from BTLA-1 OST  samples were tyrosine phosphorylated" ],
+  "pmc_id" : "6581740",
+  "score" : 0
+}

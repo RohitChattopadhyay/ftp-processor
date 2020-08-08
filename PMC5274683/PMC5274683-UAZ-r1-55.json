@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "nucleus",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005634",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0865" ],
+      "CellLine" : [ "cellosaurus:CVCL_V640" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Ubiquitinated IkappaBalpha can be degraded by a 28S small proteasome, which causes the nucleic acid binding domain in NF-kappaB to be exposed, and the translocation of NF-kappaB into the nucleus.",
+  "reading_complete" : "2020-08-08T15:19:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:16:50Z",
+  "trigger" : "translocation",
+  "evidence" : [ "translocation of NF-kappaB into the nucleus" ],
+  "pmc_id" : "5274683",
+  "score" : 0
+}

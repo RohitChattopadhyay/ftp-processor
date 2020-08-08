@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02751",
+      "entity_text" : "fibronectin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08648",
+      "entity_text" : "integrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031012" ],
+      "CellType" : [ "cl:CL:0002138" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although integrin alphaIIbbeta3 can also bind to fibronectin, we did not observe an inhibition of LEC adhesion to fibronectin when integrin alphaIIbbeta3 was blocked.",
+  "reading_complete" : "2020-08-08T14:52:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:50:09Z",
+  "trigger" : "bind",
+  "evidence" : [ "integrin alphaIIbbeta3 can also bind to fibronectin" ],
+  "pmc_id" : "6315107",
+  "score" : 0
+}

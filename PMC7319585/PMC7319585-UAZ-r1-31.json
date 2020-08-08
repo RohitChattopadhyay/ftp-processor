@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK3beta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The phosphorylation induces an auto-inhibition of GSK3beta, as it mimics a priming phosphorylated Serine, and occupies the docking site, thereby blocking interactions with substrates [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:49:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:31:38Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation induces an auto-inhibition of GSK3beta" ],
+  "pmc_id" : "7319585",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49841",
+      "entity_text" : "GSK-3beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:433294",
+      "entity_text" : "LiCl",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "LiCl can bind with and inhibit GSK-3beta and, hence, activate Wnt signaling selectively via the beta-catenin / TCF pathway.",
+  "reading_complete" : "2020-08-08T13:52:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:50:47Z",
+  "trigger" : "bind",
+  "evidence" : [ "LiCl can bind with and inhibit GSK-3beta" ],
+  "pmc_id" : "3835953",
+  "score" : 0
+}

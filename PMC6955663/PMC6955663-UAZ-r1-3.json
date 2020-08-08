@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06103",
+      "entity_text" : "DOX",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1348" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "DOX accumulation was greater in the parental cells, which contained a higher amount of DOX than the DOX resistant cells.",
+  "reading_complete" : "2020-08-08T18:08:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:01:01Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of DOX" ],
+  "pmc_id" : "6955663",
+  "score" : 0
+}

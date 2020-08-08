@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05079",
+      "entity_text" : "V5-PHD3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00704",
+      "entity_text" : "lysate",
+      "features" : [ {
+        "modification_type" : "hydroxylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Initially, we performed an in vitro hydroxylation assay with HEK293T lysate overexpressing V5-PHD3 in conjunction with recombinant GST-p53 as substrate and detected hydroxylated prolines by liquid chromatography-tandem mass spectrometry (LC-MS/MS).",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "overexpressing",
+  "evidence" : [ "lysate overexpressing V5-PHD3" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

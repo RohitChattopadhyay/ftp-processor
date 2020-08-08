@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P53373",
+      "entity_text" : "BtuB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01024",
+      "entity_text" : "colicin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1305" ],
+      "Cellular_component" : [ "go:GO:0005737" ]
+    }
+  },
+  "verbose_text" : "This functional diversity could be explained by each nuclease simply being attached to the conserved scaffold through a flexible linker, with the scaffold playing essentially no role in presentation of the nuclease to the cell once the colicin has bound its receptor, BtuB, through its R-domain.",
+  "reading_complete" : "2020-08-08T19:27:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:21:32Z",
+  "trigger" : "bound",
+  "evidence" : [ "colicin has bound its receptor, BtuB" ],
+  "pmc_id" : "5264503",
+  "score" : 0
+}

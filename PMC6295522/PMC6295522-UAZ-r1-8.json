@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P80450",
+      "entity_text" : "LTP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92796",
+      "entity_text" : "SAP102",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Although TBOA blocked LTP induced by stimulation at 5 Hz for 30 s in WT littermates (XREF_FIG), it caused no significant impairment in SAP102 mutant mice (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:13:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:12:56Z",
+  "trigger" : "blocked",
+  "evidence" : [ "blocked LTP induced by stimulation at 5 Hz for 30 s in WT littermates ( XREF_FIG ), it caused no significant impairment in SAP102" ],
+  "pmc_id" : "6295522",
+  "score" : 0
+}

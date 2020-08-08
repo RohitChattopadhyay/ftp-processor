@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8337" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000187" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, we also observed that the correlation patterns between genes in energy metabolism (oxidative phosphorylation, the tricarboxylic acid [TCA] cycle, and glycolysis) and translation were different in pre- and post-training individuals (XREF_FIG).",
+  "reading_complete" : "2020-08-08T15:11:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:12Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation, the tricarboxylic acid" ],
+  "pmc_id" : "5695912",
+  "score" : 0
+}

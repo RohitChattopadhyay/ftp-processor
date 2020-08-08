@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NTJ3",
+      "entity_text" : "SMC4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95347",
+      "entity_text" : "SMC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000105" ]
+    }
+  },
+  "verbose_text" : "These results suggest that the SMC2 - SMC4 complex alone is restricted to binding centromeric regions in the highly proliferative early schizont stage, in which it may have a constrained role in sister chromatid cohesion and segregation.",
+  "reading_complete" : "2020-08-08T14:06:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:02:02Z",
+  "trigger" : "complex",
+  "evidence" : [ "SMC2-SMC4 complex" ],
+  "pmc_id" : "7016506",
+  "score" : 0
+}

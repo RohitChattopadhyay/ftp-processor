@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine 310",
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0002334" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These results might be caused by increases in the acetylation of NF-kappaB p65 at lysine 310 and duration of the nuclear translocation of NF-kappaB.",
+  "reading_complete" : "2020-08-08T13:14:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:12Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of NF-kappaB p65 at lysine 310 and duration" ],
+  "pmc_id" : "3608581",
+  "score" : 0
+}

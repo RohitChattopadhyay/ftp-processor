@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser5",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF12815",
+      "entity_text" : "CTD",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "FluPol also binds to the Pol II CTD phosphorylated on Ser5.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "CTD phosphorylated on Ser5" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

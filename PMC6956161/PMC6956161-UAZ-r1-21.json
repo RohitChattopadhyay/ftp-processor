@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:RNApo_II",
+      "entity_text" : "RNA polymerase II",
+      "features" : [ {
+        "modification_type" : "acetylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In the livers of intact animals with normal behaviour, there is a coordinated rhythm of CLOCK : BMAL1 recruitment to the genome during the day, accompanied by histone acetylation and RNA polymerase II recruitment, which triggers a peak phase of transcription in the early part of the night [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:00:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:51:50Z",
+  "trigger" : "triggers",
+  "evidence" : [ "RNA polymerase II recruitment, which triggers a peak phase of transcription" ],
+  "pmc_id" : "6956161",
+  "score" : 0
+}

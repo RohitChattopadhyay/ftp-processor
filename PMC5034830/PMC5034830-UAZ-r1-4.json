@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38135",
+      "entity_text" : "acyl-CoA synthetase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Species" : [ "taxonomy:3055" ]
+    }
+  },
+  "verbose_text" : "Those proteins were long chain acyl-CoA synthetase that binds fatty acid to produce fatty acyl-CoA, cyclopropane-fatty-acyl-phospholipid synthase, malate dehydrogenase, and glycerol-3-phosphate dehydrogenase.",
+  "reading_complete" : "2020-08-08T15:12:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:00Z",
+  "trigger" : "binds",
+  "evidence" : [ "acyl-CoA synthetase that binds fatty acid" ],
+  "pmc_id" : "5034830",
+  "score" : 0
+}

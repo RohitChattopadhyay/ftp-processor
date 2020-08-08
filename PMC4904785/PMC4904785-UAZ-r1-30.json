@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01437",
+      "entity_text" : "psi",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0030425" ]
+    }
+  },
+  "verbose_text" : "Eukaryotic RNAs are demarcated with a variety of modifications, including 5mC, m 5 U, s 2 U, m 6 A, psi, or 2 '-O-methylation, which mark them as self, as compared to the unmodified RNAs from viruses and bacteria, which can be identified as non self.",
+  "reading_complete" : "2020-08-08T14:35:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:33:56Z",
+  "trigger" : "'-O-methylation",
+  "evidence" : [ "psi, or 2'-O-methylation" ],
+  "pmc_id" : "4904785",
+  "score" : 0
+}

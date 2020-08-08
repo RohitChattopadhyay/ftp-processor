@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "serine 555",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04184",
+      "entity_text" : "Ulk",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0460" ]
+    }
+  },
+  "verbose_text" : "In Asm deficient mice, corticosterone or chronic unpredictable environmental stress also induced hyperphosphorylation of serine 757 in Ulk, similar to that observed in wt mice, but Asm deficient mice did not respond to amitriptyline and fluoxetine with dephosphorylation of Ulk at serine 757 or phosphorylation of Ulk at serine 555, a finding consistent with the notion that amitriptyline and fluoxetine target Asm.",
+  "reading_complete" : "2020-08-08T16:24:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:14:10Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of Ulk at serine 555" ],
+  "pmc_id" : "6294742",
+  "score" : 0
+}

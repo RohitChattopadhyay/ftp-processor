@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01133",
+      "entity_text" : "EGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005783" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Endogenous EGFR receptor enters cells through FEME carriers and ends up into lysosomes upon stimulation with high (> 50 ng/ml) EGF levels.",
+  "reading_complete" : "2020-08-08T18:49:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:31:38Z",
+  "trigger" : "levels",
+  "evidence" : [ "EGF levels" ],
+  "pmc_id" : "7319585",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3440",
+      "entity_text" : "transit",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1306" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The most important data published so far in support of the fiber hypothesis is that showing a correlation between amount of feces and transit time.",
+  "reading_complete" : "2020-08-08T17:23:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:16:35Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of feces and transit" ],
+  "pmc_id" : "5095569",
+  "score" : 0
+}

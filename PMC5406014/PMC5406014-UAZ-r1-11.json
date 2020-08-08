@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35637",
+      "entity_text" : "TLS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The TLS polymerases are removed via de-ubiquitination of PCNA and replaced by Poldelta.",
+  "reading_complete" : "2020-08-08T13:42:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:40:17Z",
+  "evidence" : [ "TLS polymerases are removed via de-ubiquitination of PCNA" ],
+  "pmc_id" : "5406014",
+  "score" : 0
+}

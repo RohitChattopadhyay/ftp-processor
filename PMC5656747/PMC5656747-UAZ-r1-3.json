@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08243",
+      "entity_text" : "S33/S37/T41",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To determine whether beta-catenin phosphorylation is affected upon a single APC truncating mutation around the MCR, we examined GSK3 mediated (S33/S37/T41) and CK1 mediated (S45) beta-catenin phosphorylation statuses in WT versus APC2-5 cells in the absence of MG132.",
+  "reading_complete" : "2020-08-08T15:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:47:34Z",
+  "trigger" : "mediated",
+  "evidence" : [ "S33/S37/T41) and CK1-mediated (S45) beta-catenin phosphorylation" ],
+  "pmc_id" : "5656747",
+  "score" : 0
+}

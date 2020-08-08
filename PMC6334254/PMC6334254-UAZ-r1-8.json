@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35251",
+      "entity_text" : "RFC1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "end",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E801" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The DNA binding site in the BRCT domain is distinct from the binding site for PAR, which interacts with the conserved pocket that mediates phosphopeptide binding in BRCT domain proteins, such as BRCA1, 53BP1, and TOPBP1 and DNA end binding in RFC1.",
+  "reading_complete" : "2020-08-08T15:21:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:19:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "end binding in RFC1" ],
+  "pmc_id" : "6334254",
+  "score" : 0
+}

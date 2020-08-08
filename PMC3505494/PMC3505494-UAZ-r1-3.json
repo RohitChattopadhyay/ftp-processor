@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B7I895",
+      "entity_text" : "beta-",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000163" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Additionally, compound mutants for Pax4 and Arx suffer from a loss of beta- and alpha-cells while the delta-cell content is augmented, revealing that Pax4 is not required for delta-cell genesis.",
+  "reading_complete" : "2020-08-08T13:00:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:00:15Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of beta-" ],
+  "pmc_id" : "3505494",
+  "score" : 0
+}

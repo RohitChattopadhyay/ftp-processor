@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11169",
+      "entity_text" : "GLUT3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Structures with GLUT3 bound to glucose or to the disaccharide maltose were obtained.",
+  "reading_complete" : "2020-08-08T15:50:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:39:51Z",
+  "trigger" : "bound",
+  "evidence" : [ "GLUT3 bound to glucose" ],
+  "pmc_id" : "6243331",
+  "score" : 0
+}

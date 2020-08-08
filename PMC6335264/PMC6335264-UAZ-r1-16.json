@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Notably, tau phosphorylation was increased in FTD-MAPT neurons compared with controls (XREF_FIG A), including at Ser404 and Ser202 / Thr205 (AT8), epitopes typically hyperphosphorylated in tau mediated dementias.",
+  "reading_complete" : "2020-08-08T14:37:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:08Z",
+  "trigger" : "hyperphosphorylated",
+  "evidence" : [ "hyperphosphorylated in tau" ],
+  "pmc_id" : "6335264",
+  "score" : 0
+}

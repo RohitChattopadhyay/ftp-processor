@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5893",
+      "entity_text" : "NAD",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6816",
+      "entity_text" : "CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "In this conformation, CoA is bound to the NAD + adenine binding site, as in the starting X-ray structure.",
+  "reading_complete" : "2020-08-08T18:21:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:14:31Z",
+  "trigger" : "bound",
+  "evidence" : [ "CoA is bound to the NAD" ],
+  "pmc_id" : "5989533",
+  "score" : 0
+}

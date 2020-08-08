@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08198",
+      "entity_text" : "importin beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08218",
+      "entity_text" : "Ran-GTP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:8364" ],
+      "TissueType" : [ "tissuelist:TS-0221" ],
+      "Cellular_component" : [ "uniprot:SL-0185" ]
+    }
+  },
+  "verbose_text" : "Once this complex enters the nucleus, Ran-GTP binds to importin beta causing the release of NLS cargo from importin alpha.",
+  "reading_complete" : "2020-08-08T18:33:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:32:17Z",
+  "trigger" : "binds",
+  "evidence" : [ "Ran-GTP binds to importin beta" ],
+  "pmc_id" : "6242335",
+  "score" : 0
+}

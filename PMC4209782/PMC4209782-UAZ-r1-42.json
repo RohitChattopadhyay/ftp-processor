@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "4E-BP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Treatment of cells with the AZD8055 [XREF_BIBR] mTOR inhibitor in parallel experiments led to marked dephosphorylation of 4E-BP1 at residues phosphorylated by mTOR (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "dephosphorylation",
+  "evidence" : [ "dephosphorylation of 4E-BP1" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}

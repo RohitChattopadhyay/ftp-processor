@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr 346",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92597",
+      "entity_text" : "NDRG1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "We also monitored NDRG1 phosphorylation at Thr 346 a site that can be phosphorylated by SGK or Akt isoforms [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "NDRG1 phosphorylation at Thr 346" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}

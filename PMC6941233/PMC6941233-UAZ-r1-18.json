@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35637",
+      "entity_text" : "FUS",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0281" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Consistently, in some FUSDeltaNLS lines, the endogenous level of mutant FUS was sufficient to support the assembly of FGs (lines DeltaNLS2_het and DeltaNLS11_het; XREF_FIG A).",
+  "reading_complete" : "2020-08-08T16:52:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:49:35Z",
+  "trigger" : "level",
+  "evidence" : [ "level of mutant FUS" ],
+  "pmc_id" : "6941233",
+  "score" : 0
+}

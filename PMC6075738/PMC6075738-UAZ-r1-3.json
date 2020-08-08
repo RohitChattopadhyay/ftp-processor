@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0411" ],
+      "Cellular_component" : [ "go:GO:0019015" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We interrogated mRNA levels of established cancer-testis-specific antigen (CTA) genes and noted higher levels in seminomas (XREF_FIG), which may explain a polyclonal antigen driven immune response around the tumor.",
+  "reading_complete" : "2020-08-08T15:31:05Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:29:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of established cancer-testis-specific antigen" ],
+  "pmc_id" : "6075738",
+  "score" : 0
+}

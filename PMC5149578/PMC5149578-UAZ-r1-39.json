@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01730",
+      "entity_text" : "CD4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, the low levels of T-bet and IFN-gamma induced by Ad5.pIX-gp70 immunization in Bcl6 wt CD4 + T cells were significantly elevated in Bcl6 fl CD4 + T cells (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T17:00:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:57:01Z",
+  "trigger" : "elevated",
+  "evidence" : [ "IFN-gamma induced by Ad5.pIX-gp70 immunization in Bcl6 wt  CD4 +  T cells were significantly elevated in Bcl6 fl  CD4" ],
+  "pmc_id" : "5149578",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14676",
+      "entity_text" : "MDC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Following the initial phosphorylation of H2AX at the sites of DNA damage, MDC1 leads to the accumulation of active ATM near the damaged DNA and results in the stimulation of ATM dependent phosphorylation of H2AX [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:50:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:42:42Z",
+  "trigger" : "leads",
+  "evidence" : [ "phosphorylation of H2AX at the sites of DNA damage, MDC1 leads" ],
+  "pmc_id" : "4009792",
+  "score" : 0
+}

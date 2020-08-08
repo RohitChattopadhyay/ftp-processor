@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03372",
+      "entity_text" : "ER",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Cellular_component" : [ "go:GO:0043226" ],
+      "CellType" : [ "cl:CL:0000622" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Upon ER stress IRE1alpha homodimerizes and trans-auto phosphorylates, thereby enhancing its cytosolic RNAse activity to induce splicing of XBP1 and generate sXBP1.",
+  "reading_complete" : "2020-08-08T19:29:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:27:52Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "ER stress IRE1alpha homodimerizes and trans-auto phosphorylates" ],
+  "pmc_id" : "4515411",
+  "score" : 0
+}

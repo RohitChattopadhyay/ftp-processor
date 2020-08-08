@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49913",
+      "entity_text" : "cAMP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03012",
+      "entity_text" : "phosphoprotein",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0005921" ],
+      "Organ" : [ "uberon:UBERON:0001950" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Such uncoupling is mediated by the activation of NMDARs, resulting in signaling via CaMKII/IV and PKC dependent pathways, leading to activation of the phosphoprotein cAMP response element binding protein (CREB).",
+  "reading_complete" : "2020-08-08T14:11:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:10:32Z",
+  "trigger" : "binding",
+  "evidence" : [ "phosphoprotein cAMP response element binding" ],
+  "pmc_id" : "6230774",
+  "score" : 0
+}

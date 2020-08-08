@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser 473",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "After GDF15 treatment, the phosphorylation levels of mTOR at Ser 2448 (p-mTOR) began to increase at 30 min (146.4 +/-5.8%) and then continued to increase to 228.7 +/-3.6% by 24 h. For Akt phosphorylated at Ser 473 (p-Akt), its phosphorylation level significantly changed by 26.9 +/-1.6% after 15 min, and phosphorylation reached its peak after 3 h (n = 4) (XREF_FIG A- XREF_FIG C).",
+  "reading_complete" : "2020-08-08T17:08:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:58:28Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "Akt phosphorylated at Ser 473" ],
+  "pmc_id" : "4000135",
+  "score" : 0
+}

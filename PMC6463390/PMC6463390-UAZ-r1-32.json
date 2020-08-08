@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BT56",
+      "entity_text" : "NPQ",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9XF91",
+      "entity_text" : "PsbS",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "It has been reported that the mutation of PsbS in the ntrc background partially restored the photosynthetic activity of the double mutant by reducing NPQ [XREF_BIBR], indicating that the ntrc mutant suffers from energy shortage because of the uncontrolled NPQ.",
+  "reading_complete" : "2020-08-08T15:32:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:19:10Z",
+  "trigger" : "restored",
+  "evidence" : [ "PsbS in the ntrc background partially restored the photosynthetic activity of the double mutant by reducing NPQ" ],
+  "pmc_id" : "6463390",
+  "score" : 0
+}

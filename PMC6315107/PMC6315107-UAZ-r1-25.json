@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02751",
+      "entity_text" : "fibronectin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "CellType" : [ "cl:CL:0002138" ]
+    }
+  },
+  "verbose_text" : "In a matrix adhesion assay, we tested the effect of integrin alphaIIbbeta3 inhibition on binding of isolated LN LECs to fibrinogen, fibronectin, and collagen type I. Fibronectin and fibrinogen, but not collagen I, are known ligands for activated integrin alphaIIbbeta3 on platelets.",
+  "reading_complete" : "2020-08-08T14:52:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:50:09Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of isolated LN LECs to fibrinogen, fibronectin, and collagen type I. Fibronectin and fibrinogen, but not collagen" ],
+  "pmc_id" : "6315107",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14306",
+      "entity_text" : "IC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "TissueType" : [ "tissuelist:TS-0136" ],
+      "Cellular_component" : [ "go:GO:0012506" ],
+      "Species" : [ "taxonomy:44689" ]
+    }
+  },
+  "verbose_text" : "The amounts of IC, p150 Glued, and the Golgi matrix protein GM130 in the membrane fraction were normalized to their levels in the TH.",
+  "reading_complete" : "2020-08-08T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:35Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of IC" ],
+  "pmc_id" : "5095903",
+  "score" : 0
+}

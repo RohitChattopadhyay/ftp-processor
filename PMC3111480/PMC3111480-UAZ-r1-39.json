@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "cyclin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00155",
+      "entity_text" : "p21Cip1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Activated p53 can induce the expression of p21Cip1 which can inhibit the S phase promoting factor (cyclin A-Cdk2 or cyclin E-Cdk2 kinase complexes), thereby causing a damaged cell to arrest in S phase XREF_BIBR, XREF_BIBR.",
+  "reading_complete" : "2020-08-08T13:15:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:14:24Z",
+  "trigger" : "promoting",
+  "evidence" : [ "p21Cip1 which can inhibit the S phase promoting factor (cyclin" ],
+  "pmc_id" : "3111480",
+  "score" : 0
+}

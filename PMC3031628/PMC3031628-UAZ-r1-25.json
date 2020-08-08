@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04798",
+      "entity_text" : "CYP1A1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03229",
+      "entity_text" : "PPARgamma ligand TZD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "PPARgamma is able to bind to the PPRE1 site located at position -931/-919 (XREF_FIG), but the specific PPARgamma ligand TZD was unable to induce CYP1A1 (XREF_FIG), as previously described for troglitazone XREF_BIBR.",
+  "reading_complete" : "2020-08-08T13:46:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:29Z",
+  "trigger" : "induce",
+  "evidence" : [ "PPARgamma ligand TZD was unable to induce CYP1A1" ],
+  "pmc_id" : "3031628",
+  "score" : 0
+}

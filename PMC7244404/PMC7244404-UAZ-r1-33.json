@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0001885" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000598" ]
+    }
+  },
+  "verbose_text" : "In addition to DARPP-32 phosphorylation, we also demonstrated increased phosphorylation of GluA1 and ERK as a result of upregulation of D1 receptor/cAMP/PKA signaling.",
+  "reading_complete" : "2020-08-08T13:55:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:29Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of GluA1 and ERK" ],
+  "pmc_id" : "7244404",
+  "score" : 0
+}

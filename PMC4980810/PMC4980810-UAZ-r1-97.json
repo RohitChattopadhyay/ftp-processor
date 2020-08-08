@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28707",
+      "entity_text" : "Sba1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since Sba1 binds Hsp90 following the co-operatively driven mechanism of N-terminal dimerization, its role appears to be one of stabilizing the closed state of Hsp90.",
+  "reading_complete" : "2020-08-08T18:09:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:56:35Z",
+  "trigger" : "binds",
+  "evidence" : [ "Sba1 binds Hsp90" ],
+  "pmc_id" : "4980810",
+  "score" : 0
+}

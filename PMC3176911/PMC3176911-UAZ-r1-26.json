@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10141" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Organ" : [ "uberon:UBERON:0035878" ]
+    }
+  },
+  "verbose_text" : "Supplementation with n-3 also directed collagen cross linking and lysine hydroxylation towards control BS2 levels in DH subchondral bone.",
+  "reading_complete" : "2020-08-08T17:58:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:55:21Z",
+  "trigger" : "hydroxylation",
+  "evidence" : [ "collagen cross-linking and lysine hydroxylation" ],
+  "pmc_id" : "3176911",
+  "score" : 0
+}

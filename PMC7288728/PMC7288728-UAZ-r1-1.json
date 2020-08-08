@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1297" ],
+      "Organ" : [ "uberon:UBERON:4000142" ],
+      "CellType" : [ "cl:CL:0002563" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "These gut motility disturbances in acromegaly increase circulating levels of IGF-1, which is a known mitogen [XREF_BIBR] that may stimulate the proliferation of intestinal epithelial cells by autocrine and paracrine actions [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T20:09:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:07:09Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IGF-1" ],
+  "pmc_id" : "7288728",
+  "score" : 0
+}

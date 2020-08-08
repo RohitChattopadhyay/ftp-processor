@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43633",
+      "entity_text" : "CHMP2A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57678",
+      "entity_text" : "p97",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The p97 cofactor UFD1 binds CHMP2A (charged multivesicular body protein 2a), a protein that is part of the membrane abscission ESCRT-3 (endosomal sorting complexes required for transport 3) complex.",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "binds",
+  "evidence" : [ "p97 cofactor UFD1 binds CHMP2A" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

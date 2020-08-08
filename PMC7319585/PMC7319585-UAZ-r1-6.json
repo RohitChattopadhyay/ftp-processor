@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Ser778",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05193",
+      "entity_text" : "Dynamin-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00535",
+      "entity_text" : "Cdk5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Dynamin-1 is phosphorylated at Ser778 by Cdk5, followed by that of Ser774 by GSK3beta [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:49:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:31:38Z",
+  "evidence" : [ "Dynamin-1 is phosphorylated at Ser778 by Cdk5" ],
+  "pmc_id" : "7319585",
+  "score" : 0
+}

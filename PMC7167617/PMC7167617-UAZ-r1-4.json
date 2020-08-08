@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05238",
+      "entity_text" : "TBEV NS5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "TBEV NS5 inhibits STAT1 phosphorylation in response to IFN via binding interaction with post synaptic density protein-95 / drosophila disc large tumor suppressor-1 / zonula occludens-1 protein scribble (hScrib) affecting IFN Type I and II mediated JAK-STAT signaling 8, 14, 15.",
+  "reading_complete" : "2020-08-08T14:52:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:48:29Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "TBEV NS5 inhibits STAT1 phosphorylation" ],
+  "pmc_id" : "7167617",
+  "score" : 0
+}

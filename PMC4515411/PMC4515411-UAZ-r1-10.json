@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75460",
+      "entity_text" : "IRE1alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16611",
+      "entity_text" : "Bak",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "28 Notably, it was reported that Bax or Bak exogenous expression positively modulates the activity of IRE1alpha, possibly via the formation of protein protein complexes.",
+  "reading_complete" : "2020-08-08T19:29:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:27:52Z",
+  "trigger" : "modulates",
+  "evidence" : [ "Bak exogenous expression positively modulates the activity of IRE1alpha" ],
+  "pmc_id" : "4515411",
+  "score" : 0
+}

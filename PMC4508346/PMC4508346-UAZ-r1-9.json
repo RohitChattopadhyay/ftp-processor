@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04818",
+      "entity_text" : "ts",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "TARGET uses ubiquitous expression of Gal80 ts to conditionally suppress a Gal4 driven transgene; at 18degreesC, Gal80 inhibits Gal4 activity and expression of the transgene, but at 27degreesC, Gal80 ts is inactive and the transgene is expressed.",
+  "reading_complete" : "2020-08-08T16:32:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:30:28Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Gal80 ts" ],
+  "pmc_id" : "4508346",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P98160",
+      "entity_text" : "Plc",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00398",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In contrast, strong IgG binding to IsdB and Plc was observed, both in carriers and non carriers.",
+  "reading_complete" : "2020-08-08T16:19:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:17:44Z",
+  "trigger" : "binding",
+  "evidence" : [ "IgG binding to IsdB and Plc" ],
+  "pmc_id" : "5096053",
+  "score" : 0
+}

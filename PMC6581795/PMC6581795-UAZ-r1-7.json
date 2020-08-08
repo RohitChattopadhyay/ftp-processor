@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09498",
+      "entity_text" : "nuclease Yen1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09458",
+      "entity_text" : "phosphatase Cdc14",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In yeast, the phosphatase Cdc14 dephosphorylates the nuclease Yen1, promoting its nuclear localization and increasing its DNA binding affinity in mitosis, where it acts to resolve Holliday junctions.",
+  "reading_complete" : "2020-08-08T17:05:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:01:43Z",
+  "evidence" : [ "phosphatase Cdc14 dephosphorylates the nuclease Yen1" ],
+  "pmc_id" : "6581795",
+  "score" : 0
+}

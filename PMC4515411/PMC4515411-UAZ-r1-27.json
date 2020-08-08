@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR, XREF_BIBR Protein folding and chaperone functions within the ER are dependent on the presence of sufficient levels of intralimenal Ca 2+ and ATP, and an oxidizing environment that favors disulfide bond formation in folding polypeptides.",
+  "reading_complete" : "2020-08-08T19:29:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:27:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of intralimenal Ca" ],
+  "pmc_id" : "4515411",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15118",
+      "entity_text" : "PDK1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0010008" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Mutations disrupting PtdIns (3) P binding ablated SGK3 kinase activity by suppressing phosphorylation of the T-loop [PDK1 (phosphoinositide dependent kinase 1) site] and hydrophobic motif (mammalian target of rapamycin site) residues.",
+  "reading_complete" : "2020-08-08T19:55:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:47:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of the T-loop [PDK1" ],
+  "pmc_id" : "4209782",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60934",
+      "entity_text" : "NBS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08775",
+      "entity_text" : "ParB",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "Selection of ParB variants that bind to NBS or parS.",
+  "reading_complete" : "2020-08-08T13:22:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:14:07Z",
+  "trigger" : "bind",
+  "evidence" : [ "ParB variants that bind to NBS" ],
+  "pmc_id" : "7383237",
+  "score" : 0
+}

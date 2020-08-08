@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P48431",
+      "entity_text" : "Sox2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0898" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0001021" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0002573" ]
+    }
+  },
+  "verbose_text" : "To understand Sox2 function in Schwann cells, we analyzed events of Wallerian degeneration and axon pathfinding following injury in mice with a Schwann cell specific loss of Sox2 (Sox2 KO) (XREF_SUPPLEMENTARY J-S1K) by using the P0-CRE line and a conditional Sox2 allele.",
+  "reading_complete" : "2020-08-08T17:18:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:14Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Sox2" ],
+  "pmc_id" : "6367597",
+  "score" : 0
+}

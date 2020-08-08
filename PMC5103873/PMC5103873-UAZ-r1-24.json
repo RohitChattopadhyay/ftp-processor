@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000698",
+      "entity_text" : "arrestin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q03431",
+      "entity_text" : "PTH1R",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Organ" : [ "uberon:UBERON:0002488" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is now clear that a combination of mutations of C-tail phosphorylation site and further mutations probably within helices VII and VIII would be necessary to fully abolish PTH1R arrestin recruitment as was the case for the recently reported mutant, G-protein-biased M 3 -muscarinic receptor [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:27:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:18:36Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "PTH1R arrestin recruitment" ],
+  "pmc_id" : "5103873",
+  "score" : 0
+}

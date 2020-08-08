@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10147",
+      "entity_text" : "CCL3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0097418" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "Indeed, we showed a decrease in the number of CD8 + T cells in the hippocampus of APPPS1xP2X7Rko as compared to APPPS1 mice, which correlated with decreased CCL3 levels.",
+  "reading_complete" : "2020-08-08T15:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:25:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "CCL3 levels" ],
+  "pmc_id" : "6756107",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Patients were divided into 4 quartiles depending on the total bilirubin level.",
+  "reading_complete" : "2020-08-08T19:20:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:15:49Z",
+  "trigger" : "level",
+  "evidence" : [ "bilirubin level" ],
+  "pmc_id" : "5095566",
+  "score" : 0
+}

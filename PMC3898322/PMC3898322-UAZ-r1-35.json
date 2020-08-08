@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15831",
+      "entity_text" : "LKB1",
+      "features" : [ {
+        "to_base" : "C",
+        "site" : 433,
+        "feature_type" : "mutation",
+        "evidence" : "C433S"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:17513",
+      "entity_text" : "AICAR",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistent with this, phosphorylation of raptor, a known bona fide AMPK substrate [XREF_BIBR], at Ser 792 was also significantly repressed in AICAR stimulated LKB1 C433S / C433S hepatocytes (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "stimulated",
+  "evidence" : [ "AICAR-stimulated LKB1" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}

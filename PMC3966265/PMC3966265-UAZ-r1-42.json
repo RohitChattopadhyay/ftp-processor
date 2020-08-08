@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05669",
+      "entity_text" : "AtTKL",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 428,
+        "feature_type" : "mutation",
+        "evidence" : "S428A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "As with the wild-type variant, no phosphorylation of AtTKL S428A was observed in the absence of calcium.",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of AtTKL" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}

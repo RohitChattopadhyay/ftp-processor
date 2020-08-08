@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60879",
+      "entity_text" : "dia",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E584" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "In contrast, the elevated corpse load of the scar mutant was significantly reduced when combined with the loss of dia or with FP4mito expression (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T16:30:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:29:08Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of dia" ],
+  "pmc_id" : "7262594",
+  "score" : 0
+}

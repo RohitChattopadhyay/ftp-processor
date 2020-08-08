@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09714",
+      "entity_text" : "Robo1-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09707",
+      "entity_text" : "Slit1-3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0808" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Binding of Slit1-3 to Robo1-2 typically initiates a repulsive signal to control axon pathfinding and cell migration during embryonic development.",
+  "reading_complete" : "2020-08-08T17:18:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:14Z",
+  "trigger" : "Binding",
+  "evidence" : [ "Binding of Slit1-3 to Robo1-2" ],
+  "pmc_id" : "6367597",
+  "score" : 0
+}

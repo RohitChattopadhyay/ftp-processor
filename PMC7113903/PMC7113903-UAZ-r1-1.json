@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03409",
+      "entity_text" : "glycoprotein",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9031" ],
+      "TissueType" : [ "tissuelist:TS-1331" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0004529" ]
+    }
+  },
+  "verbose_text" : "Its genome encodes four structural proteins : phosphorylated nucleocapsid protein (N), membrane glycoprotein (M), spike glycoprotein (S), and small envelope protein (E).",
+  "reading_complete" : "2020-08-08T12:40:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:38:29Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated nucleocapsid protein (N), membrane glycoprotein" ],
+  "pmc_id" : "7113903",
+  "score" : 0
+}

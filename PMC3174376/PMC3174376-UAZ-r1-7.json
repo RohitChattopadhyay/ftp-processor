@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deglycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04566",
+      "entity_text" : "MBP10",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1655" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "This mass difference can be measured by Q-TOF LC-MS and the ratio of N and D gives an indication for the ratio between non glycosylated and deglycosylation of MBP10.",
+  "reading_complete" : "2020-08-08T14:06:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:05:44Z",
+  "trigger" : "deglycosylation",
+  "evidence" : [ "deglycosylation of MBP10" ],
+  "pmc_id" : "3174376",
+  "score" : 0
+}

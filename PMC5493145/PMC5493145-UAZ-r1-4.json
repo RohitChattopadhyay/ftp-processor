@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14497",
+      "entity_text" : "ARID1A",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75874",
+      "entity_text" : "IDH",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Relevantly, IDH mutants hypermethylate and putatively silence the ARID1A promoter, which may contribute to the lowered chromatin modifier signature expression.",
+  "reading_complete" : "2020-08-08T14:56:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:55:17Z",
+  "evidence" : [ "IDH mutants hypermethylate and putatively silence the ARID1A" ],
+  "pmc_id" : "5493145",
+  "score" : 0
+}

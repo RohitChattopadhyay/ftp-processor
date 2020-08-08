@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "Tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0031966" ]
+    }
+  },
+  "verbose_text" : "Furthermore, protein N acetylation is diminished by cysteine alkylation, cysteine mutation prevents auto-catalytic lysine N acetylation of Tau protein, and sites of lysine N acetylation and cysteine S acylation are often observed on the same peptide in mouse liver.",
+  "reading_complete" : "2020-08-08T16:35:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:33:39Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "lysine N-acetylation of Tau" ],
+  "pmc_id" : "6092265",
+  "score" : 0
+}

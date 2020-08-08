@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25963",
+      "entity_text" : "IkappaBalpha",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W770" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Subsequent to phosphorylation, which is regulated by an unknown mechanism, the cullin RING ubiquitin ligase (CRL) CRL1 beta-TrCP ubiquitinates IkappaBalpha and thus recruits p97 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "ubiquitinates",
+  "evidence" : [ "ubiquitinates IkappaBalpha" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

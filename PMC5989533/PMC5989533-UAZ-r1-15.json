@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6816",
+      "entity_text" : "CoA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04406",
+      "entity_text" : "GAPDH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000255" ],
+      "Species" : [ "taxonomy:1280" ]
+    }
+  },
+  "verbose_text" : "Analysis of GAPDH / CoA interaction by MD simulation.",
+  "reading_complete" : "2020-08-08T18:21:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:14:31Z",
+  "trigger" : "interaction",
+  "evidence" : [ "GAPDH/CoA interaction" ],
+  "pmc_id" : "5989533",
+  "score" : 0
+}

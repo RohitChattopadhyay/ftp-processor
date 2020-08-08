@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q38424",
+      "entity_text" : "ALT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46100",
+      "entity_text" : "ATRX",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutations"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Significantly, a causal role of ATRX mutations in ALT is supported by the observation that the reconstitution of wild-type ATRX in ALT cells suppresses ALT activity, likely by alleviating replicative stress at telomeres.",
+  "reading_complete" : "2020-08-08T13:42:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:40:17Z",
+  "trigger" : "suppresses",
+  "evidence" : [ "ATRX mutations in ALT is supported by the observation that the reconstitution of wild-type ATRX in ALT cells suppresses ALT" ],
+  "pmc_id" : "5406014",
+  "score" : 0
+}

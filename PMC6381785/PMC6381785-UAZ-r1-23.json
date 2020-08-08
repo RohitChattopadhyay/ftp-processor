@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7L576",
+      "entity_text" : "CYFIP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Cellular_component" : [ "go:GO:0044297" ],
+      "Organ" : [ "uberon:UBERON:0002313" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000598" ]
+    }
+  },
+  "verbose_text" : "These data highlight that loss of CYFIP1 in vivo in glutamatergic principal cells results in an increase in inhibitory synapse size and the levels of inhibitory synaptic proteins.",
+  "reading_complete" : "2020-08-08T15:19:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:16:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CYFIP1" ],
+  "pmc_id" : "6381785",
+  "score" : 0
+}

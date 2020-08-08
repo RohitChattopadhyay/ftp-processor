@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05231",
+      "entity_text" : "IL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E829" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:76720" ]
+    }
+  },
+  "verbose_text" : "The positive correlation between IL-6 and DAS28-ESR observed in our cohort indicated that increased IL-6 levels reflected increased RA activity, whereas higher levels of IL-6 in the ADA positive group compared to the ADA negative group might also reflect increased IFN-alpha2 activity.",
+  "reading_complete" : "2020-08-08T15:34:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:30:58Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IL-6" ],
+  "pmc_id" : "5028026",
+  "score" : 0
+}

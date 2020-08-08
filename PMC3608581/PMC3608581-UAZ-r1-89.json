@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "Cellular_component" : [ "go:GO:0019867" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A small amount of LPS is constitutively absorbed through the gut even in a healthy state.",
+  "reading_complete" : "2020-08-08T13:14:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:12Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of LPS" ],
+  "pmc_id" : "3608581",
+  "score" : 0
+}

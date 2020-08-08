@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P26927",
+      "entity_text" : "MSP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "MSP was performed on samples of bisulfite modified DNA using primers specific for unmethylated ppENK (sense : 5 '-TTGTGTGGGGAGTTATTGAGT-3 '; antisense : 5 '-CACCTTCACAAAAAAAATCAATC-3 ') or methylated ppENK (5 '-TGTGGGGAGTTATCGAGC-3 ' and 5 '-GCCTTCGCGAAAAAAATCG-3 ').",
+  "reading_complete" : "2020-08-08T15:06:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:05:13Z",
+  "trigger" : "methylated",
+  "evidence" : [ "MSP was performed on samples of bisulfite-modified DNA using primers specific for unmethylated ppENK (sense: 5'-TTGTGTGGGGAGTTATTGAGT-3'; antisense: 5'-CACCTTCACAAAAAAAATCAATC-3') or methylated" ],
+  "pmc_id" : "3679817",
+  "score" : 0
+}

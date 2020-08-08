@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13541",
+      "entity_text" : "4E-BP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Protein kinase complex mTORC1 not only regulates translation initiation through phosphorylation of 4E-BP1, but also through its downstream kinase p70S6K1, which in turn phosphorylates eIF4B and PDCD4 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T15:19:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:02:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of 4E-BP1" ],
+  "pmc_id" : "5444488",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09262",
+      "entity_text" : "USP7/10 binding site",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To determine whether the absence of a USP7/10 binding site on p53 increased p53 ubiquitination, we transfected Flag-p53 wt and Flag-p53 P359A into HepG2 cells and precipitated ubiquitinated proteins by TUBE pull-downs.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "increased",
+  "evidence" : [ "USP7/10 binding site on p53 increased p53 ubiquitination" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

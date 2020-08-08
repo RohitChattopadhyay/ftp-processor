@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Thr 143",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q02790",
+      "entity_text" : "FKBP52",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:CK2",
+      "entity_text" : "CK2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Finally, CK2 directed phosphorylation of FKBP52 is seen at Thr 143 and is thought to play a role in steroid hormone activation [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:09:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:56:35Z",
+  "trigger" : "directed",
+  "evidence" : [ "CK2 directed phosphorylation of FKBP52 is seen at Thr 143" ],
+  "pmc_id" : "4980810",
+  "score" : 0
+}

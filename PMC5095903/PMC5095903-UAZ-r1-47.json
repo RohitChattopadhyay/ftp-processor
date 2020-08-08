@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06218",
+      "entity_text" : "IC(1-111)",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 51,
+        "feature_type" : "mutation",
+        "evidence" : "S51A"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:44689" ]
+    }
+  },
+  "verbose_text" : "In contrast, overexpression of IC (1-111) S51A was unable to disrupt the Golgi apparatus, as the Golgi distribution pattern in these cells was comparable to the vector control (XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:35Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of IC(1-111)" ],
+  "pmc_id" : "5095903",
+  "score" : 0
+}

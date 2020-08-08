@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7016082",
+      "entity_text" : "SQ",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "ATM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "p53 becomes activated upon DNA damage by ATM / CHK2 or ATR / CHK1 through phosphorylation of SQ motifs in the N-terminal region.",
+  "reading_complete" : "2020-08-08T16:50:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:42:42Z",
+  "trigger" : "activated",
+  "evidence" : [ "activated upon DNA damage by ATM/CHK2 or ATR/CHK1 through phosphorylation of SQ" ],
+  "pmc_id" : "4009792",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q07817",
+      "entity_text" : "Bcl-xL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11228183",
+      "entity_text" : "ABT-737",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "For example, ABT-737 binds to Bcl-2, Bcl-xL, and Bcl-w with a K i of < 1 nM, but has> 1000x weaker affinity to Mcl-1 and Bcl2A1 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:00:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:53:19Z",
+  "trigger" : "binds",
+  "evidence" : [ "ABT-737 binds to Bcl-2, Bcl-xL" ],
+  "pmc_id" : "4498304",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0007049",
+      "entity_text" : "cell cycle",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15831",
+      "entity_text" : "LKB1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This conclusion is consistent with the data from Fogarty and Hardie [XREF_BIBR] that showed that overexpression in HeLa cells (that lack LKB1 expression) of LKB1 [S431A] together with STRAD and MO25 inhibited the cell cycle to the same extent as wild-type LKB1.",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "LKB1[S431A] together with STRAD and MO25 inhibited the cell cycle" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}

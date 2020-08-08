@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21579",
+      "entity_text" : "p65",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "TissueType" : [ "tissuelist:TS-0012" ],
+      "CellType" : [ "cl:CL:0002334" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because acetylation at lysine 310 increases the transcriptional activity of p65, we next examined the effects of TSA on this acetylation.",
+  "reading_complete" : "2020-08-08T13:14:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:12Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation at lysine 310 increases the transcriptional activity of p65" ],
+  "pmc_id" : "3608581",
+  "score" : 0
+}

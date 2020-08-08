@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:440995",
+      "entity_text" : "lactose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00509",
+      "entity_text" : "hemagglutinin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0980" ],
+      "Organ" : [ "uberon:UBERON:0000912" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The HP surface contains adhesions, such as neutrophil activator protein, fibrillar N-acetylneuraminyl lactose binding hemagglutinin (NLBH), Bab A, Lewis antigen, heat shock protein, Alp A, and Alp B.",
+  "reading_complete" : "2020-08-08T14:21:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:18:19Z",
+  "trigger" : "binding",
+  "evidence" : [ "lactose-binding hemagglutinin" ],
+  "pmc_id" : "6206577",
+  "score" : 0
+}

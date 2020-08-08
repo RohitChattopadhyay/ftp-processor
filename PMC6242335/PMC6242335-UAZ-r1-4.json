@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0051179",
+      "entity_text" : "localization",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR027696",
+      "entity_text" : "lamin",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This suggests that cPKC interphase phosphorylation of lamin proteins contributes to their decreased localization to the NE and reduced nuclear size.",
+  "reading_complete" : "2020-08-08T18:33:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:32:17Z",
+  "trigger" : "contributes",
+  "evidence" : [ "lamin proteins contributes to their decreased localization" ],
+  "pmc_id" : "6242335",
+  "score" : 0
+}

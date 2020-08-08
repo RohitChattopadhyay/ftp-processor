@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "In vivo, we stimulated VTA DA neurons with high-frequency light trains to evoke phasic DA neuron firing [XREF_BIBR, XREF_BIBR] and found that the increased extracellular levels of DA in the PFC were unaltered in aVMAT2cKO with respect to control mice (n = 6 mice each group, Student 's t test; p = 0.9159; Supplementary Figure S4f).",
+  "reading_complete" : "2020-08-08T20:02:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:49:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of DA" ],
+  "pmc_id" : "7156348",
+  "score" : 0
+}

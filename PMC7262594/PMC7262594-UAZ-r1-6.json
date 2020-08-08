@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60879",
+      "entity_text" : "dia",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E584" ],
+      "Cellular_component" : [ "go:GO:0001891" ],
+      "Organ" : [ "uberon:UBERON:0000068" ],
+      "Species" : [ "taxonomy:59837" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Loss of ena or dia had no significant effect on corpse load compared to controls (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T16:30:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:29:08Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of ena or dia" ],
+  "pmc_id" : "7262594",
+  "score" : 0
+}

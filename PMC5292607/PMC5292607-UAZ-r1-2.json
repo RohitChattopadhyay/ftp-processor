@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06731",
+      "entity_text" : "CEA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0738" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:4097" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "Analysis of clinical variables such as stage at presentation, location of tumor, mean CEA levels, and CA 19-9 levels between both groups did not reveal any significant difference.",
+  "reading_complete" : "2020-08-08T17:59:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:57:27Z",
+  "trigger" : "levels",
+  "evidence" : [ "CEA levels" ],
+  "pmc_id" : "5292607",
+  "score" : 0
+}

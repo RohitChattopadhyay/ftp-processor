@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08045",
+      "entity_text" : "Cdc14",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "Four dephosphorylated substrates in the Cdc14 dataset contained a PxL motif and these depended on Cdc14 for dephosphorylation.",
+  "reading_complete" : "2020-08-08T13:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:30:04Z",
+  "trigger" : "dephosphorylated",
+  "evidence" : [ "dephosphorylated substrates in the Cdc14" ],
+  "pmc_id" : "6857435",
+  "score" : 0
+}

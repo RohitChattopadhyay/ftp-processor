@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O73683",
+      "entity_text" : "Abeta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:J3F2B0",
+      "entity_text" : "Cas9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Identifying the SAD risk factor FERMT2 as a modifier of both cellular phenotypes, the authors targeted FERMT2 with CRISPR / Cas9 mutagenesis, confirming that reducing its levels in neurons can decrease Abeta secretion and tau phosphorylation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:18:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:05:43Z",
+  "trigger" : "decrease",
+  "evidence" : [ "Cas9 mutagenesis, confirming that reducing its levels in neurons can decrease Abeta secretion and tau phosphorylation" ],
+  "pmc_id" : "6906186",
+  "score" : 0
+}

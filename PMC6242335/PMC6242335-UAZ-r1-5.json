@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P82535",
+      "entity_text" : "NPC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61970",
+      "entity_text" : "NTF2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Transmission electron microscopy experiments showed that overexpression of NTF2 decreases the apparent diameter of the NPC, while overexpression of the NTF2 Ran binding mutant largely failed to change NPC size.",
+  "reading_complete" : "2020-08-08T18:33:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:32:17Z",
+  "trigger" : "decreases",
+  "evidence" : [ "NTF2 decreases the apparent diameter of the NPC" ],
+  "pmc_id" : "6242335",
+  "score" : 0
+}

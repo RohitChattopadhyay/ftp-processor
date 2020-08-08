@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The result suggests that beta-catenin phosphorylation is only affected when all beta-catenin binding motifs are lost in the APC protein (APC5), while phosphorylation is still intact in the CID-loss APC mutations at the MCR (APC3 and APC4).",
+  "reading_complete" : "2020-08-08T15:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:47:34Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "beta-catenin phosphorylation" ],
+  "pmc_id" : "5656747",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:9750",
+      "entity_text" : "citrulline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0427" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9925" ]
+    }
+  },
+  "verbose_text" : "Increased levels of citrulline are a marker of increased intestinal absorption, which correlates to our previous finding of increased villi width and presumptively surface area in the duodenum.",
+  "reading_complete" : "2020-08-08T13:27:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:26:26Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of citrulline" ],
+  "pmc_id" : "2902735",
+  "score" : 0
+}

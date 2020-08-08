@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:22833613",
+      "entity_text" : "ganglioside GM1",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01459",
+      "entity_text" : "CT-B",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "Species" : [ "taxonomy:44689" ]
+    }
+  },
+  "verbose_text" : "To monitor vesicle motility, we used CT-B, which binds to the cell surface ganglioside GM1, and is endocytosed and trafficked to the trans-Golgi network [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:35Z",
+  "trigger" : "binds",
+  "evidence" : [ "CT-B, which binds to the cell surface ganglioside GM1" ],
+  "pmc_id" : "5095903",
+  "score" : 0
+}

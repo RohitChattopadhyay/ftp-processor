@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "pSTAT1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0547" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0161" ]
+    }
+  },
+  "verbose_text" : "We observed that the cellular levels of pSTAT1 were reduced to a statistically significant extent, compared to WT, in all mutant transfected cells (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:10:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:06:54Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of pSTAT1" ],
+  "pmc_id" : "6451695",
+  "score" : 0
+}

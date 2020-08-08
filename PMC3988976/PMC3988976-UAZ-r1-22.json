@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13635",
+      "entity_text" : "Ptch1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0138" ],
+      "CellLine" : [ "cellosaurus:CVCL_A431" ],
+      "Cellular_component" : [ "go:GO:0072372" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:1001607" ]
+    }
+  },
+  "verbose_text" : "Hedgehog pathway activation was assessed by monitoring changes in the expression of Gli1 and Ptch1.",
+  "reading_complete" : "2020-08-08T18:12:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:36Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Gli1 and Ptch1" ],
+  "pmc_id" : "3988976",
+  "score" : 0
+}

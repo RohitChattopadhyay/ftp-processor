@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03956",
+      "entity_text" : "hCAS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_C795" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The expected outcomes for these experiments were : i) a decrease in OD values (i.e. an inhibitory profile), when the molecule tested binds to LPS and competes with hCAS, ii) an increase in OD values (i.e. enhancement profile), when the molecule tested promotes LPS binding to hCAS, and iii) no effect, indicating that the protein / peptide tested does not interfere with LPS binding to hCAS.",
+  "reading_complete" : "2020-08-08T14:59:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:51:15Z",
+  "trigger" : "binding",
+  "evidence" : [ "LPS binding to hCAS" ],
+  "pmc_id" : "4889133",
+  "score" : 0
+}

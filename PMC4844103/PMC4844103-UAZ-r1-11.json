@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41217",
+      "entity_text" : "CD200",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8262" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "XREF_FIG, shows the% loss of CD62L and CD200, across all patients, while XREF_SUPPLEMENTARY shows individual data from 3 representative patients.",
+  "reading_complete" : "2020-08-08T16:01:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:56:45Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CD62L and CD200" ],
+  "pmc_id" : "4844103",
+  "score" : 0
+}

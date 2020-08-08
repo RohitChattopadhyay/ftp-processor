@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P54278",
+      "entity_text" : "PMS2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0591" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Immunohistochemistry of the bowel tumor showed loss of PMS2; MSI was also demonstrated, leading to diagnostic sequencing of PMS2, although there was no family history of neoplasia other than an ovarian cancer in a second-degree relative after age 70 years.",
+  "reading_complete" : "2020-08-08T13:54:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:46:11Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PMS2" ],
+  "pmc_id" : "6037202",
+  "score" : 0
+}

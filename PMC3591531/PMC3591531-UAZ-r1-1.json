@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04226",
+      "entity_text" : "mEPSPS proteins",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:381124" ]
+    }
+  },
+  "verbose_text" : "The results indicate that both mEPSPS proteins are not glycosylated, or that glycan moieties occur at a frequency of less than one glucose equivalent per molecule of mEPSPS.",
+  "reading_complete" : "2020-08-08T13:50:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:47:45Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "mEPSPS proteins are not glycosylated" ],
+  "pmc_id" : "3591531",
+  "score" : 0
+}

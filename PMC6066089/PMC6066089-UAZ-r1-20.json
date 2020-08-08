@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7526" ],
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Comparative analysis of these ALCL hypermethylated CpG sites with ENCODE chromatin immunoprecipitation sequencing (ChIP-seq) data showed that PcG occupancy, as defined by histone H3 lysine trimethylation (H3K27me3) and EZH2 binding, are present in ESCs and GM12878 lymphoblastoid cells at these sites.",
+  "reading_complete" : "2020-08-08T14:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:22:15Z",
+  "trigger" : "trimethylation",
+  "evidence" : [ "histone H3 lysine trimethylation" ],
+  "pmc_id" : "6066089",
+  "score" : 0
+}

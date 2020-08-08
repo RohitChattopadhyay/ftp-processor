@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04379",
+      "entity_text" : "saporin",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "cell body",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0044297",
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "Organ" : [ "uberon:UBERON:0002770" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0011110" ]
+    }
+  },
+  "verbose_text" : "Upon internalization, the conjugate dissociates and the saporin is translocated back to the neuron cell body where it destroys ribosomes and hence the entire cell, including all neuronal processes to other brain regions XREF_BIBR.",
+  "reading_complete" : "2020-08-08T15:36:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:34:47Z",
+  "trigger" : "translocated",
+  "evidence" : [ "saporin is translocated back to the neuron cell body" ],
+  "pmc_id" : "3094761",
+  "score" : 0
+}

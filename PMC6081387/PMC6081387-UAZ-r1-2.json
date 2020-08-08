@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11024312",
+      "entity_text" : "lactulose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This is in accordance with previous studies showing that 25 g lactulose did not increase blood glucose concentration in female lactose digesters and maldigesters [XREF_BIBR] or diabetic subjects [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:09:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:06:49Z",
+  "trigger" : "increase",
+  "evidence" : [ "lactulose did not increase blood glucose" ],
+  "pmc_id" : "6081387",
+  "score" : 0
+}

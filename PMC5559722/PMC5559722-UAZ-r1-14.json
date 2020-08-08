@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57678",
+      "entity_text" : "p97",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y263",
+      "entity_text" : "PLAA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "PUL domain" ],
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The protein PLAA (phospholipase A-2-activating protein) binds p97 via its C-terminal PUL domain and interacts with ubiquitin via its WD40 (WD-repeat) and PFU (PLAA family ubiquitin binding) domains [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "binds",
+  "evidence" : [ "PLAA (phospholipase A-2-activating protein) binds p97 via its C-terminal PUL domain" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

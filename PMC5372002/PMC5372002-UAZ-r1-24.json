@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_W397" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Total fatty acids were extracted using a modified Morisson and Smith procedure as previously described [XREF_BIBR, XREF_BIBR], allowing for direct one-step transesterification of total fatty acids in tissue homogenates : An aliquot of each tissue homogenate was subjected to fatty acid methylation with 500 muL n-hexane (Carl Roth, Karlsruhe, Germany), 500 muL 12% boron trifluoride-methanol solution (Sigma-Aldrich, Steinheim, Germany) and 50 muL pentadecanoic acid (1 mg/mL; Sigma-Aldrich) as internal standard and incubated for 60 min at 100 degreesC.",
+  "reading_complete" : "2020-08-08T16:42:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:45Z",
+  "trigger" : "methylation",
+  "evidence" : [ "acid methylation" ],
+  "pmc_id" : "5372002",
+  "score" : 0
+}

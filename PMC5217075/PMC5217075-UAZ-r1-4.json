@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:25257164",
+      "entity_text" : "GalNAcbeta1-4GlcNAc",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF07468",
+      "entity_text" : "agglutinin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E831" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Additionally, it is noteworthy that Wisteria floribunda agglutinin (WFA), obviously binding to GalNAcbeta1-4GlcNAc, is used for a commercially available liver fibrosis test designed to measure WFA positive Mac-2 binding protein 91.",
+  "reading_complete" : "2020-08-08T15:55:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:53:09Z",
+  "trigger" : "binding",
+  "evidence" : [ "agglutinin (WFA), obviously binding to GalNAcbeta1-4GlcNAc" ],
+  "pmc_id" : "5217075",
+  "score" : 0
+}

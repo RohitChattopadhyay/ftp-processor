@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF06745",
+      "entity_text" : "ATPase",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05800",
+      "entity_text" : "Ufd1-NPL4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The ATPase activity of Cdc48 is reduced to 50% by the presence of Ufd1-NPL4, but increases to 300% by the additional presence of a K48 ubiquitinated substrate, a regulatory mechanism effective at preserving the ATP consumption of such an abundant ATPase [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "reduced",
+  "evidence" : [ "ATPase activity of Cdc48 is reduced to 50% by the presence of Ufd1-NPL4" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}

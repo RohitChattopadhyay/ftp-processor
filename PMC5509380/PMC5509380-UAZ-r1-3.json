@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14925",
+      "entity_text" : "TIM23",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BVV7",
+      "entity_text" : "Tim21",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "uniprot:SL-0200" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Both Pam17 and Tim21 bind to TIM23 and are thought to modulate its activity, as protein translocation into the matrix has been shown to require TIM23 in a PAM bound state, but free of Tim21 [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:37:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:27:21Z",
+  "trigger" : "bind",
+  "evidence" : [ "Tim21 bind to TIM23" ],
+  "pmc_id" : "5509380",
+  "score" : 0
+}

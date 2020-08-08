@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:702",
+      "entity_text" : "EtOH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Finally, fetal cells are more in danger than adult ones because of general lower amount of EtOH degrading enzymes.",
+  "reading_complete" : "2020-08-08T17:15:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:11:01Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of EtOH" ],
+  "pmc_id" : "6325721",
+  "score" : 0
+}
