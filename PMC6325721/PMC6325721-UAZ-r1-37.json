@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB01377",
+      "entity_text" : "oxygen",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05181",
+      "entity_text" : "CYP2E1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "ADH and CYP2E1 (and to a much lower degree CAT) catalyze the same reaction from EtOH to acetaldehyde, but CYP2E1 produces reactive oxygen species (ROS) as side products.",
+  "reading_complete" : "2020-08-08T17:15:22Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:11:01Z",
+  "trigger" : "produces",
+  "evidence" : [ "CYP2E1 produces reactive oxygen" ],
+  "pmc_id" : "6325721",
+  "score" : 0
+}
