@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11166",
+      "entity_text" : "Glut1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "We found that LPS stimulated B cells, like antigen activated T cells (XREF_FIG), exhibited asymmetric localization of Glut1 throughout the cell cycle (XREF_FIG), and that cells expressing higher levels of surface Glut1 were enriched in Pax5 silenced plasmablasts (XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:56:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:54:56Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of surface Glut1" ],
+  "pmc_id" : "5806629",
+  "score" : 0
+}

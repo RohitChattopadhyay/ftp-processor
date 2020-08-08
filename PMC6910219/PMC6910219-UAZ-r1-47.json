@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01106",
+      "entity_text" : "Myc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_5644" ],
+      "Organ" : [ "uberon:UBERON:0000070" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Further knockdown of Mnt compensates for loss of Myc and accelerates cell proliferation in Myc-null cells, presumably by relieving transcriptional repression.",
+  "reading_complete" : "2020-08-08T12:54:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:49:56Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Myc" ],
+  "pmc_id" : "6910219",
+  "score" : 0
+}

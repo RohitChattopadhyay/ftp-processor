@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01106",
+      "entity_text" : "MYC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P61244",
+      "entity_text" : "MAX",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000070" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To determine whether dMyc transcriptional activity is involved in rhythmic behavior, we used flies mutant for MNT (dMnt; a homolog of mammalian MNT), a transcription repressor that antagonizes MYC function by dimerizing with the MYC binding partner MAX.",
+  "reading_complete" : "2020-08-08T12:54:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:49:56Z",
+  "trigger" : "binding",
+  "evidence" : [ "MYC-binding partner MAX" ],
+  "pmc_id" : "6910219",
+  "score" : 0
+}

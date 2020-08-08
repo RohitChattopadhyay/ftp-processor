@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01860",
+      "entity_text" : "Hdc",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9W4S7",
+      "entity_text" : "dMyc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M605" ],
+      "Species" : [ "taxonomy:7227" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Endogenous dMyc does not bind the Hdc promoter in Drosophila melanogaster Kc cells, suggesting that Hdc is not a direct dMyc target.",
+  "reading_complete" : "2020-08-08T12:54:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:49:56Z",
+  "trigger" : "bind",
+  "evidence" : [ "dMyc does not bind the Hdc" ],
+  "pmc_id" : "6910219",
+  "score" : 0
+}

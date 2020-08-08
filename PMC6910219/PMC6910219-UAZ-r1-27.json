@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9W4S7",
+      "entity_text" : "dMyc",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Here, we demonstrate that misregulation of dMyc expression perturbs circadian locomotor behavior, expression of clock genes, and metabolism in flies.",
+  "reading_complete" : "2020-08-08T12:54:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:49:56Z",
+  "trigger" : "perturbs",
+  "evidence" : [ "dMyc expression perturbs circadian locomotor behavior, expression of clock genes, and metabolism" ],
+  "pmc_id" : "6910219",
+  "score" : 0
+}
