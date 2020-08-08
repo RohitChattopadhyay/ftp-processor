@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P76106",
+      "entity_text" : "hicA",
+      "features" : [ {
+        "to_base" : "H",
+        "site" : 24,
+        "feature_type" : "mutation",
+        "evidence" : "H24A"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E751" ],
+      "Species" : [ "taxonomy:28450" ]
+    }
+  },
+  "verbose_text" : "The cultures were incubated at 37degreesC for a further 1 h and 0.5 mM IPTG was then added to induce expression of the cloned hicA (H24A) gene.",
+  "reading_complete" : "2020-08-08T19:21:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:14:01Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of the cloned hicA" ],
+  "pmc_id" : "3969222",
+  "score" : 0
+}
