@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "BDNF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05019",
+      "entity_text" : "IGF-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "The interaction between IGF-1 and BDNF in exercise induced gene expression change and brain plasticity is well known XREF_BIBR and other recent studies have shown that in rats an elevated BDNF response in the hippocampus to an inescapable foot shock is also enhanced in animals housed in enriched environments post-weaning XREF_BIBR suggesting enriched housing may induce a neuroprotective state in the longer term XREF_BIBR through the actions of BDNF.",
+  "reading_complete" : "2020-08-08T16:12:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:10:38Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between IGF-1 and BDNF" ],
+  "pmc_id" : "5358774",
+  "score" : 0
+}
