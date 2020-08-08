@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "The absence of p53 failed to improve the viability of the Pich KO embryos, suggesting that the observed developmental defects are not solely due to p53 induced apoptosis.",
+  "reading_complete" : "2020-08-08T17:05:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:02:57Z",
+  "trigger" : "induced",
+  "evidence" : [ "p53-induced apoptosis" ],
+  "pmc_id" : "6167640",
+  "score" : 0
+}

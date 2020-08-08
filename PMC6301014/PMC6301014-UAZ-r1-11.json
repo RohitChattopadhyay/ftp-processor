@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1060",
+      "entity_text" : "pyruvate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0971" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We noted elevated expression of several glycolytic enzymes in fMaSCs and MMPr cells relative to adult cells, but also a potential for shunting the glycolytic end-product, pyruvate, away from the mitochondria and oxidative phosphorylation, as in the stem cell- and tumor associated Warburg effect (XREF_FIG).",
+  "reading_complete" : "2020-08-08T17:08:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:05:03Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "pyruvate, away from the mitochondria and oxidative phosphorylation" ],
+  "pmc_id" : "6301014",
+  "score" : 0
+}

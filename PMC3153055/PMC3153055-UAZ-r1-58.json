@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6992378",
+      "entity_text" : "GGA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02599",
+      "entity_text" : "CsrA",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8160" ],
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "CsrA binds to GGA motifs in the 5'UTR of target mRNAs and affects their stability and/or their translation.",
+  "reading_complete" : "2020-08-08T17:09:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:04:51Z",
+  "trigger" : "binds",
+  "evidence" : [ "CsrA binds to GGA" ],
+  "pmc_id" : "3153055",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16003",
+      "entity_text" : "viral oncoprotein",
+      "features" : [ {
+        "to_base" : "E",
+        "site" : 1,
+        "feature_type" : "mutation",
+        "evidence" : "E1A"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1225" ],
+      "Cellular_component" : [ "go:GO:0000805" ]
+    }
+  },
+  "verbose_text" : "In our studies, the use of an Ras V12 / E1A transformation assay combines Ras pathway activation with the expression of the viral oncoprotein E1A, which suppresses the G1/S checkpoint by sequestering RB1.",
+  "reading_complete" : "2020-08-08T17:05:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:02:57Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of the viral oncoprotein" ],
+  "pmc_id" : "6167640",
+  "score" : 0
+}

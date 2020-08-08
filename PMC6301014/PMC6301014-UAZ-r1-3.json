@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB00190",
+      "entity_text" : "lactate",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This signature was composed of the last three steps in lactate directed glycolysis (Eno, Pkm, Ldh), three fatty acid pathway genes (Fabp5, Hadh, Acat), and genes controlling the balance between pyruvate, cytosolic alpha-ketoglutarate, alanine, and glutamate (Psat1, Gpt) (XREF_FIG).",
+  "reading_complete" : "2020-08-08T17:08:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:05:03Z",
+  "trigger" : "directed",
+  "evidence" : [ "lactate-directed glycolysis" ],
+  "pmc_id" : "6301014",
+  "score" : 0
+}

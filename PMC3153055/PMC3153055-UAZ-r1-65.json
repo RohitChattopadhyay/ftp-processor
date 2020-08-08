@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02599",
+      "entity_text" : "CsrA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16213",
+      "entity_text" : "sRNAs CsrB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8160" ],
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "The sRNAs CsrB and CsrC contain many GGA motifs and can therefore bind multiple CsrA proteins resulting in titration / sequestration of CsrA, thus relieving CsrA effects on the expression of its target mRNAs.",
+  "reading_complete" : "2020-08-08T17:09:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:04:51Z",
+  "trigger" : "bind",
+  "evidence" : [ "sRNAs CsrB and CsrC contain many GGA motifs and can therefore bind multiple CsrA" ],
+  "pmc_id" : "3153055",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16098",
+      "entity_text" : "Vi-mentin RNA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_U895" ],
+      "Organ" : [ "uberon:UBERON:0014778" ],
+      "CellType" : [ "cl:CL:0011115" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Based on their lack of Epcam RNA, and high levels of Vi-mentin RNA and other non epithelial markers, the small mixed cell group likely represents contaminating stroma.",
+  "reading_complete" : "2020-08-08T17:08:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:05:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Vi-mentin RNA" ],
+  "pmc_id" : "6301014",
+  "score" : 0
+}

@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10602",
+      "entity_text" : "RNAP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16115",
+      "entity_text" : "L. pneumophila",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "6S" ],
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0971" ],
+      "Cellular_component" : [ "go:GO:0097456" ],
+      "Organ" : [ "uberon:UBERON:0005975" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Co-immunoprecipitation studies revealed that the L. pneumophila 6S RNA candidate physically associate with RNAP.",
+  "reading_complete" : "2020-08-08T17:09:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:04:51Z",
+  "trigger" : "associate",
+  "evidence" : [ "L. pneumophila 6S RNA candidate physically associate with RNAP" ],
+  "pmc_id" : "3153055",
+  "score" : 0
+}

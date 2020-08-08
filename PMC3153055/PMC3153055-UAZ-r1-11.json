@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16146",
+      "entity_text" : "sigma S  subunit",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16197",
+      "entity_text" : "beta/beta'alpha 2 omega subunits",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "During stationary phase, the sigma S subunit preferentially associates with the beta/beta'alpha 2 omega subunits of RNAP to allow transcription of stationary phase genes.",
+  "reading_complete" : "2020-08-08T17:09:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:04:51Z",
+  "trigger" : "allow",
+  "evidence" : [ "sigma S  subunit preferentially associates with the beta/beta'alpha 2 omega subunits of RNAP to allow transcription" ],
+  "pmc_id" : "3153055",
+  "score" : 0
+}

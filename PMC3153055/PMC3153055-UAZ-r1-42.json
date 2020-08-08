@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02599",
+      "entity_text" : "CsrA",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16124",
+      "entity_text" : "RsmY",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8160" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "It was shown that : (i) LetA specifically binds upstream of rsmY and rsmZ and that the LetA / LetS TCS controls their expression; (ii) expression of rsmY and rsmZ in E. coli results in a similar phenotype as over-expression of csrB and csrC and; (iii) RsmY and RsmZ bind CsrA, confirming that RsmY and RsmZ are the missing link in the LetA / S-CsrA regulatory pathway.",
+  "reading_complete" : "2020-08-08T17:09:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:04:51Z",
+  "trigger" : "bind",
+  "evidence" : [ "RsmY and RsmZ bind CsrA" ],
+  "pmc_id" : "3153055",
+  "score" : 0
+}
