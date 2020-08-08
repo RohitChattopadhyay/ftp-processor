@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Dexamethasone produces dose dependent inhibition of insulin release caused by glucose, tolbutamide and other insulin releasers.",
+  "reading_complete" : "2020-08-08T11:39:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:38:16Z",
+  "trigger" : "caused",
+  "evidence" : [ "insulin release caused by glucose" ],
+  "pmc_id" : "2924971",
+  "score" : 0
+}

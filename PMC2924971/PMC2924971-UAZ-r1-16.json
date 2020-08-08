@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0540" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "In the present study, there was increase in the fasting and postprandial glucose level with 10 mg/kg/day of dexamethasone for 10 days when compared to normal controls [P < 0.001, Mann-Whitney U test (Z)].",
+  "reading_complete" : "2020-08-08T11:39:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:38:16Z",
+  "trigger" : "level",
+  "evidence" : [ "glucose level" ],
+  "pmc_id" : "2924971",
+  "score" : 0
+}
