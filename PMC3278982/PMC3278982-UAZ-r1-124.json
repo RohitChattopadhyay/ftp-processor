@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9YAC7",
+      "entity_text" : "PAN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1079" ],
+      "TissueType" : [ "tissuelist:TS-0587" ],
+      "Cellular_component" : [ "go:GO:0019028" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The amount of PAN expressed was dependent on the input dose of the K-Rta expression vector.",
+  "reading_complete" : "2020-08-08T13:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:51:08Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of PAN" ],
+  "pmc_id" : "3278982",
+  "score" : 0
+}

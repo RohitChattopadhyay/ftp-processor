@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36575",
+      "entity_text" : "CAR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14116",
+      "entity_text" : "IL-18",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We hypothesized that synthetic IL-18 expression might promote CAR T cell functions.",
+  "reading_complete" : "2020-08-08T13:54:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:52:03Z",
+  "trigger" : "promote",
+  "evidence" : [ "IL-18 expression might promote CAR" ],
+  "pmc_id" : "6002762",
+  "score" : 0
+}

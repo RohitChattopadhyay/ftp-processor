@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02774",
+      "entity_text" : "DBP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q06330",
+      "entity_text" : "RBP-Jk",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "Mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Mutation of the RBP-Jk sites eliminated K-Rta transactivation of the Mta and DBP promoters in cells genetically intact for RBP-Jk.",
+  "reading_complete" : "2020-08-08T13:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:51:08Z",
+  "trigger" : "eliminated",
+  "evidence" : [ "RBP-Jk sites eliminated K-Rta transactivation of the Mta and DBP" ],
+  "pmc_id" : "3278982",
+  "score" : 0
+}

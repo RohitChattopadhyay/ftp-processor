@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P60568",
+      "entity_text" : "IL-2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Further characterization of the cytokine profile in IL-18-activated T cells indicated that low concentrations of IL-18 significantly augmented IFN-gamma production, whereas IL-2 levels were at least 20-fold lower than that induced by optimal stimulation by anti-CD3/28 beads (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:54:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:52:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-2 levels" ],
+  "pmc_id" : "6002762",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Consistent with the observed T cell proliferation, serum human (h) IL-18 and IFN-gamma levels increased in mice engrafted with GFP-IL-18 bulk T cells and GFP-IL-18 CD4 + T cells but not in mice engrafted with GFP-IL-18 CD8 + T cells (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:54:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:52:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "IFN-gamma levels" ],
+  "pmc_id" : "6002762",
+  "score" : 0
+}
