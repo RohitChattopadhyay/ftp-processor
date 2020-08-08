@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03227",
+      "entity_text" : "SAalpha2,6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_T882" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0001557" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is known that avian and human viruses differ in their SA binding affinity, since HA from human isolates usually bind SAalpha2,6, while the avian isolates usually have affinity for SAalpha2,3.",
+  "reading_complete" : "2020-08-08T14:20:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:19:04Z",
+  "trigger" : "bind",
+  "evidence" : [ "HA from human isolates usually bind SAalpha2,6" ],
+  "pmc_id" : "3332393",
+  "score" : 0
+}

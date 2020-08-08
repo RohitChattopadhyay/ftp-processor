@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "These interactions were observed to be SA independent, and correlated with the different HA glycosylation levels of a few IAV strains.",
+  "reading_complete" : "2020-08-08T14:20:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:19:04Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "HA glycosylation" ],
+  "pmc_id" : "3332393",
+  "score" : 0
+}

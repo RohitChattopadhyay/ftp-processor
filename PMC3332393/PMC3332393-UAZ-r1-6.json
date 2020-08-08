@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ11501",
+      "entity_text" : "SAalpha2,3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_E867" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0001557" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002063" ]
+    }
+  },
+  "verbose_text" : "Although no sustained human-to-human transmission has been established yet, possibly due to the low levels of SAalpha2,3 present in the human airways, HPAIV have been shown to be able to infect and replicate efficiently in cells in the lower region of the respiratory tract, including type II pneumocytes and alveolar macrophages, where the avian like virus receptor is predominant.",
+  "reading_complete" : "2020-08-08T14:20:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:19:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of SAalpha2,3" ],
+  "pmc_id" : "3332393",
+  "score" : 0
+}

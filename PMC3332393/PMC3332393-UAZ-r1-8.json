@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75663",
+      "entity_text" : "tip",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P69208",
+      "entity_text" : "HA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_T882" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uaz:UA-ORG-92" ]
+    }
+  },
+  "verbose_text" : "Sialic acids (SA, N-acetylneuraminic acid) are the primary receptors for virus attachment to cell surfaces, binding to a pocket at the distal tip of the HA of IAV.",
+  "reading_complete" : "2020-08-08T14:20:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:19:04Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding to a pocket at the distal tip of the HA" ],
+  "pmc_id" : "3332393",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6234",
+      "entity_text" : "DCs",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ11518",
+      "entity_text" : "IAV PR8",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0579" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Gonzalez et al. observed that a SIGN-R1-specific blocking antibody reduces IAV PR8 binding to lymph node DCs both in vitro and in vivo (using multiphoton intra-vital microscopy), and the viral uptake via this receptor was essential for local humoral immunity.",
+  "reading_complete" : "2020-08-08T14:20:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:19:04Z",
+  "trigger" : "binding",
+  "evidence" : [ "IAV PR8 binding to lymph node DCs" ],
+  "pmc_id" : "3332393",
+  "score" : 0
+}
