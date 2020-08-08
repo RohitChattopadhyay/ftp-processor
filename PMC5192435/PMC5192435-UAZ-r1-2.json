@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Kinetochore",
+      "entity_text" : "kinetochore",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05175",
+      "entity_text" : "MTs",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0361" ],
+      "Cellular_component" : [ "go:GO:0005819" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The structure of the cold-stable bundle of MTs that associates with each kinetochore in a mammalian cells was elucidated in this way [XREF_BIBR], and the structure of both kinetochore associated MTs [XREF_BIBR] and other spindle MTs that contribute to mammalian spindle structure [XREF_BIBR] were similarly studied (XREF_FIG A-D).",
+  "reading_complete" : "2020-08-08T13:56:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:32:24Z",
+  "trigger" : "associates",
+  "evidence" : [ "MTs that associates with each kinetochore" ],
+  "pmc_id" : "5192435",
+  "score" : 0
+}
