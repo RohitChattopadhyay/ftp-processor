@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52630",
+      "entity_text" : "STAT2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29597",
+      "entity_text" : "TYK2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Canonical type I IFN signaling requires TYK2 and JAK1 mediated phosphorylation of STAT1 and STAT2, which then form a heterotrimer with IRF9.",
+  "reading_complete" : "2020-08-08T17:56:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:54:41Z",
+  "trigger" : "mediated",
+  "evidence" : [ "TYK2 and JAK1-mediated phosphorylation of STAT1 and STAT2" ],
+  "pmc_id" : "6153266",
+  "score" : 0
+}

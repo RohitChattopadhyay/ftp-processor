@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "However, during MCMV infection, Irf9 -/- NK cells failed to upregulate granzyme B to the same extent as WT cells (XREF_FIG), although they expressed similar levels of IFN-gamma (XREF_FIG) and activation markers (XREF_FIG).",
+  "reading_complete" : "2020-08-08T17:56:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:54:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IFN-gamma" ],
+  "pmc_id" : "6153266",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05600",
+      "entity_text" : "MHC class I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0009986" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "Although NK cells have been shown to tolerate a wide range of MHC class I levels, their tolerance of low levels of MHCI is significantly reduced in inflammatory settings.",
+  "reading_complete" : "2020-08-08T17:56:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:54:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "MHC class I levels" ],
+  "pmc_id" : "6153266",
+  "score" : 0
+}

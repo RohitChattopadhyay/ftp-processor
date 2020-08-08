@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000623" ]
+    }
+  },
+  "verbose_text" : "The dysregulated genes unique to Stat1 -/- NK cells could be due to downstream influences of other cytokine signaling pathways that have been proposed to induce phosphorylation of STAT1 (e.g., IFN-gamma or IL-21); however, the transcriptional changes unique to Ifnar1 -/- NK cells suggest that non canonical type I IFN signaling pathways may be active in NK cells during viral infection.",
+  "reading_complete" : "2020-08-08T17:56:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:54:41Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of STAT1" ],
+  "pmc_id" : "6153266",
+  "score" : 0
+}
