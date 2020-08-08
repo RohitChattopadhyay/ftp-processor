@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "BST-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00558",
+      "entity_text" : "Vpu",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Indeed, physical interaction of Vpu and BST-2 and the critical importance of the BST-2 TM domain for this interaction was demonstrated in the course of co-immunoprecipitation studies and bimolecular fluorescence complementation analyses.",
+  "reading_complete" : "2020-08-08T16:24:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:22:56Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction of Vpu and BST-2" ],
+  "pmc_id" : "3109345",
+  "score" : 0
+}

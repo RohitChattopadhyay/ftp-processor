@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "BST-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00558",
+      "entity_text" : "Vpu",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Furthermore, Vpu mutants affected in TGN localization were unable to antagonize BST-2 suggesting that Vpu targets BST-2 in this compartment.",
+  "reading_complete" : "2020-08-08T16:24:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:22:56Z",
+  "trigger" : "antagonize",
+  "evidence" : [ "Vpu mutants affected in TGN localization were unable to antagonize BST-2" ],
+  "pmc_id" : "3109345",
+  "score" : 0
+}

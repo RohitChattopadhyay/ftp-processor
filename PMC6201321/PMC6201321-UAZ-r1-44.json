@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5234",
+      "entity_text" : "NaCl",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "All treatments were performed in Opti-MEM medium or K + buffer (130 mM NaCl, 5 mM KCl, 1 mM MgCl 2, 2.5 mM CaCl 2, 10 mM HEPES, and 10 mM glucose, pH 7.4; for high K + buffer, the equal amount of NaCl was replaced by KCl).",
+  "reading_complete" : "2020-08-08T16:22:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:19:52Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of NaCl" ],
+  "pmc_id" : "6201321",
+  "score" : 0
+}

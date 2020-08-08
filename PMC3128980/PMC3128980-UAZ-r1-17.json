@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02774",
+      "entity_text" : "Gc",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4807",
+      "entity_text" : "Opa",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Opa protein expression increases Gc phagocytosis by PMNs and stimulates PMN ROS production, and both factors may influence bacterial survival after exposure to PMNs.",
+  "reading_complete" : "2020-08-08T16:26:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:24:12Z",
+  "trigger" : "increases",
+  "evidence" : [ "Opa protein expression increases Gc" ],
+  "pmc_id" : "3128980",
+  "score" : 0
+}

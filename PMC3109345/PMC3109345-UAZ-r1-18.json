@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q10589",
+      "entity_text" : "BST-2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00558",
+      "entity_text" : "Vpu",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005783" ]
+    }
+  },
+  "verbose_text" : "However, binding of Vpu to BST-2 may not be sufficient to neutralize BST-2 and to ensure efficient virus release since at least in one case, transfer of the human TM domain conferred Vpu interaction but did not bestow Vpu sensitivity to agm BST-2.",
+  "reading_complete" : "2020-08-08T16:24:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:22:56Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Vpu to BST-2" ],
+  "pmc_id" : "3109345",
+  "score" : 0
+}

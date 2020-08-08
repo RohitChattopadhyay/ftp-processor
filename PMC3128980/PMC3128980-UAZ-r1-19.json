@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "chebi:CHEBI:26523",
+      "entity_text" : "ROS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0534" ],
+      "CellType" : [ "cl:CL:0000096" ]
+    }
+  },
+  "verbose_text" : "Gc utilizes three mechanisms to reduce the amount of ROS produced by PMNs.",
+  "reading_complete" : "2020-08-08T16:26:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:24:12Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of ROS" ],
+  "pmc_id" : "3128980",
+  "score" : 0
+}

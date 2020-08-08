@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IWZ3",
+      "entity_text" : "mask",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "cathepsin G",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Gc LOS is thought to mask proteins which are degraded by cathepsin G, since truncation or loss of LOS results in increased binding of cathepsin G and increased susceptibility to cathepsin G mediated killing.",
+  "reading_complete" : "2020-08-08T16:26:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:24:12Z",
+  "trigger" : "degraded",
+  "evidence" : [ "mask proteins which are degraded by cathepsin G" ],
+  "pmc_id" : "3128980",
+  "score" : 0
+}

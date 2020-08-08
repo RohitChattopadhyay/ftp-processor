@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12644",
+      "entity_text" : "bmp4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Activin_A",
+      "entity_text" : "activin-A",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In our zebrafish model, Tet dependent expression of activin-A is required to activate a downstream bmp4 pathway to coordinate the attachment of PE cells to an AVC associated region of the heart.",
+  "reading_complete" : "2020-08-08T16:25:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:22:30Z",
+  "trigger" : "activate",
+  "evidence" : [ "activin-A is required to activate a downstream bmp4" ],
+  "pmc_id" : "6366638",
+  "score" : 0
+}

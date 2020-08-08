@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96P20",
+      "entity_text" : "NLRP3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0006" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Indeed, calpeptin reduced Caspase-1 p20 and IL-1beta p17 production (XREF_FIG), without greatly impacting cell death (XREF_SUPPLEMENTARY), mRNA or protein levels of NLRP3, pro-caspase-1, or pro-IL-1beta.",
+  "reading_complete" : "2020-08-08T16:22:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:19:52Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of NLRP3" ],
+  "pmc_id" : "6201321",
+  "score" : 0
+}

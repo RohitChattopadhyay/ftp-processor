@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:312",
+      "entity_text" : "chloride",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000234" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Indeed, both glyburide and CFTRinh-172 increased intracellular chloride level (XREF_SUPPLEMENTARY), which may explain their hyperpolarization effect.",
+  "reading_complete" : "2020-08-08T16:22:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:19:52Z",
+  "trigger" : "level",
+  "evidence" : [ "chloride level" ],
+  "pmc_id" : "6201321",
+  "score" : 0
+}
