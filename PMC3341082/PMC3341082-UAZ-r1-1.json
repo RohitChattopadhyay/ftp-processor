@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P80509",
+      "entity_text" : "hydrogenase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The amount of hydrogenase activity (using the artificial electron carrier methyl viologen) in cytoplasmic fractions was not significantly affected in the DeltaSHII strain but was much lower in the DeltaSHI strain (< 10% of that produced in the parental strains), while in the DeltaSHIDeltaSHII strain, no hydrogenase activity could be detected.",
+  "reading_complete" : "2020-08-08T14:53:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:52:34Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of hydrogenase" ],
+  "pmc_id" : "3341082",
+  "score" : 0
+}

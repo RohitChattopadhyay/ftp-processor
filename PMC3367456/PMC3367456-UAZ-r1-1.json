@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "end",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The 5 ' overhangs would be prone to strand re-synthesis primed by the recessed 3 ' ends, but no such priming is available for a 3 ' extension created by loss of the complementary 5 ' end.",
+  "reading_complete" : "2020-08-08T14:52:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:49:12Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the complementary 5 '  end" ],
+  "pmc_id" : "3367456",
+  "score" : 0
+}

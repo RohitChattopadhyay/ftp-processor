@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "end",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The process that incorporates the ssDNA involves preferential loss of the 3 ' end, but remains otherwise undefined.",
+  "reading_complete" : "2020-08-08T14:52:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:49:12Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the 3 '  end" ],
+  "pmc_id" : "3367456",
+  "score" : 0
+}
