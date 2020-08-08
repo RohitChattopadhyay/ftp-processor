@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P55085",
+      "entity_text" : "PAR2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In mice, administration of PAR2 agonists in the colon has been shown to upregulate PAR2 expression and induces inflammation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T11:45:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:42:59Z",
+  "trigger" : "induces",
+  "evidence" : [ "PAR2 expression and induces inflammation" ],
+  "pmc_id" : "5360340",
+  "score" : 0
+}

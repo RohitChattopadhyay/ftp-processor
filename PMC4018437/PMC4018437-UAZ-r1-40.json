@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23935",
+      "entity_text" : "NE",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0285" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Since insulin and glucose levels are reduced, while fatty acid and NE levels are increased during fasting, it is likely that elevated levels of fatty acids and NE play a major role in stimulating Lcn2 expression and secretion during fasting.",
+  "reading_complete" : "2020-08-08T11:48:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:47:34Z",
+  "trigger" : "levels",
+  "evidence" : [ "NE levels" ],
+  "pmc_id" : "4018437",
+  "score" : 0
+}
