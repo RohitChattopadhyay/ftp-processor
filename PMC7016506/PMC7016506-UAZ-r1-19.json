@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96SB8",
+      "entity_text" : "SMC6",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IY18",
+      "entity_text" : "SMC5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "CellType" : [ "cl:CL:0000192" ]
+    }
+  },
+  "verbose_text" : "The six SMCs can be classified as subunits of condensin (SMC2 and SMC4, required for chromosomal condensation), cohesin (SMC1 and SMC3, required for chromosomal segregation), and the SMC5 - SMC6 complex (involved in DNA repair and homologous recombination).",
+  "reading_complete" : "2020-08-08T14:06:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:02:02Z",
+  "trigger" : "complex",
+  "evidence" : [ "SMC5-SMC6 complex" ],
+  "pmc_id" : "7016506",
+  "score" : 0
+}
