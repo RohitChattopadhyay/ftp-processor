@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Tyr 197",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07947",
+      "entity_text" : "Yes",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In contrast, phosphorylation of Hsp90 at Tyr 197 by the Yes kinase, was reported to cause dissociation of Cdc37 p50 from Hsp90 [XREF_BIBR], whereas phosphorylation on Tyr 313 promotes recruitment of Aha1, both of which further the chaperoning process by stimulating Hsp90 ATPase activity.",
+  "reading_complete" : "2020-08-08T18:09:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:56:35Z",
+  "evidence" : [ "phosphorylation of Hsp90 at Tyr 197  by the Yes" ],
+  "pmc_id" : "4980810",
+  "score" : 0
+}

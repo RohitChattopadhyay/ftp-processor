@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29474",
+      "entity_text" : "eNOS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "Hsp90",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "An increase in the ubiquitylation of human Hsp90 was shown to inhibit its function and cause a dissociation of client protein, including p53, Cdk4 (cyclin dependent kinase 4) and Plk (Polo like kinase 1), Akt1 and eNOS, which were subsequently degraded by the proteasome [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:09:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:56:35Z",
+  "trigger" : "cause",
+  "evidence" : [ "Hsp90 was shown to inhibit its function and cause a dissociation of client protein, including p53, Cdk4 (cyclin-dependent kinase 4) and Plk (Polo-like kinase 1), Akt1 and eNOS" ],
+  "pmc_id" : "4980810",
+  "score" : 0
+}

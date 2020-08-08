@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has been reported that P-gp (also called ABCB1 or MDR1) can actively bind and pump out drugs against the concentration gradient by hydrolysis of ATP and is an ATP powered drug efflux pump membrane transporter; therefore, anticancer drugs cannot accumulate inside the cells to trigger cytotoxic effects.",
+  "reading_complete" : "2020-08-08T18:08:47Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:01:01Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "hydrolysis of ATP" ],
+  "pmc_id" : "6955663",
+  "score" : 0
+}
