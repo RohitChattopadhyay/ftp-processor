@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E732" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0158" ]
+    }
+  },
+  "verbose_text" : "Different mutants affect GTP hydrolysis, nucleotide exchange, and affinity to binding partners in unique ways, and this translates to distinct levels of activity in cells, as we observe for KRas G13D versus KRas G12D in mice.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "GTP hydrolysis" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

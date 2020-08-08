@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01112",
+      "entity_text" : "HRas",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 13,
+        "feature_type" : "mutation",
+        "evidence" : "G13D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Likewise, the structure from HRas G13D crystals with P2 1 2 1 2 1 symmetry bound to GppNHp, once solved, was used as a phasing model in molecular replacement for P2 1 2 1 2 1 HRas G13D bound to GDP.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "bound",
+  "evidence" : [ "HRas G13D bound to GDP" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

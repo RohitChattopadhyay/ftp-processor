@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:86289562",
+      "entity_text" : "GppNHp",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01111",
+      "entity_text" : "NRas",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 13,
+        "feature_type" : "mutation",
+        "evidence" : "G13D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "NRas G13D bound to GppNHp crystals were grown at pH 7.5 in 9% 2-propanol, 72 mM HEPES, 20% PEG 4000, and 15% stabilization buffer, at 18degreesC.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "bound",
+  "evidence" : [ "NRas G13D bound to GppNHp" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

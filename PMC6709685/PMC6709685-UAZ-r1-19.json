@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y039" ],
+      "Organ" : [ "uberon:UBERON:0001130" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Thus, it is possible that Na + helps catalyze the hydrolysis of GTP in the G13D mutants by neutralizing the negative D13 charge to facilitate a conformational change of the negatively charged switch I to state 2 and by helping to stabilize the transition state of the GTP hydrolysis reaction.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "GTP hydrolysis" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

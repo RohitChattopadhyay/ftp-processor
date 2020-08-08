@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Presumably, SOS works in concert with the G13D mutation to maintain the high levels of GTP bound Ras, although in KRas G13D the intrinsic stabilization of the conformation promoted by SOS may make its role less important than in other isoforms or mutants.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "bound",
+  "evidence" : [ "GTP-bound Ras" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

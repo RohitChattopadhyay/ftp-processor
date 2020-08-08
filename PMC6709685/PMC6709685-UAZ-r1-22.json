@@ -1,0 +1,40 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01116",
+      "entity_text" : "KRas",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 13,
+        "feature_type" : "mutation",
+        "evidence" : "G13D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y039" ],
+      "Organ" : [ "uberon:UBERON:0002488" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The structure we have captured for KRas G13D bound to GDP suggests a mechanism for the expulsion of Mg 2+ in KRas G13D, which, together with the high concentration of GTP in the cell, could explain the more prominent appearance of the G13D mutant in the KRas isoform.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "bound",
+  "evidence" : [ "KRas G13D bound to GDP" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

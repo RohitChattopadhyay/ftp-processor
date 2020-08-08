@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y039" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:3010752" ]
+    }
+  },
+  "verbose_text" : "In active Ras, switch I samples an open conformation, state 1, that is associated with nucleotide exchange and does not interact with effector proteins, and a closed conformation, state 2, associated with GTP hydrolysis and effector binding (XREF_FIG).",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "GTP hydrolysis" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

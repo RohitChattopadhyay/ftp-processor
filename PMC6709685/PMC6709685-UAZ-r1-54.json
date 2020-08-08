@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01116",
+      "entity_text" : "KRAS",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 13,
+        "feature_type" : "mutation",
+        "evidence" : "G13D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The GDP bound crystals of KRAS G13D grew with P2 1 2 1 2 1 symmetry at 18degreesC, at pH 5.6, in the presence of 27.5% PEG 3350, 125 mM Na (OAc), 122 mM sodium citrate, and 4.0% stabilization buffer.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "bound",
+  "evidence" : [ "GDP bound crystals of KRAS" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

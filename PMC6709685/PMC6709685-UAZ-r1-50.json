@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00071",
+      "entity_text" : "Ras",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 13,
+        "feature_type" : "mutation",
+        "evidence" : "G13D"
+      } ],
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:8977",
+      "entity_text" : "GDP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "We have obtained GppNHp- and GDP bound structures of Ras G13D, most of them in multiple crystallographic environments.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "bound",
+  "evidence" : [ "GDP-bound structures of Ras" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

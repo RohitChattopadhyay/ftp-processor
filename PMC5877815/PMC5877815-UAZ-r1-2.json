@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_1414" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Species" : [ "taxonomy:10116" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "CRF enhances IP 3 -Ca 2+ signaling by activation of CRFR2 in DA neurons, likely via protein kinase A (PKA)-mediated phosphorylation, causing increased IP 3 R sensitivity.",
+  "reading_complete" : "2020-08-08T16:19:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:18:15Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "DA neurons                                        , likely via protein kinase A (PKA)-mediated phosphorylation" ],
+  "pmc_id" : "5877815",
+  "score" : 0
+}

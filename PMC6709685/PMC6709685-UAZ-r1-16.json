@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20936",
+      "entity_text" : "GAP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0160" ],
+      "CellType" : [ "cl:CL:0000010" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Increase in the levels of Ras-GTP can occur by the impairment of intrinsic and GTPase activating protein (GAP)-catalyzed GTP hydrolysis (e.g., G12V, Q61L) or by increased intrinsic and guanine nucleotide exchange factor (GEF)-catalyzed nucleotide exchange activity (e.g., G13D, A146T).",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "GAP)-catalyzed GTP hydrolysis" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

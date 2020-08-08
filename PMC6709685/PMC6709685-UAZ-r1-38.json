@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SOS",
+      "entity_text" : "SOS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01112",
+      "entity_text" : "HRas",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y039" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:0001130" ]
+    }
+  },
+  "verbose_text" : "In KRas G13D bound to GDP, A59 is placed in the Mg 2+ binding site, as in the HRas - SOS complex.",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "complex",
+  "evidence" : [ "HRas-SOS complex" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

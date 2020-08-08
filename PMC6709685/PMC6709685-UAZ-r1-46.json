@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SOS",
+      "entity_text" : "SOS",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01112",
+      "entity_text" : "HRas",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_Y039" ],
+      "Organ" : [ "uberon:UBERON:0002488" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In KRas G13D bound to GDP, the cluster is part of an extensive network that promotes a beta-turn conformation at the beginning of switch II, in which A59 is positioned to displace the Mg 2+ ion in a fashion similar to that observed in the HRas - SOS complex (PDB : 1BKD) (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T16:18:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:12:22Z",
+  "trigger" : "complex",
+  "evidence" : [ "HRas-SOS complex" ],
+  "pmc_id" : "6709685",
+  "score" : 0
+}

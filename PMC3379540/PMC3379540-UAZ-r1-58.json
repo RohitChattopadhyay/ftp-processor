@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006954",
+      "entity_text" : "inflammatory response",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60603",
+      "entity_text" : "TLR2",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "It has recently been shown that TLR2 contributes to detrimental inflammatory cytokine production in mice following intracranial administration with HSV-1, with the absence of TLR2 expression leading to decreased peripheral and CNS inflammatory response sand increased survival.",
+  "reading_complete" : "2020-08-08T16:17:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:13:21Z",
+  "trigger" : "leading",
+  "evidence" : [ "TLR2 expression leading to decreased peripheral               and CNS               inflammatory response" ],
+  "pmc_id" : "3379540",
+  "score" : 0
+}
