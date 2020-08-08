@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04018",
+      "entity_text" : "Gt-MamyT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4530" ]
+    }
+  },
+  "verbose_text" : "The possible explanation for the absence of transglycosylation activity in Gt-MamyT could be due to the absence of N-terminal domain which does not allow the formation of extra sugar binding space (XREF_SUPPLEMENTARY), and thus, this truncated enzyme cannot accommodate sugar molecules for transglycosylation.",
+  "reading_complete" : "2020-08-08T15:04:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:01:53Z",
+  "trigger" : "transglycosylation",
+  "evidence" : [ "transglycosylation activity in Gt-MamyT" ],
+  "pmc_id" : "3777949",
+  "score" : 0
+}
