@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07963",
+      "entity_text" : "VGSC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PKA",
+      "entity_text" : "PKA",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "G-protein-activated phosphorylation of VGSCs by PKA and PKC reduces VGSC current by 20%-40%.",
+  "reading_complete" : "2020-08-08T15:34:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:31:05Z",
+  "trigger" : "reduces",
+  "evidence" : [ "PKA and PKC reduces VGSC" ],
+  "pmc_id" : "6203318",
+  "score" : 0
+}

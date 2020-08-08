@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28288",
+      "entity_text" : "Abcd3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "We quantified mRNA levels of Glut8, Abcd3, Slc39a3, and Slc31a1 (mouse orthologs of CG1208, pmp70, zip1, and ctr1B, respectively), and we found a significant increase in Abcd3, Glut8, and Slc39a3 expression (XREF_SUPPLEMENTARY G; t test, p = 0.006562, p = 0.029, and p = 0.019, respectively) upon intestinal Irs1 knockout.",
+  "reading_complete" : "2020-08-08T15:36:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:34:21Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of Glut8, Abcd3" ],
+  "pmc_id" : "5656751",
+  "score" : 0
+}
