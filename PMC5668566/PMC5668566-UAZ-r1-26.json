@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P63162",
+      "entity_text" : "SMN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0002608" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As seen in whole tissues, we observed translation defects that correlated directly with the relative level of SMN loss (XREF_FIG G).",
+  "reading_complete" : "2020-08-08T13:34:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:32:21Z",
+  "trigger" : "level",
+  "evidence" : [ "level of SMN" ],
+  "pmc_id" : "5668566",
+  "score" : 0
+}

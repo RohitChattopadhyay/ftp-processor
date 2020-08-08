@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "S429",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08045",
+      "entity_text" : "Cdc14",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "In particular, Cdc14 S429 phosphorylation, which is thought to inhibit phosphatase activity, was vastly reduced in the absence of PP2A Cdc55 (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T13:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:30:04Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Cdc14 S429 phosphorylation" ],
+  "pmc_id" : "6857435",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "dephosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y5N6",
+      "entity_text" : "Orc6",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P67775",
+      "entity_text" : "PP2A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "One of the phosphosites identified in cells lacking PP2A Cdc55 was Orc6 T146, confirming that PP2A Cdc55 contributes to Orc6 dephosphorylation (compare XREF_FIG B).",
+  "reading_complete" : "2020-08-08T13:32:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:30:04Z",
+  "trigger" : "contributes",
+  "evidence" : [ "PP2A Cdc55  contributes to Orc6 dephosphorylation" ],
+  "pmc_id" : "6857435",
+  "score" : 0
+}
