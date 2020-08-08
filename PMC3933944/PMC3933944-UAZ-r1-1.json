@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00882",
+      "entity_text" : "XML",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01852",
+      "entity_text" : "start",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The knowledge of the start and end byte locations of the relevant elements allows us to retrieve the required chunk of XML in an on-demand basis, without needing to load the complete file in memory.",
+  "reading_complete" : "2020-08-08T16:39:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:38:22Z",
+  "trigger" : "allows",
+  "evidence" : [ "start and end byte locations of the relevant elements allows us to retrieve the required chunk of XML" ],
+  "pmc_id" : "3933944",
+  "score" : 0
+}

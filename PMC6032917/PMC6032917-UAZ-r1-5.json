@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Serine p429",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15061",
+      "entity_text" : "SYNM",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "TissueType" : [ "tissuelist:TS-0417" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The peptide is derived from synemin (SYNM) which is phosphorylated at Serine p429.",
+  "reading_complete" : "2020-08-08T16:37:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:04Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "SYNM) which is phosphorylated at Serine p429" ],
+  "pmc_id" : "6032917",
+  "score" : 0
+}
