@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21359",
+      "entity_text" : "Nf1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0060" ],
+      "Cellular_component" : [ "go:GO:0043209" ],
+      "CellType" : [ "cl:CL:0000128" ]
+    }
+  },
+  "verbose_text" : "GFAP-Cre; Nf1fl/- mice have loss of Nf1 in most or all of their brain cells.",
+  "reading_complete" : "2020-08-08T11:22:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:21:00Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Nf1" ],
+  "pmc_id" : "3982616",
+  "score" : 0
+}
