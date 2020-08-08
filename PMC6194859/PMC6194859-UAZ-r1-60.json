@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19405",
+      "entity_text" : "PhoB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:4200047" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "The rising time, defined as the time required for reaching the half-maximal PhoB expression level, is ~ 25 min, much shorter than the 60 min rising time predicted by the model.",
+  "reading_complete" : "2020-08-08T12:41:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:37:07Z",
+  "trigger" : "level",
+  "evidence" : [ "PhoB expression level" ],
+  "pmc_id" : "6194859",
+  "score" : 0
+}

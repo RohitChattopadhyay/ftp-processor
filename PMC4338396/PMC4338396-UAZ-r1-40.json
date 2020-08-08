@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16611",
+      "entity_text" : "Bak",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75460",
+      "entity_text" : "IRE1alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Additionally, IRE1alpha binds to proapoptotic proteins Bax and Bak on the mitochondrial outer membrane and promotes mitochondrion dependent cell death.",
+  "reading_complete" : "2020-08-08T12:43:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:39:18Z",
+  "trigger" : "binds",
+  "evidence" : [ "IRE1alpha binds to proapoptotic proteins Bax and Bak" ],
+  "pmc_id" : "4338396",
+  "score" : 0
+}

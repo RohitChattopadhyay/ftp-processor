@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04718",
+      "entity_text" : "PGRN",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005764" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "Loss of PGRN leads to the accumulation of long, polyunsaturated triacylglycerides (TAGs) and a concomitant reduction of DAGs and phosphatidylserines (PSs) in both the whole-cell and enriched lysosome lipidomes.",
+  "reading_complete" : "2020-08-08T12:44:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:43:54Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of PGRN" ],
+  "pmc_id" : "5757843",
+  "score" : 0
+}
