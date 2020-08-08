@@ -1,0 +1,41 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ19652",
+      "entity_text" : "Cbln",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:O43424",
+      "entity_text" : "GluD2",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ19663",
+      "entity_text" : "Neurexin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0380" ],
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Cellular_component" : [ "go:GO:0060076" ],
+      "Organ" : [ "uberon:UBERON:0003062" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Whether Noelin1 can act as a bidirectional synaptic plasticity organizer, similar to the Neurexin / Cbln / GluD2 complex, remains to be explored.",
+  "reading_complete" : "2020-08-08T20:02:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:58:49Z",
+  "trigger" : "complex",
+  "evidence" : [ "Neurexin/Cbln/GluD2 complex" ],
+  "pmc_id" : "6088136",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O84462",
+      "entity_text" : "TARP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:GRIA",
+      "entity_text" : "AMPAR",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0014069" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Elevated Ca 2+ levels inside spines after synaptic potentiation alter the affinity of AMPAR bound TARP to postsynaptic scaffolds.",
+  "reading_complete" : "2020-08-08T20:02:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:58:49Z",
+  "trigger" : "bound",
+  "evidence" : [ "AMPAR-bound TARP" ],
+  "pmc_id" : "6088136",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41595",
+      "entity_text" : "5-HT2B",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13609",
+      "entity_text" : "LSD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The extreme potency of LSD in particular might be due to slow off kinetics, as recently proposed following the disclosure of the LSD bound 5-HT2B crystal structure.",
+  "reading_complete" : "2020-08-08T20:03:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T20:02:00Z",
+  "trigger" : "bound",
+  "evidence" : [ "LSD-bound 5-HT2B" ],
+  "pmc_id" : "6082376",
+  "score" : 0
+}

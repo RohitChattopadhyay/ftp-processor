@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BZR6",
+      "entity_text" : "Nogo receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ19624",
+      "entity_text" : "Noelin1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0460" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Noelin1 binds to the Nogo receptor (RTN4R), and RTN4R is a receptor for CSPGs.",
+  "reading_complete" : "2020-08-08T20:02:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:58:49Z",
+  "trigger" : "binds",
+  "evidence" : [ "Noelin1 binds to the Nogo receptor" ],
+  "pmc_id" : "6088136",
+  "score" : 0
+}
