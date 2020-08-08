@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0016049",
+      "entity_text" : "cell growth",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07402",
+      "entity_text" : "ppENK",
+      "features" : [ {
+        "modification_type" : "methylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Therefore, methylation of ppENK during pancreatic carcinogenesis may promote cell growth.",
+  "reading_complete" : "2020-08-08T15:06:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:05:13Z",
+  "trigger" : "promote",
+  "evidence" : [ "ppENK during pancreatic carcinogenesis may promote cell growth" ],
+  "pmc_id" : "3679817",
+  "score" : 0
+}
