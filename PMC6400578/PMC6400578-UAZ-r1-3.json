@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1001",
+      "entity_text" : "pea",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0420" ],
+      "Organ" : [ "uberon:UBERON:0003672" ],
+      "CellType" : [ "cl:CL:0000990" ]
+    }
+  },
+  "verbose_text" : "In this study,> 38% of children aged 3-6 years reportedly used a half or full load of toothpaste, exceeding current recommendation for no more than a pea sized amount (0.25 g) and potentially exceeding recommended daily fluoride ingestion.",
+  "reading_complete" : "2020-08-08T09:59:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:58:26Z",
+  "trigger" : "amount",
+  "evidence" : [ "pea-sized amount" ],
+  "pmc_id" : "6400578",
+  "score" : 0
+}
