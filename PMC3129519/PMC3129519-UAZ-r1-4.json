@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SRC",
+      "entity_text" : "Src",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Human membrane cofactor protein (CD46) is hypothesized by some to serve as the neisserial pilus receptor and the demonstration that pilus mediated interactions with CD46 trigger cellular responses through Src kinase dependent phosphorylation suggests CD46 has an immunoregulatory role during infection.",
+  "reading_complete" : "2020-08-08T16:10:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:07:18Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Src kinase-dependent phosphorylation" ],
+  "pmc_id" : "3129519",
+  "score" : 0
+}

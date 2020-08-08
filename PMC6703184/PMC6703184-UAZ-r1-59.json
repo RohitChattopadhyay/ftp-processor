@@ -1,0 +1,40 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "Tau",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q1HR36",
+      "entity_text" : "14-3-3zeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Cellular_component" : [ "go:GO:0097418" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Moreover, 14-3-3zeta can bind misfolded and hyperphosphorylated Tau and modulate its aggregation.",
+  "reading_complete" : "2020-08-08T16:06:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:02:12Z",
+  "trigger" : "bind",
+  "evidence" : [ "14-3-3zeta can bind misfolded and hyperphosphorylated Tau" ],
+  "pmc_id" : "6703184",
+  "score" : 0
+}

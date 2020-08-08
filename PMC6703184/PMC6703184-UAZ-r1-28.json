@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ14441",
+      "entity_text" : "cindr",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Thus, higher extracellular [Ca 2+] is required to achieve the same evoked response, suggesting that loss of cindr leads to a reduced sensitivity to extracellular Ca 2+.",
+  "reading_complete" : "2020-08-08T16:06:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:02:12Z",
+  "trigger" : "leads",
+  "evidence" : [ "cindr leads to a reduced sensitivity to extracellular Ca" ],
+  "pmc_id" : "6703184",
+  "score" : 0
+}

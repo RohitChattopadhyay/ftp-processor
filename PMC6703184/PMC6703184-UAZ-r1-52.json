@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P58165",
+      "entity_text" : "PMCA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "Cellular_component" : [ "go:GO:0008021" ]
+    }
+  },
+  "verbose_text" : "Based on biochemical studies, actin may also bind and regulate human PMCA to modulate Ca 2+ homeostasis.",
+  "reading_complete" : "2020-08-08T16:06:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:02:12Z",
+  "trigger" : "bind",
+  "evidence" : [ "actin may also bind and regulate human PMCA" ],
+  "pmc_id" : "6703184",
+  "score" : 0
+}

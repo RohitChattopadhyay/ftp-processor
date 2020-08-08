@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O73683",
+      "entity_text" : "Abeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1313" ],
+      "Cellular_component" : [ "go:GO:0008021" ],
+      "Organ" : [ "uberon:UBERON:0000120" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "CD2AP has also been implicated in amyloid precursor protein trafficking and processing in cultured neurons, although Cd2ap loss of function did not affect total Abeta levels or amyloid plaque burden in AD mouse models.",
+  "reading_complete" : "2020-08-08T16:06:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:02:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "Abeta levels" ],
+  "pmc_id" : "6703184",
+  "score" : 0
+}

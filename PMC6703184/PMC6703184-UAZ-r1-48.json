@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ14441",
+      "entity_text" : "Cindr",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Based on MS peptide counts, Cindr associates with actin, as expected, and several other candidate binding partners, including proteins related to synaptic transmission (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T16:06:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:02:12Z",
+  "trigger" : "associates",
+  "evidence" : [ "Cindr associates with actin" ],
+  "pmc_id" : "6703184",
+  "score" : 0
+}

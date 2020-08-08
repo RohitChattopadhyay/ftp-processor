@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Proteasome",
+      "entity_text" : "proteasome",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3872" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To determine whether proteasome activity is impaired in cindr mutants, we first employed an in vivo reporter line in which GFP is fused with the CL1 degron, a signal sequence for ubiquitination and proteasome targeting.",
+  "reading_complete" : "2020-08-08T16:06:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:02:12Z",
+  "trigger" : "ubiquitination",
+  "evidence" : [ "ubiquitination and proteasome" ],
+  "pmc_id" : "6703184",
+  "score" : 0
+}
