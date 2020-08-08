@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05663",
+      "entity_text" : "TKL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellType" : [ "cl:CL:0002045" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "To identify the position (s) at which TKL is phosphorylated, we performed a ' cold ' (non radioactive) calcium dependent phosphorylation assay with Arabidopsis stromal proteins followed by immunoprecipitation using an antibody raised against recombinant AtTKL1 (XREF_FIG C and Supplementary Figure S4 at http://www.biochemj.org/bj/458/bj4580313add.htm).",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "TKL is phosphorylated" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}

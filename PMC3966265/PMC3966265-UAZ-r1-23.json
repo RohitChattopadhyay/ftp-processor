@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05688",
+      "entity_text" : "wild-type AtTKL1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4097" ],
+      "TissueType" : [ "tissuelist:TS-0540" ],
+      "Cellular_component" : [ "go:GO:0009507" ],
+      "Organ" : [ "uberon:UBERON:0003891" ]
+    }
+  },
+  "verbose_text" : "We thus wanted to elucidate a potential influence of Ser 428 phosphorylation on enzyme activity using non phosphorylated wild-type AtTKL1 compared with a phosphomimetic mutant containing a serine aspartate mutation at position 428 (AtTKL1 S428D).",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "phosphorylated wild-type AtTKL1" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}

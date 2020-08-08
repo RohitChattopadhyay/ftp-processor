@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05663",
+      "entity_text" : "TKL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009507" ],
+      "Organ" : [ "uberon:UBERON:0003891" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "Comparably, the two thylakoid targets CAS and Var1 were shown to be phosphorylated on stroma exposed domains by a high-salt-washed stromal extract [XREF_BIBR] and it is thus possible that one and the same stromal kinase phosphorylates these proteins as well as TKL.",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates these proteins as well as TKL" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}
