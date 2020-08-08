@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11169",
+      "entity_text" : "GLUT3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10991489",
+      "entity_text" : "maltose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "Two different maltose bound GLUT3 structures were obtained, a partially open structure (as in XREF_FIG) and a more fully open structure.",
+  "reading_complete" : "2020-08-08T15:50:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:39:51Z",
+  "trigger" : "bound",
+  "evidence" : [ "maltose-bound GLUT3" ],
+  "pmc_id" : "6243331",
+  "score" : 0
+}
