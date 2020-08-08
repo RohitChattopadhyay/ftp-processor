@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00183",
+      "entity_text" : "HSP90",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UI32",
+      "entity_text" : "GA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:5833" ]
+    }
+  },
+  "verbose_text" : "Based on the toxic activity of GA and 17-AAG against malaria and the evidence that GA binds P. falciparum HSP90 [XREF_BIBR], the inventors suggest that every compounds that binds at a GA-site on parasite HSP90 can be a potential anti-malarial agent.",
+  "reading_complete" : "2020-08-08T12:38:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:33:34Z",
+  "trigger" : "binds",
+  "evidence" : [ "GA binds P. falciparum HSP90" ],
+  "pmc_id" : "3706948",
+  "score" : 0
+}
