@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09261",
+      "entity_text" : "P359",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6Z9",
+      "entity_text" : "PHD3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To confirm that PHD3 directly hydroxylates P359, we incubated a biotinylated peptide (amino acids 349-371 of human p53) with extracts of HEK293T cells overexpressing PHD3 wt or the inactive mutant PHD3 H196A and observed an increase of proline 359 hydroxylation when the peptide was incubated with PHD3 wt in comparison to the inactive hydroxylase.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "directly",
+  "evidence" : [ "PHD3 directly hydroxylates P359" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40337",
+      "entity_text" : "VHL",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09253",
+      "entity_text" : "DYRK1 kinases",
+      "features" : [ {
+        "modification_type" : "hydroxylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In addition, it was recently shown that PHD1 can hydroxylate and activate DYRK1 kinases, which phosphorylate ID2 and prevent the disruption of the VHL degradation complex, which in turn destabilizes HIF2alpha.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "prevent",
+  "evidence" : [ "DYRK1 kinases, which phosphorylate ID2 and prevent the disruption of the VHL" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

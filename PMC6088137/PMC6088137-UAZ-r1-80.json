@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00582",
+      "entity_text" : "USP",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09261",
+      "entity_text" : "P359",
+      "features" : [ {
+        "modification_type" : "hydroxylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To unequivocally determine that hydroxylation of P359 enhances binding to USP, we incubated peptides containing proline or hydroxyproline 359 with lysates overexpressing USP7 or USP10 and observed that hydroxylation of proline 359 increased the binding of the peptide to both USPs (XREF_FIG E).",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "enhances",
+  "evidence" : [ "P359 enhances binding to USP" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

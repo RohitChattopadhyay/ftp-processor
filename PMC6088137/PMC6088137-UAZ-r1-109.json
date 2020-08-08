@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10566" ]
+    }
+  },
+  "verbose_text" : "The modification is reversible and p53 is deubiquitinated by a family of proteases, the deubiquitinases (DUBs), two of which, USP7 (HAUSP) and USP10, regulate p53.",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "deubiquitinated",
+  "evidence" : [ "p53 is deubiquitinated" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}

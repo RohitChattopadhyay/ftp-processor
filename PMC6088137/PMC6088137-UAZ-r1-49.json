@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H6Z9",
+      "entity_text" : "PHD3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:3704" ]
+    }
+  },
+  "verbose_text" : "To determine whether the induced interaction between p53 and PHD3 was not due to an off-target effect of DMOG, we compared the effect of the pan-hydroxylase inhibitor DMOG (which inhibits both PHDs and FIH) to the PHD selective, structurally unrelated inhibitor JNJ-42041935 (JNJ).",
+  "reading_complete" : "2020-08-08T16:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:53Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between p53 and PHD3" ],
+  "pmc_id" : "6088137",
+  "score" : 0
+}
