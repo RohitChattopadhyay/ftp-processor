@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NHL6",
+      "entity_text" : "miR-7",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0712" ],
+      "Organ" : [ "uberon:UBERON:2001463" ],
+      "CellType" : [ "cl:CL:0000031" ],
+      "Species" : [ "taxonomy:76720" ]
+    }
+  },
+  "verbose_text" : "Misexpression of miR-7 results in an increase in Ato expression and R8 cell specification, while a loss of miR-7 results in a decrease in Ato expression under conditions of temperature stress.",
+  "reading_complete" : "2020-08-08T17:22:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:21:09Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of miR-7" ],
+  "pmc_id" : "5561169",
+  "score" : 0
+}
