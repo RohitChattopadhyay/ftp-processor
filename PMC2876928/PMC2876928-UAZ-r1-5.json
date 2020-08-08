@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10964",
+      "entity_text" : "MDA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "[XREF_BIBR] A dose finding study indicated 15 muL/100 g body weight Ksheerabala as the optimum dose and although 25 muL/100 g body weight Ksheerabala produced higher MDA levels, this difference was not statistically significant.",
+  "reading_complete" : "2020-08-08T11:47:14Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:44:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "MDA levels" ],
+  "pmc_id" : "2876928",
+  "score" : 0
+}
