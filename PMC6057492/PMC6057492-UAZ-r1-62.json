@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H9S0",
+      "entity_text" : "Nanog",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HCS4",
+      "entity_text" : "Tcf7l1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conversely, loss of Tcf7l1 resulted in upregulation of Nanog, severely delaying the onset of differentiation.",
+  "reading_complete" : "2020-08-08T14:02:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:59:32Z",
+  "trigger" : "upregulation",
+  "evidence" : [ "Tcf7l1 resulted in upregulation of Nanog" ],
+  "pmc_id" : "6057492",
+  "score" : 0
+}

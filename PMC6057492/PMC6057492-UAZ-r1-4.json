@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:GSK3",
+      "entity_text" : "Gsk3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It has been shown that in Tsc2 KO MEFs, Akt is inactive due to the negative feedback, but activated S6K phosphorylates Gsk3.",
+  "reading_complete" : "2020-08-08T14:02:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:59:32Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates Gsk3" ],
+  "pmc_id" : "6057492",
+  "score" : 0
+}

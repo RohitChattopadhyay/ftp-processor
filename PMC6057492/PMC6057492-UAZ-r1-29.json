@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:GSK3",
+      "entity_text" : "Gsk3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:2000042" ]
+    }
+  },
+  "verbose_text" : "Overexpression of constitutively active Akt is known to sustain self-renewal in the absence of LIF and to be associated with increased Gsk3 phosphorylation.",
+  "reading_complete" : "2020-08-08T14:02:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:59:32Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Gsk3 phosphorylation" ],
+  "pmc_id" : "6057492",
+  "score" : 0
+}

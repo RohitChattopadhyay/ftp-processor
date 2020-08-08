@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49815",
+      "entity_text" : "Tsc2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:CVCL_9115" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It has been reported that in Tsc2 deficient MEFs, activated S6K constitutively phosphorylates Gsk3 and downregulates its kinase activity, which is reversible upon rapamycin treatment.",
+  "reading_complete" : "2020-08-08T14:02:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:59:32Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "Tsc2-deficient MEFs, activated S6K constitutively phosphorylates" ],
+  "pmc_id" : "6057492",
+  "score" : 0
+}
