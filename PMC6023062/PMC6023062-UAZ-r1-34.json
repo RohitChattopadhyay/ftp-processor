@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6013",
+      "entity_text" : "testosterone",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0013" ],
+      "Organ" : [ "uberon:UBERON:0000062" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Historically, it was possible to assign an endocrine function to adipose tissue via the conversion of androgens to oestrogens by aromatase, resulting in a decrease in circulating testosterone levels and, reciprocally, in the production of oestrogens.",
+  "reading_complete" : "2020-08-08T08:15:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:14:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "testosterone levels" ],
+  "pmc_id" : "6023062",
+  "score" : 0
+}
