@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:962",
+      "entity_text" : "water",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0189" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Despite the design of the leaf cuticle to prevent the loss of water and nutrients, it has long been recognized that plant leaves may lose measurable amounts of carbohydrates and other substances to the leaf surface through a process called leaching.",
+  "reading_complete" : "2020-08-08T10:16:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:14:59Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of water" ],
+  "pmc_id" : "3202220",
+  "score" : 0
+}

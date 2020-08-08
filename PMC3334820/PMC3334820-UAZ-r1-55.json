@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60885",
+      "entity_text" : "Brd4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "E2",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0019015" ],
+      "Species" : [ "taxonomy:10566" ]
+    }
+  },
+  "verbose_text" : "Interaction between E2 and Brd4 is also required for the E2 mediated transcriptional activation and repression.",
+  "reading_complete" : "2020-08-08T10:20:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:19:26Z",
+  "trigger" : "Interaction",
+  "evidence" : [ "Interaction between E2 and Brd4" ],
+  "pmc_id" : "3334820",
+  "score" : 0
+}
