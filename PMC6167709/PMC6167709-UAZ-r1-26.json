@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03438",
+      "entity_text" : "PG16",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35338",
+      "entity_text" : "PG9",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8992" ],
+      "Species" : [ "taxonomy:9986" ]
+    }
+  },
+  "verbose_text" : "PG9 and PG16 binding was not observed because the BaL gp160 sequence lacks an essential glycosylation site in position 160.",
+  "reading_complete" : "2020-08-08T11:56:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:52:37Z",
+  "trigger" : "binding",
+  "evidence" : [ "PG9 and PG16 binding" ],
+  "pmc_id" : "6167709",
+  "score" : 0
+}
