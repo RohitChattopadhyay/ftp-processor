@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05933",
+      "entity_text" : "TFIIH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "cyclin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005634" ]
+    }
+  },
+  "verbose_text" : "Cyclin H is another transcriptional cyclin that is more closely related to cyclin C and associates with TFIIH as does cyclin C [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:56:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:45:24Z",
+  "trigger" : "associates",
+  "evidence" : [ "cyclin that is more closely related to cyclin C and associates with TFIIH" ],
+  "pmc_id" : "6466611",
+  "score" : 0
+}

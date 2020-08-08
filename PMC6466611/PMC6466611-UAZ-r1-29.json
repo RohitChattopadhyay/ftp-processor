@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:888",
+      "entity_text" : "magnesium ions",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "In an active conformation (DFG-in), the phenyl ring of Phe174 occupies the hydrophobic groove so that Asp173 can facilitate ATP binding via two magnesium ions [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:56:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:45:24Z",
+  "trigger" : "binding",
+  "evidence" : [ "ATP binding via two magnesium ions" ],
+  "pmc_id" : "6466611",
+  "score" : 0
+}

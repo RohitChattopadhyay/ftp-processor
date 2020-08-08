@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04949",
+      "entity_text" : "transcriptional activator",
+      "features" : [ {
+        "to_base" : "E",
+        "site" : 2,
+        "feature_type" : "mutation",
+        "evidence" : "E2F"
+      } ],
+      "entity_type" : "family"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06732",
+      "entity_text" : "CKM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "On the contrary, the CKM also activates transcription in mammalian cells by phosphorylating cyclin H [XREF_BIBR] and the transcriptional activator E2F [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:56:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:45:24Z",
+  "evidence" : [ "CKM also activates transcription in mammalian cells by phosphorylating cyclin H [ XREF_BIBR ] and the transcriptional activator" ],
+  "pmc_id" : "6466611",
+  "score" : 0
+}
