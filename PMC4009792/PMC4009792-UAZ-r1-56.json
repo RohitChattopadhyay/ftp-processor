@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49901",
+      "entity_text" : "MCs",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Transgenic overexpression of some Arabidopsis MCs (AtMC4, AtMC8) increased the level of cell death induction upon treatment with ROS inducing agents [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:50:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:42:42Z",
+  "trigger" : "increased",
+  "evidence" : [ "MCs (AtMC4, AtMC8) increased the level of cell death" ],
+  "pmc_id" : "4009792",
+  "score" : 0
+}
