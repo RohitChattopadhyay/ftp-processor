@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6N7",
+      "entity_text" : "Robo1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09707",
+      "entity_text" : "Slit1-3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0808" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0002573" ]
+    }
+  },
+  "verbose_text" : "In mammals, Slit1-3 bind to Robo1 and Robo2 with high affinity, but Robo3 and Robo4 are not high-affinity receptors.",
+  "reading_complete" : "2020-08-08T17:18:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:15:14Z",
+  "trigger" : "bind",
+  "evidence" : [ "Slit1-3 bind to Robo1" ],
+  "pmc_id" : "6367597",
+  "score" : 0
+}
