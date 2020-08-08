@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "endotoxin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M653" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Purified VEGF-C protein, generated as described previously, was tested for purity, activity, and endotoxin levels and injected intraperitoneally at a concentration of 50 mug / mouse per day for 3 consecutive days.",
+  "reading_complete" : "2020-08-08T14:59:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:57:48Z",
+  "trigger" : "levels",
+  "evidence" : [ "endotoxin levels" ],
+  "pmc_id" : "5098117",
+  "score" : 0
+}

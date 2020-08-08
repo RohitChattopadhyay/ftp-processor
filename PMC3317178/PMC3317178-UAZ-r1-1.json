@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00437",
+      "entity_text" : "beta-glucan",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ12672",
+      "entity_text" : "Dectin-1 receptor",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Species" : [ "taxonomy:5476" ],
+      "Cellular_component" : [ "go:GO:0043657" ],
+      "Organ" : [ "uberon:UBERON:0002405" ]
+    }
+  },
+  "verbose_text" : "Furthermore, TLR2 triggers an immune response by binding to phospholipomannans, as the Dectin-1 receptor does by binding to beta-glucan.",
+  "reading_complete" : "2020-08-08T14:58:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:53:47Z",
+  "trigger" : "binding",
+  "evidence" : [ "Dectin-1 receptor does by binding to beta-glucan" ],
+  "pmc_id" : "3317178",
+  "score" : 0
+}

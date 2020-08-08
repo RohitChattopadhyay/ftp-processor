@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25774",
+      "entity_text" : "cathepsins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35916",
+      "entity_text" : "VEGFR3",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that VEGFR3 expressed by chemotherapy activated macrophages contributes to lymphangiogenesis largely by promoting the secretion of cathepsins, leading to increased heparanase activity.",
+  "reading_complete" : "2020-08-08T14:59:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:57:48Z",
+  "trigger" : "contributes",
+  "evidence" : [ "VEGFR3 expressed by chemotherapy-activated macrophages contributes to lymphangiogenesis largely by promoting the secretion of cathepsins" ],
+  "pmc_id" : "5098117",
+  "score" : 0
+}

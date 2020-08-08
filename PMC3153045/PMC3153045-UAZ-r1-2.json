@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NFkappaB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Binding of LPS to TLR4 activates MyD88, TRIF, and NFkappaB signaling that stimulates IFNbeta production and STAT1 phosphorylation.",
+  "reading_complete" : "2020-08-08T15:01:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:58:35Z",
+  "trigger" : "stimulates",
+  "evidence" : [ "NFkappaB signaling that stimulates IFNbeta production and STAT1 phosphorylation" ],
+  "pmc_id" : "3153045",
+  "score" : 0
+}
