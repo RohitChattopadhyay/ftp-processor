@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E782" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ]
+    }
+  },
+  "verbose_text" : "Helicases are a group of proteins that function by using ATP hydrolysis to catalyze the unwinding of polynucleic-acid structures and are involved in DNA repair, replication, recombination, chromosomal segregation, and telomere maintenance.",
+  "reading_complete" : "2020-08-08T14:46:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:45:39Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "3591859",
+  "score" : 0
+}

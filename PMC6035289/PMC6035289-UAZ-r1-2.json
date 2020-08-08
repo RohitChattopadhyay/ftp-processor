@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14786",
+      "entity_text" : "neuropilin-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22102",
+      "entity_text" : "GARS",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ]
+    }
+  },
+  "verbose_text" : "XREF_BIBR For some mutations, an extracellular form of mutant GARS binds neuropilin-1 to block binding of vascular endothelial growth factor A to its receptor and interferes with a critical neuronal signaling pathway.",
+  "reading_complete" : "2020-08-08T14:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:46:59Z",
+  "trigger" : "binds",
+  "evidence" : [ "GARS binds neuropilin-1" ],
+  "pmc_id" : "6035289",
+  "score" : 0
+}
