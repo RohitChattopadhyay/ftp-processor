@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17707",
+      "entity_text" : "AMD",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF09793",
+      "entity_text" : "AD",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0990" ],
+      "Cellular_component" : [ "go:GO:0070062" ],
+      "CellType" : [ "cl:CL:0000700" ],
+      "Species" : [ "taxonomy:12143" ]
+    }
+  },
+  "verbose_text" : "Interestingly, while the APOE Ԑ2 and Ԑ4 isoforms, encoded by two APOE alleles, are associated with a decreased and increased risk for AD respectively, opposite directions are reported for AMD (see section on lipid metabolism genes).160, 161 In literature, the association between AD and AMD remains inconclusive.162, 163 Even if AD and AMD share some similarities in immune and inflammatory degenerative mechanisms, these diseases are probably not directly associated.",
+  "reading_complete" : "2020-08-08T11:51:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:29Z",
+  "trigger" : "association",
+  "evidence" : [ "association between AD and AMD" ],
+  "pmc_id" : "7155063",
+  "score" : 0
+}
