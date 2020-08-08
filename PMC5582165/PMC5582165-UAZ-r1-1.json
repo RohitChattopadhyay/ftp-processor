@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02197",
+      "entity_text" : "NMDA receptor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:GRIA",
+      "entity_text" : "AMPA receptor",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For AMPA / NMDA ratio calculation, the AMPA receptor response was recorded at -70 mV to prevent NMDA receptor activation, and the NMDA receptor response was estimated at 50 ms after the peak of mixed currents at +40 mV.",
+  "reading_complete" : "2020-08-08T12:56:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:55:32Z",
+  "trigger" : "prevent",
+  "evidence" : [ "AMPA receptor response was recorded at -70 mV to prevent NMDA receptor" ],
+  "pmc_id" : "5582165",
+  "score" : 0
+}
