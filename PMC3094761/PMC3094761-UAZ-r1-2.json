@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20382",
+      "entity_text" : "MCH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0469" ],
+      "Organ" : [ "uberon:UBERON:0002770" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "We consider it to be unlikely that the attenuation of both long-day induced anabolic responses and short-day induced catabolic responses could be explained solely by partial loss of MCH and/or orexin peptidergic pathways.",
+  "reading_complete" : "2020-08-08T15:36:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:34:47Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of MCH" ],
+  "pmc_id" : "3094761",
+  "score" : 0
+}
