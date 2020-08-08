@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07539",
+      "entity_text" : "secondary glycosyltransferase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9W3F7",
+      "entity_text" : "migA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Interestingly, overexpression of migA resulted in a loss of \" core-plus-one \" but not the higher molecular weight LPS, leading the authors to speculate the existence of a secondary glycosyltransferase.",
+  "reading_complete" : "2020-08-08T12:31:09Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:21:31Z",
+  "trigger" : "leading",
+  "evidence" : [ "migA resulted in a loss of \"core-plus-one\" but not the higher molecular weight LPS, leading the authors to speculate the existence of a secondary glycosyltransferase" ],
+  "pmc_id" : "3108286",
+  "score" : 0
+}
