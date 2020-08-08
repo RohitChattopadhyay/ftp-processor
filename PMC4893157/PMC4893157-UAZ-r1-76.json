@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005657" ]
+    }
+  },
+  "verbose_text" : "To assay the levels of DNA damage, we measured the intensity of H2AX hyperphosphorylation (gammaH2AX), which is a hallmark of ATM activity and therefore a read out for DNA damage.",
+  "reading_complete" : "2020-08-08T16:00:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:58:25Z",
+  "trigger" : "hyperphosphorylation",
+  "evidence" : [ "H2AX hyperphosphorylation" ],
+  "pmc_id" : "4893157",
+  "score" : 0
+}

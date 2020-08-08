@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:54684461",
+      "entity_text" : "doxycycline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This cell line allows the separate induction of c-Myc with hydroxytamoxifen (4OH-T) to cause oncogene induced RS (XREF_SUPPLEMENTARY B) and inducible overexpression of E2F6 with doxycycline to repress E2F transcription.",
+  "reading_complete" : "2020-08-08T16:00:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:58:25Z",
+  "trigger" : "repress",
+  "evidence" : [ "doxycycline to repress E2F-transcription" ],
+  "pmc_id" : "4893157",
+  "score" : 0
+}
