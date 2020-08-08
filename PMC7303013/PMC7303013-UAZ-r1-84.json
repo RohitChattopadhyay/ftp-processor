@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16620",
+      "entity_text" : "TrkB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "BDNF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As sustained neuronal activity is known to induce BDNF mediated TrkB signaling [XREF_BIBR], and as AP-1 is part of the BDNF positive feedback loop [XREF_BIBR], it is likely that BDNF and FGF2 are the rate limiting factors during the antidepressant response.",
+  "reading_complete" : "2020-08-08T12:20:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:12:17Z",
+  "trigger" : "mediated",
+  "evidence" : [ "BDNF-mediated TrkB" ],
+  "pmc_id" : "7303013",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02029",
+      "entity_text" : "cJun",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02037",
+      "entity_text" : "JNK inhibitor",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The JNK inhibitor would likely inhibit cJun phosphorylation and block the formation of the AP-1 complex.",
+  "reading_complete" : "2020-08-08T12:20:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:12:17Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "JNK inhibitor would likely inhibit cJun phosphorylation" ],
+  "pmc_id" : "7303013",
+  "score" : 0
+}
