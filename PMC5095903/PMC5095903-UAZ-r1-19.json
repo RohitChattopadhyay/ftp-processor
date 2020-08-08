@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P14306",
+      "entity_text" : "IC",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0031982" ]
+    }
+  },
+  "verbose_text" : "To test the effect of IC pyrophosphorylation on its interaction with p150 Glued, phosphorylated and pyrophosphorylated mouse IC (1-111) were assessed for their ability to pull down native p150 Glued from human HEK293T cell lysates.",
+  "reading_complete" : "2020-08-08T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:35Z",
+  "trigger" : "pyrophosphorylation",
+  "evidence" : [ "IC pyrophosphorylation" ],
+  "pmc_id" : "5095903",
+  "score" : 0
+}

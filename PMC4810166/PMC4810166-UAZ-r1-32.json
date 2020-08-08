@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01375",
+      "entity_text" : "TNF-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1206" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Particularly TNF-alpha expression levels were massively elevated by the infection (60.497-fold in the group without E2 pre-treatment, 322.568-fold in the low E2 pre-treatment, 5651.008-fold in the high E2 pre-treatment group) [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:17:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:08:47Z",
+  "trigger" : "levels",
+  "evidence" : [ "TNF-alpha expression levels" ],
+  "pmc_id" : "4810166",
+  "score" : 0
+}

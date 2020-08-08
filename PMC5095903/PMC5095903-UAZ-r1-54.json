@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06218",
+      "entity_text" : "IC(1-111)",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14203",
+      "entity_text" : "p150 Glued",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0012506" ]
+    }
+  },
+  "verbose_text" : "IP 6 or a nonhydrolyzable analog of 5-IP 7 (5-PCP-IP 5) [XREF_BIBR], which is likely to bind but cannot pyrophosphorylate the target protein, induces only a marginal enhancement in p150 Glued binding to IC (1-111) (XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:14:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:35Z",
+  "trigger" : "binding",
+  "evidence" : [ "p150 Glued  binding to IC(1-111)" ],
+  "pmc_id" : "5095903",
+  "score" : 0
+}
