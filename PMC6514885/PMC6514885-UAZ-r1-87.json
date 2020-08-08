@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01818",
+      "entity_text" : "secretase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03702",
+      "entity_text" : "gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The Abeta peptide is cleaved from the APP by beta-secretase (or BACE1) and gamma - secretase complex [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T12:03:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:57:23Z",
+  "trigger" : "complex",
+  "evidence" : [ "gamma-secretase complex" ],
+  "pmc_id" : "6514885",
+  "score" : 0
+}
