@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21912",
+      "entity_text" : "IP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:305",
+      "entity_text" : "Choline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Choline Binds to Sig-1Rs and Potentiates IP 3 -Evoked Ca 2+ Signals.",
+  "reading_complete" : "2020-08-08T10:00:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:29Z",
+  "trigger" : "Binds",
+  "evidence" : [ "Choline Binds to Sig-1Rs and Potentiates IP" ],
+  "pmc_id" : "6326163",
+  "score" : 0
+}

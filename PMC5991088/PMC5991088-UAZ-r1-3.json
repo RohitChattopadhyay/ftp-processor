@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006914",
+      "entity_text" : "autophagy",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14980",
+      "entity_text" : "XPO1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In order to systematically determine the regulatory network of HLH-30 / TFEB, we performed a genome-wide RNAi screen in C. elegans and found that silencing the nuclear export protein XPO-1 / XPO1 enhances autophagy by significantly enriching HLH-30 in the nucleus, which is accompanied by proteostatic benefits and improved longevity.",
+  "reading_complete" : "2020-08-08T10:01:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:00:41Z",
+  "trigger" : "enhances",
+  "evidence" : [ "XPO1 enhances autophagy" ],
+  "pmc_id" : "5991088",
+  "score" : 0
+}

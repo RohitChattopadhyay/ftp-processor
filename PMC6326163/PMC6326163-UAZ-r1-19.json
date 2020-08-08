@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99720",
+      "entity_text" : "Sig-1R",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0415" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Potentiation of bradykinin evoked Ca 2+ signals by extracellular choline was substantially attenuated by loss of Sig-1R (shRNA) or CTL1 (small interfering RNA [siRNA]), but unaffected by scrambled shRNA or siRNA (XREF_FIG C-4E).",
+  "reading_complete" : "2020-08-08T10:00:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:56:29Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Sig-1R" ],
+  "pmc_id" : "6326163",
+  "score" : 0
+}
