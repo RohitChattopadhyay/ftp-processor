@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P16104",
+      "entity_text" : "H2AX",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0291" ],
+      "CellType" : [ "cl:CL:0000542" ],
+      "Species" : [ "taxonomy:302767" ]
+    }
+  },
+  "verbose_text" : "To analyze DSB formation and repair we first monitored the phosphorylation of H2AX (gammaH2AX), a sensitive marker of DSBs [XREF_BIBR], after treatment with 2 Gy of ionizing radiation (IR).",
+  "reading_complete" : "2020-08-08T13:45:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:39:25Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of H2AX" ],
+  "pmc_id" : "4366222",
+  "score" : 0
+}

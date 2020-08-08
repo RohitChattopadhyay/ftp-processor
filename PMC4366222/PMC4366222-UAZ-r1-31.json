@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P09874",
+      "entity_text" : "PARP-1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2078" ],
+      "TissueType" : [ "tissuelist:TS-0147" ],
+      "CellType" : [ "cl:CL:0000786" ],
+      "Species" : [ "taxonomy:302767" ]
+    }
+  },
+  "verbose_text" : "Levels of PARP-1 were found similar in all the samples analyzed (XREF_FIG), whereas WRN protein was found upregulated in 6 out of the 7 MM cell lines.",
+  "reading_complete" : "2020-08-08T13:45:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:39:25Z",
+  "trigger" : "Levels",
+  "evidence" : [ "Levels of PARP-1" ],
+  "pmc_id" : "4366222",
+  "score" : 0
+}
