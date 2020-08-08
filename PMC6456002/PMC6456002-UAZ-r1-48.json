@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0070469" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Hence, an important feature of cancer cell metabolism might be a fast and constant generation of high amounts of ATP, while maintaining a vital balance of ROS formation and signaling.",
+  "reading_complete" : "2020-08-08T10:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:42Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of ATP" ],
+  "pmc_id" : "6456002",
+  "score" : 0
+}

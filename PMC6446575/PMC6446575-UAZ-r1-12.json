@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSE2",
+      "entity_text" : "cis",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01266",
+      "entity_text" : "LXR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "Organ" : [ "uberon:UBERON:0000415" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "These studies suggest a model of repression in which liganded LXR binds in cis to canonical nuclear receptor binding sites and represses pro atherogenic leukocyte functions in tandem with the induction of LXR targets mediating cholesterol efflux.",
+  "reading_complete" : "2020-08-08T10:18:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:16:35Z",
+  "trigger" : "binds",
+  "evidence" : [ "LXR binds in cis" ],
+  "pmc_id" : "6446575",
+  "score" : 0
+}

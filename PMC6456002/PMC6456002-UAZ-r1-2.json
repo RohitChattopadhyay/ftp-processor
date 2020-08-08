@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03727",
+      "entity_text" : "hexokinase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We hypothesized that the mitochondrial peak ATP signal was linked to the activity of hexokinase (HK) enzymes for two reasons : first, the initial step of glucose metabolism is ATP dependent phosphorylation of glucose by hexokinase enzymes.",
+  "reading_complete" : "2020-08-08T10:20:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:18:42Z",
+  "evidence" : [ "phosphorylation of glucose by hexokinase" ],
+  "pmc_id" : "6456002",
+  "score" : 0
+}
