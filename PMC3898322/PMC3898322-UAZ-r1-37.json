@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Previous work has shown that this translocation is very sensitive to AMPK, and even very low levels of AMPK activation are sufficient to induce maximal glucose uptake [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "induce",
+  "evidence" : [ "AMPK activation are sufficient to induce maximal glucose" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}

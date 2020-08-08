@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P28482",
+      "entity_text" : "ERK2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0899" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of the ERK1 and ERK2 protein kinases induced by contraction [XREF_BIBR], which is not regulated via AMPK, was not affected by the LKB1 C433S / C433S mutation (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of the ERK1 and ERK2" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}

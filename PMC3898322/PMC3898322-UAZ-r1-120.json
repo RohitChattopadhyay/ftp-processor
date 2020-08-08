@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "alanine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PKA",
+      "entity_text" : "PKA-",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0285" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "There is also no evidence that prenylation regulates PKA- / RSK-mediated phosphorylation or vice versa as mutation of Ser 431 to alanine did not affect the prenylation of Cys 433 and nor did the mutation of Cys 433 inhibit the phosphorylation of Ser 431 [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PKA-/RSK-mediated phosphorylation or vice versa as mutation of Ser 431  to alanine" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}

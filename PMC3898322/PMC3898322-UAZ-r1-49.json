@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "farnesylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15831",
+      "entity_text" : "LKB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0005886" ]
+    }
+  },
+  "verbose_text" : "This raises the possibility that LKB1 farnesylation and myristoylation of AMPKbeta might promote the interaction and co-localization of these enzymes on a two-dimensional membrane surface and thereby promote efficient activation of AMPK.",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "farnesylation",
+  "evidence" : [ "LKB1 farnesylation" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}

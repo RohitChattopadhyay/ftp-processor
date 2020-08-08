@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "farnesylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15831",
+      "entity_text" : "LKB1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1030" ]
+    }
+  },
+  "verbose_text" : "Immunoprecipitation studies with the anti-LKB1 farnesylation specific antibody confirmed that the normal LKB1 long isoform was immunoprecipitated, but not the LKB1 short isoform, which is not farnesylated [XREF_BIBR - XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "farnesylation",
+  "evidence" : [ "farnesylation-specific antibody confirmed that the normal LKB1 long  isoform was immunoprecipitated, but not the LKB1" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}

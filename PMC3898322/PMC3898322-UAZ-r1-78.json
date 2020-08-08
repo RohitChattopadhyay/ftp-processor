@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AMPK",
+      "entity_text" : "AMPK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0285" ],
+      "Cellular_component" : [ "go:GO:0030424" ]
+    }
+  },
+  "verbose_text" : "Mutation of Ser 431 has no effect on the ability of LKB1 to associate with STRAD and MO25 or to phosphorylate and activate AMPK in vitro [XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T16:58:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:45:31Z",
+  "trigger" : "phosphorylate",
+  "evidence" : [ "phosphorylate and activate AMPK" ],
+  "pmc_id" : "3898322",
+  "score" : 0
+}
