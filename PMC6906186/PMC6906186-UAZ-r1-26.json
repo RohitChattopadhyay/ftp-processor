@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "iPSC derived neurons carrying APOE4 produce more Abeta and have higher levels of tau phosphorylation compared to APOE3 cells [XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:18:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:05:43Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tau phosphorylation" ],
+  "pmc_id" : "6906186",
+  "score" : 0
+}

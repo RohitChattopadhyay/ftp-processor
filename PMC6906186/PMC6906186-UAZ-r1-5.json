@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05433",
+      "entity_text" : "Abeta buildup",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Intriguingly, while both Abeta and tau can exhibit toxicity independently, their pathologies are linked; numerous studies show that Abeta buildup can induce tau hyperphosphorylation [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:18:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:05:43Z",
+  "trigger" : "induce",
+  "evidence" : [ "Abeta buildup can induce tau hyperphosphorylation" ],
+  "pmc_id" : "6906186",
+  "score" : 0
+}

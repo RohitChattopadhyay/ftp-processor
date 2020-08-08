@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05067",
+      "entity_text" : "APP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Intriguingly, deletion of the supernumerary copy of APP from DS cells was able to restore Abeta production to control levels and correct many of the gene expression alterations caused by trisomy 21, but was not able to restore altered tau phosphorylation, indicating Abeta dependent and independent phenotypes in DS [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:18:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:05:43Z",
+  "trigger" : "restore",
+  "evidence" : [ "APP from DS cells was able to restore Abeta production to control levels and correct many of the gene expression alterations caused by trisomy 21, but was not able to restore altered tau phosphorylation" ],
+  "pmc_id" : "6906186",
+  "score" : 0
+}
