@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4686862",
+      "entity_text" : "4-nitrophenyl phosphate",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00245",
+      "entity_text" : "alkaline phosphatase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Alkaline phosphatase (ALP) activity was determined using the colorimetric method of Rec [XREF_BIBR]; the hydrolysis of 4-nitrophenyl phosphate at alkaline pH to 4-nitrophenol and inorganic phosphate is catalysed by alkaline phosphatase and the intensity of the colour is directly proportional to the activity of ALP.",
+  "reading_complete" : "2020-08-08T19:10:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:07:10Z",
+  "trigger" : "catalysed",
+  "evidence" : [ "hydrolysis of 4-nitrophenyl phosphate at alkaline pH to 4-nitrophenol and inorganic phosphate is catalysed by alkaline phosphatase" ],
+  "pmc_id" : "3852576",
+  "score" : 0
+}

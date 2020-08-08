@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:813",
+      "entity_text" : "potassium ion",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0510" ],
+      "Cellular_component" : [ "go:GO:0005764" ]
+    }
+  },
+  "verbose_text" : "The observed (XREF_TABLE) significant increase in serum sodium ions with a concomitant significant increase in potassium ion levels may be due to renal dysfunction resulting from the inability of the kidney to regulate an electrolyte balance.",
+  "reading_complete" : "2020-08-08T19:10:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:07:10Z",
+  "trigger" : "levels",
+  "evidence" : [ "potassium ion levels" ],
+  "pmc_id" : "3852576",
+  "score" : 0
+}

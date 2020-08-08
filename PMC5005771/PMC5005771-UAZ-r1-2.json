@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "There was an increase in HDL cholesterol (p < 0.05), a decrease in the level of triglycerides, and LDL cholesterol of the UNCP group (p> 0.05) in comparison with that of the control while cholesterol levels remained relatively unchanged (XREF_FIG).",
+  "reading_complete" : "2020-08-08T19:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:02:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "cholesterol levels" ],
+  "pmc_id" : "5005771",
+  "score" : 0
+}
