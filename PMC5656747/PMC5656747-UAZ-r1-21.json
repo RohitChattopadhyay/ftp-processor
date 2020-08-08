@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P25054",
+      "entity_text" : "APC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Together, the data support the notion that CID is the pivotal domain of APC to inhibit Wnt signaling by regulating beta-catenin ubiquitination.",
+  "reading_complete" : "2020-08-08T15:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:47:34Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "APC to inhibit Wnt signaling by regulating beta-catenin ubiquitination" ],
+  "pmc_id" : "5656747",
+  "score" : 0
+}

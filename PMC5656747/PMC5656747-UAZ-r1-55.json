@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0490" ]
+    }
+  },
+  "verbose_text" : "Our data show that CID lacking APC truncation results in Wnt pathway activation by facilitating binding of the DUB enzyme USP7--at the cost of binding of the E3 ligase beta-TrCP--to the destruction complex for beta-catenin deubiquitination.",
+  "reading_complete" : "2020-08-08T15:49:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:47:34Z",
+  "trigger" : "deubiquitination",
+  "evidence" : [ "beta-catenin deubiquitination" ],
+  "pmc_id" : "5656747",
+  "score" : 0
+}
