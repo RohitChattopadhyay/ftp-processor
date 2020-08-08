@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deacetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Tubulin",
+      "entity_text" : "tubulin",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0138" ],
+      "CellLine" : [ "cellosaurus:CVCL_A431" ],
+      "Cellular_component" : [ "go:GO:0072372" ],
+      "Organ" : [ "uberon:UBERON:0010168" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:1001607" ]
+    }
+  },
+  "verbose_text" : "Cilium disassembly in chondrocytes requires HDAC6 dependent tubulin deacetylation and functions to inhibit mechanosensitive hedgehog signalling and ADAMTS-5 expression.",
+  "reading_complete" : "2020-08-08T18:12:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:09:36Z",
+  "trigger" : "deacetylation",
+  "evidence" : [ "tubulin deacetylation" ],
+  "pmc_id" : "3988976",
+  "score" : 0
+}
