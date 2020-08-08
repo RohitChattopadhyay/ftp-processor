@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17813",
+      "entity_text" : "end",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00897",
+      "entity_text" : "LBD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0000914" ]
+    }
+  },
+  "verbose_text" : "There were two noticeable differences : (1) the relative weight of signals across the Ex1 tip region, surrounding the double cysteine motif, varied between the LBD and NTD and (2) within Ex1, LBD binding to the N-terminal end of the loop was greater, whereas interaction with the tip region of the loop was reduced (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T10:03:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:01:27Z",
+  "trigger" : "binding",
+  "evidence" : [ "LBD binding to the N-terminal end" ],
+  "pmc_id" : "4405707",
+  "score" : 0
+}
