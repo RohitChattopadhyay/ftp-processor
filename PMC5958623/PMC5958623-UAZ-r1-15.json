@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52948",
+      "entity_text" : "ADAR2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0546" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To determine the role of ADAR2 phosphorylation by PKCzeta, we mutated these serine residues to alanine to create ADAR2 SS211/216AA and confirmed that these were the amino acids phosphorylated by PKCzeta using an in vitro kinase assay with purified proteins (XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:14:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:12:44Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ADAR2 phosphorylation" ],
+  "pmc_id" : "5958623",
+  "score" : 0
+}

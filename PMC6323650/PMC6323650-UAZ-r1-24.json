@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04224",
+      "entity_text" : "CD4+",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_F820" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Similarly, we chose OVA / LPS and allogeneic RBCs to study differential activation of CD4+ and CD8+ T cells, but we also observe the same pattern of selective loss of CD4+ or CD8+ T cell activation with other forms of antigen, including heat killed Listeria monocytogenes (data not shown), again arguing that this model applies to a wide range of immune responses.",
+  "reading_complete" : "2020-08-08T18:16:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:14:38Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CD4+" ],
+  "pmc_id" : "6323650",
+  "score" : 0
+}

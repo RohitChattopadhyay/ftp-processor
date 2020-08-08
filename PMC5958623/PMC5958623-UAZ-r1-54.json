@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF16489",
+      "entity_text" : "gain",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:0070062" ]
+    }
+  },
+  "verbose_text" : "Importantly, the liver metastases induced by PKCzeta deficient cells displayed an EMT phenotype with loss of E-cadherin and gain of vimentin that was reverted by GW4869 treatment (XREF_FIG).",
+  "reading_complete" : "2020-08-08T18:14:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:12:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of E-cadherin and gain" ],
+  "pmc_id" : "5958623",
+  "score" : 0
+}

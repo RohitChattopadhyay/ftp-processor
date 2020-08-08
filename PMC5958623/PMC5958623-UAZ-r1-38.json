@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00126",
+      "entity_text" : "PKCzeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0070062" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The inhibition of ADAR2 activity upon loss of PKCzeta as a mechanism for tumor invasiveness is a key finding for CRC, and is consistent with previous reports for ADAR2 acting as a tumor suppressor in other types of neoplasia.",
+  "reading_complete" : "2020-08-08T18:14:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:12:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PKCzeta" ],
+  "pmc_id" : "5958623",
+  "score" : 0
+}

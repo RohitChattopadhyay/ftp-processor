@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52948",
+      "entity_text" : "ADAR2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00126",
+      "entity_text" : "PKCzeta",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistent with PKCzeta phosphorylation mediating ADAR2 activity, we observed hypo editing of coatamer protein alpha (COPA), which has previously been reported to be a substrate of ADAR2 and to be hypo edited in cancer.",
+  "reading_complete" : "2020-08-08T18:14:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:12:44Z",
+  "trigger" : "mediating",
+  "evidence" : [ "PKCzeta phosphorylation mediating ADAR2" ],
+  "pmc_id" : "5958623",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52948",
+      "entity_text" : "ADAR2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Cellular_component" : [ "go:GO:1903561" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Phosphorylation of ADAR2 regulates its editing activity, which is required to maintain miR-200 steady-state levels, suggesting that the PKCzeta / ADAR2 axis regulates miR-200 secretion through RNA editing.",
+  "reading_complete" : "2020-08-08T18:14:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:12:44Z",
+  "trigger" : "Phosphorylation",
+  "evidence" : [ "Phosphorylation of ADAR2" ],
+  "pmc_id" : "5958623",
+  "score" : 0
+}

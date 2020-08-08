@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00126",
+      "entity_text" : "PKCzeta",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0546" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Liquid chromatography-tandem mass spectrometry (LC-MS/MS) analysis identified serines 211 and 216 as the targets of PKCzeta phosphorylation on ADAR2 (XREF_SUPPLEMENTARY), which are conserved across different species (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T18:14:38Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:12:44Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "PKCzeta phosphorylation" ],
+  "pmc_id" : "5958623",
+  "score" : 0
+}
