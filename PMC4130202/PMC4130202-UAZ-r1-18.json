@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35916",
+      "entity_text" : "VEGFR-3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49767",
+      "entity_text" : "VEGF-C",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Organ" : [ "uberon:UBERON:0000055" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "VEGF-C and VEGF-D that bind VEGFR-3 are involved in lymphangiogenesis.",
+  "reading_complete" : "2020-08-08T12:39:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:34:09Z",
+  "trigger" : "bind",
+  "evidence" : [ "VEGF-C and VEGF-D that bind VEGFR-3" ],
+  "pmc_id" : "4130202",
+  "score" : 0
+}

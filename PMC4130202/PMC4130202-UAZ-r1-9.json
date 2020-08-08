@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17948",
+      "entity_text" : "VEGFR-1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49763",
+      "entity_text" : "PlGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0160" ]
+    }
+  },
+  "verbose_text" : "Unlike VEGFA, which binds to both VEGFR-1 and VEGFR-2, PlGF binds to VEGFR-1 but not VEGFR-2 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T12:39:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:34:09Z",
+  "trigger" : "binds",
+  "evidence" : [ "PlGF binds to VEGFR-1" ],
+  "pmc_id" : "4130202",
+  "score" : 0
+}
