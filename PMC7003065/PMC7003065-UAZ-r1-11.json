@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07264",
+      "entity_text" : "DarT",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 49,
+        "feature_type" : "mutation",
+        "evidence" : "G49D"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P06746",
+      "entity_text" : "polB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "However, deletion of polB, dinB, and umuDC, either singly or in combination, did not enhance DarT G49D toxicity in EPECDeltadarTG (p> 0.4118), suggesting that the translesion polymerases do not contribute to survival in the presence of DNA ADP ribosylation (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T14:59:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:56:55Z",
+  "trigger" : "enhance",
+  "evidence" : [ "polB, dinB, and umuDC, either singly or in combination, did not enhance DarT" ],
+  "pmc_id" : "7003065",
+  "score" : 0
+}

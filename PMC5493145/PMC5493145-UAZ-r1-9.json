@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42771",
+      "entity_text" : "CDKN2A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:10407" ]
+    }
+  },
+  "verbose_text" : "Somatic copy number alterations (SCNAs) determined by analysis of high-density SNP data identified recurrent focal losses of CDKN2A and amplifications of CCND1.",
+  "reading_complete" : "2020-08-08T14:56:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:55:17Z",
+  "trigger" : "losses",
+  "evidence" : [ "losses of\nCDKN2A" ],
+  "pmc_id" : "5493145",
+  "score" : 0
+}

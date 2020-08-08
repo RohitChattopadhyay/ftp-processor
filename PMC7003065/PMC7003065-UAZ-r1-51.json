@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006260",
+      "entity_text" : "DNA replication",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6022",
+      "entity_text" : "ADP",
+      "features" : [ {
+        "modification_type" : "ribosylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Expression of DarT led to the inhibition of DNA replication (XREF_FIG D for EPEC), which occurred within 5 min in E. coli BL21 (D3) (XREF_SUPPLEMENTARY C) and could be caused by DNA ADP ribosylation stalling DNA synthesis.",
+  "reading_complete" : "2020-08-08T14:59:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:56:55Z",
+  "trigger" : "caused",
+  "evidence" : [ "DNA replication ( XREF_FIG D for EPEC), which occurred within 5 min in E. coli BL21(D3) ( XREF_SUPPLEMENTARY C) and could be caused by DNA ADP" ],
+  "pmc_id" : "7003065",
+  "score" : 0
+}

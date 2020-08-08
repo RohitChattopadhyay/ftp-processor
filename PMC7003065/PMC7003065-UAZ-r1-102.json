@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07310",
+      "entity_text" : "toxin darT",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 49,
+        "feature_type" : "mutation",
+        "evidence" : "G49D"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M639" ],
+      "Species" : [ "taxonomy:157914" ]
+    }
+  },
+  "verbose_text" : "To provide independent evidence that NER is activated following darT G49D expression, we assessed the motility of UvrB in single-molecule tracking experiments of E. coli BL21 (DE3) grown in M9 medium; expression of toxin darT G49D reduces bacterial survival in this medium (XREF_SUPPLEMENTARY D).",
+  "reading_complete" : "2020-08-08T14:59:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:56:55Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of toxin darT" ],
+  "pmc_id" : "7003065",
+  "score" : 0
+}

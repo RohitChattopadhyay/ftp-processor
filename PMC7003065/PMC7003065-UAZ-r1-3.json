@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ribosylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6022",
+      "entity_text" : "ADP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:B0CB57",
+      "entity_text" : "RecF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "RecF mediated HR followed by HJ resolution would not remove ADP ribosylation from DNA but instead would transfer the modification from ssDNA to dsDNA.",
+  "reading_complete" : "2020-08-08T14:59:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:56:55Z",
+  "trigger" : "mediated",
+  "evidence" : [ "RecF-mediated HR followed by HJ resolution would not remove ADP-ribosylation" ],
+  "pmc_id" : "7003065",
+  "score" : 0
+}

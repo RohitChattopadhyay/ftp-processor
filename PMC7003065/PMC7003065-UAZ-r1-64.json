@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ribosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6022",
+      "entity_text" : "ADP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0516" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0002563" ],
+      "Species" : [ "taxonomy:157914" ]
+    }
+  },
+  "verbose_text" : "It is becoming increasingly appreciated that ADP ribosylation is not restricted to proteins but can also affect other macromolecules such as tRNAs, small-molecule antimicrobials, and more recently DNA.",
+  "reading_complete" : "2020-08-08T14:59:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:56:55Z",
+  "trigger" : "ribosylation",
+  "evidence" : [ "ADP-ribosylation" ],
+  "pmc_id" : "7003065",
+  "score" : 0
+}
