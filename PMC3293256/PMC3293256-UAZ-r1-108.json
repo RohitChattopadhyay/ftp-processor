@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40189",
+      "entity_text" : "gp130",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q2HRC7",
+      "entity_text" : "vIL-6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "vIL-6 directly binds to and activates gp130 without the need of the gp80 alpha-subunit of the IL-6 receptor for IL-6 signal transduction.",
+  "reading_complete" : "2020-08-08T11:52:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:14Z",
+  "trigger" : "binds",
+  "evidence" : [ "vIL-6 directly binds to and activates gp130" ],
+  "pmc_id" : "3293256",
+  "score" : 0
+}

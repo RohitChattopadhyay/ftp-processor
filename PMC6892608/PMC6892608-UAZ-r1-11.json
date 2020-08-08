@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "TP53",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01112",
+      "entity_text" : "HRas",
+      "features" : [ {
+        "to_base" : "G",
+        "site" : 12,
+        "feature_type" : "mutation",
+        "evidence" : "G12V"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A second construct is a donor plasmid containing an expression cassette for an oncogenic cytomegalovirus (CMV) promoter driven HRas G12V that will integrate disrupting the open reading frame of TP53 by homologous recombination.",
+  "reading_complete" : "2020-08-08T11:56:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:55:09Z",
+  "trigger" : "disrupting",
+  "evidence" : [ "HRas G12V  that will integrate disrupting the open reading frame of TP53" ],
+  "pmc_id" : "6892608",
+  "score" : 0
+}

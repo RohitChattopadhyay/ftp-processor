@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P29466",
+      "entity_text" : "caspase 1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9C000",
+      "entity_text" : "NLRP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0009002" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Recently, Gregory et al. found that KSHV ORF63 shows sequence similarity to a NLR family member, NLRP1, and hinders the interaction between NLRP1 and pro caspase 1 through a direct interaction with NLRP1 oligomerization domains.",
+  "reading_complete" : "2020-08-08T11:52:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:49:14Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between NLRP1 and pro-caspase 1" ],
+  "pmc_id" : "3293256",
+  "score" : 0
+}
