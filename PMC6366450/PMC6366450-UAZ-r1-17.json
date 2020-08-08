@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18621",
+      "entity_text" : "PD-1",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Interestingly, although PD-1 antibody treatment did not change the number of CD8 + T cells, it significantly reduced the expression of PD-1, Tim-3, and Lag-3 co-inhibitory receptors on CD8 + T cells in the spleens of these mice (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T07:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:37:30Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of PD-1" ],
+  "pmc_id" : "6366450",
+  "score" : 0
+}

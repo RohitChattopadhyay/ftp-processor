@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q2Y2M3",
+      "entity_text" : "F-actin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR015503",
+      "entity_text" : "Cortactin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "Species" : [ "taxonomy:623" ]
+    }
+  },
+  "verbose_text" : "Cortactin binds to F-actin and the Arp2/3 complex and links signaling, cytoskeleton, as well as trafficking proteins to actin filaments.",
+  "reading_complete" : "2020-08-08T07:37:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:31:16Z",
+  "trigger" : "binds",
+  "evidence" : [ "Cortactin binds to F-actin" ],
+  "pmc_id" : "7225751",
+  "score" : 0
+}

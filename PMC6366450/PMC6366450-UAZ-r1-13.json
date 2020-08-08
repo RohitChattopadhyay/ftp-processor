@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D042822",
+      "entity_text" : "genomic instability",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43593",
+      "entity_text" : "HR",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Loss of HR causes genomic instability and hyperdependence on alternative DNA repair mechanisms and is associated with exquisite sensitivity to PARP inhibitors, which exhibit synthetic lethality with BRCA loss of function.",
+  "reading_complete" : "2020-08-08T07:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:37:30Z",
+  "trigger" : "causes",
+  "evidence" : [ "HR causes genomic instability" ],
+  "pmc_id" : "6366450",
+  "score" : 0
+}

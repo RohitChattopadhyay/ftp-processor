@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q17103",
+      "entity_text" : "c-Myc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0012333" ]
+    }
+  },
+  "verbose_text" : "To explore the involvement of immune responses to PARP inhibition in HR deficient cancer, we generated a pair of syngeneic genetically engineered mouse models (GEMMs) of high-grade serous ovarian cancer (HGSOC) in the FVB background driven via either concurrent loss of p53 and Brca1 and overexpression of c-Myc (termed PBM) or concurrent loss of p53 and Pten and overexpression of c-Myc (termed PPM) to reflect oncogenic events frequently found in human ovarian cancer.",
+  "reading_complete" : "2020-08-08T07:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:37:30Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of p53 and Pten and overexpression of c-Myc" ],
+  "pmc_id" : "6366450",
+  "score" : 0
+}

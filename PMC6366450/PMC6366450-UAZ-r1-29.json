@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23725625",
+      "entity_text" : "olaparib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, we found that olaparib treatment at 2.5 muM for 24 hr did not induce substantial cell death in PBM cells, and the addition of apoptosis inhibitor zVAD had little effect on the activation of DCs co-cultured with PBM tumor cells treated with olaparib (XREF_SUPPLEMENTARY), suggesting that dsDNAs and/or cGAMP produced from viable Brca1-null cells treated with olaparib can activate the STING pathway in DCs.",
+  "reading_complete" : "2020-08-08T07:39:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:37:30Z",
+  "trigger" : "induce",
+  "evidence" : [ "olaparib treatment at 2.5 muM for 24 hr did not induce substantial cell death" ],
+  "pmc_id" : "6366450",
+  "score" : 0
+}
