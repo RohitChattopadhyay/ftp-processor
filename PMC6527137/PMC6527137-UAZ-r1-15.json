@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14839",
+      "entity_text" : "CHD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000788" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "However, loss of CHD4 in mature B cells impairs CSR because of suboptimal targeting of AID to the Igh locus.",
+  "reading_complete" : "2020-08-08T13:49:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:17Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CHD4" ],
+  "pmc_id" : "6527137",
+  "score" : 0
+}

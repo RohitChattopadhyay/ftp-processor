@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : [ {
+      "in_model" : true,
+      "identifier" : "uniprot:P59665",
+      "entity_text" : "HP1",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZX7",
+      "entity_text" : "AID",
+      "entity_type" : "protein"
+    } ],
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13263",
+      "entity_text" : "KAP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Therefore, it is quite possible that CHD4 facilitates recruitment of AID to DNA by targeting a KAP1 - HP1 - AID complex to H3K9me3 at S regions during CSR.",
+  "reading_complete" : "2020-08-08T13:49:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:17Z",
+  "trigger" : "complex",
+  "evidence" : [ "KAP1-HP1-AID complex" ],
+  "pmc_id" : "6527137",
+  "score" : 0
+}

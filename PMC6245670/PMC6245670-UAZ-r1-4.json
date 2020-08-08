@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P38398",
+      "entity_text" : "BRCA1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12956",
+      "entity_text" : "Ku70",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0723" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Specifically, we observe delayed phospho-DNA-PKcs and RAD51 recruitment and defects in resolution under conditions that accumulate H3K4me3 near DSB, in conceptual agreement with the reported defect in Ku70 and BRCA1 binding at DBS after KDM5B knockout in osteosarcoma cells.",
+  "reading_complete" : "2020-08-08T13:52:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:17Z",
+  "trigger" : "binding",
+  "evidence" : [ "Ku70 and BRCA1 binding" ],
+  "pmc_id" : "6245670",
+  "score" : 0
+}

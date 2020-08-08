@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Additionally, on the basis of the ability of the NuRD complex to regulate acetylation of p53 protein, it is possible that it could also impact PTMs of AID and other factors that participate in different stages of B cell development and differentiation.",
+  "reading_complete" : "2020-08-08T13:49:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:17Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "acetylation of p53" ],
+  "pmc_id" : "6527137",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF04390",
+      "entity_text" : "LptE",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:A1TWF7",
+      "entity_text" : "LptD",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Recently it was shown that in E. coli the LptD / LptE complex performs this function.",
+  "reading_complete" : "2020-08-08T13:50:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:48:50Z",
+  "trigger" : "complex",
+  "evidence" : [ "LptD/LptE complex" ],
+  "pmc_id" : "3129009",
+  "score" : 0
+}

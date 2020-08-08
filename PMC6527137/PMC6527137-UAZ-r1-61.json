@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In naive unstimulated B cells, Smu is enriched for activating histone marks including H3K4me3 (histone H3 trimethylated at lysine 4), H3K36me3, and H3K9acS10ph (H3K9ac9 phosphorylated serine 10).",
+  "reading_complete" : "2020-08-08T13:49:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:17Z",
+  "trigger" : "trimethylated",
+  "evidence" : [ "histone H3 trimethylated at lysine" ],
+  "pmc_id" : "6527137",
+  "score" : 0
+}

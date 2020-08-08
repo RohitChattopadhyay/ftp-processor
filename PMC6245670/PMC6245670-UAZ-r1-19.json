@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13315",
+      "entity_text" : "ATM",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1249" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "It has been suggested, for example, that chromatin dissociation of the H3K36me2 demethylase KDM2A in response to ATM phosphorylation is critical for the NHEJ process.",
+  "reading_complete" : "2020-08-08T13:52:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ATM phosphorylation" ],
+  "pmc_id" : "6245670",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06025",
+      "entity_text" : "H3K9me3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14839",
+      "entity_text" : "CHD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000788" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "CHD4, a component of the chromatin remodeling NuRD complex, directly binds H3K9me3, an epigenetic mark present at the Igh locus during CSR.",
+  "reading_complete" : "2020-08-08T13:49:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:17Z",
+  "trigger" : "binds",
+  "evidence" : [ "CHD4, a component of the chromatin remodeling NuRD complex, directly binds H3K9me3" ],
+  "pmc_id" : "6527137",
+  "score" : 0
+}

@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "demethylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02339",
+      "entity_text" : "H3K4me3",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Our data suggest that in addition, the active demethylation of H3K4me3 at these sites by KDM5B is a likely necessary parallel step that allows the haltering of transcription and efficient repair factor binding at and near DSB.",
+  "reading_complete" : "2020-08-08T13:52:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:49:17Z",
+  "trigger" : "demethylation",
+  "evidence" : [ "demethylation of H3K4me3" ],
+  "pmc_id" : "6245670",
+  "score" : 0
+}

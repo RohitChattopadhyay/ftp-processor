@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14839",
+      "entity_text" : "CHD4",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9GZX7",
+      "entity_text" : "AID",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although we could not detect an interaction between endogenous AID and CHD4, this result suggests that AID and CHD4 could form a protein complex in primary B cells, and this interaction could facilitate the optimal recruitment of AID to the Igh locus.",
+  "reading_complete" : "2020-08-08T13:49:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:45:17Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between endogenous AID and CHD4" ],
+  "pmc_id" : "6527137",
+  "score" : 0
+}
