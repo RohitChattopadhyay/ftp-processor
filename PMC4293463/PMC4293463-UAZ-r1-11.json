@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14203",
+      "entity_text" : "p150Glued",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P2H0",
+      "entity_text" : "Cep126",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0000242" ],
+      "Species" : [ "taxonomy:6239" ]
+    }
+  },
+  "verbose_text" : "The binding of Cep126 to p150Glued suggests that Cep126 regulates the association of centrosomal cargo proteins to the dynein-dynactin motor complex.",
+  "reading_complete" : "2020-08-08T07:55:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:53:48Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of Cep126 to p150Glued" ],
+  "pmc_id" : "4293463",
+  "score" : 0
+}

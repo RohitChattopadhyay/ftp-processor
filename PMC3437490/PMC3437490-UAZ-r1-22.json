@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P32939",
+      "entity_text" : "Ypt7",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9SVV6",
+      "entity_text" : "TPK3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:5833" ],
+      "TissueType" : [ "tissuelist:TS-0290" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "CellType" : [ "cl:CL:0000232" ]
+    }
+  },
+  "verbose_text" : "With a specific role for PfRab7 in mind the subset of specific effectors are pertinent and here, we note the predicted physical interaction between TPK3 and Ypt7.",
+  "reading_complete" : "2020-08-08T07:53:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:42Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between TPK3 and Ypt7" ],
+  "pmc_id" : "3437490",
+  "score" : 0
+}

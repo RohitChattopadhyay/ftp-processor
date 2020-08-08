@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52594",
+      "entity_text" : "Rab",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "interpro:IPR000806",
+      "entity_text" : "rabGDI",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:5833" ],
+      "Cellular_component" : [ "go:GO:0070258" ]
+    }
+  },
+  "verbose_text" : "The recycling of vesicles from the donor to acceptor membrane involves a transport protein called rabGDI that binds a Rab in its GDP form, and two Plasmodium rabGDIs have been identified.",
+  "reading_complete" : "2020-08-08T07:53:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:52:42Z",
+  "trigger" : "binds",
+  "evidence" : [ "rabGDI that binds a Rab" ],
+  "pmc_id" : "3437490",
+  "score" : 0
+}
