@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "ubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5756",
+      "entity_text" : "E3",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The mono-ubiquitination of PCNA is mediated by the RAD18 ubiquitin E3 ligase.",
+  "reading_complete" : "2020-08-08T13:42:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:40:17Z",
+  "trigger" : "mediated",
+  "evidence" : [ "mono-ubiquitination of PCNA is mediated by the RAD18 ubiquitin E3" ],
+  "pmc_id" : "5406014",
+  "score" : 0
+}
