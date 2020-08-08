@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ02197",
+      "entity_text" : "NMDA receptor",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_L914" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "IL-1 is widely reported to have pro convulsant activity and there are data supporting tyrosine kinase phosphorylation of NMDA receptor subunits [XREF_BIBR, XREF_BIBR], contributing to IL-1-dependent neuronal death.",
+  "reading_complete" : "2020-08-08T18:25:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:17:04Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine kinase phosphorylation of NMDA receptor" ],
+  "pmc_id" : "6510649",
+  "score" : 0
+}
