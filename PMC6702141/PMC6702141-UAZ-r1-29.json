@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O43303",
+      "entity_text" : "CP110",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_4388" ],
+      "Cellular_component" : [ "go:GO:0005930" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:7955" ]
+    }
+  },
+  "verbose_text" : "Notably, ~ 40% of CSPP1 -/- and CEP104mut cells that failed axoneme formation (glutamylated tubulin) depicted the loss of CP110 from the mother centriole (XREF_FIG E; similar results obtained with CEP97, data not shown) and ~ 20% recruited ARL13B to the pre-ciliary vesicle (XREF_FIG F), indicating that cilia formation was impaired at an axoneme forming permissive stage.",
+  "reading_complete" : "2020-08-08T08:10:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:05:44Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of CP110" ],
+  "pmc_id" : "6702141",
+  "score" : 0
+}

@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01266",
+      "entity_text" : "Tg",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "CellLine" : [ "cellosaurus:CVCL_4388" ],
+      "Organ" : [ "uberon:UBERON:0000104" ],
+      "Species" : [ "taxonomy:7955" ],
+      "CellType" : [ "cl:CL:0015000" ]
+    }
+  },
+  "verbose_text" : "We used the zebrafish golden strain, AB strain, the transgenic islet1 : GFP strain (Tg (islet1 : GFP) which expresses GFP in cranial motor neurons under the control of islet1 promoter and the transgenic strain (Tg (cmlc2 : GFP), expressing the GFP gene under the control of the cmlc2 promoter.",
+  "reading_complete" : "2020-08-08T08:10:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T08:05:44Z",
+  "trigger" : "expresses",
+  "evidence" : [ "Tg(islet1:GFP) which expresses" ],
+  "pmc_id" : "6702141",
+  "score" : 0
+}
