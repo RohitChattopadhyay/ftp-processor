@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57678",
+      "entity_text" : "p97",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96JH7",
+      "entity_text" : "VCIP135",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "UBX-L domain" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_6D69" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The DUB VCIP135, central to the regulation of membrane fusion, also binds p97 via a UBX-L domain [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:43:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:26:05Z",
+  "trigger" : "binds",
+  "evidence" : [ "VCIP135, central to the regulation of membrane fusion, also binds p97 via a UBX-L domain" ],
+  "pmc_id" : "5559722",
+  "score" : 0
+}
