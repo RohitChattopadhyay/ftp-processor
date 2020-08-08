@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05455",
+      "entity_text" : "SSB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ07697",
+      "entity_text" : "binding defective",
+      "features" : [ {
+        "to_base" : "K",
+        "site" : 369,
+        "feature_type" : "mutation",
+        "evidence" : "K369A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The SSB repair defect in these XRCC1 gene edited cells was effectively rescued by expression of either of the residue 399 polymorphic variants of EGFP-XRCC1, but not by the PAR binding defective R335A, K369A double mutant (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T15:21:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:19:17Z",
+  "trigger" : "rescued",
+  "evidence" : [ "SSB repair defect in these XRCC1 gene-edited cells was effectively rescued by expression of either of the residue 399 polymorphic variants of EGFP-XRCC1, but not by the PAR-binding defective" ],
+  "pmc_id" : "6334254",
+  "score" : 0
+}

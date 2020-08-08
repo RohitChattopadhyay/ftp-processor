@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P18887",
+      "entity_text" : "XRCC1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:PARP",
+      "entity_text" : "PARP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "BRCT domain" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E801" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "PARP dependent recruitment of XRCC1 requires the central BRCT domain (BRCT1), which conserves components of a pocket similar to the phosphopeptide binding BRCT domains in proteins such as TOPBP1.",
+  "reading_complete" : "2020-08-08T15:21:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:19:17Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "PARP-dependent recruitment of XRCC1 requires the central BRCT domain" ],
+  "pmc_id" : "6334254",
+  "score" : 0
+}

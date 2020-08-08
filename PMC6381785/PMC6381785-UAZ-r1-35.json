@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:119",
+      "entity_text" : "GABA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0060076" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "In contrast to the effects on excitatory synapses, increased CYFIP1 dosage reduced inhibitory postsynaptic cluster area and decreased amplitude of inhibitory transmission likely due to a loss of surface gamma2-subunit-containing synaptic GABA A R clusters.",
+  "reading_complete" : "2020-08-08T15:19:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:16:43Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of surface gamma2-subunit-containing synaptic GABA" ],
+  "pmc_id" : "6381785",
+  "score" : 0
+}
