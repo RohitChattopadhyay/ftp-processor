@@ -1,0 +1,41 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BPX6",
+      "entity_text" : "MICU1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H4I9",
+      "entity_text" : "EMRE",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "However, one observation that was most surprising to us was the inability of MCU or EMRE mutants to rescue the MICU1 mutant lethality.",
+  "reading_complete" : "2020-08-08T10:27:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:25:09Z",
+  "trigger" : "rescue",
+  "evidence" : [ "EMRE mutants to rescue the MICU1" ],
+  "pmc_id" : "6506686",
+  "score" : 0
+}
