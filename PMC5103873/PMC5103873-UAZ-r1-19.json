@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:ERK",
+      "entity_text" : "ERK1/2",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The PD3 mutant exhibited an ERK1/2 activation profile that was both significantly exaggerated and prolonged compared with WT PTH1R, indicating that ERK1/2 phosphorylation was inversely correlated with ligand dependent phosphorylation in cluster 2 of the PTH1R.",
+  "reading_complete" : "2020-08-08T16:27:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:18:36Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ERK1/2 phosphorylation" ],
+  "pmc_id" : "5103873",
+  "score" : 0
+}
