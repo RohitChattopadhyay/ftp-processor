@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00230",
+      "entity_text" : "CORT",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35222",
+      "entity_text" : "beta-catenin",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The expression of GSK3beta and beta-catenin were downregulated by oscillating CORT and were unaffected by continuous CORT, while CCND1 was downregulated by both treatments in the same time frame.",
+  "reading_complete" : "2020-08-08T13:30:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:15:44Z",
+  "trigger" : "downregulated",
+  "evidence" : [ "beta-catenin were downregulated by oscillating CORT" ],
+  "pmc_id" : "7303016",
+  "score" : 0
+}
