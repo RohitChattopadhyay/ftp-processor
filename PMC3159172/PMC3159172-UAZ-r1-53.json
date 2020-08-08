@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17885",
+      "entity_text" : "BimA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q62B16",
+      "entity_text" : "BopA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:623" ],
+      "CellType" : [ "cl:CL:0000255" ]
+    }
+  },
+  "verbose_text" : "Furthermore, bacterial two-hybrid analysis (our unpublished data) failed to establish an interaction between BopA and BimA, suggesting that the B. pseudomallei proteins do not interact in a manner comparable to their S. flexneri counterparts.",
+  "reading_complete" : "2020-08-08T11:06:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:02:07Z",
+  "trigger" : "interaction",
+  "evidence" : [ "interaction between BopA and BimA" ],
+  "pmc_id" : "3159172",
+  "score" : 0
+}

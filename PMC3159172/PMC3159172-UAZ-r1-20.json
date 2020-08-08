@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P35610",
+      "entity_text" : "STAT",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:28450" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "The receptor complexes for each IFN type are related but unique and binding of IFN to the appropriate receptor results in STAT phosphorylation and dimerization.",
+  "reading_complete" : "2020-08-08T11:06:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:02:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "STAT phosphorylation" ],
+  "pmc_id" : "3159172",
+  "score" : 0
+}

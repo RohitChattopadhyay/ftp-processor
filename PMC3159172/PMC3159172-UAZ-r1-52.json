@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04919",
+      "entity_text" : "T6SS-1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "By analogy with B. mallei, it could be speculated that mutation of T6SS-1 in B. pseudomallei would also cause actin polymerization defects and raises the question as to whether secreted effectors of the T6SS, such as Hcp and/or VgrG, could interact with BimA.",
+  "reading_complete" : "2020-08-08T11:06:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:02:07Z",
+  "trigger" : "cause",
+  "evidence" : [ "T6SS-1 in B. pseudomallei would also cause actin" ],
+  "pmc_id" : "3159172",
+  "score" : 0
+}
