@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08141",
+      "entity_text" : "augmin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08117",
+      "entity_text" : "HAUS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0005856" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Here, we show that neuronal migration, development, and polarization depend on the multi-subunit protein HAUS / augmin complex, previously described to be required for mitotic spindle assembly in dividing cells.",
+  "reading_complete" : "2020-08-08T12:38:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:37:23Z",
+  "trigger" : "complex",
+  "evidence" : [ "HAUS/augmin complex" ],
+  "pmc_id" : "6083040",
+  "score" : 0
+}

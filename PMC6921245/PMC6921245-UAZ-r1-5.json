@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:PRC1_complex",
+      "entity_text" : "PRC1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1051" ],
+      "Organ" : [ "uberon:UBERON:2001995" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "While both PRC1 and PRC2 are functional in the lingual epithelium, only loss of PRC1 results in ablation of lingual papillae.",
+  "reading_complete" : "2020-08-08T12:34:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:31:19Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of PRC1" ],
+  "pmc_id" : "6921245",
+  "score" : 0
+}

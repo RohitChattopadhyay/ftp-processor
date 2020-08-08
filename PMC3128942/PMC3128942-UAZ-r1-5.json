@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15692",
+      "entity_text" : "VEGF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1056" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:1000497" ]
+    }
+  },
+  "verbose_text" : "The levels of VEGF and TIMP were similar in control and BTV infected cells.",
+  "reading_complete" : "2020-08-08T12:36:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:34:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of VEGF" ],
+  "pmc_id" : "3128942",
+  "score" : 0
+}
