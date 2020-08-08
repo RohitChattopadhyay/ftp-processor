@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57459",
+      "entity_text" : "NusA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01681",
+      "entity_text" : "RNA polymerase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1773" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "RNA-seq has uncovered an extensive landscape of noncoding RNA in M. tuberculosis and, in a powerful combination with ChIP-seq, has identified transcriptional units based on binding of RNA polymerase and NusA.",
+  "reading_complete" : "2020-08-08T10:31:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:30:16Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of RNA polymerase and NusA" ],
+  "pmc_id" : "3898074",
+  "score" : 0
+}

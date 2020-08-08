@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01667",
+      "entity_text" : "RPKM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1773" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "The remaining 670 genes that were expressed at a level of RPKM of five or more but had no primary TSS were assigned to operons based on alignment and proximity to genes with a primary TSS.",
+  "reading_complete" : "2020-08-08T10:31:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:30:16Z",
+  "trigger" : "level",
+  "evidence" : [ "level of RPKM" ],
+  "pmc_id" : "3898074",
+  "score" : 0
+}
