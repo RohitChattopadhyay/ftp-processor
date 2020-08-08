@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P03386",
+      "entity_text" : "Env",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60664",
+      "entity_text" : "TIP47",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:103820" ],
+      "Organ" : [ "uberon:UBERON:0002488" ]
+    }
+  },
+  "verbose_text" : "Interestingly, several point mutations and deletions within the first 23 residues of MA resulted in loss of TIP47 binding and thus Env incorporation.",
+  "reading_complete" : "2020-08-08T10:56:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:50:34Z",
+  "trigger" : "binding",
+  "evidence" : [ "TIP47 binding and thus Env" ],
+  "pmc_id" : "3281212",
+  "score" : 0
+}

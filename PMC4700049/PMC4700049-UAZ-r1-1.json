@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01579",
+      "entity_text" : "IFN-gamma",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0193" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "CellType" : [ "cl:CL:0000623" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The uNK cell maturation profile differs from that of peripheral NK cells, and insufficient maturation might underpin reduced levels of tissue IFN-gamma.",
+  "reading_complete" : "2020-08-08T10:53:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:51:41Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of tissue IFN-gamma" ],
+  "pmc_id" : "4700049",
+  "score" : 0
+}
