@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11245",
+      "entity_text" : "Aac2",
+      "features" : [ {
+        "to_base" : "Arg",
+        "site" : 96,
+        "feature_type" : "mutation",
+        "evidence" : "Arg96His"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The levels of expressed Arg96His mutant Aac2 were similar to wild-type (XREF_FIG C), so these data suggest that in the aac2 Arg96His strain, the transport rate of the mutant carrier is insufficient in vivo to sustain growth.",
+  "reading_complete" : "2020-08-08T12:25:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:19:11Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of expressed Arg96His mutant Aac2" ],
+  "pmc_id" : "5065686",
+  "score" : 0
+}
