@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00327",
+      "entity_text" : "BMAL1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NZQ7",
+      "entity_text" : "PD-L1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "To further test the hypothesis that BMAL1 limits PD-L1 expression in a PKM2 dependent manner, we examined the effects of BMAL1 and PKM2 on the LPS- and HMGB1 induced glycolysis and PD-L1 expression in BMDMs.",
+  "reading_complete" : "2020-08-08T12:27:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:24:34Z",
+  "trigger" : "limits",
+  "evidence" : [ "BMAL1 limits PD-L1" ],
+  "pmc_id" : "6094382",
+  "score" : 0
+}

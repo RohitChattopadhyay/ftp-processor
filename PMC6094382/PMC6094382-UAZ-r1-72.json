@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O00327",
+      "entity_text" : "BMAL1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P27540",
+      "entity_text" : "aryl hydrocarbon receptor nuclear translocator",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "During the daytime, the transcription factors circadian locomotor output cycles kaput (CLOCK) and brain and muscle aryl hydrocarbon receptor nuclear translocator like 1 (BMAL1) heterodimerize and bind to E-box promoter elements to drive the gene expression of Period (Per1-3) and Cryptochrome (Cry1/2).",
+  "reading_complete" : "2020-08-08T12:27:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:24:34Z",
+  "trigger" : "bind",
+  "evidence" : [ "aryl hydrocarbon receptor nuclear translocator-like 1 (BMAL1) heterodimerize and bind" ],
+  "pmc_id" : "6094382",
+  "score" : 0
+}
