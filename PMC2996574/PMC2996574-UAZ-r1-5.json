@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5781",
+      "entity_text" : "alloxan",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Blood sugar level was increased as expected in alloxan injected animals, since alloxan causes a massive reduction in insulin release by the destruction of the beta-cells of the islets of Langerhans and inducing hyperglycemia.",
+  "reading_complete" : "2020-08-08T11:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:53:37Z",
+  "trigger" : "causes",
+  "evidence" : [ "alloxan causes a massive reduction in insulin" ],
+  "pmc_id" : "2996574",
+  "score" : 0
+}

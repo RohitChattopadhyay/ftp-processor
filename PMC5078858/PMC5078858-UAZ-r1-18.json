@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04406",
+      "entity_text" : "Gapdh",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1149" ],
+      "CellType" : [ "cl:CL:0000128" ]
+    }
+  },
+  "verbose_text" : "Transcript levels of genes of interest were normalized to the geometric mean expression of Actb, Gapdh, Hprt and Rpl13a.",
+  "reading_complete" : "2020-08-08T11:57:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:55:30Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of Actb, Gapdh" ],
+  "pmc_id" : "5078858",
+  "score" : 0
+}

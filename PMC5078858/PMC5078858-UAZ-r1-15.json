@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MAPK",
+      "entity_text" : "mitogen-activated protein kinase",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0709" ],
+      "Cellular_component" : [ "go:GO:0005912" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Other pathways that were enriched in the set of common genes identified as differentially expressed in both Hfe-/- x Tfr2 mut mouse and NBIA brains again included pathways relating to neurodegenerative diseases (specifically Alzheimer 's disease, Parkinson 's disease and Huntington 's disease), oxidative phosphorylation and the mitogen activated protein kinase pathway (XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T11:57:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:55:30Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation and the mitogen-activated protein kinase" ],
+  "pmc_id" : "5078858",
+  "score" : 0
+}

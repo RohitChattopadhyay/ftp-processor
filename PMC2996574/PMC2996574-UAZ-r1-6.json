@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5988",
+      "entity_text" : "sugar",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0000062" ]
+    }
+  },
+  "verbose_text" : "Blood sugar level was increased as expected in alloxan injected animals, since alloxan causes a massive reduction in insulin release by the destruction of the beta-cells of the islets of Langerhans and inducing hyperglycemia.",
+  "reading_complete" : "2020-08-08T11:54:54Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:53:37Z",
+  "trigger" : "level",
+  "evidence" : [ "sugar level" ],
+  "pmc_id" : "2996574",
+  "score" : 0
+}
