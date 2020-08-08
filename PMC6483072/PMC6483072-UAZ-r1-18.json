@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P0L9",
+      "entity_text" : "TRPP3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ13849",
+      "entity_text" : "P3NP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Indeed, co-expression of P3NP or P3NP-W81F completely or substantially inhibited the FL TRPP3 channel function, whereas co-expression of mutant peptide P3NP-W81A had no effect (XREF_FIG), indicating that P3NP acts as a blocking peptide that inhibits TRPP3 function through disrupting the N-C binding in the FL channel.",
+  "reading_complete" : "2020-08-08T15:41:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:37:48Z",
+  "trigger" : "inhibited",
+  "evidence" : [ "P3NP or P3NP-W81F completely or substantially inhibited the FL TRPP3" ],
+  "pmc_id" : "6483072",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P0L9",
+      "entity_text" : "TRPP3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52488",
+      "entity_text" : "PIP2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "K568" ],
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1905" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In summary, our data together demonstrated that PIP2 binds to TRPP3 through motif RRRK and K568.",
+  "reading_complete" : "2020-08-08T15:41:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:37:48Z",
+  "trigger" : "binds",
+  "evidence" : [ "PIP2 binds to TRPP3 through motif RRRK and K568" ],
+  "pmc_id" : "6483072",
+  "score" : 0
+}

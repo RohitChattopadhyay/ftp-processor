@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0030097",
+      "entity_text" : "hematopoiesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y5Y7",
+      "entity_text" : "LYVE1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Hence, our model cannot be used to answer whether loss of LYVE1 causes subtle effects in hematopoiesis that would be observed upon more detailed examination or backcrossing to other genetic backgrounds.",
+  "reading_complete" : "2020-08-08T15:42:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:41:00Z",
+  "trigger" : "causes",
+  "evidence" : [ "LYVE1 causes subtle effects in hematopoiesis" ],
+  "pmc_id" : "6940422",
+  "score" : 0
+}

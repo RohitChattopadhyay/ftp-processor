@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P22301",
+      "entity_text" : "IL-10",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_D114" ],
+      "Species" : [ "taxonomy:632" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Organ" : [ "uberon:UBERON:0002405" ]
+    }
+  },
+  "verbose_text" : "Despite this evidence, several studies of cytokine expression during plague infection have not been able to demonstrate a significant elevation in IL-10 levels in infected animals, suggesting that IL-10 does not play a role in plague infection.",
+  "reading_complete" : "2020-08-08T15:40:53Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:38:40Z",
+  "trigger" : "levels",
+  "evidence" : [ "IL-10 levels" ],
+  "pmc_id" : "3109633",
+  "score" : 0
+}
