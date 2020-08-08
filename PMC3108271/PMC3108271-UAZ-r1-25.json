@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01391",
+      "entity_text" : "collagen",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ11359",
+      "entity_text" : "EhaJ",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The apparent specificity of EhaJ binding to collagen I, collagen II, collagen III, collagen V, fibronectin, fibrinogen, and laminin is in line with studies on some other AT proteins.",
+  "reading_complete" : "2020-08-08T14:15:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:13:44Z",
+  "trigger" : "binding",
+  "evidence" : [ "EhaJ binding to collagen" ],
+  "pmc_id" : "3108271",
+  "score" : 0
+}

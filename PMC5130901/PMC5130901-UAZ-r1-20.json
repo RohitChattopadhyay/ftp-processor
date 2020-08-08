@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00047",
+      "entity_text" : "Ig",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Organ" : [ "uberon:UBERON:0002405" ],
+      "CellType" : [ "cl:CL:0000738" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To analyze the underlying patterns of the variation within these immune components at the population level, we performed unsupervised hierarchical clustering within our measured immune cell populations and within Ig levels, after correcting for age, sex, and season effects.",
+  "reading_complete" : "2020-08-08T14:17:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:14:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "Ig levels" ],
+  "pmc_id" : "5130901",
+  "score" : 0
+}

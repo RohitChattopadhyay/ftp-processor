@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "pH",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This lower peracetic acid concentration raises the pH of Vortexx (at the recommended concentration of use) to values between 3.1 and 3.4.",
+  "reading_complete" : "2020-08-08T14:18:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:15:16Z",
+  "trigger" : "raises",
+  "evidence" : [ "acid concentration raises the pH" ],
+  "pmc_id" : "3257867",
+  "score" : 0
+}

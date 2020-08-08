@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00785",
+      "entity_text" : "IgM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000546" ]
+    }
+  },
+  "verbose_text" : "We found a significant positive correlation between IgM-only B cell counts and IgM serum levels and a negative correlation between IgM serum levels and IgD+ IgM- B cells.",
+  "reading_complete" : "2020-08-08T14:17:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:14:35Z",
+  "trigger" : "levels",
+  "evidence" : [ "IgM serum levels" ],
+  "pmc_id" : "5130901",
+  "score" : 0
+}
