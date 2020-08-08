@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:4628",
+      "entity_text" : "OA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6B0K9",
+      "entity_text" : "HBM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0088" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "An increased prevalence of radiographic hip OA and osteophytosis was observed in HBM cases compared with controls, in keeping with a positive association between HBM and OA and suggesting that OA in HBM has a hypertrophic phenotype.",
+  "reading_complete" : "2020-08-08T17:18:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:58Z",
+  "trigger" : "association",
+  "evidence" : [ "association between HBM and OA" ],
+  "pmc_id" : "4147962",
+  "score" : 0
+}
