@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08261",
+      "entity_text" : "U73122",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "U73122, but not U73343, blocked GRPR phosphorylation (XREF_FIG, and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:41:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:39:56Z",
+  "trigger" : "blocked",
+  "evidence" : [ "U73122, but not U73343, blocked GRPR phosphorylation" ],
+  "pmc_id" : "5937707",
+  "score" : 0
+}

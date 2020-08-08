@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "Myc-GRPR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "In HEK293 cells expressing FLAG-KOR and Myc-GRPR, GRPR phosphorylation increased 13-fold after a 2-min incubation in U-50,488 (10 muM; XREF_FIG, and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:41:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:39:56Z",
+  "trigger" : "increased",
+  "evidence" : [ "Myc-GRPR, GRPR phosphorylation increased" ],
+  "pmc_id" : "5937707",
+  "score" : 0
+}

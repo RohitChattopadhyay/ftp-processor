@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q21049",
+      "entity_text" : "liprin-alpha",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HCD6",
+      "entity_text" : "TANC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0032991" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "We also found a potential association between TANC2 and liprin-alpha (XREF_SUPPLEMENTARY G and S1H); however, it is quite likely that the two proteins only indirectly interact by binding KIF1A within a macromolecular complex.",
+  "reading_complete" : "2020-08-08T19:44:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:41:38Z",
+  "trigger" : "association",
+  "evidence" : [ "association between TANC2 and liprin-alpha" ],
+  "pmc_id" : "6077247",
+  "score" : 0
+}

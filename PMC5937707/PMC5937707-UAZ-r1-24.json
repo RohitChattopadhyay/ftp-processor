@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "features" : [ {
+        "modification_type" : "phosphorylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Phosphorylation assays showed that U-50,488-mediated KOR activation induces rapid and robust, GRP independent phosphorylation of GRPR, which may cause desensitization of GRPR activity.",
+  "reading_complete" : "2020-08-08T19:41:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:39:56Z",
+  "trigger" : "cause",
+  "evidence" : [ "GRPR, which may cause desensitization of GRPR" ],
+  "pmc_id" : "5937707",
+  "score" : 0
+}

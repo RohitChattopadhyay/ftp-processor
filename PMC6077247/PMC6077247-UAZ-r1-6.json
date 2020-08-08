@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HCD6",
+      "entity_text" : "TANC2",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12756",
+      "entity_text" : "KIF1A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Altogether, these data suggest that the aberrant localization, the abolished interaction with KIF1A, and the deficient recruitment of KIF1A driven vesicles of TANC2 mutants may contribute to the underlying molecular mechanisms that lead to neurological defects observed in patients.",
+  "reading_complete" : "2020-08-08T19:44:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:41:38Z",
+  "trigger" : "driven",
+  "evidence" : [ "KIF1A-driven vesicles of TANC2" ],
+  "pmc_id" : "6077247",
+  "score" : 0
+}

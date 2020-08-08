@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9P2E2",
+      "entity_text" : "KIF17",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5460341",
+      "entity_text" : "calcium",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Another example is the activation of Ca 2+ / CaM dependent protein kinase II (CaMKII) by calcium, which in turn phosphorylates KIF17, leading to the release of NMDA receptor containing vesicles.",
+  "reading_complete" : "2020-08-08T19:44:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:41:38Z",
+  "evidence" : [ "calcium, which in turn phosphorylates KIF17" ],
+  "pmc_id" : "6077247",
+  "score" : 0
+}

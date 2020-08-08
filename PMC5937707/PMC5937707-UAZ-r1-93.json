@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "One remarkable finding is that Ca 2+ -independent PKCdelta activation via membrane translocation provides a major mechanism by which GRPR is phosphorylated and desensitized.",
+  "reading_complete" : "2020-08-08T19:41:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:39:56Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "GRPR is phosphorylated" ],
+  "pmc_id" : "5937707",
+  "score" : 0
+}

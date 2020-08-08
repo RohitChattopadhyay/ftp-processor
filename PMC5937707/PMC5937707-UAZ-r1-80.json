@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Rapid GRPR phosphorylation was also observed within 2 min after treatment with PMA (1 muM) and decreased after 15 min (XREF_FIG and XREF_SUPPLEMENTARY), in accordance with previous findings.",
+  "reading_complete" : "2020-08-08T19:41:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:39:56Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "GRPR phosphorylation" ],
+  "pmc_id" : "5937707",
+  "score" : 0
+}

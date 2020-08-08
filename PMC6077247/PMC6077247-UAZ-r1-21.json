@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12756",
+      "entity_text" : "KIF1A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q21049",
+      "entity_text" : "liprin-alpha",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:64279" ],
+      "Cellular_component" : [ "go:GO:0043198" ]
+    }
+  },
+  "verbose_text" : "First, TANC2 and liprin-alpha bind the stalk domain of KIF1A.",
+  "reading_complete" : "2020-08-08T19:44:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:41:38Z",
+  "trigger" : "bind",
+  "evidence" : [ "liprin-alpha bind the stalk domain of KIF1A" ],
+  "pmc_id" : "6077247",
+  "score" : 0
+}

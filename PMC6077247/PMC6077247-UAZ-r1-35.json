@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9C0D5",
+      "entity_text" : "TANC1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9HCD6",
+      "entity_text" : "TANC2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "binding_site" : [ "1F" ],
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0095" ]
+    }
+  },
+  "verbose_text" : "As expected, both TANC2 and liprin-alpha bound the KIF1A middle fragment (657-1105), but not TANC1 (XREF_FIG E and 1F).",
+  "reading_complete" : "2020-08-08T19:44:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:41:38Z",
+  "trigger" : "bound",
+  "evidence" : [ "TANC2 and liprin-alpha bound the KIF1A middle fragment (657-1105), but not TANC1 ( XREF_FIG E and 1F" ],
+  "pmc_id" : "6077247",
+  "score" : 0
+}

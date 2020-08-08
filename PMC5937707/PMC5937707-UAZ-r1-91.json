@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P83099",
+      "entity_text" : "PKCdelta-EGFP",
+      "entity_type" : "protein"
+    },
+    "to_location_text" : "plasma membrane",
+    "from_location_text" : "cytosol",
+    "hypothesis_information" : false,
+    "from_location_id" : "go:GO:0005829",
+    "to_location_id" : "go:GO:0005886",
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005829" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "PKCdelta-EGFP translocation from the cytosol to the plasma membrane was apparent as early as 5 min and reached a maximum after 30 min of incubation in U-50,488 (XREF_FIG; XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:41:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:39:56Z",
+  "trigger" : "translocation",
+  "evidence" : [ "PKCdelta-EGFP translocation from the cytosol to the plasma membrane" ],
+  "pmc_id" : "5937707",
+  "score" : 0
+}

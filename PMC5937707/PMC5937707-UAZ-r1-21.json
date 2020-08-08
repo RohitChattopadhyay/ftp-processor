@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30550",
+      "entity_text" : "GRPR",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005829" ]
+    }
+  },
+  "verbose_text" : "Together, these results suggest that KOR activation stimulates PLC, resulting in the translocation of PKCdelta from the cytosol to the plasma membrane, where it phosphorylates GRPR (XREF_FIG).",
+  "reading_complete" : "2020-08-08T19:41:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:39:56Z",
+  "trigger" : "phosphorylates",
+  "evidence" : [ "phosphorylates GRPR" ],
+  "pmc_id" : "5937707",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9BT88",
+      "entity_text" : "Syt11",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:64279" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0030425" ],
+      "CellType" : [ "cl:CL:0002608" ]
+    }
+  },
+  "verbose_text" : "Using a CaM binding deficient KIF1A mutant (657-1698_5 * Ala), revealed a reduction in the amounts of co-precipitated Syt4 (XREF_FIG J) or Syt11 (XREF_FIG K), confirming a role for CaM in promoting the interaction between KIF1A tail and DCV proteins (XREF_FIG L).",
+  "reading_complete" : "2020-08-08T19:44:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:41:38Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of co-precipitated Syt4 ( XREF_FIG J) or Syt11" ],
+  "pmc_id" : "6077247",
+  "score" : 0
+}
