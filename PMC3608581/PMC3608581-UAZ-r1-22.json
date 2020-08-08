@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15111",
+      "entity_text" : "IkappaB kinase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "NF-kappaB is activated via phosphorylation and degradation of IkappaB, an inhibitory factor of NF-kappaB, by the IkappaB kinase (IKK) enzyme complex XREF_BIBR, XREF_BIBR, which leads to the nuclear translocation of NF-kappaB and the subsequent transcription of NF-kappaB-dependent genes, such as the IL-6, MCP-1, cyclooxygenase-2 (COX-2) and inducible nitric oxide synthase (iNOS) genes.",
+  "reading_complete" : "2020-08-08T13:14:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:12Z",
+  "evidence" : [ "phosphorylation and degradation of IkappaB, an inhibitory factor of NF-kappaB, by the IkappaB kinase" ],
+  "pmc_id" : "3608581",
+  "score" : 0
+}
