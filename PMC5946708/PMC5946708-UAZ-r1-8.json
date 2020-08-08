@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:947",
+      "entity_text" : "nitrogen",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:3847" ],
+      "Organ" : [ "uberon:UBERON:0004529" ]
+    }
+  },
+  "verbose_text" : "The formula gNdfa = N yield x% Ndfa/100, was then used to calculate the amount of nitrogen fixed per ha based on the nitrogen content in the samples and the total dry biomass accumulated per ha at the time of sampling.",
+  "reading_complete" : "2020-08-08T09:54:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:50:19Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of nitrogen" ],
+  "pmc_id" : "5946708",
+  "score" : 0
+}
