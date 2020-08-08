@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:93460",
+      "entity_text" : "voltage",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:ACC",
+      "entity_text" : "acc",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Since a large R acc value does not prevent the voltage measurement, it is most likely that the transmembrane conductive nanoparticle R acc was larger than R m, preventing effective stimulation; the applied current thus could not effectively depolarize / stimulate the cell membranes.",
+  "reading_complete" : "2020-08-08T14:15:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:14:00Z",
+  "trigger" : "prevent",
+  "evidence" : [ "acc  value does not prevent the voltage" ],
+  "pmc_id" : "6879961",
+  "score" : 0
+}
