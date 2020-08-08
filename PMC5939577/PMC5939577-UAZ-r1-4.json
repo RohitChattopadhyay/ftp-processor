@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P78382",
+      "entity_text" : "SLC35A1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "Loss of SLC35A1, a CMP-sialic acid transporter, rendered cells resistant to IAV infection because of the absence of cell-surface sialic acids.",
+  "reading_complete" : "2020-08-08T16:38:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:22Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of SLC35A1" ],
+  "pmc_id" : "5939577",
+  "score" : 0
+}

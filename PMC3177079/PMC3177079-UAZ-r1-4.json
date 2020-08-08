@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:892",
+      "entity_text" : "inositol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000775" ]
+    }
+  },
+  "verbose_text" : "We found that the GAL7 : : IPC1 cells, in which the level of inositol sphingolipids compared to the WT is decreased, were significantly less susceptible to the killing activity of HL-60D medium compared to WT cells.",
+  "reading_complete" : "2020-08-08T16:38:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:37:26Z",
+  "trigger" : "level",
+  "evidence" : [ "level of inositol" ],
+  "pmc_id" : "3177079",
+  "score" : 0
+}

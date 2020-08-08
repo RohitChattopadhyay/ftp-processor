@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96RK0",
+      "entity_text" : "CIC",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60259",
+      "entity_text" : "NP",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, NP mRNA levels were reduced> 90% in CIC KOs as compared to vector control cells, despite displaying similar levels of input NP vRNA.",
+  "reading_complete" : "2020-08-08T16:38:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:22Z",
+  "trigger" : "reduced",
+  "evidence" : [ "NP mRNA levels were reduced >90% in CIC" ],
+  "pmc_id" : "5939577",
+  "score" : 0
+}

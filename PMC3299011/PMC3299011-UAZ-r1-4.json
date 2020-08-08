@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:21252321",
+      "entity_text" : "chitin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75364",
+      "entity_text" : "Ptx3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:5476" ],
+      "TissueType" : [ "tissuelist:TS-0464" ],
+      "Cellular_component" : [ "go:GO:0009986" ]
+    }
+  },
+  "verbose_text" : "Interestingly, the localization of rmPtx3 on the C. albicans overlapped with the signal detected for Calcofluor White alone, suggesting that Ptx3 might bind to accessible cell surface chitin.",
+  "reading_complete" : "2020-08-08T16:37:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:01Z",
+  "trigger" : "bind",
+  "evidence" : [ "Ptx3 might bind to accessible cell surface chitin" ],
+  "pmc_id" : "3299011",
+  "score" : 0
+}

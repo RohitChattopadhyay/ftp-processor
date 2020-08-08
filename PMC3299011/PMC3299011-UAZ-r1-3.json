@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75364",
+      "entity_text" : "Ptx3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:5476" ],
+      "TissueType" : [ "tissuelist:TS-0464" ],
+      "Cellular_component" : [ "go:GO:0009986" ]
+    }
+  },
+  "verbose_text" : "We confirmed and quantified the amount of Ptx3 binding to the cell wall using flow cytometry.",
+  "reading_complete" : "2020-08-08T16:37:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:01Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Ptx3" ],
+  "pmc_id" : "3299011",
+  "score" : 0
+}

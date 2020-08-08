@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:445063",
+      "entity_text" : "sialic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E831" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Flow cytometry and confocal microscopy analyses of SLC35A1 KOs showed a lack of binding for both types of lectins as compared to vector control cells, indicating the loss of cell-surface sialic acid in the absence of SLC35A1 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T16:38:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:36:22Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of cell-surface sialic acid" ],
+  "pmc_id" : "5939577",
+  "score" : 0
+}
