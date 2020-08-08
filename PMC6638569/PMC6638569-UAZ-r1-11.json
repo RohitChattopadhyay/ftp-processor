@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14576",
+      "entity_text" : "HUC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "WRF climate data of the 12 km by 12 km grid were aggregated to an 8-digit HUC level; this was also needed to run a HAWQS-SWAT WRF simulation, because HAWQS-SWAT requires one weather file for each subbasin.",
+  "reading_complete" : "2020-08-08T07:48:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:46:05Z",
+  "trigger" : "level",
+  "evidence" : [ "HUC level" ],
+  "pmc_id" : "6638569",
+  "score" : 0
+}
