@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O42043",
+      "entity_text" : "transmembrane protein",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Scavenger receptor class B, member 2 is a heavily N glycosylated type III transmembrane protein consists from 478 amino acids and belongs to the CD36 family of scavenger receptor proteins.",
+  "reading_complete" : "2020-08-08T10:34:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:33:55Z",
+  "trigger" : "glycosylated",
+  "evidence" : [ "glycosylated type III transmembrane protein" ],
+  "pmc_id" : "3313065",
+  "score" : 0
+}

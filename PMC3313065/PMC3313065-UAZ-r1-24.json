@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14242",
+      "entity_text" : "PSGL-1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0065" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0549" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "We demonstrated that tyrosine sulfation, not O glycosylation, of the N-terminal region of PSGL-1 facilitates its binding to EV71-PB and viral replication in Jurkat T cells.",
+  "reading_complete" : "2020-08-08T10:34:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:33:55Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "glycosylation, of the N-terminal region of PSGL-1" ],
+  "pmc_id" : "3313065",
+  "score" : 0
+}
