@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51805",
+      "entity_text" : "sex",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To test for causality, the genetic risk scores were used as an instrumental variable in the two-stage least square method for the association between age, sex, and ethnicity, standardised residuals of AL and CR, and height or birth weight.",
+  "reading_complete" : "2020-08-08T11:24:55Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:23:40Z",
+  "trigger" : "association",
+  "evidence" : [ "association between age, sex" ],
+  "pmc_id" : "6618159",
+  "score" : 0
+}
