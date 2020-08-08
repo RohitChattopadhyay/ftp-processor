@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04393",
+      "entity_text" : "minbeta^inRp12||y-Xbeta^||22+lambda||beta^||1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ04401",
+      "entity_text" : "|beta^||1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To get an estimate of regression coefficients beta ^ =(beta ^ 1,..., beta ^ p), we look at the square loss function (1/2) | | y-Xbeta ^ | | 22 and the l1-norm regularization | | beta ^ | | 1, which leads to the LASSO optimization problem (Equation 2) minbeta ^ inRp12 | | y-Xbeta ^ | | 22+ lambda | | beta ^ | | 1, where the tuning parameter lambda> = 0.",
+  "reading_complete" : "2020-08-08T14:37:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:33:01Z",
+  "trigger" : "leads",
+  "evidence" : [ "|beta^||1, which leads to the LASSO optimization problem(Equation 2)minbeta^inRp12||y-Xbeta^||22+lambda||beta^||1" ],
+  "pmc_id" : "5812891",
+  "score" : 0
+}
