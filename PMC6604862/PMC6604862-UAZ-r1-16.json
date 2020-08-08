@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42771",
+      "entity_text" : "Cdkn2a",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The functional overlap between Cdkn2a gene product ARF and p53 likely explain why loss of Cdkn2a also contributes to lower vesicle release.",
+  "reading_complete" : "2020-08-08T13:58:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:54:20Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Cdkn2a" ],
+  "pmc_id" : "6604862",
+  "score" : 0
+}

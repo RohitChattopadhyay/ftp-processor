@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:10373084",
+      "entity_text" : "CMH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3611" ],
+      "Species" : [ "taxonomy:5476" ],
+      "TissueType" : [ "tissuelist:TS-0645" ],
+      "Cellular_component" : [ "go:GO:0005618" ]
+    }
+  },
+  "verbose_text" : "It is a highly sensitive technique that only requires nanogram quantities of CMH.",
+  "reading_complete" : "2020-08-08T13:58:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:56:51Z",
+  "trigger" : "quantities",
+  "evidence" : [ "quantities of CMH" ],
+  "pmc_id" : "3230030",
+  "score" : 0
+}

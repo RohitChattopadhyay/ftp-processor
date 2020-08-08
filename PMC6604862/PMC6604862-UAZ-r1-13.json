@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12878",
+      "entity_text" : "BSA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0031982" ]
+    }
+  },
+  "verbose_text" : "Although the cells are cultured in low bovine serum (0.1% v/v) prior to harvesting EVs, we noticed that there remains a substantial amount of BSA in our EV preparations (XREF_SUPPLEMENTARY), a suboptimal condition for TMT.",
+  "reading_complete" : "2020-08-08T13:58:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:54:20Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of BSA" ],
+  "pmc_id" : "6604862",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P04637",
+      "entity_text" : "p53",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000127" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Perhaps a surprising observation is that cellular immortalization arising from loss of p53 or Cdkn2a (Ink4a / ARF) tumor suppressor function resulted in a 5-fold decrease in vesicle release, and fully transformed cells shed approximately 17-fold fewer vesicles than wild-type astrocytes (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:58:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:54:20Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of p53" ],
+  "pmc_id" : "6604862",
+  "score" : 0
+}
