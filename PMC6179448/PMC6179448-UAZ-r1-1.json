@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6802",
+      "entity_text" : "guanosine",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7020159",
+      "entity_text" : "SV",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030426" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "Studies from our lab show that the SV bound small guanosine triphosphatase (GTPase) ARL-8 activates UNC-104 / Kinesin-3 and prevents its auto-inhibition to ensure the delivery of SVPs to the distal axon.",
+  "reading_complete" : "2020-08-08T19:35:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:33:04Z",
+  "trigger" : "bound",
+  "evidence" : [ "SV-bound small guanosine" ],
+  "pmc_id" : "6179448",
+  "score" : 0
+}

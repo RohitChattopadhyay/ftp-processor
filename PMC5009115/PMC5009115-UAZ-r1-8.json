@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF13796",
+      "entity_text" : "sensor",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P02787",
+      "entity_text" : "TF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This is contrary to an intuitive expectation that the induced levels would be identical when the same sensor is triggered by different TF inputs due to the autocatalytic positive feedback.",
+  "reading_complete" : "2020-08-08T19:31:24Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:29:26Z",
+  "trigger" : "triggered",
+  "evidence" : [ "sensor is triggered by different TF" ],
+  "pmc_id" : "5009115",
+  "score" : 0
+}
