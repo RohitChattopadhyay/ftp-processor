@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05661",
+      "entity_text" : "MHC",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "CellLine" : [ "cellosaurus:CVCL_7955" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Moreover, the hosts exhibited significantly higher levels of MHC class-II-restricted in vivo cytotoxicity against env 122-141 -pulsed B cell targets when primed by Ad5.pIX-gp70 than when primed by FV (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T17:00:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:57:01Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of MHC" ],
+  "pmc_id" : "5149578",
+  "score" : 0
+}

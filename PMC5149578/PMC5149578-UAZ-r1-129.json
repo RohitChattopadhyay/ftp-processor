@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P41182",
+      "entity_text" : "Bcl6",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although loss of Bcl6 during FV infection did not markedly reduce Il21 expression, it did significantly enhance expression of both Ifng (2.3-fold) and Il10 (4.7-fold), which were now co-expressed in the majority of Bcl6 deleted CD4 + T cells (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T17:00:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:57:01Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Bcl6" ],
+  "pmc_id" : "5149578",
+  "score" : 0
+}

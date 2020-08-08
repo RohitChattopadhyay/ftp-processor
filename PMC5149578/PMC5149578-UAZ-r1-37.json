@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10144",
+      "entity_text" : "Gzmb",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0956" ],
+      "CellLine" : [ "cellosaurus:CVCL_L814" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:10535" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "Indeed, on day 7 of the response, env-reactive effector CD4 + T cells expressed significantly higher amounts of Gzmb mRNA when primed by Ad5.pIX-gp70 than when primed by FV (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T17:00:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:57:01Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of Gzmb" ],
+  "pmc_id" : "5149578",
+  "score" : 0
+}
