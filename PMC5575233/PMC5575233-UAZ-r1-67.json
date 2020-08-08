@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:1017",
+      "entity_text" : "M2",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15104",
+      "entity_text" : "GS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This clearly suggests that GS expression (which is enhanced under starved conditions) not only induces an M2 like polarization of macrophages but may also promote glutamine secretion for use by other cells.",
+  "reading_complete" : "2020-08-08T12:41:29Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:38:41Z",
+  "trigger" : "induces",
+  "evidence" : [ "GS expression (which is enhanced under starved conditions) not only induces an M2" ],
+  "pmc_id" : "5575233",
+  "score" : 0
+}
