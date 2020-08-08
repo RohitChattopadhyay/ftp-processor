@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11717",
+      "entity_text" : "CIMPR",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7Z429",
+      "entity_text" : "GRINA",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "GRINA overexpression severely disrupted CIMPR staining, with CIMPR found in GRINA positive vesicular structures, some enlarged, scattered throughout the cell (XREF_FIG G).",
+  "reading_complete" : "2020-08-08T14:22:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:20:23Z",
+  "trigger" : "disrupted",
+  "evidence" : [ "GRINA overexpression severely disrupted CIMPR" ],
+  "pmc_id" : "4542293",
+  "score" : 0
+}

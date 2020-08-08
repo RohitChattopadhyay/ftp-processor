@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P00738",
+      "entity_text" : "HP",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0404" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "If Lactobacilli exist in the stomach, the amount of HP will be reduced [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T14:21:44Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:18:19Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of HP" ],
+  "pmc_id" : "6206577",
+  "score" : 0
+}

@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11717",
+      "entity_text" : "CIMPR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0578" ],
+      "Species" : [ "taxonomy:4565" ],
+      "TissueType" : [ "tissuelist:TS-0410" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "Silencing of ZDHHC5 or SFT2D2, respectively, resulted in reduced levels of CIMPR or TGN46 bound to the lectin, whereas silencing GRINA reduced lectin bound levels of GLG1, CIMPR, and TGN46 but also decreased their abundance in the lysates from cycloheximide treated cells (XREF_FIG A; Figure S4B).",
+  "reading_complete" : "2020-08-08T14:22:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:20:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of GLG1, CIMPR" ],
+  "pmc_id" : "4542293",
+  "score" : 0
+}
