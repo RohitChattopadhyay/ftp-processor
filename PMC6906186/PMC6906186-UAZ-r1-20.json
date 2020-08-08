@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ01843",
+      "entity_text" : "Abeta 42",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "AD linked mutations in APP, PSEN1, and PSEN2, as well as APP duplications, all increase either the total amount of Abeta 42, or the ratio of Abeta 42 / Abeta 40 produced by neurons [XREF_BIBR, XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:18:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:05:43Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of Abeta 42" ],
+  "pmc_id" : "6906186",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05389",
+      "entity_text" : "CYP450",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "The following relationship between CYP450 levels and metabolic clearance was determined to be flexible enough to model the data over a wide range of doses : (4) vcl = v0ACYPA0CYP, where v cl is metabolic clearance as a function of CYP450 concentration (mL/h) and v 0 is the basal metabolic clearance under low exposure and negligible induction conditions (mL/h).",
+  "reading_complete" : "2020-08-08T19:14:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:10:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "CYP450 levels" ],
+  "pmc_id" : "3270437",
+  "score" : 0
+}

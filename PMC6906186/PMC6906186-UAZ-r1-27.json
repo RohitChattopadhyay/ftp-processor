@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10636",
+      "entity_text" : "tau",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0683" ],
+      "Cellular_component" : [ "go:GO:0005769" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Glutamatergic neurons expressing mutated APP V717I were used to demonstrate that this amino acid substitution alters APP subcellular distribution and cleavage by both beta- and gamma-secretases, underlying the perturbed Abeta production and elevated tau phosphorylation observed in these cells [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:18:52Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:05:43Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tau phosphorylation" ],
+  "pmc_id" : "6906186",
+  "score" : 0
+}

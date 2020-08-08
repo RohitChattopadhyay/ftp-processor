@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00245",
+      "entity_text" : "alkaline phosphatase",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "CellLine" : [ "cellosaurus:CVCL_E110" ],
+      "Organ" : [ "uberon:UBERON:0001753" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000213" ]
+    }
+  },
+  "verbose_text" : "Contrary to our findings, elevated serum levels of alanine aminotransferase, aspartate aminotransferase, and alkaline phosphatase above the normal ranges have been reported in cement workers by Al Salhen [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T19:40:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:37:55Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of alanine aminotransferase, aspartate aminotransferase, and alkaline phosphatase" ],
+  "pmc_id" : "4766340",
+  "score" : 0
+}

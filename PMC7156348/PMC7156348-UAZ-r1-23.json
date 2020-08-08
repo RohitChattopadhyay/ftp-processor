@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:13730",
+      "entity_text" : "DA",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0060" ],
+      "Cellular_component" : [ "go:GO:0043197" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "In order to establish the link between decreased DA levels in the absence of astrocyte VMAT2 and early spine maturation, aVMAT2cKO-Thy1EGFP mice were injected with lentiVMAT2 on P25 or chronically treated with L-DOPA from P20 to P40.",
+  "reading_complete" : "2020-08-08T20:02:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:49:04Z",
+  "trigger" : "levels",
+  "evidence" : [ "DA levels" ],
+  "pmc_id" : "7156348",
+  "score" : 0
+}

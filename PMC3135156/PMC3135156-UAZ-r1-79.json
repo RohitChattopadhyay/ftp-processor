@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P23560",
+      "entity_text" : "BDNF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Considering that CREB is involved in the transcriptional production of BDNF [XREF_BIBR], the action of these ERs may affect BDNF levels in neuronal cells.",
+  "reading_complete" : "2020-08-08T19:22:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:14:17Z",
+  "trigger" : "levels",
+  "evidence" : [ "BDNF levels" ],
+  "pmc_id" : "3135156",
+  "score" : 0
+}

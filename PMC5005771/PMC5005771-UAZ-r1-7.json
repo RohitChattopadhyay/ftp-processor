@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5280352",
+      "entity_text" : "bilirubin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "Organ" : [ "uberon:UBERON:0006611" ]
+    }
+  },
+  "verbose_text" : "Hepatic assessment revealed a significant decrease in ALP (p < 0.05) and a slight reduction in bilirubin levels (p> 0.05) of the UNCP treated group in comparison with the controls.",
+  "reading_complete" : "2020-08-08T19:07:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:02:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "bilirubin levels" ],
+  "pmc_id" : "5005771",
+  "score" : 0
+}
