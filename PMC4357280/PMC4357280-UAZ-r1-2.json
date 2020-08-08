@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75925",
+      "entity_text" : "GBP",
+      "features" : [ {
+        "to_base" : "H",
+        "site" : 152,
+        "feature_type" : "mutation",
+        "evidence" : "H152C"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Equilibrium glucose binding to GBP H152C and H152C / A213R.",
+  "reading_complete" : "2020-08-08T17:47:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:43:10Z",
+  "trigger" : "binding",
+  "evidence" : [ "glucose binding to GBP" ],
+  "pmc_id" : "4357280",
+  "score" : 0
+}
