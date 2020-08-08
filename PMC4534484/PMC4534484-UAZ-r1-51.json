@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "K127",
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ]
+    }
+  },
+  "verbose_text" : "In contrast, SUMOylation of PCNA (at K164 and K127) is stimulated simply by association with DNA and occurs during S phase even in the absence of exogenous damage.",
+  "reading_complete" : "2020-08-08T12:27:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:03Z",
+  "trigger" : "SUMOylation",
+  "evidence" : [ "SUMOylation of PCNA (at K164 and K127" ],
+  "pmc_id" : "4534484",
+  "score" : 0
+}

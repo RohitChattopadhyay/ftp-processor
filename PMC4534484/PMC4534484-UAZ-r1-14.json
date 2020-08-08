@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_3772" ],
+      "Cellular_component" : [ "go:GO:0005657" ],
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "This pattern was confirmed by a meta-analysis of median levels of PCNA around replication origins (XREF_FIG F).",
+  "reading_complete" : "2020-08-08T12:27:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:03Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of PCNA" ],
+  "pmc_id" : "4534484",
+  "score" : 0
+}

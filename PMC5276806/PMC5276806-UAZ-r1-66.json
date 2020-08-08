@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histones",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "For GC-MS, isolated histones were hydrolyzed overnight (heating at 95degreesC overnight in 10 M NaOH) and then neutralized with hydrochloric acid.",
+  "reading_complete" : "2020-08-08T12:26:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:23:01Z",
+  "trigger" : "hydrolyzed",
+  "evidence" : [ "histones were hydrolyzed" ],
+  "pmc_id" : "5276806",
+  "score" : 0
+}

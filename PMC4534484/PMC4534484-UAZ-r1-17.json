@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "K164",
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12004",
+      "entity_text" : "PCNA",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "When Cdc9 was degraded, we observed PCNA SUMOylation at K127 and K164.",
+  "reading_complete" : "2020-08-08T12:27:36Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:26:03Z",
+  "trigger" : "SUMOylation",
+  "evidence" : [ "PCNA SUMOylation at K127 and K164" ],
+  "pmc_id" : "4534484",
+  "score" : 0
+}
