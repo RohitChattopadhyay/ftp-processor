@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08913",
+      "entity_text" : "Adra2A",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Moreover, transcript levels of MaoB, the main MAO enzyme expressed in islets (XREF_TABLE), were reduced, whereas expression of the adrenoceptor Adra2A, which inhibits insulin secretion, was elevated in MafA RIP islets (XREF_TABLE; XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:13:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:12:19Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "Adra2A, which inhibits insulin" ],
+  "pmc_id" : "5918632",
+  "score" : 0
+}

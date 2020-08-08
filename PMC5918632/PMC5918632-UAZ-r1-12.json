@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09329",
+      "entity_text" : "muscarinic receptor genes",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We have shown that MafA RIP animals lack insulin secretion in response to autonomic stimulation but that transcription of muscarinic receptor genes, which mediate autonomic stimulation of insulin secretion, is not reduced in MafA RIP islets (XREF_TABLE).",
+  "reading_complete" : "2020-08-08T13:13:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:12:19Z",
+  "trigger" : "mediate",
+  "evidence" : [ "muscarinic receptor genes, which mediate autonomic stimulation of insulin" ],
+  "pmc_id" : "5918632",
+  "score" : 0
+}

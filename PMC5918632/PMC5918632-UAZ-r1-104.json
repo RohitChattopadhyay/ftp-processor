@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NHW3",
+      "entity_text" : "MafA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0093" ]
+    }
+  },
+  "verbose_text" : "We found that the reduction of insulin secretion was due to loss of MafA in MafA RIP beta cells, as no changes in the expression levels of MafA in the brainstem, hypothalamus, or cortex (XREF_FIG) were found.",
+  "reading_complete" : "2020-08-08T13:13:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:12:19Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of MafA" ],
+  "pmc_id" : "5918632",
+  "score" : 0
+}

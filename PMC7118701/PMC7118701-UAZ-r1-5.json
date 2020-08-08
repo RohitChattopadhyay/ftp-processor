@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11025495",
+      "entity_text" : "cholesterol",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "endosome",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005768",
+    "context" : {
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In the case of Ebola virus, the unusually complex entry requirements are (1) binding to a cell-surface receptor (TIM-1, Axl, heparan sulfate, and DC-SIGN); (2) macropinocytosis; (3) cleavage of GP at low pH by cathepsins; (4) binding to loop C of Niemann-Pick C1 cholesterol transporter in the endosome; and most likely, (5) a final trigger that drives GP to undergo the conformational changes required for membrane fusion.",
+  "reading_complete" : "2020-08-08T13:15:35Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:49Z",
+  "trigger" : "transporter",
+  "evidence" : [ "cholesterol transporter in the endosome" ],
+  "pmc_id" : "7118701",
+  "score" : 0
+}

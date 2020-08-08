@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95861",
+      "entity_text" : "PIP",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01298",
+      "entity_text" : "PH",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:1000426" ],
+      "Species" : [ "taxonomy:59837" ]
+    }
+  },
+  "verbose_text" : "PH G binds to PtdIns (4,5) P2 (PIP 2) at the PM cytosolic facing leaflet and thus labels PM (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:12:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:06:31Z",
+  "trigger" : "binds",
+  "evidence" : [ "PH G  binds to PtdIns(4,5)P2 (PIP" ],
+  "pmc_id" : "7010319",
+  "score" : 0
+}

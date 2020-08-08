@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51091",
+      "entity_text" : "ANS",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "As alterations in adrenergic and cholinergic receptors, as well as parasympathetic neuropeptide receptor expression, affect human and rodent beta cell function, we performed mRNA expression analysis to determine whether loss of ANS mediated insulin secretion in MafA RIP mice was due to deficient neurotransmitter signaling.",
+  "reading_complete" : "2020-08-08T13:13:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:12:19Z",
+  "trigger" : "mediated",
+  "evidence" : [ "ANS-mediated insulin" ],
+  "pmc_id" : "5918632",
+  "score" : 0
+}

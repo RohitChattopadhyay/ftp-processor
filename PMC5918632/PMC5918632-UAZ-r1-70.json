@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8NHW3",
+      "entity_text" : "MafA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0093" ],
+      "Organ" : [ "uberon:UBERON:0034728" ]
+    }
+  },
+  "verbose_text" : "In fact, in the CNS, MafA mRNA levels were 500 times lower than in pancreatic islets and no protein expression was detected (XREF_FIG; data not shown), which suggests that MafA function in beta cells, and not the CNS, is critical for ANS driven insulin secretion.",
+  "reading_complete" : "2020-08-08T13:13:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:12:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "MafA mRNA levels" ],
+  "pmc_id" : "5918632",
+  "score" : 0
+}
