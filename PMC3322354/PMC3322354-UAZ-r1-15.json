@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF02627",
+      "entity_text" : "CMD",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6993082",
+      "entity_text" : "mM",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Post-treatment CNV size was dichotomized into \" increased \" if the major CNV diameter (CMD) had increased by> = 300 mM, and as \" stable / reduced \" if it had decreased by> = 300 mM or had not changed by> 300 mM.",
+  "reading_complete" : "2020-08-08T07:43:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:38:13Z",
+  "trigger" : "increased",
+  "evidence" : [ "CMD) had increased by >=300 mM" ],
+  "pmc_id" : "3322354",
+  "score" : 0
+}

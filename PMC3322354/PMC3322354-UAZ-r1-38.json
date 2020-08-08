@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:441300",
+      "entity_text" : "ABC",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:5476" ],
+      "Cellular_component" : [ "go:GO:0005886" ],
+      "CellType" : [ "cl:CL:0000521" ]
+    }
+  },
+  "verbose_text" : "Although fungal cells contain many genes for both types of systems, clinical azole resistance is most often associated with overexpression of ABC transporters.",
+  "reading_complete" : "2020-08-08T07:43:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:38:13Z",
+  "trigger" : "overexpression",
+  "evidence" : [ "overexpression of ABC" ],
+  "pmc_id" : "3322354",
+  "score" : 0
+}
