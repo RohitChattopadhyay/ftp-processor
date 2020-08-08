@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8IXH7",
+      "entity_text" : "Th1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "CellLine" : [ "cellosaurus:CVCL_D969" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000898" ]
+    }
+  },
+  "verbose_text" : "Intramuscular immunization with DNAhsp65 induced an increase of Th1 cytokine levels and reduction of the fungal burden with marked reduction of collagen and lung remodeling.",
+  "reading_complete" : "2020-08-08T16:53:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:52:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "Th1 cytokine levels" ],
+  "pmc_id" : "3373149",
+  "score" : 0
+}

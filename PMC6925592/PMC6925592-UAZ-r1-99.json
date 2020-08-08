@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:SMAD2_3",
+      "entity_text" : "Smad2/3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "We found that naive CD4 + T cells from T-Smad7 -/- mice show increased Smad2/3 phosphorylation (XREF_FIG) associated with enhanced PD1 induction (XREF_FIG), which corresponds to improved Treg differentiation in response to TGF-beta and PDL1/2 stimulation in vitro (XREF_FIG).",
+  "reading_complete" : "2020-08-08T16:55:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:52:20Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "Smad2/3 phosphorylation" ],
+  "pmc_id" : "6925592",
+  "score" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20760",
+      "entity_text" : "IgG2a",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellType" : [ "cl:CL:0000738" ]
+    }
+  },
+  "verbose_text" : "The animals showed high levels of IFN-gamma and IgG2a with very low production of IL-10 and IL-5, suggestive of a Th1 immune cell response.",
+  "reading_complete" : "2020-08-08T16:53:45Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:52:43Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of IFN-gamma and IgG2a" ],
+  "pmc_id" : "3373149",
+  "score" : 0
+}
