@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q05397",
+      "entity_text" : "FAK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000192" ]
+    }
+  },
+  "verbose_text" : "In striking contrast, deletion of N-cadherin reduced SMC proliferation after injury without inhibiting the phosphorylation of FAK (XREF_FIG) or p130Cas (XREF_FIG).",
+  "reading_complete" : "2020-08-08T14:34:30Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:33:07Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of FAK" ],
+  "pmc_id" : "4560684",
+  "score" : 0
+}

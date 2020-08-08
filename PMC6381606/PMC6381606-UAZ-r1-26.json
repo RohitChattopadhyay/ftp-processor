@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q14244",
+      "entity_text" : "MAP7",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00225",
+      "entity_text" : "kinesin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Organ" : [ "uberon:UBERON:0003053" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "To address the functional differences between MAP7D1 and MAP7D2, we expressed truncation as well as chimeric constructs (XREF_FIG A-2D and XREF_SUPPLEMENTARY A), as it was recently shown in Drosophila that MAP7 C-terminal kinesin binding domain was sufficient to rescue several of the mutant phenotype.",
+  "reading_complete" : "2020-08-08T14:33:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:29:49Z",
+  "trigger" : "binding",
+  "evidence" : [ "MAP7 C-terminal kinesin-binding" ],
+  "pmc_id" : "6381606",
+  "score" : 0
+}
