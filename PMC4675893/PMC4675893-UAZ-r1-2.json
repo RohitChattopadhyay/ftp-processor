@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ-PF-113",
+      "entity_text" : "histone H3",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellType" : [ "cl:CL:0002371" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Furthermore, we observed that the Prm replaced the histone H3 trimethylated on lysine 9 (H3K9me3), a critical epigenetic barrier of SCNT reprogramming in 30% (36 of 120) of Prm positive cells (XREF_FIG L).",
+  "reading_complete" : "2020-08-08T11:41:42Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:39:17Z",
+  "trigger" : "trimethylated",
+  "evidence" : [ "histone H3 trimethylated on lysine" ],
+  "pmc_id" : "4675893",
+  "score" : 0
+}
