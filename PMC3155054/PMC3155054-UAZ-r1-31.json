@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282309",
+      "entity_text" : "DMS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_N813" ],
+      "Cellular_component" : [ "go:GO:0005737" ],
+      "Organ" : [ "uberon:UBERON:0000468" ],
+      "Species" : [ "taxonomy:52958" ]
+    }
+  },
+  "verbose_text" : "Studies of E. huxleyi showed that significant amounts of DMS are only produced upon cell damage.",
+  "reading_complete" : "2020-08-08T13:16:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:31Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of DMS" ],
+  "pmc_id" : "3155054",
+  "score" : 0
+}

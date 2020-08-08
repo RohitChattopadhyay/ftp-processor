@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "AKT",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, insulin stimulated glucose uptake was markedly impaired in KO adipocytes, even though insulin stimulated AKT phosphorylation was largely intact (XREF_FIG and XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:18:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:15:35Z",
+  "trigger" : "stimulated",
+  "evidence" : [ "insulin-stimulated AKT phosphorylation" ],
+  "pmc_id" : "6608748",
+  "score" : 0
+}

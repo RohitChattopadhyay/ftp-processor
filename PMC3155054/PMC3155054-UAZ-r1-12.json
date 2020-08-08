@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282309",
+      "entity_text" : "DMS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF10161",
+      "entity_text" : "dddD",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "A dddD mutation in this organism completely abolished DMS production.",
+  "reading_complete" : "2020-08-08T13:16:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:31Z",
+  "trigger" : "abolished",
+  "evidence" : [ "dddD mutation in this organism completely abolished DMS" ],
+  "pmc_id" : "3155054",
+  "score" : 0
+}

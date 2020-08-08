@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_2H39" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "N was determined using the equation : m2m1 =(N-1) 2xpq As described by XREF_BIBR where q is the fraction of hydrogen atoms and p + q = 1.The molar amount of newly synthesized fatty acids (MNS) was determined by : MNS = FNS x total fatty acid amount (nmoles/mg tissue).",
+  "reading_complete" : "2020-08-08T13:18:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:15:35Z",
+  "trigger" : "amount",
+  "evidence" : [ "acid amount" ],
+  "pmc_id" : "6608748",
+  "score" : 0
+}

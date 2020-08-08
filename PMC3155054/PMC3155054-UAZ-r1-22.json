@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282309",
+      "entity_text" : "DMS",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09414",
+      "entity_text" : "dddP gene",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "Mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Mutation of the dddP gene in both R. nubinhibens and R. pomeroyi significantly decreased but did not abolish the production of DMS from DMSP, suggesting that these organisms possessed a second DMSP cleaving enzyme.",
+  "reading_complete" : "2020-08-08T13:16:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:31Z",
+  "trigger" : "abolish",
+  "evidence" : [ "dddP gene in both R. nubinhibens and R. pomeroyi significantly decreased but did not abolish the production of DMS" ],
+  "pmc_id" : "3155054",
+  "score" : 0
+}

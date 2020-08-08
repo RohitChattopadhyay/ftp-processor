@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5282309",
+      "entity_text" : "DMS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0001705" ],
+      "Species" : [ "taxonomy:52958" ]
+    }
+  },
+  "verbose_text" : "The resulting increase in the amount of DMS released into the atmosphere then causes an increase in the abundance of cloud condensation nuclei, which then causes a decrease in solar radiation, slower growth of marine phytoplankton, and decreased DMSP production.",
+  "reading_complete" : "2020-08-08T13:16:03Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:13:31Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of DMS" ],
+  "pmc_id" : "3155054",
+  "score" : 0
+}

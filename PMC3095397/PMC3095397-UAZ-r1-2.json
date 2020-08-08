@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Species" : [ "taxonomy:44689" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "VasH encodes a 59-kD protein that has the hallmarks of a sigma-54-dependent regulator with domains that may function as (i) an N-terminal regulatory domain, (ii) an AAA + central core with a putative ATP hydrolysis function, and (iii) a DNA binding domain with a conserved helix-turn-helix motif.",
+  "reading_complete" : "2020-08-08T13:21:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:19:55Z",
+  "trigger" : "hydrolysis",
+  "evidence" : [ "ATP hydrolysis" ],
+  "pmc_id" : "3095397",
+  "score" : 0
+}

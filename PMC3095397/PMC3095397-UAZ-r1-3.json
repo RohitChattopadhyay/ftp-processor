@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ09576",
+      "entity_text" : "sigma-54 binding sites",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00608",
+      "entity_text" : "RNA polymerase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0942" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Activation of the T6SS likely involves the putative transcriptional activator VasH, which we hypothesize activates RNA polymerase bound to the sigma-54 binding sites of selective promoters.",
+  "reading_complete" : "2020-08-08T13:21:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:19:55Z",
+  "trigger" : "bound",
+  "evidence" : [ "RNA polymerase bound to the sigma-54 binding sites" ],
+  "pmc_id" : "3095397",
+  "score" : 0
+}
