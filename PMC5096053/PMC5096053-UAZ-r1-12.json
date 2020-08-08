@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06882",
+      "entity_text" : "S. aureus surface proteins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00398",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9913" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0007023" ]
+    }
+  },
+  "verbose_text" : "Diep and colleagues measured serum IgG binding to S. aureus surface proteins in five patients recovering from S. aureus infection and found mostly low antibody responses to lipoproteins 18.",
+  "reading_complete" : "2020-08-08T16:19:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:17:44Z",
+  "trigger" : "binding",
+  "evidence" : [ "IgG binding to S. aureus surface proteins" ],
+  "pmc_id" : "5096053",
+  "score" : 0
+}
