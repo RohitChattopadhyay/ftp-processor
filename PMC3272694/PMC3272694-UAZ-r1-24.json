@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03149",
+      "entity_text" : "sreA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03148",
+      "entity_text" : "hapX",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "SreA and HapX are interconnected in a negative feed-back loop : SreA represses expression of hapX during iron sufficiency, while HapX represses sreA during iron starvation.",
+  "reading_complete" : "2020-08-08T10:05:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:03:43Z",
+  "trigger" : "represses",
+  "evidence" : [ "hapX during iron sufficiency, while HapX represses sreA" ],
+  "pmc_id" : "3272694",
+  "score" : 0
+}

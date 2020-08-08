@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "Organ" : [ "uberon:UBERON:2005088" ],
+      "CellType" : [ "cl:CL:0000198" ]
+    }
+  },
+  "verbose_text" : "Several conserved amino acid residues that can be phosphorylated within the TRPV1 molecule have been shown to be important for sensitization; however, all but one of these residues were conserved in nmrTrpv1 (XREF_SUPPLEMENTARY A).",
+  "reading_complete" : "2020-08-08T10:08:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:05:57Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "acid residues that can be phosphorylated" ],
+  "pmc_id" : "5081396",
+  "score" : 0
+}
