@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05663",
+      "entity_text" : "TKL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009507" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "The most probable candidate for phosphorylation of TKL would appear to be a CDPK, but the phosphorylation site of TKL (PE [pS] P) shares no similarity with the recognition motif of plant CDPKs in agreement with the fact that the calcium requirement for TKL phosphorylation was rather high and no CDPKs have so far been described in chloroplasts [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of TKL" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05664",
+      "entity_text" : "CrTKL",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0009507" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:4097" ]
+    }
+  },
+  "verbose_text" : "No phosphorylation of the recombinant protein could be observed either in the presence or absence of calcium, suggesting strongly that CrTKL is not phosphorylated in the same manner as AtTKL or PsTKL; however, aspartate can mimic phosphorylated serine due to similarity in charge and shape [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T17:19:46Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:14:27Z",
+  "trigger" : "phosphorylated",
+  "evidence" : [ "CrTKL is not phosphorylated" ],
+  "pmc_id" : "3966265",
+  "score" : 0
+}

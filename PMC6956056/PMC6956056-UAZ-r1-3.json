@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5957",
+      "entity_text" : "ATP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Organ" : [ "uberon:UBERON:0008915" ],
+      "Species" : [ "taxonomy:4565" ]
+    }
+  },
+  "verbose_text" : "In the \" orange \" module we found GO terms, such as \" kinase activity / ATP binding / protein phosphorylation \", \" protein binding \", and \" GTP binding / proteolysis \" being highly interrelated with other nodes.",
+  "reading_complete" : "2020-08-08T17:21:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:07:50Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "ATP binding/protein phosphorylation" ],
+  "pmc_id" : "6956056",
+  "score" : 0
+}
