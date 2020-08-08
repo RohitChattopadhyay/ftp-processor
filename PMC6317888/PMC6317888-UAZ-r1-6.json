@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06025",
+      "entity_text" : "H3K9me3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "All of these loci became transcriptional activated in hrde-1 and set-32; hrde-1 mutants, but remained silent in set-32 mutant (with naive wild-type hrde-1), despite the losses of H3K9me3 at these regions.",
+  "reading_complete" : "2020-08-08T16:52:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:48:03Z",
+  "trigger" : "losses",
+  "evidence" : [ "losses of H3K9me3" ],
+  "pmc_id" : "6317888",
+  "score" : 0
+}

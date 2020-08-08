@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24822",
+      "entity_text" : "NO",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Given the fact that NO exposure to DCs induces their apoptosis and NO exposure to T cells blocks T cell IFN-gamma production, NO represents a central molecule involved in suppression of the T cell response.",
+  "reading_complete" : "2020-08-08T16:49:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:48:11Z",
+  "trigger" : "induces",
+  "evidence" : [ "NO exposure to DCs induces their apoptosis" ],
+  "pmc_id" : "3298847",
+  "score" : 0
+}

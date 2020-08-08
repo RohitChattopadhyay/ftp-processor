@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "lysine residues",
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:0007023" ],
+      "Species" : [ "taxonomy:124036" ]
+    }
+  },
+  "verbose_text" : "All three proteins contain the SET domain, an evolutionarily conserved moiety that methylates the lysine residues of histone proteins.",
+  "reading_complete" : "2020-08-08T16:52:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:48:03Z",
+  "trigger" : "methylates",
+  "evidence" : [ "methylates the lysine residues of histone" ],
+  "pmc_id" : "6317888",
+  "score" : 0
+}
