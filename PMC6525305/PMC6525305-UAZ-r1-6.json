@@ -1,0 +1,26 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y261",
+      "entity_text" : "FOXA2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "When FOXA2-gRNA cells were differentiated independently in comparison to scramble-gRNA cells, SOX17 expression levels were similar (XREF_FIG and XREF_FIG), suggesting differentiation of END despite loss of FOXA2 in most cells.",
+  "reading_complete" : "2020-08-08T12:49:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T12:46:01Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of FOXA2" ],
+  "pmc_id" : "6525305",
+  "score" : 0
+}
