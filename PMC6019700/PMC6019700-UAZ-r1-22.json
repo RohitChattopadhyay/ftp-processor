@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:18950",
+      "entity_text" : "mannose",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_1905" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Species" : [ "taxonomy:12721" ]
+    }
+  },
+  "verbose_text" : "In late FL, all glycans except for N133 were> 75% either high mannose or complex type glycosylation, indicating a high degree of homogeneity in glycan type at each PNGS.",
+  "reading_complete" : "2020-08-08T15:56:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:53:12Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "mannose or complex type glycosylation" ],
+  "pmc_id" : "6019700",
+  "score" : 0
+}
