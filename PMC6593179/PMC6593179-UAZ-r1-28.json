@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01584",
+      "entity_text" : "IL-1beta",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13099",
+      "entity_text" : "IFT88",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutation"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Hypomorphic mutation of IFT88 reduced IL-1beta signalling and abolished the anti-inflammatory effects of loading indicating the mechanism is IFT dependent.",
+  "reading_complete" : "2020-08-08T17:25:39Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:20:35Z",
+  "trigger" : "reduced",
+  "evidence" : [ "IFT88 reduced IL-1beta" ],
+  "pmc_id" : "6593179",
+  "score" : 0
+}
