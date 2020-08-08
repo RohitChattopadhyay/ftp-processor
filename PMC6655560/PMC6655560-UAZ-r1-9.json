@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "estradiol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1205" ],
+      "Organ" : [ "uberon:UBERON:0002103" ]
+    }
+  },
+  "verbose_text" : "The disruption of satellite cell maintenance and the impairment in strength recovery following injury that occurred with the loss of estradiol led us to next determine if self-renewal and/or differentiation were affected, as these cellular processes have direct implications for the replenishment of the satellite cell pool.",
+  "reading_complete" : "2020-08-08T19:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:46:34Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of estradiol" ],
+  "pmc_id" : "6655560",
+  "score" : 0
+}

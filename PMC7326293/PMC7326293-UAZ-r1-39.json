@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:49836027",
+      "entity_text" : "Torin1",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We find that in Tsc2 wild-type MEFs, rapamycin and Torin1 are not sufficient to decrease sapienate metabolism, while SREBP inhibition effectively decreased it.",
+  "reading_complete" : "2020-08-08T19:46:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:44:13Z",
+  "trigger" : "decrease",
+  "evidence" : [ "Torin1 are not sufficient to decrease sapienate metabolism" ],
+  "pmc_id" : "7326293",
+  "score" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42345",
+      "entity_text" : "mTOR",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_M034" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This signature was defined as the sum of phosphoprotein levels of mTOR, 4E-BP1 (S65, T37 / T46, and T70 RPPA features), P70S6K, and S6 (S235 / S236 and S240 / S244 features) and was previously described in Zhang et al..",
+  "reading_complete" : "2020-08-08T19:46:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:44:13Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of mTOR" ],
+  "pmc_id" : "7326293",
+  "score" : 0
+}

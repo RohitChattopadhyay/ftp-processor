@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008152",
+      "entity_text" : "metabolism",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P36956",
+      "entity_text" : "SREBP-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Based on these data, we concluded that SREBP-1 and SREBP-2 overexpression can elevate FADS2 transcription and sapienate metabolism.",
+  "reading_complete" : "2020-08-08T19:46:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:44:13Z",
+  "trigger" : "elevate",
+  "evidence" : [ "SREBP-1 and SREBP-2 overexpression can elevate FADS2 transcription and sapienate metabolism" ],
+  "pmc_id" : "7326293",
+  "score" : 0
+}

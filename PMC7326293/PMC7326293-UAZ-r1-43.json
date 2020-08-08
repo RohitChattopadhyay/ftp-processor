@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0009058",
+      "entity_text" : "biosynthesis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:49836027",
+      "entity_text" : "Torin1",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This shows that sapienate biosynthesis is more reduced by Torin1 treatment than explained through the reduction of palmitate synthesis.",
+  "reading_complete" : "2020-08-08T19:46:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:44:13Z",
+  "trigger" : "reduced",
+  "evidence" : [ "biosynthesis is more reduced by Torin1" ],
+  "pmc_id" : "7326293",
+  "score" : 0
+}

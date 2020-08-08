@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:5757",
+      "entity_text" : "estradiol",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-1205" ]
+    }
+  },
+  "verbose_text" : "Given that the loss of estradiol perturbs maintenance of the satellite cell pool during homeostatic conditions, we aimed to determine if this loss of satellite cell number resulted in functional consequences.",
+  "reading_complete" : "2020-08-08T19:49:34Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:46:34Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of estradiol" ],
+  "pmc_id" : "6655560",
+  "score" : 0
+}
