@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "glycosylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49366",
+      "entity_text" : "DS",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9491" ],
+      "Organ" : [ "uberon:UBERON:0000479" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "To quantify this cost, we formulated a secretory burden (SB) score for each SP gene i as a function of its encoded protein length L (i.e., number of amino acids) and number of disulfide (N DS) and glycosylation (N gly) sites : (Equation 1) SBi = Limed (L) + NDS, imed (NDS) + Ngly, imed (Ngly) where each property is normalized by the median (med) value among all of the SP genes.",
+  "reading_complete" : "2020-08-08T19:07:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:03:48Z",
+  "trigger" : "glycosylation",
+  "evidence" : [ "DS )\nand glycosylation" ],
+  "pmc_id" : "6441842",
+  "score" : 0
+}

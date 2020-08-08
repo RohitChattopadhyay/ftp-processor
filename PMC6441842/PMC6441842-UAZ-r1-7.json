@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006915",
+      "entity_text" : "apoptosis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:387447",
+      "entity_text" : "bortezomib",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Furthermore, bortezomib has been found to induce apoptosis in THCA cell lines with half-maximal inhibitory concentration (IC 50) values lower than those of other cancer types (e.g., glioma, colon, renal, ovarian, prostate), whereas bortezomib treatment of BLCA cell line 253JB-V did not result in significant apoptosis and could not inhibit 253JB-V tumor growth in mice unless combined with another therapy (gemcitabine).",
+  "reading_complete" : "2020-08-08T19:07:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:03:48Z",
+  "trigger" : "induce",
+  "evidence" : [ "bortezomib has been found to induce apoptosis" ],
+  "pmc_id" : "6441842",
+  "score" : 0
+}
