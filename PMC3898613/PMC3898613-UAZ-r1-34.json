@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10599",
+      "entity_text" : "Trx1",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06710",
+      "entity_text" : "Prx Tpx1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "For instance, our model suggests that the relative levels of the thioredoxin reductase Trr1, which reduces Trx1 and Txl1, and the 2-Cys Prx Tpx1, which drives Trx1 and Txl1 oxidation, are key in determining the H 2 O 2 responsivity of Pap1 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T11:59:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:56:20Z",
+  "trigger" : "drives",
+  "evidence" : [ "Prx Tpx1, which drives Trx1" ],
+  "pmc_id" : "3898613",
+  "score" : 0
+}

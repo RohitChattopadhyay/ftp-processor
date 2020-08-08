@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9USR1",
+      "entity_text" : "Txl1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:4896" ]
+    }
+  },
+  "verbose_text" : "This suggests that mechanisms to target nuclear, oxidized Pap1 for proteasomal degradation are sufficient to compensate for loss of Txl1.",
+  "reading_complete" : "2020-08-08T11:59:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:56:20Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Txl1" ],
+  "pmc_id" : "3898613",
+  "score" : 0
+}
