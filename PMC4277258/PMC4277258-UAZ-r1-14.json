@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "translocates",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:3082032",
+      "entity_text" : "fatty acyl-coenzyme A",
+      "entity_type" : "simple_chemical"
+    },
+    "to_location_text" : "mitochondrial matrix",
+    "hypothesis_information" : false,
+    "to_location_id" : "go:GO:0005759",
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0115" ],
+      "Cellular_component" : [ "go:GO:0005759" ]
+    }
+  },
+  "verbose_text" : "Among the metabolism related genes affected in KO myocardium, carnitine palmitoyltransferase 1b (Cpt1b) encodes the rate limiting enzyme in FAO that is responsible for transporting long-chain fatty acyl-coenzyme A via the carnitine shuttle into the mitochondrial matrix, where they are subsequently oxidized.",
+  "reading_complete" : "2020-08-08T19:00:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:59:20Z",
+  "trigger" : "transporting",
+  "evidence" : [ "transporting long-chain fatty acyl-coenzyme A via the carnitine shuttle into the mitochondrial matrix" ],
+  "pmc_id" : "4277258",
+  "score" : 0
+}

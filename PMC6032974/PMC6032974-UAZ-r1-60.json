@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46100",
+      "entity_text" : "Atrx",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0871" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "Loss of Atrx enables these cells to use recombination as a mechanism to lengthen their telomeres and escape crisis in the absence of telomerase activation.",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "Loss",
+  "evidence" : [ "Loss of Atrx" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}

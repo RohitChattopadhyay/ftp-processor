@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8N726",
+      "entity_text" : "tumor suppressor ARF",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0002049" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "Deletion of the Cdkn2a locus results in loss of the tumor suppressor ARF, which normally regulates TP53 function via MDM2, and loss of the tumor suppressor p16, which normally regulates Rb function via CDK4/6.",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the tumor suppressor ARF" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}

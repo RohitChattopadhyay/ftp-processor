@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46100",
+      "entity_text" : "Atrx",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "These data demonstrate that IDH1 R132H promotes the growth of immortal Cdkn2a deficient mouse astrocytes in vitro, and this effect is enhanced by expression of PDGFA in combination with loss of Atrx and Pten.",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Atrx" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}

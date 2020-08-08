@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75874",
+      "entity_text" : "IDH1",
+      "features" : [ {
+        "to_base" : "R",
+        "site" : 132,
+        "feature_type" : "mutation",
+        "evidence" : "R132H"
+      } ],
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Expression of mutant IDH1 caused a marked increase in hypermethylation at a large number of CpG regions compared to WT IDH1 (XREF_FIG and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "Expression",
+  "evidence" : [ "Expression of mutant IDH1" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}

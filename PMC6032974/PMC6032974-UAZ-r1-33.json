@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23725625",
+      "entity_text" : "olaparib",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75874",
+      "entity_text" : "IDH1",
+      "features" : [ {
+        "to_base" : "R",
+        "site" : 132,
+        "feature_type" : "mutation",
+        "evidence" : "R132H"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Addition of TMZ at 10, 25, and 50 muM potentiated the cytotoxicity of olaparib selectively in IDH1 R132H -expressing cells, reducing the olaparib IC 50 from 26.6 to 23.4 muM, 9.51 muM, and 3.76 muM in astrocytes and from 85.3 to 32.4 muM, and 18.9 to 13.9 muM in tumor cells, respectively (XREF_FIG).",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "reducing",
+  "evidence" : [ "IDH1 R132H -expressing cells, reducing the olaparib" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}

@@ -1,0 +1,38 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O75874",
+      "entity_text" : "IDH1",
+      "features" : [ {
+        "to_base" : "R",
+        "site" : 132,
+        "feature_type" : "mutation",
+        "evidence" : "R132H"
+      } ],
+      "entity_type" : "protein"
+    },
+    "is_direct" : true,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0372" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0416" ]
+    }
+  },
+  "verbose_text" : "There were 13,570 regions that were hypermethylated and 2,609 that were hypomethylated in IDH1 R132H tumors compared with WT IDH1 tumors.",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "hypomethylated",
+  "evidence" : [ "hypomethylated in IDH1" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}

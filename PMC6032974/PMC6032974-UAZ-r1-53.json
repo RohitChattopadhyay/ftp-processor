@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42771",
+      "entity_text" : "Cdkn2a",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0416" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ]
+    }
+  },
+  "verbose_text" : "Our data suggest that loss of all three tumor suppressors Cdkn2a, Atrx, and Pten in combination is necessary for IDH1 R132H and PDGFA to significantly enhance tumor penetrance and decrease tumor latency (XREF_FIG and XREF_SUPPLEMENTARY).",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of all three tumor suppressors Cdkn2a" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}

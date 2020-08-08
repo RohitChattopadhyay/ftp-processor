@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46100",
+      "entity_text" : "ATRX",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_4W74" ],
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "uniprot:SL-0276" ],
+      "CellType" : [ "cl:CL:0000127" ]
+    }
+  },
+  "verbose_text" : "Interestingly, combined loss of ATRX and expression of mutant IDH1 was required in T53/RB deficient human astrocytes to produce the ALT phenotype, bypass telomere crisis, and escape cell death.",
+  "reading_complete" : "2020-08-08T19:03:48Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:00:27Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of ATRX" ],
+  "pmc_id" : "6032974",
+  "score" : 0
+}
