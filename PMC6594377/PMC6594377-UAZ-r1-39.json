@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P40189",
+      "entity_text" : "GP130",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6YHK3",
+      "entity_text" : "CD109",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_8467" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0568" ]
+    }
+  },
+  "verbose_text" : "Given that recent studies have shown a requirement of GP130 in CD109 mediated lung metastases and that the GP130-Src-YAP axis is operational in inflammation, we speculate that CD109 may regulate YAP / TAZ by binding to GP130.",
+  "reading_complete" : "2020-08-08T17:14:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:10:51Z",
+  "trigger" : "binding",
+  "evidence" : [ "CD109 may regulate YAP/TAZ by binding to GP130" ],
+  "pmc_id" : "6594377",
+  "score" : 0
+}

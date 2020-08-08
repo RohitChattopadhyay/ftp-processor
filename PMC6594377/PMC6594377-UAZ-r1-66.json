@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q16635",
+      "entity_text" : "TAZ",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16264",
+      "entity_text" : "4SA-S51A",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "This was abolished upon the overexpression of a 4SA mutant (4SA-S51A) that impedes TAZ entry into the nucleus, indicating that at least the effect of CD109 on DNA damage repair capacity depends on nuclear TAZ.",
+  "reading_complete" : "2020-08-08T17:14:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:10:51Z",
+  "trigger" : "impedes",
+  "evidence" : [ "4SA-S51A) that impedes TAZ" ],
+  "pmc_id" : "6594377",
+  "score" : 0
+}

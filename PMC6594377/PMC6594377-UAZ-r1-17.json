@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6YHK3",
+      "entity_text" : "CD109",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Despite endogenous induction of CD109 in cells undergoing MES transition, it is noteworthy that the ectopic expression of CD109 in PN GSCs induced cell death (not shown).",
+  "reading_complete" : "2020-08-08T17:14:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:10:51Z",
+  "trigger" : "induced",
+  "evidence" : [ "CD109 in PN GSCs induced cell death" ],
+  "pmc_id" : "6594377",
+  "score" : 0
+}

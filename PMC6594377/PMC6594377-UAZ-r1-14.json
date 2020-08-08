@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6YHK3",
+      "entity_text" : "CD109",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P17676",
+      "entity_text" : "C/EBP-beta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Organ" : [ "uberon:UBERON:4300038" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "We found that IR promotes the activation of NF-kappaB and induction of C/EBP-beta, which in turn directly binds to the CD109 promoter to activate its transcription.",
+  "reading_complete" : "2020-08-08T17:14:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:10:51Z",
+  "trigger" : "binds",
+  "evidence" : [ "C/EBP-beta, which in turn directly binds to the\nCD109" ],
+  "pmc_id" : "6594377",
+  "score" : 0
+}

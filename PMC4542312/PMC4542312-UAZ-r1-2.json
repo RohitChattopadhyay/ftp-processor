@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49711",
+      "entity_text" : "CCCTC-binding factor",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ16242",
+      "entity_text" : "insulator proteins",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Currently, the best characterized mechanism for domain organization involves long-range interactions between insulator proteins (CCCTC binding factor [CTCF] in mammals) and the cohesin complex.",
+  "reading_complete" : "2020-08-08T17:10:51Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:08:55Z",
+  "trigger" : "interactions",
+  "evidence" : [ "interactions between insulator proteins (CCCTC-binding factor" ],
+  "pmc_id" : "4542312",
+  "score" : 0
+}

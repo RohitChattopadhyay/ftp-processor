@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6YHK3",
+      "entity_text" : "CD109",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "CellLine" : [ "uaz:UA-CLine-5317" ],
+      "Cellular_component" : [ "go:GO:0032991" ],
+      "Species" : [ "taxonomy:9606" ],
+      "CellType" : [ "cl:CL:0000037" ]
+    }
+  },
+  "verbose_text" : "High levels of CD109 have been reported in multiple cancers, including GBM; notably, CD109 + circulating endothelial cells in recurrent GBM have been reported to be prognostic.",
+  "reading_complete" : "2020-08-08T17:14:07Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:10:51Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of CD109" ],
+  "pmc_id" : "6594377",
+  "score" : 0
+}
