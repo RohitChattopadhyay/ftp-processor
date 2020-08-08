@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "acetylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0924" ],
+      "Cellular_component" : [ "go:GO:0043209" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The association of HDAC3 with the activation of gene expression is consistent with recent studies, particularly those involving oligodendrocyte lineage commitment and neuronal function in which HDAC3 is not acting solely via its more established role of decreasing histone acetylation but rather through the modification and activation of transcriptional complexes.",
+  "reading_complete" : "2020-08-08T16:57:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:54:45Z",
+  "trigger" : "acetylation",
+  "evidence" : [ "histone acetylation" ],
+  "pmc_id" : "6293966",
+  "score" : 0
+}

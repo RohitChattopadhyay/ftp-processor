@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:AKT",
+      "entity_text" : "Akt",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q15848",
+      "entity_text" : "Adiponectin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Another study provided some important information about the suppression of adiponectin on the oncogenic actions of leptin in HCC [XREF_BIBR] : (1) Adiponectin treatment reduced leptin induced Stat3 and Akt phosphorylation and increased suppressor of cytokine signaling (SOCS3), a physiologic negative regulator of leptin signal transduction.",
+  "reading_complete" : "2020-08-08T16:54:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:47:15Z",
+  "trigger" : "induced",
+  "evidence" : [ "Adiponectin treatment reduced leptin-induced Stat3 and Akt phosphorylation" ],
+  "pmc_id" : "3179873",
+  "score" : 0
+}
