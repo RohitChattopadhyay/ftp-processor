@@ -1,0 +1,36 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52799",
+      "entity_text" : "ephrinB2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96DT0",
+      "entity_text" : "GRIP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellLine" : [ "cellosaurus:CVCL_4461" ],
+      "Cellular_component" : [ "go:GO:0043197" ],
+      "Species" : [ "taxonomy:10090" ],
+      "CellType" : [ "cl:CL:0000540" ]
+    }
+  },
+  "verbose_text" : "Using constructs where this phosphorylation was either prevented (serine mutated to alanine [S9> A]) or mimicked (serine mutated to glutamic acid [S9> E]) to generate a loss or gain of function, respectively, we showed that binding of GRIP1 to ephrinB2 was impaired in cells expressing the S9> A construct, but constitutive upon the expression of the S9> E plasmid.",
+  "reading_complete" : "2020-08-08T11:01:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:11Z",
+  "trigger" : "binding",
+  "evidence" : [ "binding of GRIP1 to ephrinB2" ],
+  "pmc_id" : "5640806",
+  "score" : 0
+}

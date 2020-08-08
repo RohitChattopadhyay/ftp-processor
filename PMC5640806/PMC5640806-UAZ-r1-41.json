@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42262",
+      "entity_text" : "GluR2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96DT0",
+      "entity_text" : "GRIP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1006" ],
+      "Cellular_component" : [ "go:GO:0045202" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The molecular mechanisms underlying the function of ephrinB2 at the CA1 postsynaptic site involve the phosphorylation of a serine residue on the cytoplasmic tail of ephrinB2 (serine 9 [Ser 9]) and the recruitment of GRIP1, a multiple-PDZ-domain-containing adaptor molecule that also binds to the GluR2 subunit of AMPA receptors.",
+  "reading_complete" : "2020-08-08T11:01:02Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:58:11Z",
+  "trigger" : "binds",
+  "evidence" : [ "GRIP1, a multiple-PDZ-domain-containing adaptor molecule that also binds to the GluR2" ],
+  "pmc_id" : "5640806",
+  "score" : 0
+}
