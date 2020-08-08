@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydroxylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444899",
+      "entity_text" : "arachidonic acid",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0934" ],
+      "Organ" : [ "uberon:UBERON:0001821" ]
+    }
+  },
+  "verbose_text" : "Members of the CYP4 family function in lipid metabolism as omega-hydroxylases, acting on long-chain fatty acids and Loughran et al. have showed that cytochrome b 5 is essential for the in vitro omega hydroxylation of arachidonic acid.",
+  "reading_complete" : "2020-08-08T14:42:56Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:40:59Z",
+  "trigger" : "hydroxylation",
+  "evidence" : [ "hydroxylation of arachidonic acid" ],
+  "pmc_id" : "3090575",
+  "score" : 0
+}
