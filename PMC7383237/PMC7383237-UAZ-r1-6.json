@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF08775",
+      "entity_text" : "ParB",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07814",
+      "entity_text" : "parS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1423" ],
+      "Cellular_component" : [ "go:GO:0009295" ]
+    }
+  },
+  "verbose_text" : "parS is bound by ParB, which in turn interacts with ParA and SMC proteins to partition the ParB-parS nucleoprotein complex and, hence the chromosome, into each daughter cell.",
+  "reading_complete" : "2020-08-08T13:22:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:14:07Z",
+  "trigger" : "bound",
+  "evidence" : [ "parS is bound by ParB" ],
+  "pmc_id" : "7383237",
+  "score" : 0
+}

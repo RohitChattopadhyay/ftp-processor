@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P07814",
+      "entity_text" : "parS",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O60934",
+      "entity_text" : "NBS",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:1423" ]
+    }
+  },
+  "verbose_text" : "Of 362 variants that bind NBS strongly, 261 are NBS specific (i.e., no parS binding, magenta box), 19 show strong NBS binding but weak-to-medium parS binding (pink box), and 82 dual-specificity variants that bind both parS and NBS (black box) (XREF_FIG C).",
+  "reading_complete" : "2020-08-08T13:22:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:14:07Z",
+  "trigger" : "bind",
+  "evidence" : [ "NBS specific (i.e., no parS binding, magenta box), 19 show strong NBS binding but weak-to-medium parS binding (pink box), and 82 dual-specificity variants that bind both parS" ],
+  "pmc_id" : "7383237",
+  "score" : 0
+}
