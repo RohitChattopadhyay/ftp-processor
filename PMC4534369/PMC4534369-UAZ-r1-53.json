@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF00307",
+      "entity_text" : "CH",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "TissueType" : [ "tissuelist:TS-0817" ],
+      "CellType" : [ "cl:CL:0000586" ]
+    }
+  },
+  "verbose_text" : "Consistent with this, we observe that both CG and CH methylation across the bodies of genes in several groups closely track that observed along all RefSeq genes (XREF_FIG B).",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "methylation",
+  "evidence" : [ "CH methylation" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

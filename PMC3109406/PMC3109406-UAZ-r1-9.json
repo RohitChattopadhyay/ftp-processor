@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15111",
+      "entity_text" : "IkappaB kinase",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0440" ],
+      "TissueType" : [ "tissuelist:TS-0568" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "A possible reason for this is that the increase in phosphorylation of IkappaB kinase and p38 MAPK after PIV infection might be associated with propagated PIV genomes in the cells, although we did not observe an increase in the PIV genome / helicase or PIV genome MKK3/6 complex.",
+  "reading_complete" : "2020-08-08T14:10:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:09:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IkappaB kinase" ],
+  "pmc_id" : "3109406",
+  "score" : 0
+}

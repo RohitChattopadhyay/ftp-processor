@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UJW3",
+      "entity_text" : "Dnmt3L",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:31931" ],
+      "CellType" : [ "cl:CL:0000586" ]
+    }
+  },
+  "verbose_text" : "Analysis of the methylation state in 1-dpp PGS of ERVs represented on the array indicated that these too were hypomethylated in Dnmt3L A/A compared to wild-type germ cells (XREF_FIG E and 6F).",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "hypomethylated",
+  "evidence" : [ "hypomethylated in Dnmt3L" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

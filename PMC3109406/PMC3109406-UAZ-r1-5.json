@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15111",
+      "entity_text" : "IkappaB kinase",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellType" : [ "cl:CL:0000066" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Thus, it is possible that cytokines produced by PIV infected MRC-5 cells might be responsible for the induction of MAP kinase phosphorylation, since various cytokines produced after PIV infection have been shown to induce IkappaB kinase and MAP kinase phosphorylation.",
+  "reading_complete" : "2020-08-08T14:10:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:09:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "IkappaB kinase and MAP kinase phosphorylation" ],
+  "pmc_id" : "3109406",
+  "score" : 0
+}

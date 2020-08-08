@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:597",
+      "entity_text" : "Cytosine",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "CellType" : [ "cl:CL:0002322" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Cytosine methylation is a key chromatin modification required for normal gene regulation and genome stability.",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "methylation",
+  "evidence" : [ "Cytosine methylation" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

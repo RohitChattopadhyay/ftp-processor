@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "CG",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Histone_H3",
+      "entity_text" : "H3",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1219" ],
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "The absence of detectable levels of Dnmt3L combined with our observation that germ cells are dependent on Dnmt3L-histone H3 binding for non CG methylation suggests cell-type-specific mechanisms in how this modification maybe regulated.",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "binding",
+  "evidence" : [ "H3 binding for non-CG" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

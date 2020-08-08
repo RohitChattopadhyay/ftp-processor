@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:104748",
+      "entity_text" : "bisulphite",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "This is consistent with both methylation sensitive Southern blot and bisulphite sequencing data examining LINE1 and IAP sequences showing elements that are both normally methylated and hypomethylated.",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "methylation",
+  "evidence" : [ "methylation-sensitive Southern blot and bisulphite" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

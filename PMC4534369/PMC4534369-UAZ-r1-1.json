@@ -1,0 +1,37 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "CG",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "CG",
+      "features" : [ {
+        "modification_type" : "methylation",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Analysis of non CG methylation in various genomic compartments revealed that similar to CG methylation, this was reduced throughout all regions in Dnmt3L A/A PSG, with most non CG methylation found in non-promoter-associated CGIs (XREF_FIG F and S1F).",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "reduced",
+  "evidence" : [ "CG methylation in various genomic compartments revealed that similar to CG methylation, this was reduced" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

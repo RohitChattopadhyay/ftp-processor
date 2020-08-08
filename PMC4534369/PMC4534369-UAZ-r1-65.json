@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "CG",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:76720" ],
+      "TissueType" : [ "tissuelist:TS-0817" ],
+      "Organ" : [ "uberon:UBERON:0006611" ],
+      "CellType" : [ "cl:CL:0000586" ]
+    }
+  },
+  "verbose_text" : "CG methylation at paternally imprinted loci trended toward reduced levels in Dnmt3L A/A germ cells (XREF_FIG G), with significant reductions at the Gpr1 / Zdbf2 and Rasgrf1 DMRs (Fisher exact test values, 6.66 x 10 -4 and 4.73 x 10 -5, respectively).",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "methylation",
+  "evidence" : [ "CG methylation" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

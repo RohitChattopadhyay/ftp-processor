@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P08311",
+      "entity_text" : "CG",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0817" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "As both CG and non CG methylation are completely obliterated in Dnmt3L null animals, our results suggest differences in the mechanism by which methylation is established in CG and non CG contexts, namely that the latter is greatly dependent on the Dnmt3L ADD domain.",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "methylation",
+  "evidence" : [ "CG and non-CG methylation" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

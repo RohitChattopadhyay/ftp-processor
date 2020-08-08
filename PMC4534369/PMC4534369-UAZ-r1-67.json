@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6K1",
+      "entity_text" : "Dnmt3A",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UJW3",
+      "entity_text" : "Dnmt3L",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1030" ],
+      "CellType" : [ "cl:CL:0000586" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Biochemical assays indicate Dnmt3L directly associates with both Dnmt3A and Dnmt3B; crystallographic studies using the C-terminal domains of murine Dnmt3A and Dnmt3L indicate this interaction is mediated through the C-terminal methyltransferase folds.",
+  "reading_complete" : "2020-08-08T14:10:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:08:25Z",
+  "trigger" : "associates",
+  "evidence" : [ "Dnmt3L directly associates with both Dnmt3A" ],
+  "pmc_id" : "4534369",
+  "score" : 0
+}

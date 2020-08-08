@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00017",
+      "entity_text" : "IkappaB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9T08" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0362" ]
+    }
+  },
+  "verbose_text" : "PIV infection enhanced phosphorylation of both IkappaB and p38 MAPK, but not Akt, in the cells.",
+  "reading_complete" : "2020-08-08T14:10:11Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:09:19Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of both IkappaB" ],
+  "pmc_id" : "3109406",
+  "score" : 0
+}
