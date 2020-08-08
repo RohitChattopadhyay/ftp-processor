@@ -1,0 +1,39 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 135,
+        "feature_type" : "mutation",
+        "evidence" : "S135E"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q12756",
+      "entity_text" : "Kif1A",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "We again found reduced Kif1A binding to S135E Syt4 (43.6% +/- 10.7% of WT, p = 0.0017), with no significant change in Kif1A binding to S135A Syt4 in this case (XREF_FIG F).",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "binding",
+  "evidence" : [ "Kif1A binding to S135E Syt4" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

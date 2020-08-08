@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006412",
+      "entity_text" : "translation",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:54684461",
+      "entity_text" : "doxycycline",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "As doxycycline has been reported to inhibit mitochondrial translation and induce mitochondrial stress, we first tested whether, doxycycline alone induces the UPR mt in non transgenic mice treated with doxycycline.",
+  "reading_complete" : "2020-08-08T11:30:28Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:11Z",
+  "trigger" : "inhibit",
+  "evidence" : [ "doxycycline has been reported to inhibit mitochondrial translation" ],
+  "pmc_id" : "6579120",
+  "score" : 0
+}

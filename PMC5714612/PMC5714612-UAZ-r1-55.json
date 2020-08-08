@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9H2B2",
+      "entity_text" : "Syt4",
+      "features" : [ {
+        "to_base" : "S",
+        "site" : 135,
+        "feature_type" : "mutation",
+        "evidence" : "S135A"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Species" : [ "taxonomy:64279" ]
+    }
+  },
+  "verbose_text" : "WT Syt4 co-immunoprecipitated with Kif1A, but the amount of S135E Syt4 co-immunoprecipitated by Kif1A was reduced (42.9% +/- 10.8% of WT), whereas the amount of S135A Syt4 co-immunoprecipitated by Kif1A was increased (134.4% +/- 11.1%) compared with the WT (p = 0.04 for WT versus S135E, and p = 0.02 for S135A versus S135E) (XREF_FIG D).",
+  "reading_complete" : "2020-08-08T11:34:57Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:30:28Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of S135A Syt4" ],
+  "pmc_id" : "5714612",
+  "score" : 0
+}

@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "CA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62937",
+      "entity_text" : "CypA",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11676" ],
+      "TissueType" : [ "tissuelist:TS-1001" ],
+      "Organ" : [ "uberon:UBERON:0000914" ],
+      "CellType" : [ "cl:CL:0000084" ]
+    }
+  },
+  "verbose_text" : "CypA binds directly to L4/5 of HIV-1 CA but not to SIVmac CA and augments HIV-1 infection in human cells but inhibits its replication in OWM cells.",
+  "reading_complete" : "2020-08-08T11:30:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:39Z",
+  "trigger" : "binds",
+  "evidence" : [ "CypA binds directly to L4/5 of HIV-1 CA but not to SIVmac CA" ],
+  "pmc_id" : "3264904",
+  "score" : 0
+}

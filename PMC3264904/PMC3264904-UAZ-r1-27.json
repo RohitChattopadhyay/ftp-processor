@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01730",
+      "entity_text" : "CD4",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0800" ],
+      "CellType" : [ "cl:CL:0000084" ],
+      "Species" : [ "taxonomy:11676" ]
+    }
+  },
+  "verbose_text" : "Lim et al. retrospectively analyzed plasma viral load of Rh after SIVmac251 challenge by intravenous route and found that Rh with the Q allele was associated with higher levels of plasma viral RNA at the time when the levels of viral RNA stabilized after a period of acute infection (0.6 log median difference at 70 days after infection), more rapid loss of central memory CD4 + T cells, and higher rate of progression to AIDS.",
+  "reading_complete" : "2020-08-08T11:30:49Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:28:39Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of central memory CD4" ],
+  "pmc_id" : "3264904",
+  "score" : 0
+}
