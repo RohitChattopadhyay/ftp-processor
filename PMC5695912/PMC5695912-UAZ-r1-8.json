@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB02168",
+      "entity_text" : "superoxide",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005739" ],
+      "CellType" : [ "cl:CL:0000187" ]
+    }
+  },
+  "verbose_text" : "Hence, the observation of elevated levels of SOD2 in the mitochondria is consistent with the lack of detection of increased levels of superoxide and ROS observed following electrically stimulated contractions in Eif6 +/- muscle fibers.",
+  "reading_complete" : "2020-08-08T15:11:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:08:12Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of superoxide" ],
+  "pmc_id" : "5695912",
+  "score" : 0
+}
