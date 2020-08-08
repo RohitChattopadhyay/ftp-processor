@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "methylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSE2",
+      "entity_text" : "cis",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0095" ],
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Organ" : [ "uberon:UBERON:0013551" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "A methylation QTL analysis suggested that rs113565688 was a cis methylation QTL for cg12507869 (P = 5 x 10 -5 and 4 x 10 -13 in two lookup cohorts).",
+  "reading_complete" : "2020-08-08T18:02:17Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:58:53Z",
+  "trigger" : "methylation",
+  "evidence" : [ "cis methylation" ],
+  "pmc_id" : "6035894",
+  "score" : 0
+}
