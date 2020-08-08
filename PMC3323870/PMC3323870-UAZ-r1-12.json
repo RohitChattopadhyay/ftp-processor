@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P30331",
+      "entity_text" : "SmtA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:23994",
+      "entity_text" : "Zn",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:6239" ],
+      "Organ" : [ "uberon:UBERON:0000468" ]
+    }
+  },
+  "verbose_text" : "In that sense, bacterial metallothioneins of the BmtA type are an exception - they contain a clearly identifiable zinc finger fold, and it has been demonstrated experimentally that the constituents of this fold (residues 7-38) form an ordered, folded structure, even if only one Zn 2+ ion is bound to SmtA.",
+  "reading_complete" : "2020-08-08T13:10:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:05:42Z",
+  "trigger" : "bound",
+  "evidence" : [ "Zn 2+  ion is bound to SmtA" ],
+  "pmc_id" : "3323870",
+  "score" : 0
+}
