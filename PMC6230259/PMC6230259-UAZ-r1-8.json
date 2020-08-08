@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NSE2",
+      "entity_text" : "CIs",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9UPM6",
+      "entity_text" : "Lhx6",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "To explore the possibility that the cortical microenvironment of Lhx6 mutants can rescue CIs from apoptosis, we transplanted GFP + CI precursors isolated from the basal forebrain of GAD-GFP E14.5 embryos into the pallium of neonatal (P0-P1) Lhx6 -/- pups and their control (Lhx6 +/-) littermates (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T15:14:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:11:21Z",
+  "trigger" : "rescue",
+  "evidence" : [ "Lhx6 mutants can rescue CIs" ],
+  "pmc_id" : "6230259",
+  "score" : 0
+}
