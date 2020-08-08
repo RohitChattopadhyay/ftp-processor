@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O14786",
+      "entity_text" : "NRP1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "CellType" : [ "cl:CL:0000763" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Additionally, a small but significant decrease in NRP1 protein levels caused by ABL1 knockdown may also contribute to reduced CDC42 activation.",
+  "reading_complete" : "2020-08-08T10:10:50Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:08:19Z",
+  "trigger" : "levels",
+  "evidence" : [ "NRP1 protein levels" ],
+  "pmc_id" : "4528263",
+  "score" : 0
+}

@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21912",
+      "entity_text" : "IP",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Species" : [ "taxonomy:12721" ],
+      "Cellular_component" : [ "uniprot:SL-0487" ],
+      "CellType" : [ "cl:CL:0002322" ]
+    }
+  },
+  "verbose_text" : "IP 6 biosynthesis is a complex metabolic pathway involving the conversion of IP 3 to IP 5 by inositol polyphosphate multikinase (IPMK or IPK2), followed by phosphorylation of IP 5 to IP 6 by inositol-pentakisphosphate 2-kinase (IP5-2K, IPPK, or IPK1) (XREF_FIG A).",
+  "reading_complete" : "2020-08-08T10:08:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:05:17Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IP" ],
+  "pmc_id" : "6931105",
+  "score" : 0
+}
