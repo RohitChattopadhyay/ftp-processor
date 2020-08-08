@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95639",
+      "entity_text" : "CPSF30",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y6Y0",
+      "entity_text" : "NS1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0018995" ]
+    }
+  },
+  "verbose_text" : "In order to verify that the Pol II termination defect we observed during our influenza virus infections above was wholly due to the action of the viral NS1 protein, we carried out infections with an H1N1 influenza A virus strain (A/PR/8/34), closely related to A/WSN/33, expressing an NS1 protein that does not bind to CPSF30.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "bind",
+  "evidence" : [ "NS1 protein that does not bind to CPSF30" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}

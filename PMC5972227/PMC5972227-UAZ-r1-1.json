@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7Z434",
+      "entity_text" : "mitochondrial antiviral-signaling protein",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O95786",
+      "entity_text" : "RIG-I",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11309" ],
+      "Cellular_component" : [ "go:GO:0005739" ]
+    }
+  },
+  "verbose_text" : "Also, RIG-I binding to the mitochondrial antiviral signaling protein (MAVS) might allow ROS release from the mitochondria to trigger an oxidative stress response.",
+  "reading_complete" : "2020-08-08T16:44:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:41:52Z",
+  "trigger" : "binding",
+  "evidence" : [ "RIG-I binding to the mitochondrial antiviral-signaling protein" ],
+  "pmc_id" : "5972227",
+  "score" : 0
+}
