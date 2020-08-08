@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ03230",
+      "entity_text" : "STAT1-Ser727",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0547" ],
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0161" ]
+    }
+  },
+  "verbose_text" : "These cells exhibited baseline STAT1-Ser727 (pSTAT1) phosphorylation that was substantially increased when WT CDK8 was transiently re-expressed (XREF_FIG).",
+  "reading_complete" : "2020-08-08T13:10:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:06:54Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "STAT1-Ser727 (pSTAT1) phosphorylation" ],
+  "pmc_id" : "6451695",
+  "score" : 0
+}
