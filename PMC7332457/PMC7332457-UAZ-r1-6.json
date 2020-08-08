@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P12821",
+      "entity_text" : "ACE",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0490" ],
+      "Organ" : [ "uberon:UBERON:0000170" ],
+      "CellType" : [ "cl:CL:0002563" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Binding of the viral spike protein to ACE2 leads to reduced expression of the latter but does not change the expression of ACE.",
+  "reading_complete" : "2020-08-08T19:29:26Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T19:28:23Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of ACE" ],
+  "pmc_id" : "7332457",
+  "score" : 0
+}
