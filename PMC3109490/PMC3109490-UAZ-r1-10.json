@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q92835",
+      "entity_text" : "SHIP",
+      "entity_type" : "gene"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:264" ],
+      "TissueType" : [ "tissuelist:TS-0194" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0001054" ]
+    }
+  },
+  "verbose_text" : "MiR-155 is of relevance to Francisella infection because this miR negatively regulates SHIP expression, which in turn regulates Akt and multiple host responses.",
+  "reading_complete" : "2020-08-08T14:35:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:34:41Z",
+  "trigger" : "expression",
+  "evidence" : [ "SHIP expression" ],
+  "pmc_id" : "3109490",
+  "score" : 0
+}

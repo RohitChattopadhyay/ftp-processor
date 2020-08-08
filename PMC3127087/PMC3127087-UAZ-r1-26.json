@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006096",
+      "entity_text" : "glycolysis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "hmdb:HMDB06564",
+      "entity_text" : "glucose",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Conversely, L. pneumophila replication is inhibited when autophagy is induced by treating A/J macrophages with 2-deoxy-d-glucose, a non hydrolyzable analog of glucose that inhibits glycolysis.",
+  "reading_complete" : "2020-08-08T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:43Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "glucose that inhibits glycolysis" ],
+  "pmc_id" : "3127087",
+  "score" : 0
+}

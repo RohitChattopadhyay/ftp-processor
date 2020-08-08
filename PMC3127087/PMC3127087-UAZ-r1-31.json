@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ11997",
+      "entity_text" : "bacterial DrrA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P62820",
+      "entity_text" : "Rab1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "Organ" : [ "uberon:UBERON:0000105" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Single cell analysis underscored that as LepB accumulates, host Rab1 and bacterial DrrA / SidM disassociate from the L. pneumophila vacuole, becoming undetectable by 4 h.",
+  "reading_complete" : "2020-08-08T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:43Z",
+  "trigger" : "disassociate",
+  "evidence" : [ "Rab1 and bacterial DrrA/SidM disassociate" ],
+  "pmc_id" : "3127087",
+  "score" : 0
+}

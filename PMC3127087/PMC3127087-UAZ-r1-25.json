@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9NR31",
+      "entity_text" : "Sar1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0725" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "CellType" : [ "cl:CL:0000235" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Likewise, CHO cells that express either a dominant negative form of Sar1 or reduced amounts of wild-type Sar1 protein contain fewer autophagosomes.",
+  "reading_complete" : "2020-08-08T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:43Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of wild-type Sar1" ],
+  "pmc_id" : "3127087",
+  "score" : 0
+}

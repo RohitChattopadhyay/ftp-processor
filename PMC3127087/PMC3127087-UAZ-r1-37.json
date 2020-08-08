@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF05739",
+      "entity_text" : "SNARE",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:RAB",
+      "entity_text" : "Rab proteins",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0007" ],
+      "Species" : [ "taxonomy:10090" ],
+      "Cellular_component" : [ "go:GO:0031982" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Additionally, Rab proteins bind SNARE and SNARE associated proteins, soluble effector proteins that mediate membrane fusion.",
+  "reading_complete" : "2020-08-08T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:43Z",
+  "trigger" : "bind",
+  "evidence" : [ "Rab proteins bind SNARE" ],
+  "pmc_id" : "3127087",
+  "score" : 0
+}

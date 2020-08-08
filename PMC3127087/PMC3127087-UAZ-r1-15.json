@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P21127",
+      "entity_text" : "Clk1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:7227" ],
+      "Cellular_component" : [ "go:GO:0005773" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Yet, bacterial replication is attenuated in cells that express reduced amounts of the host proteins Clk1, a substrate of LubX, and Cdc48 / p97, a chaperone predicted to enhance translocation of ubiquitinated Type IV secretion substrates.",
+  "reading_complete" : "2020-08-08T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:43Z",
+  "trigger" : "amounts",
+  "evidence" : [ "amounts of the host proteins Clk1" ],
+  "pmc_id" : "3127087",
+  "score" : 0
+}

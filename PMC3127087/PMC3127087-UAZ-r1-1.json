@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P57347",
+      "entity_text" : "LepB",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For example, two L. pneumophila Type IV secreted proteins, DrrA and LidA, increase the pool of Rab1-GTP, whereas a third, LepB, stimulates GTP hydrolysis to generate Rab1-GDP.",
+  "reading_complete" : "2020-08-08T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:43Z",
+  "trigger" : "stimulates",
+  "evidence" : [ "LepB, stimulates GTP hydrolysis" ],
+  "pmc_id" : "3127087",
+  "score" : 0
+}

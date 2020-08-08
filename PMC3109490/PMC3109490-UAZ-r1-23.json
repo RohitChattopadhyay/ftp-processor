@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:p38",
+      "entity_text" : "p38",
+      "entity_type" : "family"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000235" ]
+    }
+  },
+  "verbose_text" : "Medina et al. reported that treatment with wortmannin, a PI3K inhibitor, led to increased ERK and p38 phosphorylation as well as enhanced TNFalpha and IL-6 production in murine bone marrow derived macrophages following infection with the LVS of Francisella.",
+  "reading_complete" : "2020-08-08T14:35:43Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:34:41Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "p38 phosphorylation" ],
+  "pmc_id" : "3109490",
+  "score" : 0
+}

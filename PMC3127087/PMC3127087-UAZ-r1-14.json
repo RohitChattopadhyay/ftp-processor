@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P52594",
+      "entity_text" : "Rab",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6830",
+      "entity_text" : "GTP",
+      "features" : [ {
+        "modification_type" : "hydrolysis",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Cycling between the two states is catalyzed by guanine exchange factors (GEFs), proteins that exchange GDP for GTP, and by GTPase activating proteins (GAPs) that stimulate GTP hydrolysis to inactivate the Rab protein.",
+  "reading_complete" : "2020-08-08T14:37:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:35:43Z",
+  "trigger" : "inactivate",
+  "evidence" : [ "GTP hydrolysis to inactivate the Rab" ],
+  "pmc_id" : "3127087",
+  "score" : 0
+}
