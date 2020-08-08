@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ15233",
+      "entity_text" : "pilins",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q5JTD0",
+      "entity_text" : "pilT",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, in Clostridium spp., the only known Gram positive that harbors Tfp genes, it has been shown that a pilT mutant can still produce pilins, but are unable to assemble the pili on the surface of the cell.",
+  "reading_complete" : "2020-08-08T16:36:01Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:34:35Z",
+  "trigger" : "produce",
+  "evidence" : [ "pilT mutant can still produce pilins" ],
+  "pmc_id" : "3109291",
+  "score" : 0
+}

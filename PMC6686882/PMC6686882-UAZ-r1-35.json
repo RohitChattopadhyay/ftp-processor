@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9QXK9",
+      "entity_text" : "RibP",
+      "features" : [ {
+        "to_base" : "L",
+        "site" : 10,
+        "feature_type" : "mutation",
+        "evidence" : "L10a"
+      } ],
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "CellType" : [ "cl:CL:0000187" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Axonal RibP L10a levels were then evaluated by immunofluorescence in the axonal compartment.",
+  "reading_complete" : "2020-08-08T16:34:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:30:33Z",
+  "trigger" : "levels",
+  "evidence" : [ "RibP L10a levels" ],
+  "pmc_id" : "6686882",
+  "score" : 0
+}
