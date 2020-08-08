@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06590",
+      "entity_text" : "SFK",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06503",
+      "entity_text" : "Endophilin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Consistent with a role for FEME in EGFR signaling [XREF_BIBR], the stable silencing of Endophilin increases phosphorylation of AKT, GSK3beta, SFK and STAT3 after EGF stimulation, mimicking the signaling pattern in urothelial carcinoma [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:49:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:31:38Z",
+  "trigger" : "increases",
+  "evidence" : [ "Endophilin increases phosphorylation of AKT, GSK3beta, SFK" ],
+  "pmc_id" : "7319585",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:Actin",
+      "entity_text" : "actin",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:DNM",
+      "entity_text" : "Dynamin",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_9771" ],
+      "Species" : [ "taxonomy:4641" ],
+      "Cellular_component" : [ "go:GO:0016020" ]
+    }
+  },
+  "verbose_text" : "It performs three functions : (i) membrane curvature promoted by the N-BAR domain; (ii) cargo engagement through its SH3 domain; and (iii) membrane scission, upon recruitment of Dynamin and actin via interactions mediated by the SH3 domain and membrane friction and lipid diffusion barrier by its N-BAR domain.",
+  "reading_complete" : "2020-08-08T18:49:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:31:38Z",
+  "trigger" : "recruitment",
+  "evidence" : [ "recruitment of Dynamin and actin" ],
+  "pmc_id" : "7319585",
+  "score" : 0
+}

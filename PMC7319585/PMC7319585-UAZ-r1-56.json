@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "mesh:D009362",
+      "entity_text" : "metastasis",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : [ {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ06503",
+      "entity_text" : "Endophilin",
+      "entity_type" : "protein"
+    }, {
+      "in_model" : true,
+      "identifier" : "uniprot:Q13009",
+      "entity_text" : "TIAM1",
+      "entity_type" : "protein"
+    } ],
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, Endophilin stimulates cell migration by binding to RacGEF TIAM1 and potentiates colon cancer metastasis [XREF_BIBR].",
+  "reading_complete" : "2020-08-08T18:49:12Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:31:38Z",
+  "trigger" : "potentiates",
+  "evidence" : [ "Endophilin stimulates cell migration by binding to RacGEF TIAM1 and potentiates colon cancer metastasis" ],
+  "pmc_id" : "7319585",
+  "score" : 0
+}
