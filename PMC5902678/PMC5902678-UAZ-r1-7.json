@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7016082",
+      "entity_text" : "SQ",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ05631",
+      "entity_text" : "HsSQM",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ]
+    }
+  },
+  "verbose_text" : "The proficiency constants [k uncat / (k cat / K M)] for HsSQM are 7.6 x 10 -11 M for alpha-SQ and 1.3 x 10 -6 M for alpha-Glc-6-P, revealing that HsSQM binds the SQ transition state some 17 000-fold tighter than for Glc-6-P and is thus best considered a sulfoquinovose mutarotase.",
+  "reading_complete" : "2020-08-08T17:14:27Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T17:08:05Z",
+  "trigger" : "binds",
+  "evidence" : [ "HsSQM binds the SQ" ],
+  "pmc_id" : "5902678",
+  "score" : 0
+}
