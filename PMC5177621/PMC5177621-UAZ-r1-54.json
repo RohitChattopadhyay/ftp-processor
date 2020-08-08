@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:NFkappaB",
+      "entity_text" : "NF-kappaB dimers",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "This mechanism activates the inhibitor of kappa B (IkappaB) kinase (IKK) complex, which phosphorylates inhibitory IkappaBs, leading to their proteasomal degradation and the release of NF-kappaB dimers to the nucleus to activate gene transcription.",
+  "reading_complete" : "2020-08-08T09:49:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:47:20Z",
+  "trigger" : "activate",
+  "evidence" : [ "NF-kappaB dimers to the nucleus to activate gene transcription" ],
+  "pmc_id" : "5177621",
+  "score" : 0
+}

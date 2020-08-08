@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "tyrosine",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P15498",
+      "entity_text" : "Vav1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0087" ],
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Cellular_component" : [ "go:GO:0005618" ],
+      "Species" : [ "taxonomy:4932" ],
+      "CellType" : [ "cl:CL:0000763" ]
+    }
+  },
+  "verbose_text" : "Under these conditions, we observed signal induced tyrosine phosphorylation of Vav1 and Vav3, which are cytosolic signaling scaffolds and guanine nucleotide exchange factors that can play context specific roles in immune receptor pathways.",
+  "reading_complete" : "2020-08-08T09:49:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:47:20Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "tyrosine phosphorylation of Vav1" ],
+  "pmc_id" : "5177621",
+  "score" : 0
+}

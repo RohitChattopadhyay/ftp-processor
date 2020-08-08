@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q99717",
+      "entity_text" : "pSMAD5",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0736" ],
+      "CellType" : [ "cl:CL:0000622" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Because cytoplasmic in-sulin can overlap with the nuclei of non beta cells, we sought to more definitively determine whether beta cell nuclei showed higher levels of pSMAD5; indeed, insulin and Nkx6.1 double positive cells contained higher levels of pSMAD5 in CF compared with non CF beta cells (2-way ANOVA with Tukey HSD, p = 5.6e-3; XREF_FIG).",
+  "reading_complete" : "2020-08-08T09:47:20Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:43:18Z",
+  "trigger" : "levels",
+  "evidence" : [ "levels of pSMAD5" ],
+  "pmc_id" : "6394844",
+  "score" : 0
+}

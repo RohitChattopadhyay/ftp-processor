@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P49682",
+      "entity_text" : "CXCR3",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:11096" ],
+      "TissueType" : [ "tissuelist:TS-0454" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "CellType" : [ "cl:CL:0000236" ]
+    }
+  },
+  "verbose_text" : "In support of this notion, our recent study indicated that CD19 + CD27 + cells (i.e., memory B cell phenotype) express a high amount of CXCR3, a chemokine receptor, and are recruited to the inflammatory site in the liver of CHC patients where IFN-gamma-inducible protein-10, a CXCR3 ligand, is highly produced.",
+  "reading_complete" : "2020-08-08T09:44:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:44:41Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of CXCR3" ],
+  "pmc_id" : "3171067",
+  "score" : 0
+}
