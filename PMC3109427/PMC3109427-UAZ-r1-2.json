@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08861",
+      "entity_text" : "DNA gyrase",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ08887",
+      "entity_text" : "qnr",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Since qnr binds DNA gyrase, which controls the DNA supercoiling and therefore global bacterial transcription, Qnr might modulate the expression of several genes through its interaction with DNA gyrase, in response to environment changes.",
+  "reading_complete" : "2020-08-08T13:02:04Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:00:37Z",
+  "trigger" : "binds",
+  "evidence" : [ "qnr binds DNA gyrase" ],
+  "pmc_id" : "3109427",
+  "score" : 0
+}

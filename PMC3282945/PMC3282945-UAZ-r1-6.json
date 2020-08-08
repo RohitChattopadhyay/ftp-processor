@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:25245365",
+      "entity_text" : "streptomycin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-1267" ],
+      "Organ" : [ "uberon:UBERON:0001988" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In cat-A, 8 out of 11 E. faecium were resistant to quinupristin / dalfopristin, and several were resistant to high level of streptomycin (4/11), doxycycline (3/11), and nitrofurantoin (3/11; Table XREF_TABLE in Appendix).",
+  "reading_complete" : "2020-08-08T13:03:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:02:04Z",
+  "trigger" : "level",
+  "evidence" : [ "level of streptomycin" ],
+  "pmc_id" : "3282945",
+  "score" : 0
+}

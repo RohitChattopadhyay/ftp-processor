@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6249",
+      "entity_text" : "ampicillin",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0771" ],
+      "Organ" : [ "uberon:UBERON:0000479" ]
+    }
+  },
+  "verbose_text" : "Resistance to ampicillin and high level of gentamicin in E. faecium is also a concern, as gentamicin in combination with beta-lactams or glycopeptides is typically used to treat human enterococcal infections.",
+  "reading_complete" : "2020-08-08T13:03:21Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T13:02:04Z",
+  "trigger" : "level",
+  "evidence" : [ "ampicillin and high level" ],
+  "pmc_id" : "3282945",
+  "score" : 0
+}
