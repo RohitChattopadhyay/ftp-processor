@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "transcribes",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF01353",
+      "entity_text" : "GFP",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0534" ],
+      "CellLine" : [ "cellosaurus:CVCL_E031" ],
+      "Cellular_component" : [ "go:GO:0030424" ],
+      "Species" : [ "taxonomy:3704" ],
+      "CellType" : [ "cl:CL:0000740" ]
+    }
+  },
+  "verbose_text" : "To test this hypothesis, we injected a G deleted rabies virus coding for the expression of mCherry into the rostral SC and the same virus coding for expression of GFP into the caudal SC.",
+  "reading_complete" : "2020-08-08T14:07:23Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:05:39Z",
+  "trigger" : "expression",
+  "evidence" : [ "expression of GFP" ],
+  "pmc_id" : "4982907",
+  "score" : 0
+}
