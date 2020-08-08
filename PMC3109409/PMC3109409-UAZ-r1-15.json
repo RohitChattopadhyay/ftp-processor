@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P31371",
+      "entity_text" : "GAF",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24316",
+      "entity_text" : "cGMP",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "Cellular_component" : [ "go:GO:0043226" ]
+    }
+  },
+  "verbose_text" : "Neither UmPde1 nor UmPde2 were predicted to contain any additional N-terminal domains found in other PDE classes; GAF (cGMP binding phosphodiesterase, Anabaena adenylyl cyclase, E. coli FhlA) domains common to a number of vertebrate classes of PDEs and to TcrPDEB1 and TcrPDEB2 from T. cruzi, were absent in UmPde1 and UmPde2.",
+  "reading_complete" : "2020-08-08T15:38:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:37:20Z",
+  "trigger" : "binding",
+  "evidence" : [ "GAF (cGMP-binding" ],
+  "pmc_id" : "3109409",
+  "score" : 0
+}

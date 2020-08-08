@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "hydrolysis"
+    } ],
+    "negative_information" : true,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24316",
+      "entity_text" : "cGMP",
+      "entity_type" : "simple_chemical"
+    },
+    "is_direct" : true,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ13796",
+      "entity_text" : "UmPde1",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "We found that UmPde1 was specific for cAMP and did not hydrolyze cGMP in these experiments.",
+  "reading_complete" : "2020-08-08T15:38:40Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:37:20Z",
+  "evidence" : [ "UmPde1 was specific for cAMP and did not hydrolyze cGMP" ],
+  "pmc_id" : "3109409",
+  "score" : 0
+}

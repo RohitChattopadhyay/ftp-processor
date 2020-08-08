@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:51432351",
+      "entity_text" : "tobramycin",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pfam:PF03374",
+      "entity_text" : "ANT",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The most prevalent nucleotidyltransferase in P. aeruginosa is the ANT (2 ')-I enzyme which inactivates gentamicin and tobramycin but not amikacin and is, thus, found in gentamicin- and tobramycin resistant clinical isolates.",
+  "reading_complete" : "2020-08-08T15:34:00Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:30:47Z",
+  "trigger" : "inactivates",
+  "evidence" : [ "ANT(2')-I enzyme which inactivates gentamicin and tobramycin" ],
+  "pmc_id" : "3128976",
+  "score" : 0
+}
