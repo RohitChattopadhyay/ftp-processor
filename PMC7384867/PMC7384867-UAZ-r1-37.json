@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : true,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "CellType" : [ "cl:CL:0000988" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "USP15 has been previously shown to deubiquitinate KEAP1 and MDM2, which share biological functions in cellular stress responses that converge upon p53 (XREF_FIG).",
+  "reading_complete" : "2020-08-08T15:03:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:59:42Z",
+  "trigger" : "deubiquitinate",
+  "evidence" : [ "deubiquitinate KEAP1 and MDM2" ],
+  "pmc_id" : "7384867",
+  "score" : 0
+}

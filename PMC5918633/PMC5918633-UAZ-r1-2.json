@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10124",
+      "entity_text" : "prg-1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ12855",
+      "entity_text" : "daf-2 mutation",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "We also asked whether a daf-2 mutation could rescue the progressive sterility of late generation prg-1 mutants by propagating sibling strains that were heterozygous for a recessive daf-2 mutation but homozygous mutant for prg-1 until late generations (F18) and then isolated prg-1 -/-; daf-2 -/- homozygotes.",
+  "reading_complete" : "2020-08-08T15:06:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:04:18Z",
+  "trigger" : "rescue",
+  "evidence" : [ "daf-2 mutation could rescue the progressive sterility of late-generation prg-1" ],
+  "pmc_id" : "5918633",
+  "score" : 0
+}

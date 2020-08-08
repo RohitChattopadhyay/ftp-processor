@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q6ZNK6",
+      "entity_text" : "TIFAB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y4E8",
+      "entity_text" : "USP15",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0045" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "To delineate the region of USP15 bound to TIFAB, we utilized a series of N-terminal FLAG-epitope-tagged deletion fragments of USP15 and conducted FLAG immunoprecipitations in HEK293 cells.",
+  "reading_complete" : "2020-08-08T15:03:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:59:42Z",
+  "trigger" : "bound",
+  "evidence" : [ "USP15 bound to TIFAB" ],
+  "pmc_id" : "7384867",
+  "score" : 0
+}

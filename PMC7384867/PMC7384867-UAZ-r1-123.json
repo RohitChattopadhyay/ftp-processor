@@ -1,0 +1,31 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "deubiquitination"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:9606" ],
+      "TissueType" : [ "tissuelist:TS-0614" ]
+    }
+  },
+  "verbose_text" : "In a recent finding, USP15 was shown to deubiquitinate and stabilize the E3 ubiquitin ligase MDM2, resulting in diminished p53 expression and function.",
+  "reading_complete" : "2020-08-08T15:03:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:59:42Z",
+  "trigger" : "deubiquitinate",
+  "evidence" : [ "deubiquitinate and stabilize the E3 ubiquitin ligase MDM2" ],
+  "pmc_id" : "7384867",
+  "score" : 0
+}

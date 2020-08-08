@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9V877",
+      "entity_text" : "DUB",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "features" : [ {
+        "modification_type" : "ubiquitination",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, expression of TIFAB alone was sufficient to moderately reduce MDM2 ubiquitination, potentially by increasing the DUB activity of endogenous USP15 (XREF_FIG, lane 2 versus 4).",
+  "reading_complete" : "2020-08-08T15:03:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:59:42Z",
+  "trigger" : "increasing",
+  "evidence" : [ "MDM2 ubiquitination, potentially by increasing the DUB" ],
+  "pmc_id" : "7384867",
+  "score" : 0
+}

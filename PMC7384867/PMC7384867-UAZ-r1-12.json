@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q00987",
+      "entity_text" : "MDM2",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Proteasome",
+      "entity_text" : "proteasome",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "For this example, USP15 removes K48 linked ubiquitin chains and prevents proteasome mediated degradation of MDM2 and KEAP1, which results in reduced p53 expression.",
+  "reading_complete" : "2020-08-08T15:03:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:59:42Z",
+  "trigger" : "mediated",
+  "evidence" : [ "proteasome-mediated degradation of MDM2" ],
+  "pmc_id" : "7384867",
+  "score" : 0
+}

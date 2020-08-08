@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10124",
+      "entity_text" : "prg-1",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutant"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O16850",
+      "entity_text" : "DAF-16",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Together, our results indicate that although activation of DAF-16 was not capable of suppressing the fertility defect of late generation prg-1 mutants (XREF_FIG), that activation of DAF-16 in early generations abolishes the prg-1 mutant fertility defect (XREF_FIG) and that an endogenous DAF-16-mediated RNAi pathway can restore fertility to sterile 5-day-old prg-1 mutant adults in response to bacteria grown on RNAi plates.",
+  "reading_complete" : "2020-08-08T15:06:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:04:18Z",
+  "trigger" : "abolishes",
+  "evidence" : [ "DAF-16 in early generations abolishes the prg-1" ],
+  "pmc_id" : "5918633",
+  "score" : 0
+}

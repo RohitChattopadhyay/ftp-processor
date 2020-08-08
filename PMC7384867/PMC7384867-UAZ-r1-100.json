@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:6041",
+      "entity_text" : "duration",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q9Y4K3",
+      "entity_text" : "TRAF6",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Specifically, in the absence of TIFAB, TRAF6 protein levels are elevated, thereby increasing the intensity and duration of TLR inflammatory responses.",
+  "reading_complete" : "2020-08-08T15:03:13Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:59:42Z",
+  "trigger" : "increasing",
+  "evidence" : [ "TRAF6 protein levels are elevated, thereby increasing the intensity and duration" ],
+  "pmc_id" : "7384867",
+  "score" : 0
+}

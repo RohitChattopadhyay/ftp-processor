@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P51606",
+      "entity_text" : "age",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P10912",
+      "entity_text" : "GH-R",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Interestingly, GH-R expression increases with age in hematopoietic stem cells, but GH signaling is dispensable for normal hematopoiesis and bone marrow reconstitution post-cytoablation.",
+  "reading_complete" : "2020-08-08T15:04:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:03:14Z",
+  "trigger" : "increases",
+  "evidence" : [ "GH-R expression increases with age" ],
+  "pmc_id" : "5992590",
+  "score" : 0
+}

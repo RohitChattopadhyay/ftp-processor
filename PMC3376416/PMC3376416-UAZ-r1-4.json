@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:11167",
+      "entity_text" : "MIC",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0362" ],
+      "CellLine" : [ "cellosaurus:CVCL_0095" ],
+      "Cellular_component" : [ "uniprot:SL-0039" ],
+      "Species" : [ "taxonomy:5476" ],
+      "CellType" : [ "cl:CL:0000066" ]
+    }
+  },
+  "verbose_text" : "Cytotoxicity was observed at MIC 50 levels for both TTO and T-4-ol, whereas at 0.5 x MIC 50 (concentrations able to inhibit C. albicans growth) OKF6 cells remained viable.",
+  "reading_complete" : "2020-08-08T15:05:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:04:23Z",
+  "trigger" : "levels",
+  "evidence" : [ "MIC 50  levels" ],
+  "pmc_id" : "3376416",
+  "score" : 0
+}

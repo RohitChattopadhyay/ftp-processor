@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "inhibits_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P19838",
+      "entity_text" : "NFkB",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:53481793",
+      "entity_text" : "LPS",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "These experiments revealed that LPS induced NFkB and ERK phosphorylation was diminished in GH-R-deficient macrophages of old mice (XREF_FIG), confirming the involvement of GH signaling in the NF-kB-dependent signal 1.",
+  "reading_complete" : "2020-08-08T15:04:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:03:14Z",
+  "trigger" : "induced",
+  "evidence" : [ "LPS-induced NFkB and ERK phosphorylation" ],
+  "pmc_id" : "5992590",
+  "score" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q96P20",
+      "entity_text" : "NLRP3",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15553",
+      "entity_text" : "pyrin-pyrin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0043205" ],
+      "CellType" : [ "cl:CL:0000234" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Assembly of the NLRP3 inflammasome in response to DAMPs requires pyrin-pyrin interaction of NLRP3 with adaptor protein ASC.",
+  "reading_complete" : "2020-08-08T15:04:18Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:03:14Z",
+  "trigger" : "interaction",
+  "evidence" : [ "pyrin-pyrin interaction of NLRP3" ],
+  "pmc_id" : "5992590",
+  "score" : 0
+}

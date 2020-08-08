@@ -1,0 +1,35 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "increases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q7Z3Z4",
+      "entity_text" : "Piwi",
+      "features" : [ {
+        "to_base" : "A",
+        "site" : 0,
+        "feature_type" : "mutation",
+        "evidence" : "mutants"
+      } ],
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "be:Histone",
+      "entity_text" : "histone",
+      "entity_type" : "family"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Both small RNAs and histone H3K4 demethylases were required for reduced insulin signaling to promote fertility of prg-1 / Piwi mutants, implying that an epigenomic silencing process can alleviate the piRNA mediated genome silencing defect of Piwi mutants.",
+  "reading_complete" : "2020-08-08T15:06:32Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T15:04:18Z",
+  "trigger" : "promote",
+  "evidence" : [ "histone H3K4 demethylases were required for reduced insulin signaling to promote fertility of prg-1/Piwi" ],
+  "pmc_id" : "5918633",
+  "score" : 0
+}
