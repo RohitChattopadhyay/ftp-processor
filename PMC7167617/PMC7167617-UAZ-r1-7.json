@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "position" : "Tyr701",
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P42224",
+      "entity_text" : "STAT1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01574",
+      "entity_text" : "IFNbeta",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "Western blot with antiphospho-Tyr701 STAT1 antibodies also indicated JEV NS5, reducing IFNbeta induced phosphorylation of STAT1 at Tyr701.",
+  "reading_complete" : "2020-08-08T14:52:41Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T14:48:29Z",
+  "trigger" : "induced",
+  "evidence" : [ "IFNbeta-induced phosphorylation of STAT1 at Tyr701" ],
+  "pmc_id" : "7167617",
+  "score" : 0
+}
