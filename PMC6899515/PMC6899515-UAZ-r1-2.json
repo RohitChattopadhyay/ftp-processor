@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:7097402",
+      "entity_text" : "PCA",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q01105",
+      "entity_text" : "set",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "The dimensionality of this feature set is then reduced using principal component analysis (PCA), and single cell expression profiles are modeled with a fixed effect linear model with the first 20 PCs as covariates.",
+  "reading_complete" : "2020-08-08T16:24:25Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T16:20:27Z",
+  "trigger" : "reduced",
+  "evidence" : [ "set is then reduced using principal component analysis (PCA" ],
+  "pmc_id" : "6899515",
+  "score" : 0
+}
