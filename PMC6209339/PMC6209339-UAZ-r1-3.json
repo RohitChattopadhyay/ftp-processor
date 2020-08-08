@@ -1,0 +1,28 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P0C0P6",
+      "entity_text" : "NPs",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0278" ],
+      "Cellular_component" : [ "go:GO:0097189" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The compact format of the CDS assay minimizes biological variability, lowers the amount of NPs needed for testing and offers the possibility of testing multiple samples in one plate.",
+  "reading_complete" : "2020-08-08T10:46:31Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:42:59Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of NPs" ],
+  "pmc_id" : "6209339",
+  "score" : 0
+}
