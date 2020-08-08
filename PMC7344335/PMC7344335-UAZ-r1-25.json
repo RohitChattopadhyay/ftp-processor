@@ -1,0 +1,34 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uaz:UA-BP-GGP-00007",
+      "entity_text" : "antigen",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00333",
+      "entity_text" : "IgG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0923" ],
+      "Cellular_component" : [ "go:GO:0031975" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "Following tryptic digestion of purified IgG bound to antigen coated beads, nanoLC-MS/MS analysis for characterization of glycosylation sites was performed on an Ulti-Mate3000 nanoLC (Dionex) coupled with a hybrid triple quadrupole linear ion trap mass spectrometer, the 4000 Q Trap (SCIEX).",
+  "reading_complete" : "2020-08-08T09:29:37Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T09:27:12Z",
+  "trigger" : "bound",
+  "evidence" : [ "IgG bound to antigen" ],
+  "pmc_id" : "7344335",
+  "score" : 0
+}
