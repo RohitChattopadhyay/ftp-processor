@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "binds",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:Q8XKQ2",
+      "entity_text" : "MglA",
+      "entity_type" : "protein"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ00608",
+      "entity_text" : "RNA polymerase",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Cellular_component" : [ "go:GO:0005694" ],
+      "Species" : [ "taxonomy:264" ]
+    }
+  },
+  "verbose_text" : "Thus, although the sequence of protein binding to the regulatory complex is not clear, phosphorylated PmrA may bind to FPI gene promoters recruiting free or RNA polymerase bound MglA, SspA and FevR, to initiate FPI gene transcription.",
+  "reading_complete" : "2020-08-08T07:47:06Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:43:56Z",
+  "trigger" : "bound",
+  "evidence" : [ "RNA polymerase-bound MglA" ],
+  "pmc_id" : "3109350",
+  "score" : 0
+}

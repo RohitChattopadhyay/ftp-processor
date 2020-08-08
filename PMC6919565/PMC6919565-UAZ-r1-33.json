@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P11388",
+      "entity_text" : "Top2",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Species" : [ "taxonomy:4932" ],
+      "Cellular_component" : [ "go:GO:0005657" ]
+    }
+  },
+  "verbose_text" : "Another possibility is that topoisomerase I can compensate for loss of Top2, since both enzymes cooperate during replication elongation.",
+  "reading_complete" : "2020-08-08T07:49:58Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:45:26Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of Top2" ],
+  "pmc_id" : "6919565",
+  "score" : 0
+}

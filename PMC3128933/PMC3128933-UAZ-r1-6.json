@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "DecreaseAmount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:24154",
+      "entity_text" : "galactosamine",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "Organ" : [ "uberon:UBERON:2000106" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "The NHS-resistance property displayed by transposon mutant WMS 100 may reflect a decrease in LOS affinity for such antibodies due to loss of the terminal N-acetyl galactosamine present in parental strain F62.",
+  "reading_complete" : "2020-08-08T07:50:08Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T07:48:50Z",
+  "trigger" : "loss",
+  "evidence" : [ "loss of the terminal N-acetyl galactosamine" ],
+  "pmc_id" : "3128933",
+  "score" : 0
+}
