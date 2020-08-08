@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P20585",
+      "entity_text" : "MRP1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Thus, by two independent measures, loss of MRP1 increased the basal abundance of intracellular GSH within the cell through a mechanism that appeared to be distinct from that resulting from the loss of KEAP1 or NAA38, as inferred from the kinetic analysis of cell death over time.",
+  "reading_complete" : "2020-08-08T18:59:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:50:16Z",
+  "trigger" : "increased",
+  "evidence" : [ "MRP1 increased the basal abundance of intracellular GSH" ],
+  "pmc_id" : "6424331",
+  "score" : 0
+}

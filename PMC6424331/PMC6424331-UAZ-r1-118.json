@@ -1,0 +1,27 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellType" : [ "cl:CL:0000236" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "It is possible that GSTO1 and SETD5 were false-positives in the original screen, or that the impact of these two genes on GSH levels may only be apparent in response to the stress of flow cytometry.",
+  "reading_complete" : "2020-08-08T18:59:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:50:16Z",
+  "trigger" : "levels",
+  "evidence" : [ "GSH levels" ],
+  "pmc_id" : "6424331",
+  "score" : 0
+}

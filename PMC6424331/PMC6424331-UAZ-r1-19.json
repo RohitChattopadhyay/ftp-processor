@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0008219",
+      "entity_text" : "cell death",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "pubchem:124886",
+      "entity_text" : "GSH",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : true
+  },
+  "verbose_text" : "These findings suggest that while cell death is enhanced by GSH depletion, BAY compounds kill cells mostly through a non apoptotic cell death mechanism that is distinct from ferroptosis.",
+  "reading_complete" : "2020-08-08T18:59:19Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:50:16Z",
+  "trigger" : "enhanced",
+  "evidence" : [ "cell death is enhanced by GSH" ],
+  "pmc_id" : "6424331",
+  "score" : 0
+}
