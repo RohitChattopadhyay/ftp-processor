@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "phosphorylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:O15111",
+      "entity_text" : "IKKa",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0068" ],
+      "Cellular_component" : [ "go:GO:0005634" ],
+      "Species" : [ "taxonomy:10090" ]
+    }
+  },
+  "verbose_text" : "Although also involved in the canonical NF-kappaB pathway, NIK is a serine/threonine kinase involved in phosphorylation of IKKa and p100, generation of p52, and translocation to the nucleus.",
+  "reading_complete" : "2020-08-08T18:50:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:47:08Z",
+  "trigger" : "phosphorylation",
+  "evidence" : [ "phosphorylation of IKKa" ],
+  "pmc_id" : "6940205",
+  "score" : 0
+}

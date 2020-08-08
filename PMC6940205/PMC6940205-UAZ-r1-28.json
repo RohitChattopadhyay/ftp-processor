@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "go:GO:0006351",
+      "entity_text" : "transcription",
+      "entity_type" : "bioprocess"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uaz:UAZ18350",
+      "entity_text" : "nuclear factor-kappaB kinase-alpha",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "NIK is essential for inhibitor of nuclear factor-kappaB kinase-alpha (IKKa)-induced NF-kappaB2 p100 processing to p52, which, along with RelB, translocate to the nucleus to activate specific gene transcription.",
+  "reading_complete" : "2020-08-08T18:50:16Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:47:08Z",
+  "trigger" : "activate",
+  "evidence" : [ "nuclear factor-kappaB kinase-alpha (IKKa)-induced NF-kappaB2 p100 processing to p52, which, along with RelB, translocate to the nucleus to activate specific gene transcription" ],
+  "pmc_id" : "6940205",
+  "score" : 0
+}
