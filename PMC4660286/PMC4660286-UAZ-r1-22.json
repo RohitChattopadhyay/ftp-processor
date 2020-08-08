@@ -1,0 +1,32 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "adds_modification",
+    "modifications" : [ {
+      "modification_type" : "sumoylation"
+    } ],
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P46060",
+      "entity_text" : "RanGAP1",
+      "entity_type" : "protein"
+    },
+    "is_direct" : false,
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0023" ],
+      "Cellular_component" : [ "go:GO:0018995" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "We also confirmed our mass spectrometry data that RanGAP1 and PML are basally SUMOylated but largely do not change in modification status following IAV infection, whereas TRIM28 is highly deSUMOylated during infection.",
+  "reading_complete" : "2020-08-08T11:48:10Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T11:45:09Z",
+  "trigger" : "SUMOylated",
+  "evidence" : [ "RanGAP1 and PML are basally SUMOylated" ],
+  "pmc_id" : "4660286",
+  "score" : 0
+}
