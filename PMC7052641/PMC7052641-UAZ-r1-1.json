@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:271",
+      "entity_text" : "Ca",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_0063" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "CellType" : [ "cl:CL:0000540" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "In neurons, the activation of BK is driven by the combination of voltage and an increase in intracellular Ca 2+ level, and these experiments were therefore performed in the presence of 1 muM intracellular Ca 2+.",
+  "reading_complete" : "2020-08-08T18:34:59Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T18:33:14Z",
+  "trigger" : "level",
+  "evidence" : [ "Ca 2+  level" ],
+  "pmc_id" : "7052641",
+  "score" : 0
+}
