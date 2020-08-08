@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01308",
+      "entity_text" : "insulin",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "CellLine" : [ "cellosaurus:CVCL_E777" ],
+      "Species" : [ "taxonomy:10116" ],
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0004087" ]
+    }
+  },
+  "verbose_text" : "The level of insulin in plasma was determined using an insulin ELISA kit (Crystal Chem, Elk Grove Village, IL, USA) according to the manufacturer 's protocol.",
+  "reading_complete" : "2020-08-08T10:26:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:24:07Z",
+  "trigger" : "level",
+  "evidence" : [ "level of insulin" ],
+  "pmc_id" : "6421396",
+  "score" : 0
+}

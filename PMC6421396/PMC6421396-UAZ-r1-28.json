@@ -1,0 +1,30 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P01266",
+      "entity_text" : "TG",
+      "entity_type" : "protein"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0564" ],
+      "CellLine" : [ "cellosaurus:CVCL_1905" ],
+      "Cellular_component" : [ "go:GO:0016020" ],
+      "Organ" : [ "uberon:UBERON:2005000" ],
+      "Species" : [ "taxonomy:10116" ]
+    }
+  },
+  "verbose_text" : "Hepatic TC and TG levels were normalized to the amount of total protein of each liver sample as determined using an Enhanced BCA Protein Assay Kit (Beyotime, Jiangsu, China).",
+  "reading_complete" : "2020-08-08T10:26:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:24:07Z",
+  "trigger" : "levels",
+  "evidence" : [ "TG levels" ],
+  "pmc_id" : "6421396",
+  "score" : 0
+}

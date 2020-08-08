@@ -1,0 +1,33 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "decreases_activity",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "be:MMP",
+      "entity_text" : "MMPs",
+      "entity_type" : "family"
+    },
+    "participant_a" : {
+      "in_model" : true,
+      "identifier" : "uniprot:P05121",
+      "entity_text" : "PAI-1",
+      "features" : [ {
+        "modification_type" : "unknown",
+        "feature_type" : "modification"
+      } ],
+      "entity_type" : "gene_or_gene_product"
+    },
+    "hypothesis_information" : false
+  },
+  "verbose_text" : "Upregulation of PAI-1 levels inhibits the activity of the fibrinolytic system and MMPs, thus further accelerates the progression of liver fibrosis.",
+  "reading_complete" : "2020-08-08T10:26:15Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-08T10:24:07Z",
+  "trigger" : "inhibits",
+  "evidence" : [ "PAI-1 levels inhibits the activity\nof the fibrinolytic system and MMPs" ],
+  "pmc_id" : "6421396",
+  "score" : 0
+}
