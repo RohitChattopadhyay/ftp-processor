@@ -1,0 +1,29 @@
+{
+  "submitter" : "Reach",
+  "model_relation" : "extension",
+  "extracted_information" : {
+    "interaction_type" : "Amount",
+    "negative_information" : false,
+    "participant_b" : {
+      "in_model" : true,
+      "identifier" : "pubchem:444212",
+      "entity_text" : "acid",
+      "entity_type" : "simple_chemical"
+    },
+    "hypothesis_information" : false,
+    "context" : {
+      "TissueType" : [ "tissuelist:TS-0079" ],
+      "Organ" : [ "uberon:UBERON:0010210" ],
+      "CellType" : [ "cl:CL:0000622" ],
+      "Species" : [ "taxonomy:9606" ]
+    }
+  },
+  "verbose_text" : "As a consequence, an amount of fatty acid derived from degradation of blood triglyceride by high pancreatic lipase causes APIP by pancreatic ischemia and necrosis resulted from capillary thrombus and breakdown of vessel wall.",
+  "reading_complete" : "2020-08-09T06:23:33Z",
+  "reader_type" : "machine",
+  "reading_started" : "2020-08-09T06:18:17Z",
+  "trigger" : "amount",
+  "evidence" : [ "amount of fatty acid" ],
+  "pmc_id" : "3506915",
+  "score" : 0
+}
